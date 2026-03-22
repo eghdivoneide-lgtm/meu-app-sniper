@@ -375,7 +375,7 @@ def responder_mensagem(mensagem):
 def main() -> None:
     print("Agente de Suporte EDS Solucoes Inteligentes — ONLINE!")
     log.info("Bot iniciado.")
-    bot.polling()
+    bot.polling(skip_pending=True)
 
 
 if __name__ == "__main__":

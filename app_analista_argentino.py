@@ -1546,7 +1546,7 @@ def responder(mensagem):
 
 def main() -> None:
     print("SNIPER ELITE ARG online.")
-    bot.polling()
+    bot.polling(skip_pending=True)
 
 
 if __name__ == "__main__":
