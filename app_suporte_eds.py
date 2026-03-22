@@ -5,12 +5,21 @@ import telebot
 from google import genai
 from google.genai import types
 
+
+def obter_env(*nomes: str, default: str | None = None) -> str | None:
+    for nome in nomes:
+        valor = os.getenv(nome)
+        if valor:
+            return valor
+    return default
+
+
 # ---------------------------------------------------------------------------
 # Configuração
 # ---------------------------------------------------------------------------
-CHAVE_TELEGRAM = os.getenv("TELEGRAM_TOKEN_SUPORTE")
-CHAVE_GEMINI   = os.getenv("GEMINI_API_KEY_SUPORTE")
-EMAIL_EDS      = os.getenv("SUPPORT_EMAIL", "supportedsi@gmail.com")
+CHAVE_TELEGRAM = obter_env("TELEGRAM_TOKEN_SUPORTE", "SUPORTE_TOKEN_TELEGRAM")
+CHAVE_GEMINI = obter_env("GEMINI_API_KEY_SUPORTE", "SUPORTE_GEMINI_API_KEY")
+EMAIL_EDS = obter_env("SUPPORT_EMAIL", "E-MAIL DE SUPORTE", default="supportedsi@gmail.com")
 
 if not CHAVE_TELEGRAM:
     raise RuntimeError("Defina a variavel de ambiente TELEGRAM_TOKEN_SUPORTE.")
@@ -363,6 +372,11 @@ def responder_mensagem(mensagem):
 # ---------------------------------------------------------------------------
 # Inicialização
 # ---------------------------------------------------------------------------
-print("🤖 Agente de Suporte EDS Soluções Inteligentes — ONLINE!")
-log.info("Bot iniciado.")
-bot.polling()
+def main() -> None:
+    print("Agente de Suporte EDS Solucoes Inteligentes — ONLINE!")
+    log.info("Bot iniciado.")
+    bot.polling()
+
+
+if __name__ == "__main__":
+    main()

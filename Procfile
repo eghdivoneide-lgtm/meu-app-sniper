@@ -1,1 +1,1 @@
-worker: python app_analista_argentino.py
+worker: python main.py
