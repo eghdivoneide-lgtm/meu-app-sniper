@@ -1,0 +1,70 @@
+Rodada,Data,Mandante,Gols_Mandante,Gols_Visitante,Visitante,Odd_1,Odd_X,Odd_2,Vencedor
+Sem. 5,21.03,Vancouver Whitecaps,0,1,San Jose Earthquakes,1.53,4.33,5.50,Visitante
+Sem. 5,21.03,Austin FC,0,0,Los Angeles FC,4.50,4.00,1.68,Empate
+Sem. 5,21.03,FC Dallas,4,3,Houston Dynamo,2.30,3.50,2.85,Mandante
+Sem. 5,21.03,Sporting Kansas City,1,4,Colorado Rapids,2.55,3.40,2.55,Visitante
+Sem. 5,21.03,St. Louis City,3,1,New England Revolution,1.86,3.70,3.80,Mandante
+Sem. 5,21.03,Atlanta Utd,0,0,DC United,2.10,3.40,3.40,Empate
+Sem. 5,21.03,Charlotte,6,1,New York Red Bulls,2.01,3.50,3.50,Mandante
+Sem. 5,21.03,Nashville SC,5,0,Orlando City,1.45,4.75,6.25,Mandante
+Sem. 5,21.03,Philadelphia Union,1,2,Chicago Fire,2.50,3.25,2.75,Visitante
+Sem. 5,21.03,Toronto FC,2,1,Columbus Crew,3.25,3.50,2.20,Mandante
+Sem. 4,15.03,San Jose Earthquakes,0,1,Seattle Sounders,2.01,3.80,3.20,Visitante
+Sem. 4,15.03,Vancouver Whitecaps,6,0,Minnesota,1.45,4.33,6.50,Mandante
+Sem. 4,15.03,New England Revolution,6,1,Cincinnati,2.25,3.50,2.85,Mandante
+Sem. 4,14.03,Los Angeles FC,2,0,St. Louis City,1.42,4.75,6.25,Mandante
+Sem. 4,14.03,Los Angeles Galaxy,1,2,Sporting Kansas City,1.53,4.20,5.25,Visitante
+Sem. 4,14.03,Real Salt Lake,2,1,Austin FC,1.66,3.90,4.50,Mandante
+Sem. 4,14.03,Chicago Fire,1,2,DC United,1.57,3.90,5.50,Visitante
+Sem. 4,14.03,FC Dallas,3,3,San Diego FC,2.20,3.70,2.85,Empate
+Sem. 4,14.03,Houston Dynamo,3,2,Portland Timbers,1.56,4.10,5.50,Mandante
+Sem. 4,14.03,Charlotte,0,0,Inter Miami,2.10,3.70,3.00,Empate
+Sem. 4,14.03,New York City,3,1,Colorado Rapids,1.45,4.33,6.50,Mandante
+Sem. 4,14.03,Orlando City,2,1,CF Montreal,1.81,3.90,3.75,Mandante
+Sem. 4,14.03,Columbus Crew,0,1,Nashville SC,1.57,4.50,4.50,Visitante
+Sem. 4,14.03,Atlanta Utd,3,1,Philadelphia Union,2.45,3.50,2.70,Mandante
+Sem. 4,14.03,Toronto FC,1,1,New York Red Bulls,2.10,3.50,3.25,Empate
+Sem. 3,08.03,Cincinnati,0,1,Toronto FC,1.66,3.90,4.50,Visitante
+Sem. 3,08.03,New York Red Bulls,0,3,CF Montreal,1.56,4.33,5.00,Visitante
+Sem. 3,08.03,Los Angeles FC,1,0,FC Dallas,1.27,5.25,9.50,Mandante
+Sem. 3,08.03,Portland Timbers,1,4,Vancouver Whitecaps,4.20,4.33,1.66,Visitante
+Sem. 3,07.03,Colorado Rapids,4,1,Los Angeles Galaxy,2.10,3.90,2.85,Mandante
+Sem. 3,07.03,Sporting Kansas City,0,1,San Diego FC,4.10,4.10,1.71,Visitante
+Sem. 3,07.03,Nashville SC,3,1,Minnesota,1.66,4.20,4.33,Mandante
+Sem. 3,07.03,St. Louis City,0,1,Seattle Sounders,3.00,3.60,2.20,Visitante
+Sem. 3,07.03,Atlanta Utd,2,3,Real Salt Lake,2.15,3.50,3.25,Visitante
+Sem. 3,07.03,Charlotte,3,1,Austin FC,1.96,3.50,3.70,Mandante
+Sem. 3,07.03,Columbus Crew,0,0,Chicago Fire,1.86,3.60,3.80,Empate
+Sem. 3,07.03,Philadelphia Union,0,1,San Jose Earthquakes,1.86,3.80,3.70,Visitante
+Sem. 3,07.03,DC United,1,2,Inter Miami,4.20,4.33,1.62,Visitante
+Sem. 3,07.03,New York City,5,0,Orlando City,1.56,4.33,5.25,Mandante
+Sem. 3,01.03,San Diego FC,2,0,St. Louis City,1.49,4.33,5.50,Mandante
+Sem. 3,01.03,Orlando City,2,4,Inter Miami,3.90,3.75,1.66,Visitante
+Sem. 3,01.03,Philadelphia Union,1,2,New York City,2.25,3.20,3.20,Visitante
+Sem. 3,01.03,Austin FC,1,0,DC United,1.96,3.50,3.80,Mandante
+Sem. 3,01.03,Los Angeles Galaxy,3,0,Charlotte,1.96,3.75,3.50,Mandante
+Sem. 2,28.02,Vancouver Whitecaps,3,0,Toronto FC,1.35,5.00,7.50,Mandante
+Sem. 2,28.02,FC Dallas,0,0,Nashville SC,2.57,3.40,2.57,Empate
+Sem. 2,28.02,Houston Dynamo,0,2,Los Angeles FC,3.40,4.00,1.86,Visitante
+Sem. 2,28.02,Sporting Kansas City,2,2,Columbus Crew,4.33,4.33,1.62,Empate
+Sem. 2,28.02,Real Salt Lake,2,1,Seattle Sounders,3.40,3.40,2.10,Mandante
+Sem. 2,28.02,San Jose Earthquakes,2,0,Atlanta Utd,1.86,3.60,3.75,Mandante
+Sem. 2,28.02,Colorado Rapids,2,0,Portland Timbers,2.05,3.60,3.25,Mandante
+Sem. 2,28.02,Minnesota,1,0,Cincinnati,2.10,3.30,2.85,Mandante
+Sem. 2,28.02,New York Red Bulls,1,0,New England Revolution,1.81,3.80,3.90,Mandante
+Sem. 2,28.02,Chicago Fire,3,0,CF Montreal,1.49,4.33,5.50,Mandante
+Sem. 2,22.02,Seattle Sounders,2,0,Colorado Rapids,1.30,5.50,7.50,Mandante
+Sem. 2,22.02,Los Angeles Galaxy,1,1,New York City,2.10,3.75,3.10,Empate
+Sem. 2,22.02,Portland Timbers,3,2,Columbus Crew,2.82,3.60,2.30,Mandante
+Sem. 2,22.02,San Jose Earthquakes,3,0,Sporting Kansas City,1.68,4.33,4.10,Mandante
+Sem. 2,22.02,San Diego FC,5,0,CF Montreal,1.51,4.33,5.50,Mandante
+Sem. 2,21.02,Los Angeles FC,3,0,Inter Miami,1.86,4.00,3.50,Mandante
+Sem. 2,21.02,Austin FC,2,2,Minnesota,2.25,3.30,3.10,Empate
+Sem. 2,21.02,Houston Dynamo,2,1,Chicago Fire,2.20,3.60,3.10,Mandante
+Sem. 2,21.02,Nashville SC,4,1,New England Revolution,1.49,4.33,5.25,Mandante
+Sem. 2,21.02,FC Dallas,3,2,Toronto FC,1.96,3.70,3.60,Mandante
+Sem. 2,21.02,DC United,1,0,Philadelphia Union,3.00,3.30,2.40,Mandante
+Sem. 2,21.02,Orlando City,1,2,New York Red Bulls,1.79,3.80,4.20,Visitante
+Sem. 2,21.02,Vancouver Whitecaps,1,0,Real Salt Lake,1.27,5.75,8.50,Mandante
+Sem. 2,21.02,Cincinnati,2,0,Atlanta Utd,1.91,3.50,3.90,Mandante
+Sem. 2,21.02,St. Louis City,1,1,Charlotte,2.45,3.50,2.65,Empate

@@ -1,0 +1,71 @@
+Rodada,Data,Mandante,Gols_Mandante,Gols_Visitante,Visitante,Odd_1,Odd_X,Odd_2,Vencedor
+Rodada 8,21.03,São Paulo,0,1,Palmeiras,2.57,3.00,2.85,Visitante
+Rodada 8,21.03,Fluminense,1,0,Atlético-MG,1.61,3.60,6.00,Mandante
+Rodada 8,21.03,Red Bull Bragantino,1,2,Botafogo,1.86,3.40,4.20,Visitante
+Rodada 7,19.03,Chapecoense,0,0,Corinthians,3.40,3.10,2.25,Empate
+Rodada 7,19.03,Flamengo,3,0,Remo,1.13,7.50,17.00,Mandante
+Rodada 7,19.03,Grêmio,2,0,Vitória,1.76,3.40,4.75,Mandante
+Rodada 7,18.03,Vasco,3,2,Fluminense,3.70,3.10,2.10,Mandante
+Rodada 7,18.03,Santos,1,2,Internacional,2.05,3.30,3.70,Visitante
+Rodada 7,18.03,Mirassol,0,1,Coritiba,1.57,3.60,6.25,Visitante
+Rodada 7,18.03,Atlético-MG,1,0,São Paulo,2.30,3.00,3.40,Mandante
+Rodada 7,18.03,Athletico-PR,2,1,Cruzeiro,2.10,3.20,3.60,Mandante
+Rodada 7,18.03,Palmeiras,2,1,Botafogo,1.51,4.00,6.25,Mandante
+Rodada 7,18.03,Bahia,2,0,Red Bull Bragantino,1.66,3.70,5.25,Mandante
+Rodada 6,16.03,Chapecoense,1,1,Grêmio,2.85,3.40,2.30,Empate
+Rodada 6,15.03,Red Bull Bragantino,1,2,São Paulo,2.35,3.10,3.20,Visitante
+Rodada 6,15.03,Cruzeiro,3,3,Vasco,1.91,3.40,4.20,Empate
+Rodada 6,15.03,Palmeiras,1,0,Mirassol,1.61,3.75,5.50,Mandante
+Rodada 6,15.03,Coritiba,1,0,Remo,1.66,3.50,5.00,Mandante
+Rodada 6,15.03,Fluminense,3,2,Athletico-PR,1.79,3.40,4.75,Mandante
+Rodada 6,15.03,Santos,1,1,Corinthians,2.57,3.00,3.00,Empate
+Rodada 6,15.03,Internacional,0,1,Bahia,1.76,3.75,4.33,Visitante
+Rodada 6,14.03,Botafogo,0,3,Flamengo,4.10,3.30,1.91,Visitante
+Rodada 6,14.03,Vitória,2,0,Atlético-MG,2.32,3.10,3.25,Mandante
+Rodada 5,12.03,Grêmio,1,1,Red Bull Bragantino,2.15,3.40,3.20,Empate
+Rodada 5,12.03,São Paulo,2,0,Chapecoense,1.39,4.50,7.50,Mandante
+Rodada 5,12.03,Vasco,2,1,Palmeiras,3.10,3.25,2.40,Mandante
+Rodada 5,12.03,Remo,0,2,Fluminense,4.00,3.50,1.86,Visitante
+Rodada 5,11.03,Flamengo,2,0,Cruzeiro,1.45,4.20,6.50,Mandante
+Rodada 5,11.03,Corinthians,0,2,Coritiba,1.62,3.75,5.00,Visitante
+Rodada 5,11.03,Bahia,1,1,Vitória,1.66,3.60,5.25,Empate
+Rodada 5,11.03,Atlético-MG,1,0,Internacional,2.01,3.40,3.70,Mandante
+Rodada 5,10.03,Mirassol,2,2,Santos,1.66,3.70,4.75,Empate
+Rodada 4,26.02,Santos,2,1,Vasco,2.01,3.40,3.75,Mandante
+Rodada 4,25.02,Palmeiras,2,1,Fluminense,1.62,3.90,5.00,Mandante
+Rodada 4,25.02,Grêmio,2,1,Atlético-MG,2.10,3.30,3.40,Mandante
+Rodada 4,25.02,Cruzeiro,1,1,Corinthians,1.66,3.50,5.50,Empate
+Rodada 4,25.02,Coritiba,0,1,São Paulo,2.50,3.10,3.00,Visitante
+Rodada 4,25.02,Red Bull Bragantino,1,1,Athletico-PR,2.01,3.30,3.90,Empate
+Rodada 4,25.02,Remo,1,1,Internacional,3.25,3.40,2.15,Empate
+Rodada 3,12.02,Internacional,1,3,Palmeiras,3.10,3.40,2.25,Visitante
+Rodada 3,12.02,Corinthians,2,0,Red Bull Bragantino,1.86,3.20,4.75,Mandante
+Rodada 3,12.02,Fluminense,1,0,Botafogo,1.76,3.30,5.50,Mandante
+Rodada 3,12.02,Athletico-PR,2,1,Santos,1.96,3.25,4.00,Mandante
+Rodada 3,11.02,Vasco,0,1,Bahia,2.20,3.30,3.10,Visitante
+Rodada 3,11.02,São Paulo,2,0,Grêmio,1.91,3.20,4.20,Mandante
+Rodada 3,11.02,Atlético-MG,3,3,Remo,1.41,4.50,7.50,Empate
+Rodada 3,11.02,Mirassol,2,2,Cruzeiro,2.40,3.00,3.20,Empate
+Rodada 3,11.02,Chapecoense,3,3,Coritiba,2.70,3.20,2.65,Empate
+Rodada 3,10.02,Vitória,1,2,Flamengo,5.75,3.80,1.57,Visitante
+Rodada 2,19.02,Athletico-PR,0,1,Corinthians,2.57,3.00,2.85,Visitante
+Rodada 2,12.02,Athletico-PR,2,1,Santos,1.96,3.25,4.00,Mandante
+Rodada 2,05.02,Cruzeiro,1,2,Coritiba,1.35,4.33,9.50,Visitante
+Rodada 2,05.02,Vasco,1,1,Chapecoense,1.53,3.90,6.00,Empate
+Rodada 2,05.02,Bahia,1,1,Fluminense,2.01,3.30,3.60,Empate
+Rodada 2,04.02,Palmeiras,5,1,Vitória,1.30,4.75,10.00,Mandante
+Rodada 2,04.02,Grêmio,5,3,Botafogo,2.30,3.00,3.40,Mandante
+Rodada 2,04.02,Santos,1,1,São Paulo,2.20,3.10,3.30,Empate
+Rodada 2,04.02,Remo,2,2,Mirassol,3.10,3.10,2.40,Empate
+Rodada 2,04.02,Flamengo,1,1,Internacional,1.41,4.50,7.50,Empate
+Rodada 2,04.02,Red Bull Bragantino,1,0,Atlético-MG,2.01,3.20,4.00,Mandante
+Rodada 1,29.01,Botafogo,4,0,Cruzeiro,2.30,3.00,3.40,Mandante
+Rodada 1,29.01,Mirassol,2,1,Vasco,1.79,3.30,4.50,Mandante
+Rodada 1,28.01,São Paulo,2,1,Flamengo,3.70,3.00,2.20,Mandante
+Rodada 1,28.01,Corinthians,1,2,Bahia,2.20,3.50,3.20,Visitante
+Rodada 1,28.01,Chapecoense,4,2,Santos,3.00,3.10,2.50,Mandante
+Rodada 1,28.01,Fluminense,2,1,Grêmio,1.53,4.10,6.00,Mandante
+Rodada 1,28.01,Atlético-MG,2,2,Palmeiras,3.00,3.10,2.50,Empate
+Rodada 1,28.01,Internacional,0,1,Athletico-PR,1.96,3.25,3.90,Visitante
+Rodada 1,28.01,Coritiba,0,1,Red Bull Bragantino,2.70,2.82,2.82,Visitante
+Rodada 1,28.01,Vitória,2,0,Remo,1.79,3.40,3.75,Mandante

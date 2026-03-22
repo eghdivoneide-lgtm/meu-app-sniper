@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Previa de Simbolos EDS</title>
+  <style>
+    :root {
+      --bg: #081a16;
+      --panel: #0f2d27;
+      --card: #10352d;
+      --line: rgba(33, 171, 139, 0.35);
+      --text: #e9faf5;
+      --muted: #b2ddcf;
+      --accent: #13a385;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Trebuchet MS, Segoe UI, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(65% 45% at 10% 10%, rgba(19, 163, 133, 0.22), transparent 70%),
+        radial-gradient(50% 40% at 90% 0%, rgba(14, 94, 77, 0.28), transparent 70%),
+        var(--bg);
+      min-height: 100vh;
+      padding: 28px;
+    }
+    .wrap {
+      max-width: 1120px;
+      margin: 0 auto;
+      background: linear-gradient(180deg, rgba(10, 35, 30, 0.9), rgba(8, 24, 21, 0.95));
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 22px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 1.8rem;
+      letter-spacing: 0.03em;
+    }
+    .sub {
+      color: var(--muted);
+      margin: 0 0 18px;
+      line-height: 1.5;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 14px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 14px;
+    }
+    .card h2 {
+      margin: 0 0 4px;
+      font-size: 1.06rem;
+      color: #7ddcc6;
+    }
+    .card p {
+      margin: 0 0 10px;
+      color: var(--muted);
+      min-height: 42px;
+      font-size: 0.95rem;
+    }
+    img {
+      width: 100%;
+      border-radius: 14px;
+      border: 1px solid rgba(33, 171, 139, 0.35);
+      background: #071b17;
+    }
+    .foot {
+      margin-top: 14px;
+      color: #95ccbc;
+      font-size: 0.95rem;
+    }
+    .tag {
+      display: inline-block;
+      margin-bottom: 8px;
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: rgba(19, 163, 133, 0.2);
+      border: 1px solid rgba(19, 163, 133, 0.5);
+      color: #9be9d7;
+      font-size: 0.78rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: 1fr; }
+      .grid-2 { grid-template-columns: 1fr; }
+      body { padding: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Previa de simbolos para EDS Solucoes Inteligentes</h1>
+    <p class="sub">Três direcoes visuais no padrao verde escuro. Compare impacto, legibilidade em icone pequeno e identidade institucional.</p>
+    <section class="grid">
+      <article class="card">
+        <h2>1) Escudo Monograma</h2>
+        <p>Transmitir confianca, metodo e autoridade tecnica.</p>
+        <img src="icons/eds-symbols/eds-symbol-1-shield.svg" alt="Simbolo 1 Escudo Monograma" />
+      </article>
+      <article class="card">
+        <h2>2) Nos de Conhecimento</h2>
+        <p>Representar conexao entre Educacao, Dados e Solucoes.</p>
+        <img src="icons/eds-symbols/eds-symbol-2-nodes.svg" alt="Simbolo 2 Nos de Conhecimento" />
+      </article>
+      <article class="card">
+        <h2>3) Farol Inteligente</h2>
+        <p>Posicionamento de guia estrategico e clareza para decisao.</p>
+        <img src="icons/eds-symbols/eds-symbol-3-beacon.svg" alt="Simbolo 3 Farol Inteligente" />
+      </article>
+    </section>
+    <section class="grid-2">
+      <article class="card">
+        <span class="tag">Refinamento sugerido</span>
+        <h2>1A) Escudo Monograma Refinado</h2>
+        <p>Mais legivel em tamanhos pequenos e com acabamento mais premium para marca principal.</p>
+        <img src="icons/eds-symbols/eds-symbol-1-shield-refined.svg" alt="Simbolo 1 refinado" />
+      </article>
+      <article class="card">
+        <span class="tag">Uso tecnico</span>
+        <h2>1B) Escudo Monocromatico</h2>
+        <p>Versao para documentos, timbres, carimbo digital e fundos variados.</p>
+        <img src="icons/eds-symbols/eds-symbol-1-shield-mono.svg" alt="Simbolo 1 monocromatico" />
+      </article>
+    </section>
+    <section class="grid" style="margin-top:14px;">
+      <article class="card">
+        <span class="tag">Novidade: iniciais fortes</span>
+        <h2>1C) Inline Tecnico</h2>
+        <p>EDS mais horizontal e direta, com leitura rapida em telas.</p>
+        <img src="icons/eds-symbols/eds-symbol-1c-shield-inline.svg" alt="Simbolo 1C Inline Tecnico" />
+      </article>
+      <article class="card">
+        <span class="tag">Novidade: iniciais fortes</span>
+        <h2>1D) Split Monograma</h2>
+        <p>Separacao visual E + D + S para reforcar reconhecimento das letras.</p>
+        <img src="icons/eds-symbols/eds-symbol-1d-shield-split.svg" alt="Simbolo 1D Split Monograma" />
+      </article>
+      <article class="card">
+        <span class="tag">Novidade: iniciais fortes</span>
+        <h2>1E) Badge Institucional</h2>
+        <p>Versao com anel de selo para uso mais institucional e assinatura premium.</p>
+        <img src="icons/eds-symbols/eds-symbol-1e-shield-badge.svg" alt="Simbolo 1E Badge Institucional" />
+      </article>
+    </section>
+    <section class="grid" style="margin-top:14px;">
+      <article class="card">
+        <span class="tag">Nova linha interlacada</span>
+        <h2>1F) Escudo + assinatura sutil</h2>
+        <p>Monograma interlacado com foco no simbolo e “Solucoes Inteligentes” discreto embaixo.</p>
+        <img src="icons/eds-symbols/eds-symbol-1f-interlaced-lockup.svg" alt="Simbolo 1F interlacado com assinatura" />
+      </article>
+      <article class="card">
+        <span class="tag">Nova linha interlacada</span>
+        <h2>1G) Monograma + nome forte</h2>
+        <p>Escudo em destaque e EDS grande abaixo, com subtitulo pequeno institucional.</p>
+        <img src="icons/eds-symbols/eds-symbol-1g-interlaced-ribbon.svg" alt="Simbolo 1G monograma com nome forte" />
+      </article>
+      <article class="card">
+        <span class="tag">Nova linha interlacada</span>
+        <h2>1H) Selo premium</h2>
+        <p>Versao mais institucional, com EDS abaixo e assinatura elegante para marca principal.</p>
+        <img src="icons/eds-symbols/eds-symbol-1h-interlaced-seal.svg" alt="Simbolo 1H selo premium" />
+      </article>
+    </section>
+    <section class="grid" style="margin-top:14px;">
+      <article class="card">
+        <span class="tag">Texto dentro do escudo</span>
+        <h2>1I) Classico marcante</h2>
+        <p>Assinatura pequena dentro do escudo, com destaque em dourado para reforcar identidade premium.</p>
+        <img src="icons/eds-symbols/eds-symbol-1i-innertext-classic.svg" alt="Simbolo 1I texto interno classico" />
+      </article>
+      <article class="card">
+        <span class="tag">Texto dentro do escudo</span>
+        <h2>1J) Faixa interna</h2>
+        <p>O texto fica mais protegido e legivel por causa da pequena faixa interna.</p>
+        <img src="icons/eds-symbols/eds-symbol-1j-innertext-band.svg" alt="Simbolo 1J faixa interna" />
+      </article>
+      <article class="card">
+        <span class="tag">Texto dentro do escudo</span>
+        <h2>1K) Selo interno</h2>
+        <p>Versao mais institucional com texto muito discreto dentro do escudo e acabamento de selo.</p>
+        <img src="icons/eds-symbols/eds-symbol-1k-innertext-seal.svg" alt="Simbolo 1K selo interno" />
+      </article>
+    </section>
+    <p class="foot">Proximo passo: escolher 1 conceito e refinarmos versao final (icone, horizontal e monocromatica).</p>
+  </main>
+</body>
+</html>

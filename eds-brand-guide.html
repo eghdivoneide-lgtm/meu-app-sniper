@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manual de Marca — EDS Soluções Inteligentes</title>
+  <style>
+    :root {
+      --green-900: #081a16;
+      --green-800: #0b231e;
+      --green-700: #0d2f28;
+      --green-600: #17483f;
+      --green-500: #1a5c52;
+      --green-400: #0f7763;
+      --green-300: #13a385;
+      --green-200: #5dd3b8;
+      --green-100: #a7ddd0;
+      --green-50:  #e9faf5;
+
+      --gold-deep:  #c4770a;
+      --gold-core:  #ef9a2f;
+      --gold-main:  #ffcf62;
+      --gold-light: #ffd680;
+      --gold-pale:  #ffe3a7;
+
+      --text-100: #f7fcfb;
+      --text-200: #e9faf5;
+      --text-muted: #a7ddd0;
+
+      --font-sans: "Segoe UI", "Trebuchet MS", Arial, sans-serif;
+      --radius: 16px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--green-900);
+      color: var(--text-100);
+      font-family: var(--font-sans);
+      line-height: 1.6;
+    }
+
+    /* ===== LAYOUT ===== */
+    .page-wrap { max-width: 1060px; margin: 0 auto; padding: 0 24px 80px; }
+
+    /* ===== HERO CAPA ===== */
+    .cover {
+      background: linear-gradient(145deg, var(--green-700) 0%, var(--green-900) 60%);
+      border-bottom: 3px solid var(--gold-main);
+      padding: 64px 40px 56px;
+      text-align: center;
+    }
+    .cover img.cover-logo {
+      width: min(540px, 90%);
+      display: block;
+      margin: 0 auto 32px;
+      filter: drop-shadow(0 8px 32px rgba(0,0,0,0.6));
+    }
+    .cover-label {
+      font-size: 13px;
+      letter-spacing: 4px;
+      color: var(--gold-main);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .cover-title {
+      font-size: clamp(28px, 5vw, 46px);
+      font-weight: 800;
+      color: var(--text-100);
+      letter-spacing: 1px;
+    }
+    .cover-sub {
+      margin-top: 12px;
+      font-size: 16px;
+      color: var(--text-muted);
+    }
+    .cover-version {
+      margin-top: 24px;
+      display: inline-block;
+      padding: 6px 18px;
+      border: 1px solid rgba(255,207,98,0.3);
+      border-radius: 40px;
+      font-size: 12px;
+      color: var(--gold-pale);
+      letter-spacing: 2px;
+    }
+
+    /* ===== NAVEGAÇÃO ÂNCORA ===== */
+    .toc {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 28px 0;
+      justify-content: center;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      margin-bottom: 60px;
+    }
+    .toc a {
+      padding: 8px 20px;
+      border: 1px solid var(--green-500);
+      border-radius: 40px;
+      color: var(--green-200);
+      font-size: 13px;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .toc a:hover {
+      background: var(--green-600);
+      border-color: var(--gold-main);
+      color: var(--gold-main);
+    }
+
+    /* ===== SEÇÃO ===== */
+    section { margin-bottom: 72px; scroll-margin-top: 20px; }
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 32px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(255,207,98,0.25);
+    }
+    .section-num {
+      width: 44px; height: 44px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      background: linear-gradient(135deg, var(--gold-core), var(--gold-main));
+      color: var(--green-900);
+      font-size: 18px;
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+    .section-title { font-size: clamp(20px, 3vw, 28px); font-weight: 700; color: var(--text-100); }
+    .section-desc { font-size: 14px; color: var(--text-muted); margin-top: 2px; }
+
+    /* ===== CALLOUT ===== */
+    .callout {
+      background: rgba(255,207,98,0.06);
+      border-left: 4px solid var(--gold-main);
+      padding: 16px 20px;
+      border-radius: 0 var(--radius) var(--radius) 0;
+      margin-bottom: 24px;
+      font-size: 14px;
+      color: var(--text-200);
+    }
+    .callout.danger {
+      border-color: #e05c5c;
+      background: rgba(224,92,92,0.07);
+    }
+    .callout strong { color: var(--gold-main); }
+    .callout.danger strong { color: #ff9494; }
+
+    /* ===== LOGO GRID ===== */
+    .logo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .logo-card {
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: var(--green-800);
+    }
+    .logo-card .logo-preview {
+      padding: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 160px;
+    }
+    .logo-card .logo-preview.dark  { background: var(--green-800); }
+    .logo-card .logo-preview.darker { background: var(--green-900); }
+    .logo-card .logo-preview.light { background: #f0f8f5; }
+    .logo-card .logo-preview img { width: 100%; max-width: 220px; }
+    .logo-card .logo-preview img.icon { max-width: 96px; }
+    .logo-card .logo-info {
+      padding: 14px 18px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+    .logo-info .logo-name { font-size: 14px; font-weight: 700; color: var(--text-200); }
+    .logo-info .logo-use  { font-size: 12px; color: var(--text-muted); margin-top: 3px; }
+
+    /* ===== PALETA DE CORES ===== */
+    .palette-group { margin-bottom: 36px; }
+    .palette-group h4 {
+      font-size: 12px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+    }
+    .palette-row { display: flex; flex-wrap: wrap; gap: 12px; }
+    .swatch {
+      display: flex; flex-direction: column;
+      width: 120px;
+    }
+    .swatch-color {
+      height: 72px;
+      border-radius: 10px 10px 0 0;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .swatch-info {
+      background: var(--green-800);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-top: none;
+      border-radius: 0 0 10px 10px;
+      padding: 8px 10px;
+    }
+    .swatch-name { font-size: 11px; color: var(--text-muted); }
+    .swatch-hex  { font-size: 13px; font-weight: 700; color: var(--text-200); letter-spacing: 1px; }
+
+    /* ===== TIPOGRAFIA ===== */
+    .type-showcase {
+      background: var(--green-800);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: var(--radius);
+      padding: 28px 32px;
+      margin-bottom: 16px;
+    }
+    .type-display {
+      font-size: 48px;
+      font-weight: 800;
+      color: var(--text-100);
+      line-height: 1.1;
+      margin-bottom: 12px;
+    }
+    .type-body {
+      font-size: 15px;
+      color: var(--text-muted);
+      line-height: 1.7;
+      margin-bottom: 12px;
+    }
+    .type-label {
+      font-size: 11px;
+      letter-spacing: 3px;
+      color: var(--gold-main);
+      text-transform: uppercase;
+    }
+    .type-meta {
+      margin-top: 10px;
+      font-size: 12px;
+      color: var(--text-muted);
+      border-top: 1px solid rgba(255,255,255,0.07);
+      padding-top: 12px;
+    }
+    .type-meta code {
+      background: rgba(255,255,255,0.08);
+      padding: 2px 7px;
+      border-radius: 5px;
+      font-size: 11px;
+      color: var(--green-200);
+    }
+
+    /* ===== ESCALA TIPOGRÁFICA ===== */
+    .type-scale { display: flex; flex-direction: column; gap: 8px; margin-top: 20px; }
+    .scale-row {
+      display: flex;
+      align-items: baseline;
+      gap: 20px;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .scale-label {
+      width: 80px;
+      font-size: 11px;
+      color: var(--text-muted);
+      flex-shrink: 0;
+    }
+    .scale-text { color: var(--text-100); }
+    .scale-meta { font-size: 11px; color: rgba(255,255,255,0.3); margin-left: auto; }
+
+    /* ===== REGRAS DE USO ===== */
+    .rules-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    @media (max-width: 600px) { .rules-grid { grid-template-columns: 1fr; } }
+
+    .rule-card {
+      border-radius: var(--radius);
+      padding: 22px;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .rule-card.do    { background: rgba(19,163,133,0.08); border-color: rgba(19,163,133,0.35); }
+    .rule-card.dont  { background: rgba(224,92,92,0.07);  border-color: rgba(224,92,92,0.30); }
+    .rule-card h4 {
+      font-size: 13px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .rule-card.do   h4 { color: var(--green-300); }
+    .rule-card.dont h4 { color: #e05c5c; }
+    .rule-card ul { padding-left: 18px; display: flex; flex-direction: column; gap: 8px; }
+    .rule-card li { font-size: 14px; color: var(--text-200); }
+
+    /* ===== ESPAÇAMENTO CLARO: escudo mínimo ===== */
+    .clear-space-demo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      background: var(--green-800);
+      border-radius: var(--radius);
+      border: 1px solid rgba(255,255,255,0.08);
+      margin-bottom: 16px;
+      position: relative;
+    }
+    .clear-space-demo::before {
+      content: '';
+      position: absolute;
+      inset: 20px;
+      border: 1px dashed rgba(255,207,98,0.3);
+      border-radius: 8px;
+      pointer-events: none;
+    }
+    .clear-space-demo img { width: 80px; }
+
+    /* ===== FUNDOS APROVADOS ===== */
+    .bg-grid { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 12px; }
+    .bg-chip {
+      display: flex; align-items: center; gap: 10px;
+      padding: 10px 16px;
+      border-radius: 40px;
+      border: 1px solid rgba(255,255,255,0.12);
+      font-size: 13px;
+    }
+    .bg-dot { width: 18px; height: 18px; border-radius: 50%; flex-shrink: 0; border: 1px solid rgba(255,255,255,0.15); }
+    .bg-label { color: var(--text-200); }
+    .bg-hex   { color: var(--text-muted); font-size: 11px; margin-left: 4px; }
+    .bg-chip.approved { border-color: rgba(19,163,133,0.4); }
+    .bg-chip.warn     { border-color: rgba(255,207,98,0.3); }
+    .bg-chip.no       { border-color: rgba(224,92,92,0.3); opacity: 0.7; }
+
+    /* ===== TAGLINE / VOICE ===== */
+    .tagline-list { display: flex; flex-direction: column; gap: 14px; margin-top: 8px; }
+    .tagline-item {
+      background: var(--green-800);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: var(--radius);
+      padding: 18px 22px;
+    }
+    .tagline-text {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--gold-main);
+      margin-bottom: 4px;
+    }
+    .tagline-desc { font-size: 13px; color: var(--text-muted); }
+
+    /* ===== RODAPÉ ===== */
+    .guide-footer {
+      text-align: center;
+      padding: 40px 20px 24px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      margin-top: 40px;
+    }
+    .guide-footer img { width: 160px; margin-bottom: 16px; opacity: 0.7; }
+    .guide-footer p { font-size: 12px; color: rgba(255,255,255,0.25); }
+    .guide-footer span { color: var(--gold-main); }
+
+    /* ===== PRINT ===== */
+    @media print {
+      body { background: #fff; color: #111; }
+      .toc { display: none; }
+      section { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ============================
+     CAPA
+     ============================ -->
+<div class="cover">
+  <img class="cover-logo" src="icons/eds-symbols/eds-brand-horizontal.svg" alt="EDS Soluções Inteligentes">
+  <div class="cover-label">Documento Oficial</div>
+  <h1 class="cover-title">Manual de Identidade Visual</h1>
+  <p class="cover-sub">Diretrizes de marca para uso interno e projetos EDS</p>
+  <span class="cover-version">VERSÃO 1.0 · MARÇO 2026</span>
+</div>
+
+<div class="page-wrap">
+
+  <!-- ÍNDICE -->
+  <nav class="toc">
+    <a href="#s-marca">A Marca</a>
+    <a href="#s-logo">Logotipo</a>
+    <a href="#s-cores">Paleta de Cores</a>
+    <a href="#s-tipo">Tipografia</a>
+    <a href="#s-regras">Regras de Uso</a>
+    <a href="#s-fundos">Fundos Aprovados</a>
+    <a href="#s-voz">Voz da Marca</a>
+  </nav>
+
+  <!-- ============================
+       1 — A MARCA
+       ============================ -->
+  <section id="s-marca">
+    <div class="section-header">
+      <div class="section-num">1</div>
+      <div>
+        <div class="section-title">A Marca EDS</div>
+        <div class="section-desc">Missão, visão e posicionamento</div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <strong>EDS Soluções Inteligentes</strong> é uma empresa especializada em tecnologia aplicada, com foco em educação, gestão de concursos e automação inteligente. Nossa marca transmite <strong>confiança, competência e inovação</strong>.
+    </div>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:16px; margin-top:8px;">
+      <div style="background:var(--green-800);border:1px solid rgba(255,255,255,0.08);border-radius:var(--radius);padding:22px;">
+        <div style="font-size:24px;margin-bottom:8px;">⚖️</div>
+        <div style="font-weight:700;color:var(--gold-main);margin-bottom:6px;">Missão</div>
+        <p style="font-size:14px;color:var(--text-muted);">Democratizar o acesso ao conhecimento e à aprovação através de tecnologia inteligente e acessível.</p>
+      </div>
+      <div style="background:var(--green-800);border:1px solid rgba(255,255,255,0.08);border-radius:var(--radius);padding:22px;">
+        <div style="font-size:24px;margin-bottom:8px;">🔭</div>
+        <div style="font-weight:700;color:var(--gold-main);margin-bottom:6px;">Visão</div>
+        <p style="font-size:14px;color:var(--text-muted);">Ser referência nacional em soluções inteligentes para educação e desenvolvimento humano.</p>
+      </div>
+      <div style="background:var(--green-800);border:1px solid rgba(255,255,255,0.08);border-radius:var(--radius);padding:22px;">
+        <div style="font-size:24px;margin-bottom:8px;">🌱</div>
+        <div style="font-weight:700;color:var(--gold-main);margin-bottom:6px;">Valores</div>
+        <p style="font-size:14px;color:var(--text-muted);">Inovação · Ética · Acessibilidade · Excelência · Impacto social positivo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       2 — LOGOTIPO
+       ============================ -->
+  <section id="s-logo">
+    <div class="section-header">
+      <div class="section-num">2</div>
+      <div>
+        <div class="section-title">Logotipo</div>
+        <div class="section-desc">Versões oficiais e aplicações</div>
+      </div>
+    </div>
+
+    <div class="callout">
+      O símbolo principal é o <strong>escudo EDS</strong> — composto pelas iniciais "E", "D" e "S" em traços calligráficos dourados sobre fundo verde profundo, com a inscrição "SOLUCOES INTELIGENTES" em destaque interno. O escudo representa <strong>proteção, autoridade e solidez</strong>.
+    </div>
+
+    <div class="logo-grid">
+
+      <div class="logo-card">
+        <div class="logo-preview dark">
+          <img src="icons/eds-symbols/eds-brand-horizontal.svg" alt="Versão horizontal">
+        </div>
+        <div class="logo-info">
+          <div class="logo-name">Versão Horizontal</div>
+          <div class="logo-use">Cabeçalhos, login, e-mail, banners</div>
+        </div>
+      </div>
+
+      <div class="logo-card">
+        <div class="logo-preview darker">
+          <img src="icons/eds-symbols/eds-brand-horizontal.svg" alt="Versão horizontal fundo escuro">
+        </div>
+        <div class="logo-info">
+          <div class="logo-name">Fundo Escuro</div>
+          <div class="logo-use">Aplicação sobre #081a16 ou similar</div>
+        </div>
+      </div>
+
+      <div class="logo-card">
+        <div class="logo-preview dark">
+          <img class="icon" src="icons/eds-symbols/eds-brand-app-icon.svg" alt="Ícone de app">
+        </div>
+        <div class="logo-info">
+          <div class="logo-name">Ícone de App</div>
+          <div class="logo-use">PWA, favicon, ícone de tela inicial</div>
+        </div>
+      </div>
+
+      <div class="logo-card">
+        <div class="logo-preview dark">
+          <img src="icons/eds-symbols/eds-brand-official.svg" alt="Marca oficial">
+        </div>
+        <div class="logo-info">
+          <div class="logo-name">Marca Oficial</div>
+          <div class="logo-use">Documentos, apresentações, carimbos</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ÁREA DE RESPIRO -->
+    <div style="margin-top:32px;">
+      <h4 style="font-size:14px;color:var(--text-100);margin-bottom:12px;">Área de Respiro</h4>
+      <p style="font-size:14px;color:var(--text-muted);margin-bottom:16px;">
+        Mantenha sempre uma área de proteção ao redor do símbolo equivalente à altura da letra "E" no logotipo. Nunca posicione outros elementos dentro dessa zona.
+      </p>
+      <div class="clear-space-demo">
+        <img src="icons/eds-symbols/eds-brand-app-icon.svg" alt="Escudo EDS com área de respiro">
+      </div>
+      <p style="font-size:12px;color:var(--text-muted);">A borda tracejada representa a área mínima de respiro obrigatória.</p>
+    </div>
+
+    <!-- TAMANHOS MÍNIMOS -->
+    <div style="margin-top:28px;">
+      <h4 style="font-size:14px;color:var(--text-100);margin-bottom:12px;">Tamanhos Mínimos</h4>
+      <div style="display:flex;flex-wrap:wrap;gap:20px;align-items:flex-end;margin-top:8px;">
+        <div style="text-align:center;">
+          <img src="icons/eds-symbols/eds-brand-app-icon.svg" style="width:64px;display:block;margin:0 auto 8px;">
+          <div style="font-size:11px;color:var(--text-muted);">64px · Digital</div>
+        </div>
+        <div style="text-align:center;">
+          <img src="icons/eds-symbols/eds-brand-app-icon.svg" style="width:48px;display:block;margin:0 auto 8px;">
+          <div style="font-size:11px;color:var(--text-muted);">48px · Mínimo digital</div>
+        </div>
+        <div style="text-align:center;">
+          <img src="icons/eds-symbols/eds-brand-app-icon.svg" style="width:32px;display:block;margin:0 auto 8px;">
+          <div style="font-size:11px;color:var(--text-muted);">32px · Somente ícone</div>
+        </div>
+      </div>
+      <p style="margin-top:12px;font-size:13px;color:rgba(255,92,92,0.8);">⚠ Nunca use a versão horizontal com menos de 180px de largura. Use o ícone isolado nesses casos.</p>
+    </div>
+
+  </section>
+
+  <!-- ============================
+       3 — PALETA DE CORES
+       ============================ -->
+  <section id="s-cores">
+    <div class="section-header">
+      <div class="section-num">3</div>
+      <div>
+        <div class="section-title">Paleta de Cores</div>
+        <div class="section-desc">Sistema cromático oficial da marca</div>
+      </div>
+    </div>
+
+    <div class="callout">
+      A identidade cromática da EDS combina <strong>verde profundo</strong> (confiança, natureza, estabilidade) com <strong>dourado/âmbar</strong> (excelência, conquista, inteligência). Nunca misture cores fora desta paleta nos materiais de marca.
+    </div>
+
+    <!-- VERDES -->
+    <div class="palette-group">
+      <h4>Verde — Família Principal</h4>
+      <div class="palette-row">
+        <div class="swatch">
+          <div class="swatch-color" style="background:#081a16;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Green 900</div>
+            <div class="swatch-hex">#081a16</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#0b231e;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Green 800</div>
+            <div class="swatch-hex">#0b231e</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#0d2f28;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Green 700</div>
+            <div class="swatch-hex">#0d2f28</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#17483f;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Green 600</div>
+            <div class="swatch-hex">#17483f</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#1a5c52;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Green 500</div>
+            <div class="swatch-hex">#1a5c52</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#0f7763;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Green 400</div>
+            <div class="swatch-hex">#0f7763</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#13a385;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Green 300</div>
+            <div class="swatch-hex">#13a385</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#5dd3b8;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Green 200</div>
+            <div class="swatch-hex">#5dd3b8</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#a7ddd0;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Green 100</div>
+            <div class="swatch-hex">#a7ddd0</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DOURADO -->
+    <div class="palette-group">
+      <h4>Dourado — Destaque e Excelência</h4>
+      <div class="palette-row">
+        <div class="swatch">
+          <div class="swatch-color" style="background:#c4770a;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Gold Deep</div>
+            <div class="swatch-hex">#c4770a</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#ef9a2f;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Gold Core</div>
+            <div class="swatch-hex">#ef9a2f</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#ffcf62;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Gold Main ★</div>
+            <div class="swatch-hex">#ffcf62</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#ffd680;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Gold Light</div>
+            <div class="swatch-hex">#ffd680</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#ffe3a7;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Gold Pale</div>
+            <div class="swatch-hex">#ffe3a7</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TEXTO -->
+    <div class="palette-group">
+      <h4>Texto e Interface</h4>
+      <div class="palette-row">
+        <div class="swatch">
+          <div class="swatch-color" style="background:#f7fcfb;border:1px solid rgba(255,255,255,0.2);"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Text 100</div>
+            <div class="swatch-hex">#f7fcfb</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#e9faf5;border:1px solid rgba(255,255,255,0.2);"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Text 200</div>
+            <div class="swatch-hex">#e9faf5</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background:#a7ddd0;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Text Muted</div>
+            <div class="swatch-hex">#a7ddd0</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- USO PRIMÁRIO -->
+    <div style="margin-top:8px;">
+      <h4 style="font-size:14px;color:var(--text-100);margin-bottom:12px;">Usos Primários Recomendados</h4>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;">
+        <div style="background:var(--green-800);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:16px;">
+          <div style="font-size:11px;color:var(--text-muted);margin-bottom:8px;letter-spacing:1px;text-transform:uppercase;">Fundo principal</div>
+          <div style="font-weight:700;color:var(--gold-main);">#081a16 / #0d2f28</div>
+          <div style="font-size:12px;color:var(--text-muted);margin-top:4px;">Backgrounds de tela e app</div>
+        </div>
+        <div style="background:var(--green-800);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:16px;">
+          <div style="font-size:11px;color:var(--text-muted);margin-bottom:8px;letter-spacing:1px;text-transform:uppercase;">Destaque / CTA</div>
+          <div style="font-weight:700;color:var(--gold-main);">#ffcf62 / #13a385</div>
+          <div style="font-size:12px;color:var(--text-muted);margin-top:4px;">Botões, links, bordas ativas</div>
+        </div>
+        <div style="background:var(--green-800);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:16px;">
+          <div style="font-size:11px;color:var(--text-muted);margin-bottom:8px;letter-spacing:1px;text-transform:uppercase;">Cards / Painéis</div>
+          <div style="font-weight:700;color:var(--gold-main);">#17483f / #0b231e</div>
+          <div style="font-size:12px;color:var(--text-muted);margin-top:4px;">Superfícies elevadas de UI</div>
+        </div>
+        <div style="background:var(--green-800);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:16px;">
+          <div style="font-size:11px;color:var(--text-muted);margin-bottom:8px;letter-spacing:1px;text-transform:uppercase;">Texto sobre escuro</div>
+          <div style="font-weight:700;color:var(--gold-main);">#f7fcfb / #e9faf5</div>
+          <div style="font-size:12px;color:var(--text-muted);margin-top:4px;">Títulos e parágrafos</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       4 — TIPOGRAFIA
+       ============================ -->
+  <section id="s-tipo">
+    <div class="section-header">
+      <div class="section-num">4</div>
+      <div>
+        <div class="section-title">Tipografia</div>
+        <div class="section-desc">Fontes e escala tipográfica oficial</div>
+      </div>
+    </div>
+
+    <div class="callout">
+      A família tipográfica principal é <strong>Segoe UI</strong> (Windows/Web) com fallback para <strong>Trebuchet MS</strong>, ambas sem serifa. Para digital, utilize a pilha completa: <code style="background:rgba(255,255,255,0.1);padding:2px 6px;border-radius:4px;font-size:13px;">"Segoe UI", "Trebuchet MS", Arial, sans-serif</code>
+    </div>
+
+    <div class="type-showcase">
+      <div class="type-label">Display / Título</div>
+      <div class="type-display" style="color:var(--text-100);">EDS Soluções Inteligentes</div>
+      <div class="type-body">Tecnologia, educação e inteligência aplicada ao desenvolvimento humano e organizacional.</div>
+      <div class="type-meta">
+        <code>font-family: "Segoe UI", "Trebuchet MS", sans-serif</code>
+        &nbsp;·&nbsp;
+        <code>font-weight: 800</code>
+        &nbsp;·&nbsp;
+        <code>color: #f7fcfb</code>
+      </div>
+    </div>
+
+    <!-- ESCALA -->
+    <div class="type-scale">
+      <div class="scale-row">
+        <div class="scale-label">Hero</div>
+        <div class="scale-text" style="font-size:36px;font-weight:800;color:var(--text-100);">Monitor Virtual</div>
+        <div class="scale-meta">36px · 800</div>
+      </div>
+      <div class="scale-row">
+        <div class="scale-label">H1</div>
+        <div class="scale-text" style="font-size:28px;font-weight:700;color:var(--text-100);">Título de Seção</div>
+        <div class="scale-meta">28px · 700</div>
+      </div>
+      <div class="scale-row">
+        <div class="scale-label">H2</div>
+        <div class="scale-text" style="font-size:22px;font-weight:700;color:var(--text-200);">Subtítulo</div>
+        <div class="scale-meta">22px · 700</div>
+      </div>
+      <div class="scale-row">
+        <div class="scale-label">H3</div>
+        <div class="scale-text" style="font-size:18px;font-weight:600;color:var(--gold-main);">Destaques e Labels</div>
+        <div class="scale-meta">18px · 600 · dourado</div>
+      </div>
+      <div class="scale-row">
+        <div class="scale-label">Body</div>
+        <div class="scale-text" style="font-size:15px;color:var(--text-muted);">Texto corrido, descrições e parágrafos de conteúdo.</div>
+        <div class="scale-meta">15px · 400</div>
+      </div>
+      <div class="scale-row">
+        <div class="scale-label">Caption</div>
+        <div class="scale-text" style="font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--text-muted);">LEGENDA E METADADOS</div>
+        <div class="scale-meta">12px · uppercase · letter-spacing</div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ============================
+       5 — REGRAS DE USO
+       ============================ -->
+  <section id="s-regras">
+    <div class="section-header">
+      <div class="section-num">5</div>
+      <div>
+        <div class="section-title">Regras de Uso</div>
+        <div class="section-desc">O que fazer e o que nunca fazer com a marca</div>
+      </div>
+    </div>
+
+    <div class="rules-grid">
+      <div class="rule-card do">
+        <h4>✔ Correto</h4>
+        <ul>
+          <li>Usar o logo sobre fundos da paleta oficial</li>
+          <li>Manter as proporções originais do SVG</li>
+          <li>Usar a versão horizontal em cabeçalhos</li>
+          <li>Usar o ícone de app em tamanhos pequenos</li>
+          <li>Manter área de respiro ao redor do símbolo</li>
+          <li>Usar as cores douradas apenas como destaque</li>
+          <li>Escrever "EDS" sempre em maiúsculas</li>
+          <li>Usar "Soluções Inteligentes" com acento</li>
+        </ul>
+      </div>
+      <div class="rule-card dont">
+        <h4>✘ Proibido</h4>
+        <ul>
+          <li>Distorcer, esticar ou comprimir o logo</li>
+          <li>Alterar as cores do escudo ou das iniciais</li>
+          <li>Colocar o logo sobre fundos com baixo contraste</li>
+          <li>Adicionar efeitos como sombra-texto ou contorno</li>
+          <li>Usar o logo horizontal com menos de 180px</li>
+          <li>Recriar o logo em outra tipografia</li>
+          <li>Usar texto genérico sem referência à EDS</li>
+          <li>Colocar elementos sobre a área de respiro</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       6 — FUNDOS APROVADOS
+       ============================ -->
+  <section id="s-fundos">
+    <div class="section-header">
+      <div class="section-num">6</div>
+      <div>
+        <div class="section-title">Fundos Aprovados</div>
+        <div class="section-desc">Superfícies onde o logo pode ser aplicado</div>
+      </div>
+    </div>
+
+    <p style="font-size:14px;color:var(--text-muted);margin-bottom:20px;">
+      O logo da EDS foi desenhado para fundos escuros. Use sempre versões que garantam alto contraste e legibilidade.
+    </p>
+
+    <h4 style="font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--green-300);margin-bottom:12px;">Aprovados</h4>
+    <div class="bg-grid">
+      <div class="bg-chip approved"><div class="bg-dot" style="background:#081a16;"></div><span class="bg-label">Green 900</span><span class="bg-hex">#081a16</span></div>
+      <div class="bg-chip approved"><div class="bg-dot" style="background:#0b231e;"></div><span class="bg-label">Green 800</span><span class="bg-hex">#0b231e</span></div>
+      <div class="bg-chip approved"><div class="bg-dot" style="background:#0d2f28;"></div><span class="bg-label">Green 700</span><span class="bg-hex">#0d2f28</span></div>
+      <div class="bg-chip approved"><div class="bg-dot" style="background:#17483f;"></div><span class="bg-label">Green 600</span><span class="bg-hex">#17483f</span></div>
+      <div class="bg-chip approved"><div class="bg-dot" style="background:#111;"></div><span class="bg-label">Preto</span><span class="bg-hex">#111111</span></div>
+    </div>
+
+    <h4 style="font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--gold-main);margin-top:24px;margin-bottom:12px;">Com Atenção</h4>
+    <div class="bg-grid">
+      <div class="bg-chip warn"><div class="bg-dot" style="background:#1a5c52;"></div><span class="bg-label">Green 500</span><span class="bg-hex">#1a5c52</span></div>
+      <div class="bg-chip warn"><div class="bg-dot" style="background:#222;"></div><span class="bg-label">Cinza escuro</span><span class="bg-hex">#222222</span></div>
+    </div>
+
+    <h4 style="font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#e05c5c;margin-top:24px;margin-bottom:12px;">Nunca Use</h4>
+    <div class="bg-grid">
+      <div class="bg-chip no"><div class="bg-dot" style="background:#fff;"></div><span class="bg-label">Branco puro</span><span class="bg-hex">#ffffff</span></div>
+      <div class="bg-chip no"><div class="bg-dot" style="background:#ffcf62;"></div><span class="bg-label">Gold Main</span><span class="bg-hex">#ffcf62</span></div>
+      <div class="bg-chip no"><div class="bg-dot" style="background:#13a385;"></div><span class="bg-label">Green 300</span><span class="bg-hex">#13a385</span></div>
+      <div class="bg-chip no"><div class="bg-dot" style="background:linear-gradient(to right,#ff6b6b,#feca57);"></div><span class="bg-label">Cores quentes</span><span class="bg-hex">—</span></div>
+    </div>
+  </section>
+
+  <!-- ============================
+       7 — VOZ DA MARCA
+       ============================ -->
+  <section id="s-voz">
+    <div class="section-header">
+      <div class="section-num">7</div>
+      <div>
+        <div class="section-title">Voz da Marca</div>
+        <div class="section-desc">Tom, linguagem e taglines oficiais</div>
+      </div>
+    </div>
+
+    <div class="callout">
+      A EDS comunica-se com <strong>clareza, entusiasmo e proximidade</strong>. Evitamos jargão técnico excessivo. Somos profissionais, mas acessíveis — como um mentor experiente que fala com você de igual para igual.
+    </div>
+
+    <h4 style="font-size:14px;color:var(--text-100);margin-bottom:12px;margin-top:24px;">Taglines Oficiais</h4>
+    <div class="tagline-list">
+      <div class="tagline-item">
+        <div class="tagline-text">"Tecnologia, educação e inteligência aplicada."</div>
+        <div class="tagline-desc">Tagline principal — use em cabeçalhos, apresentações e rodapés</div>
+      </div>
+      <div class="tagline-item">
+        <div class="tagline-text">"Sua aprovação é nossa solução."</div>
+        <div class="tagline-desc">Voltada ao produto Monitor de Concursos</div>
+      </div>
+      <div class="tagline-item">
+        <div class="tagline-text">"Inteligência que transforma resultados."</div>
+        <div class="tagline-desc">Para contextos corporativos e B2B</div>
+      </div>
+    </div>
+
+    <h4 style="font-size:14px;color:var(--text-100);margin-bottom:12px;margin-top:32px;">Atributos de Tom</h4>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;margin-top:8px;">
+      <div style="background:var(--green-800);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:16px 18px;">
+        <div style="font-size:22px;margin-bottom:6px;">💬</div>
+        <div style="font-weight:700;color:var(--text-100);margin-bottom:4px;">Claro</div>
+        <div style="font-size:13px;color:var(--text-muted);">Mensagens diretas, sem rodeios.</div>
+      </div>
+      <div style="background:var(--green-800);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:16px 18px;">
+        <div style="font-size:22px;margin-bottom:6px;">🤝</div>
+        <div style="font-weight:700;color:var(--text-100);margin-bottom:4px;">Próximo</div>
+        <div style="font-size:13px;color:var(--text-muted);">Tratamos cada usuário como parceiro.</div>
+      </div>
+      <div style="background:var(--green-800);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:16px 18px;">
+        <div style="font-size:22px;margin-bottom:6px;">🏆</div>
+        <div style="font-weight:700;color:var(--text-100);margin-bottom:4px;">Motivador</div>
+        <div style="font-size:13px;color:var(--text-muted);">Encorajamos conquistas e progressos.</div>
+      </div>
+      <div style="background:var(--green-800);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:16px 18px;">
+        <div style="font-size:22px;margin-bottom:6px;">🛡️</div>
+        <div style="font-weight:700;color:var(--text-100);margin-bottom:4px;">Confiável</div>
+        <div style="font-size:13px;color:var(--text-muted);">Informações precisas e verificadas.</div>
+      </div>
+      <div style="background:var(--green-800);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:16px 18px;">
+        <div style="font-size:22px;margin-bottom:6px;">✨</div>
+        <div style="font-weight:700;color:var(--text-100);margin-bottom:4px;">Inovador</div>
+        <div style="font-size:13px;color:var(--text-muted);">Usamos o que há de mais atual.</div>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top:32px;">
+      <strong>Nome da empresa:</strong> Sempre escreva <strong>EDS Soluções Inteligentes</strong> (com acento e maiúsculas em EDS). Abreviação aceita: <strong>EDS</strong>. Nunca use "eds", "Eds" ou "E.D.S."
+    </div>
+  </section>
+
+</div><!-- /page-wrap -->
+
+<!-- RODAPÉ -->
+<footer class="guide-footer">
+  <img src="icons/eds-symbols/eds-brand-app-icon.svg" alt="EDS">
+  <p>Manual de Identidade Visual &nbsp;·&nbsp; <span>EDS Soluções Inteligentes</span></p>
+  <p style="margin-top:6px;">Versão 1.0 &nbsp;·&nbsp; Março 2026 &nbsp;·&nbsp; Uso interno</p>
+</footer>
+
+</body>
+</html>

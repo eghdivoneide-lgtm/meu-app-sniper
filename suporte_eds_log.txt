@@ -1,0 +1,94 @@
+2026-03-21 10:12:25,158 | INFO | Bot iniciado.
+2026-03-21 10:13:37,981 | INFO | [START] chat_id=7618616841
+2026-03-21 10:13:39,528 | ERROR | Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '!' is reserved and must be escaped with the preceding '\'
+2026-03-21 10:13:39,532 | ERROR | Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\util.py", line 154, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\util.py", line 97, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\__init__.py", line 10456, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\app_suporte_eds.py", line 238, in cmd_start
+    bot.send_message(chat_id, MSG_BOAS_VINDAS, parse_mode="MarkdownV2")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\__init__.py", line 1834, in send_message
+    apihelper.send_message(
+    ~~~~~~~~~~~~~~~~~~~~~~^
+        self.token, chat_id, text,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        suggested_post_parameters=suggested_post_parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\apihelper.py", line 282, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\apihelper.py", line 197, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '!' is reserved and must be escaped with the preceding '\'
+
+2026-03-21 10:17:44,265 | INFO | Bot iniciado.
+2026-03-21 10:18:02,345 | INFO | [MSG] chat_id=7618616841 | intencao=geral
+2026-03-21 10:18:02,354 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 10:18:04,736 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 10:18:43,729 | INFO | [MSG] chat_id=7618616841 | intencao=google
+2026-03-21 10:19:26,807 | INFO | [MSG] chat_id=7618616841 | intencao=geral
+2026-03-21 10:19:26,833 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 10:19:28,942 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 10:20:02,235 | INFO | [MSG] chat_id=7618616841 | intencao=geral
+2026-03-21 10:20:02,237 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 10:20:03,959 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 10:20:33,051 | INFO | [MSG] chat_id=7618616841 | intencao=geral
+2026-03-21 10:20:33,052 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 10:20:36,028 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 10:23:40,191 | INFO | Bot iniciado.
+2026-03-21 10:23:42,840 | ERROR | Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-21 10:23:42,849 | ERROR | Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\util.py", line 115, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\util.py", line 97, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+                               allowed_updates=allowed_updates,
+                               timeout=timeout, long_polling_timeout=long_polling_timeout)
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+        self.token, offset=offset, limit=limit, timeout=timeout, allowed_updates=allowed_updates,
+        long_polling_timeout=long_polling_timeout)
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\apihelper.py", line 339, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\apihelper.py", line 197, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+2026-03-21 10:24:32,962 | INFO | [MSG] chat_id=7618616841 | intencao=geral
+2026-03-21 10:24:32,967 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 10:24:34,883 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 10:24:35,736 | INFO | [MSG] chat_id=7618616841 | intencao=geral
+2026-03-21 10:24:35,737 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 10:24:37,676 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 10:24:47,820 | INFO | [MSG] chat_id=7618616841 | intencao=geral
+2026-03-21 10:24:47,821 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 10:24:49,962 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 10:28:45,139 | INFO | Bot iniciado.
+2026-03-21 10:29:28,706 | INFO | [MSG] chat_id=7618616841 | intencao=geral
+2026-03-21 10:29:28,719 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 10:29:30,855 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 10:29:55,329 | INFO | [MSG] chat_id=7618616841 | intencao=geral
+2026-03-21 10:29:55,331 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 10:29:57,488 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"

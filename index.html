@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icons/eds-symbols/eds-brand-app-icon.svg" type="image/svg+xml">
+    <title>Monitor de Matematica - EDS Solucoes Inteligentes</title>
+    <style>
+        :root {
+            --eds-bg: #081a16;
+            --eds-panel: #0f2d27;
+            --eds-panel-2: #12362e;
+            --eds-line: rgba(33, 171, 139, 0.28);
+            --eds-text: #e9faf5;
+            --eds-muted: #b6ddd0;
+            --eds-accent: #13a385;
+            --eds-gold: #ffcf62;
+            --eds-gold-2: #ef9a2f;
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: var(--eds-text);
+            background:
+                radial-gradient(80% 65% at 10% 10%, rgba(19, 163, 133, 0.18), transparent 65%),
+                radial-gradient(55% 45% at 90% 0%, rgba(239, 154, 47, 0.10), transparent 68%),
+                linear-gradient(180deg, #061310 0%, #081a16 45%, #0b231e 100%);
+        }
+        .page-shell {
+            width: min(980px, calc(100% - 28px));
+            margin: 18px auto;
+            border: 1px solid var(--eds-line);
+            border-radius: 28px;
+            overflow: hidden;
+            background: linear-gradient(180deg, rgba(10, 35, 30, 0.92), rgba(8, 24, 21, 0.95));
+            box-shadow: 0 28px 54px rgba(0, 0, 0, 0.34);
+            display: flex;
+            flex-direction: column;
+            min-height: calc(100vh - 36px);
+        }
+        .hero {
+            padding: 22px 22px 16px;
+            border-bottom: 1px solid var(--eds-line);
+            background: linear-gradient(180deg, rgba(18, 54, 46, 0.86), rgba(11, 35, 30, 0.9));
+        }
+        .hero-logo {
+            width: min(100%, 340px);
+            display: block;
+            margin-bottom: 10px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 207, 98, 0.12);
+            background: rgba(7, 24, 21, 0.42);
+        }
+        .hero-topline {
+            color: var(--eds-gold);
+            text-transform: uppercase;
+            letter-spacing: 0.24em;
+            font-size: 0.78rem;
+            font-weight: 700;
+        }
+        .hero h1 {
+            margin: 10px 0 8px;
+            font-size: 2rem;
+            line-height: 1.1;
+        }
+        .hero p {
+            margin: 0;
+            color: var(--eds-muted);
+            max-width: 760px;
+            line-height: 1.6;
+        }
+        #chat-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            background: #0d221d;
+        }
+        .message {
+            padding: 13px 15px;
+            border-radius: 16px;
+            max-width: 82%;
+            line-height: 1.55;
+            font-size: 1rem;
+            box-shadow: 0 10px 18px rgba(0, 0, 0, 0.18);
+        }
+        .user-message {
+            background: linear-gradient(135deg, var(--eds-accent), #0f7763);
+            align-self: flex-end;
+            color: #effffb;
+            border-bottom-right-radius: 7px;
+        }
+        .bot-message {
+            background: #173841;
+            align-self: flex-start;
+            color: #e8fbf6;
+            border: 1px solid rgba(255, 207, 98, 0.12);
+            border-bottom-left-radius: 7px;
+        }
+        #input-container {
+            padding: 18px 20px 20px;
+            background: #0d1c18;
+            display: flex;
+            gap: 10px;
+            border-top: 1px solid var(--eds-line);
+        }
+        input {
+            flex: 1;
+            padding: 14px 16px;
+            border: 1px solid rgba(33, 171, 139, 0.34);
+            border-radius: 14px;
+            background: rgba(255, 255, 255, 0.06);
+            color: var(--eds-text);
+            font-size: 16px;
+        }
+        input::placeholder { color: rgba(182, 221, 208, 0.7); }
+        button {
+            padding: 12px 20px;
+            background: linear-gradient(90deg, var(--eds-accent), #0f7763);
+            color: #fff;
+            border: none;
+            border-radius: 14px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 800;
+        }
+        button:hover { filter: brightness(1.05); }
+        @media (max-width: 700px) {
+            .page-shell { width: calc(100% - 16px); margin: 8px auto; min-height: calc(100vh - 16px); border-radius: 22px; }
+            .hero { padding: 18px 16px 14px; }
+            .hero h1 { font-size: 1.55rem; }
+            #chat-container { padding: 14px; }
+            .message { max-width: 90%; }
+            #input-container { padding: 14px; flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+<main class="page-shell">
+    <section class="hero">
+        <img class="hero-logo" src="icons/eds-symbols/eds-brand-horizontal.svg" alt="EDS Solucoes Inteligentes">
+        <div class="hero-topline">Projeto educacional EDS</div>
+        <h1>Monitor de Matematica</h1>
+        <p>Ambiente de apoio pedagogico com identidade EDS Solucoes Inteligentes. Este monitor pode ser usado em projetos escolares como o CIC, mantendo explicacao passo a passo e linguagem acolhedora.</p>
+    </section>
+
+    <div id="chat-container">
+        <div class="message bot-message">Olá! Sou o monitor virtual de Matemática da EDS Soluções Inteligentes, pronto para apoiar projetos como o CIC. Posso explicar passo a passo, revisar exercícios e ajudar você a entender melhor cada conceito. O que você está estudando hoje?</div>
+    </div>
+
+    <div id="input-container">
+        <input type="text" id="user-input" placeholder="Digite sua dúvida de matemática...">
+        <button onclick="sendMessage()">Enviar</button>
+    </div>
+</main>
+
+<script>
+    // --- CONFIGURAÇÃO ---
+    // 👇 COLE SUA API KEY DO GOOGLE AQUI 👇
+    const API_KEY = "AIzaSyC4Oq_DWbAGGT5o7KkOpi7Vv2JIK4WAv_8"
+    const MODEL_NAME = "gemini-2.5-flash"
+    
+    // 👇 SUAS INSTRUÇÕES DE SISTEMA (Copiadas da imagem) 👇
+    const SYSTEM_PROMPT = `Você é um monitor virtual experiente da EDS Solucoes Inteligentes para apoio ao ensino de Matemática em projetos educacionais como o da Escola Celio de Castro (CIC), com foco em alunos de 15 a 18 anos.
+Sua abordagem deve ser pedagógica, guiando os alunos na resolução de problemas passo a passo, em vez de fornecer a resposta pronta.
+Faça perguntas para estimular o raciocínio crítico deles. Use linguagem simples e encorajadora. 
+Dê exemplos práticos e, se possível, contextualizados na realidade dos alunos de Pernambuco (como usar o frevo para explicar conceitos).
+Para alunos iniciantes, comece com exemplos simples. Para avançados, desafie-os.
+Mantenha o tom profissional, paciente e empático. Verifique se o aluno entendeu antes de prosseguir.`;
+
+    // Função para enviar mensagem
+    async function sendMessage() {
+        const inputField = document.getElementById('user-input');
+        const userText = inputField.value.trim();
+        if (!userText) return;
+
+        // Mostra mensagem do usuário
+        addMessage(userText, 'user-message');
+        inputField.value = '';
+
+        // Mostra "Digitando..."
+        const typingDiv = addMessage('...', 'bot-message');
+
+        try {
+            // Constrói o corpo da requisição para o Google Gemini API
+            const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODEL_NAME}:generateContent?key=${API_KEY}`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    // Aqui inserimos o System Prompt como contexto inicial
+                    contents: [{
+                        parts: [{ text: `${SYSTEM_PROMPT}\n\nPergunta do aluno: ${userText}` }]
+                    }]
+                })
+            });
+
+            const data = await response.json();
+            
+            // Extrai a resposta da IA
+            if (data.candidates && data.candidates[0].content.parts[0].text) {
+                typingDiv.remove(); // Remove o "Digitando..."
+                addMessage(data.candidates[0].content.parts[0].text, 'bot-message');
+            } else {
+                throw new Error("Resposta inválida da API");
+            }
+
+        } catch (error) {
+            console.error("Erro:", error);
+            typingDiv.remove();
+            addMessage("❌ Desculpe, tive um problema técnico para te responder agora.", 'bot-message');
+        }
+    }
+
+    // Função auxiliar para adicionar bolhas de chat
+    function addMessage(text, className) {
+        const chatContainer = document.getElementById('chat-container');
+        const messageDiv = document.createElement('div');
+        messageDiv.className = `message ${className}`;
+        messageDiv.innerText = text;
+        chatContainer.appendChild(messageDiv);
+        chatContainer.scrollTop = chatContainer.scrollHeight; // Auto-scroll
+        return messageDiv; // Retorna a div para poder remover depois (ex: typing)
+    }
+
+    // Permitir enviar com 'Enter'
+    document.getElementById('user-input').addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') sendMessage();
+    });
+</script>
+
+</body>
+</html>

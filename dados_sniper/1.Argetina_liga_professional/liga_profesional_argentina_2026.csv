@@ -1,0 +1,151 @@
+Rodada,Data,Mandante,Gols_Mandante,Gols_Visitante,Visitante,Odd_1,Odd_X,Odd_2,Vencedor
+Pré-Rodada,24.01,Barracas Central,0,1,River Plate,5.75,3.30,1.68,Visitante
+Pré-Rodada,23.01,Talleres Córdoba,2,1,Newell's Old Boys,1.79,3.30,5.00,Mandante
+Pré-Rodada,23.01,Ind. Rivadavia,2,1,Atl. Tucuman,1.68,3.30,5.75,Mandante
+Pré-Rodada,23.01,Independiente,1,1,Estudiantes,2.45,2.65,3.50,Empate
+Pré-Rodada,23.01,San Lorenzo,2,3,Lanús,2.75,2.57,3.10,Visitante
+Pré-Rodada,22.01,Instituto,0,1,Vélez Sarsfield,2.65,2.75,3.00,Visitante
+Pré-Rodada,22.01,Central Córdoba,0,1,Gimnasia Mendoza,2.35,2.75,3.30,Visitante
+Pré-Rodada,22.01,Union Santa Fe,0,0,Platense,1.91,2.82,5.25,Empate
+Pré-Rodada,22.01,Banfield,1,1,Huracán,2.40,2.57,3.75,Empate
+Pré-Rodada,22.01,Aldosivi,0,0,Defensa y Justicia,2.65,2.57,3.30,Empate
+Pré-Rodada,27.01,Gimnasia Mendoza,0,1,San Lorenzo,3.80,2.70,2.30,Visitante
+Pré-Rodada,27.01,Huracán,1,2,Ind. Rivadavia,2.05,2.75,4.75,Visitante
+Pré-Rodada,27.01,Vélez Sarsfield,2,1,Talleres Córdoba,2.30,2.75,3.80,Mandante
+Pré-Rodada,26.01,Platense,2,1,Instituto,2.45,2.57,3.70,Mandante
+Rodada 1,25.01,Tigre,2,0,Estudiantes Rio Cuarto,1.91,3.00,4.75,Mandante
+Rodada 1,25.01,Argentinos Juniors,1,0,Sarmiento Junin,1.35,4.10,11.00,Mandante
+Rodada 1,25.01,Boca Juniors,1,0,Dep. Riestra,1.61,3.40,6.50,Mandante
+Rodada 1,24.01,Rosario Central,1,2,Belgrano,1.86,3.10,4.50,Visitante
+Rodada 1,24.01,Gimnasia L.P.,2,1,Racing Club,3.75,3.10,2.10,Mandante
+Rodada 1,29.01,Estudiantes Rio Cuarto,0,0,Argentinos Juniors,5.75,3.10,1.71,Empate
+Rodada 1,29.01,Lanús,2,1,Union Santa Fe,2.05,2.82,4.33,Mandante
+Rodada 1,29.01,Belgrano,1,1,Tigre,1.96,3.00,4.75,Empate
+Rodada 1,29.01,Dep. Riestra,0,1,Defensa y Justicia,2.10,2.82,4.10,Visitante
+Rodada 1,28.01,Estudiantes,2,1,Boca Juniors,3.00,2.75,2.70,Mandante
+Rodada 1,28.01,River Plate,2,0,Gimnasia L.P.,1.53,3.60,7.00,Mandante
+Rodada 1,28.01,Racing Club,1,2,Rosario Central,2.10,3.00,4.00,Visitante
+Rodada 1,28.01,Aldosivi,0,0,Barracas Central,2.05,2.70,4.50,Empate
+Rodada 1,27.01,Atl. Tucuman,0,0,Central Córdoba,2.05,3.10,3.90,Empate
+Rodada 1,27.01,Newell's Old Boys,1,1,Independiente,3.75,2.75,2.25,Empate
+Rodada 2,02.02,Gimnasia L.P.,3,1,Aldosivi,2.01,2.82,4.75,Mandante
+Rodada 2,01.02,Rosario Central,0,0,River Plate,2.70,3.00,2.85,Empate
+Rodada 2,01.02,Boca Juniors,2,0,Newell's Old Boys,1.42,3.90,9.50,Mandante
+Rodada 2,01.02,Barracas Central,1,1,Dep. Riestra,3.00,2.57,2.85,Empate
+Rodada 2,31.01,Talleres Córdoba,1,2,Platense,1.91,2.85,5.00,Visitante
+Rodada 2,31.01,Atl. Tucuman,1,1,Huracán,2.70,2.70,3.00,Empate
+Rodada 2,31.01,Independiente,1,1,Vélez Sarsfield,2.10,3.00,3.75,Empate
+Rodada 2,31.01,San Lorenzo,1,0,Central Córdoba,1.71,3.00,6.50,Mandante
+Rodada 2,29.01,Sarmiento Junin,1,0,Banfield,3.60,2.75,2.32,Mandante
+Rodada 2,07.02,Aldosivi,1,1,Rosario Central,4.75,3.00,1.91,Empate
+Rodada 2,06.02,Central Córdoba,1,0,Union Santa Fe,3.40,3.00,2.30,Mandante
+Rodada 3,03.02,Instituto,2,2,Lanús,2.85,2.82,2.65,Empate
+Rodada 3,03.02,Ind. Rivadavia,2,1,Sarmiento Junin,1.71,3.30,5.50,Mandante
+Rodada 3,03.02,Banfield,2,1,Estudiantes Rio Cuarto,1.86,2.85,5.00,Mandante
+Rodada 3,02.02,Union Santa Fe,4,0,Gimnasia Mendoza,1.66,3.25,6.00,Mandante
+Rodada 3,02.02,Argentinos Juniors,0,0,Belgrano,1.62,3.30,6.00,Empate
+Rodada 3,02.02,Defensa y Justicia,0,0,Estudiantes,3.30,3.00,2.30,Empate
+Rodada 3,02.02,Tigre,3,1,Racing Club,4.00,2.75,2.20,Mandante
+Rodada 3,09.02,Barracas Central,2,0,Gimnasia L.P.,2.75,2.85,2.75,Mandante
+Rodada 3,08.02,Gimnasia Mendoza,1,0,Instituto,3.20,2.75,2.57,Mandante
+Rodada 3,08.02,Vélez Sarsfield,2,1,Boca Juniors,3.10,2.85,2.45,Mandante
+Rodada 3,08.02,Huracán,1,0,San Lorenzo,2.45,2.70,3.40,Mandante
+Rodada 3,08.02,Platense,0,1,Independiente,2.70,2.75,3.00,Visitante
+Rodada 3,08.02,Sarmiento Junin,2,1,Atl. Tucuman,2.70,2.75,3.00,Mandante
+Rodada 3,07.02,Newell's Old Boys,2,3,Defensa y Justicia,2.15,2.85,3.90,Visitante
+Rodada 3,07.02,Belgrano,1,0,Banfield,1.76,3.40,5.00,Mandante
+Rodada 3,07.02,River Plate,1,4,Tigre,1.57,3.60,6.00,Visitante
+Rodada 3,07.02,Racing Club,2,1,Argentinos Juniors,2.82,2.85,2.75,Mandante
+Rodada 4,14.02,Banfield,0,2,Racing Club,4.33,3.30,1.86,Visitante
+Rodada 4,13.02,Defensa y Justicia,1,1,Vélez Sarsfield,3.70,2.75,2.30,Empate
+Rodada 4,13.02,Union Santa Fe,0,0,San Lorenzo,2.01,2.70,5.00,Empate
+Rodada 4,13.02,Independiente,2,0,Lanús,2.05,2.82,4.33,Mandante
+Rodada 4,12.02,Argentinos Juniors,1,0,River Plate,2.20,2.85,3.70,Mandante
+Rodada 4,12.02,Tigre,1,0,Aldosivi,1.71,3.10,6.00,Mandante
+Rodada 4,09.02,Estudiantes Rio Cuarto,0,1,Ind. Rivadavia,4.00,2.75,2.15,Visitante
+Rodada 4,09.02,Lanús,1,1,Talleres Córdoba,2.01,2.85,4.33,Empate
+Rodada 4,09.02,Estudiantes,1,0,Dep. Riestra,1.86,3.00,5.00,Mandante
+Rodada 5,16.02,Dep. Riestra,1,1,Newell's Old Boys,2.25,2.65,3.90,Empate
+Rodada 5,15.02,Instituto,2,0,Central Córdoba,1.81,3.10,4.75,Mandante
+Rodada 5,15.02,Rosario Central,2,0,Barracas Central,1.51,3.40,8.50,Mandante
+Rodada 5,15.02,Boca Juniors,0,0,Platense,1.61,3.40,6.50,Empate
+Rodada 5,15.02,Gimnasia L.P.,0,0,Estudiantes,3.25,2.65,2.65,Empate
+Rodada 5,14.02,Ind. Rivadavia,0,1,Belgrano,2.35,2.70,3.50,Visitante
+Rodada 5,14.02,Atl. Tucuman,4,0,Estudiantes Rio Cuarto,1.86,3.25,4.50,Mandante
+Rodada 5,14.02,Talleres Córdoba,2,1,Gimnasia Mendoza,1.62,3.25,7.00,Mandante
+Rodada 5,14.02,Huracán,1,0,Sarmiento Junin,1.76,3.10,6.00,Mandante
+Rodada 5,21.02,Dep. Riestra,0,0,Huracán,2.70,2.40,3.40,Empate
+Rodada 5,21.02,Banfield,3,0,Newell's Old Boys,2.30,2.85,3.40,Mandante
+Rodada 5,21.02,Platense,1,0,Barracas Central,1.76,3.25,5.25,Mandante
+Rodada 5,21.02,Ind. Rivadavia,3,2,Independiente,2.50,2.70,3.40,Mandante
+Rodada 5,20.02,Rosario Central,0,1,Talleres Córdoba,1.86,3.25,4.50,Visitante
+Rodada 5,20.02,Gimnasia Mendoza,0,1,Gimnasia L.P.,2.70,2.75,3.00,Visitante
+Rodada 5,20.02,Boca Juniors,0,0,Racing Club,2.30,2.85,3.50,Empate
+Rodada 5,20.02,Instituto,2,1,Atl. Tucuman,2.01,3.10,4.20,Mandante
+Rodada 5,20.02,Estudiantes,1,0,Sarmiento Junin,1.57,3.50,7.00,Mandante
+Rodada 5,20.02,Defensa y Justicia,1,1,Belgrano,3.20,2.82,2.55,Empate
+Rodada 6,28.02,Boca Juniors,1,1,Gimnasia Mendoza,1.49,3.60,9.00,Empate
+Rodada 6,22.02,Union Santa Fe,1,0,Aldosivi,1.56,3.60,6.50,Mandante
+Rodada 6,22.02,Vélez Sarsfield,1,0,River Plate,2.82,2.85,2.70,Mandante
+Rodada 6,22.02,San Lorenzo,2,0,Estudiantes Rio Cuarto,1.57,3.30,7.50,Mandante
+Rodada 6,21.02,Central Córdoba,0,0,Tigre,3.60,2.65,2.40,Empate
+Rodada 6,24.02,Gimnasia Mendoza,1,1,Independiente,3.90,2.75,2.20,Empate
+Rodada 6,24.02,Belgrano,3,1,Atl. Tucuman,1.71,3.40,5.00,Mandante
+Rodada 6,24.02,Central Córdoba,2,0,Talleres Córdoba,3.60,2.75,2.32,Mandante
+Rodada 6,24.02,San Lorenzo,1,1,Instituto,2.50,2.70,3.40,Empate
+Rodada 6,24.02,Platense,0,0,Defensa y Justicia,2.01,2.82,4.50,Empate
+Rodada 7,26.02,Estudiantes Rio Cuarto,2,0,Huracán,4.00,2.65,2.25,Mandante
+Rodada 7,26.02,River Plate,3,1,Banfield,1.61,3.70,5.50,Mandante
+Rodada 7,26.02,Sarmiento Junin,1,3,Union Santa Fe,3.30,2.85,2.35,Visitante
+Rodada 7,26.02,Racing Club,1,1,Ind. Rivadavia,1.81,3.40,4.50,Empate
+Rodada 7,25.02,Vélez Sarsfield,0,0,Dep. Riestra,1.91,2.75,5.50,Empate
+Rodada 7,25.02,Newell's Old Boys,0,2,Estudiantes,3.80,2.75,2.30,Visitante
+Rodada 7,25.02,Barracas Central,2,1,Tigre,3.10,2.70,2.65,Mandante
+Rodada 7,25.02,Gimnasia L.P.,1,2,Rosario Central,3.25,2.50,2.70,Visitante
+Rodada 7,04.03,Lanús,0,3,Boca Juniors,3.00,3.00,2.57,Visitante
+Rodada 7,02.03,Ind. Rivadavia,1,1,River Plate,3.00,3.00,2.57,Empate
+Rodada 7,02.03,Estudiantes,0,1,Vélez Sarsfield,2.15,2.65,4.33,Visitante
+Rodada 7,02.03,Dep. Riestra,0,0,Platense,2.50,2.55,3.50,Empate
+Rodada 7,01.03,Defensa y Justicia,1,1,Lanús,2.10,3.25,3.70,Empate
+Rodada 7,01.03,Tigre,2,2,Gimnasia L.P.,1.91,3.00,4.75,Empate
+Rodada 7,01.03,Instituto,1,2,Union Santa Fe,2.55,2.75,3.10,Visitante
+Rodada 7,01.03,Argentinos Juniors,1,1,Barracas Central,1.39,4.10,9.50,Empate
+Rodada 7,01.03,Newell's Old Boys,0,2,Rosario Central,5.25,3.25,1.76,Visitante
+Rodada 7,28.02,Talleres Córdoba,0,0,San Lorenzo,2.05,2.85,4.20,Empate
+Rodada 7,28.02,Independiente,2,0,Central Córdoba,1.56,3.25,8.50,Mandante
+Rodada 8,10.03,Sarmiento Junin,0,0,Racing Club,3.50,3.00,2.25,Empate
+Rodada 8,10.03,Tigre,1,1,Vélez Sarsfield,2.15,2.57,3.50,Empate
+Rodada 8,10.03,Independiente,4,4,Union Santa Fe,1.96,3.40,3.80,Empate
+Rodada 8,03.03,Atl. Tucuman,0,3,Racing Club,3.20,2.85,2.45,Visitante
+Rodada 8,03.03,Huracán,3,1,Belgrano,3.00,2.57,2.85,Mandante
+Rodada 8,03.03,Sarmiento Junin,1,0,Estudiantes Rio Cuarto,1.86,3.10,4.75,Mandante
+Rodada 8,02.03,Banfield,2,0,Aldosivi,2.05,3.10,3.90,Mandante
+Rodada 9,15.03,Union Santa Fe,1,1,Boca Juniors,2.85,2.50,3.00,Empate
+Rodada 9,15.03,Tigre,1,1,Argentinos Juniors,2.75,2.65,3.00,Empate
+Rodada 9,15.03,River Plate,2,0,Sarmiento Junin,1.45,3.90,9.00,Mandante
+Rodada 9,15.03,Belgrano,0,0,Talleres Córdoba,2.32,2.75,3.60,Empate
+Rodada 9,15.03,Gimnasia L.P.,2,3,Ind. Rivadavia,3.00,3.00,2.50,Visitante
+Rodada 9,14.03,Rosario Central,2,1,Banfield,1.56,3.40,6.50,Mandante
+Rodada 9,14.03,Platense,0,2,Vélez Sarsfield,2.85,2.75,2.70,Visitante
+Rodada 9,12.03,Talleres Córdoba,2,0,Instituto,2.15,2.85,3.90,Mandante
+Rodada 9,12.03,Estudiantes Rio Cuarto,0,1,Belgrano,3.40,2.75,2.40,Visitante
+Rodada 9,12.03,Dep. Riestra,0,0,Gimnasia Mendoza,2.01,2.57,5.50,Empate
+Rodada 9,12.03,Defensa y Justicia,1,1,Central Córdoba,1.86,3.10,4.75,Empate
+Rodada 9,11.03,Ind. Rivadavia,1,2,Barracas Central,1.42,4.00,9.00,Visitante
+Rodada 9,11.03,Atl. Tucuman,1,1,Aldosivi,2.10,2.85,4.00,Empate
+Rodada 9,11.03,Boca Juniors,1,1,San Lorenzo,1.68,3.25,6.00,Empate
+Rodada 9,11.03,Argentinos Juniors,0,0,Rosario Central,1.91,3.00,4.75,Empate
+Rodada 9,11.03,Banfield,1,2,Gimnasia L.P.,2.25,3.00,3.50,Visitante
+Rodada 9,10.03,Newell's Old Boys,1,1,Platense,3.30,2.82,2.45,Empate
+Rodada 10,20.03,Atl. Tucuman,1,0,Gimnasia L.P.,1.96,3.25,4.00,Mandante
+Rodada 10,13.03,Estudiantes,0,1,Lanús,2.01,3.00,4.33,Visitante
+Rodada 10,12.03,Huracán,1,2,River Plate,3.30,2.85,2.40,Visitante
+Rodada 11,20.03,Banfield,1,0,Tigre,3.10,2.65,2.70,Mandante
+Rodada 11,17.03,Central Córdoba,1,0,Dep. Riestra,3.10,2.55,2.82,Mandante
+Rodada 11,17.03,Gimnasia Mendoza,1,2,Estudiantes,4.20,2.85,2.10,Visitante
+Rodada 11,17.03,Lanús,5,0,Newell's Old Boys,1.62,3.30,6.50,Mandante
+Rodada 11,16.03,Instituto,2,1,Independiente,2.70,3.00,2.70,Mandante
+Rodada 11,16.03,Racing Club,2,0,Estudiantes Rio Cuarto,1.41,4.00,8.50,Mandante
+Rodada 11,16.03,San Lorenzo,2,5,Defensa y Justicia,2.10,2.75,4.20,Visitante
+Rodada 11,16.03,Aldosivi,0,0,Huracán,3.25,2.65,2.55,Empate
+Rodada 11,16.03,Barracas Central,2,1,Atl. Tucuman,2.82,2.82,2.70,Mandante

@@ -1,0 +1,11 @@
+ranking,jogo_id,jogo,liga,data,horario,time_recomendado,indice_confianca,odd_referencia,h2h_n,h2h_resumo,justificativa_curta
+1,J009,Temperley vs Atletico Atlanta,Primera B Nacional,22.03,16:00,Temperley,74.43,2.3,0,sem H2H disponivel,Casa 1/0/0 | forma EDVE | visitante fora perde 100.0% | sem H2H disponivel
+2,J032,San Diego FC vs Real Salt Lake,MLS,22.03,20:00,San Diego FC,74.32,1.81,2,H2H ultimos 2: 1V mandante atual | 0E | 1V visitante atual,Casa 2/0/0 | forma EVVV | visitante fora perde 50.0% | H2H ultimos 2: 1V mandante atual | 0E | 1V visitante atual
+3,J015,Remo vs Bahia,Brasileirão Série A,22.03,16:00,Bahia,70.84,2.05,0,sem H2H disponivel,Fora 3/0/0 | forma VEVEV | mandante casa perde 33.3% | sem H2H disponivel
+4,J029,New York City vs Inter Miami,MLS,22.03,14:00,New York City,65.81,2.2,5,H2H ultimos 5: 0V mandante atual | 3E | 2V visitante atual,Casa 2/0/0 | forma VVVE | visitante fora perde 25.0% | H2H ultimos 5: 0V mandante atual | 3E | 2V visitante atual
+5,J019,Corinthians vs Flamengo,Brasileirão Série A,22.03,20:30,Flamengo,65.44,2.15,5,H2H ultimos 5: 1V mandante atual | 2E | 2V visitante atual,Fora 2/0/1 | forma VVVED | mandante casa perde 66.7% | H2H ultimos 5: 1V mandante atual | 2E | 2V visitante atual
+6,J012,Deportivo Maipu vs Midland,Primera B Nacional,22.03,19:00,Deportivo Maipu,62.7,2.25,0,sem H2H disponivel,Casa 1/0/0 | forma DEVD | visitante fora perde 50.0% | sem H2H disponivel
+7,J033,Estudiantes vs Central Córdoba,Liga Profesional - Abertura,23.03,19:00,Estudiantes,61.92,1.49,0,sem H2H disponivel,Casa 3/0/2 | forma VVDDV | visitante fora perde 60.0% | sem H2H disponivel
+8,J035,Nueva Chicago vs Gimnasia y Tiro,Primera B Nacional,23.03,16:00,Gimnasia y Tiro,61.23,2.35,0,sem H2H disponivel,Fora 1/0/0 | forma EVVV | mandante casa perde 0.0% | sem H2H disponivel
+9,J030,Minnesota vs Seattle Sounders,MLS,22.03,15:30,Minnesota,60.17,2.65,5,H2H ultimos 5: 4V mandante atual | 0E | 1V visitante atual,Casa 1/0/0 | forma DDVE | visitante fora perde 33.3% | H2H ultimos 5: 4V mandante atual | 0E | 1V visitante atual
+10,J001,Sarmiento Junin vs Aldosivi,Liga Profesional - Abertura,22.03,15:30,Sarmiento Junin,59.92,2.15,0,sem H2H disponivel,Casa 3/1/1 | forma DDEVD | visitante fora perde 80.0% | sem H2H disponivel

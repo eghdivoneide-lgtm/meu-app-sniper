@@ -1,0 +1,97 @@
+{\rtf1\ansi\deff0
+{\fonttbl{\f0 Calibri;}{\f1 Calibri Bold;}}
+\paperw11907\paperh16840\margl1134\margr1134\margt1134\margb1134
+\fs24
+\pard\qc\b\fs34 PROPOSTA EXECUTIVA\par
+\b0\fs28 Gestao Proativa de Jornada Digital\par
+\fs24 Hard Lockout com Pre-Autorizacao por Periodo\par
+\par
+\pard\ql\b Proponente:\b0  Egnaldo Dias da Silva, Gerente Geral, Agencia Serra Talhada/PE\par
+\b Data:\b0  Marco de 2026\par
+\par
+\b 1. Objetivo\b0\par
+Implementar um modelo preventivo de controle de jornada para reduzir horas extras nao autorizadas, mitigar risco trabalhista e elevar a conformidade operacional na rede da Caixa, com uso da infraestrutura ja disponivel (Microsoft 365, Power Platform, Teams e integracao com ponto eletronico).\par
+\par
+\b 2. Problema de Negocio\b0\par
+O modelo atual e predominantemente reativo: registra desvios apos sua ocorrencia. Isso gera:\par
+1) custo trabalhista nao planejado;\par
+2) passivo juridico e risco de autuacao;\par
+3) baixa previsibilidade de escala e gestao.\par
+\par
+Evidencia local: na Agencia Serra Talhada/PE, um unico episodio gerou custo de R$ 2.000,00 em unidade com 25 colaboradores.\par
+\par
+\b 3. Solucao Proposta\b0\par
+Modelo em tres camadas:\par
+1) Monitoramento em tempo real da jornada por integracao com sistema de ponto;\par
+2) Alertas progressivos para empregado e gestor em 80%, 90% e 100% do limite;\par
+3) Hard Lockout no limite, com excecao apenas por pre-autorizacao formal e auditavel.\par
+\par
+Fluxo de excecao:\par
+1) gestor solicita extensao antecipada com justificativa, periodo e equipe;\par
+2) sistema calcula impacto estimado antes da aprovacao;\par
+3) trilha completa de auditoria para compliance.\par
+\par
+\b 4. Viabilidade Tecnica\b0\par
+A proposta reaproveita ativos ja presentes na Caixa:\par
+1) Microsoft 365;\par
+2) Power Automate;\par
+3) Power Apps;\par
+4) Microsoft Teams;\par
+5) Active Directory;\par
+6) integracao com sistema de ponto.\par
+\par
+Conclusao tecnica: alta viabilidade sem compra relevante de novas licencas.\par
+\par
+\b 5. Impacto Financeiro (3 Cenarios)\b0\par
+Premissas:\par
+1) base de referencia do episodio real de R$ 2.000 por ocorrencia;\par
+2) 3.500 agencias;\par
+3) custo de implantacao estimado em R$ 500 mil.\par
+\par
+\trowd\trgaph108\trleft0\cellx4200\cellx7600\cellx10400
+\intbl\b Cenario\b0\cell\b Reducao de ocorrencias\b0\cell\b Economia anual estimada\b0\cell\row
+\trowd\trgaph108\trleft0\cellx4200\cellx7600\cellx10400
+\intbl Conservador\cell 30%\cell R$ 25,2 milhoes\cell\row
+\trowd\trgaph108\trleft0\cellx4200\cellx7600\cellx10400
+\intbl Base\cell 50%\cell R$ 42,0 milhoes\cell\row
+\trowd\trgaph108\trleft0\cellx4200\cellx7600\cellx10400
+\intbl Agressivo\cell 70%\cell R$ 58,8 milhoes\cell\row
+\pard\par
+Indicadores:\par
+1) payback estimado em poucos meses no cenario conservador;\par
+2) ROI elevado ja no primeiro ano.\par
+\par
+\b 6. Riscos e Mitigacoes\b0\par
+1) Resistencia cultural ao bloqueio: comunicacao institucional e posicionamento como protecao da jornada.\par
+2) Excecoes operacionais criticas: canal emergencial com SLA, aprovacao registrada e auditoria.\par
+3) Integracao com sistema de ponto: homologacao tecnica previa e plano de contingencia.\par
+4) Sensibilidade sindical: alinhamento antecipado com foco em saude ocupacional e conformidade.\par
+\par
+\b 7. Proposta de Piloto (24 semanas)\b0\par
+1) Fase 0 (Semanas 1-4): MVP tecnico e homologacao;\par
+2) Fase 1 (Semanas 5-12): pre-piloto e treinamento;\par
+3) Fase 2 (Semanas 13-20): operacao assistida com metricas;\par
+4) Fase 3 (Semanas 21-24): avaliacao final e plano de escala.\par
+\par
+Escopo piloto sugerido:\par
+1) 5 a 8 agencias;\par
+2) Agencia Serra Talhada/PE como agencia-ancora.\par
+\par
+\b 8. KPIs de Sucesso do Piloto\b0\par
+1) reducao percentual de horas extras nao autorizadas;\par
+2) reducao do custo mensal de ocorrencias;\par
+3) tempo medio de autorizacao de excecoes;\par
+4) taxa de incidentes de bloqueio indevido;\par
+5) nivel de adesao e satisfacao de gestores.\par
+\par
+\b 9. Decisao Solicitada (Go/No-Go)\b0\par
+Solicita-se aprovacao de:\par
+1) inicio da Fase 0 com equipe tecnica dedicada;\par
+2) selecao das agencias piloto;\par
+3) governanca conjunta DIPES + DICIT;\par
+4) calendario de avaliacao executiva ao fim do piloto.\par
+\par
+\b Assinatura\b0\par
+Egnaldo Dias da Silva\par
+Gerente Geral - Caixa Economica Federal - Agencia Serra Talhada/PE\par
+}

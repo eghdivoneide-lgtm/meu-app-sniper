@@ -1,0 +1,2 @@
+pyTelegramBotAPI>=4.28.0
+google-genai>=1.10.0

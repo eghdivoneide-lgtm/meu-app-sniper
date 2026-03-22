@@ -1,0 +1,26 @@
+{
+  "name": "Monitor Virtual EDS",
+  "short_name": "Monitor EDS",
+  "description": "Monitor Virtual da EDS Solucoes Inteligentes com apoio do Gemini.",
+  "start_url": "./monitor-google.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f2227",
+  "theme_color": "#102024",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "./icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

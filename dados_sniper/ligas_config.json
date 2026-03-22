@@ -1,0 +1,21 @@
+﻿{
+  "projeto": "Sniper Elite Multi-Ligas",
+  "versao": "v2-template",
+  "foco": "vitoria_seca",
+  "top_n": 10,
+  "ligas": [
+    "argentina_lpf",
+    "brasil_serie_a",
+    "espanha_la_liga",
+    "inglaterra_premier_league",
+    "italia_serie_a",
+    "alemanha_bundesliga"
+  ],
+  "campos_obrigatorios": {
+    "jogos_rodada.csv": ["jogo_id","liga","rodada","data_hora","mandante","visitante"],
+    "historico_recente.csv": ["liga","time","data","local","adversario","gols_pro","gols_contra","resultado"],
+    "confrontos_diretos_h2h.csv": ["jogo_id","data","mandante","visitante","gols_mandante","gols_visitante"],
+    "resultados_rodada.csv": ["jogo_id","gols_mandante","gols_visitante","status"],
+    "saida_top10_sniper.csv": ["ranking","jogo_id","liga","jogo","time_recomendado","indice_confianca","justificativa_curta"]
+  }
+}

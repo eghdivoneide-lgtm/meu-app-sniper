@@ -1,0 +1,221 @@
+2026-03-21 18:26:03,716 | INFO | [MSG] chat_id=7618616841
+2026-03-21 18:26:03,724 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 18:26:05,960 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 18:34:23,428 | INFO | [MSG] chat_id=7618616841
+2026-03-21 18:34:24,453 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 18:34:27,476 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 18:49:22,824 | INFO | [START] chat_id=7618616841
+2026-03-21 18:49:34,432 | INFO | [MSG] chat_id=7618616841
+2026-03-21 18:49:34,893 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 18:49:37,401 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 22:11:40,724 | WARNING | Nao foi possivel carregar base historica do DOCX: PermissionError
+2026-03-21 22:12:41,703 | WARNING | Nao foi possivel carregar base historica do DOCX: PermissionError
+2026-03-21 22:15:25,308 | INFO | Cache txt criado a partir de: prompt_analista_argentino_2026_copy.docx
+2026-03-21 22:16:27,160 | INFO | [MSG] chat_id=7618616841
+2026-03-21 22:16:54,108 | INFO | [MSG] chat_id=7618616841
+2026-03-21 22:17:32,605 | INFO | [MSG] chat_id=7618616841
+2026-03-21 22:21:06,532 | INFO | Base historica carregada do cache txt.
+2026-03-21 22:22:06,826 | INFO | [FOTO] chat_id=7618616841
+2026-03-21 22:22:07,960 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 22:22:12,210 | INFO | [MSG] chat_id=7618616841
+2026-03-21 22:22:12,279 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 22:22:12,296 | INFO | [FOTO-EXTRACAO] chat_id=7618616841 | Jogo: Newell's Old Boys vs Gimnasia Mendoza
+Odds 1X2: 2.50 / 2.70 / 3.40
+Jogo: Defensa y Justicia vs Union Santa Fe
+Odds
+2026-03-21 22:33:31,677 | WARNING | Nao foi possivel ler DOCX prompt_analista_argentino_2026.docx: PermissionError
+2026-03-21 22:33:31,763 | ERROR | Nao foi possivel carregar a base historica por nenhuma fonte.
+2026-03-21 22:34:13,769 | INFO | [FOTO] chat_id=7618616841
+2026-03-21 22:34:15,208 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 22:34:20,838 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 22:34:20,884 | INFO | [FOTO-EXTRACAO] chat_id=7618616841 | Jogo: Defensa y Justicia vs Union Santa Fe
+Odds 1X2: 2.85 / 3.00 / 2.57
+Jogo: Newell's Old Boys vs Gimnasia Mendoza
+Odds
+2026-03-21 22:36:19,406 | INFO | Cache txt criado a partir de: prompt_analista_argentino_2026_copy.docx
+2026-03-21 22:38:41,970 | INFO | [FOTO] chat_id=7618616841
+2026-03-21 22:38:43,111 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 22:38:48,115 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 22:38:48,171 | INFO | [FOTO-EXTRACAO] chat_id=7618616841 | Jogo: Defensa y Justicia vs Union Santa Fe
+Odds 1X2: 2.85 / 3.00 / 2.57
+Jogo: Newell's Old Boys vs Gimnasia Mendoza
+Odds
+2026-03-21 22:38:48,831 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 22:39:08,170 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 22:39:08,837 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 22:39:12,783 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 22:44:14,975 | INFO | Base historica carregada do cache txt.
+2026-03-21 22:44:17,328 | ERROR | Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-21 22:44:17,359 | ERROR | Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\util.py", line 115, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\util.py", line 97, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+                               allowed_updates=allowed_updates,
+                               timeout=timeout, long_polling_timeout=long_polling_timeout)
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+        self.token, offset=offset, limit=limit, timeout=timeout, allowed_updates=allowed_updates,
+        long_polling_timeout=long_polling_timeout)
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\apihelper.py", line 339, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\apihelper.py", line 197, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+2026-03-21 22:46:42,481 | INFO | Base historica carregada do cache txt.
+2026-03-21 22:48:29,426 | INFO | [FOTO] chat_id=7618616841
+2026-03-21 22:48:30,372 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 22:48:37,042 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 22:48:37,155 | INFO | [FOTO-EXTRACAO] chat_id=7618616841 | Jogo: Defensa y Justicia vs Union Santa Fe
+Odds 1X2: 2.85 / 3.00 / 2.57
+Jogo: Newell's Old Boys vs Gimnasia Mendoza
+Odds
+2026-03-21 22:48:37,795 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 22:48:55,086 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 22:52:48,484 | INFO | Base historica carregada do cache txt.
+2026-03-21 22:53:24,550 | INFO | [FOTO] chat_id=7618616841
+2026-03-21 22:53:25,281 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 22:53:32,532 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 22:53:32,550 | INFO | [FOTO-EXTRACAO] chat_id=7618616841 | Jogo: Defensa y Justicia vs Union Santa Fe
+Odds 1X2: 2.85 / 3.00 / 2.57
+Jogo: Newell's Old Boys vs Gimnasia Mendoza
+Odds
+2026-03-21 22:53:33,195 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 22:53:51,783 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 22:53:52,429 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 22:54:06,897 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 23:00:50,198 | INFO | Base historica carregada do cache txt.
+2026-03-21 23:02:17,715 | INFO | Cache txt criado a partir de: prompt_analista_argentino_2026_copy.docx
+2026-03-21 23:03:50,128 | INFO | [FOTO] chat_id=7618616841
+2026-03-21 23:03:50,960 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 23:03:55,575 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 23:03:56,829 | INFO | [FOTO-EXTRACAO] chat_id=7618616841 | Jogo: Defensa y Justicia vs Union Santa Fe
+Odds 1X2: 2.85 / 3.00 / 2.57
+Jogo: Newell's Old Boys vs Gimnasia Mendoza
+Odds
+2026-03-21 23:03:58,112 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 23:04:18,798 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 23:04:20,229 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 23:04:31,349 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 23:11:07,626 | INFO | Base historica carregada do cache txt.
+2026-03-21 23:19:54,201 | INFO | [FOTO] chat_id=7618616841
+2026-03-21 23:19:55,062 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 23:20:01,000 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 23:20:01,093 | INFO | [FOTO-EXTRACAO] chat_id=7618616841 | Jogo: Defensa y Justicia vs Union Santa Fe
+Odds 1X2: 2.85 / 3.00 / 2.57
+---
+Jogo: Newell's Old Boys vs Gimnasia Mendoza
+
+2026-03-21 23:20:02,017 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 23:20:23,884 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 23:20:24,598 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 23:20:38,393 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 23:24:10,183 | INFO | [FOTO] chat_id=7618616841
+2026-03-21 23:24:11,547 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 23:24:17,541 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 23:24:17,562 | INFO | [FOTO-EXTRACAO] chat_id=7618616841 | Jogo: Independiente vs Talleres Córdoba
+Odds 1X2: 1.96 / 3.10 / 4.33
+Jogo: Belgrano vs Racing Club
+Odds 1X2: 2.82 / 3.00
+2026-03-21 23:24:18,209 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 23:24:27,377 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 23:24:28,032 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 23:24:39,885 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 23:27:18,765 | INFO | Base historica carregada do cache txt.
+2026-03-21 23:28:12,649 | INFO | [FOTO] chat_id=7618616841
+2026-03-21 23:28:13,196 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 23:28:19,198 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 23:28:19,216 | INFO | [FOTO-EXTRACAO] chat_id=7618616841 | Jogo: Defensa y Justicia vs Union Santa Fe
+Odds 1X2: 2.85 / 3.00 / 2.57
+
+Jogo: Newell's Old Boys vs Gimnasia Mendoza
+Odd
+2026-03-21 23:29:20,475 | INFO | [FOTO] chat_id=7618616841
+2026-03-21 23:29:21,101 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 23:29:25,861 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 23:29:25,871 | INFO | [FOTO-EXTRACAO] chat_id=7618616841 | Jogo: Newell's Old Boys vs Gimnasia Mendoza
+Odds 1X2: 2.50 / 2.70 / 3.40
+
+Jogo: Defensa y Justicia vs Union Santa Fe
+Odd
+2026-03-21 23:29:26,973 | INFO | [MSG] chat_id=7618616841
+2026-03-21 23:29:59,896 | INFO | [FOTO] chat_id=7618616841
+2026-03-21 23:30:00,455 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 23:30:03,027 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 23:30:03,031 | INFO | [FOTO-EXTRACAO] chat_id=7618616841 | Jogo: Newell's Old Boys vs Gimnasia Mendoza
+Odds 1X2: 2.50 / 2.70 / 3.40
+Jogo: Defensa y Justicia vs Union Santa Fe
+Odds
+2026-03-21 23:30:08,454 | INFO | Base historica carregada do cache txt.
+2026-03-21 23:33:41,522 | INFO | Base historica carregada do cache txt.
+2026-03-21 23:34:46,002 | INFO | [MSG] chat_id=7618616841
+2026-03-21 23:35:10,361 | INFO | [FOTO] chat_id=7618616841
+2026-03-21 23:35:10,927 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 23:35:15,164 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 23:35:15,175 | INFO | [FOTO-EXTRACAO] chat_id=7618616841 | Jogo: Defensa y Justicia vs Union Santa Fe
+Odds 1X2: 2.85 / 3.00 / 2.57
+Jogo: Newell's Old Boys vs Gimnasia Mendoza
+Odds
+2026-03-21 23:36:46,558 | INFO | [FOTO] chat_id=7618616841
+2026-03-21 23:36:47,347 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 23:36:52,172 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 23:36:52,186 | INFO | [FOTO-EXTRACAO] chat_id=7618616841 | Jogo: Independiente vs Talleres Córdoba
+Odds 1X2: 1.96 / 3.10 / 4.33
+Jogo: Belgrano vs Racing Club
+Odds 1X2: 2.82 / 3.00
+2026-03-21 23:38:51,593 | INFO | [FOTO] chat_id=7618616841
+2026-03-21 23:38:52,127 | INFO | AFC is enabled with max remote calls: 10.
+2026-03-21 23:38:56,077 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-21 23:38:56,096 | INFO | [FOTO-EXTRACAO] chat_id=7618616841 | Jogo: Newell's Old Boys vs Gimnasia Mendoza
+Odds 1X2: 2.50 / 2.70 / 3.40
+Jogo: Defensa y Justicia vs Union Santa Fe
+Odds
+2026-03-22 02:42:19,179 | INFO | Base historica carregada do cache txt.
+2026-03-22 02:42:21,068 | ERROR | Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-22 02:42:21,117 | ERROR | Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\util.py", line 115, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\util.py", line 97, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+                               allowed_updates=allowed_updates,
+                               timeout=timeout, long_polling_timeout=long_polling_timeout)
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+        self.token, offset=offset, limit=limit, timeout=timeout, allowed_updates=allowed_updates,
+        long_polling_timeout=long_polling_timeout)
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\apihelper.py", line 339, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\.venv\Lib\site-packages\telebot\apihelper.py", line 197, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+2026-03-22 02:45:33,816 | INFO | [MSG] chat_id=7618616841
+2026-03-22 02:45:47,587 | INFO | [MSG] chat_id=7618616841
+2026-03-22 03:04:14,255 | INFO | Base historica carregada do cache txt.
+2026-03-22 03:04:47,382 | INFO | Base historica carregada do cache txt.
+2026-03-22 03:23:20,359 | INFO | Base historica carregada do cache txt.
+2026-03-22 03:23:40,185 | INFO | Base historica carregada do cache txt.
+2026-03-22 03:40:26,678 | INFO | [MSG] chat_id=7618616841
+2026-03-22 03:40:39,989 | INFO | [MSG] chat_id=7618616841
+2026-03-22 03:57:13,481 | INFO | [MSG] chat_id=7618616841
+2026-03-22 03:57:21,478 | INFO | [START] chat_id=7618616841
+2026-03-22 04:02:12,609 | INFO | [MSG] chat_id=7618616841
