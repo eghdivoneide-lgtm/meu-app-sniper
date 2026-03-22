@@ -69,7 +69,7 @@ memoria_suporte: dict[int, object] = {}   # {chat_id: objeto de chat Gemini}
 PROMPT_MESTRE = (
     "Você é o Agente de Suporte da EDS Soluções Inteligentes no Telegram.\n\n"
     "Sua função é realizar atendimento inicial, triagem e orientação objetiva para clientes "
-    "e interessados da EDS Soluções Inteligentes, com linguagem profissional, clara, respeitosa e acolhedora.\n\n"
+    "e interessados, com linguagem profissional, clara e respeitosa.\n\n"
 
     "Você pode ajudar diretamente em:\n"
     "- Dúvidas gerais de suporte\n"
@@ -108,8 +108,8 @@ PROMPT_MESTRE = (
     "Nome, Telefone, Resumo do caso e Melhor horário para retorno.\n\n"
 
     "QUANDO a pergunta depender de um aplicativo, sistema ou integração específica e você não "
-    "tiver contexto suficiente, responda de forma objetiva, sem dizer que é da área financeira. "
-    "Use esta linha como base: Essa dúvida depende do aplicativo ou sistema específico utilizado. "
+    "tiver contexto suficiente, responda de forma objetiva. Use esta linha como base: "
+    "Essa dúvida depende do aplicativo ou sistema utilizado. "
     f"Se for uma solução da EDS Soluções Inteligentes ou uma integração apoiada por nossa equipe, envie sua solicitação para {EMAIL_EDS} "
     "informando Nome, Telefone, Resumo do caso e Melhor horário para retorno.\n\n"
 
@@ -157,16 +157,16 @@ def classificar_intencao(texto: str) -> str:
 # ---------------------------------------------------------------------------
 MSG_BOAS_VINDAS = (
     "👋 Olá! Sou o Agente de Suporte da EDS Soluções Inteligentes.\n\n"
-    "Posso ajudar com orientações iniciais, cadastro de chave Google Gemini ou Anthropic "
+    "Posso ajudar com orientações iniciais, configuração de chave Google Gemini ou Anthropic "
     "e encaminhamento para nossa equipe.\n\n"
-    "Casos que exigem análise humana serão direcionados para supportedssi@gmail.com.\n\n"
+    f"Casos que exigem análise humana serão direcionados para {EMAIL_EDS}.\n\n"
     "📋 /ajuda — Ver opções disponíveis\n"
     "🛠 /suporte — Suporte geral\n"
-    "🔑 /google — Cadastrar chave Google Gemini\n"
-    "🤖 /anthropic — Cadastrar chave Anthropic\n"
+    "🔑 /google — Chave Google Gemini\n"
+    "🤖 /anthropic — Chave Anthropic\n"
     "📧 /email — Falar com a equipe EDS\n"
     "👋 /encerrar — Encerrar atendimento\n\n"
-    "Ou envie sua dúvida diretamente. 👇"
+    "Ou envie sua dúvida diretamente."
 )
 
 MSG_AJUDA = (
@@ -176,7 +176,7 @@ MSG_AJUDA = (
     "🤖 /anthropic — Chave Anthropic\n"
     "📧 /email — Contato com a equipe EDS\n"
     "👋 /encerrar — Encerrar atendimento\n\n"
-    "Ou envie sua dúvida diretamente e eu identifico o melhor caminho."
+    "Ou envie sua dúvida e eu identifico o melhor encaminhamento."
 )
 
 MSG_GOOGLE = (
@@ -203,7 +203,7 @@ MSG_ANTHROPIC = (
 MSG_EMAIL = (
     "📧 Contato com a Equipe EDS\n\n"
     "Para atendimento humano, envie para:\n"
-    "supportedssi@gmail.com\n\n"
+    f"{EMAIL_EDS}\n\n"
     "Modelo sugerido:\n"
     "Assunto: Suporte EDS Soluções Inteligentes - seu nome\n\n"
     "Corpo:\n"
@@ -215,9 +215,9 @@ MSG_EMAIL = (
 )
 
 MSG_SENSIVEL = (
-    "⚠️ Esse assunto precisa de análise humana para segurança e registro adequado.\n\n"
+    "⚠️ Esse assunto precisa de análise humana.\n\n"
     "Por favor, envie sua solicitação para:\n"
-    "📧 supportedssi@gmail.com\n\n"
+    f"📧 {EMAIL_EDS}\n\n"
     "Informe:\n"
     "- Nome\n"
     "- Telefone\n"
@@ -229,7 +229,7 @@ MSG_SENSIVEL = (
 MSG_ENCERRAR = (
     "👋 Atendimento inicial encerrado.\n\n"
     "Se precisar de novo suporte, é só me chamar.\n"
-    "Para casos que exigem análise humana: supportedssi@gmail.com"
+    f"Para casos que exigem análise humana: {EMAIL_EDS}"
 )
 
 MSG_RATE_LIMIT = (
@@ -243,7 +243,7 @@ MSG_MUITO_LONGA = (
 
 MSG_ERRO_TECNICO = (
     "⚠️ Tive um problema técnico agora. Tente novamente em instantes ou "
-    "entre em contato pelo supportedssi@gmail.com."
+    f"entre em contato pelo {EMAIL_EDS}."
 )
 
 # ---------------------------------------------------------------------------
@@ -272,9 +272,9 @@ def cmd_suporte(mensagem):
     bot.send_message(
         chat_id,
         "🛠 *Suporte Geral*\n\n"
-        "Envie sua dúvida e eu te oriento da melhor forma.\n"
+        "Envie sua dúvida e eu vou orientar o melhor caminho.\n"
         "Se o assunto envolver análise de caso, documentos, cobrança ou dados sensíveis, "
-        "vou encaminhar para *supportedssi@gmail.com*.\n\n"
+        f"vou encaminhar para *{EMAIL_EDS}*.\n\n"
         "Se a dúvida depender de um aplicativo ou sistema específico, informe o nome da solução para eu te orientar melhor.",
         parse_mode="Markdown",
     )
