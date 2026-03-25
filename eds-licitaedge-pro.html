@@ -1,0 +1,1528 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>EDS LicitaEdge Pro — EDS Soluções Inteligentes</title>
+<link rel="manifest" href="./manifest-licitaedge.webmanifest">
+<meta name="theme-color" content="#071510">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+/* ============================================================
+   EDS LICITAEDGE PRO — DESIGN SYSTEM
+   Paleta oficial EDS Soluções Inteligentes
+   Verde escuro · Ouro · Branco
+   ============================================================ */
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+:root{
+  /* Backgrounds — Verde EDS escuro (extraído do logo) */
+  --bg:#071510;--bg2:#0a1c14;--bg3:#0d2018;--bg4:#102518;
+  --card:#122018;--card2:#162b1e;--card3:#1a3324;
+  /* Borders — verde com luminosidade gradual */
+  --b1:#1c3526;--b2:#254a34;--b3:#2e5e40;--b4:#3a7050;
+  /* EDS Gold — identidade da marca (fiel ao logo) */
+  --gold:#c9a84c;--gold2:#e8c86a;--gold3:#a07830;
+  --gold-bg:rgba(201,168,76,0.08);--gold-bg2:rgba(201,168,76,0.15);
+  /* Accent verde-jade — substitui o ciano, harmônico com a paleta */
+  --cyan:#4cba7a;--cyan2:#2d8f58;--cyan3:rgba(76,186,122,0.08);
+  /* Semânticas */
+  --green:#00cc88;--green-bg:rgba(0,204,136,0.08);
+  --amber:#f0a030;--amber-bg:rgba(240,160,48,0.08);
+  --red:#e85050;--red-bg:rgba(232,80,80,0.08);
+  --purple:#9080f0;--purple-bg:rgba(144,128,240,0.08);
+  /* Texto — branco-creme sobre fundo verde escuro */
+  --t1:#e8f2ec;--t2:#7a9e88;--t3:#3d6048;--t4:#1e3828;
+  /* Tipografia */
+  --sans:'Syne',sans-serif;--mono:'DM Mono',monospace;
+  /* Raios */
+  --r-sm:6px;--r-md:10px;--r-lg:14px;--r-xl:20px;
+}
+
+html,body{height:100%;overflow:hidden}
+body{font-family:var(--sans);background:var(--bg);color:var(--t1);display:flex;flex-direction:column;max-width:600px;margin:0 auto;position:relative}
+
+/* ---- SCROLLBAR ---- */
+::-webkit-scrollbar{width:3px;height:3px}
+::-webkit-scrollbar-thumb{background:var(--b3);border-radius:3px}
+
+/* ---- SETUP SCREEN ---- */
+#setup{
+  position:fixed;inset:0;max-width:600px;margin:0 auto;
+  background:var(--bg);z-index:500;
+  display:flex;flex-direction:column;align-items:center;
+  overflow-y:auto;padding:20px 18px 32px;
+}
+.setup-hero{text-align:center;margin:12px 0 22px}
+.eds-logo-mark{
+  width:64px;height:72px;
+  display:flex;align-items:center;justify-content:center;
+  margin:0 auto 14px;
+  filter:drop-shadow(0 0 20px rgba(201,168,76,0.25));
+}
+.setup-brand{font-size:11px;font-weight:700;letter-spacing:3px;color:var(--gold);text-transform:uppercase;margin-bottom:6px}
+.setup-product{font-size:28px;font-weight:800;color:#fff;letter-spacing:-0.5px;line-height:1}
+.setup-product span{color:var(--gold)}
+.setup-tagline{font-size:11px;color:var(--t3);letter-spacing:1.5px;text-transform:uppercase;margin-top:6px}
+
+.s-card{background:var(--card);border:1px solid var(--b2);border-radius:var(--r-lg);padding:18px;width:100%;margin-bottom:10px;animation:fadeUp .3s ease}
+.s-sec{font-size:9px;font-weight:700;color:var(--gold);letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;padding-bottom:7px;border-bottom:1px solid var(--b1)}
+.s-field{margin-bottom:9px}
+.s-field label{font-size:10px;color:var(--t2);font-weight:600;display:block;margin-bottom:4px;letter-spacing:.4px}
+.s-field input,.s-field select{
+  width:100%;padding:9px 12px;border:1px solid var(--b2);border-radius:var(--r-sm);
+  font-size:12px;color:var(--t1);background:var(--bg2);outline:none;
+  font-family:var(--sans);transition:border-color .2s,box-shadow .2s;
+}
+.s-field input:focus,.s-field select:focus{border-color:var(--gold);box-shadow:0 0 0 2px rgba(201,168,76,.08)}
+.s-field select option{background:var(--bg2)}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+
+#btn-start{
+  width:100%;padding:13px;background:var(--gold);border:none;border-radius:var(--r-md);
+  color:#000;font-size:13px;font-weight:800;cursor:pointer;font-family:var(--sans);
+  letter-spacing:.5px;transition:opacity .2s,transform .1s;margin-top:4px;
+}
+#btn-start:hover{opacity:.9;transform:translateY(-1px)}
+.s-note{margin-top:9px;background:var(--bg2);border-radius:var(--r-sm);padding:9px 12px;border:1px solid var(--b1)}
+.s-note p{font-size:10px;color:var(--t3);line-height:1.8}
+.s-note a{color:var(--gold);text-decoration:none;font-weight:600}
+
+/* ============================================================
+   APP SHELL
+   ============================================================ */
+#app{display:none;flex-direction:column;height:100vh;height:100dvh}
+#app.on{display:flex}
+
+/* ---- TOPBAR ---- */
+.topbar{
+  background:var(--bg2);padding:9px 14px;
+  display:flex;align-items:center;gap:10px;
+  border-bottom:1px solid var(--b1);flex-shrink:0;
+  position:relative;
+}
+.topbar-logo{
+  width:36px;height:36px;border-radius:9px;
+  background:var(--gold-bg2);border:1px solid var(--gold3);
+  display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;
+  overflow:hidden;
+}
+.topbar-text{flex:1;min-width:0}
+.topbar-product{font-size:13px;font-weight:800;color:#fff;letter-spacing:-.3px}
+.topbar-product span{color:var(--gold)}
+.topbar-empresa{font-size:9px;font-weight:600;color:var(--gold);letter-spacing:.6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.topbar-right{display:flex;align-items:center;gap:6px}
+.online-dot{width:6px;height:6px;border-radius:50%;background:var(--green);animation:pulse 2s infinite;flex-shrink:0}
+.topbar-badge{font-size:9px;font-weight:700;color:var(--green);letter-spacing:.5px}
+
+/* ---- ALERT BANNER ---- */
+.alert-banner{
+  background:var(--red-bg);border-bottom:1px solid rgba(232,80,80,.25);
+  padding:6px 14px;font-size:10px;color:var(--red);font-weight:600;
+  display:none;align-items:center;gap:8px;flex-shrink:0;cursor:pointer;
+  letter-spacing:.3px;
+}
+.alert-banner.show{display:flex}
+.alert-banner.warn{background:var(--amber-bg);border-bottom-color:rgba(240,160,48,.25);color:var(--amber)}
+
+/* ---- TABBAR ---- */
+.tabbar{
+  background:var(--bg3);display:flex;
+  border-bottom:1px solid var(--b1);flex-shrink:0;overflow-x:auto;scrollbar-width:none;
+}
+.tabbar::-webkit-scrollbar{display:none}
+.tab-btn{
+  flex-shrink:0;padding:8px 10px 7px;font-size:9px;font-weight:700;
+  color:var(--t3);text-align:center;cursor:pointer;border:none;background:transparent;
+  font-family:var(--sans);letter-spacing:.6px;text-transform:uppercase;
+  border-bottom:2px solid transparent;transition:color .15s,border-color .15s;
+  white-space:nowrap;
+}
+.tab-btn.on{color:var(--gold);border-bottom-color:var(--gold)}
+
+/* ---- CONTENT AREA ---- */
+.content{flex:1;overflow:hidden;display:flex;flex-direction:column;min-height:0}
+.panel{display:none;flex:1;flex-direction:column;overflow:hidden;min-height:0}
+.panel.on{display:flex}
+
+/* ============================================================
+   PANEL: CHAT
+   ============================================================ */
+.quick-bar{
+  background:var(--bg2);padding:7px 10px;display:flex;gap:5px;
+  overflow-x:auto;scrollbar-width:none;flex-shrink:0;border-bottom:1px solid var(--b1);
+}
+.quick-bar::-webkit-scrollbar{display:none}
+.qbtn{
+  background:var(--card);border:1px solid var(--b2);border-radius:var(--r-sm);
+  padding:5px 10px;font-size:10px;color:var(--t2);cursor:pointer;
+  white-space:nowrap;flex-shrink:0;font-family:var(--sans);font-weight:600;
+  transition:all .15s;letter-spacing:.3px;
+}
+.qbtn:hover{background:var(--gold-bg);border-color:var(--gold3);color:var(--gold)}
+
+.msgs{flex:1;overflow-y:auto;padding:10px;display:flex;flex-direction:column;gap:7px;min-height:0}
+.sess-badge{text-align:center;margin:3px 0}
+.sess-badge span{background:var(--card);color:var(--t3);font-size:9px;padding:2px 10px;border-radius:5px;font-family:var(--mono);letter-spacing:1px}
+
+.row{display:flex;animation:fadeUp .2s ease}
+.row.u{justify-content:flex-end}
+.row.b{justify-content:flex-start;align-items:flex-end;gap:7px}
+.av{width:28px;height:28px;border-radius:7px;flex-shrink:0;background:var(--gold-bg2);border:1px solid var(--gold3);display:flex;align-items:center;justify-content:center;font-size:13px}
+.bbl{max-width:83%;padding:9px 13px;font-size:12.5px;line-height:1.65;word-break:break-word}
+.bbl.u{background:linear-gradient(135deg,#0d2818,#163d24);color:var(--t1);border:1px solid rgba(201,168,76,.2);border-radius:12px 12px 3px 12px;white-space:pre-wrap}
+.bbl.b{background:var(--card);color:var(--t1);border:1px solid var(--b2);border-radius:12px 12px 12px 3px}
+.bbl p{margin-bottom:8px}.bbl p:last-child{margin-bottom:0}
+.bbl strong{color:var(--gold);font-weight:700}
+.bbl.u strong{color:#fff}
+.bbl ul,.bbl ol{margin:4px 0 8px 20px}.bbl li{margin-bottom:4px}
+.bbl table{width:100%;border-collapse:collapse;margin:10px 0;font-size:11px;overflow:hidden;border-radius:var(--r-sm);border-style:hidden;box-shadow:0 0 0 1px var(--b2)}
+.bbl th,.bbl td{border:1px solid var(--b2);padding:7px 9px;text-align:left}
+.bbl th{background:var(--bg3);color:var(--gold);font-weight:700;text-transform:uppercase;letter-spacing:0.5px}
+.bbl td{background:var(--bg2)}
+.bbl .mt{font-size:9px;color:var(--t3);text-align:right;margin-top:4px;font-family:var(--mono)}
+.bbl.u .mt{color:rgba(201,168,76,.35)}
+.bbl img{max-width:100%;border-radius:7px;margin-top:6px;display:block}
+.typing-r{display:flex;align-items:flex-end;gap:7px}
+.typing{background:var(--card);border:1px solid var(--b2);border-radius:12px;padding:9px 13px;display:flex;gap:4px;align-items:center}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--gold);animation:bounce 1.2s infinite}
+.dot:nth-child(2){animation-delay:.2s}.dot:nth-child(3){animation-delay:.4s}
+
+.inp-area{padding:8px 10px;background:var(--bg2);flex-shrink:0;border-top:1px solid var(--b1)}
+.att-bar{display:flex;gap:6px;margin-bottom:6px;flex-wrap:wrap}
+.att-btn{
+  display:flex;align-items:center;gap:5px;padding:5px 10px;
+  background:var(--card);border:1px solid var(--b2);border-radius:var(--r-sm);
+  color:var(--t2);font-size:10px;font-weight:600;cursor:pointer;font-family:var(--sans);
+  transition:all .15s;white-space:nowrap;
+}
+.att-btn:hover{background:var(--gold-bg);border-color:var(--gold3);color:var(--gold)}
+.att-btn svg{width:13px;height:13px;flex-shrink:0}
+.att-chips{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:6px}
+.att-chip{
+  background:var(--card);border:1px solid var(--b2);border-radius:var(--r-sm);
+  padding:3px 8px;font-size:10px;color:var(--t2);display:flex;align-items:center;gap:5px;font-family:var(--mono);
+}
+.att-chip button{background:none;border:none;color:var(--t3);cursor:pointer;font-size:11px;padding:0;line-height:1;transition:color .1s}
+.att-chip button:hover{color:var(--red)}
+.inp-row{display:flex;align-items:flex-end;gap:7px}
+.inp-box{flex:1;background:var(--card);border-radius:var(--r-md);padding:8px 12px;display:flex;align-items:flex-end;border:1px solid var(--b2);transition:border-color .2s}
+.inp-box:focus-within{border-color:rgba(201,168,76,.4)}
+textarea{border:none;resize:none;flex:1;font-size:12.5px;background:transparent;max-height:90px;line-height:1.5;color:var(--t1);font-family:var(--sans);outline:none}
+textarea::placeholder{color:var(--t4)}
+#sbtn{width:38px;height:38px;border-radius:var(--r-sm);border:none;background:var(--gold);color:#000;font-size:14px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:opacity .2s;font-weight:800}
+#sbtn:disabled{background:var(--b2);cursor:default;color:var(--t3)}
+#pdf-in,#cam-in{display:none}
+
+/* ============================================================
+   PANEL: PIPELINE
+   ============================================================ */
+.pipeline-wrap{flex:1;overflow-y:auto;padding:10px}
+.kpi-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin-bottom:12px}
+.kpi{background:var(--card);border:1px solid var(--b2);border-radius:var(--r-md);padding:8px 10px}
+.kpi-v{font-size:17px;font-weight:700;font-family:var(--mono);color:var(--t1);line-height:1}
+.kpi-l{font-size:8px;color:var(--t3);font-weight:600;letter-spacing:.5px;margin-top:3px;text-transform:uppercase}
+.kpi-v.gold{color:var(--gold)}.kpi-v.cyan{color:var(--cyan)}.kpi-v.green{color:var(--green)}.kpi-v.red{color:var(--red)}.kpi-v.amber{color:var(--amber)}
+
+.p-cols{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px}
+.p-cols::-webkit-scrollbar{height:3px}
+.p-col{min-width:180px;flex-shrink:0}
+.p-col-h{
+  font-size:9px;font-weight:700;color:var(--t2);padding:6px 9px;
+  border-radius:var(--r-sm) var(--r-sm) 0 0;background:var(--card2);
+  border:1px solid var(--b2);border-bottom:none;display:flex;justify-content:space-between;
+  align-items:center;letter-spacing:.5px;text-transform:uppercase;
+}
+.p-col-n{font-size:9px;background:var(--bg3);border-radius:7px;padding:1px 6px;color:var(--t3);font-family:var(--mono)}
+.p-col-b{background:var(--card2);border:1px solid var(--b2);border-top:none;border-radius:0 0 var(--r-sm) var(--r-sm);padding:6px;display:flex;flex-direction:column;gap:5px;min-height:150px}
+.p-card{background:var(--card);border:1px solid var(--b2);border-radius:var(--r-sm);padding:8px 10px;cursor:pointer;transition:border-color .15s,transform .1s;position:relative}
+.p-card:hover{border-color:var(--b3);transform:translateY(-1px)}
+.p-card-title{font-size:11px;font-weight:600;color:var(--t1);line-height:1.4;margin-bottom:3px}
+.p-card-org{font-size:9px;color:var(--t3);font-family:var(--mono);margin-bottom:3px}
+.p-card-val{font-size:11px;font-weight:700;color:var(--green);font-family:var(--mono);margin-bottom:4px}
+.p-badge{display:inline-block;font-size:8px;font-weight:700;padding:1px 6px;border-radius:7px;margin-right:3px}
+.pb-gold{background:var(--gold-bg2);color:var(--gold)}
+.pb-cyan{background:var(--cyan3);color:var(--cyan)}
+.pb-green{background:var(--green-bg);color:var(--green)}
+.pb-red{background:var(--red-bg);color:var(--red)}
+.pb-gray{background:rgba(255,255,255,.04);color:var(--t3)}
+.p-dl{font-size:9px;margin-top:3px;font-family:var(--mono)}
+.dl-ok{color:var(--green)}.dl-warn{color:var(--amber)}.dl-crit{color:var(--red)}
+.score-dot{width:7px;height:7px;border-radius:50%;position:absolute;top:8px;right:8px}
+.sd-hi{background:var(--green)}.sd-md{background:var(--amber)}.sd-lo{background:var(--red)}
+
+.add-btn{background:transparent;border:1px dashed var(--b2);border-radius:var(--r-sm);padding:7px;font-size:10px;color:var(--t3);cursor:pointer;font-family:var(--sans);width:100%;transition:all .15s;margin-top:2px}
+.add-btn:hover{border-color:var(--gold3);color:var(--gold)}
+
+/* ============================================================
+   PANEL: DOCUMENTOS
+   ============================================================ */
+.docs-wrap{flex:1;overflow-y:auto;padding:12px}
+.doc-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px}
+.doc-card{background:var(--card);border:1px solid var(--b2);border-radius:var(--r-lg);padding:14px;cursor:pointer;transition:all .15s}
+.doc-card:hover{border-color:var(--gold3);background:var(--gold-bg)}
+.doc-icon{font-size:22px;margin-bottom:8px}
+.doc-name{font-size:12px;font-weight:700;color:var(--t1);margin-bottom:3px}
+.doc-desc{font-size:10px;color:var(--t3);line-height:1.5}
+.doc-output{background:var(--card);border:1px solid var(--b2);border-radius:var(--r-lg);padding:14px}
+.doc-output-title{font-size:11px;font-weight:700;color:var(--gold);letter-spacing:.5px;margin-bottom:10px;text-transform:uppercase}
+.doc-text{font-size:11px;color:var(--t1);line-height:1.7;white-space:pre-wrap;font-family:var(--mono);max-height:300px;overflow-y:auto;background:var(--bg2);padding:12px;border-radius:var(--r-sm);border:1px solid var(--b1)}
+.doc-btns{display:flex;gap:7px;margin-top:10px;flex-wrap:wrap}
+.doc-btn{padding:7px 14px;border-radius:var(--r-sm);border:none;font-family:var(--sans);font-size:10px;font-weight:700;cursor:pointer;transition:all .15s}
+.doc-btn.primary{background:var(--gold);color:#000}
+.doc-btn.secondary{background:var(--card2);color:var(--t1);border:1px solid var(--b2)}
+.doc-btn:hover{opacity:.85}
+.doc-form{background:var(--card);border:1px solid var(--b2);border-radius:var(--r-lg);padding:14px;margin-bottom:10px}
+.doc-form h3{font-size:11px;font-weight:700;color:var(--gold);letter-spacing:.5px;margin-bottom:10px;text-transform:uppercase}
+.df-field{margin-bottom:8px}
+.df-field label{font-size:10px;color:var(--t2);font-weight:600;display:block;margin-bottom:3px}
+.df-field input,.df-field textarea,.df-field select{width:100%;padding:7px 10px;border:1px solid var(--b2);border-radius:var(--r-sm);font-size:11px;color:var(--t1);background:var(--bg2);outline:none;font-family:var(--sans);resize:vertical}
+.df-field input:focus,.df-field textarea:focus,.df-field select:focus{border-color:var(--gold)}
+
+/* ============================================================
+   PANEL: CHECKLIST
+   ============================================================ */
+.check-wrap{flex:1;overflow-y:auto;padding:12px}
+.check-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin-bottom:14px}
+.cs-card{background:var(--card);border:1px solid var(--b2);border-radius:var(--r-md);padding:10px}
+.cs-v{font-size:20px;font-weight:700;font-family:var(--mono)}
+.cs-l{font-size:9px;color:var(--t3);font-weight:600;text-transform:uppercase;letter-spacing:.4px;margin-top:2px}
+.cs-v.ok{color:var(--green)}.cs-v.warn{color:var(--amber)}.cs-v.exp{color:var(--red)}
+.cert-group{margin-bottom:12px}
+.cert-group-title{font-size:10px;font-weight:700;color:var(--gold);letter-spacing:1px;text-transform:uppercase;margin-bottom:7px;padding-bottom:5px;border-bottom:1px solid var(--b1)}
+.cert-row{display:flex;align-items:center;gap:10px;padding:8px 10px;background:var(--card);border:1px solid var(--b2);border-radius:var(--r-sm);margin-bottom:5px;cursor:pointer;transition:border-color .1s}
+.cert-row:hover{border-color:var(--b3)}
+.cert-status{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.cs-ok{background:var(--green)}.cs-warn{background:var(--amber)}.cs-exp{background:var(--red)}.cs-pend{background:var(--t4)}
+.cert-name{flex:1;font-size:11px;color:var(--t1);font-weight:500}
+.cert-date{font-size:10px;font-family:var(--mono);color:var(--t3)}
+.cert-link{font-size:9px;font-weight:700;color:var(--cyan);background:var(--cyan3);padding:2px 7px;border-radius:5px;white-space:nowrap;text-decoration:none}
+.add-cert-btn{width:100%;padding:8px;border:1px dashed var(--b2);border-radius:var(--r-sm);background:transparent;color:var(--t3);font-size:10px;cursor:pointer;font-family:var(--sans);transition:all .15s;margin-top:4px}
+.add-cert-btn:hover{border-color:var(--gold3);color:var(--gold)}
+
+/* ============================================================
+   PANEL: CALCULADORA
+   ============================================================ */
+.calc-wrap{flex:1;overflow-y:auto;padding:12px}
+.calc-result-box{background:var(--gold-bg2);border:1px solid var(--gold3);border-radius:var(--r-lg);padding:14px;margin-bottom:14px;text-align:center}
+.calc-price-label{font-size:10px;color:var(--gold);font-weight:700;letter-spacing:1px;text-transform:uppercase;margin-bottom:4px}
+.calc-price{font-size:32px;font-weight:800;color:var(--gold);font-family:var(--mono)}
+.calc-price-sub{font-size:10px;color:var(--t2);margin-top:4px}
+.calc-grid{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:12px}
+.calc-card{background:var(--card);border:1px solid var(--b2);border-radius:var(--r-md);padding:10px}
+.calc-card-label{font-size:9px;color:var(--t3);text-transform:uppercase;letter-spacing:.5px;margin-bottom:3px}
+.calc-card-val{font-size:14px;font-weight:700;font-family:var(--mono);color:var(--t1)}
+.calc-section{font-size:10px;font-weight:700;color:var(--gold);letter-spacing:1px;text-transform:uppercase;margin:14px 0 8px;padding-bottom:5px;border-bottom:1px solid var(--b1)}
+.calc-row{display:flex;align-items:center;gap:10px;margin-bottom:7px}
+.calc-row label{font-size:11px;color:var(--t2);flex:1}
+.calc-row input,.calc-row select{width:120px;padding:6px 9px;border:1px solid var(--b2);border-radius:var(--r-sm);font-size:11px;color:var(--t1);background:var(--bg2);outline:none;font-family:var(--mono);text-align:right}
+.calc-row input:focus,.calc-row select:focus{border-color:var(--gold)}
+.calc-alert{background:var(--red-bg);border:1px solid rgba(232,80,80,.25);border-radius:var(--r-sm);padding:8px 12px;font-size:10px;color:var(--red);margin-top:8px;display:none}
+.calc-alert.show{display:block}
+.calc-ok{background:var(--green-bg);border:1px solid rgba(0,204,136,.25);border-radius:var(--r-sm);padding:8px 12px;font-size:10px;color:var(--green);margin-top:8px;display:none}
+.calc-ok.show{display:block}
+
+/* ============================================================
+   PANEL: ANALYTICS
+   ============================================================ */
+.analytics-wrap{flex:1;overflow-y:auto;padding:12px}
+.an-kpi-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:14px}
+.an-kpi{background:var(--card);border:1px solid var(--b2);border-radius:var(--r-lg);padding:12px}
+.an-kpi-v{font-size:26px;font-weight:700;font-family:var(--mono);color:var(--t1)}
+.an-kpi-l{font-size:10px;color:var(--t3);margin-top:2px}
+.an-kpi-sub{font-size:10px;color:var(--t2);margin-top:4px}
+.an-kpi-v.gold{color:var(--gold)}.an-kpi-v.green{color:var(--green)}.an-kpi-v.cyan{color:var(--cyan)}.an-kpi-v.amber{color:var(--amber)}
+.bar-chart{background:var(--card);border:1px solid var(--b2);border-radius:var(--r-lg);padding:14px;margin-bottom:10px}
+.bar-chart-title{font-size:10px;font-weight:700;color:var(--gold);letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px}
+.bar-row{display:flex;align-items:center;gap:8px;margin-bottom:7px}
+.bar-row-label{font-size:10px;color:var(--t2);width:90px;flex-shrink:0;text-align:right}
+.bar-track{flex:1;height:16px;background:var(--bg3);border-radius:3px;overflow:hidden;position:relative}
+.bar-fill{height:100%;border-radius:3px;transition:width .5s ease;display:flex;align-items:center;padding-right:6px;justify-content:flex-end}
+.bar-fill-val{font-size:9px;font-weight:700;font-family:var(--mono);color:#000}
+.roi-box{background:var(--gold-bg2);border:1px solid var(--gold3);border-radius:var(--r-lg);padding:14px;text-align:center}
+.roi-title{font-size:10px;font-weight:700;color:var(--gold);letter-spacing:1px;text-transform:uppercase;margin-bottom:6px}
+.roi-val{font-size:36px;font-weight:800;color:var(--gold);font-family:var(--mono)}
+.roi-desc{font-size:11px;color:var(--t2);margin-top:6px;line-height:1.6}
+
+/* ============================================================
+   MODAIS
+   ============================================================ */
+.modal-overlay{
+  display:none;position:absolute;inset:0;background:rgba(0,0,0,.8);
+  z-index:400;align-items:flex-end;justify-content:center;
+}
+.modal-overlay.open{display:flex}
+.modal-box{
+  background:var(--card);border:1px solid var(--b3);border-radius:var(--r-xl) var(--r-xl) 0 0;
+  padding:18px;width:100%;animation:slideUp .25s ease;max-height:88vh;overflow-y:auto;
+}
+.modal-box.center{border-radius:var(--r-xl);margin:20px;max-height:calc(100vh - 40px)}
+.modal-h{font-size:13px;font-weight:700;color:var(--t1);margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.modal-h .mh-gold{color:var(--gold)}
+.mf{margin-bottom:9px}
+.mf label{font-size:10px;color:var(--t2);font-weight:600;display:block;margin-bottom:3px}
+.mf input,.mf select,.mf textarea{width:100%;padding:8px 10px;border:1px solid var(--b2);border-radius:var(--r-sm);font-size:11px;color:var(--t1);background:var(--bg2);outline:none;font-family:var(--sans);resize:none}
+.mf input:focus,.mf select:focus,.mf textarea:focus{border-color:var(--gold)}
+.modal-btns{display:flex;gap:8px;margin-top:12px}
+.mbtn{flex:1;padding:9px;border-radius:var(--r-sm);border:none;font-family:var(--sans);font-size:11px;font-weight:700;cursor:pointer;transition:opacity .2s}
+.mbtn.p{background:var(--gold);color:#000}
+.mbtn.s{background:var(--b2);color:var(--t1)}
+.mbtn:hover{opacity:.85}
+
+/* Detail modal buttons */
+.d-btns{display:flex;gap:6px;margin-top:12px;flex-wrap:wrap}
+.dbtn{padding:7px 12px;border-radius:var(--r-sm);border:none;font-family:var(--sans);font-size:10px;font-weight:700;cursor:pointer;transition:all .15s}
+.dbtn.ask{background:var(--gold-bg2);color:var(--gold);border:1px solid var(--gold3)}
+.dbtn.move{background:var(--green-bg);color:var(--green);border:1px solid rgba(0,204,136,.25)}
+.dbtn.doc{background:var(--purple-bg);color:var(--purple);border:1px solid rgba(144,128,240,.25)}
+.dbtn.del{background:var(--red-bg);color:var(--red);border:1px solid rgba(232,80,80,.2)}
+.dbtn.cls{background:var(--b2);color:var(--t1)}
+.dbtn:hover{opacity:.85}
+.d-row{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid var(--b1)}
+.d-row:last-of-type{border-bottom:none}
+.dr-l{font-size:11px;color:var(--t2)}
+.dr-v{font-size:11px;font-weight:600;color:var(--t1);font-family:var(--mono)}
+
+/* CAMERA */
+#cam-modal{display:none;position:absolute;inset:0;background:rgba(0,0,0,.9);z-index:600;flex-direction:column;align-items:center;justify-content:center;padding:20px}
+#cam-modal.open{display:flex}
+#cam-video{width:100%;max-width:420px;border-radius:var(--r-lg);background:#000}
+.cam-btns{display:flex;gap:10px;margin-top:14px}
+.cam-btn{padding:10px 22px;border-radius:var(--r-md);border:none;font-family:var(--sans);font-size:12px;font-weight:700;cursor:pointer;transition:opacity .2s}
+.cam-btn.snap{background:var(--gold);color:#000}
+.cam-btn.cancel{background:var(--b2);color:var(--t1)}
+.cam-btn:hover{opacity:.85}
+#cam-canvas{display:none}
+
+/* FOOTER */
+.footer{
+  background:var(--bg);padding:5px 14px;text-align:center;font-size:9px;
+  color:var(--t4);flex-shrink:0;border-top:1px solid var(--b1);
+  font-family:var(--mono);letter-spacing:.4px;
+}
+
+/* ============================================================
+   ANIMATIONS
+   ============================================================ */
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes slideUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes bounce{0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-5px)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+@keyframes shimmer{0%{opacity:.5}50%{opacity:1}100%{opacity:.5}}
+</style>
+</head>
+<body>
+<!-- Script para puxar a chave externa -->
+<script src="./config-chave.js"></script>
+<!-- ============================================================
+     SETUP
+     ============================================================ -->
+<div id="setup">
+  <div class="setup-hero">
+    <div class="eds-logo-mark">
+      <svg width="64" height="72" viewBox="0 0 64 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M32 2L4 14V38C4 53 16.5 66 32 70C47.5 66 60 53 60 38V14L32 2Z" fill="#163d24" stroke="#c9a84c" stroke-width="2.5"/>
+        <line x1="14" y1="24" x2="30" y2="24" stroke="white" stroke-width="3.5" stroke-linecap="round"/>
+        <line x1="14" y1="31" x2="30" y2="31" stroke="white" stroke-width="3.5" stroke-linecap="round"/>
+        <line x1="14" y1="38" x2="30" y2="38" stroke="white" stroke-width="3.5" stroke-linecap="round"/>
+        <path d="M30 20 C30 20 44 20 44 31 C44 42 30 42 30 42" stroke="white" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+        <path d="M13 47 Q22 43 32 47 Q42 51 51 47" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+        <rect x="18" y="52" width="28" height="13" rx="3" fill="#c9a84c" opacity="0.15" stroke="#c9a84c" stroke-width="1"/>
+        <text x="32" y="62" text-anchor="middle" font-family="sans-serif" font-size="4.5" font-weight="700" fill="#c9a84c" letter-spacing="0.5">SOLUÇÕES</text>
+      </svg>
+    </div>
+    <div class="setup-brand">EDS Soluções Inteligentes</div>
+    <div class="setup-product">Licita<span>Edge</span> Pro</div>
+    <div class="setup-tagline">Plataforma de Inteligência Licitatória</div>
+  </div>
+
+  <div class="s-card">
+    <div class="s-sec">🏢 Perfil da empresa</div>
+    <div class="s-field"><label>Razão Social</label><input id="s-razao" type="text" placeholder="Ex: Distribuidora Sertão Norte Ltda"/></div>
+    <div class="g2">
+      <div class="s-field"><label>CNPJ</label><input id="s-cnpj" type="text" placeholder="00.000.000/0001-00"/></div>
+      <div class="s-field"><label>Regime Tributário</label>
+        <select id="s-regime">
+          <option value="">Selecione</option>
+          <option>Simples Nacional</option>
+          <option>Lucro Presumido</option>
+          <option>Lucro Real</option>
+          <option>MEI</option>
+        </select>
+      </div>
+    </div>
+    <div class="s-field"><label>Segmento Principal</label>
+      <select id="s-seg">
+        <option value="">Selecione</option>
+        <option>TI — Hardware e Software</option>
+        <option>Materiais de Escritório</option>
+        <option>Limpeza e Conservação</option>
+        <option>Alimentação e Gêneros</option>
+        <option>Saúde — Medicamentos</option>
+        <option>Saúde — Equipamentos</option>
+        <option>Combustíveis e Lubrificantes</option>
+        <option>Obras e Engenharia Civil</option>
+        <option>Veículos e Máquinas</option>
+        <option>Segurança e Vigilância</option>
+        <option>Consultoria Técnica</option>
+        <option>Manutenção Predial</option>
+        <option>Outros</option>
+      </select>
+    </div>
+    <div class="g2">
+      <div class="s-field"><label>Porte</label>
+        <select id="s-porte">
+          <option value="">Selecione</option>
+          <option>MEI</option>
+          <option>Microempresa (ME)</option>
+          <option>Pequeno Porte (EPP)</option>
+          <option>Médio Porte</option>
+          <option>Grande Empresa</option>
+        </select>
+      </div>
+      <div class="s-field"><label>Volume mensal</label>
+        <select id="s-vol">
+          <option value="">Selecione</option>
+          <option>1–10 proc./mês</option>
+          <option>11–30 proc./mês</option>
+          <option>31–80 proc./mês</option>
+          <option>80+ proc./mês</option>
+        </select>
+      </div>
+    </div>
+    <div class="s-field"><label>Estados de atuação</label><input id="s-estados" type="text" placeholder="Ex: PE, PB, CE, RN, BA"/></div>
+  </div>
+
+  <div class="s-card">
+    <div class="s-sec">🔑 Acesso à IA</div>
+    <div class="s-field"><label>Chave de API Google Gemini</label><input id="s-key" type="password" placeholder="AIzaSy..."/></div>
+    <button id="btn-start" onclick="startApp()">🛡️ Ativar EDS LicitaEdge Pro</button>
+    <div class="s-note">
+      <p>🔑 Obtenha sua chave gratuita em <a href="https://aistudio.google.com/app/apikey" target="_blank">aistudio.google.com</a>.<br>
+      🔒 Todos os dados ficam exclusivamente neste dispositivo. Nenhuma informação é enviada a terceiros além do Google para processamento da IA.<br>
+      💾 Pipeline e certidões são salvos automaticamente neste navegador.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     APP
+     ============================================================ -->
+<div id="app">
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="topbar-logo">
+      <svg width="28" height="32" viewBox="0 0 64 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M32 2L4 14V38C4 53 16.5 66 32 70C47.5 66 60 53 60 38V14L32 2Z" fill="#163d24" stroke="#c9a84c" stroke-width="3"/>
+        <line x1="14" y1="25" x2="30" y2="25" stroke="white" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="33" x2="30" y2="33" stroke="white" stroke-width="4" stroke-linecap="round"/>
+        <line x1="14" y1="41" x2="30" y2="41" stroke="white" stroke-width="4" stroke-linecap="round"/>
+        <path d="M30 21 C30 21 45 21 45 33 C45 45 30 45 30 45" stroke="white" stroke-width="4" stroke-linecap="round" fill="none"/>
+        <path d="M13 50 Q22 46 32 50 Q42 54 51 50" stroke="#c9a84c" stroke-width="3" stroke-linecap="round" fill="none"/>
+      </svg>
+    </div>
+    <div class="topbar-text">
+      <div class="topbar-product">Licita<span>Edge</span> <span style="color:var(--t3);font-size:9px;font-weight:600">PRO</span></div>
+      <div class="topbar-empresa" id="top-empresa">EDS Soluções Inteligentes</div>
+    </div>
+    <div class="topbar-right">
+      <button onclick="openBackup()" style="background:var(--card2);border:1px solid var(--b2);color:var(--gold);padding:4px 8px;border-radius:4px;font-size:10px;cursor:pointer;font-family:var(--sans);font-weight:700">Backup</button>
+      <div class="online-dot"></div>
+      <span class="topbar-badge">ONLINE</span>
+    </div>
+  </div>
+
+  <!-- Alert banner -->
+  <div class="alert-banner" id="alert-banner" onclick="showTab('pipeline')">
+    <span id="alert-txt">⚠️ Processos com prazo crítico</span>
+    <span style="margin-left:auto;font-size:9px;opacity:.7">→ Ver pipeline</span>
+  </div>
+
+  <!-- Tabbar -->
+  <div class="tabbar">
+    <button class="tab-btn on" onclick="showTab('chat')">💬 Assistente</button>
+    <button class="tab-btn" onclick="showTab('pipeline')">📋 Pipeline</button>
+    <button class="tab-btn" onclick="showTab('docs')">📝 Documentos</button>
+    <button class="tab-btn" onclick="showTab('check')">✅ Habilitação</button>
+    <button class="tab-btn" onclick="showTab('calc')">💰 Preço</button>
+    <button class="tab-btn" onclick="showTab('an')">📊 Analytics</button>
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+
+    <!-- ---- CHAT ---- -->
+    <div class="panel on" id="panel-chat">
+      <div class="quick-bar">
+        <button class="qbtn" onclick="qs('Preciso analisar um edital. Identifique habilitação, prazos, possíveis restrições e me dê um score de viabilidade.')">📋 Analisar edital</button>
+        <button class="qbtn" onclick="qs('Como montar estratégia de lance vencedora para pregão eletrônico? Considere meu regime e porte.')">💰 Estratégia lance</button>
+        <button class="qbtn" onclick="qs('Liste todos os documentos de habilitação que preciso ter atualizados para licitações federais, estaduais e municipais.')">📁 Habilitação</button>
+        <button class="qbtn" onclick="qs('Como identificar e impugnar cláusulas restritivas? Prazo, forma, artigos aplicáveis.')">⚠️ Impugnar edital</button>
+        <button class="qbtn" onclick="qs('Fui desclassificado/inabilitado. Oriente como estruturar recurso administrativo eficaz com base na Lei 14.133/2021.')">🛡️ Recurso</button>
+        <button class="qbtn" onclick="qs('Quais benefícios da LC 123/2006 posso usar? Empate ficto, cota exclusiva, regularização na sessão.')">🏅 ME/EPP</button>
+        <button class="qbtn" onclick="qs('Como calcular BDI correto e encargos para formação de preço em licitação pública?')">🧮 BDI/Encargos</button>
+        <button class="qbtn" onclick="qs('Como solicitar reequilíbrio econômico-financeiro no contrato? Artigos e procedimento.')">⚖️ Reequilíbrio</button>
+      </div>
+      <div class="msgs" id="msgs">
+        <div class="sess-badge"><span>EDS LICITAEDGE PRO — SESSÃO INICIADA</span></div>
+      </div>
+      <div class="inp-area">
+        <div class="att-bar">
+          <button class="att-btn" onclick="document.getElementById('pdf-in').click()">
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="2" y="1" width="10" height="14" rx="2"/><line x1="5" y1="5" x2="9" y2="5"/><line x1="5" y1="8" x2="9" y2="8"/><line x1="5" y1="11" x2="7" y2="11"/></svg>
+            Anexar PDF
+          </button>
+          <button class="att-btn" onclick="openCam()">
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="14" height="10" rx="2"/><circle cx="8" cy="9" r="3"/><path d="M5 4l1-2h4l1 2"/></svg>
+            Câmera
+          </button>
+          <button class="att-btn" onclick="document.getElementById('cam-in').click()">
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="1" y="2" width="14" height="12" rx="2"/><circle cx="8" cy="8" r="3"/></svg>
+            Galeria
+          </button>
+        </div>
+        <div class="att-chips" id="att-chips"></div>
+        <div class="inp-row">
+          <div class="inp-box">
+            <textarea id="inp" rows="1" placeholder="Consulte sobre edital, estratégia, habilitação, preço..." onkeydown="hkey(event)" oninput="arz(this)"></textarea>
+          </div>
+          <button id="sbtn" onclick="sendMsg()">➤</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---- PIPELINE ---- -->
+    <div class="panel" id="panel-pipeline">
+      <div class="pipeline-wrap">
+        <div class="kpi-grid">
+          <div class="kpi"><div class="kpi-v cyan" id="kpi-tot">0</div><div class="kpi-l">Pipeline</div></div>
+          <div class="kpi"><div class="kpi-v gold" id="kpi-val">R$0</div><div class="kpi-l">Valor total</div></div>
+          <div class="kpi"><div class="kpi-v red" id="kpi-urg">0</div><div class="kpi-l">Críticos</div></div>
+          <div class="kpi"><div class="kpi-v green" id="kpi-cont">0</div><div class="kpi-l">Contratos</div></div>
+        </div>
+        <div class="p-cols" id="p-cols"></div>
+      </div>
+    </div>
+
+    <!-- ---- DOCUMENTOS ---- -->
+    <div class="panel" id="panel-docs">
+      <div class="docs-wrap">
+        <div id="doc-selector">
+          <div style="font-size:10px;font-weight:700;color:var(--gold);letter-spacing:1px;text-transform:uppercase;margin-bottom:10px">Selecione o documento</div>
+          <div class="doc-grid">
+            <div class="doc-card" onclick="openDocForm('impugnacao')"><div class="doc-icon">⚠️</div><div class="doc-name">Impugnação de edital</div><div class="doc-desc">Questiona cláusulas restritivas ou ilegais antes da sessão</div></div>
+            <div class="doc-card" onclick="openDocForm('recurso-inab')"><div class="doc-icon">🛡️</div><div class="doc-name">Recurso — inabilitação</div><div class="doc-desc">Contesta decisão de inabilitação em fase de habilitação</div></div>
+            <div class="doc-card" onclick="openDocForm('recurso-desc')"><div class="doc-icon">📣</div><div class="doc-name">Recurso — desclassificação</div><div class="doc-desc">Contesta desclassificação da proposta técnica ou de preço</div></div>
+            <div class="doc-card" onclick="openDocForm('esclarecimento')"><div class="doc-icon">❓</div><div class="doc-name">Pedido de esclarecimento</div><div class="doc-desc">Solicita esclarecimentos sobre itens do edital</div></div>
+            <div class="doc-card" onclick="openDocForm('reequilibrio')"><div class="doc-icon">⚖️</div><div class="doc-name">Reequilíbrio contratual</div><div class="doc-desc">Pedido formal de revisão por fato superveniente</div></div>
+            <div class="doc-card" onclick="openDocForm('contrarrazoes')"><div class="doc-icon">📋</div><div class="doc-name">Contrarrazões de recurso</div><div class="doc-desc">Resposta à impugnação ou recurso de outro licitante</div></div>
+          </div>
+        </div>
+        <div id="doc-form-area" style="display:none"></div>
+        <div id="doc-result" style="display:none">
+          <div class="doc-output">
+            <div class="doc-output-title" id="doc-result-title">Documento gerado</div>
+            <div class="doc-text" id="doc-result-text"></div>
+            <div class="doc-btns">
+              <button class="doc-btn primary" onclick="downloadDoc()">⬇ Baixar .txt</button>
+              <button class="doc-btn secondary" onclick="copyDoc()">📋 Copiar</button>
+              <button class="doc-btn secondary" onclick="backToDocSelector()">← Novo documento</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---- CHECKLIST ---- -->
+    <div class="panel" id="panel-check">
+      <div class="check-wrap">
+        <div class="check-summary">
+          <div class="cs-card"><div class="cs-v ok" id="cert-ok">0</div><div class="cs-l">Em dia</div></div>
+          <div class="cs-card"><div class="cs-v warn" id="cert-warn">0</div><div class="cs-l">Vencendo</div></div>
+          <div class="cs-card"><div class="cs-v exp" id="cert-exp">0</div><div class="cs-l">Vencidas</div></div>
+        </div>
+        <div id="cert-groups"></div>
+        <button class="add-cert-btn" onclick="openAddCert()">+ Adicionar certidão</button>
+      </div>
+    </div>
+
+    <!-- ---- CALCULADORA ---- -->
+    <div class="panel" id="panel-calc">
+      <div class="calc-wrap">
+        <div class="calc-result-box">
+          <div class="calc-price-label">Preço de venda sugerido</div>
+          <div class="calc-price" id="calc-price">R$ 0,00</div>
+          <div class="calc-price-sub" id="calc-price-sub">Preencha os campos abaixo</div>
+        </div>
+        <div class="calc-grid">
+          <div class="calc-card"><div class="calc-card-label">Custo direto</div><div class="calc-card-val" id="cc-custo">R$ 0</div></div>
+          <div class="calc-card"><div class="calc-card-label">Encargos</div><div class="calc-card-val" id="cc-enc">R$ 0</div></div>
+          <div class="calc-card"><div class="calc-card-label">Impostos</div><div class="calc-card-val" id="cc-imp">R$ 0</div></div>
+          <div class="calc-card"><div class="calc-card-label">Margem de lucro</div><div class="calc-card-val" id="cc-mar">R$ 0</div></div>
+        </div>
+
+        <div class="calc-section">Custos diretos</div>
+        <div class="calc-row"><label>Custo direto do produto/serviço (R$)</label><input id="ci-custo" type="number" value="0" min="0" oninput="calcPreco()"/></div>
+        <div class="calc-row"><label>Despesas operacionais adicionais (%)</label><input id="ci-desp" type="number" value="5" min="0" max="50" step=".5" oninput="calcPreco()"/></div>
+
+        <div class="calc-section">Regime tributário e impostos</div>
+        <div class="calc-row">
+          <label>Regime</label>
+          <select id="ci-regime" onchange="calcPreco()">
+            <option value="sn1">Simples Nacional — Anexo I (Comércio) ~4%</option>
+            <option value="sn2">Simples Nacional — Anexo III (Serviços) ~6%</option>
+            <option value="sn3">Simples Nacional — Anexo IV (Construção) ~4,5%</option>
+            <option value="lp">Lucro Presumido ~11,33%</option>
+            <option value="lr">Lucro Real ~13,25%</option>
+            <option value="mei">MEI — Isento de IRPJ/CSLL ~0%</option>
+          </select>
+        </div>
+
+        <div class="calc-section">Encargos (para serviços com mão de obra)</div>
+        <div class="calc-row"><label>% Encargos trabalhistas sobre MO</label><input id="ci-enc" type="number" value="0" min="0" max="100" step="1" oninput="calcPreco()"/></div>
+
+        <div class="calc-section">BDI (Obras e Engenharia)</div>
+        <div class="calc-row"><label>% BDI sobre custo direto</label><input id="ci-bdi" type="number" value="0" min="0" max="60" step=".5" oninput="calcPreco()"/></div>
+
+        <div class="calc-section">Margem e estratégia</div>
+        <div class="calc-row"><label>Margem de lucro desejada (%)</label><input id="ci-mar" type="number" value="12" min="0" max="100" step=".5" oninput="calcPreco()"/></div>
+        <div class="calc-row"><label>Lance mínimo aceitável (%)</label><input id="ci-min" type="number" value="5" min="0" max="100" step=".5" oninput="calcPreco()"/></div>
+
+        <div class="calc-alert" id="calc-alert"></div>
+        <div class="calc-ok" id="calc-ok"></div>
+
+        <div style="margin-top:12px;display:flex;gap:8px">
+          <button class="doc-btn primary" style="flex:1" onclick="exportMemoriaCalculo()">⬇ Exportar memória de cálculo</button>
+          <button class="doc-btn secondary" onclick="qs('Revise meu preço: custo direto R$'+document.getElementById('ci-custo').value+', regime '+document.getElementById('ci-regime').options[document.getElementById('ci-regime').selectedIndex].text+'. Está adequado para licitação pública?')">🎯 Revisar com IA</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---- ANALYTICS ---- -->
+    <div class="panel" id="panel-an">
+      <div class="analytics-wrap">
+        <div class="an-kpi-grid">
+          <div class="an-kpi"><div class="an-kpi-v gold" id="an-taxa">—</div><div class="an-kpi-l">Taxa de vitória</div><div class="an-kpi-sub" id="an-taxa-sub">Sem dados suficientes</div></div>
+          <div class="an-kpi"><div class="an-kpi-v cyan" id="an-vol">0</div><div class="an-kpi-l">Total disputados</div><div class="an-kpi-sub">No pipeline atual</div></div>
+          <div class="an-kpi"><div class="an-kpi-v green" id="an-ganhos">R$0</div><div class="an-kpi-l">Valor em contratos</div><div class="an-kpi-sub">Etapa contrato ativo</div></div>
+          <div class="an-kpi"><div class="an-kpi-v amber" id="an-pipeline">R$0</div><div class="an-kpi-l">Valor em disputa</div><div class="an-kpi-sub">Etapas 1–4</div></div>
+        </div>
+
+        <div class="bar-chart">
+          <div class="bar-chart-title">Distribuição por etapa</div>
+          <div id="stage-bars"></div>
+        </div>
+
+        <div class="bar-chart">
+          <div class="bar-chart-title">Distribuição por modalidade</div>
+          <div id="modal-bars"></div>
+        </div>
+
+        <div class="roi-box">
+          <div class="roi-title">ROI estimado — EDS LicitaEdge Pro</div>
+          <div class="roi-val" id="roi-val">—</div>
+          <div class="roi-desc" id="roi-desc">Registre processos ganhos e perdidos no pipeline para calcular seu ROI real com a plataforma.</div>
+        </div>
+
+        <div style="margin-top:12px;display:flex;gap:8px">
+          <button class="doc-btn primary" style="flex:1" onclick="exportRelatorio()">📊 Exportar relatório EDS</button>
+          <button class="doc-btn secondary" onclick="qs('Com base no meu pipeline atual, quais ajustes estratégicos devo fazer para aumentar minha taxa de vitória em licitações?')">🎯 Análise IA</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">🛡️ EDS LICITAEDGE PRO · EDS SOLUÇÕES INTELIGENTES · LEI 14.133/2021 · USO EXCLUSIVO DO FORNECEDOR</div>
+</div>
+
+<!-- MODAIS -->
+<div class="modal-overlay" id="modal-add"><div class="modal-box">
+  <div class="modal-h">➕ <span class="mh-gold">Nova oportunidade</span></div>
+  <div class="mf"><label>Objeto / Descrição</label><input id="m-tit" type="text" placeholder="Ex: Fornecimento de notebooks — 50 un."/></div>
+  <div class="mf"><label>Órgão / Entidade</label><input id="m-org" type="text" placeholder="Ex: Prefeitura de Salgueiro PE"/></div>
+  <div class="g2" style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+    <div class="mf"><label>Valor estimado (R$)</label><input id="m-val" type="number" placeholder="180000"/></div>
+    <div class="mf"><label>Score viabilidade (1-10)</label><input id="m-score" type="number" min="1" max="10" value="7"/></div>
+  </div>
+  <div class="mf"><label>Modalidade</label>
+    <select id="m-modal"><option>Pregão Eletrônico</option><option>Pregão Presencial</option><option>Concorrência</option><option>Dispensa</option><option>Inexigibilidade</option><option>RDC</option><option>Concurso</option></select>
+  </div>
+  <div class="mf"><label>Prazo / Observação</label><input id="m-prazo" type="text" placeholder="Ex: Sessão em 5 dias · 15/07/2025"/></div>
+  <div class="mf"><label>Etapa inicial</label>
+    <select id="m-etapa"><option value="0">Prospecção</option><option value="1">Qualificação</option><option value="2">Preparação</option><option value="3">Disputa</option><option value="4">Contrato Ativo</option></select>
+  </div>
+  <div class="modal-btns"><button class="mbtn s" onclick="closeModal('modal-add')">Cancelar</button><button class="mbtn p" onclick="saveCard()">Salvar</button></div>
+</div></div>
+
+<div class="modal-overlay" id="modal-detail"><div class="modal-box">
+  <div class="modal-h">📋 <span class="mh-gold" id="d-tit">—</span></div>
+  <div class="d-row"><span class="dr-l">Órgão</span><span class="dr-v" id="d-org">—</span></div>
+  <div class="d-row"><span class="dr-l">Valor</span><span class="dr-v" id="d-val">—</span></div>
+  <div class="d-row"><span class="dr-l">Modalidade</span><span class="dr-v" id="d-mod">—</span></div>
+  <div class="d-row"><span class="dr-l">Prazo</span><span class="dr-v" id="d-prazo">—</span></div>
+  <div class="d-row"><span class="dr-l">Etapa</span><span class="dr-v" id="d-etapa">—</span></div>
+  <div class="d-row"><span class="dr-l">Score</span><span class="dr-v" id="d-score">—</span></div>
+  <div class="d-btns">
+    <button class="dbtn ask" onclick="askCard()">🎯 Consultar IA</button>
+    <button class="dbtn move" onclick="advCard()">→ Avançar</button>
+    <button class="dbtn doc" onclick="goDocFromCard()">📝 Gerar doc</button>
+    <button class="dbtn del" onclick="delCard()">🗑 Remover</button>
+    <button class="dbtn cls" onclick="closeModal('modal-detail')">✕</button>
+  </div>
+</div></div>
+
+<div class="modal-overlay" id="modal-cert"><div class="modal-box">
+  <div class="modal-h">✅ <span class="mh-gold">Certidão / Documento</span></div>
+  <div class="mf"><label>Nome da certidão</label><input id="c-nome" type="text" placeholder="Ex: Certidão Negativa Receita Federal"/></div>
+  <div class="mf"><label>Grupo</label>
+    <select id="c-grupo"><option>Federal</option><option>Estadual</option><option>Municipal</option><option>Trabalhista</option><option>Cadastros</option><option>Outros</option></select>
+  </div>
+  <div class="g2" style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+    <div class="mf"><label>Data de vencimento</label><input id="c-venc" type="date"/></div>
+    <div class="mf"><label>Status</label>
+      <select id="c-status"><option value="ok">Em dia</option><option value="warn">Vencendo em breve</option><option value="exp">Vencida</option><option value="pend">Pendente</option></select>
+    </div>
+  </div>
+  <div class="mf"><label>Link para emissão (opcional)</label><input id="c-link" type="url" placeholder="https://..."/></div>
+  <div class="modal-btns"><button class="mbtn s" onclick="closeModal('modal-cert')">Cancelar</button><button class="mbtn p" onclick="saveCert()">Salvar</button></div>
+</div></div>
+
+<!-- Backup Modal -->
+<div class="modal-overlay" id="modal-backup"><div class="modal-box">
+  <div class="modal-h">💾 <span class="mh-gold">Backup de Dados</span></div>
+  <p style="font-size:10.5px;color:var(--t2);line-height:1.5;margin-bottom:14px">Seus dados atuais são salvos no navegador. Exporte os dados regularmente. Caso troque de computador ou limpe o histórico, você precisará reimportá-los.</p>
+  <div class="modal-btns" style="flex-direction:column;gap:8px">
+    <button class="mbtn p" onclick="exportBackup()">⬇ Exportar Dados (.json)</button>
+    <button class="mbtn s" onclick="document.getElementById('import-file').click()">⬆ Importar Dados (.json)</button>
+    <input type="file" id="import-file" accept=".json" style="display:none" onchange="importBackup(event)"/>
+  </div>
+  <button class="mbtn s" style="margin-top:8px;width:100%" onclick="closeModal('modal-backup')">Fechar</button>
+</div></div>
+
+<!-- Camera -->
+<div id="cam-modal">
+  <video id="cam-video" autoplay playsinline></video>
+  <canvas id="cam-canvas"></canvas>
+  <div class="cam-btns">
+    <button class="cam-btn snap" onclick="snapPhoto()">📸 Capturar</button>
+    <button class="cam-btn cancel" onclick="closeCam()">✕ Cancelar</button>
+  </div>
+</div>
+
+<input type="file" id="pdf-in" accept=".pdf,application/pdf" onchange="handlePdf(event)"/>
+<input type="file" id="cam-in" accept="image/*" capture="environment" onchange="handleImg(event)"/>
+
+<!-- ============================================================
+     JAVASCRIPT
+     ============================================================ -->
+<script>
+/* ---- STATE ---- */
+let apiKey='', empresa={}, hist=[], busy=false, SYS='';
+let attachments=[], camStream=null, currentCardId=null;
+let currentDocType='', currentDocTitle='', currentDocContent='';
+let addingStage=0;
+
+const STAGES=['Prospecção','Qualificação','Preparação','Disputa','Contrato Ativo'];
+const STAGE_COLORS=['pb-gray','pb-cyan','pb-gold','pb-red','pb-green'];
+const STAGE_ICONS=['🔍','📊','📝','⚡','✅'];
+
+/* ---- STORAGE ---- */
+const PK=()=>'le_'+empresa.cnpj;
+const loadP=()=>{try{return JSON.parse(localStorage.getItem(PK()+'_p')||'[]')}catch{return[]}};
+const saveP=d=>{try{localStorage.setItem(PK()+'_p',JSON.stringify(d))}catch{}};
+const loadC=()=>{try{return JSON.parse(localStorage.getItem(PK()+'_c')||'[]')}catch{return[]}};
+const saveC=d=>{try{localStorage.setItem(PK()+'_c',JSON.stringify(d))}catch{}};
+
+/* ---- SYSTEM PROMPT ---- */
+function buildSys(){
+  const e=empresa;
+  const meMeio=['Microempresa (ME)','Pequeno Porte (EPP)','MEI'].includes(e.porte);
+  return `Você é o EDS LicitaEdge Pro — especialista sênior em estratégia licitatória para fornecedores, desenvolvido pela EDS Soluções Inteligentes.
+
+EMPRESA: ${e.razao} | CNPJ: ${e.cnpj||'—'} | Segmento: ${e.seg||'—'} | Porte: ${e.porte||'—'} | Regime: ${e.regime||'—'} | Atuação: ${e.estados||'—'} | Volume: ${e.vol||'—'}
+
+PERSPECTIVA: Você trabalha EXCLUSIVAMENTE do lado do FORNECEDOR. Maximize vitórias e proteção jurídica desta empresa.
+
+DOMÍNIO TÉCNICO COMPLETO:
+- Lei 14.133/2021 (Nova Lei de Licitações) — todos os artigos, fases, prazos
+- Lei 8.666/93 (contratos em andamento), Lei 10.520/2002, Decreto 10.024/2019
+- LC 123/2006 — benefícios ME/EPP: empate ficto, regularização na sessão, cotas exclusivas
+- IN SEGES 65/2021 — pesquisa de preços (use a favor do fornecedor)
+- Portais: PNCP, ComprasNet, BNC, BLL, Licitações-e, portais estaduais
+- SICAF, CRC, cadastros regionais
+- Jurisprudência TCU, TCE-PE, TCE-BA, CGU
+- Formação de preço: BDI, encargos trabalhistas, regimes tributários
+- Impugnações, recursos, reequilíbrio, penalidades, contratos
+
+${meMeio?`⭐ BENEFÍCIOS ${e.porte} (LC 123/2006): empate ficto até 5%, regularização fiscal na própria sessão, lote exclusivo obrigatório até R$80.000 [Art.48], subcontratação compulsória. SEMPRE alertar quando aplicável.`:''}
+
+AO RECEBER IMAGEM: Analise como documento licitatório. Identifique: tipo do documento, órgão, objeto, prazo, valor, exigências, riscos. Responda estrategicamente.
+
+AO RECEBER PDF: Analise o edital completo. Gere: 1) Objeto e valor estimado, 2) Modalidade e prazo fatal, 3) Exigências de habilitação, 4) Critério de julgamento, 5) Cláusulas de atenção ou restritivas, 6) Score de viabilidade 1-10, 7) Recomendação estratégica.
+
+FORMATO DAS RESPOSTAS:
+- Utilize formatação rica (negrito para destacar itens cruciais).
+- SEMPRE que houver dados estruturados, comparações ou listas importantes, organize os dados em uma TABELA Markdown alinhada e simétrica.
+- Cite artigos: [Art. X, Lei 14.133/2021]
+- ⚠️ ATENÇÃO para riscos de desclassificação, inabilitação, sanção
+- ✅ para pontos favoráveis ao fornecedor
+- 💰 para cálculos e formação de preço
+- 📋 para checklists e passo a passos
+- Máx 6 itens por resposta ou 5 parágrafos
+- Finalize: "Posso detalhar ou gerar o documento necessário?"
+
+Você é o consultor que esta empresa não conseguiria contratar por R$500/hora — disponível 24h, 7 dias.`;
+}
+
+/* ---- SETUP ---- */
+function startApp(){
+  let k=document.getElementById('s-key').value.trim();
+  // Tenta puxar a chave do arquivo config-chave.js
+  if(typeof CHAVE_GOOGLE_GEMINI !== 'undefined' && CHAVE_GOOGLE_GEMINI !== '' && CHAVE_GOOGLE_GEMINI !== 'COLE_SUA_CHAVE_AQUI'){
+    k = CHAVE_GOOGLE_GEMINI;
+  }
+  
+  if(!k){alert('Chave de API Google vazia ou inválida.');return;}
+  empresa={
+    razao:document.getElementById('s-razao').value.trim()||'Empresa Fornecedora',
+    cnpj:document.getElementById('s-cnpj').value.trim().replace(/\D/g,''),
+    regime:document.getElementById('s-regime').value,
+    seg:document.getElementById('s-seg').value,
+    estados:document.getElementById('s-estados').value.trim(),
+    porte:document.getElementById('s-porte').value,
+    vol:document.getElementById('s-vol').value,
+  };
+  apiKey=k; SYS=buildSys();
+  document.getElementById('setup').style.display='none';
+  document.getElementById('app').classList.add('on');
+  document.getElementById('top-empresa').textContent=empresa.razao.toUpperCase();
+  // Sync regime to calculator
+  syncRegime();
+  // Welcome message
+  const meMeio=['Microempresa (ME)','Pequeno Porte (EPP)','MEI'].includes(empresa.porte);
+  addBot(`🛡️ EDS LicitaEdge Pro ativado!\n\nBem-vindo, ${empresa.razao.split(' ')[0]}. Plataforma completa de inteligência licitatória online.\n\n📌 Perfil: ${empresa.seg||'—'} · ${empresa.porte||'—'} · ${empresa.regime||'—'}${meMeio?'\n⭐ Benefícios LC 123/2006 ativados automaticamente':''}\n\n🎯 Recursos disponíveis:\n• 💬 Assistente IA — análise estratégica 24h\n• 📋 Pipeline — gestão de processos com alertas\n• 📝 Documentos — impugnações e recursos prontos\n• ✅ Habilitação — controle de certidões e prazos\n• 💰 Calculadora — formação de preço correta\n• 📊 Analytics — performance e ROI\n\nAnexe um edital (PDF ou foto) para análise imediata, ou use os atalhos acima.`);
+  renderPipeline();
+  renderChecklist();
+  updateAnalytics();
+  checkAlerts();
+}
+
+function syncRegime(){
+  if(!empresa.regime)return;
+  const sel=document.getElementById('ci-regime');
+  const map={'Simples Nacional':'sn1','Lucro Presumido':'lp','Lucro Real':'lr','MEI':'mei'};
+  const v=map[empresa.regime];
+  if(v)for(let i=0;i<sel.options.length;i++)if(sel.options[i].value===v){sel.selectedIndex=i;break;}
+  calcPreco();
+}
+
+/* ---- TABS ---- */
+function showTab(id){
+  document.querySelectorAll('.tab-btn').forEach((b,i)=>b.classList.toggle('on',['chat','pipeline','docs','check','calc','an'][i]===id));
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('on'));
+  document.getElementById('panel-'+id).classList.add('on');
+  if(id==='pipeline')renderPipeline();
+  if(id==='check')renderChecklist();
+  if(id==='an')updateAnalytics();
+}
+
+/* ---- UTILS ---- */
+function now(){return new Date().toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'})}
+function esc(t){return(t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+function fmtV(v){if(!v||v===0)return'R$0';if(v>=1000000)return'R$'+(v/1000000).toFixed(1)+'M';if(v>=1000)return'R$'+Math.round(v/1000)+'k';return'R$'+Math.round(v)}
+function fmtVFull(v){return'R$ '+Number(v||0).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}
+
+/* ---- CHAT ---- */
+function addBot(txt){
+  const m=document.getElementById('msgs');
+  const d=document.createElement('div');d.className='row b';
+  d.innerHTML=`<div class="av"><svg width="18" height="20" viewBox="0 0 64 72" fill="none"><path d="M32 2L4 14V38C4 53 16.5 66 32 70C47.5 66 60 53 60 38V14L32 2Z" fill="#163d24" stroke="#c9a84c" stroke-width="4"/><line x1="14" y1="26" x2="30" y2="26" stroke="white" stroke-width="5" stroke-linecap="round"/><line x1="14" y1="34" x2="30" y2="34" stroke="white" stroke-width="5" stroke-linecap="round"/><line x1="14" y1="42" x2="30" y2="42" stroke="white" stroke-width="5" stroke-linecap="round"/><path d="M30 22 C30 22 45 22 45 34 C45 46 30 46 30 46" stroke="white" stroke-width="5" stroke-linecap="round" fill="none"/><path d="M13 51 Q22 47 32 51 Q42 55 51 51" stroke="#c9a84c" stroke-width="3.5" stroke-linecap="round" fill="none"/></svg></div><div class="bbl b"></div>`;
+  const bbl=d.querySelector('.bbl');
+  if(typeof marked !== 'undefined'){
+    bbl.innerHTML=marked.parse(txt, {breaks: true});
+  }else{
+    bbl.textContent=txt;
+  }
+  const mt=document.createElement('div');mt.className='mt';mt.textContent=now()+' · EDS LicitaEdge Pro';
+  bbl.appendChild(mt);
+  m.appendChild(d);m.scrollTop=m.scrollHeight;
+}
+function addUser(txt,imgSrc){
+  const m=document.getElementById('msgs');
+  const d=document.createElement('div');d.className='row u';
+  const bbl=document.createElement('div');bbl.className='bbl u';
+  if(txt){const sp=document.createElement('span');sp.textContent=txt;bbl.appendChild(sp);}
+  if(imgSrc){const img=document.createElement('img');img.src=imgSrc;img.style.maxWidth='160px';img.style.borderRadius='7px';img.style.marginTop='5px';bbl.appendChild(img);}
+  const mt=document.createElement('div');mt.className='mt';mt.textContent=now();
+  bbl.appendChild(mt);
+  d.appendChild(bbl);m.appendChild(d);m.scrollTop=m.scrollHeight;
+}
+function showTyping(){
+  const m=document.getElementById('msgs');
+  const d=document.createElement('div');d.className='typing-r';d.id='trow';
+  d.innerHTML=`<div class="av"><svg width="18" height="20" viewBox="0 0 64 72" fill="none"><path d="M32 2L4 14V38C4 53 16.5 66 32 70C47.5 66 60 53 60 38V14L32 2Z" fill="#163d24" stroke="#c9a84c" stroke-width="4"/><line x1="14" y1="26" x2="30" y2="26" stroke="white" stroke-width="5" stroke-linecap="round"/><line x1="14" y1="34" x2="30" y2="34" stroke="white" stroke-width="5" stroke-linecap="round"/><line x1="14" y1="42" x2="30" y2="42" stroke="white" stroke-width="5" stroke-linecap="round"/><path d="M30 22 C30 22 45 22 45 34 C45 46 30 46 30 46" stroke="white" stroke-width="5" stroke-linecap="round" fill="none"/><path d="M13 51 Q22 47 32 51 Q42 55 51 51" stroke="#c9a84c" stroke-width="3.5" stroke-linecap="round" fill="none"/></svg></div><div class="typing"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>`;
+  m.appendChild(d);m.scrollTop=m.scrollHeight;
+}
+function rmTyping(){const t=document.getElementById('trow');if(t)t.remove();}
+function qs(t){sendMsg(t);}
+function hkey(e){if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();sendMsg();}}
+function arz(el){el.style.height='auto';el.style.height=Math.min(el.scrollHeight,90)+'px';}
+
+async function sendMsg(txt){
+  const inp=document.getElementById('inp');
+  const t=txt||inp.value.trim();
+  if((!t&&attachments.length===0)||busy)return;
+  inp.value='';inp.style.height='auto';
+  busy=true;document.getElementById('sbtn').disabled=true;
+  let userParts=[];
+  let dispImg=null;
+  attachments.forEach(a=>{
+    if(a.type==='image'){userParts.push({inlineData:{mimeType:a.mt,data:a.data}});dispImg=`data:${a.mt};base64,${a.data}`;}
+    else if(a.type==='pdf')userParts.push({inlineData:{mimeType:'application/pdf',data:a.data}});
+  });
+  if(t)userParts.push({text:t});
+  if(!userParts.length)userParts=[{text:'Analise o documento anexado.'}];
+  const pdfNames=attachments.filter(a=>a.type==='pdf').map(a=>a.name).join(', ');
+  const dispText=(t||'')+(pdfNames?'\n📄 '+pdfNames:'');
+  addUser(dispText||'📷 Imagem',dispImg);
+  clearAtt();
+  showTab('chat');
+  hist.push({role:'user',parts:userParts});
+  showTyping();
+  try{
+    const r=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`,{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({systemInstruction:{parts:[{text:SYS}]},contents:hist,generationConfig:{maxOutputTokens:2000}})
+    });
+    const data=await r.json();
+    if(data.error) throw new Error(data.error.message);
+    const reply=data.candidates?.[0]?.content?.parts?.[0]?.text||'Não consegui processar a resposta do Google Gemini.';
+    rmTyping();
+    hist.push({role:'model',parts:[{text:reply}]});
+    addBot(reply);
+  }catch(e){rmTyping();addBot(`❌ Erro no Gemini: ${e.message||'Problema de conexão. Verifique a chave ou internet.'}`);}
+  busy=false;
+  document.getElementById('sbtn').disabled=false;
+  document.getElementById('inp').focus();
+}
+
+/* ---- ATTACHMENTS ---- */
+async function handlePdf(e){
+  const f=e.target.files[0];if(!f)return;e.target.value='';
+  const r=new FileReader();
+  r.onload=ev=>{attachments.push({type:'pdf',name:f.name,data:ev.target.result.split(',')[1]});renderAttChips();};
+  r.readAsDataURL(f);
+}
+async function handleImg(e){
+  const f=e.target.files[0];if(!f)return;e.target.value='';
+  const r=new FileReader();
+  r.onload=ev=>{attachments.push({type:'image',name:f.name,data:ev.target.result.split(',')[1],mt:f.type||'image/jpeg'});renderAttChips();};
+  r.readAsDataURL(f);
+}
+async function openCam(){
+  try{camStream=await navigator.mediaDevices.getUserMedia({video:{facingMode:'environment'}});document.getElementById('cam-video').srcObject=camStream;document.getElementById('cam-modal').classList.add('open');}
+  catch{alert('Câmera indisponível. Use "Galeria" para enviar imagem salva.');}
+}
+function closeCam(){if(camStream)camStream.getTracks().forEach(t=>t.stop());camStream=null;document.getElementById('cam-modal').classList.remove('open');}
+function snapPhoto(){
+  const v=document.getElementById('cam-video'),c=document.getElementById('cam-canvas');
+  c.width=v.videoWidth;c.height=v.videoHeight;c.getContext('2d').drawImage(v,0,0);
+  const b64=c.toDataURL('image/jpeg',.85).split(',')[1];
+  attachments.push({type:'image',name:'foto.jpg',data:b64,mt:'image/jpeg'});
+  renderAttChips();closeCam();
+}
+function renderAttChips(){
+  const el=document.getElementById('att-chips');el.innerHTML='';
+  attachments.forEach((a,i)=>{
+    const c=document.createElement('div');c.className='att-chip';
+    c.innerHTML=`${a.type==='pdf'?'📄':'📷'} <span>${a.name.length>18?a.name.slice(0,16)+'…':a.name}</span><button onclick="removeAtt(${i})">✕</button>`;
+    el.appendChild(c);
+  });
+}
+function removeAtt(i){attachments.splice(i,1);renderAttChips();}
+function clearAtt(){attachments=[];renderAttChips();}
+
+/* ---- PIPELINE ---- */
+function getDeadlineClass(p){
+  if(!p)return'';
+  const l=p.toLowerCase();
+  if(l.includes('hoje')||l.includes('amanhã')||l.includes('ao vivo')||l.includes('1 dia')||l.includes('2 dia'))return'dl-crit';
+  if(l.includes('3 dia')||l.includes('4 dia')||l.includes('5 dia')||l.includes('6 dia')||l.includes('7 dia')||l.includes('semana'))return'dl-warn';
+  return'dl-ok';
+}
+function getScoreClass(s){return s>=8?'sd-hi':s>=5?'sd-md':'sd-lo';}
+
+function renderPipeline(){
+  const cards=loadP();
+  const urgentes=cards.filter(c=>getDeadlineClass(c.prazo)==='dl-crit').length;
+  const contratos=cards.filter(c=>c.etapa===4).length;
+  const totalV=cards.reduce((s,c)=>s+(parseFloat(c.val)||0),0);
+  document.getElementById('kpi-tot').textContent=cards.length;
+  document.getElementById('kpi-val').textContent=fmtV(totalV);
+  document.getElementById('kpi-urg').textContent=urgentes;
+  document.getElementById('kpi-cont').textContent=contratos;
+  // Update alert banner
+  if(urgentes>0){
+    document.getElementById('alert-banner').className='alert-banner show';
+    document.getElementById('alert-txt').textContent=`⚠️ ${urgentes} processo${urgentes>1?'s':''} com prazo crítico — ação necessária`;
+  } else {
+    const warns=cards.filter(c=>getDeadlineClass(c.prazo)==='dl-warn').length;
+    if(warns>0){
+      document.getElementById('alert-banner').className='alert-banner warn show';
+      document.getElementById('alert-txt').textContent=`⏰ ${warns} processo${warns>1?'s':''} com prazo próximo — verifique`;
+    } else {
+      document.getElementById('alert-banner').className='alert-banner';
+    }
+  }
+  const cols=document.getElementById('p-cols');cols.innerHTML='';
+  STAGES.forEach((stage,si)=>{
+    const sc=cards.filter(c=>c.etapa===si);
+    const col=document.createElement('div');col.className='p-col';
+    col.innerHTML=`<div class="p-col-h">${STAGE_ICONS[si]} ${stage}<span class="p-col-n">${sc.length}</span></div><div class="p-col-b" id="col-${si}"></div>`;
+    cols.appendChild(col);
+    const body=col.querySelector(`#col-${si}`);
+    sc.forEach(c=>{
+      const card=document.createElement('div');card.className='p-card';
+      const dlClass=getDeadlineClass(c.prazo);
+      const scClass=getScoreClass(c.score||5);
+      card.innerHTML=`<div class="score-dot ${scClass}"></div><div class="p-card-title">${esc(c.tit)}</div><div class="p-card-org">${esc(c.org||'—')}</div><div class="p-card-val">${c.val?fmtVFull(c.val):'—'}</div><span class="p-badge ${STAGE_COLORS[si]}">${esc(c.modal||'—')}</span>${c.prazo?`<div class="p-dl ${dlClass}">${esc(c.prazo)}</div>`:''}`;
+      card.onclick=()=>openDetail(c.id);
+      body.appendChild(card);
+    });
+    const ab=document.createElement('button');ab.className='add-btn';ab.textContent='+ Adicionar';ab.onclick=()=>openAddModal(si);
+    body.appendChild(ab);
+  });
+}
+
+function openAddModal(stage){
+  addingStage=stage;
+  document.getElementById('m-etapa').value=stage;
+  ['m-tit','m-org','m-val','m-prazo'].forEach(id=>document.getElementById(id).value='');
+  document.getElementById('m-score').value='7';
+  document.getElementById('modal-add').classList.add('open');
+}
+function saveCard(){
+  const tit=document.getElementById('m-tit').value.trim();
+  if(!tit){alert('Informe o objeto.');return;}
+  const cards=loadP();
+  cards.push({
+    id:Date.now(),
+    tit,
+    org:document.getElementById('m-org').value.trim(),
+    val:document.getElementById('m-val').value,
+    modal:document.getElementById('m-modal').value,
+    prazo:document.getElementById('m-prazo').value.trim(),
+    score:parseInt(document.getElementById('m-score').value)||7,
+    etapa:parseInt(document.getElementById('m-etapa').value),
+    criado:new Date().toLocaleDateString('pt-BR')
+  });
+  saveP(cards);closeModal('modal-add');renderPipeline();
+}
+function openDetail(id){
+  const c=loadP().find(x=>x.id===id);if(!c)return;
+  currentCardId=id;
+  document.getElementById('d-tit').textContent=c.tit;
+  document.getElementById('d-org').textContent=c.org||'—';
+  document.getElementById('d-val').textContent=c.val?fmtVFull(c.val):'—';
+  document.getElementById('d-mod').textContent=c.modal||'—';
+  document.getElementById('d-prazo').textContent=c.prazo||'—';
+  document.getElementById('d-etapa').textContent=STAGES[c.etapa]||'—';
+  document.getElementById('d-score').textContent=(c.score||'—')+'/10';
+  document.getElementById('modal-detail').classList.add('open');
+}
+function advCard(){
+  const cards=loadP();const c=cards.find(x=>x.id===currentCardId);
+  if(!c||c.etapa>=4)return;
+  c.etapa++;saveP(cards);closeModal('modal-detail');renderPipeline();updateAnalytics();
+}
+function delCard(){
+  if(!confirm('Remover esta oportunidade?'))return;
+  saveP(loadP().filter(x=>x.id!==currentCardId));
+  closeModal('modal-detail');renderPipeline();updateAnalytics();
+}
+function askCard(){
+  const c=loadP().find(x=>x.id===currentCardId);if(!c)return;
+  const q=`📋 Processo em pipeline:\n• Objeto: ${c.tit}\n• Órgão: ${c.org||'—'}\n• Valor: ${c.val?fmtVFull(c.val):'—'}\n• Modalidade: ${c.modal||'—'}\n• Etapa: ${STAGES[c.etapa]}\n• Score: ${c.score||'—'}/10\n• Prazo: ${c.prazo||'—'}\n\nQuais são as principais ações estratégicas para esta etapa?`;
+  closeModal('modal-detail');showTab('chat');setTimeout(()=>sendMsg(q),150);
+}
+function goDocFromCard(){
+  closeModal('modal-detail');showTab('docs');
+}
+
+/* ---- MODAL UTILS ---- */
+function closeModal(id){document.getElementById(id).classList.remove('open');}
+function checkAlerts(){
+  // Run on startup to check deadlines
+  if(!empresa.cnpj)return;
+  renderPipeline();
+}
+
+/* ---- DOCUMENTOS ---- */
+const DOC_TYPES={
+  'impugnacao':{title:'Impugnação de Edital',prompt:(f)=>`Gere uma impugnação de edital formal e técnica com os seguintes dados:\n- Processo: ${f.processo}\n- Órgão: ${f.orgao}\n- Objeto: ${f.objeto}\n- Motivo da impugnação: ${f.motivo}\n- Empresa: ${empresa.razao}, CNPJ ${empresa.cnpj||'—'}\n\nO documento deve: citar os artigos legais pertinentes da Lei 14.133/2021, ser formal e técnico, incluir fundamentação jurídica sólida, requerer a retificação ou anulação da cláusula apontada, incluir local, data e assinatura. Comece com o cabeçalho completo. Use linguagem jurídica adequada.`},
+  'recurso-inab':{title:'Recurso Administrativo — Inabilitação',prompt:(f)=>`Gere um recurso administrativo contra decisão de inabilitação com os seguintes dados:\n- Processo: ${f.processo}\n- Órgão: ${f.orgao}\n- Objeto: ${f.objeto}\n- Motivo da inabilitação declarado: ${f.motivo}\n- Argumento de defesa: ${f.argumento}\n- Empresa: ${empresa.razao}, CNPJ ${empresa.cnpj||'—'}\n\nO recurso deve: citar Art. 165 da Lei 14.133/2021 (prazo de 3 dias úteis), fundamentar juridicamente a reversão, pedir provimento do recurso e habilitação da empresa. Formal, técnico, completo.`},
+  'recurso-desc':{title:'Recurso Administrativo — Desclassificação',prompt:(f)=>`Gere um recurso contra desclassificação de proposta:\n- Processo: ${f.processo}\n- Órgão: ${f.orgao}\n- Objeto: ${f.objeto}\n- Motivo da desclassificação: ${f.motivo}\n- Argumento de defesa: ${f.argumento}\n- Empresa: ${empresa.razao}, CNPJ ${empresa.cnpj||'—'}\n\nCitar Art. 59-61 Lei 14.133/2021. Formal e tecnicamente fundamentado.`},
+  'esclarecimento':{title:'Pedido de Esclarecimento',prompt:(f)=>`Gere um pedido formal de esclarecimento:\n- Processo: ${f.processo}\n- Órgão: ${f.orgao}\n- Objeto: ${f.objeto}\n- Dúvida/ponto a esclarecer: ${f.motivo}\n- Empresa: ${empresa.razao}, CNPJ ${empresa.cnpj||'—'}\n\nCitar Art. 164 Lei 14.133/2021 (prazo de 3 dias úteis). Formal e objetivo.`},
+  'reequilibrio':{title:'Pedido de Reequilíbrio Econômico-Financeiro',prompt:(f)=>`Gere um pedido formal de reequilíbrio econômico-financeiro:\n- Contrato/Processo: ${f.processo}\n- Órgão contratante: ${f.orgao}\n- Objeto do contrato: ${f.objeto}\n- Fato superveniente / justificativa: ${f.motivo}\n- Percentual de reajuste pleiteado: ${f.argumento||'a calcular'}\n- Empresa: ${empresa.razao}, CNPJ ${empresa.cnpj||'—'}\n\nCitar Art. 124 da Lei 14.133/2021, princípio da equação econômico-financeira. Formal, com memória de cálculo resumida.`},
+  'contrarrazoes':{title:'Contrarrazões de Recurso',prompt:(f)=>`Gere contrarrazões a recurso interposto por licitante concorrente:\n- Processo: ${f.processo}\n- Órgão: ${f.orgao}\n- Objeto: ${f.objeto}\n- Argumento do recorrente: ${f.motivo}\n- Nossa defesa: ${f.argumento}\n- Empresa: ${empresa.razao}, CNPJ ${empresa.cnpj||'—'}\n\nCitar Art. 165 §3º Lei 14.133/2021. Requerer desprovimento do recurso. Formal e fundamentado.`}
+};
+const DOC_FIELDS={
+  'impugnacao':['processo','orgao','objeto','motivo'],
+  'recurso-inab':['processo','orgao','objeto','motivo','argumento'],
+  'recurso-desc':['processo','orgao','objeto','motivo','argumento'],
+  'esclarecimento':['processo','orgao','objeto','motivo'],
+  'reequilibrio':['processo','orgao','objeto','motivo','argumento'],
+  'contrarrazoes':['processo','orgao','objeto','motivo','argumento']
+};
+const DOC_LABELS={processo:'Nº do processo / Edital',orgao:'Órgão / Entidade',objeto:'Objeto da licitação',motivo:'Motivo / Fundamentação',argumento:'Argumento / Percentual pleiteado'};
+
+function openDocForm(type){
+  currentDocType=type;
+  currentDocTitle=DOC_TYPES[type].title;
+  const fields=DOC_FIELDS[type];
+  document.getElementById('doc-selector').style.display='none';
+  document.getElementById('doc-result').style.display='none';
+  const fa=document.getElementById('doc-form-area');
+  fa.style.display='block';
+  fa.innerHTML=`<div class="doc-form"><h3>📝 ${currentDocTitle}</h3>${fields.map(f=>`<div class="df-field"><label>${DOC_LABELS[f]||f}</label>${f==='motivo'||f==='argumento'?`<textarea id="df-${f}" rows="3" placeholder="Descreva com detalhes..."></textarea>`:`<input id="df-${f}" type="text" placeholder="${DOC_LABELS[f]||f}"/>`}</div>`).join('')}<div style="display:flex;gap:8px;margin-top:10px"><button class="doc-btn secondary" onclick="backToDocSelector()">← Voltar</button><button class="doc-btn primary" onclick="generateDoc()">⚡ Gerar documento</button></div></div>`;
+}
+async function generateDoc(){
+  const type=currentDocType;
+  const fields=DOC_FIELDS[type];
+  const formData={};
+  for(const f of fields){
+    const el=document.getElementById('df-'+f);
+    formData[f]=el?el.value.trim():'';
+  }
+  if(!formData.processo&&!formData.orgao){alert('Preencha ao menos o nº do processo e o órgão.');return;}
+  const prompt=DOC_TYPES[type].prompt(formData);
+  document.getElementById('doc-form-area').innerHTML=`<div style="text-align:center;padding:30px;color:var(--gold);font-size:13px;animation:shimmer 1.5s infinite">⚖️ Gerando ${currentDocTitle}...<br><span style="font-size:10px;color:var(--t2)">A IA está redigindo o documento com fundamentação jurídica</span></div>`;
+  try{
+    const r=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`,{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({systemInstruction:{parts:[{text:SYS}]},contents:[{role:'user',parts:[{text:prompt}]}],generationConfig:{maxOutputTokens:3500}})
+    });
+    const data=await r.json();
+    if(data.error) throw new Error(data.error.message);
+    const doc=data.candidates?.[0]?.content?.parts?.[0]?.text||'Erro ao gerar documento.';
+    currentDocContent=doc;
+    document.getElementById('doc-form-area').style.display='none';
+    document.getElementById('doc-result-title').textContent=currentDocTitle;
+    document.getElementById('doc-result-text').textContent=doc;
+    document.getElementById('doc-result').style.display='block';
+  }catch(e){
+    document.getElementById('doc-form-area').innerHTML=`<div style="color:var(--red);padding:20px;font-size:12px">❌ Erro no Gemini: Verifique conexão ou API Key.</div><button class="doc-btn secondary" onclick="openDocForm('${type}')">← Tentar novamente</button>`;
+  }
+}
+function downloadDoc(){
+  const blob=new Blob([currentDocContent],{type:'text/plain;charset=utf-8'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);
+  a.download=`EDS_${currentDocTitle.replace(/\s/g,'_')}_${new Date().toLocaleDateString('pt-BR').replace(/\//g,'-')}.txt`;
+  a.click();
+}
+function copyDoc(){
+  navigator.clipboard.writeText(currentDocContent).then(()=>alert('Documento copiado!')).catch(()=>alert('Copie manualmente do texto acima.'));
+}
+function backToDocSelector(){
+  document.getElementById('doc-selector').style.display='block';
+  document.getElementById('doc-form-area').style.display='none';
+  document.getElementById('doc-result').style.display='none';
+}
+
+/* ---- CHECKLIST ---- */
+const CERT_LINKS={
+  'CND Receita Federal':'https://solucoes.receita.fazenda.gov.br/Servicos/certidaointernet/PF/Emitir',
+  'CRF — FGTS':'https://consulta-crf.caixa.gov.br',
+  'CNDT — Trabalhista':'https://cndt.tst.jus.br',
+  'CND PGFN':'https://solucoes.receita.fazenda.gov.br',
+  'SICAF':'https://www.gov.br/compras/pt-br/acesso-a-informacao/servicos/sicaf',
+};
+function getCertStatus(venc){
+  if(!venc)return'pend';
+  const hoje=new Date();const v=new Date(venc);
+  const diff=Math.floor((v-hoje)/(1000*60*60*24));
+  if(diff<0)return'exp';
+  if(diff<=15)return'warn';
+  return'ok';
+}
+function renderChecklist(){
+  const certs=loadC();
+  const ok=certs.filter(c=>getCertStatus(c.venc)==='ok').length;
+  const warn=certs.filter(c=>getCertStatus(c.venc)==='warn').length;
+  const exp=certs.filter(c=>getCertStatus(c.venc)==='exp'||c.status==='exp').length;
+  document.getElementById('cert-ok').textContent=ok;
+  document.getElementById('cert-warn').textContent=warn;
+  document.getElementById('cert-exp').textContent=exp;
+  const groups=['Federal','Estadual','Municipal','Trabalhista','Cadastros','Outros'];
+  const gc=document.getElementById('cert-groups');gc.innerHTML='';
+  groups.forEach(g=>{
+    const gcerts=certs.filter(c=>c.grupo===g);
+    if(!gcerts.length)return;
+    const div=document.createElement('div');div.className='cert-group';
+    div.innerHTML=`<div class="cert-group-title">${g}</div>`;
+    gcerts.forEach(c=>{
+      const status=getCertStatus(c.venc);
+      const row=document.createElement('div');row.className='cert-row';
+      const vencStr=c.venc?new Date(c.venc).toLocaleDateString('pt-BR'):'—';
+      const link=CERT_LINKS[c.nome]||c.link||'';
+      row.innerHTML=`<div class="cert-status cs-${status}"></div><div class="cert-name">${esc(c.nome)}</div><div class="cert-date">${vencStr}</div>${link?`<a class="cert-link" href="${link}" target="_blank">Emitir</a>`:''}<button onclick="removeCert(${c.id})" style="background:none;border:none;color:var(--t3);cursor:pointer;font-size:11px;padding:0 0 0 6px">✕</button>`;
+      div.appendChild(row);
+    });
+    gc.appendChild(div);
+  });
+  if(!certs.length){
+    gc.innerHTML=`<div style="text-align:center;padding:24px;color:var(--t3);font-size:12px">Nenhuma certidão cadastrada.<br>Adicione suas certidões para monitorar validade e prazos.</div>`;
+  }
+}
+function openAddCert(){document.getElementById('cam-modal').classList.remove('open');document.getElementById('modal-cert').classList.add('open');}
+function saveCert(){
+  const nome=document.getElementById('c-nome').value.trim();
+  if(!nome){alert('Informe o nome da certidão.');return;}
+  const certs=loadC();
+  certs.push({id:Date.now(),nome,grupo:document.getElementById('c-grupo').value,venc:document.getElementById('c-venc').value,status:document.getElementById('c-status').value,link:document.getElementById('c-link').value.trim()});
+  saveC(certs);closeModal('modal-cert');renderChecklist();
+}
+function removeCert(id){
+  if(!confirm('Remover esta certidão?'))return;
+  saveC(loadC().filter(c=>c.id!==id));renderChecklist();
+}
+
+/* ---- CALCULADORA ---- */
+const TAX_RATES={sn1:.04,sn2:.06,sn3:.045,lp:.1133,lr:.1325,mei:0};
+function calcPreco(){
+  const custo=parseFloat(document.getElementById('ci-custo').value)||0;
+  const desp=(parseFloat(document.getElementById('ci-desp').value)||0)/100;
+  const regime=document.getElementById('ci-regime').value;
+  const encPerc=(parseFloat(document.getElementById('ci-enc').value)||0)/100;
+  const bdiPerc=(parseFloat(document.getElementById('ci-bdi').value)||0)/100;
+  const marPerc=(parseFloat(document.getElementById('ci-mar').value)||12)/100;
+  const minPerc=(parseFloat(document.getElementById('ci-min').value)||5)/100;
+  const tax=TAX_RATES[regime]||0;
+  const custoDesp=custo*(1+desp);
+  const encargos=custo*encPerc;
+  const bdi=custo*bdiPerc;
+  const custoTotal=custoDesp+encargos+bdi;
+  // Preço = custo_total / (1 - imposto - margem)
+  const div=1-tax-marPerc;
+  const preco=div>0?custoTotal/div:custoTotal*(1+tax+marPerc);
+  const impostos=preco*tax;
+  const margem=preco-custoTotal-impostos;
+  const precoMin=div>0?custoTotal/(1-tax-minPerc):0;
+  document.getElementById('cc-custo').textContent=fmtVFull(custoDesp);
+  document.getElementById('cc-enc').textContent=fmtVFull(encargos+bdi);
+  document.getElementById('cc-imp').textContent=fmtVFull(impostos);
+  document.getElementById('cc-mar').textContent=fmtVFull(margem);
+  document.getElementById('calc-price').textContent=fmtVFull(preco);
+  document.getElementById('calc-price-sub').textContent=`Lance mínimo: ${fmtVFull(precoMin)} · Margem real: ${(marPerc*100).toFixed(1)}%`;
+  const alert=document.getElementById('calc-alert');
+  const okEl=document.getElementById('calc-ok');
+  if(custo>0&&preco<custoTotal){
+    alert.textContent='⚠️ ATENÇÃO: Preço abaixo do custo total — proposta inexequível [Art. 59, Lei 14.133/2021]. Risco de desclassificação.';
+    alert.classList.add('show');okEl.classList.remove('show');
+  } else if(custo>0&&marPerc<0.03){
+    alert.textContent='⚠️ Margem abaixo de 3% — risco de inexequibilidade se impugnado. Recomendado mínimo 5% [IN SEGES 65/2021].';
+    alert.classList.add('show');okEl.classList.remove('show');
+  } else if(custo>0){
+    okEl.textContent=`✅ Preço adequado. Margem real: ${((margem/preco)*100).toFixed(1)}%. Lance mínimo aceitável: ${fmtVFull(precoMin)}.`;
+    okEl.classList.add('show');alert.classList.remove('show');
+  } else {
+    alert.classList.remove('show');okEl.classList.remove('show');
+  }
+}
+function exportMemoriaCalculo(){
+  const custo=document.getElementById('ci-custo').value||'0';
+  const regime=document.getElementById('ci-regime').options[document.getElementById('ci-regime').selectedIndex].text;
+  const preco=document.getElementById('calc-price').textContent;
+  const conteudo=`EDS SOLUÇÕES INTELIGENTES — LicitaEdge Pro
+MEMÓRIA DE CÁLCULO — FORMAÇÃO DE PREÇO
+Gerado em: ${new Date().toLocaleString('pt-BR')}
+Empresa: ${empresa.razao}
+${'='.repeat(50)}
+
+CUSTO DIRETO: R$ ${custo}
+DESPESAS OPERACIONAIS (${document.getElementById('ci-desp').value}%): ${document.getElementById('cc-custo').textContent}
+ENCARGOS TRABALHISTAS (${document.getElementById('ci-enc').value}%): ver abaixo
+BDI (${document.getElementById('ci-bdi').value}%): ver abaixo
+ENCARGOS + BDI: ${document.getElementById('cc-enc').textContent}
+REGIME TRIBUTÁRIO: ${regime}
+IMPOSTOS: ${document.getElementById('cc-imp').textContent}
+MARGEM DE LUCRO (${document.getElementById('ci-mar').value}%): ${document.getElementById('cc-mar').textContent}
+
+${'='.repeat(50)}
+PREÇO DE VENDA FINAL: ${preco}
+LANCE MÍNIMO ACEITÁVEL: ver painel
+${'='.repeat(50)}
+
+Documento gerado pela plataforma EDS LicitaEdge Pro
+EDS Soluções Inteligentes — www.eds.com.br
+`;
+  const blob=new Blob([conteudo],{type:'text/plain;charset=utf-8'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);
+  a.download=`EDS_Memoria_Calculo_${new Date().toLocaleDateString('pt-BR').replace(/\//g,'-')}.txt`;
+  a.click();
+}
+
+/* ---- ANALYTICS ---- */
+function updateAnalytics(){
+  const cards=loadP();
+  if(!cards.length){
+    document.getElementById('an-taxa').textContent='—';
+    document.getElementById('an-vol').textContent='0';
+    document.getElementById('an-ganhos').textContent='R$0';
+    document.getElementById('an-pipeline').textContent='R$0';
+    document.getElementById('stage-bars').innerHTML='<div style="font-size:11px;color:var(--t3);padding:8px 0">Nenhum processo cadastrado ainda.</div>';
+    document.getElementById('modal-bars').innerHTML='';
+    return;
+  }
+  const contratos=cards.filter(c=>c.etapa===4);
+  const disputa=cards.filter(c=>c.etapa>=1&&c.etapa<=3);
+  const totalGanhos=contratos.reduce((s,c)=>s+(parseFloat(c.val)||0),0);
+  const totalDisputa=cards.reduce((s,c)=>s+(parseFloat(c.val)||0),0);
+  const taxa=cards.length>0?Math.round((contratos.length/cards.length)*100):0;
+  document.getElementById('an-taxa').textContent=taxa>0?taxa+'%':'—';
+  document.getElementById('an-taxa-sub').textContent=`${contratos.length} contratos / ${cards.length} total`;
+  document.getElementById('an-vol').textContent=cards.length;
+  document.getElementById('an-ganhos').textContent=fmtV(totalGanhos);
+  document.getElementById('an-pipeline').textContent=fmtV(totalDisputa);
+  // Stage bars
+  const sb=document.getElementById('stage-bars');sb.innerHTML='';
+  const maxStage=Math.max(...STAGES.map((_,i)=>cards.filter(c=>c.etapa===i).length),1);
+  STAGES.forEach((s,i)=>{
+    const cnt=cards.filter(c=>c.etapa===i).length;
+    const pct=Math.round((cnt/maxStage)*100);
+    const colors=['#3d6048','#4cba7a','#c9a84c','#e85050','#00cc88'];
+    sb.innerHTML+=`<div class="bar-row"><span class="bar-row-label">${s}</span><div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:${colors[i]}"><span class="bar-fill-val">${cnt}</span></div></div></div>`;
+  });
+  // Modal bars
+  const mb=document.getElementById('modal-bars');mb.innerHTML='';
+  const modalCount={};cards.forEach(c=>{if(c.modal)modalCount[c.modal]=(modalCount[c.modal]||0)+1;});
+  const maxM=Math.max(...Object.values(modalCount),1);
+  const mcolors=['#c9a84c','#4cba7a','#00cc88','#f0a030','#9080f0','#e85050'];
+  Object.entries(modalCount).sort((a,b)=>b[1]-a[1]).forEach(([m,cnt],i)=>{
+    const pct=Math.round((cnt/maxM)*100);
+    mb.innerHTML+=`<div class="bar-row"><span class="bar-row-label" style="font-size:9px">${m}</span><div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:${mcolors[i%mcolors.length]}"><span class="bar-fill-val">${cnt}</span></div></div></div>`;
+  });
+  // ROI
+  const roi=document.getElementById('roi-val');
+  const roiDesc=document.getElementById('roi-desc');
+  if(taxa>0){
+    const roiPct=Math.round((taxa/50)*100);
+    roi.textContent=roiPct>200?roiPct+'%':'Em cálculo';
+    roiDesc.textContent=`Taxa de vitória atual: ${taxa}%. Com ${cards.length} processos cadastrados, a plataforma está gerando inteligência licitatória ativa. Continue registrando processos para cálculo preciso do ROI.`;
+  }
+}
+
+function exportRelatorio(){
+  const cards=loadP();
+  const certs=loadC();
+  const hoje=new Date().toLocaleString('pt-BR');
+  const contratos=cards.filter(c=>c.etapa===4).length;
+  const taxa=cards.length>0?Math.round((contratos/cards.length)*100):0;
+  const totalV=cards.reduce((s,c)=>s+(parseFloat(c.val)||0),0);
+  const certsOk=certs.filter(c=>getCertStatus(c.venc)==='ok').length;
+  const certsExp=certs.filter(c=>getCertStatus(c.venc)==='exp').length;
+  let rel=`EDS SOLUÇÕES INTELIGENTES
+🛡️  EDS LICITAEDGE PRO — RELATÓRIO DE DESEMPENHO
+${'═'.repeat(52)}
+Empresa: ${empresa.razao}
+CNPJ: ${empresa.cnpj||'—'} | Segmento: ${empresa.seg||'—'}
+Porte: ${empresa.porte||'—'} | Regime: ${empresa.regime||'—'}
+Gerado em: ${hoje}
+${'═'.repeat(52)}
+
+RESUMO EXECUTIVO
+${'─'.repeat(40)}
+Total em pipeline:     ${cards.length} processos
+Contratos ativos:      ${contratos}
+Taxa de vitória:       ${taxa}%
+Valor total pipeline:  ${fmtV(totalV)}
+Certidões em dia:      ${certsOk}
+Certidões vencidas:    ${certsExp}
+
+PIPELINE POR ETAPA
+${'─'.repeat(40)}
+${STAGES.map((s,i)=>`${s.padEnd(20)} ${cards.filter(c=>c.etapa===i).length} processos`).join('\n')}
+
+PROCESSOS ATIVOS
+${'─'.repeat(40)}
+${cards.slice(0,20).map(c=>`• ${c.tit}\n  Órgão: ${c.org||'—'} | ${fmtV(parseFloat(c.val)||0)} | ${STAGES[c.etapa]}`).join('\n')}
+
+CERTIDÕES
+${'─'.repeat(40)}
+${certs.map(c=>`• ${c.nome} — ${c.venc?new Date(c.venc).toLocaleDateString('pt-BR'):'—'} [${getCertStatus(c.venc).toUpperCase()}]`).join('\n')||'Nenhuma certidão cadastrada.'}
+
+${'═'.repeat(52)}
+Relatório gerado pela plataforma EDS LicitaEdge Pro
+EDS Soluções Inteligentes
+"Inteligência que transforma resultados"
+${'═'.repeat(52)}
+`;
+  const blob=new Blob([rel],{type:'text/plain;charset=utf-8'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);
+  a.download=`EDS_Relatorio_${new Date().toLocaleDateString('pt-BR').replace(/\//g,'-')}.txt`;
+  a.click();
+}
+
+/* ---- BACKUP ---- */
+function openBackup(){
+  document.getElementById('modal-backup').classList.add('open');
+}
+function exportBackup(){
+  if(!empresa.cnpj) {alert('Configure seu perfil de empresa antes de exportar dados.');return;}
+  const data = {
+    empresa,
+    pipeline: loadP(),
+    certidoes: loadC(),
+    timestamp: new Date().toISOString()
+  };
+  const blob = new Blob([JSON.stringify(data, null, 2)], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `LicitaEdge_Backup_${empresa.cnpj}_${new Date().getTime()}.json`;
+  a.click();
+}
+function importBackup(e){
+  const f = e.target.files[0];
+  if(!f) return;
+  e.target.value = '';
+  const r = new FileReader();
+  r.onload = ev => {
+    try {
+      const data = JSON.parse(ev.target.result);
+      if(!data.empresa || !data.pipeline || !data.certidoes) throw new Error("Arquivo json com estrutura inválida.");
+      if(!confirm("⚠️ Tem certeza? Esta ação substituirá seu perfil corporativo, pipeline e certidões atuais.")) return;
+      empresa = data.empresa;
+      saveP(data.pipeline);
+      saveC(data.certidoes);
+      
+      // Update UI elements silently if app is already started
+      if(document.getElementById('app').classList.contains('on')){
+        document.getElementById('top-empresa').textContent = empresa.razao.toUpperCase();
+        syncRegime();
+        renderPipeline();
+        renderChecklist();
+        updateAnalytics();
+      }
+      closeModal('modal-backup');
+      alert('✅ Backup restaurado com sucesso!');
+    } catch(err) {
+      alert('❌ Erro ao importar. Certifique-se de que é o arquivo correto exportado pelo LicitaEdge Pro.');
+    }
+  };
+  r.readAsText(f);
+}
+</script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw-licitaedge.js')
+        .then(reg => console.log('LicitaEdge SW Registrado', reg.scope))
+        .catch(err => console.error('Falha SW LicitaEdge', err));
+    });
+  }
+</script>
+</body>
+</html>
