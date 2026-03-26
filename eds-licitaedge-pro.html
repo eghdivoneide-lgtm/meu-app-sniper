@@ -6,6 +6,13 @@
 <title>EDS LicitaEdge Pro — EDS Soluções Inteligentes</title>
 <link rel="manifest" href="./manifest-licitaedge.webmanifest">
 <meta name="theme-color" content="#071510">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="LicitaEdge">
+    <link rel="apple-touch-icon" href="./icons/icon-192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="./icons/icon-512.png">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <style>
@@ -1517,10 +1524,30 @@ function importBackup(e){
 </script>
 <script>
   if ('serviceWorker' in navigator) {
+    let deferredPrompt = null;
+
+    // Captura o evento de instalação do PWA
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      console.log('LicitaEdge PWA: pronto para instalar');
+    });
+
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('./sw-licitaedge.js')
-        .then(reg => console.log('LicitaEdge SW Registrado', reg.scope))
-        .catch(err => console.error('Falha SW LicitaEdge', err));
+      navigator.serviceWorker.register('./sw-licitaedge.js', { scope: './' })
+        .then(reg => {
+          console.log('LicitaEdge SW Registrado. Scope:', reg.scope);
+          // Verifica se há novo SW aguardando
+          reg.addEventListener('updatefound', () => {
+            const newWorker = reg.installing;
+            newWorker.addEventListener('statechange', () => {
+              if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                console.log('LicitaEdge SW: nova versão disponível. Recarregue para atualizar.');
+              }
+            });
+          });
+        })
+        .catch(err => console.error('Falha SW LicitaEdge:', err));
     });
   }
 </script>
