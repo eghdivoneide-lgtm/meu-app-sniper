@@ -1,6 +1,7 @@
-const CACHE_NAME = 'monitor-wej-pro-v2';
+const CACHE_NAME = 'monitor-wej-pro-v3';
 const APP_SHELL = [
   './',
+  './index.html',
   './monitor-wej-pro.html',
   './manifest-wej.webmanifest',
   './icons/wej/icon-wej-192.svg',
@@ -46,7 +47,7 @@ self.addEventListener('fetch', (event) => {
           caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseClone));
           return networkResponse;
         })
-        .catch(() => caches.match('./monitor-wej-pro.html'));
+        .catch(() => caches.match('./index.html'));
     })
   );
 });

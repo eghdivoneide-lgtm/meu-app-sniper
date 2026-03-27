@@ -1,0 +1,5 @@
+Got op: projects/eds-ultra-prod/locations/us-central1/publishers/google/models/veo-2.0-generate-001/operations/6888d2c5-1516-4906-b3f5-a383cde5bfd5
+get() error: Cannot read properties of undefined (reading 'name')
+getVideosOperation({name}) error: Cannot read properties of undefined (reading 'name')
+getVideosOperation({operation}) error: Operation name is required.
+getVideosOperation({operationId}) error: Cannot read properties of undefined (reading 'name')

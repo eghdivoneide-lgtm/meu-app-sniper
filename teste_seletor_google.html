@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Teste Seletor Resposta</title>
+  <style>
+    body { font-family: 'Trebuchet MS', 'Segoe UI', Arial, sans-serif; background: #f7f7fa; color: #222; }
+    .container { max-width: 500px; margin: 40px auto; background: #fff; border-radius: 12px; box-shadow: 0 2px 12px #0001; padding: 32px 24px; }
+    .row { display: flex; gap: 10px; align-items: center; margin-bottom: 18px; }
+    input { flex: 1; font-size: 1.08rem; padding: 10px 14px; border-radius: 8px; border: 1.5px solid #315780; background: #fff; color: #1a237e; font-weight: 500; outline: none; }
+    select { font-size: 1rem; padding: 8px 14px; border-radius: 8px; border: 1.5px solid #315780; background: #fff; color: #1a237e; font-weight: 600; min-width: 170px; }
+    button { padding: 10px 18px; border-radius: 8px; background: linear-gradient(90deg,#13a385,#1a237e); color: #fff; font-weight: 700; font-size: 1rem; border: none; cursor: pointer; }
+    #resposta-area { margin-top: 24px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <input id="user-input" type="text" placeholder="Descreva sua dúvida...">
+      <select id="tipo-resposta">
+        <option value="balanceada">Resposta Balanceada</option>
+        <option value="direta">Direto ao Ponto</option>
+        <option value="expandida">Expandido com Detalhes</option>
+      </select>
+      <button id="send-btn">Enviar</button>
+    </div>
+    <div id="resposta-area"></div>
+  </div>
+  <script>
+    const respostas = {
+      direta: `| Nome | Status | Observação |\n|------|--------|-------------|\n| João | OK     | -           |\n| Ana  | Falha  | Revisar     |`,
+      balanceada: `| Coluna 1 | Coluna 2 | Coluna 3 |\n|---------|----------|----------|\n| Valor A | Valor B  | Valor C  |\n| Valor D | Valor E  | Valor F  |`,
+      expandida: `| Item | Descrição | Detalhes |\n|------|-----------|----------|\n| 1    | Teste 1   | Detalhe A|\n| 2    | Teste 2   | Detalhe B|`
+    };
+    function markdownTableToHTML(md) {
+      md = md.replace(/\*+/g, '');
+      const lines = md.trim().split('\n');
+      if (lines.length < 2) return '<div style="color:#c00">Tabela inválida</div>';
+      const headers = lines[0].split('|').map(h => h.trim()).filter(Boolean);
+      const rows = lines.slice(2).map(line => line.split('|').map(c => c.trim()).filter(Boolean));
+      let html = '<table border="1" cellpadding="8" style="border-collapse:collapse;width:100%;background:#173841;color:#eef6ff;margin-top:10px;"><thead><tr>';
+      headers.forEach(h => html += `<th style="background:#e3e8f7;color:#1a237e;">${h}</th>`);
+      html += '</tr></thead><tbody>';
+      rows.forEach(row => {
+        html += '<tr>';
+        row.forEach(cell => html += `<td>${cell}</td>`);
+        html += '</tr>';
+      });
+      html += '</tbody></table>';
+      return html;
+    }
+    function renderResposta(tipo) {
+      document.getElementById('resposta-area').innerHTML = markdownTableToHTML(respostas[tipo]);
+    }
+    document.getElementById('send-btn').onclick = function() {
+      const tipo = document.getElementById('tipo-resposta').value;
+      renderResposta(tipo);
+    };
+    document.getElementById('user-input').addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') document.getElementById('send-btn').click();
+    });
+    renderResposta('balanceada');
+  </script>
+</body>
+</html>

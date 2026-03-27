@@ -1,0 +1,23 @@
+# Arquivos de backend Python — nao pertencem ao deploy Netlify
+main.py
+app.py
+app_analista_argentino.py
+app_suporte_eds.py
+app_seduc.py
+requirements.txt
+Procfile
+
+# Logs e cache dos bots
+analista_argentino_log.txt
+suporte_eds_log.txt
+base_historica_cache.txt
+sniper_desempenho.json
+
+# Dados do Sniper (CSVs internos)
+dados_sniper/
+
+# Pacote de distribuicao local (nao precisa estar online)
+pacote-wej-pro/
+
+# Cache Python
+__pycache__/

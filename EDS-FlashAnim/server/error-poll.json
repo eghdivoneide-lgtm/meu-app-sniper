@@ -1,0 +1,4 @@
+{
+  "message": "ai.operations.getOperation is not a function",
+  "stack": "TypeError: ai.operations.getOperation is not a function\n    at run (C:\\Users\\egnal\\OneDrive\\Área de Trabalho\\MEU APP\\EDS-FlashAnim\\server\\debug-poll.js:22:51)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+}

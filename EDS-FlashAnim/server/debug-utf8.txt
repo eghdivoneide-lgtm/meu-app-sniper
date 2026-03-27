@@ -1,0 +1,49 @@
+﻿[dotenv@17.3.1] injecting env (2) from .env -- tip: ­ƒñû agentic secret storage: https://dotenvx.com/as2
+Starting generation...
+Got op: models/veo-2.0-generate-001/operations/upzin0ibmlkx
+node : Poll 1 err: {"er
+ror":{"code":401,"messa
+ge":"API keys are not 
+supported by this API. 
+Expected OAuth2 access 
+token or other 
+authentication 
+credentials that 
+assert a principal. 
+See https://cloud.googl
+e.com/docs/authenticati
+on","status":"UNAUTHENT
+ICATED","details":[{"@t
+ype":"type.googleapis.c
+om/google.rpc.ErrorInfo
+","reason":"CREDENTIALS
+_MISSING","domain":"goo
+gleapis.com","metadata"
+:{"method":"google.long
+running.Operations.GetO
+peration","service":"ge
+nerativelanguage.google
+apis.com"}}]}}
+No linha:1 caractere:1
++ node 
+debug-poll-veo.js > 
+debug.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (Poll 1 err: {   
+ "e...eapis.com"}}]    
+}}:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+Poll 2 err: Operation 
+name is required.
+Poll 3 err: Cannot 
+read properties of 
+undefined (reading 
+'name')
+Poll 4 getOperation name success

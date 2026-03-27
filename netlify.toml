@@ -1,0 +1,48 @@
+# Netlify — Monitor WEJ Educacao Pro
+# EDS Solucoes Inteligentes
+
+[build]
+  publish = "."
+
+# Cabecalhos globais de segurança
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options         = "DENY"
+    X-Content-Type-Options  = "nosniff"
+    Referrer-Policy         = "strict-origin-when-cross-origin"
+    Permissions-Policy      = "camera=(self), microphone=()"
+
+# Service Worker: nunca cacheado pelo Netlify CDN
+[[headers]]
+  for = "/sw-wej.js"
+  [headers.values]
+    Cache-Control           = "no-cache, no-store, must-revalidate"
+    Service-Worker-Allowed  = "/"
+
+# Manifesto PWA: sem cache agressivo
+[[headers]]
+  for = "/manifest-wej.webmanifest"
+  [headers.values]
+    Cache-Control           = "no-cache"
+    Content-Type            = "application/manifest+json"
+
+# Fallback SPA: qualquer rota desconhecida devolve index.html
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
+
+# Service Worker LicitaEdge: nunca cacheado pelo Netlify CDN
+[[headers]]
+  for = "/sw-licitaedge.js"
+  [headers.values]
+    Cache-Control           = "no-cache, no-store, must-revalidate"
+    Service-Worker-Allowed  = "/"
+
+# Manifesto PWA LicitaEdge: sem cache agressivo
+[[headers]]
+  for = "/manifest-licitaedge.webmanifest"
+  [headers.values]
+    Cache-Control           = "no-cache"
+    Content-Type            = "application/manifest+json"

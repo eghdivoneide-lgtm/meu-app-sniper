@@ -3,12 +3,12 @@ from google import genai
 from google.genai import types
 
 # 1. Suas Chaves Secretas (Não esqueça de manter as suas aqui!)
-CHAVE_TELEGRAM = "COLE_AQUI_SEU_TOKEN_TELEGRAM"
-CHAVE_GEMINI = "COLE_AQUI_SUA_CHAVE_GEMINI"
+CHAVE_TELEGRAM = "REDACTED"
+CHAVE_GEMINI = "REDACTED"
 
 # 2. Ligando os motores
-bot = telebot.TeleBot(CHAVE_TELEGRAM)
-cliente_gemini = genai.Client(api_key=CHAVE_GEMINI)
+bot = telebot.TeleBot("REDACTED")
+cliente_gemini = genai.Client("REDACTED")
 
 # 3. O "Fichário" de memórias
 memoria_dos_alunos = {}

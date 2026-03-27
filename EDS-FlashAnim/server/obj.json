@@ -1,0 +1,31 @@
+{
+  "ops": [
+    "constructor",
+    "getVideosOperation",
+    "get",
+    "getVideosOperationInternal",
+    "fetchPredictVideosOperationInternal"
+  ],
+  "models": [
+    "constructor",
+    "maybeMoveToResponseJsonSchem",
+    "processParamsMaybeAddMcpUsage",
+    "initAfcToolsMap",
+    "processAfcStream",
+    "generateContentInternal",
+    "generateContentStreamInternal",
+    "embedContentInternal",
+    "generateImagesInternal",
+    "editImageInternal",
+    "upscaleImageInternal",
+    "recontextImage",
+    "segmentImage",
+    "get",
+    "listInternal",
+    "update",
+    "delete",
+    "countTokens",
+    "computeTokens",
+    "generateVideosInternal"
+  ]
+}

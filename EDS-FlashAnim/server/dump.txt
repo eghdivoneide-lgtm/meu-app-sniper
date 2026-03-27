@@ -1,0 +1,69 @@
+GET:
+async get(parameters) {
+        const operation = parameters.operation;
+        const config = parameters.config;
+        if (operation.name === undefined || operation.name === '') {
+            throw new Error('Operation name is required.');
+        }
+        if (this.apiClient.isVertexAI()) {
+            const resourceName = operation.name.split('/operations/')[0];
+            let httpOptions = undefined;
+            if (config && 'httpOptions' in config) {
+                httpOptions = config.httpOptions;
+            }
+            const rawOperation = await this.fetchPredictVideosOperationInternal({
+                operationName: operation.name,
+                resourceName: resourceName,
+                config: { httpOptions: httpOptions },
+            });
+            return operation._fromAPIResponse({
+                apiResponse: rawOperation,
+                _isVertexAI: true,
+            });
+        }
+        else {
+            const rawOperation = await this.getVideosOperationInternal({
+                operationName: operation.name,
+                config: config,
+            });
+            return operation._fromAPIResponse({
+                apiResponse: rawOperation,
+                _isVertexAI: false,
+            });
+        }
+    }
+
+GETVIDEOS:
+async getVideosOperation(parameters) {
+        const operation = parameters.operation;
+        const config = parameters.config;
+        if (operation.name === undefined || operation.name === '') {
+            throw new Error('Operation name is required.');
+        }
+        if (this.apiClient.isVertexAI()) {
+            const resourceName = operation.name.split('/operations/')[0];
+            let httpOptions = undefined;
+            if (config && 'httpOptions' in config) {
+                httpOptions = config.httpOptions;
+            }
+            const rawOperation = await this.fetchPredictVideosOperationInternal({
+                operationName: operation.name,
+                resourceName: resourceName,
+                config: { httpOptions: httpOptions },
+            });
+            return operation._fromAPIResponse({
+                apiResponse: rawOperation,
+                _isVertexAI: true,
+            });
+        }
+        else {
+            const rawOperation = await this.getVideosOperationInternal({
+                operationName: operation.name,
+                config: config,
+            });
+            return operation._fromAPIResponse({
+                apiResponse: rawOperation,
+                _isVertexAI: false,
+            });
+        }
+    }

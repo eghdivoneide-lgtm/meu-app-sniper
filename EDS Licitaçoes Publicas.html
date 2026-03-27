@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AssistenteLC — Bot de Licitações Municipal</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', sans-serif; background: #0f1923; height: 100vh; display: flex; flex-direction: column; max-width: 520px; margin: 0 auto; }
+
+  @keyframes bounce { 0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-6px)} }
+  @keyframes fadeIn { from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)} }
+  @keyframes pulse { 0%,100%{opacity:1}50%{opacity:0.5} }
+  @keyframes slideUp { from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)} }
+
+  /* SETUP */
+  #setup {
+    position:fixed;inset:0;max-width:520px;margin:0 auto;
+    background:linear-gradient(160deg,#0f1923 0%,#1a2940 50%,#0d3060 100%);
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    padding:28px 20px;z-index:100;
+  }
+  .setup-logo { font-size:52px;margin-bottom:10px;filter:drop-shadow(0 4px 16px rgba(0,120,255,0.5)); }
+  #setup h1 { color:#fff;font-size:24px;font-weight:900;text-align:center;letter-spacing:-0.5px; }
+  #setup .tag { color:#5b9bd5;font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:24px;margin-top:4px; }
+  .setup-card { background:#1a2535;border:1px solid #2a3f5f;border-radius:20px;padding:24px;width:100%;box-shadow:0 24px 60px rgba(0,0,0,0.6);animation:slideUp 0.4s ease; }
+  .setup-card h2 { font-size:14px;color:#5b9bd5;margin-bottom:14px;font-weight:700;letter-spacing:1px;text-transform:uppercase; }
+  .field { margin-bottom:12px; }
+  .field label { font-size:11px;color:#8899aa;font-weight:600;display:block;margin-bottom:5px;letter-spacing:0.5px; }
+  .field input {
+    width:100%;padding:11px 14px;border:1.5px solid #2a3f5f;border-radius:10px;
+    font-size:13px;color:#e0e8f5;background:#0f1923;outline:none;
+    transition:border 0.2s;font-family:inherit;
+  }
+  .field input:focus { border-color:#2d7dd2; }
+  #start-btn {
+    width:100%;padding:13px;
+    background:linear-gradient(135deg,#2d7dd2,#1a4fa8);
+    border:none;border-radius:12px;color:#fff;font-size:14px;font-weight:800;
+    cursor:pointer;letter-spacing:0.5px;font-family:inherit;margin-top:4px;
+    transition:opacity 0.2s;
+  }
+  #start-btn:hover{opacity:0.9}
+  .api-hint { margin-top:12px;background:#0f1923;border-radius:10px;padding:12px 14px;border:1px solid #1e3050; }
+  .api-hint p { font-size:11px;color:#6a7f99;line-height:1.7;margin:0; }
+  .api-hint a { color:#2d7dd2;font-weight:600; }
+
+  /* CHAT */
+  #chat { display:none;flex-direction:column;height:100vh; }
+  #chat.active { display:flex; }
+
+  /* Header */
+  .header {
+    background:linear-gradient(135deg,#0d1e35,#1a3060);
+    padding:12px 16px;display:flex;align-items:center;gap:12px;
+    border-bottom:1px solid #1e3a5f;flex-shrink:0;
+  }
+  .h-icon {
+    width:44px;height:44px;border-radius:12px;
+    background:linear-gradient(135deg,#2d7dd2,#1a4fa8);
+    display:flex;align-items:center;justify-content:center;font-size:20px;
+    flex-shrink:0;box-shadow:0 4px 12px rgba(45,125,210,0.4);
+  }
+  .h-text .title { color:#fff;font-weight:800;font-size:15px;letter-spacing:-0.3px; }
+  .h-text .sub { color:#5b9bd5;font-size:11px;font-weight:600;letter-spacing:0.5px; }
+  .h-text .muni { color:#8899bb;font-size:10px;margin-top:1px; }
+  .h-badge {
+    margin-left:auto;background:rgba(45,125,210,0.2);border:1px solid #2d7dd2;
+    border-radius:20px;padding:3px 10px;font-size:10px;color:#5b9bd5;
+    font-weight:700;letter-spacing:0.5px;display:flex;align-items:center;gap:4px;
+  }
+  .live-dot { width:5px;height:5px;border-radius:50%;background:#4caf50;animation:pulse 2s infinite; }
+
+  /* Quick access */
+  .quick-bar {
+    background:#111d2e;padding:8px 12px;display:flex;gap:6px;overflow-x:auto;
+    scrollbar-width:none;flex-shrink:0;border-bottom:1px solid #1a2e4a;
+  }
+  .quick-bar::-webkit-scrollbar{display:none}
+  .qbtn {
+    background:#1a2a40;border:1px solid #2a3f5f;border-radius:8px;
+    padding:6px 12px;font-size:11px;color:#8ab4d4;cursor:pointer;
+    white-space:nowrap;flex-shrink:0;font-family:inherit;font-weight:600;
+    transition:all 0.2s;
+  }
+  .qbtn:hover{background:#1e3a5f;border-color:#2d7dd2;color:#fff}
+
+  /* Messages */
+  .msgs { flex:1;overflow-y:auto;padding:14px 12px;display:flex;flex-direction:column;gap:8px; }
+  .msgs::-webkit-scrollbar{width:3px}
+  .msgs::-webkit-scrollbar-thumb{background:#1e3a5f;border-radius:4px}
+
+  .date-badge { text-align:center; }
+  .date-badge span { background:#1a2535;color:#5b7a99;font-size:10px;padding:3px 12px;border-radius:8px;font-weight:600;letter-spacing:0.5px; }
+
+  .row { display:flex;animation:fadeIn 0.3s ease; }
+  .row.user{justify-content:flex-end}
+  .row.bot{justify-content:flex-start;align-items:flex-end;gap:8px}
+  .bot-av{width:30px;height:30px;border-radius:8px;background:linear-gradient(135deg,#2d7dd2,#1a4fa8);display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0;}
+
+  .bbl {
+    max-width:78%;padding:10px 14px;font-size:13.5px;line-height:1.65;
+    word-break:break-word;white-space:pre-wrap;
+  }
+  .bbl.user {
+    background:linear-gradient(135deg,#1a4fa8,#2d7dd2);color:#fff;
+    border-radius:14px 14px 4px 14px;box-shadow:0 2px 8px rgba(45,125,210,0.3);
+  }
+  .bbl.bot {
+    background:#1a2535;color:#d0e0f5;
+    border-radius:14px 14px 14px 4px;border:1px solid #2a3f5f;
+    box-shadow:0 2px 8px rgba(0,0,0,0.3);
+  }
+  .bbl .meta { font-size:10px;color:#4a6a8a;text-align:right;margin-top:5px; }
+  .bbl.user .meta { color:rgba(255,255,255,0.5); }
+
+  /* Lei tag */
+  .lei-tag {
+    display:inline-block;background:rgba(45,125,210,0.15);border:1px solid #2d7dd2;
+    color:#5b9bd5;font-size:10px;padding:1px 7px;border-radius:4px;
+    font-weight:700;margin-right:4px;vertical-align:middle;
+  }
+
+  .typing-row{display:flex;align-items:flex-end;gap:8px}
+  .typing{background:#1a2535;border:1px solid #2a3f5f;border-radius:14px;padding:10px 14px;display:flex;gap:4px;align-items:center;}
+  .dot{width:7px;height:7px;border-radius:50%;background:#2d7dd2;animation:bounce 1.2s infinite;}
+  .dot:nth-child(2){animation-delay:0.2s}
+  .dot:nth-child(3){animation-delay:0.4s}
+
+  /* Input */
+  .input-area {
+    padding:10px 12px;background:#111d2e;display:flex;align-items:flex-end;gap:8px;
+    border-top:1px solid #1a2e4a;flex-shrink:0;
+  }
+  .iw {
+    flex:1;background:#1a2535;border-radius:14px;padding:10px 14px;
+    display:flex;align-items:flex-end;border:1.5px solid #2a3f5f;
+    transition:border 0.2s;
+  }
+  .iw:focus-within{border-color:#2d7dd2}
+  textarea {
+    border:none;resize:none;flex:1;font-size:13.5px;background:transparent;
+    max-height:110px;line-height:1.5;color:#d0e0f5;font-family:inherit;outline:none;
+  }
+  textarea::placeholder{color:#3a5a7a}
+  #sbtn {
+    width:44px;height:44px;border-radius:12px;border:none;
+    background:linear-gradient(135deg,#2d7dd2,#1a4fa8);
+    color:#fff;font-size:17px;cursor:pointer;
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 3px 10px rgba(45,125,210,0.4);flex-shrink:0;transition:opacity 0.2s;
+  }
+  #sbtn:disabled{background:#2a3f5f;box-shadow:none;cursor:default;opacity:0.5}
+
+  .footer-bar {
+    background:#0d1520;padding:6px 14px;text-align:center;
+    font-size:10px;color:#3a5a7a;flex-shrink:0;border-top:1px solid #1a2535;
+    font-weight:600;letter-spacing:0.3px;
+  }
+</style>
+</head>
+<body>
+
+<!-- SETUP -->
+<div id="setup">
+  <div class="setup-logo">⚖️</div>
+  <h1>AssistenteLC</h1>
+  <div class="tag">Inteligência em Licitações</div>
+
+  <div class="setup-card">
+    <h2>⚙️ Configuração</h2>
+    <div class="field">
+      <label>Município</label>
+      <input type="text" id="muni" placeholder="Ex: Serra Talhada — PE" />
+    </div>
+    <div class="field">
+      <label>Setor / Secretaria</label>
+      <input type="text" id="setor" placeholder="Ex: Setor de Licitações / CPL" />
+    </div>
+    <div class="field">
+      <label>Chave de API Anthropic</label>
+      <input type="password" id="apikey" placeholder="sk-ant-api03-..." />
+    </div>
+    <button id="start-btn" onclick="start()">⚖️ Ativar AssistenteLC</button>
+    <div class="api-hint">
+      <p>🔑 Chave gratuita em <a href="https://console.anthropic.com" target="_blank">console.anthropic.com</a><br>
+      🔒 Seus dados ficam apenas neste dispositivo.</p>
+    </div>
+  </div>
+</div>
+
+<!-- CHAT -->
+<div id="chat">
+  <div class="header">
+    <div class="h-icon">⚖️</div>
+    <div class="h-text">
+      <div class="title">AssistenteLC</div>
+      <div class="sub">INTELIGÊNCIA EM LICITAÇÕES</div>
+      <div class="muni" id="hmuni">Prefeitura Municipal</div>
+    </div>
+    <div class="h-badge"><div class="live-dot"></div>ONLINE</div>
+  </div>
+
+  <div class="quick-bar">
+    <button class="qbtn" onclick="qs('Qual a modalidade correta para contratar R$80.000 em obras?')">📋 Modalidades</button>
+    <button class="qbtn" onclick="qs('Quando posso usar dispensa de licitação?')">⚡ Dispensa</button>
+    <button class="qbtn" onclick="qs('Quais os prazos mínimos para publicação de edital?')">📅 Prazos</button>
+    <button class="qbtn" onclick="qs('O que é inexigibilidade de licitação?')">🔓 Inexigibilidade</button>
+    <button class="qbtn" onclick="qs('Como elaborar um Termo de Referência?')">📝 Termo de Referência</button>
+    <button class="qbtn" onclick="qs('Quais documentos de habilitação posso exigir?')">📁 Habilitação</button>
+    <button class="qbtn" onclick="qs('Como tratar recursos e impugnações?')">⚠️ Recursos</button>
+    <button class="qbtn" onclick="qs('O que precisa publicar no PNCP?')">🌐 PNCP</button>
+    <button class="qbtn" onclick="qs('Quais os limites de valor por modalidade em 2025?')">💰 Limites 2025</button>
+    <button class="qbtn" onclick="qs('Como fazer pesquisa de preços corretamente?')">🔍 Pesquisa de Preços</button>
+  </div>
+
+  <div class="msgs" id="msgs">
+    <div class="date-badge"><span>SESSÃO INICIADA</span></div>
+  </div>
+
+  <div class="input-area">
+    <div class="iw">
+      <textarea id="inp" rows="1" placeholder="Faça sua consulta sobre licitações..." onkeydown="hkey(event)" oninput="arz(this)"></textarea>
+    </div>
+    <button id="sbtn" onclick="send()">➤</button>
+  </div>
+
+  <div class="footer-bar">⚖️ AssistenteLC • Lei 14.133/2021 • Lei 8.666/93 • Uso interno exclusivo</div>
+</div>
+
+<script>
+let key='', muni='', setor='', hist=[], busy=false, SYS='';
+
+function buildSys(){
+  return `Você é o AssistenteLC — especialista sênior em licitações e contratos públicos municipais, atuando como assistente interno da ${setor || 'Setor de Licitações'} da Prefeitura de ${muni || 'município'}.
+
+Você domina completamente:
+- Lei 14.133/2021 (Nova Lei de Licitações) — artigos, prazos, modalidades, fases
+- Lei 8.666/1993 — ainda aplicável a contratos em andamento
+- Lei 10.520/2002 — Pregão
+- Decreto 10.024/2019 — Pregão Eletrônico
+- IN SEGES 65/2021 — Pesquisa de Preços
+- Jurisprudência TCU, TCE-PE e orientações CGU
+- PNCP — Portal Nacional de Contratações Públicas
+
+Modalidades e limites (Lei 14.133/2021 atualizados):
+- Dispensa de valor: obras até R$114.731,24 / outros até R$57.154,32 (Decreto 11.871/2023)
+- Concorrência / Pregão: acima dos limites de dispensa
+- Concurso: para projetos, técnica e remuneração
+- Leilão: alienação de bens
+- Diálogo competitivo: inovação tecnológica
+
+Seu papel:
+- Responder dúvidas técnicas com precisão e citar o artigo de lei correspondente
+- Orientar sobre prazos, documentos, fases processuais
+- Alertar sobre riscos de irregularidade e apontamentos de TCE
+- Ajudar a redigir trechos de editais, termos de referência e despachos
+- Explicar como se defender em impugnações e recursos
+- Orientar sobre PNCP: o que publicar, quando e como
+
+Formato das respostas:
+- Sempre cite o artigo de lei relevante entre colchetes [Art. X, Lei 14.133/2021]
+- Use numeração para passo a passos
+- Seja direto e técnico — você fala com servidores experientes
+- Alerte em MAIÚSCULAS quando houver risco de irregularidade grave
+- Máximo 5 parágrafos ou 6 itens por resposta
+- Finalize com: "Precisa de mais detalhes ou quer o modelo do documento?"
+
+Você é o especialista que a prefeitura de ${muni} precisava ter no quadro mas não tem. Economize o trabalho dos servidores e proteja a gestão de apontamentos do TCE.`;
+}
+
+function now(){return new Date().toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'})}
+
+function start(){
+  const k=document.getElementById('apikey').value.trim();
+  muni=document.getElementById('muni').value.trim()||'Serra Talhada';
+  setor=document.getElementById('setor').value.trim();
+  if(!k.startsWith('sk-ant')){alert('Chave inválida. Deve começar com sk-ant...');return;}
+  key=k; SYS=buildSys();
+  document.getElementById('setup').style.display='none';
+  document.getElementById('chat').classList.add('active');
+  document.getElementById('hmuni').textContent=`Prefeitura de ${muni}`;
+  addBot(`⚖️ AssistenteLC ativo!\n\nOlá! Sou seu especialista em licitações e contratos. Estou treinado na Lei 14.133/2021, Lei 8.666/93 e toda a legislação aplicável às contratações públicas.\n\nPosso te ajudar com:\n• Escolha de modalidade e enquadramento legal\n• Prazos e fases do processo licitatório\n• Pesquisa de preços e Termo de Referência\n• Publicações obrigatórias no PNCP\n• Dispensa e inexigibilidade\n• Habilitação e julgamento de propostas\n• Recursos, impugnações e contratos\n\nQual é sua consulta? 📋`);
+}
+
+function addBot(txt){
+  const m=document.getElementById('msgs');
+  const d=document.createElement('div');
+  d.className='row bot';
+  d.innerHTML=`<div class="bot-av">⚖️</div><div class="bbl bot">${txt}<div class="meta">${now()} • AssistenteLC</div></div>`;
+  m.appendChild(d);m.scrollTop=m.scrollHeight;
+}
+
+function addUser(txt){
+  const m=document.getElementById('msgs');
+  const d=document.createElement('div');
+  d.className='row user';
+  d.innerHTML=`<div class="bbl user">${txt}<div class="meta">${now()}</div></div>`;
+  m.appendChild(d);m.scrollTop=m.scrollHeight;
+}
+
+function showTyping(){
+  const m=document.getElementById('msgs');
+  const d=document.createElement('div');
+  d.className='typing-row';d.id='trow';
+  d.innerHTML=`<div class="bot-av">⚖️</div><div class="typing"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>`;
+  m.appendChild(d);m.scrollTop=m.scrollHeight;
+}
+function rmTyping(){const t=document.getElementById('trow');if(t)t.remove();}
+
+function qs(t){send(t);}
+function hkey(e){if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();send();}}
+function arz(el){el.style.height='auto';el.style.height=Math.min(el.scrollHeight,110)+'px';}
+
+async function send(txt){
+  const inp=document.getElementById('inp');
+  const t=txt||inp.value.trim();
+  if(!t||busy)return;
+  inp.value='';inp.style.height='auto';
+  busy=true;document.getElementById('sbtn').disabled=true;
+  addUser(t);
+  hist.push({role:'user',content:t});
+  showTyping();
+
+  try{
+    const r=await fetch('https://api.anthropic.com/v1/messages',{
+      method:'POST',
+      headers:{
+        'Content-Type':'application/json',
+        'x-api-key':key,
+        'anthropic-version':'2023-06-01',
+        'anthropic-dangerous-direct-browser-access':'true'
+      },
+      body:JSON.stringify({
+        model:'claude-sonnet-4-20250514',
+        max_tokens:1000,
+        system:SYS,
+        messages:hist
+      })
+    });
+    const data=await r.json();
+    const reply=data.content?.[0]?.text||'Não consegui processar. Tente novamente.';
+    rmTyping();
+    hist.push({role:'assistant',content:reply});
+    addBot(reply);
+  }catch(e){
+    rmTyping();
+    addBot('❌ Erro de conexão. Verifique sua internet e tente novamente.');
+  }
+  busy=false;
+  document.getElementById('sbtn').disabled=false;
+  document.getElementById('inp').focus();
+}
+</script>
+</body>
+</html>

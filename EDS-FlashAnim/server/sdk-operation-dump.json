@@ -1,0 +1,15 @@
+{
+  "name": "projects/eds-ultra-prod/locations/us-central1/publishers/google/models/veo-2.0-generate-001/operations/f5b534d8-2293-489a-aebc-d1a36e25b304",
+  "done": true,
+  "response": {
+    "generatedVideos": [
+      {
+        "video": {
+          "videoBytes": "AAAAIGZ0eXBpc29tAAACAGlzb21pc28yYXZjMW1wNDEAAB4xdXVpZNj+w9YbDkg8kpdYKId+xIEAAAAAbWFuaWZlc3QAAAAAAAAAAAAAAB4EanVtYgAAAB5qdW1kYzJwYQARABCAAACqADibcQNjMnBhAAAAHd5qdW1iAAAAR2p1bWRjMm1hABEAEIAAAKoAOJtxA3VybjpjMnBhOmFiNmNhMTQxLTQ4ZDctZjU4MS02OGYxLTRhMDRmYzc5ZTQ5YwAAABk4anVtYgAAAChqdW1kYzJjcwARABCAAACqADib...[+6065620chars]",
+          "mimeType": "video/mp4"
+        }
+      }
+    ],
+    "raiMediaFilteredCount": 0
+  }
+}

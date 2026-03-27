@@ -2,7 +2,7 @@
   "name": "Monitor Virtual WEJ Educacao Pro",
   "short_name": "WEJ Educacao",
   "description": "Monitor Virtual WEJ Educacao Pro para estudos de concursos publicos municipais, desenvolvido pela EDS Solucoes Inteligentes.",
-  "start_url": "./monitor-wej-pro.html",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",

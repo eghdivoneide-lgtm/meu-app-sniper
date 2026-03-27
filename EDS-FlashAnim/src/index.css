@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold-400: #c9a84c;
+  --color-gold-500: #b09138;
+}
+
+body {
+  background-color: #050505;
+  color: #f1f1f1;
+  font-family: 'Inter', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+.glass-panel {
+  background: rgba(15, 15, 15, 0.4);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+/* Animação simulada de progresso de IA */
+@keyframes progress {
+  0% { transform: scaleX(0); }
+  20% { transform: scaleX(0.2); }
+  50% { transform: scaleX(0.6); }
+  80% { transform: scaleX(0.85); }
+  100% { transform: scaleX(0.98); }
+}
+
+.animate-progress {
+  animation: progress 60s cubic-bezier(0.1, 0.7, 1.0, 0.1) forwards;
+}
+
+/* Custom Scrollbar elegante para o painel */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.02);
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(201,168,76,0.3);
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(201,168,76,0.5);
+}

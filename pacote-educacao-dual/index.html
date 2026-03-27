@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDS Educacao Digital</title>
+    <meta name="theme-color" content="#0d1f35">
+    <style>
+        :root {
+            --bg-1: #07111d;
+            --bg-2: #0c1d33;
+            --panel: rgba(13, 27, 46, 0.88);
+            --panel-2: rgba(19, 42, 71, 0.92);
+            --line: rgba(120, 164, 214, 0.22);
+            --gold: #e7c96f;
+            --cyan: #7be0e0;
+            --text: #eef6ff;
+            --muted: #a9bdd6;
+            --green: #7fd8ae;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            color: var(--text);
+            background:
+                radial-gradient(70% 60% at 0% 0%, rgba(123, 224, 224, 0.12), transparent 60%),
+                radial-gradient(60% 50% at 100% 0%, rgba(231, 201, 111, 0.14), transparent 60%),
+                linear-gradient(180deg, var(--bg-1), var(--bg-2));
+            padding: 28px;
+        }
+        .shell {
+            max-width: 1180px;
+            margin: 0 auto;
+        }
+        .hero {
+            padding: 26px;
+            border: 1px solid var(--line);
+            border-radius: 28px;
+            background: linear-gradient(180deg, rgba(11, 24, 40, 0.88), rgba(10, 21, 36, 0.94));
+            box-shadow: 0 24px 54px rgba(0, 0, 0, 0.28);
+        }
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 14px;
+            border-radius: 999px;
+            border: 1px solid rgba(123, 224, 224, 0.28);
+            color: var(--cyan);
+            background: rgba(123, 224, 224, 0.08);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-size: 12px;
+            font-weight: 700;
+        }
+        h1 {
+            margin: 18px 0 12px;
+            font-size: clamp(2.2rem, 4vw, 4.2rem);
+            line-height: 0.98;
+            max-width: 760px;
+        }
+        .lead {
+            max-width: 760px;
+            color: var(--muted);
+            font-size: 1.08rem;
+            line-height: 1.7;
+        }
+        .grid {
+            margin-top: 26px;
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 18px;
+        }
+        .card {
+            padding: 22px;
+            border-radius: 24px;
+            border: 1px solid var(--line);
+            background: linear-gradient(180deg, var(--panel), var(--panel-2));
+        }
+        .card.wej {
+            background:
+                radial-gradient(60% 80% at 100% 0%, rgba(126, 216, 174, 0.12), transparent 70%),
+                linear-gradient(180deg, rgba(12, 40, 33, 0.96), rgba(10, 27, 24, 0.98));
+        }
+        .card.seduc {
+            background:
+                radial-gradient(60% 80% at 100% 0%, rgba(123, 224, 224, 0.12), transparent 70%),
+                linear-gradient(180deg, rgba(17, 37, 62, 0.96), rgba(11, 25, 42, 0.98));
+        }
+        .badge {
+            display: inline-flex;
+            padding: 7px 12px;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+        .wej .badge {
+            color: #dff8eb;
+            border: 1px solid rgba(127, 216, 174, 0.42);
+            background: rgba(127, 216, 174, 0.08);
+        }
+        .seduc .badge {
+            color: #dff8f8;
+            border: 1px solid rgba(123, 224, 224, 0.35);
+            background: rgba(123, 224, 224, 0.08);
+        }
+        .card h2 {
+            margin: 18px 0 10px;
+            font-size: 1.7rem;
+        }
+        .card p {
+            color: var(--muted);
+            line-height: 1.7;
+            min-height: 92px;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 16px 0 22px;
+        }
+        .features span {
+            padding: 8px 11px;
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            color: #d8e8f8;
+            font-size: 12px;
+        }
+        .actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 16px;
+            border-radius: 14px;
+            text-decoration: none;
+            font-weight: 800;
+            border: 1px solid transparent;
+        }
+        .btn-primary {
+            background: linear-gradient(90deg, #e7c96f, #f1d98a);
+            color: #1a1e12;
+        }
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.04);
+            color: var(--text);
+            border-color: rgba(255, 255, 255, 0.12);
+        }
+        .footer {
+            margin-top: 18px;
+            color: var(--muted);
+            font-size: 14px;
+        }
+        @media (max-width: 860px) {
+            body { padding: 16px; }
+            .grid { grid-template-columns: 1fr; }
+            .card p { min-height: 0; }
+        }
+    </style>
+</head>
+<body>
+    <main class="shell">
+        <section class="hero">
+            <div class="eyebrow">EDS Solucoes Inteligentes • Suite Educacional</div>
+            <h1>Escolha o ambiente certo para cada publico da sua operacao educacional.</h1>
+            <p class="lead">Esta central organiza dois produtos em um unico ponto de entrada: o Monitor WEJ, voltado a candidatos de concursos municipais, e o Assistente Pedagogico SEDUC-PE, voltado a professores e coordenadores. Cada ambiente tem identidade, historico, cache e configuracao proprios.</p>
+            <div class="grid">
+                <article class="card wej">
+                    <div class="badge">WEJ Educacao Pro</div>
+                    <h2>Preparacao para concursos municipais</h2>
+                    <p>Ambiente de estudo para candidatos com plano de estudo, simulados, leitura de edital, suporte por arquivo e adaptacao didatica por perfil.</p>
+                    <div class="features">
+                        <span>Concursos municipais</span>
+                        <span>Plano de estudo</span>
+                        <span>Historico exportavel</span>
+                        <span>PWA instalavel</span>
+                    </div>
+                    <div class="actions">
+                        <a class="btn btn-primary" href="wej/">Abrir ambiente WEJ</a>
+                    </div>
+                </article>
+                <article class="card seduc">
+                    <div class="badge">SEDUC-PE Pro</div>
+                    <h2>Apoio pedagogico para a rede</h2>
+                    <p>Ambiente para professores e coordenadores com apoio a BNCC, sequencias didaticas, avaliacao, inclusao e intervencao pedagogica com contexto institucional.</p>
+                    <div class="features">
+                        <span>BNCC</span>
+                        <span>Planejamento docente</span>
+                        <span>Inclusao</span>
+                        <span>PWA instalavel</span>
+                    </div>
+                    <div class="actions">
+                        <a class="btn btn-primary" href="seduc/">Abrir ambiente SEDUC</a>
+                    </div>
+                </article>
+            </div>
+            <div class="footer">Pacote unificado para demonstracao, operacao e deploy com um unico ponto de entrada.</div>
+        </section>
+    </main>
+</body>
+</html>

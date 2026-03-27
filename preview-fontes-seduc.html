@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preview de Fontes - SEDUC</title>
+  <style>
+    :root {
+      --bg: #0f1f35;
+      --card: #17375a;
+      --text: #e8f3ff;
+      --muted: #b9d1ea;
+      --border: rgba(209, 166, 79, 0.35);
+      --head: #a8f5e6;
+    }
+
+    body {
+      margin: 0;
+      padding: 24px;
+      background: radial-gradient(1200px 600px at 10% -10%, #245f90 0%, transparent 55%), var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 1.4rem;
+    }
+
+    p.meta {
+      margin: 0 0 20px;
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    .panel {
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: linear-gradient(180deg, #18375a, #132b45);
+      padding: 14px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    }
+
+    .label {
+      display: inline-block;
+      margin-bottom: 10px;
+      font-size: 0.9rem;
+      color: var(--head);
+      font-weight: 700;
+      letter-spacing: 0.3px;
+    }
+
+    .message {
+      line-height: 1.6;
+      font-size: 15.5px;
+    }
+
+    table {
+      margin: 12px 0 0;
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 8px 9px;
+      border-bottom: 1px solid rgba(168, 245, 230, 0.22);
+    }
+
+    th {
+      color: #b8fff2;
+      font-weight: 700;
+      border-bottom: 2px solid rgba(168, 245, 230, 0.35);
+    }
+
+    .msg-segoe {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .msg-trebuchet {
+      font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+    }
+
+    @media (max-width: 900px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Comparação de Fonte das Respostas</h1>
+  <p class="meta">Objetivo: validar visualmente antes de implantar definitivo no monitor SEDUC.</p>
+
+  <div class="grid">
+    <section class="panel">
+      <span class="label">Opção A: Segoe UI (proposta para padronizar)</span>
+      <div class="message msg-segoe">
+        <strong>1) Diagnóstico pedagógico da demanda</strong><br>
+        A demanda envolve elaboração e correção com foco em evidências, feedback e inclusão.
+        <table>
+          <thead>
+            <tr><th>Pilar</th><th>Aplicação prática</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Diagnóstico</td><td>Mapear lacunas por habilidade BNCC</td></tr>
+            <tr><td>Intervenção</td><td>Definir reforço e reensino por grupo</td></tr>
+            <tr><td>Acompanhamento</td><td>Plano quinzenal com indicadores</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <span class="label">Opção B: Trebuchet MS (estilo anterior de base)</span>
+      <div class="message msg-trebuchet">
+        <strong>1) Diagnóstico pedagógico da demanda</strong><br>
+        A demanda envolve elaboração e correção com foco em evidências, feedback e inclusão.
+        <table>
+          <thead>
+            <tr><th>Pilar</th><th>Aplicação prática</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Diagnóstico</td><td>Mapear lacunas por habilidade BNCC</td></tr>
+            <tr><td>Intervenção</td><td>Definir reforço e reensino por grupo</td></tr>
+            <tr><td>Acompanhamento</td><td>Plano quinzenal com indicadores</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

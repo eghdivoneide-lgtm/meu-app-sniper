@@ -3,7 +3,7 @@ from google import genai
 from google.genai import types
 
 # 1. Suas Chaves Secretas (Não esqueça de manter as suas aqui!)
-CHAVE_TELEGRAM = "COLE_AQUI_SEU_TOKEN_TELEGRAM"
+CHAVE_TELEGRAM = "REDACTED"
 CHAVE_GEMINI = "COLE_AQUI_SUA_CHAVE_GEMINI"
 
 # 2. Ligando os motores

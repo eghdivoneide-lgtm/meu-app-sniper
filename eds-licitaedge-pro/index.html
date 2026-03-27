@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>EDS LicitaEdge Pro — EDS Soluções Inteligentes</title>
+<link rel="manifest" href="/manifest-licitaedge.webmanifest">
+<meta name="theme-color" content="#071510">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+/* ...existing code... */
+</style>
+</head>
+<body>
+<!-- ...existing body code... -->
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw-licitaedge.js')
+        .then(reg => console.log('LicitaEdge SW Registrado', reg.scope))
+        .catch(err => console.error('Falha SW LicitaEdge', err));
+    });
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Preview de Renderização - Tabelas e Markdown</title>
+  <style>
+    :root {
+      --bg: #0d1f35;
+      --panel: #132b45;
+      --panel-2: #17375a;
+      --text: #e8f3ff;
+      --muted: #b9d1ea;
+      --line: rgba(209, 166, 79, 0.28);
+      --ok: #a8f5e6;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: radial-gradient(1200px 600px at 10% -10%, #245f90 0%, transparent 55%), var(--bg);
+      color: var(--text);
+    }
+
+    h1 {
+      margin: 0 0 6px;
+      font-size: 1.25rem;
+    }
+
+    .muted {
+      margin: 0 0 14px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .card {
+      background: linear-gradient(180deg, var(--panel-2), var(--panel));
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+      box-shadow: 0 10px 24px rgba(0,0,0,0.2);
+    }
+
+    .label {
+      color: var(--ok);
+      font-size: 0.86rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 380px;
+      resize: vertical;
+      border-radius: 10px;
+      border: 1px solid #315780;
+      background: #11253e;
+      color: #eef6ff;
+      padding: 10px;
+      font-family: 'DM Mono', Consolas, monospace;
+      line-height: 1.5;
+      font-size: 13px;
+    }
+
+    .toolbar {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+
+    button {
+      border: 1px solid rgba(168, 245, 230, 0.25);
+      background: rgba(168, 245, 230, 0.08);
+      color: #dffbf4;
+      border-radius: 10px;
+      padding: 8px 10px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 13px;
+    }
+
+    button:hover { filter: brightness(1.08); }
+
+    .preview {
+      min-height: 420px;
+      border-radius: 10px;
+      border: 1px solid var(--line);
+      background: linear-gradient(180deg, #18375a, #132b45);
+      padding: 12px;
+      overflow: auto;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .msg-text + .msg-text { margin-top: 14px; }
+    .msg-text strong { color: #a8f5e6; }
+    .msg-text em { color: #c8eee5; }
+
+    table {
+      margin: 14px 0;
+      border-collapse: collapse;
+      width: 100%;
+      font-size: 0.95rem;
+    }
+
+    table thead {
+      background: linear-gradient(90deg, rgba(19, 163, 133, 0.22), rgba(15, 119, 99, 0.18));
+    }
+
+    th {
+      padding: 11px 10px;
+      text-align: left;
+      font-weight: 700;
+      color: #a8f5e6;
+      border-bottom: 2px solid rgba(19, 163, 133, 0.4);
+    }
+
+    td {
+      padding: 9px 10px;
+      border-bottom: 1px solid rgba(19, 163, 133, 0.2);
+      vertical-align: top;
+    }
+
+    tr:hover { background: rgba(19, 163, 133, 0.08); }
+
+    pre {
+      margin: 14px 0;
+      padding: 12px 13px;
+      border-radius: 12px;
+      background: rgba(6, 18, 22, 0.55);
+      border: 1px solid rgba(126, 190, 176, 0.38);
+      color: #d9f8f0;
+      font-family: Consolas, 'Courier New', monospace;
+      font-size: 0.92rem;
+      line-height: 1.4;
+      overflow-x: auto;
+    }
+
+    @media (max-width: 980px) {
+      .layout { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Preview de Conversão (sem regra definitiva)</h1>
+  <p class="muted">Teste visual local: remove asteriscos markdown e converte blocos tabulares em tabela real.</p>
+
+  <div class="layout">
+    <section class="card">
+      <span class="label">Entrada bruta (como pode vir do modelo)</span>
+      <div class="toolbar">
+        <button type="button" id="btn-sample">Carregar exemplo</button>
+        <button type="button" id="btn-render">Renderizar</button>
+        <button type="button" id="btn-clear">Limpar</button>
+      </div>
+      <textarea id="raw"></textarea>
+    </section>
+
+    <section class="card">
+      <span class="label">Saída visual (como ficará no app)</span>
+      <div id="preview" class="preview"></div>
+    </section>
+  </div>
+
+  <script>
+    function escapeHtml(text) {
+      return String(text || '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;');
+    }
+
+    function formatInlineMarkdown(text) {
+      const escaped = escapeHtml(String(text || ''));
+      return escaped
+        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.+?)\*/g, '<em>$1</em>');
+    }
+
+    function splitTableLikeColumns(line) {
+      const cells = line
+        .split(/\t+|\s{2,}/)
+        .map((cell) => cell.trim())
+        .filter(Boolean);
+      return cells.length >= 2 ? cells : null;
+    }
+
+    function normalizeTableLikeText(raw) {
+      const lines = String(raw || '').split('\n');
+      const normalized = [];
+
+      for (let i = 0; i < lines.length;) {
+        const currentCols = splitTableLikeColumns(lines[i]);
+        if (!currentCols) {
+          normalized.push(lines[i]);
+          i += 1;
+          continue;
+        }
+
+        const originalBlock = [];
+        const rows = [];
+        while (i < lines.length) {
+          const cols = splitTableLikeColumns(lines[i]);
+          if (!cols) break;
+          originalBlock.push(lines[i]);
+          rows.push(cols);
+          i += 1;
+        }
+
+        if (rows.length < 2) {
+          normalized.push(...originalBlock);
+          continue;
+        }
+
+        const maxCols = rows.reduce((acc, row) => Math.max(acc, row.length), 0);
+        const normalizeRow = (row) => {
+          const padded = row.slice();
+          while (padded.length < maxCols) padded.push('');
+          return `| ${padded.join(' | ')} |`;
+        };
+
+        normalized.push(normalizeRow(rows[0]));
+        normalized.push(`| ${Array(maxCols).fill('---').join(' | ')} |`);
+        rows.slice(1).forEach((row) => normalized.push(normalizeRow(row)));
+      }
+
+      return normalized.join('\n');
+    }
+
+    function renderTextBlock(text) {
+      const cleaned = String(text || '').trim();
+      if (!cleaned) return '';
+      return `<div class="msg-text">${formatInlineMarkdown(cleaned).replaceAll('\n', '<br>')}</div>`;
+    }
+
+    function renderMarkdownTable(lines) {
+      if (lines.length < 2) return '';
+
+      const parseRow = (line) => line.split('|').map(cell => cell.trim()).filter(cell => cell !== '');
+      const headerCells = parseRow(lines[0]);
+      const hasSeperator = lines[1] && /^\s*\|[\s\-:| ]*\|\s*$/.test(lines[1]);
+      const startIdx = hasSeperator ? 2 : 1;
+      if (headerCells.length === 0) return '';
+
+      let html = '<table><thead><tr>';
+      headerCells.forEach(cell => {
+        html += `<th>${formatInlineMarkdown(cell)}</th>`;
+      });
+      html += '</tr></thead><tbody>';
+
+      for (let i = startIdx; i < lines.length; i++) {
+        const cells = parseRow(lines[i]);
+        if (cells.length > 0) {
+          html += '<tr>';
+          for (let j = 0; j < headerCells.length; j++) {
+            html += `<td>${formatInlineMarkdown(cells[j] || '')}</td>`;
+          }
+          html += '</tr>';
+        }
+      }
+
+      html += '</tbody></table>';
+      return html;
+    }
+
+    function renderMessage(rawInput) {
+      const raw = normalizeTableLikeText(rawInput);
+      let html = '';
+      const lines = raw.split('\n');
+      let inTable = false;
+      let tableLines = [];
+      let currentSection = [];
+
+      for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        const isTableLine = /^\s*\|.*\|\s*$/.test(line);
+
+        if (isTableLine) {
+          if (!inTable && currentSection.length > 0) {
+            html += renderTextBlock(currentSection.join('\n'));
+            currentSection = [];
+          }
+          inTable = true;
+          tableLines.push(line);
+        } else {
+          if (inTable && tableLines.length > 0) {
+            html += renderMarkdownTable(tableLines);
+            tableLines = [];
+            inTable = false;
+          }
+          if (line.trim() || currentSection.length > 0) {
+            currentSection.push(line);
+          } else if (currentSection.length > 0) {
+            currentSection.push('');
+          }
+        }
+      }
+
+      if (currentSection.length > 0) {
+        html += renderTextBlock(currentSection.join('\n'));
+      }
+      if (inTable && tableLines.length > 0) {
+        html += renderMarkdownTable(tableLines);
+      }
+
+      const fenceRegex = /```([\s\S]*?)```/g;
+      html = html.replace(fenceRegex, (match, content) => {
+        const blockText = content.replace(/^txt\s*\n/i, '').trim();
+        return blockText ? `<pre>${escapeHtml(blockText)}</pre>` : '';
+      });
+
+      return html || renderTextBlock(raw);
+    }
+
+    const sample = [
+      'Aspecto\tApoio do Assistente Pedagógico (Direto ao Ponto)',
+      '**Elaboração**\tSugiro itens focados em **competências e habilidades** da BNCC/Currículo PE, com abordagens **interdisciplinares** e que estimulem o **protagonismo juvenil**. Auxilio na diversificação de formatos de questões.',
+      '**Correção**\tForneço **rubricas e critérios objetivos** para a avaliação por competências. Ajudo a identificar padrões de erros e oportunidades para **intervenções pedagógicas** direcionadas.'
+    ].join('\n');
+
+    const rawEl = document.getElementById('raw');
+    const previewEl = document.getElementById('preview');
+
+    document.getElementById('btn-sample').addEventListener('click', () => {
+      rawEl.value = sample;
+      previewEl.innerHTML = renderMessage(rawEl.value);
+    });
+
+    document.getElementById('btn-render').addEventListener('click', () => {
+      previewEl.innerHTML = renderMessage(rawEl.value);
+    });
+
+    document.getElementById('btn-clear').addEventListener('click', () => {
+      rawEl.value = '';
+      previewEl.innerHTML = '';
+    });
+
+    rawEl.value = sample;
+    previewEl.innerHTML = renderMessage(rawEl.value);
+  </script>
+</body>
+</html>
