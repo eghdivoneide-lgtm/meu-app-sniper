@@ -26,7 +26,7 @@ function App() {
     setVideoUrl(null);
     
     try {
-      const response = await axios.post('http://localhost:3001/api/generate-video', {
+      const response = await axios.post('/api/generate-video', {
         prompt,
         imageBase64: image
       });

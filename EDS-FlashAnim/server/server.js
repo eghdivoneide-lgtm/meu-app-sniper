@@ -1,15 +1,31 @@
-const express = require('express');
-const cors = require('cors');
-const fs = require('fs');
-require('dotenv').config();
-const { GoogleGenAI } = require('@google/genai');
-const path = require('path');
+import express from 'express';
+import cors from 'cors';
+import fs from 'fs';
+import dotenv from 'dotenv';
+import { GoogleGenAI } from '@google/genai';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-process.env.GOOGLE_APPLICATION_CREDENTIALS = path.join(__dirname, 'chave-vertex.json');
+dotenv.config();
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Garantir credenciais Vertex via Variável de Ambiente para o Railway
+if (process.env.VERTEX_CREDENTIALS_JSON) {
+  const customKeyPath = path.join(__dirname, 'chave-vertex.json');
+  fs.writeFileSync(customKeyPath, process.env.VERTEX_CREDENTIALS_JSON);
+  process.env.GOOGLE_APPLICATION_CREDENTIALS = customKeyPath;
+} else if (!process.env.GOOGLE_APPLICATION_CREDENTIALS) {
+  process.env.GOOGLE_APPLICATION_CREDENTIALS = path.join(__dirname, 'chave-vertex.json');
+}
 
 const app = express();
 app.use(cors());
 app.use(express.json({ limit: '50mb' }));
+
+// Servir a pasta estática "dist" gerada pelo Vite (Frontend em Produção)
+const distPath = path.join(__dirname, '../dist');
+app.use(express.static(distPath));
 
 // SDK inicializado com Vertex AI (usa chave-vertex.json automaticamente)
 const ai = new GoogleGenAI({
@@ -50,7 +66,7 @@ app.post('/api/generate-video', async (req, res) => {
       prompt: prompt,
       config: {
         aspectRatio: '16:9',
-        personGeneration: 'DONT_ALLOW',
+        personGeneration: 'ALLOW_ADULT',
       },
     };
 
@@ -189,7 +205,12 @@ app.post('/api/generate-video', async (req, res) => {
   }
 });
 
+// Qualquer outra rota não API, serve o React (SPA)
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../dist/index.html'));
+});
+
 const PORT = process.env.PORT || 3001;
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`🔥 EDS FlashAnim Server (Vertex AI SDK) iniciado na porta ${PORT}`);
 });
