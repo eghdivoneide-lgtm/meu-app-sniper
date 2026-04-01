@@ -2,6 +2,7 @@ import logging
 import csv
 import difflib
 import json
+import math
 import os
 import re
 import time
@@ -175,6 +176,8 @@ def _mercado_bateu(mercado: str, gols_mandante: int, gols_visitante: int) -> boo
         return total > 2
     if mercado == "Under 2.5":
         return total < 3
+    if mercado == "BTTS":
+        return gols_mandante > 0 and gols_visitante > 0
     return False
 
 
@@ -822,25 +825,37 @@ def calcular_metricas_time(time_base: str, jogos: list[dict], modo: str) -> dict
     gols_contra = []
     over25 = 0
     under25 = 0
+    btts = 0
     amostra_datas = []
+    # Pesos para os 5 jogos: mais recente = maior peso [1,2,3,4,5]
+    pesos_momentum = [1, 2, 3, 4, 5]
+    momentum_pontos = 0.0
+    momentum_total_peso = 0.0
 
-    for j, gp, gc in ultimos_5_recorte:
+    for idx, (j, gp, gc) in enumerate(ultimos_5_recorte):
         amostra_datas.append(j["data"])
         gols_pro.append(gp)
         gols_contra.append(gc)
         r = _resultado_time(gp, gc)
+        peso = pesos_momentum[idx] if idx < len(pesos_momentum) else 1
         if r == "V":
             vitorias += 1
+            momentum_pontos += 3 * peso
         elif r == "E":
             empates += 1
+            momentum_pontos += 1 * peso
         else:
             derrotas += 1
+        momentum_total_peso += 3 * peso
         if gp + gc > 2.5:
             over25 += 1
         else:
             under25 += 1
+        if gp > 0 and gc > 0:
+            btts += 1
 
     total = len(ultimos_5_recorte)
+    momentum_score = round((momentum_pontos / momentum_total_peso * 100.0) if momentum_total_peso else 0.0, 2)
     return {
         "forma_geral": "".join(ultimos_5_geral) if ultimos_5_geral else "-",
         "total_recorte": total,
@@ -852,8 +867,11 @@ def calcular_metricas_time(time_base: str, jogos: list[dict], modo: str) -> dict
         "media_total": _media([a + b for a, b in zip(gols_pro, gols_contra)]),
         "over25": over25,
         "under25": under25,
+        "btts": btts,
         "pct_over25": _pct(over25, total),
         "pct_under25": _pct(under25, total),
+        "pct_btts": _pct(btts, total),
+        "momentum_score": momentum_score,
         "datas": amostra_datas,
     }
 
@@ -901,6 +919,59 @@ def _odd_para_float(valor: str):
         return None
 
 
+# ---------------------------------------------------------------------------
+# Modelo Poisson
+# ---------------------------------------------------------------------------
+def _prob_poisson(lam: float, k: int) -> float:
+    """Probabilidade Poisson P(X=k) dado lambda."""
+    if lam <= 0:
+        return 1.0 if k == 0 else 0.0
+    return (math.exp(-lam) * (lam ** k)) / math.factorial(k)
+
+
+def calcular_poisson(
+    media_gp_mandante: float,
+    media_gc_mandante: float,
+    media_gp_visitante: float,
+    media_gc_visitante: float,
+) -> dict:
+    """
+    Modelo Poisson bivariado independente.
+    lambda_home = media ofensiva casa vs media defensiva visitante
+    lambda_away = media ofensiva visit. vs media defensiva mandante
+    """
+    lam_home = (media_gp_mandante + media_gc_visitante) / 2.0
+    lam_away = (media_gp_visitante + media_gc_mandante) / 2.0
+    MAX_GOLS = 6  # 0..5 gols por time
+
+    matriz: dict[tuple[int, int], float] = {}
+    for i in range(MAX_GOLS):
+        for j in range(MAX_GOLS):
+            matriz[(i, j)] = _prob_poisson(lam_home, i) * _prob_poisson(lam_away, j)
+
+    prob_1 = sum(v for (i, j), v in matriz.items() if i > j)
+    prob_x = sum(v for (i, j), v in matriz.items() if i == j)
+    prob_2 = sum(v for (i, j), v in matriz.items() if i < j)
+    prob_over25 = sum(v for (i, j), v in matriz.items() if i + j > 2)
+    prob_under25 = sum(v for (i, j), v in matriz.items() if i + j <= 2)
+    prob_btts = sum(v for (i, j), v in matriz.items() if i > 0 and j > 0)
+
+    placar_mais_prov = max(matriz, key=lambda k: matriz[k])
+
+    return {
+        "lam_home": round(lam_home, 2),
+        "lam_away": round(lam_away, 2),
+        "prob_1": round(prob_1 * 100, 2),
+        "prob_x": round(prob_x * 100, 2),
+        "prob_2": round(prob_2 * 100, 2),
+        "prob_over25": round(prob_over25 * 100, 2),
+        "prob_under25": round(prob_under25 * 100, 2),
+        "prob_btts": round(prob_btts * 100, 2),
+        "placar_mais_prov": f"{placar_mais_prov[0]}-{placar_mais_prov[1]}",
+        "prob_placar_mais_prov": round(matriz[placar_mais_prov] * 100, 2),
+    }
+
+
 def extrair_odds_mercados(texto: str) -> dict:
     odds = {
         "vitoria_mandante": None,
@@ -908,6 +979,7 @@ def extrair_odds_mercados(texto: str) -> dict:
         "vitoria_visitante": None,
         "over_2_5": None,
         "under_2_5": None,
+        "btts": None,
     }
 
     m_1x2 = re.search(
@@ -927,6 +999,14 @@ def extrair_odds_mercados(texto: str) -> dict:
     m_under = re.search(r"under\s*2[.,]?5\s*:?\s*([0-9][0-9.,]*)", texto, flags=re.IGNORECASE)
     if m_under:
         odds["under_2_5"] = _odd_para_float(m_under.group(1))
+
+    m_btts = re.search(
+        r"(?:btts|ambas?\s*marcam?)\s*:?\s*([0-9][0-9.,]*)",
+        texto,
+        flags=re.IGNORECASE,
+    )
+    if m_btts:
+        odds["btts"] = _odd_para_float(m_btts.group(1))
 
     return odds
 
@@ -966,6 +1046,7 @@ def _mercado_label(chave: str) -> str:
         "vitoria_visitante": "Vitoria Visitante",
         "over_2_5": "Over 2.5",
         "under_2_5": "Under 2.5",
+        "btts": "BTTS",
     }
     return mapa.get(chave, chave)
 
@@ -989,6 +1070,13 @@ def montar_json_analise(
     prob_vv = (v_away["v"] / v_away["total_recorte"] * 100.0) if v_away["total_recorte"] else 0.0
     prob_over = (m_home["pct_over25"] + v_away["pct_over25"]) / 2.0
     prob_under = (m_home["pct_under25"] + v_away["pct_under25"]) / 2.0
+    prob_btts_hist = (m_home.get("pct_btts", 0.0) + v_away.get("pct_btts", 0.0)) / 2.0
+
+    # Modelo Poisson
+    poisson = calcular_poisson(
+        m_home["media_gp"], m_home["media_gc"],
+        v_away["media_gp"], v_away["media_gc"],
+    )
 
     probs = {
         "vitoria_mandante": prob_vm,
@@ -996,6 +1084,7 @@ def montar_json_analise(
         "vitoria_visitante": prob_vv,
         "over_2_5": prob_over,
         "under_2_5": prob_under,
+        "btts": prob_btts_hist,
     }
 
     mercados = []
@@ -1048,6 +1137,7 @@ def montar_json_analise(
         "fundamento": fundamento,
         "odds_recebidas": odds,
         "entrada_usuario": bloco_jogo,
+        "poisson": poisson,
     }
 
 
@@ -1055,6 +1145,7 @@ def renderizar_analise_tabela(analise: dict) -> str:
     m_home = analise["mandante"]
     v_away = analise["visitante"]
     rec = analise.get("recomendada")
+    poisson = analise.get("poisson", {})
     mercados_validos = [m for m in analise.get("mercados", []) if m.get("valor")]
     melhor_score = mercados_validos[0]["score"] if mercados_validos else None
 
@@ -1071,24 +1162,49 @@ def renderizar_analise_tabela(analise: dict) -> str:
         linhas.append("Sugestao principal: SEM VALOR IDENTIFICADO")
     if melhor_score is not None:
         linhas.append(f"Score de valor (topo): {melhor_score:.2f} p.p.")
+    if poisson:
+        linhas.append(f"Placar mais provavel: {poisson.get('placar_mais_prov','?')} ({poisson.get('prob_placar_mais_prov',0):.1f}%)")
     linhas.append("------------------------------------------------------------")
     linhas.append("")
 
     linhas.append(f"[JOGO] {analise['jogo']}")
     linhas.append(f"Status da amostra: {analise['status_amostra']}")
     linhas.append("")
-    linhas.append("TIME | FORMA ULT5 | V/E/D RECORTE | GM | GS | MT | OVER2.5 | UNDER2.5")
+    linhas.append("TIME | FORMA ULT5 | MOMENTUM | V/E/D RECORTE | GM | GS | MT | OVER2.5 | UNDER2.5 | BTTS")
     linhas.append(
-        f"MANDANTE | {m_home['forma_geral']} | {m_home['v']}/{m_home['e']}/{m_home['d']} | "
+        f"MANDANTE | {m_home['forma_geral']} | {m_home.get('momentum_score', 0):.0f}% | "
+        f"{m_home['v']}/{m_home['e']}/{m_home['d']} | "
         f"{m_home['media_gp']:.2f} | {m_home['media_gc']:.2f} | {m_home['media_total']:.2f} | "
-        f"{m_home['pct_over25']:.1f}% | {m_home['pct_under25']:.1f}%"
+        f"{m_home['pct_over25']:.1f}% | {m_home['pct_under25']:.1f}% | {m_home.get('pct_btts', 0):.1f}%"
     )
     linhas.append(
-        f"VISITANTE | {v_away['forma_geral']} | {v_away['v']}/{v_away['e']}/{v_away['d']} | "
+        f"VISITANTE | {v_away['forma_geral']} | {v_away.get('momentum_score', 0):.0f}% | "
+        f"{v_away['v']}/{v_away['e']}/{v_away['d']} | "
         f"{v_away['media_gp']:.2f} | {v_away['media_gc']:.2f} | {v_away['media_total']:.2f} | "
-        f"{v_away['pct_over25']:.1f}% | {v_away['pct_under25']:.1f}%"
+        f"{v_away['pct_over25']:.1f}% | {v_away['pct_under25']:.1f}% | {v_away.get('pct_btts', 0):.1f}%"
     )
     linhas.append("")
+
+    # Bloco Poisson
+    if poisson:
+        linhas.append("PROJECAO POISSON (modelo matematico):")
+        linhas.append(f"lambda Casa={poisson['lam_home']:.2f} | lambda Fora={poisson['lam_away']:.2f}")
+        linhas.append(
+            f"P(Vitoria Casa)={poisson['prob_1']:.1f}% | "
+            f"P(Empate)={poisson['prob_x']:.1f}% | "
+            f"P(Vitoria Fora)={poisson['prob_2']:.1f}%"
+        )
+        linhas.append(
+            f"P(Over2.5)={poisson['prob_over25']:.1f}% | "
+            f"P(Under2.5)={poisson['prob_under25']:.1f}% | "
+            f"P(BTTS)={poisson['prob_btts']:.1f}%"
+        )
+        linhas.append(
+            f"Placar mais provavel: {poisson['placar_mais_prov']} "
+            f"(prob {poisson['prob_placar_mais_prov']:.1f}%)"
+        )
+        linhas.append("")
+
     linhas.append("MERCADO | ODD | PROB. IMPLICITA | PROB. ESTIMADA | SCORE | VALOR")
     if analise["mercados"]:
         for m in analise["mercados"]:
@@ -1216,9 +1332,10 @@ MSG_TEMPLATE = (
     "Data: 2026-04-10\n"
     "Odds 1X2: 1.85 / 3.20 / 4.50\n"
     "Over2.5: 1.90\n"
-    "Under2.5: 1.95\n\n"
+    "Under2.5: 1.95\n"
+    "BTTS: 1.75\n\n"
     "Obs: nao precisa enviar historico nem H2H. Eu uso a base interna do projeto.\n"
-    "A resposta sera entregue em tabelas com porcentagens e nivel de confianca."
+    "A resposta inclui tabelas com porcentagens, nivel de confianca e projecao Poisson (placar mais provavel)."
 )
 
 MSG_MERCADOS = (
@@ -1226,8 +1343,10 @@ MSG_MERCADOS = (
     "- Vitoria seca mandante\n"
     "- Vitoria seca visitante\n"
     "- Empate\n"
-    "- Over gols\n"
-    "- Under gols"
+    "- Over 2.5 gols\n"
+    "- Under 2.5 gols\n"
+    "- BTTS (Ambas Marcam)\n\n"
+    "Bonus: toda analise inclui projecao Poisson com placar mais provavel."
 )
 
 MSG_RATE = "Voce enviou muitas mensagens em pouco tempo. Aguarde alguns segundos."
@@ -1389,15 +1508,66 @@ def cmd_semanal(mensagem):
             continue
 
     resumo = _resumo_stats(semana)
-    bot.send_message(
-        chat_id,
-        "RELATORIO SEMANAL (7 dias)\n"
-        f"- Picks liquidadas: {resumo['total']}\n"
-        f"- Acertos/Erros: {resumo['acertos']}/{resumo['erros']}\n"
-        f"- Hit rate: {resumo['hit_rate']:.2f}%\n"
-        f"- Lucro: {resumo['lucro_u']:.2f}u\n"
-        f"- ROI: {resumo['roi']:.2f}%",
+    por_mercado = _stats_por_mercado(semana)
+
+    # Melhor e pior pick da semana
+    liquidadas_semana = [a for a in semana if a.get("lucro_u") is not None]
+    melhor_pick = max(liquidadas_semana, key=lambda x: float(x.get("lucro_u", 0)), default=None)
+    pior_pick = min(liquidadas_semana, key=lambda x: float(x.get("lucro_u", 0)), default=None)
+
+    # Streak atual (sequencia recente de acertos/erros em ordem cronologica)
+    todas_ordenadas = sorted(
+        [a for a in apostas_chat],
+        key=lambda x: x.get("liquidado_em", ""),
     )
+    streak_tipo = None
+    streak_count = 0
+    for a in reversed(todas_ordenadas):
+        tipo = "V" if a.get("acerto") else "D"
+        if streak_tipo is None:
+            streak_tipo = tipo
+            streak_count = 1
+        elif tipo == streak_tipo:
+            streak_count += 1
+        else:
+            break
+    streak_label = f"{streak_count}x {'ACERTO' if streak_tipo == 'V' else 'ERRO'}" if streak_tipo else "N/A"
+
+    linhas = [
+        "RELATORIO SEMANAL (ultimos 7 dias)",
+        f"- Picks liquidadas: {resumo['total']}",
+        f"- Acertos/Erros: {resumo['acertos']}/{resumo['erros']}",
+        f"- Hit rate: {resumo['hit_rate']:.2f}%",
+        f"- Lucro: {resumo['lucro_u']:.2f}u",
+        f"- ROI: {resumo['roi']:.2f}%",
+        f"- Streak atual: {streak_label}",
+        "",
+        "POR MERCADO (semana):",
+    ]
+    if por_mercado:
+        for mercado, s in por_mercado:
+            linhas.append(
+                f"  {mercado}: {s['acertos']}/{s['total']} | hit {s['hit_rate']:.0f}% | "
+                f"lucro {s['lucro_u']:.2f}u | ROI {s['roi']:.0f}%"
+            )
+    else:
+        linhas.append("  Sem picks liquidadas na semana.")
+
+    if melhor_pick:
+        luc = float(melhor_pick.get("lucro_u", 0))
+        linhas.append("")
+        linhas.append(
+            f"Melhor pick: {melhor_pick.get('jogo','?')} [{melhor_pick.get('mercado','?')}] "
+            f"+{luc:.2f}u"
+        )
+    if pior_pick and pior_pick is not melhor_pick:
+        luc = float(pior_pick.get("lucro_u", 0))
+        linhas.append(
+            f"Pior pick: {pior_pick.get('jogo','?')} [{pior_pick.get('mercado','?')}] "
+            f"{luc:.2f}u"
+        )
+
+    bot.send_message(chat_id, "\n".join(linhas))
 
 
 def _analisar_bloco_jogo(chat_id: int, bloco_jogo: str) -> None:
