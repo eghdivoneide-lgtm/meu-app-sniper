@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Sniper Argentina — Rodada 12</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #0f172a; color: #e2e8f0; padding: 32px 20px; }
+  .container { max-width: 700px; margin: 0 auto; }
+  .header { text-align: center; margin-bottom: 32px; }
+  .header-badge { display: inline-block; background: linear-gradient(135deg, #0369a1, #1d4ed8); color: #fff; font-size: 11px; font-weight: 700; padding: 4px 14px; border-radius: 99px; letter-spacing: .08em; margin-bottom: 12px; }
+  .header h1 { font-size: 32px; font-weight: 900; color: #38bdf8; letter-spacing: .03em; }
+  .header p { font-size: 13px; color: #64748b; margin-top: 6px; }
+  .stats-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 28px; }
+  .stat-box { background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 14px 10px; text-align: center; }
+  .stat-val { font-size: 22px; font-weight: 900; color: #38bdf8; }
+  .stat-lab { font-size: 10px; color: #64748b; margin-top: 3px; text-transform: uppercase; letter-spacing: .05em; }
+  .section-title { font-size: 11px; font-weight: 700; color: #64748b; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 10px; padding-left: 4px; }
+  .jogo { display: flex; align-items: center; background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; gap: 12px; }
+  .jogo-num { width: 22px; height: 22px; background: #0f172a; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; color: #475569; flex-shrink: 0; }
+  .jogo-times { flex: 1; }
+  .time-home { font-size: 13px; font-weight: 700; color: #e2e8f0; margin-bottom: 3px; }
+  .time-away { font-size: 13px; font-weight: 600; color: #94a3b8; }
+  .placar { text-align: center; min-width: 60px; }
+  .placar-num { font-size: 22px; font-weight: 900; color: #fff; letter-spacing: .05em; }
+  .placar-sep { color: #475569; margin: 0 4px; }
+  .resultado-badge { display: inline-block; font-size: 9px; font-weight: 700; padding: 2px 8px; border-radius: 99px; margin-top: 4px; }
+  .badge-h { background: rgba(5,150,105,.2); color: #34d399; border: 1px solid #059669; }
+  .badge-d { background: rgba(100,116,139,.2); color: #94a3b8; border: 1px solid #475569; }
+  .badge-a { background: rgba(220,38,38,.2); color: #f87171; border: 1px solid #dc2626; }
+  .data-tag { font-size: 10px; color: #475569; text-align: right; min-width: 50px; }
+  .gols-info { font-size: 10px; color: #475569; margin-top: 2px; }
+  .footer { text-align: center; margin-top: 32px; padding-top: 20px; border-top: 1px solid #1e293b; }
+  .footer p { font-size: 11px; color: #334155; }
+  .print-btn { display: block; margin: 0 auto 28px; background: #0369a1; color: #fff; border: none; padding: 10px 28px; border-radius: 8px; font-size: 13px; font-weight: 700; cursor: pointer; }
+  @media print {
+    body { background: #fff; color: #000; }
+    .container { max-width: 100%; }
+    .header h1 { color: #0369a1; }
+    .stat-box, .jogo { background: #f8fafc; border-color: #e2e8f0; }
+    .stat-val { color: #0369a1; }
+    .time-home { color: #111; }
+    .time-away { color: #555; }
+    .placar-num { color: #000; }
+    .print-btn { display: none; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <button class="print-btn" onclick="window.print()">🖨️ Salvar como PDF / Imprimir</button>
+
+  <div class="header">
+    <div class="header-badge">🇦🇷 LIGA PROFESIONAL ARGENTINA 2026</div>
+    <h1>🎯 SNIPER ARGENTINA</h1>
+    <p>Rodada 12 — Resultados Completos &nbsp;·&nbsp; Março 2026</p>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box">
+      <div class="stat-val">13</div>
+      <div class="stat-lab">Jogos</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-val" style="color:#4ade80">21</div>
+      <div class="stat-lab">Gols Totais</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-val" style="color:#fbbf24">1.6</div>
+      <div class="stat-lab">Média / Jogo</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-val" style="color:#f87171">3</div>
+      <div class="stat-lab">Empates</div>
+    </div>
+  </div>
+
+  <div class="section-title">Resultados da Rodada 12</div>
+
+  <!-- Jogo 1 -->
+  <div class="jogo">
+    <div class="jogo-num">1</div>
+    <div class="jogo-times">
+      <div class="time-home">Deportivo Riestra</div>
+      <div class="time-away">San Lorenzo</div>
+      <div class="gols-info">25/03 &nbsp;·&nbsp; 2 gols no jogo</div>
+    </div>
+    <div class="placar">
+      <div class="placar-num">1<span class="placar-sep">–</span>1</div>
+      <div><span class="resultado-badge badge-d">EMPATE</span></div>
+    </div>
+  </div>
+
+  <!-- Jogo 2 -->
+  <div class="jogo">
+    <div class="jogo-num">2</div>
+    <div class="jogo-times">
+      <div class="time-home">Huracán</div>
+      <div class="time-away">Barracas Central</div>
+      <div class="gols-info">23/03 &nbsp;·&nbsp; 0 gols no jogo</div>
+    </div>
+    <div class="placar">
+      <div class="placar-num">0<span class="placar-sep">–</span>0</div>
+      <div><span class="resultado-badge badge-d">EMPATE</span></div>
+    </div>
+  </div>
+
+  <!-- Jogo 3 -->
+  <div class="jogo">
+    <div class="jogo-num">3</div>
+    <div class="jogo-times">
+      <div class="time-home" style="color:#4ade80">Estudiantes</div>
+      <div class="time-away">Central Córdoba</div>
+      <div class="gols-info">23/03 &nbsp;·&nbsp; 5 gols no jogo</div>
+    </div>
+    <div class="placar">
+      <div class="placar-num" style="color:#4ade80">5<span class="placar-sep" style="color:#475569">–</span><span style="color:#f87171">0</span></div>
+      <div><span class="resultado-badge badge-h">MANDANTE</span></div>
+    </div>
+  </div>
+
+  <!-- Jogo 4 -->
+  <div class="jogo">
+    <div class="jogo-num">4</div>
+    <div class="jogo-times">
+      <div class="time-home" style="color:#4ade80">Argentinos Juniors</div>
+      <div class="time-away">Platense</div>
+      <div class="gols-info">22/03 &nbsp;·&nbsp; 1 gol no jogo</div>
+    </div>
+    <div class="placar">
+      <div class="placar-num" style="color:#4ade80">1<span class="placar-sep" style="color:#475569">–</span><span style="color:#f87171">0</span></div>
+      <div><span class="resultado-badge badge-h">MANDANTE</span></div>
+    </div>
+  </div>
+
+  <!-- Jogo 5 -->
+  <div class="jogo">
+    <div class="jogo-num">5</div>
+    <div class="jogo-times">
+      <div class="time-home" style="color:#4ade80">Ind. Rivadavia</div>
+      <div class="time-away">Rosario Central</div>
+      <div class="gols-info">22/03 &nbsp;·&nbsp; 2 gols no jogo</div>
+    </div>
+    <div class="placar">
+      <div class="placar-num" style="color:#4ade80">2<span class="placar-sep" style="color:#475569">–</span><span style="color:#f87171">0</span></div>
+      <div><span class="resultado-badge badge-h">MANDANTE</span></div>
+    </div>
+  </div>
+
+  <!-- Jogo 6 -->
+  <div class="jogo">
+    <div class="jogo-num">6</div>
+    <div class="jogo-times">
+      <div class="time-home" style="color:#4ade80">Boca Juniors</div>
+      <div class="time-away">Instituto</div>
+      <div class="gols-info">22/03 &nbsp;·&nbsp; 2 gols no jogo</div>
+    </div>
+    <div class="placar">
+      <div class="placar-num" style="color:#4ade80">2<span class="placar-sep" style="color:#475569">–</span><span style="color:#f87171">0</span></div>
+      <div><span class="resultado-badge badge-h">MANDANTE</span></div>
+    </div>
+  </div>
+
+  <!-- Jogo 7 -->
+  <div class="jogo">
+    <div class="jogo-num">7</div>
+    <div class="jogo-times">
+      <div class="time-home">Estudiantes Rio Cuarto</div>
+      <div class="time-away" style="color:#4ade80">River Plate</div>
+      <div class="gols-info">22/03 &nbsp;·&nbsp; 2 gols no jogo</div>
+    </div>
+    <div class="placar">
+      <div class="placar-num"><span style="color:#f87171">0</span><span class="placar-sep" style="color:#475569">–</span><span style="color:#4ade80">2</span></div>
+      <div><span class="resultado-badge badge-a">VISITANTE</span></div>
+    </div>
+  </div>
+
+  <!-- Jogo 8 -->
+  <div class="jogo">
+    <div class="jogo-num">8</div>
+    <div class="jogo-times">
+      <div class="time-home" style="color:#4ade80">Sarmiento Junin</div>
+      <div class="time-away">Aldosivi</div>
+      <div class="gols-info">22/03 &nbsp;·&nbsp; 2 gols no jogo</div>
+    </div>
+    <div class="placar">
+      <div class="placar-num" style="color:#4ade80">2<span class="placar-sep" style="color:#475569">–</span><span style="color:#f87171">0</span></div>
+      <div><span class="resultado-badge badge-h">MANDANTE</span></div>
+    </div>
+  </div>
+
+  <!-- Jogo 9 -->
+  <div class="jogo">
+    <div class="jogo-num">9</div>
+    <div class="jogo-times">
+      <div class="time-home">Belgrano</div>
+      <div class="time-away" style="color:#4ade80">Racing Club</div>
+      <div class="gols-info">21/03 &nbsp;·&nbsp; 3 gols no jogo</div>
+    </div>
+    <div class="placar">
+      <div class="placar-num"><span style="color:#f87171">1</span><span class="placar-sep" style="color:#475569">–</span><span style="color:#4ade80">2</span></div>
+      <div><span class="resultado-badge badge-a">VISITANTE</span></div>
+    </div>
+  </div>
+
+  <!-- Jogo 10 -->
+  <div class="jogo">
+    <div class="jogo-num">10</div>
+    <div class="jogo-times">
+      <div class="time-home">Independiente</div>
+      <div class="time-away" style="color:#4ade80">Talleres Córdoba</div>
+      <div class="gols-info">21/03 &nbsp;·&nbsp; 3 gols no jogo</div>
+    </div>
+    <div class="placar">
+      <div class="placar-num"><span style="color:#f87171">1</span><span class="placar-sep" style="color:#475569">–</span><span style="color:#4ade80">2</span></div>
+      <div><span class="resultado-badge badge-a">VISITANTE</span></div>
+    </div>
+  </div>
+
+  <!-- Jogo 11 -->
+  <div class="jogo">
+    <div class="jogo-num">11</div>
+    <div class="jogo-times">
+      <div class="time-home" style="color:#4ade80">Newell's Old Boys</div>
+      <div class="time-away">Gimnasia Mendoza</div>
+      <div class="gols-info">21/03 &nbsp;·&nbsp; 1 gol no jogo</div>
+    </div>
+    <div class="placar">
+      <div class="placar-num" style="color:#4ade80">1<span class="placar-sep" style="color:#475569">–</span><span style="color:#f87171">0</span></div>
+      <div><span class="resultado-badge badge-h">MANDANTE</span></div>
+    </div>
+  </div>
+
+  <!-- Jogo 12 -->
+  <div class="jogo">
+    <div class="jogo-num">12</div>
+    <div class="jogo-times">
+      <div class="time-home" style="color:#4ade80">Defensa y Justicia</div>
+      <div class="time-away">Union Santa Fe</div>
+      <div class="gols-info">21/03 &nbsp;·&nbsp; 2 gols no jogo</div>
+    </div>
+    <div class="placar">
+      <div class="placar-num" style="color:#4ade80">2<span class="placar-sep" style="color:#475569">–</span><span style="color:#f87171">0</span></div>
+      <div><span class="resultado-badge badge-h">MANDANTE</span></div>
+    </div>
+  </div>
+
+  <!-- Jogo 13 -->
+  <div class="jogo">
+    <div class="jogo-num">13</div>
+    <div class="jogo-times">
+      <div class="time-home">Vélez Sarsfield</div>
+      <div class="time-away" style="color:#4ade80">Lanús</div>
+      <div class="gols-info">21/03 &nbsp;·&nbsp; 1 gol no jogo</div>
+    </div>
+    <div class="placar">
+      <div class="placar-num"><span style="color:#f87171">0</span><span class="placar-sep" style="color:#475569">–</span><span style="color:#4ade80">1</span></div>
+      <div><span class="resultado-badge badge-a">VISITANTE</span></div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>🎯 Sniper Argentina &nbsp;·&nbsp; Liga Profesional 2026 &nbsp;·&nbsp; Rodada 12 &nbsp;·&nbsp; Gerado em 02/04/2026</p>
+    <p style="margin-top:6px">Mandante venceu: 7 &nbsp;·&nbsp; Empates: 2 &nbsp;·&nbsp; Visitante venceu: 4</p>
+  </div>
+
+</div>
+</body>
+</html>

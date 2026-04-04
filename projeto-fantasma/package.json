@@ -1,0 +1,22 @@
+{
+  "name": "projeto-fantasma",
+  "version": "1.0.0",
+  "description": "👻 Bot Analista Profissional de Escanteios - Betano + FlashScore",
+  "main": "fantasma-central.js",
+  "scripts": {
+    "start": "node fantasma-central.js",
+    "fantasma": "node fantasma-central.js",
+    "teste": "node teste-conexao.js"
+  },
+  "dependencies": {
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "puppeteer": "^22.0.0",
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.5",
+    "ws": "^8.16.0",
+    "express": "^4.18.3"
+  }
+}

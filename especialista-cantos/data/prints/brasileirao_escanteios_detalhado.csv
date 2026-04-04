@@ -1,0 +1,175 @@
+﻿Equipe,Rodada,Data,Condição,Adversário,Placar_Favor,Placar_Contra,Escanteios_HT_Pro,Escanteios_HT_Contra,Escanteios_2T_Pro,Escanteios_2T_Contra,Escanteios_FT_Pro,Escanteios_FT_Contra
+Athletico-PR,1,28.01.2026,Fora,Internacional,1,0,1,5,0,8,1,13
+Athletico-PR,2,19.02.2026,Casa,Corinthians,0,1,5,0,3,0,8,0
+Athletico-PR,3,12.02.2026,Casa,Santos,2,1,3,0,5,2,8,2
+Athletico-PR,4,25.02.2026,Fora,Red Bull Bragantino,1,1,2,2,5,0,7,2
+Athletico-PR,5,29.03.2026,Casa,Botafogo,4,1,1,2,0,6,1,8
+Athletico-PR,6,15.03.2026,Fora,Fluminense,2,3,0,3,1,4,1,7
+Athletico-PR,7,18.03.2026,Casa,Cruzeiro,2,1,2,4,2,2,4,6
+Athletico-PR,8,22.03.2026,Casa,Coritiba,2,0,6,0,1,4,7,4
+Athletico-PR,9,01.04.2026,Fora,Bahia,0,3,1,2,0,1,1,3
+Atlético-MG,1,28.01.2026,Casa,Palmeiras,2,2,1,2,4,5,5,7
+Atlético-MG,2,04.02.2026,Fora,Red Bull Bragantino,0,1,1,3,11,3,12,6
+Atlético-MG,3,11.02.2026,Casa,Remo,3,3,3,1,3,4,6,5
+Atlético-MG,4,25.02.2026,Fora,Grêmio,1,2,0,5,3,1,3,6
+Atlético-MG,5,11.03.2026,Casa,Internacional,1,0,2,4,0,10,2,14
+Atlético-MG,6,14.03.2026,Fora,Vitória,0,2,3,0,7,4,10,4
+Atlético-MG,7,18.03.2026,Casa,São Paulo,1,0,3,1,1,0,4,1
+Atlético-MG,8,21.03.2026,Fora,Fluminense,0,1,1,2,1,1,2,3
+Atlético-MG,9,02.04.2026,Fora,Chapecoense,4,0,2,2,1,5,3,7
+Bahia,1,28.01.2026,Fora,Corinthians,2,1,4,1,2,3,6,4
+Bahia,2,05.02.2026,Casa,Fluminense,1,1,4,4,2,0,6,4
+Bahia,3,11.02.2026,Fora,Vasco,1,0,4,5,0,3,4,8
+Bahia,5,11.03.2026,Casa,Vitória,1,1,4,0,3,3,7,3
+Bahia,6,15.03.2026,Fora,Internacional,1,0,1,4,0,3,1,7
+Bahia,7,18.03.2026,Casa,Red Bull Bragantino,2,0,4,0,3,7,7,7
+Bahia,8,22.03.2026,Fora,Remo,1,4,5,3,4,2,9,5
+Bahia,9,01.04.2026,Casa,Athletico-PR,3,0,2,1,1,0,3,1
+Botafogo,1,29.01.2026,Casa,Cruzeiro,4,0,2,3,1,4,3,7
+Botafogo,2,04.02.2026,Fora,Grêmio,3,5,0,3,2,1,2,4
+Botafogo,3,12.02.2026,Fora,Fluminense,0,1,0,3,0,1,0,4
+Botafogo,5,29.03.2026,Fora,Athletico-PR,1,4,2,1,6,0,8,1
+Botafogo,6,14.03.2026,Casa,Flamengo,0,3,0,1,2,3,2,4
+Botafogo,7,18.03.2026,Fora,Palmeiras,1,2,1,3,0,3,1,6
+Botafogo,8,21.03.2026,Fora,Red Bull Bragantino,2,1,1,3,5,8,6,11
+Botafogo,9,01.04.2026,Casa,Mirassol,3,2,1,1,1,7,2,8
+Chapecoense,1,28.01.2026,Casa,Santos,4,2,0,12,1,2,1,14
+Chapecoense,2,05.02.2026,Fora,Vasco,1,1,0,10,0,4,0,14
+Chapecoense,3,11.02.2026,Casa,Coritiba,3,3,1,3,5,2,6,5
+Chapecoense,5,12.03.2026,Fora,São Paulo,0,2,3,6,3,5,6,11
+Chapecoense,6,16.03.2026,Casa,Grêmio,1,1,1,2,3,3,4,5
+Chapecoense,7,19.03.2026,Casa,Corinthians,0,0,0,0,6,4,6,4
+Chapecoense,8,22.03.2026,Fora,Internacional,0,2,1,2,3,2,4,4
+Chapecoense,9,02.04.2026,Casa,Atlético-MG,0,4,2,2,5,1,7,3
+Corinthians,1,28.01.2026,Casa,Bahia,1,2,1,4,3,2,4,6
+Corinthians,2,19.02.2026,Fora,Athletico-PR,1,0,0,5,0,3,0,8
+Corinthians,3,12.02.2026,Casa,Red Bull Bragantino,2,0,1,2,2,1,3,3
+Corinthians,4,25.02.2026,Fora,Cruzeiro,1,1,1,1,2,4,3,5
+Corinthians,5,11.03.2026,Casa,Coritiba,0,2,2,3,6,3,8,6
+Corinthians,6,15.03.2026,Fora,Santos,1,1,4,3,2,1,6,4
+Corinthians,7,19.03.2026,Fora,Chapecoense,0,0,0,0,4,6,4,6
+Corinthians,8,22.03.2026,Casa,Flamengo,1,1,3,1,3,1,6,2
+Corinthians,9,01.04.2026,Fora,Fluminense,1,3,2,3,8,5,10,8
+Coritiba,1,28.01.2026,Casa,Red Bull Bragantino,0,1,0,2,1,3,1,5
+Coritiba,2,05.02.2026,Fora,Cruzeiro,2,1,1,2,1,10,2,12
+Coritiba,3,11.02.2026,Fora,Chapecoense,3,3,3,1,2,5,5,6
+Coritiba,4,25.02.2026,Casa,São Paulo,0,1,1,2,2,5,3,7
+Coritiba,5,11.03.2026,Fora,Corinthians,2,0,3,2,3,6,6,8
+Coritiba,6,15.03.2026,Casa,Remo,1,0,1,3,3,3,4,6
+Coritiba,7,18.03.2026,Fora,Mirassol,1,0,0,2,2,5,2,7
+Coritiba,8,22.03.2026,Fora,Athletico-PR,0,2,0,6,4,1,4,7
+Coritiba,9,01.04.2026,Casa,Vasco,1,1,1,3,2,1,3,4
+Cruzeiro,1,29.01.2026,Fora,Botafogo,0,4,3,2,4,1,7,3
+Cruzeiro,2,05.02.2026,Casa,Coritiba,1,2,2,1,10,1,12,2
+Cruzeiro,3,11.02.2026,Fora,Mirassol,2,2,0,5,0,4,0,9
+Cruzeiro,4,25.02.2026,Casa,Corinthians,1,1,1,1,4,2,5,3
+Cruzeiro,5,11.03.2026,Fora,Flamengo,0,2,4,1,3,3,7,4
+Cruzeiro,6,15.03.2026,Casa,Vasco,3,3,2,2,3,2,5,4
+Cruzeiro,7,18.03.2026,Fora,Athletico-PR,1,2,4,2,2,2,6,4
+Cruzeiro,8,22.03.2026,Casa,Santos,0,0,1,0,5,0,6,0
+Cruzeiro,9,01.04.2026,Casa,Vitória,3,0,5,3,0,3,5,6
+Flamengo,1,28.01.2026,Fora,São Paulo,1,2,5,1,1,1,6,2
+Flamengo,2,04.02.2026,Casa,Internacional,1,1,3,1,1,2,4,3
+Flamengo,3,10.02.2026,Fora,Vitória,2,1,0,3,2,4,2,7
+Flamengo,5,11.03.2026,Casa,Cruzeiro,2,0,1,4,3,3,4,7
+Flamengo,6,14.03.2026,Fora,Botafogo,3,0,1,0,3,2,4,2
+Flamengo,7,19.03.2026,Casa,Remo,3,0,3,2,4,0,7,2
+Flamengo,8,22.03.2026,Fora,Corinthians,1,1,1,3,1,3,2,6
+Flamengo,9,02.04.2026,Fora,Red Bull Bragantino,0,3,2,4,3,3,5,7
+Fluminense,1,28.01.2026,Casa,Grêmio,2,1,1,3,2,3,3,6
+Fluminense,2,05.02.2026,Fora,Bahia,1,1,4,4,0,2,4,6
+Fluminense,3,12.02.2026,Casa,Botafogo,1,0,3,0,1,0,4,0
+Fluminense,4,25.02.2026,Fora,Palmeiras,1,2,7,1,4,4,11,5
+Fluminense,5,12.03.2026,Fora,Remo,2,0,4,1,0,5,4,6
+Fluminense,6,15.03.2026,Casa,Athletico-PR,3,2,3,0,4,1,7,1
+Fluminense,7,18.03.2026,Fora,Vasco,2,3,2,1,3,4,5,5
+Fluminense,8,21.03.2026,Casa,Atlético-MG,1,0,2,1,1,1,3,2
+Fluminense,9,01.04.2026,Casa,Corinthians,3,1,3,2,5,8,8,10
+Grêmio,1,28.01.2026,Fora,Fluminense,1,2,3,1,3,2,6,3
+Grêmio,2,04.02.2026,Casa,Botafogo,5,3,3,0,1,2,4,2
+Grêmio,3,11.02.2026,Fora,São Paulo,0,2,2,0,1,3,3,3
+Grêmio,4,25.02.2026,Casa,Atlético-MG,2,1,5,0,1,3,6,3
+Grêmio,5,12.03.2026,Casa,Red Bull Bragantino,1,1,3,3,1,3,4,6
+Grêmio,6,16.03.2026,Fora,Chapecoense,1,1,2,1,3,3,5,4
+Grêmio,7,19.03.2026,Casa,Vitória,2,0,4,2,0,3,4,5
+Grêmio,8,22.03.2026,Fora,Vasco,1,2,0,0,2,0,2,0
+Grêmio,9,02.04.2026,Fora,Palmeiras,1,2,0,4,2,4,2,8
+Internacional,1,28.01.2026,Casa,Athletico-PR,0,1,5,1,8,0,13,1
+Internacional,2,04.02.2026,Fora,Flamengo,1,1,1,3,2,1,3,4
+Internacional,3,12.02.2026,Casa,Palmeiras,1,3,7,4,9,0,16,4
+Internacional,4,25.02.2026,Fora,Remo,1,1,8,2,4,5,12,7
+Internacional,5,11.03.2026,Fora,Atlético-MG,0,1,4,2,10,0,14,2
+Internacional,6,15.03.2026,Casa,Bahia,0,1,4,1,3,0,7,1
+Internacional,7,18.03.2026,Fora,Santos,2,1,4,0,4,3,8,3
+Internacional,8,22.03.2026,Casa,Chapecoense,2,0,2,1,2,3,4,4
+Internacional,9,01.04.2026,Casa,São Paulo,1,1,2,6,0,5,2,11
+Mirassol,1,29.01.2026,Casa,Vasco,2,1,3,2,2,3,5,5
+Mirassol,2,04.02.2026,Fora,Remo,2,2,2,2,2,2,4,4
+Mirassol,3,11.02.2026,Casa,Cruzeiro,2,2,5,0,4,0,9,0
+Mirassol,5,10.03.2026,Casa,Santos,2,2,0,6,6,1,6,7
+Mirassol,6,15.03.2026,Fora,Palmeiras,0,1,2,1,2,1,4,2
+Mirassol,7,18.03.2026,Casa,Coritiba,0,1,2,0,5,2,7,2
+Mirassol,8,22.03.2026,Fora,Vitória,0,1,1,1,4,3,5,4
+Mirassol,9,01.04.2026,Fora,Botafogo,2,3,1,1,7,1,8,2
+Palmeiras,1,28.01.2026,Fora,Atlético-MG,2,2,2,1,5,4,7,5
+Palmeiras,2,04.02.2026,Casa,Vitória,5,1,4,2,2,2,6,4
+Palmeiras,3,12.02.2026,Fora,Internacional,3,1,4,7,0,9,4,16
+Palmeiras,4,25.02.2026,Casa,Fluminense,2,1,1,7,4,4,5,11
+Palmeiras,5,12.03.2026,Fora,Vasco,1,2,3,4,2,5,5,9
+Palmeiras,6,15.03.2026,Casa,Mirassol,1,0,1,2,1,2,2,4
+Palmeiras,7,18.03.2026,Casa,Botafogo,2,1,3,1,3,0,6,1
+Palmeiras,8,21.03.2026,Fora,São Paulo,1,0,1,2,0,8,1,10
+Palmeiras,9,02.04.2026,Casa,Grêmio,2,1,4,0,4,2,8,2
+Red Bull Bragantino,1,28.01.2026,Fora,Coritiba,1,0,2,0,3,1,5,1
+Red Bull Bragantino,2,04.02.2026,Casa,Atlético-MG,1,0,3,1,3,11,6,12
+Red Bull Bragantino,3,12.02.2026,Fora,Corinthians,0,2,2,1,1,2,3,3
+Red Bull Bragantino,4,25.02.2026,Casa,Athletico-PR,1,1,2,2,0,5,2,7
+Red Bull Bragantino,5,12.03.2026,Fora,Grêmio,1,1,3,3,3,1,6,4
+Red Bull Bragantino,6,15.03.2026,Casa,São Paulo,1,2,2,1,4,3,6,4
+Red Bull Bragantino,7,18.03.2026,Fora,Bahia,0,2,0,4,7,3,7,7
+Red Bull Bragantino,8,21.03.2026,Casa,Botafogo,1,2,3,1,8,5,11,6
+Red Bull Bragantino,9,02.04.2026,Casa,Flamengo,3,0,4,2,3,3,7,5
+Remo,1,28.01.2026,Fora,Vitória,0,2,1,1,0,3,1,4
+Remo,2,04.02.2026,Casa,Mirassol,2,2,2,2,2,2,4,4
+Remo,3,11.02.2026,Fora,Atlético-MG,3,3,1,3,4,3,5,6
+Remo,4,25.02.2026,Casa,Internacional,1,1,2,8,5,4,7,12
+Remo,5,12.03.2026,Casa,Fluminense,0,2,1,4,5,0,6,4
+Remo,6,15.03.2026,Fora,Coritiba,0,1,3,1,3,3,6,4
+Remo,7,19.03.2026,Fora,Flamengo,0,3,2,3,0,4,2,7
+Remo,8,22.03.2026,Casa,Bahia,4,1,3,5,2,4,5,9
+Remo,9,02.04.2026,Fora,Santos,0,2,4,3,0,4,4,7
+Santos,1,28.01.2026,Fora,Chapecoense,2,4,12,0,2,1,14,1
+Santos,2,04.02.2026,Casa,São Paulo,1,1,2,3,5,1,7,4
+Santos,3,12.02.2026,Fora,Athletico-PR,1,2,0,3,2,5,2,8
+Santos,4,26.02.2026,Casa,Vasco,2,1,5,1,0,1,5,2
+Santos,5,10.03.2026,Fora,Mirassol,2,2,6,0,1,6,7,6
+Santos,6,15.03.2026,Casa,Corinthians,1,1,3,4,1,2,4,6
+Santos,7,18.03.2026,Casa,Internacional,1,2,0,4,3,4,3,8
+Santos,8,22.03.2026,Fora,Cruzeiro,0,0,0,1,0,5,0,6
+Santos,9,02.04.2026,Casa,Remo,2,0,3,4,4,0,7,4
+São Paulo,1,28.01.2026,Casa,Flamengo,2,1,1,5,1,1,2,6
+São Paulo,2,04.02.2026,Fora,Santos,1,1,3,2,1,5,4,7
+São Paulo,3,11.02.2026,Casa,Grêmio,2,0,0,2,3,1,3,3
+São Paulo,4,25.02.2026,Fora,Coritiba,1,0,2,1,5,2,7,3
+São Paulo,5,12.03.2026,Casa,Chapecoense,2,0,6,3,5,3,11,6
+São Paulo,6,15.03.2026,Fora,Red Bull Bragantino,2,1,1,2,3,4,4,6
+São Paulo,7,18.03.2026,Fora,Atlético-MG,0,1,1,3,0,1,1,4
+São Paulo,8,21.03.2026,Casa,Palmeiras,0,1,2,1,8,0,10,1
+São Paulo,9,01.04.2026,Fora,Internacional,1,1,6,2,5,0,11,2
+Vasco,1,29.01.2026,Fora,Mirassol,1,2,2,3,3,2,5,5
+Vasco,2,05.02.2026,Casa,Chapecoense,1,1,10,0,4,0,14,0
+Vasco,3,11.02.2026,Casa,Bahia,0,1,5,4,3,0,8,4
+Vasco,4,26.02.2026,Fora,Santos,1,2,1,5,1,0,2,5
+Vasco,5,12.03.2026,Casa,Palmeiras,2,1,4,3,5,2,9,5
+Vasco,6,15.03.2026,Fora,Cruzeiro,3,3,2,2,2,3,4,5
+Vasco,7,18.03.2026,Casa,Fluminense,3,2,1,2,4,3,5,5
+Vasco,8,22.03.2026,Casa,Grêmio,2,1,0,0,0,2,0,2
+Vasco,9,01.04.2026,Fora,Coritiba,1,1,3,1,1,2,4,3
+Vitória,1,28.01.2026,Casa,Remo,2,0,1,1,3,0,4,1
+Vitória,2,04.02.2026,Fora,Palmeiras,1,5,2,4,2,2,4,6
+Vitória,3,10.02.2026,Casa,Flamengo,1,2,3,0,4,2,7,2
+Vitória,5,11.03.2026,Fora,Bahia,1,1,0,4,3,3,3,7
+Vitória,6,14.03.2026,Casa,Atlético-MG,2,0,0,3,4,7,4,10
+Vitória,7,19.03.2026,Fora,Grêmio,0,2,2,4,3,0,5,4
+Vitória,8,22.03.2026,Casa,Mirassol,1,0,1,1,3,4,4,5
+Vitória,9,01.04.2026,Fora,Cruzeiro,0,3,3,5,3,0,6,5

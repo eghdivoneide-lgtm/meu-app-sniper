@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ARTISTA VISUAL IA | EDS</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        .header h1 { font-size: 24px; font-weight: 700; margin-bottom: 5px; }
+        .header p { font-size: 12px; opacity: 0.9; }
+
+        .config-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .container { padding: 20px; max-width: 1200px; margin: 0 auto; }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .card h2 { font-size: 20px; margin-bottom: 16px; color: #333; }
+
+        .upload-zone {
+            border: 2px dashed #cbd5e1;
+            border-radius: 12px;
+            padding: 60px 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            background: #f8fafc;
+        }
+        .upload-zone:hover, .upload-zone:active { border-color: #667eea; background: #f0f4ff; }
+        .upload-zone .icon { font-size: 60px; margin-bottom: 16px; }
+        .upload-zone p { font-size: 16px; color: #64748b; }
+
+        .btn {
+            width: 100%;
+            padding: 16px;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: 12px;
+        }
+        .btn-primary { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+        .btn-primary:hover { opacity: 0.9; transform: translateY(-1px); }
+        .btn-primary:active { transform: scale(0.98); }
+        .btn-secondary { background: #e2e8f0; color: #334155; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+        .style-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-top: 16px;
+        }
+
+        @media(min-width: 600px) { .style-grid { grid-template-columns: repeat(3, 1fr); } }
+        @media(min-width: 900px) { .style-grid { grid-template-columns: repeat(4, 1fr); } }
+
+        .style-card {
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 16px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+            background: white;
+        }
+        .style-card:hover { border-color: #667eea; background: #f8f0ff; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(102,126,234,0.2); }
+        .style-card:active { transform: scale(0.95); }
+        .style-card.selected { border-color: #667eea; background: #f0f4ff; box-shadow: 0 0 0 3px rgba(102,126,234,0.2); }
+        .style-card .emoji { font-size: 32px; margin-bottom: 8px; }
+        .style-card .name { font-size: 13px; font-weight: 600; color: #334155; margin-bottom: 4px; }
+        .style-card .desc { font-size: 10px; color: #64748b; line-height: 1.3; }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+            margin-top: 12px;
+        }
+        .option-btn {
+            padding: 12px 8px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 12px;
+            text-align: center;
+        }
+        .option-btn:active { transform: scale(0.95); }
+        .option-btn.selected { border-color: #667eea; background: #f0f4ff; font-weight: 600; }
+
+        .preview-img {
+            width: 100%;
+            border-radius: 12px;
+            margin-top: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .loading { text-align: center; padding: 60px 20px; }
+        .spinner {
+            border: 3px solid #f3f4f6;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+        .loading-steps { list-style: none; margin-top: 20px; text-align: left; max-width: 280px; margin-left: auto; margin-right: auto; }
+        .loading-steps li { padding: 8px 0; color: #64748b; font-size: 14px; display: flex; align-items: center; gap: 8px; }
+        .loading-steps li.active { color: #667eea; font-weight: 600; }
+        .loading-steps li.done { color: #22c55e; }
+
+        .alert {
+            background: #fee2e2;
+            border-left: 4px solid #ef4444;
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+        .alert p { color: #991b1b; font-size: 14px; }
+
+        .config-modal {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            z-index: 1000;
+        }
+        .config-content {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            width: 100%;
+            max-width: 400px;
+        }
+        .config-content h3 { font-size: 20px; margin-bottom: 12px; }
+        .config-content input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 14px;
+            margin: 12px 0;
+        }
+        .config-content input:focus { outline: none; border-color: #667eea; }
+        .config-buttons { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 16px; }
+
+        .footer { text-align: center; padding: 24px; color: #64748b; font-size: 12px; }
+        .footer strong {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hidden { display: none !important; }
+        input[type="file"] { display: none; }
+        .btn-group { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+        .section { margin-bottom: 20px; }
+        .section-title { font-size: 16px; font-weight: 600; margin-bottom: 12px; color: #334155; }
+
+        /* Estilo do card de progresso */
+        .progress-bar-wrap { width: 100%; background: #e2e8f0; border-radius: 100px; height: 8px; margin-top: 24px; overflow: hidden; }
+        .progress-bar { height: 100%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 100px; width: 0%; transition: width 0.5s ease; }
+
+        /* Badge de estilo selecionado */
+        .selected-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #f0f4ff;
+            border: 1px solid #667eea;
+            color: #667eea;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 100px;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>🎨 ARTISTA VISUAL IA</h1>
+    <p>EDS Soluções Inteligentes · Powered by Google Vertex AI</p>
+    <button class="config-btn" onclick="mostrarPainelKey()">⚙️ API Key</button>
+</div>
+
+<div class="container">
+
+    <!-- Painel de configuração API Key (deslizante) -->
+    <div id="painelApiKey" class="card hidden" style="border-left: 4px solid #f59e0b; background: #fffbeb;">
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:12px;">
+            <span style="font-size:24px;">🔑</span>
+            <div>
+                <div style="font-weight:700;font-size:15px;color:#92400e;">Gemini API Key — Alta Qualidade</div>
+                <a href="https://aistudio.google.com/apikey" target="_blank" style="font-size:12px;color:#d97706;">→ Pegar sua chave em aistudio.google.com</a>
+            </div>
+            <button onclick="ocultarPainelKey()" style="margin-left:auto;background:none;border:none;font-size:20px;cursor:pointer;color:#92400e;">✕</button>
+        </div>
+        <div style="display:flex;gap:8px;">
+            <input type="password" id="inputGeminiKey" placeholder="Cole sua chave AIza... aqui"
+                style="flex:1;padding:12px;border:2px solid #fcd34d;border-radius:8px;font-size:14px;outline:none;background:white;"
+                onfocus="this.style.borderColor='#f59e0b'" onblur="this.style.borderColor='#fcd34d'">
+            <button onclick="salvarGeminiKey()"
+                style="padding:12px 16px;background:linear-gradient(135deg,#f59e0b,#d97706);color:white;border:none;border-radius:8px;font-weight:600;cursor:pointer;white-space:nowrap;">
+                Salvar ✓
+            </button>
+        </div>
+        <div id="statusGeminiKey" style="font-size:12px;color:#15803d;margin-top:8px;display:none;">✅ Chave configurada! Reinicie o servidor para aplicar.</div>
+        <p style="font-size:11px;color:#92400e;margin-top:8px;">⭐ Com esta chave você terá a mesma qualidade do AI Studio</p>
+    </div>
+
+    <!-- Alerta de Erro -->
+    <div id="alertaErro" class="alert hidden">
+        <p id="textoErro"></p>
+    </div>
+
+    <!-- TELA 1: Upload -->
+    <div id="telaUpload">
+        <div class="card">
+            <h2>📤 Upload da Imagem</h2>
+            <div class="upload-zone" onclick="document.getElementById('fileInput').click()">
+                <div class="icon">🖼️</div>
+                <p><strong>Clique para selecionar sua foto</strong></p>
+                <p style="font-size: 12px; margin-top: 8px; color: #94a3b8;">JPG, PNG, WEBP (máx. 10MB)</p>
+            </div>
+            <input type="file" id="fileInput" accept="image/*" onchange="handleFileSelect(event)">
+        </div>
+
+        <div class="card" style="border-left: 4px solid #667eea;">
+            <p style="font-size: 13px; color: #64748b; line-height: 1.7;">
+                ✨ <strong>Como funciona:</strong> Faça upload de qualquer foto, escolha um dos 12 estilos artísticos e a IA do Google Vertex AI transformará sua imagem em uma obra de arte única.<br><br>
+                🚀 <strong>Pronto para usar</strong> — nenhuma configuração necessária!
+            </p>
+        </div>
+    </div>
+
+    <!-- TELA 2: Configuração -->
+    <div id="telaConfig" class="hidden">
+        <div class="card">
+            <h2>📷 Imagem Original</h2>
+            <img id="previewOriginal" class="preview-img" alt="Preview">
+        </div>
+
+        <div class="card">
+            <div class="section">
+                <div class="section-title">📐 Formato de Saída</div>
+                <div class="options-grid">
+                    <div class="option-btn selected" onclick="selecionarFormato(this, 'square')">
+                        <div style="font-size: 20px;">⬜</div>
+                        <div style="margin-top: 4px;">Quadrado</div>
+                    </div>
+                    <div class="option-btn" onclick="selecionarFormato(this, 'portrait')">
+                        <div style="font-size: 20px;">📱</div>
+                        <div style="margin-top: 4px;">Retrato</div>
+                    </div>
+                    <div class="option-btn" onclick="selecionarFormato(this, 'landscape')">
+                        <div style="font-size: 20px;">🖼️</div>
+                        <div style="margin-top: 4px;">Paisagem</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">⚡ Intensidade da Transformação</div>
+                <div class="option-btn selected" style="margin-bottom: 8px;" onclick="selecionarIntensidade(this, 'suave')">
+                    <strong>Suave</strong> — Mantém mais características originais
+                </div>
+                <div class="option-btn" style="margin-bottom: 8px;" onclick="selecionarIntensidade(this, 'medio')">
+                    <strong>Médio</strong> — Equilíbrio entre original e estilo
+                </div>
+                <div class="option-btn" onclick="selecionarIntensidade(this, 'extremo')">
+                    <strong>Extremo</strong> — Transformação artística completa
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>🎨 Escolha o Estilo Artístico</h2>
+            <p style="font-size: 13px; color: #64748b; margin-bottom: 4px;">Selecione um dos 12 estilos disponíveis:</p>
+            <div id="estiloSelecionadoBadge" class="hidden" style="margin-bottom: 12px;"></div>
+            <div class="style-grid" id="gridEstilos"></div>
+        </div>
+
+        <div class="btn-group">
+            <button class="btn btn-secondary" onclick="voltarUpload()">← Voltar</button>
+            <button class="btn btn-primary" onclick="gerarImagem()" id="btnGerar">✨ Gerar Arte</button>
+        </div>
+    </div>
+
+    <!-- TELA 3: Processando -->
+    <div id="telaProcessando" class="hidden">
+        <div class="card">
+            <div class="loading">
+                <div class="spinner"></div>
+                <h2 style="margin-bottom: 8px;">🎨 Criando sua arte...</h2>
+                <p style="color: #64748b;" id="statusMsg">Enviando imagem para a IA...</p>
+                <div class="progress-bar-wrap">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TELA 4: Resultado -->
+    <div id="telaResultado" class="hidden">
+        <div class="card">
+            <h2>📷 Original</h2>
+            <img id="imagemAntes" class="preview-img" alt="Antes">
+        </div>
+
+        <div class="card">
+            <h2>✨ Arte Gerada — <span id="estiloResultado" style="color:#667eea;"></span></h2>
+            <img id="imagemDepois" class="preview-img" alt="Depois">
+        </div>
+
+        <button class="btn btn-primary" onclick="baixarImagem()">💾 Baixar Imagem</button>
+        <button class="btn btn-secondary" onclick="voltarConfig()">🔄 Tentar Outro Estilo</button>
+        <button class="btn btn-secondary" onclick="novaImagem()">🆕 Nova Imagem</button>
+    </div>
+</div>
+
+<!-- Modal Config API Key -->
+<div id="modalConfig" class="config-modal hidden">
+    <div class="config-content">
+        <h3>⚙️ Configurar API Key</h3>
+        <p style="font-size: 13px; color: #64748b; margin-bottom: 4px;">Chave de API do Google Gemini:</p>
+        <a href="https://aistudio.google.com/apikey" target="_blank" style="font-size: 12px; color: #667eea; display: block; margin-bottom: 4px;">→ Obter chave gratuita aqui</a>
+        <input type="password" id="inputApiKey" placeholder="AIza...">
+        <div id="apiKeyStatus" style="font-size: 12px; margin-top: -4px; margin-bottom: 8px; color: #22c55e; display: none;">✅ Chave salva!</div>
+        <div class="config-buttons">
+            <button class="btn btn-secondary" style="margin-top:0;" onclick="fecharConfig()">Cancelar</button>
+            <button class="btn btn-primary" style="margin-top:0;" onclick="salvarApiKey()">Salvar</button>
+        </div>
+        <p style="font-size: 11px; color: #94a3b8; margin-top: 12px;">💡 Armazenada apenas localmente no seu navegador</p>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Desenvolvido por <strong>EDS Soluções Inteligentes</strong></p>
+    <p style="margin-top: 4px;">Serra Talhada, PE | Sertão do Pajeú</p>
+</div>
+
+<script>
+const BASE = 'Maintain the EXACT same people from the reference photo: same skin tone, same hair color, same facial features, same body proportions. Do NOT change ethnicity or race.';
+
+const ESTILOS = [
+    { id: 'manga',       emoji: '🎌', nome: 'Mangá/Anime',    desc: 'Traços definidos, olhos expressivos',   prompt: `${BASE} Transform into classic anime/manga style with clean cel-shaded lines, large expressive eyes, vibrant colors. Keep all ${BASE.slice(0,40)}` },
+    { id: 'dc',          emoji: '🦸', nome: 'DC Comics',      desc: 'Heroico, dramático, cores primárias',   prompt: `${BASE} Transform into DC Comics superhero illustration with bold ink lines, dramatic lighting, heroic comic book style. ` },
+    { id: 'disney',      emoji: '✨', nome: 'Disney/Pixar',   desc: '3D animado, mágico, encantador',        prompt: `${BASE} Transform into Disney/Pixar 3D animation style with soft features, warm magical lighting, charming family portrait. ` },
+    { id: 'ghibli',      emoji: '🌊', nome: 'Studio Ghibli',  desc: 'Aquarela etérea, nostálgico',           prompt: `${BASE} Transform into Studio Ghibli watercolor painting style with delicate lines, lush backgrounds, nostalgic pastoral warmth. ` },
+    { id: 'marvel',      emoji: '🃏', nome: 'Marvel Comics',  desc: 'Quadrinho moderno, dinâmico',           prompt: `${BASE} Transform into Marvel Comics style with dynamic line art, halftone patterns, bold primary colors, heroic poses. ` },
+    { id: 'cyber',       emoji: '🤖', nome: 'Cyberpunk',      desc: 'Neo-noir, néon, futurista',             prompt: `${BASE} Transform into cyberpunk style with neon glowing accents, futuristic clothing, dark city background, holographic overlays. ` },
+    { id: 'rpg',         emoji: '🎮', nome: 'RPG Épico',      desc: 'Fantasia AAA, épico',                  prompt: `${BASE} Transform into epic fantasy RPG art style with detailed armor, magical glow, dramatic fantasy landscape background. ` },
+    { id: 'street',      emoji: '🌀', nome: 'Street Art',     desc: 'Graffiti vibrante, urbano',             prompt: `${BASE} Transform into urban street art mural style with spray paint texture, bold outlines, vibrant graffiti colors on a wall. ` },
+    { id: 'renaissance', emoji: '🖼️', nome: 'Renascentista', desc: 'Pintura a óleo clássica',               prompt: `${BASE} Transform into Renaissance oil painting with chiaroscuro lighting, rich colors, classical composition, aged canvas texture. ` },
+    { id: 'fantasy',     emoji: '🧙', nome: 'Dark Fantasy',   desc: 'Medieval épico, magia',                prompt: `${BASE} Transform into dark fantasy style with glowing magical effects, dramatic shadows, mystical castle background. ` },
+    { id: 'pixel',       emoji: '🕹️', nome: 'Pixel Art',     desc: 'Retrogame 8-bit/16-bit',               prompt: `${BASE} Transform into retro 16-bit pixel art style with pixelated details, limited color palette, classic RPG game aesthetic. ` },
+    { id: 'pop',         emoji: '🎭', nome: 'Pop Art',        desc: 'Warhol, cores vibrantes',               prompt: `${BASE} Transform into Andy Warhol pop art style with flat bold colors, screen print effect, high contrast graphic design. ` }
+];
+
+let imagemBase64 = '';
+let estiloAtual = '';
+let formatoAtual = 'square';
+let intensidadeAtual = 'suave';
+let imagemGeradaUrl = '';
+let progressTimer = null;
+
+// Init
+window.addEventListener('DOMContentLoaded', () => {
+    // Renderizar estilos
+    const grid = document.getElementById('gridEstilos');
+    ESTILOS.forEach(estilo => {
+        const div = document.createElement('div');
+        div.className = 'style-card';
+        div.dataset.id = estilo.id;
+        div.onclick = () => selecionarEstilo(div, estilo);
+        div.innerHTML = `
+            <div class="emoji">${estilo.emoji}</div>
+            <div class="name">${estilo.nome}</div>
+            <div class="desc">${estilo.desc}</div>
+        `;
+        grid.appendChild(div);
+    });
+
+    // Carregar API key salva em ambos os campos
+    const savedKey = localStorage.getItem('gemini_api_key');
+    if (savedKey) {
+        document.getElementById('inputApiKey').value = savedKey;
+        document.getElementById('inputApiKeyInline').value = savedKey;
+    }
+});
+
+function salvarApiKeyInline() {
+    const key = document.getElementById('inputApiKeyInline').value.trim();
+    if (!key) { alert('Cole uma API Key válida!'); return; }
+    localStorage.setItem('gemini_api_key', key);
+    document.getElementById('inputApiKey').value = key; // sincroniza com modal
+    const status = document.getElementById('apiKeyStatusInline');
+    status.style.display = 'block';
+    setTimeout(() => { status.style.display = 'none'; }, 2500);
+}
+
+function handleFileSelect(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+    if (file.size > 10 * 1024 * 1024) { mostrarErro('Arquivo muito grande! Máximo 10MB.'); return; }
+
+    const reader = new FileReader();
+    reader.onload = (e) => {
+        const resultado = e.target.result;
+        document.getElementById('previewOriginal').src = resultado;
+        imagemBase64 = resultado.split(',')[1];
+        document.getElementById('telaUpload').classList.add('hidden');
+        document.getElementById('telaConfig').classList.remove('hidden');
+        esconderErro();
+    };
+    reader.readAsDataURL(file);
+}
+
+function selecionarFormato(elem, formato) {
+    elem.closest('.options-grid').querySelectorAll('.option-btn').forEach(b => b.classList.remove('selected'));
+    elem.classList.add('selected');
+    formatoAtual = formato;
+}
+
+function selecionarIntensidade(elem, intensidade) {
+    elem.parentElement.querySelectorAll('.option-btn').forEach(b => b.classList.remove('selected'));
+    elem.classList.add('selected');
+    intensidadeAtual = intensidade;
+}
+
+function selecionarEstilo(elem, estilo) {
+    document.querySelectorAll('.style-card').forEach(c => c.classList.remove('selected'));
+    elem.classList.add('selected');
+    estiloAtual = estilo.id;
+
+    // Mostrar badge
+    const badge = document.getElementById('estiloSelecionadoBadge');
+    badge.classList.remove('hidden');
+    badge.innerHTML = `<span class="selected-badge">${estilo.emoji} ${estilo.nome} selecionado</span>`;
+}
+
+async function gerarImagem() {
+    if (!estiloAtual) { mostrarErro('Selecione um estilo artístico antes de continuar!'); return; }
+
+    esconderErro();
+    document.getElementById('telaConfig').classList.add('hidden');
+    document.getElementById('telaProcessando').classList.remove('hidden');
+
+    // Iniciar progresso animado
+    iniciarProgresso();
+
+    const estilo = ESTILOS.find(e => e.id === estiloAtual);
+
+    const intensidadeTexto = {
+        suave:  'Maintain strong fidelity to original subject features. Apply the style subtly.',
+        medio:  'Balance between preserving original characteristics and the artistic style transformation.',
+        extremo:'Apply complete dramatic artistic transformation while keeping core identity recognizable.'
+    };
+    const formatoTexto = {
+        square:    '1:1 square composition',
+        portrait:  '3:4 portrait orientation, vertical',
+        landscape: '16:9 landscape orientation, horizontal'
+    };
+
+    const promptFinal = `${estilo.prompt}
+
+${intensidadeTexto[intensidadeAtual]}
+Generate in ${formatoTexto[formatoAtual]}.
+Preserve ALL physical characteristics of the original subject (face, body, expression).
+High quality, professional artistic result, detailed and expressive.`;
+
+    try {
+        atualizarStatus('Enviando para o servidor EDS Visual...', 20);
+
+        // Chamar backend local que usa Vertex AI com Service Account
+        const response = await fetch('http://localhost:3002/api/gerar-imagem', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                prompt: promptFinal,
+                imagemBase64: imagemBase64,
+                mimeType: 'image/jpeg',
+            })
+        });
+
+        atualizarStatus('Processando com IA do Google Vertex AI...', 60);
+        const data = await response.json();
+
+        if (!response.ok || data.erro) throw new Error(data.erro || 'Erro no servidor.');
+
+        if (data.sucesso && data.imagemBase64) {
+            imagemGeradaUrl = `data:${data.mimeType || 'image/png'};base64,${data.imagemBase64}`;
+
+            atualizarStatus('Arte gerada com sucesso!', 100);
+            setTimeout(() => {
+                pararProgresso();
+                document.getElementById('imagemAntes').src = document.getElementById('previewOriginal').src;
+                document.getElementById('imagemDepois').src = imagemGeradaUrl;
+                document.getElementById('estiloResultado').textContent = `${estilo.emoji} ${estilo.nome}`;
+                document.getElementById('telaProcessando').classList.add('hidden');
+                document.getElementById('telaResultado').classList.remove('hidden');
+            }, 600);
+        } else {
+            throw new Error(data.erro || 'Nenhuma imagem foi gerada.');
+        }
+
+    } catch (error) {
+        console.error('[EDS Visual] Erro:', error);
+        pararProgresso();
+        mostrarErro(error.message || 'Erro ao gerar imagem. Verifique sua API Key.');
+        document.getElementById('telaProcessando').classList.add('hidden');
+        document.getElementById('telaConfig').classList.remove('hidden');
+    }
+}
+
+function iniciarProgresso() {
+    let progress = 0;
+    document.getElementById('progressBar').style.width = '5%';
+    progressTimer = setInterval(() => {
+        if (progress < 75) {
+            progress += Math.random() * 3;
+            document.getElementById('progressBar').style.width = Math.min(progress, 75) + '%';
+        }
+    }, 400);
+}
+
+function atualizarStatus(msg, pct) {
+    document.getElementById('statusMsg').textContent = msg;
+    document.getElementById('progressBar').style.width = pct + '%';
+}
+
+function pararProgresso() {
+    clearInterval(progressTimer);
+    document.getElementById('progressBar').style.width = '0%';
+}
+
+function baixarImagem() {
+    const estilo = ESTILOS.find(e => e.id === estiloAtual);
+    const link = document.createElement('a');
+    link.href = imagemGeradaUrl;
+    link.download = `eds-visual-${estilo?.id || 'arte'}-${Date.now()}.png`;
+    link.click();
+}
+
+function voltarUpload() {
+    document.getElementById('telaConfig').classList.add('hidden');
+    document.getElementById('telaUpload').classList.remove('hidden');
+}
+
+function voltarConfig() {
+    document.getElementById('telaResultado').classList.add('hidden');
+    document.getElementById('telaConfig').classList.remove('hidden');
+}
+
+function novaImagem() {
+    document.getElementById('telaResultado').classList.add('hidden');
+    document.getElementById('telaUpload').classList.remove('hidden');
+    imagemBase64 = '';
+    estiloAtual = '';
+    imagemGeradaUrl = '';
+    document.querySelectorAll('.style-card').forEach(c => c.classList.remove('selected'));
+    document.getElementById('estiloSelecionadoBadge').classList.add('hidden');
+    document.getElementById('fileInput').value = '';
+}
+
+function mostrarConfig() { document.getElementById('modalConfig').classList.remove('hidden'); }
+function fecharConfig()  { document.getElementById('modalConfig').classList.add('hidden'); }
+
+function salvarApiKey() {
+    const key = document.getElementById('inputApiKey').value.trim();
+    if (!key) { alert('Digite uma API Key válida!'); return; }
+    localStorage.setItem('gemini_api_key', key);
+    document.getElementById('apiKeyStatus').style.display = 'block';
+    setTimeout(() => {
+        document.getElementById('apiKeyStatus').style.display = 'none';
+        fecharConfig();
+    }, 1200);
+}
+
+function mostrarErro(msg) {
+    document.getElementById('textoErro').textContent = '⚠️ ' + msg;
+    document.getElementById('alertaErro').classList.remove('hidden');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setTimeout(esconderErro, 6000);
+}
+
+// ─── Painel Gemini API Key ───────────────────────────────────────────────────
+function mostrarPainelKey() {
+    document.getElementById('painelApiKey').classList.remove('hidden');
+    document.getElementById('painelApiKey').scrollIntoView({ behavior: 'smooth' });
+}
+function ocultarPainelKey() { document.getElementById('painelApiKey').classList.add('hidden'); }
+
+async function salvarGeminiKey() {
+    const key = document.getElementById('inputGeminiKey').value.trim();
+    if (!key || !key.startsWith('AIza')) { alert('Cole uma chave válida (começa com AIza...)'); return; }
+
+    try {
+        const resp = await fetch('http://localhost:3002/api/configurar-key', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ geminiApiKey: key })
+        });
+        const data = await resp.json();
+        if (data.sucesso) {
+            document.getElementById('statusGeminiKey').textContent = '✅ Chave salva! Gerando com alta qualidade agora.';
+            document.getElementById('statusGeminiKey').style.display = 'block';
+            setTimeout(ocultarPainelKey, 2500);
+        } else {
+            alert('Erro: ' + (data.erro || 'Tente novamente'));
+        }
+    } catch (e) {
+        alert('Servidor não encontrado. Certifique que node server.js está rodando.');
+    }
+}
+
+function esconderErro() { document.getElementById('alertaErro').classList.add('hidden'); }
+</script>
+</body>
+</html>

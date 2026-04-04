@@ -1,0 +1,3047 @@
+[
+  {
+    "id": "2BLqatWg",
+    "mandante": "Bragantino",
+    "visitante": "Flamengo RJ",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 3,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 4,
+        "v": 2
+      },
+      "ft": {
+        "m": 7,
+        "v": 5
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 56,
+        "v": 44
+      },
+      "finalizacoes": {
+        "m": 10,
+        "v": 5
+      }
+    }
+  },
+  {
+    "id": "foIy121s",
+    "mandante": "Palmeiras",
+    "visitante": "Gremio",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 4,
+        "v": 0
+      },
+      "ft": {
+        "m": 8,
+        "v": 2
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 60,
+        "v": 40
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 7
+      }
+    }
+  },
+  {
+    "id": "2XdKBJFa",
+    "mandante": "Chapecoense-SC",
+    "visitante": "Atletico-MG",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 4
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 2,
+        "v": 2
+      },
+      "ft": {
+        "m": 7,
+        "v": 3
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 45,
+        "v": 55
+      },
+      "finalizacoes": {
+        "m": 15,
+        "v": 5
+      }
+    }
+  },
+  {
+    "id": "ADt56OwK",
+    "mandante": "Santos",
+    "visitante": "Remo",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 3,
+        "v": 4
+      },
+      "ft": {
+        "m": 7,
+        "v": 4
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 58,
+        "v": 42
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 8
+      }
+    }
+  },
+  {
+    "id": "l8eApsH0",
+    "mandante": "Fluminense",
+    "visitante": "Corinthians",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 3,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 3,
+        "v": 2
+      },
+      "ft": {
+        "m": 8,
+        "v": 10
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 61,
+        "v": 39
+      },
+      "finalizacoes": {
+        "m": 10,
+        "v": 9
+      }
+    }
+  },
+  {
+    "id": "AZHuJ1NP",
+    "mandante": "Coritiba",
+    "visitante": "Vasco",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 3
+      },
+      "ft": {
+        "m": 3,
+        "v": 4
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 65,
+        "v": 35
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 3
+      }
+    }
+  },
+  {
+    "id": "tI8BDuom",
+    "mandante": "Bahia",
+    "visitante": "Athletico-PR",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 3,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 2,
+        "v": 1
+      },
+      "ft": {
+        "m": 3,
+        "v": 1
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 52,
+        "v": 48
+      },
+      "finalizacoes": {
+        "m": 2,
+        "v": 9
+      }
+    }
+  },
+  {
+    "id": "bwFhcK06",
+    "mandante": "Cruzeiro",
+    "visitante": "Vitoria",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 3,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 5,
+        "v": 3
+      },
+      "ft": {
+        "m": 5,
+        "v": 6
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 59,
+        "v": 41
+      },
+      "finalizacoes": {
+        "m": 1,
+        "v": 4
+      }
+    }
+  },
+  {
+    "id": "pzkJrLoD",
+    "mandante": "Botafogo RJ",
+    "visitante": "Mirassol",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 3,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 1
+      },
+      "ft": {
+        "m": 2,
+        "v": 8
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 35,
+        "v": 65
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 10
+      }
+    }
+  },
+  {
+    "id": "WjD0ebVI",
+    "mandante": "Internacional",
+    "visitante": "Sao Paulo",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 2,
+        "v": 6
+      },
+      "ft": {
+        "m": 2,
+        "v": 11
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 34,
+        "v": 66
+      },
+      "finalizacoes": {
+        "m": 1,
+        "v": 10
+      }
+    }
+  },
+  {
+    "id": "xUgkXiV8",
+    "mandante": "Athletico-PR",
+    "visitante": "Botafogo RJ",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 4,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 2
+      },
+      "ft": {
+        "m": 1,
+        "v": 8
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 46,
+        "v": 54
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 6
+      }
+    }
+  },
+  {
+    "id": "Cx9wGgeA",
+    "mandante": "Corinthians",
+    "visitante": "Flamengo RJ",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 3,
+        "v": 1
+      },
+      "ft": {
+        "m": 6,
+        "v": 2
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 54,
+        "v": 46
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 6
+      }
+    }
+  },
+  {
+    "id": "C0iQ6kId",
+    "mandante": "Internacional",
+    "visitante": "Chapecoense-SC",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 2,
+        "v": 1
+      },
+      "ft": {
+        "m": 4,
+        "v": 4
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 6
+      }
+    }
+  },
+  {
+    "id": "MguU4B2F",
+    "mandante": "Vitoria",
+    "visitante": "Mirassol",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 1
+      },
+      "ft": {
+        "m": 4,
+        "v": 5
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 40,
+        "v": 60
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 7
+      }
+    }
+  },
+  {
+    "id": "lSRM6XX2",
+    "mandante": "Athletico-PR",
+    "visitante": "Coritiba",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 6,
+        "v": 0
+      },
+      "ft": {
+        "m": 7,
+        "v": 4
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 53,
+        "v": 47
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 3
+      }
+    }
+  },
+  {
+    "id": "4zlI8Bmp",
+    "mandante": "Cruzeiro",
+    "visitante": "Santos",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 0
+      },
+      "ft": {
+        "m": 6,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 60,
+        "v": 40
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 4
+      }
+    }
+  },
+  {
+    "id": "Gfc2n3nl",
+    "mandante": "Remo",
+    "visitante": "Bahia",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 4,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 3,
+        "v": 5
+      },
+      "ft": {
+        "m": 5,
+        "v": 9
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 38,
+        "v": 62
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 5
+      }
+    }
+  },
+  {
+    "id": "jXNrfCYj",
+    "mandante": "Vasco",
+    "visitante": "Gremio",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 37,
+        "v": 63
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 5
+      }
+    }
+  },
+  {
+    "id": "IwGUHFQc",
+    "mandante": "Sao Paulo",
+    "visitante": "Palmeiras",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 2,
+        "v": 1
+      },
+      "ft": {
+        "m": 10,
+        "v": 1
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 63,
+        "v": 37
+      },
+      "finalizacoes": {
+        "m": 1,
+        "v": 2
+      }
+    }
+  },
+  {
+    "id": "6anCaYAT",
+    "mandante": "Fluminense",
+    "visitante": "Atletico-MG",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 2,
+        "v": 1
+      },
+      "ft": {
+        "m": 3,
+        "v": 2
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 56,
+        "v": 44
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 8
+      }
+    }
+  },
+  {
+    "id": "pj7oEXPM",
+    "mandante": "Bragantino",
+    "visitante": "Botafogo RJ",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 3,
+        "v": 1
+      },
+      "ft": {
+        "m": 11,
+        "v": 6
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 59,
+        "v": 41
+      },
+      "finalizacoes": {
+        "m": 10,
+        "v": 5
+      }
+    }
+  },
+  {
+    "id": "bZr41ftH",
+    "mandante": "Chapecoense-SC",
+    "visitante": "Corinthians",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 6,
+        "v": 4
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 36,
+        "v": 64
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 8
+      }
+    }
+  },
+  {
+    "id": "baSfzIsI",
+    "mandante": "Flamengo RJ",
+    "visitante": "Remo",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 3,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 3,
+        "v": 2
+      },
+      "ft": {
+        "m": 7,
+        "v": 2
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 65,
+        "v": 35
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 2
+      }
+    }
+  },
+  {
+    "id": "jBn8sZlo",
+    "mandante": "Gremio",
+    "visitante": "Vitoria",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 4,
+        "v": 2
+      },
+      "ft": {
+        "m": 4,
+        "v": 5
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 43,
+        "v": 57
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 7
+      }
+    }
+  },
+  {
+    "id": "AwdDhacn",
+    "mandante": "Santos",
+    "visitante": "Internacional",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 4
+      },
+      "ft": {
+        "m": 3,
+        "v": 8
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 61,
+        "v": 39
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 10
+      }
+    }
+  },
+  {
+    "id": "fRL3YeCU",
+    "mandante": "Vasco",
+    "visitante": "Fluminense",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 3,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 2
+      },
+      "ft": {
+        "m": 5,
+        "v": 5
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 52,
+        "v": 48
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 6
+      }
+    }
+  },
+  {
+    "id": "KSexmeRN",
+    "mandante": "Atletico-MG",
+    "visitante": "Sao Paulo",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 3,
+        "v": 1
+      },
+      "ft": {
+        "m": 4,
+        "v": 1
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 29,
+        "v": 71
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 10
+      }
+    }
+  },
+  {
+    "id": "bD7TlHdB",
+    "mandante": "Mirassol",
+    "visitante": "Coritiba",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 2,
+        "v": 0
+      },
+      "ft": {
+        "m": 7,
+        "v": 2
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 69,
+        "v": 31
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 11
+      }
+    }
+  },
+  {
+    "id": "6JUf5xsh",
+    "mandante": "Athletico-PR",
+    "visitante": "Cruzeiro",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 2,
+        "v": 4
+      },
+      "ft": {
+        "m": 4,
+        "v": 6
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 3
+      }
+    }
+  },
+  {
+    "id": "vXS23GB4",
+    "mandante": "Bahia",
+    "visitante": "Bragantino",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 4,
+        "v": 0
+      },
+      "ft": {
+        "m": 7,
+        "v": 7
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 57,
+        "v": 43
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 10
+      }
+    }
+  },
+  {
+    "id": "65kMjwSb",
+    "mandante": "Palmeiras",
+    "visitante": "Botafogo RJ",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 3,
+        "v": 1
+      },
+      "ft": {
+        "m": 6,
+        "v": 1
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 52,
+        "v": 48
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 3
+      }
+    }
+  },
+  {
+    "id": "CrUnxvD5",
+    "mandante": "Chapecoense-SC",
+    "visitante": "Gremio",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 2
+      },
+      "ft": {
+        "m": 4,
+        "v": 5
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 35,
+        "v": 65
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 6
+      }
+    }
+  },
+  {
+    "id": "29v3xm7l",
+    "mandante": "Bragantino",
+    "visitante": "Sao Paulo",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 2,
+        "v": 1
+      },
+      "ft": {
+        "m": 6,
+        "v": 4
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 2
+      }
+    }
+  },
+  {
+    "id": "d8XBzRy1",
+    "mandante": "Cruzeiro",
+    "visitante": "Vasco",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 3,
+        "v": 3
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 2,
+        "v": 2
+      },
+      "ft": {
+        "m": 5,
+        "v": 4
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 60,
+        "v": 40
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 9
+      }
+    }
+  },
+  {
+    "id": "r3xWuMDt",
+    "mandante": "Coritiba",
+    "visitante": "Remo",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 3
+      },
+      "ft": {
+        "m": 4,
+        "v": 6
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 42,
+        "v": 58
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 9
+      }
+    }
+  },
+  {
+    "id": "WQmXs9qR",
+    "mandante": "Palmeiras",
+    "visitante": "Mirassol",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 2
+      },
+      "ft": {
+        "m": 2,
+        "v": 4
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 43,
+        "v": 57
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 9
+      }
+    }
+  },
+  {
+    "id": "xhxxOmhe",
+    "mandante": "Fluminense",
+    "visitante": "Athletico-PR",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 3,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 3,
+        "v": 0
+      },
+      "ft": {
+        "m": 7,
+        "v": 1
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 79,
+        "v": 21
+      },
+      "finalizacoes": {
+        "m": 15,
+        "v": 2
+      }
+    }
+  },
+  {
+    "id": "ULVJY46D",
+    "mandante": "Internacional",
+    "visitante": "Bahia",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 4,
+        "v": 1
+      },
+      "ft": {
+        "m": 7,
+        "v": 1
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 53,
+        "v": 47
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 1
+      }
+    }
+  },
+  {
+    "id": "ABaOqVEE",
+    "mandante": "Santos",
+    "visitante": "Corinthians",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 3,
+        "v": 4
+      },
+      "ft": {
+        "m": 4,
+        "v": 6
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 44,
+        "v": 56
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 6
+      }
+    }
+  },
+  {
+    "id": "r57xMRM7",
+    "mandante": "Botafogo RJ",
+    "visitante": "Flamengo RJ",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 3
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 1
+      },
+      "ft": {
+        "m": 2,
+        "v": 4
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 42,
+        "v": 58
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 11
+      }
+    }
+  },
+  {
+    "id": "jTuvv0rg",
+    "mandante": "Vitoria",
+    "visitante": "Atletico-MG",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 3
+      },
+      "ft": {
+        "m": 4,
+        "v": 10
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 33,
+        "v": 67
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 5
+      }
+    }
+  },
+  {
+    "id": "dYG29lw2",
+    "mandante": "Gremio",
+    "visitante": "Bragantino",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 3,
+        "v": 3
+      },
+      "ft": {
+        "m": 4,
+        "v": 6
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 39,
+        "v": 61
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 11
+      }
+    }
+  },
+  {
+    "id": "2Bu7KEo3",
+    "mandante": "Sao Paulo",
+    "visitante": "Chapecoense-SC",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 6,
+        "v": 3
+      },
+      "ft": {
+        "m": 11,
+        "v": 6
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 63,
+        "v": 37
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 4
+      }
+    }
+  },
+  {
+    "id": "dEhLdBgd",
+    "mandante": "Vasco",
+    "visitante": "Palmeiras",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 4,
+        "v": 3
+      },
+      "ft": {
+        "m": 9,
+        "v": 5
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 12,
+        "v": 4
+      }
+    }
+  },
+  {
+    "id": "4vvUP9Nr",
+    "mandante": "Remo",
+    "visitante": "Fluminense",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 4
+      },
+      "ft": {
+        "m": 6,
+        "v": 4
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 33,
+        "v": 67
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 6
+      }
+    }
+  },
+  {
+    "id": "bwZFIhGF",
+    "mandante": "Corinthians",
+    "visitante": "Coritiba",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 2,
+        "v": 3
+      },
+      "ft": {
+        "m": 8,
+        "v": 6
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 73,
+        "v": 27
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 3
+      }
+    }
+  },
+  {
+    "id": "za4CbXOq",
+    "mandante": "Flamengo RJ",
+    "visitante": "Cruzeiro",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 4
+      },
+      "ft": {
+        "m": 4,
+        "v": 7
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 44,
+        "v": 56
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 7
+      }
+    }
+  },
+  {
+    "id": "pfccVVaL",
+    "mandante": "Bahia",
+    "visitante": "Vitoria",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 4,
+        "v": 0
+      },
+      "ft": {
+        "m": 7,
+        "v": 3
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 63,
+        "v": 37
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 2
+      }
+    }
+  },
+  {
+    "id": "jyEfBA8k",
+    "mandante": "Atletico-MG",
+    "visitante": "Internacional",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 2,
+        "v": 4
+      },
+      "ft": {
+        "m": 2,
+        "v": 14
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 35,
+        "v": 65
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 12
+      }
+    }
+  },
+  {
+    "id": "WjXNGWpS",
+    "mandante": "Mirassol",
+    "visitante": "Santos",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 6
+      },
+      "ft": {
+        "m": 6,
+        "v": 7
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 54,
+        "v": 46
+      },
+      "finalizacoes": {
+        "m": 10,
+        "v": 5
+      }
+    }
+  },
+  {
+    "id": "t4kl8pdt",
+    "mandante": "Santos",
+    "visitante": "Vasco",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 5,
+        "v": 1
+      },
+      "ft": {
+        "m": 5,
+        "v": 2
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 40,
+        "v": 60
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 5
+      }
+    }
+  },
+  {
+    "id": "zoPwpY9j",
+    "mandante": "Gremio",
+    "visitante": "Atletico-MG",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 5,
+        "v": 0
+      },
+      "ft": {
+        "m": 6,
+        "v": 3
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 63,
+        "v": 37
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 6
+      }
+    }
+  },
+  {
+    "id": "065k6OQh",
+    "mandante": "Palmeiras",
+    "visitante": "Fluminense",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 7
+      },
+      "ft": {
+        "m": 5,
+        "v": 11
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 35,
+        "v": 65
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 8
+      }
+    }
+  },
+  {
+    "id": "Uoc62tQH",
+    "mandante": "Cruzeiro",
+    "visitante": "Corinthians",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 1
+      },
+      "ft": {
+        "m": 5,
+        "v": 3
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 3
+      }
+    }
+  },
+  {
+    "id": "zyMP7y2c",
+    "mandante": "Coritiba",
+    "visitante": "Sao Paulo",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 2
+      },
+      "ft": {
+        "m": 3,
+        "v": 7
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 42,
+        "v": 58
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 6
+      }
+    }
+  },
+  {
+    "id": "8W8c42e5",
+    "mandante": "Bragantino",
+    "visitante": "Athletico-PR",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 2,
+        "v": 2
+      },
+      "ft": {
+        "m": 2,
+        "v": 7
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 39,
+        "v": 61
+      },
+      "finalizacoes": {
+        "m": 1,
+        "v": 13
+      }
+    }
+  },
+  {
+    "id": "4GDt4g1M",
+    "mandante": "Remo",
+    "visitante": "Internacional",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 2,
+        "v": 8
+      },
+      "ft": {
+        "m": 7,
+        "v": 12
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 41,
+        "v": 59
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 10
+      }
+    }
+  },
+  {
+    "id": "4ts9tvn1",
+    "mandante": "Athletico-PR",
+    "visitante": "Corinthians",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 5,
+        "v": 0
+      },
+      "ft": {
+        "m": 8,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 56,
+        "v": 44
+      },
+      "finalizacoes": {
+        "m": 12,
+        "v": 1
+      }
+    }
+  },
+  {
+    "id": "WUwqa7JP",
+    "mandante": "Internacional",
+    "visitante": "Palmeiras",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 3
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 7,
+        "v": 4
+      },
+      "ft": {
+        "m": 16,
+        "v": 4
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 62,
+        "v": 38
+      },
+      "finalizacoes": {
+        "m": 16,
+        "v": 4
+      }
+    }
+  },
+  {
+    "id": "ttBjgHV6",
+    "mandante": "Corinthians",
+    "visitante": "Bragantino",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 2
+      },
+      "ft": {
+        "m": 3,
+        "v": 3
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 60,
+        "v": 40
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 2
+      }
+    }
+  },
+  {
+    "id": "SES32L8K",
+    "mandante": "Fluminense",
+    "visitante": "Botafogo RJ",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 3,
+        "v": 0
+      },
+      "ft": {
+        "m": 4,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 5
+      }
+    }
+  },
+  {
+    "id": "0pUEgosm",
+    "mandante": "Athletico-PR",
+    "visitante": "Santos",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 3,
+        "v": 0
+      },
+      "ft": {
+        "m": 8,
+        "v": 2
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 56,
+        "v": 44
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 4
+      }
+    }
+  },
+  {
+    "id": "pEHsew1f",
+    "mandante": "Sao Paulo",
+    "visitante": "Gremio",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 2
+      },
+      "ft": {
+        "m": 3,
+        "v": 3
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 57,
+        "v": 43
+      },
+      "finalizacoes": {
+        "m": 14,
+        "v": 3
+      }
+    }
+  },
+  {
+    "id": "Cn4zcaWs",
+    "mandante": "Vasco",
+    "visitante": "Bahia",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 5,
+        "v": 4
+      },
+      "ft": {
+        "m": 8,
+        "v": 4
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 62,
+        "v": 38
+      },
+      "finalizacoes": {
+        "m": 12,
+        "v": 2
+      }
+    }
+  },
+  {
+    "id": "bkuLfER1",
+    "mandante": "Atletico-MG",
+    "visitante": "Remo",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 3,
+        "v": 3
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 3,
+        "v": 1
+      },
+      "ft": {
+        "m": 6,
+        "v": 5
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 59,
+        "v": 41
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 10
+      }
+    }
+  },
+  {
+    "id": "UPLVk3tC",
+    "mandante": "Chapecoense-SC",
+    "visitante": "Coritiba",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 3,
+        "v": 3
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 3
+      },
+      "ft": {
+        "m": 6,
+        "v": 5
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 51,
+        "v": 49
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 8
+      }
+    }
+  },
+  {
+    "id": "Eg9bie0J",
+    "mandante": "Mirassol",
+    "visitante": "Cruzeiro",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 5,
+        "v": 0
+      },
+      "ft": {
+        "m": 9,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 56,
+        "v": 44
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 3
+      }
+    }
+  },
+  {
+    "id": "MaINiPBa",
+    "mandante": "Vitoria",
+    "visitante": "Flamengo RJ",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 3,
+        "v": 0
+      },
+      "ft": {
+        "m": 7,
+        "v": 2
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 44,
+        "v": 56
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 4
+      }
+    }
+  },
+  {
+    "id": "EB2UmMgR",
+    "mandante": "Cruzeiro",
+    "visitante": "Coritiba",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 2,
+        "v": 1
+      },
+      "ft": {
+        "m": 12,
+        "v": 2
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 68,
+        "v": 32
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 5
+      }
+    }
+  },
+  {
+    "id": "bN2QVMXr",
+    "mandante": "Vasco",
+    "visitante": "Chapecoense-SC",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 10,
+        "v": 0
+      },
+      "ft": {
+        "m": 14,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 67,
+        "v": 33
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 6
+      }
+    }
+  },
+  {
+    "id": "08zIvIGD",
+    "mandante": "Bahia",
+    "visitante": "Fluminense",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 4,
+        "v": 4
+      },
+      "ft": {
+        "m": 6,
+        "v": 4
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 42,
+        "v": 58
+      },
+      "finalizacoes": {
+        "m": 10,
+        "v": 7
+      }
+    }
+  },
+  {
+    "id": "WSr1r0Hl",
+    "mandante": "Gremio",
+    "visitante": "Botafogo RJ",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 5,
+        "v": 3
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 3,
+        "v": 0
+      },
+      "ft": {
+        "m": 4,
+        "v": 2
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 43,
+        "v": 57
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 4
+      }
+    }
+  },
+  {
+    "id": "QkMZRvX7",
+    "mandante": "Palmeiras",
+    "visitante": "Vitoria",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 5,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 4,
+        "v": 2
+      },
+      "ft": {
+        "m": 6,
+        "v": 4
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 60,
+        "v": 40
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 5
+      }
+    }
+  },
+  {
+    "id": "2NoCdzck",
+    "mandante": "Remo",
+    "visitante": "Mirassol",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 2,
+        "v": 2
+      },
+      "ft": {
+        "m": 4,
+        "v": 4
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 37,
+        "v": 63
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 6
+      }
+    }
+  },
+  {
+    "id": "IPIRT02e",
+    "mandante": "Santos",
+    "visitante": "Sao Paulo",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 2,
+        "v": 3
+      },
+      "ft": {
+        "m": 7,
+        "v": 4
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 5
+      }
+    }
+  },
+  {
+    "id": "6oaMkrPE",
+    "mandante": "Bragantino",
+    "visitante": "Atletico-MG",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 3,
+        "v": 1
+      },
+      "ft": {
+        "m": 6,
+        "v": 12
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 10
+      }
+    }
+  },
+  {
+    "id": "SztglVmA",
+    "mandante": "Flamengo RJ",
+    "visitante": "Internacional",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 3,
+        "v": 1
+      },
+      "ft": {
+        "m": 4,
+        "v": 3
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 65,
+        "v": 35
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 4
+      }
+    }
+  },
+  {
+    "id": "CpixNhkB",
+    "mandante": "Botafogo RJ",
+    "visitante": "Cruzeiro",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 4,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 2,
+        "v": 3
+      },
+      "ft": {
+        "m": 3,
+        "v": 7
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 46,
+        "v": 54
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 8
+      }
+    }
+  },
+  {
+    "id": "bs93wEZi",
+    "mandante": "Mirassol",
+    "visitante": "Vasco",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 3,
+        "v": 2
+      },
+      "ft": {
+        "m": 5,
+        "v": 5
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 47,
+        "v": 53
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 7
+      }
+    }
+  },
+  {
+    "id": "YauoLWJN",
+    "mandante": "Sao Paulo",
+    "visitante": "Flamengo RJ",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 5
+      },
+      "ft": {
+        "m": 2,
+        "v": 6
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 41,
+        "v": 59
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 6
+      }
+    }
+  },
+  {
+    "id": "W8npjiJc",
+    "mandante": "Chapecoense-SC",
+    "visitante": "Santos",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 4,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 12
+      },
+      "ft": {
+        "m": 1,
+        "v": 14
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 34,
+        "v": 66
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 14
+      }
+    }
+  },
+  {
+    "id": "rZQGFAso",
+    "mandante": "Corinthians",
+    "visitante": "Bahia",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 4
+      },
+      "ft": {
+        "m": 4,
+        "v": 6
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 59,
+        "v": 41
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 3
+      }
+    }
+  },
+  {
+    "id": "4KmUOEKb",
+    "mandante": "Fluminense",
+    "visitante": "Gremio",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 3
+      },
+      "ft": {
+        "m": 3,
+        "v": 6
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 51,
+        "v": 49
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 8
+      }
+    }
+  },
+  {
+    "id": "Wf7Byh44",
+    "mandante": "Atletico-MG",
+    "visitante": "Palmeiras",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 2
+      },
+      "ft": {
+        "m": 5,
+        "v": 7
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 52,
+        "v": 48
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 8
+      }
+    }
+  },
+  {
+    "id": "KUIRX93T",
+    "mandante": "Coritiba",
+    "visitante": "Bragantino",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 2
+      },
+      "ft": {
+        "m": 1,
+        "v": 5
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 29,
+        "v": 71
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 21
+      }
+    }
+  },
+  {
+    "id": "SM0KZVYG",
+    "mandante": "Internacional",
+    "visitante": "Athletico-PR",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 5,
+        "v": 1
+      },
+      "ft": {
+        "m": 13,
+        "v": 1
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 71,
+        "v": 29
+      },
+      "finalizacoes": {
+        "m": 10,
+        "v": 3
+      }
+    }
+  },
+  {
+    "id": "42fbSmRj",
+    "mandante": "Vitoria",
+    "visitante": "Remo",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 1,
+        "v": 1
+      },
+      "ft": {
+        "m": 4,
+        "v": 1
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 42,
+        "v": 58
+      },
+      "finalizacoes": {
+        "m": 12,
+        "v": 9
+      }
+    }
+  }
+]

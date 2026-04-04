@@ -1,0 +1,46 @@
+[
+  {
+    "id": "",
+    "mandante": "Minnesota United",
+    "visitante": "Seattle Sounders",
+    "cantos": {
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 0,
+        "v": 0
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "_rawCategories": []
+  },
+  {
+    "id": "",
+    "mandante": "FC Cincinnati",
+    "visitante": "CF Montreal",
+    "cantos": {
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 0,
+        "v": 0
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "_rawCategories": []
+  }
+]
