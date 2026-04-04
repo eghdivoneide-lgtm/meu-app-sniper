@@ -1,14 +1,18 @@
+import os
 import telebot
 from google import genai
 from google.genai import types
+from dotenv import load_dotenv
 
-# 1. Suas Chaves Secretas (Não esqueça de manter as suas aqui!)
-CHAVE_TELEGRAM = "REDACTED"
-CHAVE_GEMINI = "REDACTED"
+load_dotenv()
+
+# 1. Chaves via variáveis de ambiente (.env)
+CHAVE_TELEGRAM = os.getenv("CHAVE_TELEGRAM_CONCURSOS")
+CHAVE_GEMINI = os.getenv("CHAVE_GEMINI_CONCURSOS")
 
 # 2. Ligando os motores
-bot = telebot.TeleBot("REDACTED")
-cliente_gemini = genai.Client("REDACTED")
+bot = telebot.TeleBot(CHAVE_TELEGRAM)
+cliente_gemini = genai.Client(api_key=CHAVE_GEMINI)
 
 # 3. O "Fichário" de memórias
 memoria_dos_alunos = {}

@@ -22,7 +22,12 @@ suporte_eds_log.txt
 # Credenciais e chaves
 *.json.key
 chave-vertex.json
+**/chave-vertex.json
+vertex-service-account.json
+**/vertex-service-account.json
 serviceaccount*.json
+*service-account*.json
+config-chave.js
 
 # Node
 node_modules/
