@@ -18,16 +18,38 @@ __pycache__/
 *.log
 analista_argentino_log.txt
 suporte_eds_log.txt
+base_historica_cache.txt
 
 # Credenciais e chaves
 *.json.key
 chave-vertex.json
-**/chave-vertex.json
-vertex-service-account.json
-**/vertex-service-account.json
 serviceaccount*.json
-*service-account*.json
-config-chave.js
 
-# Node
+# Node — dependencias (nao pertencem ao repo)
 node_modules/
+**/node_modules/
+
+# Fantasma — backups e outputs temporarios (gerados em runtime)
+EDS-Analise-ODDS/projeto-fantasma/backups/
+EDS-Analise-ODDS/projeto-fantasma/output/
+EDS-Analise-ODDS/projeto-fantasma/relatorios/
+EDS-Analise-ODDS/projeto-fantasma/*.json
+EDS-Analise-ODDS/projeto-fantasma/deprecated/
+
+# YAAKEN — dados de rodada (gerados pelo monster_yaaken em tempo real)
+EDS-Analise-ODDS/EDS-ODDS-TEACHER/yaaken/yaaken_BR_*.json
+EDS-Analise-ODDS/EDS-ODDS-TEACHER/yaaken/yaaken_MLS_*.json
+EDS-Analise-ODDS/EDS-ODDS-TEACHER/yaaken/yaaken_ARG_*.json
+EDS-Analise-ODDS/EDS-ODDS-TEACHER/yaaken/yaaken_USL_*.json
+EDS-Analise-ODDS/EDS-ODDS-TEACHER/yaaken/yaaken_BUN_*.json
+
+# JSONs de dados brutos pesados (gerados pelos scrapers)
+pos_*.json
+*_rodada_*.json
+sniper_desempenho.json
+
+# Docs e ZIPs internos — desnecessarios no repo
+*.zip
+Revisao_*/
+PROMPT_*.md
+TESTE_*.md

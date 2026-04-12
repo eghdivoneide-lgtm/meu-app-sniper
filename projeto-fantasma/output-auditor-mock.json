@@ -1,0 +1,73 @@
+[
+  {
+    "url": "https://www.flashscore.com/match/jLJhQjQN/#/match-summary",
+    "data_brasileira": "05/04/2026",
+    "mandante": "Toronto FC",
+    "visitante": "Toronto FC",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "3 - 2"
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "Desconhecida"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 54,
+        "v": 46
+      },
+      "finalizacoes": {
+        "m": 17,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 4
+      },
+      "cantos": {
+        "m": 7,
+        "v": 4
+      },
+      "passes": {
+        "m": "(410/475)",
+        "v": "85%"
+      },
+      "cartoes_vermelhos": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 51,
+        "v": 49
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 2
+      },
+      "cantos": {
+        "m": 0,
+        "v": 2
+      },
+      "passes": {
+        "m": "(206/244)",
+        "v": "87%"
+      },
+      "cartoes_vermelhos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "mercado": {
+      "oddM": "1.96",
+      "oddEmpate": "3.75",
+      "oddV": "3.60"
+    }
+  }
+]

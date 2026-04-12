@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sniper Argentina — Análise Científica da Liga Profesional 2026</title>
+<meta name="description" content="Previsões calibradas com backtest progressivo, 5 níveis de confiança e transparência total. O app que te mostra quando NÃO apostar.">
+<meta name="theme-color" content="#0a0f1e">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0f1e;--card:#0f172a;--border:#1e293b;--text:#e2e8f0;--muted:#64748b;--accent:#0ea5e9;--green:#4ade80;--yellow:#fbbf24;--red:#f87171;--cyan:#22d3ee}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden}
+a{color:var(--accent);text-decoration:none}
+
+/* NAV */
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(10,15,30,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:14px 0}
+.nav-inner{max-width:1100px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between}
+.nav-logo{font-size:18px;font-weight:900;color:#fff}
+.nav-logo span{color:var(--accent)}
+.nav-cta{background:var(--accent);color:#fff;font-weight:700;font-size:13px;padding:8px 20px;border-radius:8px;border:none;cursor:pointer;transition:transform .2s}
+.nav-cta:hover{transform:scale(1.05)}
+
+/* HERO */
+.hero{padding:100px 24px 40px;text-align:center;max-width:800px;margin:0 auto;position:relative}
+.hero::before{content:'';position:absolute;top:60px;left:50%;transform:translateX(-50%);width:400px;height:400px;background:radial-gradient(circle,rgba(14,165,233,.08) 0%,transparent 70%);pointer-events:none;z-index:-1}
+.hero-badge{display:inline-block;background:rgba(14,165,233,.12);border:1px solid rgba(14,165,233,.25);color:var(--cyan);font-size:11px;font-weight:700;padding:5px 14px;border-radius:99px;margin-bottom:20px;letter-spacing:.03em}
+.hero h1{font-size:clamp(32px,5vw,52px);font-weight:900;line-height:1.1;margin-bottom:20px;color:#fff}
+.hero h1 em{font-style:normal;background:linear-gradient(135deg,var(--accent),var(--cyan));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero p{font-size:17px;color:var(--muted);max-width:580px;margin:0 auto 32px;line-height:1.7}
+.hero-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn-primary{background:linear-gradient(135deg,#0284c7,#0ea5e9);color:#fff;font-size:15px;font-weight:700;padding:14px 32px;border-radius:10px;border:none;cursor:pointer;transition:all .2s;box-shadow:0 4px 20px rgba(14,165,233,.3)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(14,165,233,.4)}
+.btn-secondary{background:transparent;color:var(--text);font-size:15px;font-weight:600;padding:14px 32px;border-radius:10px;border:1px solid var(--border);cursor:pointer;transition:all .2s}
+.btn-secondary:hover{border-color:var(--accent);color:var(--accent)}
+
+/* STATS BAR */
+.stats-bar{display:flex;justify-content:center;gap:40px;padding:40px 24px;flex-wrap:wrap}
+.stat{text-align:center}
+.stat-val{font-size:28px;font-weight:900;color:var(--accent)}
+.stat-label{font-size:11px;color:var(--muted);margin-top:2px;letter-spacing:.04em}
+
+/* SECTION */
+.section{padding:50px 24px;max-width:1100px;margin:0 auto}
+.section-title{font-size:clamp(24px,3.5vw,36px);font-weight:900;text-align:center;margin-bottom:12px;color:#fff}
+.section-sub{text-align:center;color:var(--muted);font-size:15px;max-width:600px;margin:0 auto 48px}
+
+/* PROBLEM / SOLUTION */
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:60px}
+@media(max-width:700px){.compare{grid-template-columns:1fr}}
+.compare-card{background:var(--card);border-radius:16px;padding:32px;border:1px solid var(--border)}
+.compare-card.bad{border-color:rgba(248,113,113,.2)}
+.compare-card.good{border-color:rgba(74,222,128,.2)}
+.compare-card h3{font-size:16px;font-weight:800;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+.compare-card.bad h3{color:var(--red)}
+.compare-card.good h3{color:var(--green)}
+.compare-item{display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:1px solid var(--border);font-size:14px;color:var(--muted)}
+.compare-item:last-child{border:none}
+.compare-icon{font-size:16px;flex-shrink:0;margin-top:1px}
+
+/* FEATURES */
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media(max-width:800px){.features{grid-template-columns:1fr}}
+.feature{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:28px;transition:border-color .3s}
+.feature:hover{border-color:var(--accent)}
+.feature-icon{font-size:28px;margin-bottom:14px}
+.feature h4{font-size:15px;font-weight:800;color:#fff;margin-bottom:8px}
+.feature p{font-size:13px;color:var(--muted);line-height:1.6}
+
+/* LEVELS */
+.levels{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:40px}
+.level{padding:12px 20px;border-radius:10px;text-align:center;min-width:120px}
+.level-name{font-size:12px;font-weight:800;letter-spacing:.05em}
+.level-range{font-size:10px;margin-top:4px;opacity:.7}
+
+/* TRANSPARENCY */
+.transparency{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:36px;text-align:center;max-width:700px;margin:0 auto}
+.transparency h3{font-size:20px;font-weight:900;color:#fff;margin-bottom:12px}
+.transparency p{font-size:14px;color:var(--muted);line-height:1.7}
+.transparency-list{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-top:20px}
+.transparency-item{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--green);font-weight:600}
+
+/* CTA */
+.cta-section{text-align:center;padding:50px 24px;position:relative}
+.cta-section::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:600px;height:300px;background:radial-gradient(ellipse,rgba(14,165,233,.06) 0%,transparent 70%);pointer-events:none}
+.cta-box{background:var(--card);border:1px solid var(--accent);border-radius:20px;padding:48px 32px;max-width:600px;margin:0 auto}
+.cta-box h2{font-size:28px;font-weight:900;color:#fff;margin-bottom:12px}
+.cta-box p{color:var(--muted);font-size:14px;margin-bottom:28px}
+
+/* FOOTER */
+.footer{text-align:center;padding:40px 24px;border-top:1px solid var(--border);font-size:11px;color:var(--muted)}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="nav-logo">🎯 Sniper<span>Argentina</span></div>
+    <a href="app.html"><button class="nav-cta">Abrir App Grátis</button></a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-badge">🧪 Calibração Científica • Backtest Progressivo</div>
+  <h1>O app que te mostra <em>quando NÃO apostar</em></h1>
+  <p>Análise da Liga Profesional Argentina com modelo Poisson calibrado, 5 níveis de confiança e transparência total sobre erros. Não prometemos milagres — entregamos dados.</p>
+  <div class="hero-actions">
+    <a href="app.html"><button class="btn-primary">Acessar Grátis →</button></a>
+    <a href="#como-funciona"><button class="btn-secondary">Como funciona</button></a>
+  </div>
+</div>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+  <div class="stat"><div class="stat-val">28</div><div class="stat-label">TIMES ANALISADOS</div></div>
+  <div class="stat"><div class="stat-val">126+</div><div class="stat-label">JOGOS NA BASE</div></div>
+  <div class="stat"><div class="stat-val">5</div><div class="stat-label">NÍVEIS DE CONFIANÇA</div></div>
+  <div class="stat"><div class="stat-val">100%</div><div class="stat-label">TRANSPARÊNCIA</div></div>
+</div>
+
+<!-- PROBLEMA vs SOLUÇÃO -->
+<div class="section">
+  <h2 class="section-title">Por que apps de palpites falham</h2>
+  <p class="section-sub">A maioria promete acertos impossíveis. Nós escolhemos outro caminho.</p>
+  <div class="compare">
+    <div class="compare-card bad">
+      <h3><span class="compare-icon">❌</span> Apps tradicionais</h3>
+      <div class="compare-item"><span class="compare-icon">🎭</span> Mostram "85% de chance" sem explicar de onde vem</div>
+      <div class="compare-item"><span class="compare-icon">🙈</span> Escondem os erros e só postam acertos</div>
+      <div class="compare-item"><span class="compare-icon">📊</span> Sem backtest — nunca testam o próprio modelo</div>
+      <div class="compare-item"><span class="compare-icon">🎰</span> Tratam tudo como "aposta certa"</div>
+    </div>
+    <div class="compare-card good">
+      <h3><span class="compare-icon">✅</span> Sniper Argentina</h3>
+      <div class="compare-item"><span class="compare-icon">🧪</span> Modelo Poisson com calibração conservadora</div>
+      <div class="compare-item"><span class="compare-icon">📋</span> Backtest progressivo — testa com dados passados</div>
+      <div class="compare-item"><span class="compare-icon">⚠️</span> Alerta quando o modelo está inseguro</div>
+      <div class="compare-item"><span class="compare-icon">🎯</span> 5 níveis: CERTEZA → RISCO (sem maquiagem)</div>
+    </div>
+  </div>
+</div>
+
+<!-- FEATURES -->
+<div class="section" id="como-funciona">
+  <h2 class="section-title">Análise de verdade, não palpite</h2>
+  <p class="section-sub">Cada previsão passa por 3 camadas de validação antes de chegar a você.</p>
+  <div class="features">
+    <div class="feature">
+      <div class="feature-icon">🎯</div>
+      <h4>3 Tiros por Jogo</h4>
+      <p>Resultado (1X2), Asian Over/Under 2 e BTTS — os 3 mercados mais valiosos, com probabilidade exata e nível de confiança.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">🧪</div>
+      <h4>Backtest Progressivo</h4>
+      <p>Testamos o modelo nos jogos passados sem vazamento de dados. Treina com R1..Rn-1, testa em Rn. Resultado real, não inflado.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">📊</div>
+      <h4>Calibração por Nível</h4>
+      <p>Mostramos a taxa de acerto real de cada nível. Se "ALTA" acerta 60%+, o modelo está saudável. Se não, você sabe.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">⚠️</div>
+      <h4>Alerta Overconfidence</h4>
+      <p>Quando o modelo bruto marca 77% e a calibração comprime para 69%, mostramos o aviso. Transparência total.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">🤖</div>
+      <h4>Chat com IA Opus 4.6</h4>
+      <p>Converse com o Sniper sobre qualquer jogo. Ele usa os dados do modelo, conhece a tabela e sugere apostas com contexto.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">📈</div>
+      <h4>Atualização Contínua</h4>
+      <p>A cada rodada incorporada, o modelo se recalibra. Força de ataque, defesa, momentum e Sniper Score evoluem juntos.</p>
+    </div>
+  </div>
+</div>
+
+<!-- 5 NÍVEIS -->
+<div class="section">
+  <h2 class="section-title">5 Níveis de Confiança</h2>
+  <p class="section-sub">Nem toda previsão vale a mesma coisa. O Sniper te diz exatamente onde está cada uma.</p>
+  <div class="levels">
+    <div class="level" style="background:#0c4a6e;border:1px solid #22d3ee"><div class="level-name" style="color:#22d3ee">CERTEZA</div><div class="level-range" style="color:#67e8f9">≥70%</div></div>
+    <div class="level" style="background:#14532d;border:1px solid #4ade80"><div class="level-name" style="color:#4ade80">ALTA</div><div class="level-range" style="color:#86efac">≥60%</div></div>
+    <div class="level" style="background:#713f12;border:1px solid #fbbf24"><div class="level-name" style="color:#fbbf24">MÉDIA</div><div class="level-range" style="color:#fde68a">≥50%</div></div>
+    <div class="level" style="background:#7c2d12;border:1px solid #fb923c"><div class="level-name" style="color:#fb923c">BAIXA</div><div class="level-range" style="color:#fdba74">≥42%</div></div>
+    <div class="level" style="background:#7f1d1d;border:1px solid #f87171"><div class="level-name" style="color:#f87171">RISCO</div><div class="level-range" style="color:#fca5a5">&lt;42%</div></div>
+  </div>
+  <div class="transparency">
+    <h3>Transparência como diferencial</h3>
+    <p>Não escondemos nada. Nosso backtest mostra a taxa de acerto real por nível, a aba de calibração está aberta para todos e todo alerta de overconfidence aparece no card do jogo.</p>
+    <div class="transparency-list">
+      <div class="transparency-item">✓ Backtest público</div>
+      <div class="transparency-item">✓ Zero data leakage</div>
+      <div class="transparency-item">✓ Erros documentados</div>
+      <div class="transparency-item">✓ Código auditável</div>
+    </div>
+  </div>
+</div>
+
+<!-- CTA FINAL -->
+<div class="cta-section">
+  <div class="cta-box">
+    <h2>Comece a analisar agora</h2>
+    <p>Acesso gratuito a todas as features. Sem cadastro, sem cartão, sem enrolação.</p>
+    <a href="app.html"><button class="btn-primary" style="font-size:17px;padding:16px 40px">Abrir o Sniper Argentina →</button></a>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  Sniper Argentina v5.0 — Análise científica da Liga Profesional Argentina 2026<br>
+  Modelo Poisson calibrado com FormaMomentum + H2H • Powered by Claude Opus 4.6<br><br>
+  <span style="color:#475569">⚠️ Disclaimer: Este app é uma ferramenta de análise estatística. Não garantimos resultados. Aposte com responsabilidade.</span>
+</div>
+
+</body>
+</html>

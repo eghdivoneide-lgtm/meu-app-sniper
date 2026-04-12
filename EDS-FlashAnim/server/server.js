@@ -206,7 +206,7 @@ app.post('/api/generate-video', async (req, res) => {
 });
 
 // Qualquer outra rota não API, serve o React (SPA)
-app.get('*', (req, res) => {
+app.get('/*splat', (req, res) => {
   res.sendFile(path.join(__dirname, '../dist/index.html'));
 });
 

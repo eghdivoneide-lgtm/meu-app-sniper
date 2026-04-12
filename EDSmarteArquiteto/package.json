@@ -5,14 +5,18 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "server": "node server.mjs",
+    "dev:all": "concurrently \"node server.mjs\" \"vite\" --names \"API,APP\" --prefix-colors \"cyan,magenta\"",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "concurrently": "^9.2.1",
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
+    "google-auth-library": "^9.15.1",
     "lucide-react": "^1.6.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",

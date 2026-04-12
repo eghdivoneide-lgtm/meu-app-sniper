@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -6,12 +6,12 @@
     <meta name="theme-color" content="#11241b">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Monitor WEJ Educacao Pro">
-    <link rel="manifest" href="manifest-wej.webmanifest">
-    <link rel="icon" href="icons/wej/icon-wej-192.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="icons/wej/icon-wej-512.svg">
+    <meta name="apple-mobile-web-app-title" content="Monitor Concursos EDS">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icons/eds-symbols/eds-brand-app-icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icons/eds-symbols/eds-brand-app-icon.svg">
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <title>Monitor Virtual WEJ Educacao Pro - EDS Solucoes Inteligentes</title>
+    <title>Monitor Concursos EDS - EDS Solucoes Inteligentes</title>
     <style>
         :root {
             --eds-green-900: #081a16;
@@ -526,16 +526,16 @@
     <div class="login-container" id="login-section">
         <img class="login-logo" src="icons/eds-symbols/eds-brand-horizontal.svg" alt="EDS Solucoes Inteligentes">
         <div class="login-brand">EDS Solucoes Inteligentes</div>
-        <div class="wej-pill">WEJ Consultoria Educacional • Concursos Municipais</div>
-        <div style="color:#8ddab4;font-weight:700;letter-spacing:0.24em;text-transform:uppercase;font-size:13px;">Co-brand WEJ + EDS</div>
+        <div class="wej-pill">Monitor Concursos EDS</div>
+        <div style="color:#8ddab4;font-weight:700;letter-spacing:0.24em;text-transform:uppercase;font-size:13px;">Preparatório de Excelência</div>
         <div class="login-section-title">⚙ CONFIGURACAO</div>
         <h2>Chave de Acesso</h2>
-        <p style="font-size:1.08em; line-height:1.6; margin:0 0 16px;">Bem-vindo ao Monitor Virtual WEJ Educacao Pro, desenvolvido pela EDS Solucoes Inteligentes.<br>Insira sua chave Google Gemini para iniciar com apoio pedagogico focado em concursos publicos municipais.<br>Seus dados ficam apenas neste dispositivo.</p>
+        <p style="font-size:1.08em; line-height:1.6; margin:0 0 16px;">Bem-vindo ao Monitor Concursos EDS, desenvolvido pela EDS Solucoes Inteligentes.<br>Insira sua chave Google Gemini para iniciar com apoio pedagogico focado em concursos publicos municipais.<br>Seus dados ficam apenas neste dispositivo.</p>
         <div class="key-row">
             <input type="password" id="api-key-input" placeholder="Cole sua chave Gemini aqui..." autocomplete="off">
             <button type="button" class="key-toggle-btn" onclick="toggleApiKeyVisibility()">👁</button>
         </div>
-        <button onclick="login()">Entrar no Monitor WEJ Educacao Pro 🚀</button>
+        <button onclick="login()">Entrar no Monitor Concursos EDS 🚀</button>
         <div class="info">
             <b>Como obter sua chave:</b><br>
             1. Acesse <a href="https://console.cloud.google.com/apis/credentials" target="_blank">console.cloud.google.com</a><br>
@@ -549,7 +549,7 @@
             <div class="header-title">
                 <img class="header-logo" src="icons/eds-symbols/eds-brand-app-icon.svg" alt="EDS">
                 <div class="header-title-text">
-                    <strong>Monitor Virtual WEJ Educacional</strong>
+                    <strong>Monitor Concursos EDS</strong>
                     <span>Powered by EDS Solucoes Inteligentes</span>
                 </div>
             </div>
@@ -582,7 +582,7 @@
                 </div>
                 <div id="chat-container">
                     <div class="message bot-message">
-                        👋 Ola! Eu sou o <b>Monitor Virtual WEJ Educacao Pro</b>, desenvolvido pela EDS Solucoes Inteligentes.<br>
+                        👋 Ola! Eu sou o <b>Monitor Concursos EDS</b>, desenvolvido pela EDS Solucoes Inteligentes.<br>
                         Posso apoiar seus estudos para concursos publicos municipais com didatica, plano de estudo e simulados orientados.<br>
                         <b>Antes de comecarmos, me diga como voce quer ser chamado(a), sua idade e seu nivel/objetivo.</b><br>
                         Assim eu adapto a explicacao para o seu perfil de estudo.
@@ -632,8 +632,8 @@
             <section id="panel-settings" class="app-panel settings-panel" aria-label="Painel de configuracoes">
                 <div class="settings-card">
                     <h4>Stack do produto</h4>
-                    <p class="muted">Monitor Virtual WEJ Educacao Pro com co-branding EDS. Foco em ensino para concursos publicos municipais.</p>
-                    <div class="info-chip">EDS + WEJ co-brand</div>
+                    <p class="muted">Monitor Concursos EDS. Foco em ensino para concursos publicos municipais.</p>
+                    <div class="info-chip">Plataforma Exclusiva</div>
                 </div>
                 <div class="settings-card">
                     <h4>Acoes rapidas</h4>
@@ -669,7 +669,7 @@
             window.API_KEY = key;
             markSessionActivity();
             switchPanel('chat');
-            showToast('Ambiente WEJ Educacao Pro iniciado.');
+            showToast('Ambiente Monitor Concursos EDS iniciado.');
         }
         window.onload = function() {
             const savedKey = localStorage.getItem('gemini_api_key');
@@ -691,7 +691,7 @@
         const MODEL_STORAGE_KEY = 'wej_monitor_model_name';
         const RESPONSE_TYPE_KEY = 'wej_response_type_preference';
         const SYSTEM_PROMPT_BASE = [
-            'Voce e o Monitor Virtual WEJ Educacao Pro, desenvolvido pela EDS Solucoes Inteligentes para consultoria educacional.',
+            'Voce e o Monitor Concursos EDS, desenvolvido pela EDS Solucoes Inteligentes para consultoria educacional.',
             'Seu foco principal e preparar candidatos para concursos publicos municipais (prefeituras e camaras).',
             'Ensine de forma didatica, passo a passo, sem pular fundamentos e sem apenas entregar resposta pronta.',
             '',
@@ -1015,7 +1015,7 @@
             }
 
             const dateTag = new Date().toISOString().slice(0, 10);
-            const title = `Historico do Monitor WEJ Educacao Pro (${dateTag})`;
+            const title = `Historico do Monitor Concursos EDS (${dateTag})`;
             const transcript = items
                 .map((item) => `${item.role === 'user' ? 'Candidato' : 'Monitor'}: ${item.text}`)
                 .join('\n\n');

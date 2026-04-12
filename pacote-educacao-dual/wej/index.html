@@ -162,9 +162,17 @@
         .profile-summary { margin: 10px 20px 0; background: #edf7f3; color: #123238; border: 1px solid #b5ddd2; border-radius: 12px; padding: 10px 12px; font-size: 14px; display: none; }
         .profile-summary.visible { display: block; }
         .message { padding: 13px 15px; border-radius: 16px; max-width: 84%; font-size: 0.99rem; line-height: 1.52; letter-spacing: 0.01em; word-break: break-word; }
-        .message .msg-text { white-space: normal; }
-        .message .msg-text + .msg-text { margin-top: 10px; }
-        .diagram-block { margin: 10px 0 2px; padding: 10px 12px; border-radius: 12px; background: rgba(6, 18, 22, 0.55); border: 1px solid rgba(126, 190, 176, 0.38); color: #d9f8f0; font-family: Consolas, 'Courier New', monospace; font-size: 0.92rem; line-height: 1.35; overflow-x: auto; }
+        .message .msg-text { white-space: normal; line-height: 1.6; }
+        .message .msg-text + .msg-text { margin-top: 14px; }
+        .message table { margin: 14px 0; border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+        .message table thead { background: linear-gradient(90deg, rgba(19, 163, 133, 0.22), rgba(15, 119, 99, 0.18)); }
+        .message table th { padding: 11px 10px; text-align: left; font-weight: 700; color: #a8f5e6; border-bottom: 2px solid rgba(19, 163, 133, 0.4); }
+        .message table td { padding: 9px 10px; border-bottom: 1px solid rgba(19, 163, 133, 0.2); }
+        .message table tr:hover { background: rgba(19, 163, 133, 0.08); }
+        .message table tr:last-child td { border-bottom: none; }
+        .diagram-block { margin: 14px 0; padding: 12px 13px; border-radius: 12px; background: rgba(6, 18, 22, 0.55); border: 1px solid rgba(126, 190, 176, 0.38); color: #d9f8f0; font-family: Consolas, 'Courier New', monospace; font-size: 0.92rem; line-height: 1.4; overflow-x: auto; }
+        .msg-text strong { color: #a8f5e6; font-weight: 700; }
+        .msg-text em { color: #c8eee5; font-style: italic; }
         .message-enter { animation: messageIn 220ms ease-out both; }
         @keyframes messageIn {
             from { opacity: 0; transform: translateY(8px); }
@@ -187,6 +195,8 @@
         input[type=text], input[type=number] { flex: 1; padding: 11px 12px; border: 1px solid #cde0dc; border-radius: 12px; font-size: 16px; }
         .model-select { background: rgba(255,255,255,0.08); color: #d6f5ee; border: 1px solid rgba(22,199,154,0.35); border-radius: 12px; padding: 10px 12px; font-size: 14px; min-width: 158px; }
         .model-select option { background: #123238; color: #dffbf4; }
+        .response-type-select { background: rgba(255,255,255,0.08); color: #d6f5ee; border: 1px solid rgba(22,199,154,0.35); border-radius: 12px; padding: 10px 12px; font-size: 14px; min-width: 140px; }
+        .response-type-select option { background: #123238; color: #dffbf4; }
         #user-input { background: rgba(255,255,255,0.07); border-color: rgba(22,199,154,0.35); color: #e0f5f0; }
         #user-input::placeholder { color: rgba(160,220,205,0.5); }
         button { padding: 9px 12px; background-color: #1976d2; color: #fff; border: none; border-radius: 11px; cursor: pointer; font-size: 14px; font-weight: 650; line-height: 1.2; }
@@ -211,6 +221,7 @@
             .action-toolbar { gap: 6px; }
             .action-toolbar button { font-size: 1.1rem; width: 42px; height: 42px; padding: 0; }
             .model-select { min-width: 126px; font-size: 13px; }
+            .response-type-select { min-width: 126px; font-size: 13px; }
             .send-btn { min-width: 68px; padding: 10px 10px; }
         }
     </style>
@@ -399,14 +410,28 @@
             border: 1px solid rgba(201, 168, 76, 0.25);
             background: linear-gradient(180deg, #17362b, #132b22);
         }
+        .bot-message,
+        .bot-message .msg-text,
+        .bot-message,
+        .bot-message .msg-text,
+        .bot-message table,
+        .bot-message th,
+        .bot-message td {
+            font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+        }
         .user-message {
             background: linear-gradient(135deg, #1a8a64, #176147);
         }
         .model-select,
+        .response-type-select,
         #user-input,
         .profile-box input {
             border-color: #2b5540;
             background: #10231b;
+            color: #eef6ff;
+        }
+        .profile-box input::placeholder {
+            color: rgba(210, 228, 246, 0.72);
         }
         .send-btn {
             background: linear-gradient(90deg, var(--pro-gold-1), var(--pro-gold-2));
@@ -578,6 +603,11 @@
                             <option value="gemini-2.5-flash">Gemini 2.5 Flash</option>
                             <option value="gemini-2.5-pro">Gemini 2.5 Pro</option>
                         </select>
+                        <select id="response-type-select" class="response-type-select" title="Tipo de resposta">
+                            <option value="balanced">Resposta Balanceada</option>
+                            <option value="direct">Direto ao Ponto</option>
+                            <option value="expanded">Expandido com Detalhes</option>
+                        </select>
                         <input type="text" id="user-input" placeholder="Descreva sua duvida de concurso municipal...">
                         <button id="send-btn" class="send-btn" onclick="sendMessage()">Enviar</button>
                     </div>
@@ -659,10 +689,18 @@
         // CHAT
         const DEFAULT_MODEL_NAME = 'gemini-2.5-flash';
         const MODEL_STORAGE_KEY = 'wej_monitor_model_name';
+        const RESPONSE_TYPE_KEY = 'wej_response_type_preference';
         const SYSTEM_PROMPT_BASE = [
             'Voce e o Monitor Virtual WEJ Educacao Pro, desenvolvido pela EDS Solucoes Inteligentes para consultoria educacional.',
             'Seu foco principal e preparar candidatos para concursos publicos municipais (prefeituras e camaras).',
             'Ensine de forma didatica, passo a passo, sem pular fundamentos e sem apenas entregar resposta pronta.',
+            '',
+            'IMPORTANTE - Formatacao de respostas:',
+            '- Sempre que houver lista de topicos, comparacoes, cronogramas ou planos, prefira TABELAS MARKDOWN.',
+            'Exemplo:',
+            '| Etapa | Acao | Resultado esperado |',
+            '|------|------|--------------------|',
+            '| 1 | Revisar teoria | Base consolidada |',
             '',
             'Ao responder, utilize este formato quando fizer sentido:',
             '1) Explicacao objetiva do tema',
@@ -675,7 +713,7 @@
             '```txt',
             'Conteudo -> Exemplo -> Questao -> Correcao',
             '```',
-            'Mantenha tom acolhedor, motivador, claro e orientado para aprendizagem e aprovacao.'
+            'Mantenha tom acolhedor, motivador, claro e orientado para aprendizagem e aprovacao, com visual executivo e facil de ler.'
         ].join('\n');
         const CHAT_HISTORY_KEY = 'wej_monitor_chat_history_v1';
         const MAX_HISTORY_ITEMS = 80;
@@ -884,6 +922,36 @@
             return selected || localStorage.getItem(MODEL_STORAGE_KEY) || DEFAULT_MODEL_NAME;
         }
 
+        function getResponseType() {
+            const selected = document.getElementById('response-type-select')?.value || '';
+            return selected || localStorage.getItem(RESPONSE_TYPE_KEY) || 'balanced';
+        }
+
+        function getResponseTypeInstruction() {
+            const type = getResponseType();
+            switch (type) {
+                case 'direct':
+                    return '\n⚡ MODO DIRETO AO PONTO: responda de forma curta, objetiva e pratica. Use no maximo 1 tabela pequena ou poucos paragrafos curtos.';
+                case 'expanded':
+                    return '\n📚 MODO EXPANDIDO: responda com mais detalhes, exemplos, explicacao de estrategia e aplicacao. Use tabelas quando ajudarem a visualizar.';
+                case 'balanced':
+                default:
+                    return '\n⚖️ MODO BALANCEADO: responda com clareza e boa profundidade, sem excesso. Priorize leitura facil e estrutura organizada.';
+            }
+        }
+
+        function syncResponseTypeSelector() {
+            const selector = document.getElementById('response-type-select');
+            if (!selector) return;
+            const saved = localStorage.getItem(RESPONSE_TYPE_KEY) || 'balanced';
+            selector.value = saved;
+            selector.addEventListener('change', function () {
+                localStorage.setItem(RESPONSE_TYPE_KEY, this.value);
+                showToast(`Modo de resposta: ${this.options[this.selectedIndex].text}`);
+                markSessionActivity();
+            });
+        }
+
         function syncModelSelector() {
             const selector = document.getElementById('model-select');
             if (!selector) return;
@@ -1080,39 +1148,152 @@
                 .replaceAll("'", '&#39;');
         }
 
-        function renderMessageHtml(text, className) {
-            const raw = String(text || '');
-            const plainToHtml = (value) => `<div class="msg-text">${escapeHtml(value).replaceAll('\n', '<br>')}</div>`;
+        function formatInlineMarkdown(text) {
+            const escaped = escapeHtml(String(text || ''));
+            return escaped
+                .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\*(.+?)\*/g, '<em>$1</em>');
+        }
 
+        function splitTableLikeColumns(line) {
+            const cells = line
+                .split(/\t+|\s{2,}/)
+                .map((cell) => cell.trim())
+                .filter(Boolean);
+            return cells.length >= 2 ? cells : null;
+        }
+
+        function normalizeTableLikeText(raw) {
+            const lines = String(raw || '').split('\n');
+            const normalized = [];
+
+            for (let i = 0; i < lines.length; ) {
+                const currentCols = splitTableLikeColumns(lines[i]);
+                if (!currentCols) {
+                    normalized.push(lines[i]);
+                    i += 1;
+                    continue;
+                }
+
+                const originalBlock = [];
+                const rows = [];
+                while (i < lines.length) {
+                    const cols = splitTableLikeColumns(lines[i]);
+                    if (!cols) break;
+                    originalBlock.push(lines[i]);
+                    rows.push(cols);
+                    i += 1;
+                }
+
+                if (rows.length < 2) {
+                    normalized.push(...originalBlock);
+                    continue;
+                }
+
+                const maxCols = rows.reduce((acc, row) => Math.max(acc, row.length), 0);
+                const normalizeRow = (row) => {
+                    const padded = row.slice();
+                    while (padded.length < maxCols) padded.push('');
+                    return `| ${padded.join(' | ')} |`;
+                };
+
+                normalized.push(normalizeRow(rows[0]));
+                normalized.push(`| ${Array(maxCols).fill('---').join(' | ')} |`);
+                rows.slice(1).forEach((row) => normalized.push(normalizeRow(row)));
+            }
+
+            return normalized.join('\n');
+        }
+
+        function renderTextBlock(text) {
+            const cleaned = String(text || '').trim();
+            if (!cleaned) return '';
+            return `<div class="msg-text">${formatInlineMarkdown(cleaned).replaceAll('\n', '<br>')}</div>`;
+        }
+
+        function renderMessageHtml(text, className) {
+            const raw = normalizeTableLikeText(String(text || ''));
             if (className !== 'bot-message') {
-                return plainToHtml(raw);
+                return renderTextBlock(raw);
+            }
+
+            let html = '';
+            const lines = raw.split('\n');
+            let inTable = false;
+            let tableLines = [];
+            let currentSection = [];
+
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i];
+                const isTableLine = /^\s*\|.*\|\s*$/.test(line);
+
+                if (isTableLine) {
+                    if (!inTable && currentSection.length > 0) {
+                        html += renderTextBlock(currentSection.join('\n'));
+                        currentSection = [];
+                    }
+                    inTable = true;
+                    tableLines.push(line);
+                } else {
+                    if (inTable && tableLines.length > 0) {
+                        html += renderMarkdownTable(tableLines);
+                        tableLines = [];
+                        inTable = false;
+                    }
+                    if (line.trim() || currentSection.length > 0) {
+                        currentSection.push(line);
+                    } else if (currentSection.length > 0) {
+                        currentSection.push('');
+                    }
+                }
+            }
+
+            if (currentSection.length > 0) {
+                html += renderTextBlock(currentSection.join('\n'));
+            }
+            if (inTable && tableLines.length > 0) {
+                html += renderMarkdownTable(tableLines);
             }
 
             const fenceRegex = /```([\s\S]*?)```/g;
-            let output = '';
-            let lastIndex = 0;
-            let match;
+            html = html.replace(fenceRegex, (match, content) => {
+                const blockText = content.replace(/^txt\s*\n/i, '').trim();
+                return blockText ? `<pre class="diagram-block">${escapeHtml(blockText)}</pre>` : '';
+            });
 
-            while ((match = fenceRegex.exec(raw)) !== null) {
-                const before = raw.slice(lastIndex, match.index);
-                if (before.trim() || before.includes('\n')) {
-                    output += plainToHtml(before);
+            return html || renderTextBlock(raw);
+        }
+
+        function renderMarkdownTable(lines) {
+            if (lines.length < 2) return '';
+
+            const parseRow = (line) => line.split('|').map(cell => cell.trim()).filter(cell => cell !== '');
+            const headerCells = parseRow(lines[0]);
+            const hasSeperator = lines[1] && /^\s*\|[\s\-:| ]*\|\s*$/.test(lines[1]);
+            const startIdx = hasSeperator ? 2 : 1;
+
+            if (headerCells.length === 0) return '';
+
+            let html = '<table>';
+            html += '<thead><tr>';
+            headerCells.forEach(cell => {
+                html += `<th>${formatInlineMarkdown(cell)}</th>`;
+            });
+            html += '</tr></thead><tbody>';
+
+            for (let i = startIdx; i < lines.length; i++) {
+                const cells = parseRow(lines[i]);
+                if (cells.length > 0) {
+                    html += '<tr>';
+                    for (let j = 0; j < headerCells.length; j++) {
+                        html += `<td>${formatInlineMarkdown(cells[j] || '')}</td>`;
+                    }
+                    html += '</tr>';
                 }
-
-                const blockText = match[1].replace(/^txt\s*\n/i, '').trim();
-                if (blockText) {
-                    output += `<pre class="diagram-block">${escapeHtml(blockText)}</pre>`;
-                }
-
-                lastIndex = fenceRegex.lastIndex;
             }
 
-            const rest = raw.slice(lastIndex);
-            if (rest.trim() || rest.includes('\n')) {
-                output += plainToHtml(rest);
-            }
-
-            return output || plainToHtml(raw);
+            html += '</tbody></table>';
+            return html;
         }
 
         async function sendMessage() {
@@ -1152,7 +1333,8 @@
                 }
 
                 const ageGuide = getPedagogicGuideByAge(studentProfile.age);
-                const systemWithProfile = `${SYSTEM_PROMPT_BASE}\n\nPerfil do candidato:\n- Nome preferido: ${studentProfile.name}\n- Idade: ${studentProfile.age}\n- Nivel/objetivo: ${studentProfile.grade}\n- Guia de linguagem: ${ageGuide}`;
+                const responseTypeInstruction = getResponseTypeInstruction();
+                const systemWithProfile = `${SYSTEM_PROMPT_BASE}${responseTypeInstruction}\n\nPerfil do candidato:\n- Nome preferido: ${studentProfile.name}\n- Idade: ${studentProfile.age}\n- Nivel/objetivo: ${studentProfile.grade}\n- Guia de linguagem: ${ageGuide}`;
                 let promptFinal = `${systemWithProfile}\n\nPergunta de ${studentProfile.name}: ${userText}`;
                 if (selectedFile && selectedFile.kind === 'text') {
                     promptFinal += `\n\nContexto do arquivo (${selectedFile.name}):\n${selectedFile.content}`;
@@ -1254,6 +1436,7 @@
         loadStudentProfile();
         loadChatHistory();
         syncModelSelector();
+        syncResponseTypeSelector();
         updateProfileSummary();
     </script>
 </body>

@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Security: Ignore ALL API Keys and Environments
+server/chave-vertex.json
+server/.env
+.env
+*.env
+*.json.bak

@@ -1,0 +1,162 @@
+
+EDS SOLUÇÕES INTELIGENTES
+DOCUMENTO ESTRATÉGICO
+
+
+ROADMAP DE ESTUDOS E IMPLEMENTAÇÕES
+Afiando a Bala de Prata — Do Edge Bruto ao Cisne Negro
+
+Classificação: CONFIDENCIAL — USO INTERNO EDS
+Versão 1.0 — Abril 2026
+Autor: CTO Auditor / Egnaldo — EDS Soluções Inteligentes
+ 
+1. SUMÁRIO EXECUTIVO
+Este documento reúne os estudos prioritários, implementações técnicas e marcos de validação necessários para transformar a Bala de Prata do EDS Especialista em Cantos em um sistema de detecção de discrepâncias de mercado com edge estatisticamente comprovado. O objetivo final é sustentar múltiplas combinadas de ODD 30 a 1000+ com valor esperado positivo consistente.
+A ferramenta já demonstrou capacidade real de identificar mispricings em múltiplas ligas (Brasileirão, Argentina, MLS). Os exemplos concretos — Bahia 7x2 em cantos vs Palmeiras, River Plate 8x1, Philadelphia Union vencendo cantos como lanterna — validam a tese central: o mercado de cantos 1x2 herda vieses do mercado de gols e precifica mal a pressão tática real.
+O que falta não é a capacidade de detecção — é a infraestrutura de prova, rastreamento e refinamento contínuo que transforma exemplos isolados em edge verificável com amostra estatística robusta.
+ 
+2. ESTUDO 1 — RASTREAMENTO FORMAL DA BALA DE PRATA
+2.1 O Problema
+Hoje, os acertos da Bala de Prata existem como memória da equipe e exemplos isolados. Sem rastreamento formal, não é possível: (a) provar que o edge é real e não variância favorável; (b) medir a magnitude exata do edge; (c) identificar em quais ligas/condições o edge é maior; (d) ajustar os parâmetros do modelo com base em feedback real.
+2.2 O Que Implementar
+Módulo: catalogo_bala_de_prata.js — Um sistema que registra automaticamente cada sinal emitido pela Bala de Prata no momento da emissão e atualiza com o resultado pós-jogo.
+Campos obrigatórios por registro:
+Campo	Exemplo	Finalidade
+data_emissao	2026-04-05T14:00:00Z	Quando o sinal foi gerado
+liga / codigo_liga	Brasileirão / BR	Segmentação por liga
+mandante / visitante	Bahia / Palmeiras	Identificação do jogo
+odd_justa_modelo	@1.45	Probabilidade calculada pelo EDS
+odd_mercado	@2.00	O que a casa pagou
+edge_percentual	31%	(1/odd_justa - 1/odd_mercado) / (1/odd_justa)
+confianca_modelo	ALTA	Nível de confiança do motor
+resultado_cantos	7x2 (Bahia)	Resultado real de cantos
+acertou	SIM	O favorito da BP ganhou cantos?
+classificacao_erro	N/A ou VARIANCIA	Se errou: modelo vs variância
+
+2.3 Métricas de Validação (KPIs)
+A cada 50 sinais acumulados, gerar relatório automático com:
+KPI	Meta Mínima	O Que Significa
+Taxa de Acerto Global	> 62%	Confirma que o modelo detecta discrepâncias reais
+Yield (ROI por aposta)	> +15%	Prova que o edge gera lucro após margem da casa
+Edge Médio por Sinal	> 20%	Magnitude da discrepância encontrada
+Maior Sequência de Erros	< 6 seguidos	Dimensiona drawdown para sizing de bankroll
+Acerto por Liga	> 55% cada	Identifica ligas fracas para recalibração
+
+2.4 Marco de Validação
+Marco 1 (50 sinais): Relatório exploratório. Taxa de acerto > 55% confirma direção certa.
+Marco 2 (100 sinais): Primeiro teste de significância estatística (p-value < 0.05). Se confirmado, escalar volume de múltiplas.
+Marco 3 (200 sinais): Confiança alta. Publicar edge médio por liga. Base suficiente para calibrar Kelly fracionário.
+Marco 4 (500 sinais): Edge comprovado com robustez estatística. Preparar para comercialização ou licenciamento do sinal.
+ 
+3. ESTUDO 2 — DISSOCIAÇÃO PLACAR vs CANTOS
+3.1 A Descoberta
+Os exemplos da equipe revelam um padrão poderoso: times que perdem o jogo no placar frequentemente vencem em cantos. Bahia perdeu 2x1 mas ganhou cantos 7x2. Philadelphia perdeu 2x1 mas venceu cantos. Isso não é anomalia — é um fenômeno estrutural que precisa ser quantificado.
+3.2 Hipótese a Testar
+O mercado de cantos 1x2 herda o viés do mercado de gols. Quando um time é precificado como "fraco" no mercado de gols (por posição na tabela, elenco, momento), essa precificação contamina o mercado de cantos — mesmo quando os dados táticos indicam que o time "fraco" gera pressão territorial e cruzamentos superiores ao adversário.
+3.3 Estudo Proposto
+Análise retroativa com dados do Analista Fantasma: para cada jogo coletado, cruzar resultado do placar com resultado de cantos. Calcular taxa de dissociação (% de jogos onde o vencedor do placar perde em cantos) por liga. Identificar perfis de time com alta dissociação (times que consistentemente perdem jogos mas ganham cantos — estes são os alvos primários da Bala de Prata).
+3.4 Implementação Técnica
+Módulo: dissociacao_placar_cantos.js — Recebe dados de rodada processados e calcula: (a) índice de dissociação por jogo; (b) índice de dissociação por time (histórico); (c) correlação entre dissociação e variáveis qualitativas (pressão territorial, ritmo, cruzamentos).
+3.5 Valor Estratégico
+Se a taxa de dissociação for > 25% em uma liga, confirma que o mercado de cantos 1x2 é sistematicamente ineficiente nessa liga. Times com dissociação individual > 40% são "minas de ouro" para a Bala de Prata — o mercado vai precificá-los errado repetidamente porque olha para o placar, não para a tática.
+ 
+4. ESTUDO 3 — CALIBRAÇÃO DO GATILHO DE ODD JUSTA
+4.1 Contexto
+Atualmente, a Bala de Prata usa o gatilho fixo de Odd Justa menor ou igual a @1.63 para identificar Super Favoritos. Mas os exemplos da equipe sugerem que discrepâncias extremas (odd justa @1.45 com mercado @2.00) têm taxa de acerto diferente de discrepâncias moderadas (odd justa @1.60 com mercado @1.80).
+4.2 Estudo Proposto
+Segmentar os sinais da Bala de Prata em 3 faixas e medir taxa de acerto e yield por faixa:
+Faixa	Odd Justa	Edge Esperado	Perfil
+NUCLEAR	<= @1.35	> 35%	Cisne Negro puro
+FORTE	@1.36 - @1.50	25-35%	Bala de Prata ideal
+MODERADA	@1.51 - @1.63	15-25%	Valor sólido
+
+4.3 Hipótese
+Discrepâncias NUCLEARES (odd justa <= @1.35) devem ter taxa de acerto superior a 75% porque representam dominância tática absoluta que o mercado está completamente cego. Essas são as pernas de maior confiança para a múltipla — e devem receber peso maior na composição do bilhete.
+4.4 Impacto na Estratégia de Múltiplas
+Se confirmado, a construção do bilhete muda: em vez de empilhar 7 pernas com edge similar, priorizar 3-4 pernas NUCLEARES (alta confiança) complementadas por 2-3 pernas FORTES. A ODD total pode ser menor (30-100), mas a probabilidade de acerto sobe drasticamente.
+ 
+5. ESTUDO 4 — FATORES DE QUEBRA DE BILHETE
+5.1 O Problema
+Em uma múltipla de 5 pernas, perder 1 perna significa perder tudo. Precisamos estudar retroativamente: quando a Bala de Prata erra, por quê erra? Isso permite criar filtros que excluem sinais de alto risco de quebra.
+5.2 Fatores de Quebra a Investigar
+Fator de Risco	Hipótese	Red Flag?
+Cartão vermelho precoce	Expulsão antes dos 30min altera completamente a dinâmica tática	SIM — excluir perna
+Goleada relâmpago	3+ gols antes do intervalo = jogo morto, ambos param de atacar	SIM — excluir perna
+Derby / Clássico	Tensão emocional pode gerar jogo truncado com muitas faltas e poucos cantos	INVESTIGAR
+Chuva forte / campo alagado	Bola não rola, cruzamentos errados, menos ações de canto	INVESTIGAR
+Altitude (> 2500m)	Bola viaja diferente, times visitantes sofrem fadiga precoce	INVESTIGAR
+Ambos ultra-defensivos	Formações 5ATB dos dois lados = jogo travado sem pressão	SIM — excluir perna
+Rodada decisiva / última rodada	Times já classificados/rebaixados jogam com reservas e menos intensidade	SIM — excluir perna
+
+5.3 Implementação
+O módulo detectarRedFlags() do orquestrador-eds.js já cobre 7 regras. Este estudo propõe expandir para 12+ regras com base nos dados reais coletados. Cada novo red flag detectado aumenta a blindagem do bilhete.
+ 
+6. ESTUDO 5 — CORRELAÇÃO ENTRE PERNAS DA MÚLTIPLA
+6.1 O Risco Oculto
+Se todas as pernas do bilhete são da mesma rodada e liga, um fator externo (chuva, arbitragem agressiva, calendário congestionado) pode derrubar múltiplas pernas simultaneamente. Isso é correlação — e destrói o valor esperado de múltiplas.
+6.2 Estudo Proposto
+Calcular a correlação de resultados de cantos entre jogos da mesma rodada vs jogos de ligas diferentes. A hipótese é que misturar ligas (BR + MLS + ARG) na mesma múltipla reduz a correlação e aumenta a robustez do bilhete.
+6.3 Regra Proposta
+Máximo 2 pernas da mesma liga por bilhete. Para ODD 100+, obrigatório ter pelo menos 3 ligas diferentes representadas. Esta regra deve ser validada pelo estudo antes de se tornar mandatória.
+ 
+7. ESTUDO 6 — KELLY FRACIONÁRIO PARA SIZING DE MÚLTIPLAS
+7.1 Contexto
+O Critério de Kelly determina o tamanho ótimo de aposta dado um edge conhecido. Para apostas simples, a fórmula é direta. Para múltiplas, é mais complexo porque envolve o edge composto de N pernas independentes.
+7.2 Fórmula Adaptada para Múltiplas
+Para uma múltipla com N pernas independentes, cada uma com probabilidade real p(i) e odd o(i):
+Probabilidade composta = p(1) x p(2) x ... x p(N)
+Odd composta = o(1) x o(2) x ... x o(N)
+Kelly = (prob_composta x odd_composta - 1) / (odd_composta - 1)
+Kelly Fracionário = Kelly / 4 (fator de segurança recomendado para múltiplas)
+7.3 Exemplo Prático
+Múltipla de 4 pernas, cada uma com prob real 68% e odd @2.00:
+Prob composta = 0.68^4 = 21.4% | Odd composta = 16x
+Kelly = (0.214 x 16 - 1) / (16 - 1) = 2.42 / 15 = 16.2%
+Kelly Fracionário (1/4) = 4.05% do bankroll por bilhete
+7.4 Implementação no App
+Adicionar calculadora de Kelly ao módulo Bala de Prata. Quando o usuário monta um bilhete múltiplo, o app calcula automaticamente: (a) valor esperado da combinação; (b) stake recomendado pelo Kelly fracionário; (c) probabilidade de acerto estimada; (d) alerta se o Kelly retorna negativo (não apostar).
+ 
+8. ESTUDO 7 — DNA TÁTICO DE TIMES RECORRENTES
+8.1 Contexto
+Alguns times aparecem repetidamente como alvos da Bala de Prata (ex: Bahia, River Plate, Philadelphia). Esses times têm um DNA tático que consistentemente gera mais cantos do que o mercado precifica. Mapear esse DNA cria um atalho: quando esses times aparecem, a confiança do sinal é automaticamente elevada.
+8.2 Estudo Proposto
+Para cada time que apareceu 3+ vezes como alvo da Bala de Prata, calcular: (a) média de cantos gerados quando é favorito da BP; (b) taxa de acerto da BP nesse time; (c) edge médio obtido; (d) variáveis táticas dominantes (pressão territorial? cruzamentos? ataques perigosos?). Criar perfil "Rei dos Cantos" por time com classificação: OURO (acerto > 75%), PRATA (60-75%), BRONZE (55-60%).
+8.3 Valor Estratégico
+Times OURO na lista de Reis dos Cantos são as pernas mais confiáveis da múltipla. Se o Bahia é OURO no Brasileirão e o River é OURO na Argentina, uma múltipla de 3 pernas com esses dois times + 1 perna MLS já carrega confiança altíssima.
+ 
+9. ESTUDO 8 — BACKTESTING DE MÚLTIPLAS HISTÓRICAS
+9.1 O Teste Definitivo
+Este é o estudo mais importante de todos. Pegar os dados históricos coletados pelo Analista Fantasma e simular retroativamente: se a Bala de Prata tivesse montado bilhetes múltiplos com os sinais das últimas N rodadas, qual seria o resultado financeiro?
+9.2 Metodologia
+Walk-forward simulation: para cada rodada processada, identificar todos os sinais da Bala de Prata, montar todas as combinações possíveis de 3, 4, 5, 6, 7 pernas. Registrar: quantas combinações acertaram, qual o ODD pago, qual o retorno acumulado, qual o máximo drawdown.
+9.3 Cenários a Simular	
+Cenário	Pernas	ODD Alvo	Propósito
+Conservador	3 pernas	ODD 8-12	Renda recorrente
+Agressivo	5 pernas	ODD 30-50	Crescimento acelerado
+Cisne Negro	7 pernas	ODD 100-200	Evento explosivo
+Shangri-Lá	10 pernas	ODD 1000+	O bilhete definitivo
+
+9.4 Resultado Esperado
+Se o backtest confirmar valor esperado positivo para combinações de 3-5 pernas, a equipe tem evidência empírica para escalar. Se as combinações de 7+ pernas têm valor esperado positivo mas frequência muito baixa, ajustar a alocação: 70% do volume de apostas em combinações de 3-4 pernas, 25% em 5-6 pernas, 5% nos bilhetes Cisne Negro/Shangri-Lá.
+ 
+10. ROADMAP DE IMPLEMENTAÇÃO
+Ordem de prioridade baseada em impacto vs esforço:
+#	Estudo	Esforço	Impacto	Prazo	Dependência
+1	Catálogo Bala de Prata	Médio	CRÍTICO	Semana 1-2	Analista Fantasma OK
+2	Dissociação Placar x Cantos	Baixo	ALTO	Semana 2-3	Estudo 1
+3	Calibração Odd Justa	Médio	ALTO	Semana 3-4	50+ sinais catálogo
+4	Fatores de Quebra	Médio	ALTO	Semana 3-5	Estudo 1
+5	Correlação entre Pernas	Baixo	MÉDIO	Semana 4-5	Dados multi-liga
+6	Kelly Fracionário	Baixo	ALTO	Semana 4-6	Estudo 3
+7	DNA Tático por Time	Alto	ALTO	Semana 5-8	100+ sinais catálogo
+8	Backtesting Múltiplas	Alto	CRÍTICO	Semana 6-10	Estudos 1-7
+ 
+11. CONCLUSÃO — O CAMINHO PARA O SHANGRI-LÁ
+A Bala de Prata já funciona. Os exemplos concretos — Bahia 7x2, River 8x1, Philadelphia vencendo cantos como lanterna — provam que a ferramenta detecta discrepâncias reais em múltiplas ligas. O mercado de cantos 1x2 é genuinamente ineficiente e a EDS está explorando essa ineficiência com um motor matemático sólido.
+O que estes 8 estudos proporcionam é a infraestrutura de prova e refinamento que transforma uma ferramenta que "funciona" em uma ferramenta que "funciona e sabemos exatamente por quê, quando, e quanto". Cada estudo adiciona uma camada de blindagem:
+O Catálogo prova o edge. A Dissociação explica o mecanismo. A Calibração otimiza o gatilho. Os Fatores de Quebra protegem o bilhete. A Correlação diversifica o risco. O Kelly dimensiona o capital. O DNA por Time identifica as melhores pernas. O Backtesting simula o resultado final.
+Quando os 8 estudos estiverem completos, a EDS terá não apenas uma ferramenta de apostas — terá um sistema de investimento esportivo com edge documentado, risco dimensionado e retorno projetado. Isso é antifragilidade real: cada rodada de dados fortalece o modelo, cada erro ensina, cada acerto confirma.
+
+O Shangri-Lá não é um sonho. É uma questão de volume de dados, afinação do modelo e disciplina de execução. Com essa equipe e essas ferramentas, vai chegar.
+
+

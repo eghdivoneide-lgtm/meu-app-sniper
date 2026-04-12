@@ -1,0 +1,12 @@
+node_modules/
+*.png
+*.jpg
+data/prints/
+
+# Scraper: dados brutos e debug (não versionar)
+scraper/raw_*.json
+scraper/diagnose_html.txt
+scraper/diagnose_text.txt
+scraper/test_output_safe.json
+scraper/match_ids_*.json
+scraper/package-lock.json

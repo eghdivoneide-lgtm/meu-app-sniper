@@ -2,7 +2,7 @@ const CACHE_NAME = 'monitor-wej-pro-v3';
 const APP_SHELL = [
   './',
   './index.html',
-  './monitor-wej-pro.html',
+  './monitor-eds-pro.html',
   './manifest-wej.webmanifest',
   './icons/wej/icon-wej-192.svg',
   './icons/wej/icon-wej-512.svg'

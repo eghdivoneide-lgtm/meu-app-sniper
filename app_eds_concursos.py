@@ -2,13 +2,10 @@ import os
 import telebot
 from google import genai
 from google.genai import types
-from dotenv import load_dotenv
 
-load_dotenv()
-
-# 1. Chaves via variáveis de ambiente (.env)
-CHAVE_TELEGRAM = os.getenv("CHAVE_TELEGRAM_CONCURSOS")
-CHAVE_GEMINI = os.getenv("CHAVE_GEMINI_CONCURSOS")
+# 1. Suas Chaves Secretas (Não esqueça de manter as suas aqui!)
+CHAVE_TELEGRAM = os.getenv("CHAVE_TELEGRAM", "")
+CHAVE_GEMINI = os.getenv("CHAVE_GEMINI", "")
 
 # 2. Ligando os motores
 bot = telebot.TeleBot(CHAVE_TELEGRAM)

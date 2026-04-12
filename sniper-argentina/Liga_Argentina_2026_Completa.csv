@@ -1,0 +1,170 @@
+Rodada,Mandante,Gols_Casa,Gols_Fora,Visitante,Data
+Rodada 1,Aldosivi,0,0,Defensa y Justicia,22.01
+Rodada 1,Banfield,1,1,Huracan,22.01
+Rodada 1,Union Santa Fe,0,0,Platense,22.01
+Rodada 1,Central Cordoba,0,1,Gimnasia Mendoza,22.01
+Rodada 1,Instituto,0,1,Velez Sarsfield,22.01
+Rodada 1,San Lorenzo,2,3,Lanus,23.01
+Rodada 1,Independiente,1,1,Estudiantes,23.01
+Rodada 1,Ind. Rivadavia,2,1,Atl. Tucuman,23.01
+Rodada 1,Talleres Cordoba,2,1,Newells Old Boys,23.01
+Rodada 1,Barracas Central,0,1,River Plate,24.01
+Rodada 1,Gimnasia L.P.,2,1,Racing Club,24.01
+Rodada 1,Rosario Central,1,2,Belgrano,24.01
+Rodada 1,Boca Juniors,1,0,Dep. Riestra,25.01
+Rodada 1,Argentinos Juniors,1,0,Sarmiento Junin,25.01
+Rodada 2,Tigre,2,0,Estudiantes Rio Cuarto,25.01
+Rodada 2,Platense,2,1,Instituto,27.01
+Rodada 2,Velez Sarsfield,2,1,Talleres Cordoba,27.01
+Rodada 2,Huracan,1,2,Ind. Rivadavia,27.01
+Rodada 2,Gimnasia Mendoza,0,1,San Lorenzo,27.01
+Rodada 2,Newells Old Boys,1,1,Independiente,27.01
+Rodada 2,Atl. Tucuman,0,0,Central Cordoba,27.01
+Rodada 2,Aldosivi,0,0,Barracas Central,28.01
+Rodada 2,Racing Club,1,2,Rosario Central,28.01
+Rodada 2,River Plate,2,0,Gimnasia L.P.,28.01
+Rodada 2,Estudiantes,2,1,Boca Juniors,29.01
+Rodada 2,Dep. Riestra,0,1,Defensa y Justicia,29.01
+Rodada 2,Belgrano,1,1,Tigre,29.01
+Rodada 2,Lanus,2,1,Union Santa Fe,29.01
+Rodada 2,Estudiantes Rio Cuarto,0,0,Argentinos Juniors,29.01
+Rodada 2,Sarmiento Junin,1,0,Banfield,29.01
+Rodada 3,San Lorenzo,1,0,Central Cordoba,31.01
+Rodada 3,Independiente,1,1,Velez Sarsfield,31.01
+Rodada 3,Atl. Tucuman,1,0,Huracan,31.01
+Rodada 3,Talleres Cordoba,1,2,Platense,01.02
+Rodada 3,Barracas Central,1,1,Dep. Riestra,01.02
+Rodada 3,Boca Juniors,2,0,Newells Old Boys,01.02
+Rodada 3,Rosario Central,0,0,River Plate,01.02
+Rodada 3,Gimnasia L.P.,3,1,Aldosivi,02.02
+Rodada 3,Tigre,3,1,Racing Club,02.02
+Rodada 3,Defensa y Justicia,0,0,Estudiantes,02.02
+Rodada 3,Argentinos Juniors,0,0,Belgrano,02.02
+Rodada 3,Union Santa Fe,4,0,Gimnasia Mendoza,02.02
+Rodada 3,Banfield,2,1,Estudiantes Rio Cuarto,03.02
+Rodada 3,Ind. Rivadavia,2,1,Sarmiento Junin,03.02
+Rodada 3,Instituto,2,2,Lanus,03.02
+Rodada 4,Central Cordoba,1,0,Union Santa Fe,06.02
+Rodada 4,Aldosivi,1,1,Rosario Central,07.02
+Rodada 4,Racing Club,2,1,Argentinos Juniors,07.02
+Rodada 4,River Plate,1,4,Tigre,07.02
+Rodada 4,Belgrano,1,0,Banfield,07.02
+Rodada 4,Newells Old Boys,2,3,Defensa y Justicia,07.02
+Rodada 4,Sarmiento Junin,2,1,Atl. Tucuman,08.02
+Rodada 4,Platense,0,1,Independiente,08.02
+Rodada 4,Huracan,1,0,San Lorenzo,08.02
+Rodada 4,Velez Sarsfield,2,1,Boca Juniors,08.02
+Rodada 4,Gimnasia Mendoza,1,0,Instituto,09.02
+Rodada 4,Barracas Central,2,0,Gimnasia L.P.,09.02
+Rodada 4,Estudiantes,1,0,Dep. Riestra,09.02
+Rodada 4,Lanus,1,1,Talleres Cordoba,09.02
+Rodada 4,Estudiantes Rio Cuarto,0,1,Ind. Rivadavia,09.02
+Rodada 5,Tigre,1,0,Aldosivi,12.02
+Rodada 5,Argentinos Juniors,1,0,River Plate,12.02
+Rodada 5,Independiente,2,0,Lanus,13.02
+Rodada 5,Union Santa Fe,0,0,San Lorenzo,13.02
+Rodada 5,Defensa y Justicia,1,1,Velez Sarsfield,13.02
+Rodada 5,Banfield,0,2,Racing Club,14.02
+Rodada 5,Huracan,1,0,Sarmiento Junin,14.02
+Rodada 5,Talleres Cordoba,2,1,Gimnasia Mendoza,14.02
+Rodada 5,Atl. Tucuman,4,0,Estudiantes Rio Cuarto,14.02
+Rodada 5,Ind. Rivadavia,0,1,Belgrano,14.02
+Rodada 5,Gimnasia L.P.,0,0,Estudiantes,15.02
+Rodada 5,Boca Juniors,0,0,Platense,15.02
+Rodada 5,Rosario Central,2,0,Barracas Central,15.02
+Rodada 5,Instituto,2,0,Central Cordoba,15.02
+Rodada 5,Dep. Riestra,1,1,Newells Old Boys,16.02
+Rodada 6,Defensa y Justicia,1,1,Belgrano,20.02
+Rodada 6,Estudiantes,1,0,Sarmiento Junin,20.02
+Rodada 6,Instituto,2,1,Atl. Tucuman,20.02
+Rodada 6,Boca Juniors,0,0,Racing Club,20.02
+Rodada 6,Gimnasia Mendoza,0,1,Gimnasia L.P.,20.02
+Rodada 6,Rosario Central,0,1,Talleres Cordoba,21.02
+Rodada 6,Ind. Rivadavia,3,2,Independiente,21.02
+Rodada 6,Platense,1,0,Barracas Central,21.02
+Rodada 6,Banfield,3,0,Newells Old Boys,21.02
+Rodada 6,Dep. Riestra,0,0,Huracan,21.02
+Rodada 6,Central Cordoba,0,0,Tigre,21.02
+Rodada 6,San Lorenzo,2,0,Estudiantes Rio Cuarto,22.02
+Rodada 6,Velez Sarsfield,1,0,River Plate,22.02
+Rodada 6,Union Santa Fe,1,0,Aldosivi,22.02
+Rodada 7,Platense,0,0,Defensa y Justicia,24.02
+Rodada 7,San Lorenzo,1,1,Instituto,24.02
+Rodada 7,Central Cordoba,2,0,Talleres Cordoba,24.02
+Rodada 7,Belgrano,3,1,Atl. Tucuman,24.02
+Rodada 7,Gimnasia Mendoza,1,1,Independiente,24.02
+Rodada 7,Gimnasia L.P.,1,2,Rosario Central,25.02
+Rodada 7,Barracas Central,2,1,Tigre,25.02
+Rodada 7,Newells Old Boys,0,2,Estudiantes,25.02
+Rodada 7,Velez Sarsfield,0,0,Dep. Riestra,25.02
+Rodada 7,Racing Club,1,1,Ind. Rivadavia,26.02
+Rodada 7,Sarmiento Junin,1,3,Union Santa Fe,26.02
+Rodada 7,River Plate,3,1,Banfield,26.02
+Rodada 7,Estudiantes Rio Cuarto,2,0,Huracan,26.02
+Rodada 7,Lanus,0,3,Boca Juniors,04.03
+Rodada 7,Aldosivi,0,2,Argentinos Juniors,31.03
+Rodada 8,Boca Juniors,1,1,Gimnasia Mendoza,28.02
+Rodada 8,Independiente,2,0,Central Cordoba,28.02
+Rodada 8,Talleres Cordoba,0,0,San Lorenzo,28.02
+Rodada 8,Newells Old Boys,0,2,Rosario Central,01.03
+Rodada 8,Argentinos Juniors,1,1,Barracas Central,01.03
+Rodada 8,Instituto,1,2,Union Santa Fe,01.03
+Rodada 8,Tigre,2,2,Gimnasia L.P.,01.03
+Rodada 8,Defensa y Justicia,1,1,Lanus,01.03
+Rodada 8,Dep. Riestra,0,0,Platense,02.03
+Rodada 8,Estudiantes,0,1,Velez Sarsfield,02.03
+Rodada 8,Ind. Rivadavia,1,1,River Plate,02.03
+Rodada 8,Banfield,2,0,Aldosivi,03.03
+Rodada 8,Sarmiento Junin,1,0,Estudiantes Rio Cuarto,03.03
+Rodada 8,Huracan,3,1,Belgrano,03.03
+Rodada 8,Atl. Tucuman,0,3,Racing Club,03.03
+Rodada 9,Independiente,4,4,Union Santa Fe,10.03
+Rodada 9,Tigre,1,1,Velez Sarsfield,10.03
+Rodada 9,Sarmiento Junin,0,0,Racing Club,10.03
+Rodada 9,Newells Old Boys,1,1,Platense,10.03
+Rodada 9,Banfield,1,2,Gimnasia L.P.,11.03
+Rodada 9,Argentinos Juniors,0,0,Rosario Central,11.03
+Rodada 9,Boca Juniors,1,0,San Lorenzo,11.03
+Rodada 9,Atl. Tucuman,1,1,Aldosivi,11.03
+Rodada 9,Ind. Rivadavia,1,2,Barracas Central,11.03
+Rodada 10,Defensa y Justicia,1,1,Central Cordoba,12.03
+Rodada 10,Dep. Riestra,0,0,Gimnasia Mendoza,12.03
+Rodada 10,Estudiantes Rio Cuarto,0,1,Belgrano,12.03
+Rodada 10,Talleres Cordoba,2,0,Instituto,12.03
+Rodada 10,Huracan,1,2,River Plate,12.03
+Rodada 10,Estudiantes,0,1,Lanus,13.03
+Rodada 6,Argentinos Juniors,2,1,Lanus,26.03
+Rodada 11,Platense,0,2,Velez Sarsfield,14.03
+Rodada 11,Rosario Central,2,1,Banfield,14.03
+Rodada 11,Gimnasia L.P.,2,3,Ind. Rivadavia,15.03
+Rodada 11,Belgrano,0,0,Talleres Cordoba,15.03
+Rodada 11,River Plate,2,0,Sarmiento Junin,15.03
+Rodada 11,Tigre,1,1,Argentinos Juniors,15.03
+Rodada 11,Union Santa Fe,1,1,Boca Juniors,15.03
+Rodada 11,Barracas Central,2,1,Atl. Tucuman,16.03
+Rodada 11,Aldosivi,0,0,Huracan,16.03
+Rodada 11,San Lorenzo,2,5,Defensa y Justicia,16.03
+Rodada 11,Racing Club,2,0,Estudiantes Rio Cuarto,16.03
+Rodada 11,Instituto,2,1,Independiente,16.03
+Rodada 11,Lanus,5,0,Newells Old Boys,17.03
+Rodada 11,Gimnasia Mendoza,1,2,Estudiantes,17.03
+Rodada 11,Central Cordoba,1,0,Dep. Riestra,17.03
+Rodada 12,Newell's Old Boys,1,0,Gimnasia Mendoza,21.03
+Rodada 12,Independiente,1,1,Talleres Cordoba,21.03
+Rodada 12,Belgrano,1,2,Racing Club,21.03
+Rodada 12,Defensa y Justicia,2,0,Union Santa Fe,21.03
+Rodada 12,Velez Sarsfield,0,1,Lanus,21.03
+Rodada 12,Atl. Tucuman,1,0,Gimnasia L.P.,20.03
+Rodada 12,Banfield,1,0,Tigre,20.03
+Rodada 12,Sarmiento Junin,2,0,Aldosivi,22.03
+Rodada 12,Estudiantes Rio Cuarto,0,2,River Plate,22.03
+Rodada 12,Boca Juniors,2,0,Instituto,22.03
+Rodada 12,Ind. Rivadavia,2,0,Rosario Central,22.03
+Rodada 12,Argentinos Juniors,1,0,Platense,22.03
+Rodada 12,Huracan,0,0,Barracas Central,23.03
+Rodada 12,Estudiantes,5,0,Central Cordoba,23.03
+Rodada 12,Dep. Riestra,1,1,San Lorenzo,25.03
+Rodada 13,Lanus,0,0,Platense,01.04
+Rodada 13,Barracas Central,1,2,Sarmiento Junin,02.04
+Rodada 13,Tigre,0,2,Ind. Rivadavia,02.04
+Rodada 13,Talleres Cordoba,0,1,Boca Juniors,02.04

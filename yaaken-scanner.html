@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>YAAKEN Scanner — EDS Soluções Inteligentes</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:      #080c0a;
+  --bg2:     #0f1510;
+  --bg3:     #141e16;
+  --card:    #111a13;
+  --border:  rgba(255,255,255,0.07);
+  --glass:   rgba(255,255,255,0.04);
+  --text:    #e8f0ea;
+  --muted:   #5a7060;
+  --green:   #34d367;
+  --green2:  #22c55e;
+  --gold:    #f59e0b;
+  --gold2:   #fbbf24;
+  --red:     #ef4444;
+  --blue:    #60a5fa;
+  --purple:  #a78bfa;
+  --yaaken:  #f59e0b;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;}
+
+/* ─── HEADER ─── */
+header{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:.8rem 1.5rem;background:var(--bg2);
+  border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;
+}
+.logo{display:flex;align-items:center;gap:.8rem;}
+.logo-icon{width:36px;height:36px;background:linear-gradient(135deg,#0a3d1a,#1a6b30);
+  border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;}
+.logo-text h1{font-size:1rem;font-weight:900;color:var(--gold);letter-spacing:-.5px;}
+.logo-text p{font-size:.65rem;color:var(--muted);font-weight:600;letter-spacing:.8px;text-transform:uppercase;}
+.badge-y{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#000;
+  font-size:.6rem;font-weight:900;padding:.2rem .6rem;border-radius:99px;letter-spacing:.5px;}
+
+/* ─── LAYOUT ─── */
+.container{max-width:1300px;margin:0 auto;padding:1.2rem;}
+.grid-main{display:grid;grid-template-columns:1fr 380px;gap:1.2rem;}
+@media(max-width:900px){.grid-main{grid-template-columns:1fr;}}
+
+/* ─── SEÇÃO ─── */
+.section-title{
+  font-size:.7rem;font-weight:800;color:var(--muted);
+  letter-spacing:1.5px;text-transform:uppercase;margin-bottom:.8rem;
+  display:flex;align-items:center;gap:.5rem;
+}
+.section-title::after{content:'';flex:1;height:1px;background:var(--border);}
+
+/* ─── IMPORT PANEL ─── */
+.import-panel{
+  background:var(--card);border:1px dashed var(--border);border-radius:14px;
+  padding:1.5rem;text-align:center;cursor:pointer;margin-bottom:1.2rem;
+  transition:all .2s;
+}
+.import-panel:hover{border-color:var(--gold);background:rgba(245,158,11,0.05);}
+.import-icon{font-size:2rem;margin-bottom:.5rem;}
+.import-panel h3{font-size:.9rem;font-weight:700;color:var(--gold);margin-bottom:.3rem;}
+.import-panel p{font-size:.75rem;color:var(--muted);}
+#fileInput{display:none;}
+
+/* ─── JOGO CARD ─── */
+.jogo-card{
+  background:var(--card);border:1px solid var(--border);border-radius:14px;
+  padding:1rem;margin-bottom:.8rem;transition:all .2s;cursor:pointer;
+}
+.jogo-card:hover{border-color:rgba(245,158,11,0.3);transform:translateY(-1px);}
+.jogo-card.selecionado{border-color:var(--gold);background:rgba(245,158,11,0.05);}
+.jogo-card.selecionado .check-box{background:var(--gold);border-color:var(--gold);color:#000;}
+
+.jogo-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:.8rem;}
+.jogo-times{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.9rem;}
+.vs{font-size:.65rem;color:var(--muted);font-weight:500;}
+.liga-badge{font-size:.6rem;font-weight:700;padding:.15rem .5rem;border-radius:6px;
+  background:rgba(255,255,255,0.06);color:var(--muted);letter-spacing:.5px;}
+.check-box{width:20px;height:20px;border:2px solid var(--border);border-radius:6px;
+  display:flex;align-items:center;justify-content:center;font-size:.7rem;
+  transition:all .2s;flex-shrink:0;}
+
+/* Odds row */
+.odds-row{display:flex;gap:.5rem;margin-bottom:.8rem;}
+.odd-pill{
+  flex:1;text-align:center;padding:.5rem .3rem;border-radius:10px;
+  border:1px solid var(--border);cursor:pointer;transition:all .2s;
+}
+.odd-pill.yaaken{border-color:var(--gold);background:rgba(245,158,11,0.08);}
+.odd-pill.selecionado-odd{border-color:var(--gold);background:rgba(245,158,11,0.2);}
+.odd-label{font-size:.6rem;color:var(--muted);font-weight:600;letter-spacing:.5px;}
+.odd-valor{font-size:1rem;font-weight:800;}
+.odd-valor.qualifica{color:var(--gold);}
+.odd-valor.nao-qualifica{color:var(--muted);}
+.implied{font-size:.6rem;color:var(--muted);}
+
+/* H2H e Sinal */
+.jogo-bottom{display:flex;gap:.8rem;align-items:flex-start;}
+.h2h-mini{flex:1;background:var(--bg3);border-radius:8px;padding:.6rem;}
+.h2h-title{font-size:.6rem;font-weight:700;color:var(--muted);letter-spacing:.5px;margin-bottom:.4rem;}
+.h2h-bars{display:flex;gap:3px;height:6px;border-radius:3px;overflow:hidden;margin-bottom:.4rem;}
+.h2h-bar-m{background:#34d367;}
+.h2h-bar-e{background:#f59e0b;}
+.h2h-bar-v{background:#60a5fa;}
+.h2h-stats{display:flex;gap:.8rem;font-size:.65rem;}
+.h2h-stat{text-align:center;}
+.h2h-stat span{display:block;font-weight:800;}
+
+/* ─── MEMÓRIA YAAKEN — Notas qualitativas ─── */
+.memoria-notas{
+  display:flex;flex-wrap:wrap;gap:.3rem;
+  padding:.4rem .8rem .2rem;border-top:1px solid var(--border);
+}
+.memoria-nota{
+  font-size:.6rem;font-weight:600;padding:.2rem .6rem;
+  border-radius:99px;border:1px solid;letter-spacing:.2px;
+  line-height:1.4;
+}
+.nota-classico{
+  background:rgba(245,158,11,0.12);color:var(--gold);border-color:rgba(245,158,11,0.3);
+}
+.nota-mandante{
+  background:rgba(52,211,103,0.08);color:#86efac;border-color:rgba(52,211,103,0.2);
+}
+.nota-visitante{
+  background:rgba(96,165,250,0.08);color:#93c5fd;border-color:rgba(96,165,250,0.2);
+}
+
+.sinal-box{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:.5rem .8rem;border-radius:10px;min-width:80px;text-align:center;
+}
+.sinal-label{font-size:.55rem;font-weight:700;letter-spacing:.5px;text-transform:uppercase;margin-bottom:.2rem;}
+.sinal-valor{font-size:.75rem;font-weight:900;}
+.sinal-FRACO   {background:rgba(90,112,96,0.15);color:var(--muted);}
+.sinal-MEDIO   {background:rgba(96,165,250,0.12);color:var(--blue);}
+.sinal-FORTE   {background:rgba(245,158,11,0.15);color:var(--gold);}
+.sinal-SNIPER  {background:rgba(52,211,103,0.15);color:var(--green);}
+.sinal-SNIPER .sinal-valor::after{content:' 🎯';}
+
+/* ─── PAINEL DIREITO ─── */
+.right-panel{display:flex;flex-direction:column;gap:1.2rem;}
+
+/* Seleção */
+.selecao-panel{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:1rem;}
+.selecao-count{
+  display:flex;align-items:center;justify-content:space-between;margin-bottom:.8rem;
+}
+.count-badge{
+  font-size:1.6rem;font-weight:900;color:var(--gold);
+  width:48px;height:48px;border-radius:12px;
+  background:rgba(245,158,11,0.1);border:2px solid rgba(245,158,11,0.3);
+  display:flex;align-items:center;justify-content:center;
+}
+.selecao-lista{min-height:60px;}
+.sel-item{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:.4rem .6rem;background:var(--bg3);border-radius:8px;margin-bottom:.4rem;
+  font-size:.75rem;font-weight:600;
+}
+.sel-odd{color:var(--gold);font-weight:800;}
+.sel-remove{cursor:pointer;color:var(--red);font-size:.8rem;padding:0 .3rem;}
+.sel-empty{font-size:.75rem;color:var(--muted);text-align:center;padding:1rem;}
+
+/* Stake + combos */
+.stake-row{display:flex;gap:.6rem;align-items:center;margin:.8rem 0;}
+.stake-label{font-size:.75rem;color:var(--muted);font-weight:600;white-space:nowrap;}
+.stake-input{
+  flex:1;background:var(--bg3);border:1px solid var(--border);color:var(--text);
+  padding:.4rem .8rem;border-radius:8px;font-size:.9rem;font-weight:700;
+  font-family:'Inter',sans-serif;outline:none;
+}
+.stake-input:focus{border-color:var(--gold);}
+.combos-info{
+  display:flex;justify-content:space-between;font-size:.7rem;
+  color:var(--muted);padding:.4rem 0;border-top:1px solid var(--border);
+}
+.combos-total{color:var(--text);font-weight:700;}
+
+/* Cenários */
+.cenarios-panel{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:1rem;}
+.cenario-row{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:.5rem .6rem;border-radius:8px;margin-bottom:.3rem;
+  font-size:.75rem;
+}
+.cenario-row.lucro{background:rgba(52,211,103,0.06);border:1px solid rgba(52,211,103,0.12);}
+.cenario-row.prejuizo{background:rgba(239,68,68,0.05);border:1px solid rgba(239,68,68,0.1);}
+.cenario-row.neutro{background:var(--bg3);border:1px solid var(--border);}
+.cenario-label{font-weight:700;color:var(--text);}
+.cenario-prob{color:var(--muted);}
+.cenario-retorno{font-weight:800;}
+.cenario-pl{font-weight:900;font-size:.8rem;}
+.cenario-pl.pos{color:var(--green);}
+.cenario-pl.neg{color:var(--red);}
+
+/* EV esperado */
+.ev-panel{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:1rem;}
+.ev-numero{font-size:2rem;font-weight:900;text-align:center;padding:.5rem 0;}
+.ev-positivo{color:var(--green);}
+.ev-negativo{color:var(--red);}
+.ev-label{font-size:.65rem;color:var(--muted);text-align:center;letter-spacing:.5px;text-transform:uppercase;}
+
+/* Tabela de combos */
+.combos-table{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:1rem;margin-top:1.2rem;}
+.combo-row{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:.35rem .5rem;border-radius:6px;font-size:.7rem;margin-bottom:.2rem;
+  background:var(--bg3);
+}
+.combo-tipo{color:var(--muted);font-weight:700;min-width:55px;}
+.combo-jogos{flex:1;color:var(--text);font-weight:500;padding:0 .5rem;font-size:.65rem;}
+.combo-odd{color:var(--gold);font-weight:800;}
+.combo-retorno{color:var(--green);font-weight:700;min-width:65px;text-align:right;}
+
+/* Inputs manuais */
+.manual-panel{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:1rem;margin-bottom:1.2rem;}
+.manual-row{display:flex;gap:.5rem;margin-bottom:.6rem;align-items:center;flex-wrap:wrap;}
+.manual-input{
+  background:var(--bg3);border:1px solid var(--border);color:var(--text);
+  padding:.35rem .6rem;border-radius:8px;font-family:'Inter',sans-serif;
+  font-size:.75rem;outline:none;
+}
+.manual-input:focus{border-color:var(--gold);}
+.manual-input.time{flex:2;min-width:100px;}
+.manual-input.odd{width:70px;text-align:center;}
+.manual-input.liga{width:60px;text-align:center;}
+.btn-add{
+  background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.3);
+  color:var(--gold);padding:.35rem .8rem;border-radius:8px;cursor:pointer;
+  font-size:.75rem;font-weight:700;font-family:'Inter',sans-serif;
+  transition:all .2s;white-space:nowrap;
+}
+.btn-add:hover{background:rgba(245,158,11,0.25);}
+.btn-limpar{
+  background:rgba(239,68,68,0.1);border:1px solid rgba(239,68,68,0.2);
+  color:var(--red);padding:.3rem .7rem;border-radius:8px;cursor:pointer;
+  font-size:.7rem;font-weight:700;font-family:'Inter',sans-serif;transition:all .2s;
+}
+
+/* ─── LEGENDA ─── */
+.legenda{
+  display:flex;gap:.8rem;flex-wrap:wrap;padding:.6rem .8rem;
+  background:var(--bg3);border-radius:8px;font-size:.65rem;margin-bottom:1rem;
+}
+.leg-item{display:flex;align-items:center;gap:.3rem;color:var(--muted);}
+.leg-dot{width:8px;height:8px;border-radius:50%;}
+
+/* Botão principal */
+.btn-primary{
+  width:100%;padding:.7rem;background:linear-gradient(135deg,var(--gold),var(--gold2));
+  color:#000;border:none;border-radius:10px;font-family:'Inter',sans-serif;
+  font-size:.85rem;font-weight:900;cursor:pointer;letter-spacing:.5px;
+  transition:all .2s;margin-top:.6rem;
+}
+.btn-primary:hover{opacity:.9;transform:translateY(-1px);}
+.btn-primary:disabled{opacity:.4;cursor:not-allowed;transform:none;}
+
+/* Empty state */
+.empty-state{text-align:center;padding:2rem;color:var(--muted);font-size:.8rem;}
+.empty-state .emoji{font-size:2rem;margin-bottom:.5rem;}
+
+/* Toast */
+.toast{
+  position:fixed;bottom:1.5rem;right:1.5rem;z-index:999;
+  background:var(--bg2);border:1px solid var(--border);border-radius:12px;
+  padding:.8rem 1.2rem;font-size:.8rem;font-weight:600;
+  transform:translateY(100px);opacity:0;transition:all .3s;
+}
+.toast.show{transform:translateY(0);opacity:1;}
+.toast.ok{border-color:var(--green);color:var(--green);}
+.toast.warn{border-color:var(--gold);color:var(--gold);}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-icon">🎯</div>
+    <div class="logo-text">
+      <h1>YAAKEN Scanner</h1>
+      <p>EDS Soluções Inteligentes</p>
+    </div>
+  </div>
+  <div style="display:flex;gap:.6rem;align-items:center;">
+    <span class="badge-y">BETA v1</span>
+    <span style="font-size:.7rem;color:var(--muted);" id="statusLiga">Nenhum dado carregado</span>
+  </div>
+</header>
+
+<div class="container">
+  <div class="grid-main">
+
+    <!-- ─── COLUNA ESQUERDA ─── -->
+    <div>
+
+      <!-- Importar JSON -->
+      <div class="import-panel" onclick="document.getElementById('fileInput').click()">
+        <div class="import-icon">📂</div>
+        <h3>Importar Rodada do Monster YAAKEN</h3>
+        <p>Clique para carregar yaaken_[LIGA]_[DATA].json</p>
+      </div>
+      <input type="file" id="fileInput" accept=".json" onchange="importarJSON(event)">
+
+      <!-- Entrada manual -->
+      <div class="manual-panel">
+        <div class="section-title">Entrada Manual de Jogo</div>
+        <div class="manual-row">
+          <input class="manual-input time" id="mMandante" placeholder="Mandante">
+          <span style="color:var(--muted);font-size:.8rem;">vs</span>
+          <input class="manual-input time" id="mVisitante" placeholder="Visitante">
+          <input class="manual-input liga" id="mLiga" placeholder="Liga" value="BR">
+        </div>
+        <div class="manual-row">
+          <span style="font-size:.7rem;color:var(--muted);white-space:nowrap;">Odds 1X2:</span>
+          <input class="manual-input odd" id="mOdd1" placeholder="Casa">
+          <input class="manual-input odd" id="mOddX" placeholder="Empate">
+          <input class="manual-input odd" id="mOdd2" placeholder="Fora">
+          <span style="font-size:.7rem;color:var(--muted);white-space:nowrap;">H2H (opt):</span>
+          <input class="manual-input odd" id="mH2HTotal" placeholder="Jogos">
+          <input class="manual-input odd" id="mH2HEmp" placeholder="Empates">
+          <input class="manual-input odd" id="mH2HVis" placeholder="Vitórias V">
+          <button class="btn-add" onclick="adicionarManual()">+ Adicionar</button>
+          <button class="btn-limpar" onclick="limparJogos()">Limpar</button>
+        </div>
+      </div>
+
+      <!-- Legenda -->
+      <div class="legenda">
+        <div class="leg-item"><div class="leg-dot" style="background:var(--gold)"></div> Odd qualifica (≥2.50)</div>
+        <div class="leg-item"><div class="leg-dot" style="background:var(--green)"></div> SNIPER — sinal máximo</div>
+        <div class="leg-item"><div class="leg-dot" style="background:var(--blue)"></div> FORTE — bom sinal</div>
+        <div class="leg-item"><div class="leg-dot" style="background:var(--muted)"></div> FRACO — sem sinal</div>
+        <div class="leg-item">🟡 = Clique no outcome para selecionar</div>
+      </div>
+
+      <!-- Lista de jogos -->
+      <div class="section-title">Jogos da Rodada</div>
+      <div id="jogosList">
+        <div class="empty-state">
+          <div class="emoji">⚽</div>
+          <p>Importe um JSON ou adicione jogos manualmente acima</p>
+        </div>
+      </div>
+
+    </div><!-- /coluna esquerda -->
+
+    <!-- ─── COLUNA DIREITA ─── -->
+    <div class="right-panel">
+
+      <!-- Seleção YAAKEN -->
+      <div class="selecao-panel">
+        <div class="section-title">Seleções YAAKEN</div>
+        <div class="selecao-count">
+          <div>
+            <div style="font-size:.7rem;color:var(--muted);margin-bottom:.2rem;">Selecionadas</div>
+            <div style="display:flex;align-items:center;gap:.5rem;">
+              <div class="count-badge" id="countBadge">0</div>
+              <div style="font-size:.7rem;color:var(--muted);">de 4-5 recomendadas</div>
+            </div>
+          </div>
+          <div style="text-align:right;">
+            <div style="font-size:.7rem;color:var(--muted);">Odd acumulada</div>
+            <div style="font-size:1.2rem;font-weight:900;color:var(--gold);" id="oddAcum">—</div>
+          </div>
+        </div>
+        <div class="selecao-lista" id="selecaoLista">
+          <div class="sel-empty">Clique nos outcomes dourados dos jogos</div>
+        </div>
+
+        <!-- Stake -->
+        <div class="stake-row">
+          <span class="stake-label">R$ / combo:</span>
+          <input class="stake-input" id="stakeInput" type="number" value="5" min="1" oninput="calcularCombos()">
+        </div>
+        <div class="combos-info">
+          <span id="combosInfo">—</span>
+          <span class="combos-total" id="stakeTotal">—</span>
+        </div>
+        <button class="btn-primary" id="btnGerar" onclick="gerarCombos()" disabled>
+          🎯 Gerar Combinações YAAKEN
+        </button>
+      </div>
+
+      <!-- Cenários de retorno -->
+      <div class="cenarios-panel" id="cenariosPanel" style="display:none;">
+        <div class="section-title">Cenários de Retorno</div>
+        <div id="cenariosContent"></div>
+      </div>
+
+      <!-- EV esperado -->
+      <div class="ev-panel" id="evPanel" style="display:none;">
+        <div class="ev-label">EV Esperado da Sessão</div>
+        <div class="ev-numero" id="evNumero">—</div>
+        <div class="ev-label" id="evSub">—</div>
+      </div>
+
+    </div><!-- /coluna direita -->
+  </div>
+
+  <!-- Tabela de combinações -->
+  <div class="combos-table" id="combosTable" style="display:none;">
+    <div class="section-title">Todas as Combinações</div>
+    <div id="combosContent"></div>
+  </div>
+
+</div><!-- /container -->
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ═══════════════════════════════════════════════════
+//  ESTADO GLOBAL
+// ═══════════════════════════════════════════════════
+let JOGOS = [];            // todos os jogos carregados
+let SELECOES = [];         // [{jogo, outcome, odd, label}]
+const ODD_MIN = 2.50;
+
+// ═══════════════════════════════════════════════════
+//  MEMÓRIA YAAKEN — Brasileirão Série A 2026
+//  Base: 97 jogos | 10 rodadas | Fantasma v5
+// ═══════════════════════════════════════════════════
+const MEMORIAS = {
+  BR: {
+    media_cantos_ft: 10.26,
+    over_85: 0.732,
+    fator_mandante: 1.18,
+    classicos: [
+      ['Internacional','Grêmio'], ['Grêmio','Internacional'],
+      ['Corinthians','Palmeiras'], ['Palmeiras','Corinthians'],
+      ['Fluminense','Flamengo'], ['Flamengo','Fluminense'],
+      ['Santos','São Paulo'], ['São Paulo','Santos'],
+      ['Cruzeiro','Atlético-MG'], ['Atlético-MG','Cruzeiro']
+    ],
+    times: {
+      'Internacional':        { razao: 1.89, dom: 8.46, perfil:'ATIVO',   notas: ['Domina em todos os campos','Empate em casa pode ter valor se odds altas'] },
+      'Mirassol':             { razao: 1.88, dom: 7.42, perfil:'ATIVO',   notas: ['2ª maior razão da liga','Visitante com odd >=3.50 = SNIPER','Mercado subestima'] },
+      'Vasco':                { razao: 1.50, dom: 6.92, perfil:'ATIVO',   notas: ['Muito forte em casa (6.50 cantos)','Visitante: cai para 3.75 — depende do mando'] },
+      'Fluminense':           { razao: 1.34, dom: 6.94, perfil:'ATIVO',   notas: ['Anomalia: mais forte FORA (6.80) do que em casa (5.00)','Visitante Flu >=3.00 = YAAKEN'] },
+      'São Paulo':            { razao: 1.40, dom: 6.50, perfil:'ATIVO',   notas: ['Consistente casa e fora','Candidato a Empate vs TOP-3'] },
+      'Cruzeiro':             { razao: 1.39, dom: 6.18, perfil:'ATIVO',   notas: ['Sólido em casa (6.60 cantos)'] },
+      'Corinthians':          { razao: 0.98, dom: 6.06, perfil:'ATIVO',   notas: ['Razão 0.98 = equilíbrio perfeito','Derby vs Palmeiras = EMPATE clássico YAAKEN'] },
+      'Red Bull Bragantino':  { razao: 0.97, dom: 7.50, perfil:'ATIVO',   notas: ['Maior finalizador: 9.90 chutes/jogo','Jogos abertos — Empate tem valor'] },
+      'Santos':               { razao: 1.19, dom: 5.96, perfil:'MÉDIO',   notas: ['Levemente mais forte fora'] },
+      'Bahia':                { razao: 1.14, dom: 5.69, perfil:'MÉDIO',   notas: ['Forte em casa (6.00 cantos)', 'Fora de casa cai muito'] },
+      'Grêmio':               { razao: 1.19, dom: 5.64, perfil:'MÉDIO',   notas: ['Grenal Empate >=3.50 = candidato SNIPER'] },
+      'Athletico-PR':         { razao: 0.98, dom: 5.64, perfil:'MÉDIO',   notas: ['Muito dependente do mando (5.60 casa vs 3.60 fora)'] },
+      'Palmeiras':            { razao: 0.71, dom: 5.54, perfil:'MÉDIO',   notas: ['ANOMALIA: sofre 6.90 cantos/jogo','Adversário do Palmeiras SEMPRE vale análise'] },
+      'Atlético-MG':          { razao: 0.80, dom: 5.78, perfil:'MÉDIO',   notas: ['INVERSÃO: 3.80 em casa vs 6.00 fora!','Visitante Atlético 3.00-4.50 = YAAKEN'] },
+      'Flamengo':             { razao: 0.84, dom: 5.64, perfil:'MÉDIO',   notas: ['Paradoxo: 8.11 finalizações mas só 4.00 cantos','Sofre mais que gera'] },
+      'Chapecoense':          { razao: 0.70, dom: 6.96, perfil:'ATIVO',   notas: ['10.22 finalizações mas razão cantos 0.70 — chuta fora da área','Evitar visitante'] },
+      'Vitória':              { razao: 0.78, dom: 5.24, perfil:'MÉDIO',   notas: ['Zona rebaixamento','Casa com odd 2.50-3.50 pode ter valor vs visitantes fracos'] },
+      'Remo':                 { razao: 0.66, dom: 5.46, perfil:'MÉDIO',   notas: ['Sofre 6.50 cantos/jogo','Visitante Remo: evitar YAAKEN'] },
+      'Coritiba':             { razao: 0.46, dom: 4.42, perfil:'PASSIVO', notas: ['MURO EXTREMO: razão 0.46 — mais passivo da liga','Em casa gera 2.80 cantos','EVITAR qualquer YAAKEN com Coritiba mandante'] },
+      'Botafogo':             { razao: 0.54, dom: 4.31, perfil:'PASSIVO', notas: ['Em casa gera 2.33 cantos — fantasma!','Razão 0.54 = time sem agressividade territorial','Paradoxo: campeão 2025'] }
+    },
+    ajuste_sinal: {
+      visitante_dominante: +15,  // razao > 1.5 como visitante
+      mandante_passivo:   -20,   // razao < 0.6 como mandante
+      classico_empate:    +25,   // clássico + outcome empate
+      palmeiras_adversario: +15, // adversário do Palmeiras
+      anomalia_visitante:  +20,  // Flu/Atlético fora
+      muro_extremo:       -25    // Coritiba/Botafogo mandante
+    }
+  }
+};
+
+// ─── Obtém memória de uma liga ───
+function getMemoria(liga) {
+  return MEMORIAS[liga] || null;
+}
+
+// ─── Notas qualitativas para um time/outcome ───
+function getNotasTime(liga, nomeTime, outcome) {
+  const mem = getMemoria(liga);
+  if (!mem) return [];
+  // Normalizar nome
+  const key = Object.keys(mem.times).find(k =>
+    k.toLowerCase() === nomeTime.toLowerCase() ||
+    nomeTime.toLowerCase().includes(k.toLowerCase().split(' ')[0])
+  );
+  if (!key) return [];
+  const t = mem.times[key];
+  const notas = [...(t.notas || [])];
+  if (outcome === '2' && t.razao > 1.5) notas.unshift(`🎯 Visitante dominante (razão ${t.razao.toFixed(2)})`);
+  if (outcome === '1' && t.razao < 0.6) notas.unshift(`⛔ Mandante passivo (razão ${t.razao.toFixed(2)})`);
+  return notas;
+}
+
+// ─── Verifica se é clássico ───
+function ehClassico(liga, mandante, visitante) {
+  const mem = getMemoria(liga);
+  if (!mem) return false;
+  return mem.classicos.some(([m, v]) =>
+    (m.toLowerCase() === mandante.toLowerCase() && v.toLowerCase() === visitante.toLowerCase()) ||
+    (m.toLowerCase().includes(mandante.toLowerCase().split(' ')[0]) &&
+     v.toLowerCase().includes(visitante.toLowerCase().split(' ')[0]))
+  );
+}
+
+// ═══════════════════════════════════════════════════
+//  SIGNAL ENGINE v2 — usa Memória YAAKEN da liga
+// ═══════════════════════════════════════════════════
+function calcularSinal(jogo, outcome, odd) {
+  if (odd < ODD_MIN) return { nivel: 'FORA', score: 0 };
+
+  const liga = jogo.liga || jogo.codigo_liga || 'BR';
+  const mem  = getMemoria(liga);
+  let score  = 0;
+  const detalhes = [];
+
+  // ── 1. Odd na zona ideal ──
+  if (odd >= 2.50 && odd < 3.00)      { score += 20; detalhes.push('Odd zona entrada +20'); }
+  else if (odd >= 3.00 && odd < 3.80) { score += 30; detalhes.push('Odd zona PEAK +30'); }
+  else if (odd >= 3.80 && odd < 5.00) { score += 20; detalhes.push('Odd zona alto risco +20'); }
+  else                                { score += 10; detalhes.push('Odd >5.00 +10'); }
+
+  // ── 2. H2H (confrontos diretos) ──
+  const h = jogo.h2h;
+  const totalH2H = h?.total || h?.total_confrontos || 0;
+  if (totalH2H >= 3) {
+    if (outcome === 'X') {
+      const tx = h.taxa_empate || 0;
+      if (tx >= 35)      { score += 35; detalhes.push(`H2H empate ${tx.toFixed(0)}% +35`); }
+      else if (tx >= 25) { score += 22; detalhes.push(`H2H empate ${tx.toFixed(0)}% +22`); }
+      else if (tx >= 15) { score += 10; detalhes.push(`H2H empate ${tx.toFixed(0)}% +10`); }
+    } else if (outcome === '2') {
+      const tv = h.taxa_visitante || 0;
+      if (tv >= 35)      { score += 35; detalhes.push(`H2H visitante ${tv.toFixed(0)}% +35`); }
+      else if (tv >= 25) { score += 22; detalhes.push(`H2H visitante ${tv.toFixed(0)}% +22`); }
+      else if (tv >= 15) { score += 10; detalhes.push(`H2H visitante ${tv.toFixed(0)}% +10`); }
+    } else {
+      const taxaM = (h.vitorias_mandante || 0) / totalH2H * 100;
+      if (taxaM >= 40) { score += 20; detalhes.push(`H2H mandante ${taxaM.toFixed(0)}% +20`); }
+      else             { score += 5;  detalhes.push('H2H mandante fraco +5'); }
+    }
+  } else {
+    score += 8; detalhes.push('H2H insuficiente +8');
+  }
+
+  // ── 3. Equilíbrio de odds ──
+  const odds = [parseFloat(jogo.odds?.oddM)||0, parseFloat(jogo.odds?.oddEmpate)||0, parseFloat(jogo.odds?.oddV)||0].filter(o => o > 0);
+  if (odds.length === 3) {
+    const spread = Math.max(...odds) - Math.min(...odds);
+    if (spread < 1.0)      { score += 25; detalhes.push(`Spread ${spread.toFixed(2)} ultra-equilibrado +25`); }
+    else if (spread < 1.5) { score += 20; detalhes.push(`Spread ${spread.toFixed(2)} equilibrado +20`); }
+    else if (spread < 2.5) { score += 10; detalhes.push(`Spread ${spread.toFixed(2)} médio +10`); }
+  }
+
+  // ── 4. Ajustes da Memória YAAKEN ──
+  if (mem) {
+    const adj = mem.ajuste_sinal;
+    const mandante  = jogo.mandante  || '';
+    const visitante = jogo.visitante || '';
+
+    // Encontrar perfil dos times na memória
+    const findTime = (nome) => {
+      const k = Object.keys(mem.times).find(k =>
+        nome.toLowerCase().includes(k.toLowerCase().split(' ')[0]) ||
+        k.toLowerCase().includes(nome.toLowerCase().split(' ')[0])
+      );
+      return k ? mem.times[k] : null;
+    };
+
+    const tMandante  = findTime(mandante);
+    const tVisitante = findTime(visitante);
+
+    // Visitante dominante como zebra
+    if (outcome === '2' && tVisitante && tVisitante.razao > 1.5) {
+      score += adj.visitante_dominante;
+      detalhes.push(`Visitante dominante (razão ${tVisitante.razao.toFixed(2)}) +${adj.visitante_dominante}`);
+    }
+
+    // Mandante passivo — penalidade para mandante como zebra
+    if (outcome === '1' && tMandante && tMandante.razao < 0.6) {
+      score += adj.muro_extremo;
+      detalhes.push(`Mandante passivo extremo (razão ${tMandante.razao.toFixed(2)}) ${adj.muro_extremo}`);
+    }
+
+    // Clássico + empate
+    if (outcome === 'X' && ehClassico(liga, mandante, visitante)) {
+      score += adj.classico_empate;
+      detalhes.push(`Clássico — Empate amplificado +${adj.classico_empate}`);
+    }
+
+    // Palmeiras adversário
+    if (mandante.toLowerCase().includes('palmeiras') || visitante.toLowerCase().includes('palmeiras')) {
+      if ((outcome === '1' && visitante.toLowerCase().includes('palmeiras')) ||
+          (outcome === '2' && mandante.toLowerCase().includes('palmeiras')) ||
+          outcome === 'X') {
+        score += adj.palmeiras_adversario;
+        detalhes.push(`Palmeiras sofre território +${adj.palmeiras_adversario}`);
+      }
+    }
+
+    // Anomalia visitante (Flu, Atlético fora)
+    if (outcome === '2') {
+      const anomalos = ['fluminense', 'atlético-mg', 'atletico-mg'];
+      if (anomalos.some(a => visitante.toLowerCase().includes(a.split('-')[0]))) {
+        score += adj.anomalia_visitante;
+        detalhes.push(`Anomalia — time mais forte fora +${adj.anomalia_visitante}`);
+      }
+    }
+  }
+
+  // ── 5. Penalidade geral: mandante como zebra >4.00 ──
+  if (outcome === '1' && odd > 4.00) {
+    score -= 15;
+    detalhes.push('Mandante zebra >4.00 -15');
+  }
+
+  score = Math.max(0, Math.min(100, score));
+
+  let nivel = 'FRACO';
+  if (score >= 75) nivel = 'SNIPER';
+  else if (score >= 55) nivel = 'FORTE';
+  else if (score >= 35) nivel = 'MEDIO';
+
+  return { nivel, score, detalhes };
+}
+
+// ═══════════════════════════════════════════════════
+//  RENDER JOGO
+// ═══════════════════════════════════════════════════
+function renderJogos() {
+  const container = document.getElementById('jogosList');
+  if (!JOGOS.length) {
+    container.innerHTML = `<div class="empty-state"><div class="emoji">⚽</div><p>Importe um JSON ou adicione jogos manualmente acima</p></div>`;
+    return;
+  }
+
+  container.innerHTML = JOGOS.map((jogo, idx) => {
+    const odds = jogo.odds || {};
+    const h = jogo.h2h;
+    const isSelected = SELECOES.some(s => s.jogoIdx === idx);
+
+    // Odds
+    const outcomeData = [
+      { outcome: '1', label: 'Casa',   odd: odds.oddM     || 0 },
+      { outcome: 'X', label: 'Empate', odd: odds.oddEmpate || 0 },
+      { outcome: '2', label: 'Fora',   odd: odds.oddV     || 0 }
+    ];
+
+    const oddsHTML = outcomeData.map(od => {
+      const qualifica = od.odd >= ODD_MIN;
+      const sinal = calcularSinal(jogo, od.outcome, od.odd);
+      const selThisOutcome = SELECOES.find(s => s.jogoIdx === idx && s.outcome === od.outcome);
+      const implied = od.odd > 0 ? (100 / od.odd).toFixed(1) : '—';
+
+      return `<div class="odd-pill ${qualifica ? 'yaaken' : ''} ${selThisOutcome ? 'selecionado-odd' : ''}"
+        onclick="toggleOutcome(${idx}, '${od.outcome}', ${od.odd}, '${od.label}', '${jogo.mandante || '?'} x ${jogo.visitante || '?'}')">
+        <div class="odd-label">${od.label}</div>
+        <div class="odd-valor ${qualifica ? 'qualifica' : 'nao-qualifica'}">${od.odd > 0 ? od.odd.toFixed(2) : '—'}</div>
+        <div class="implied">${implied}%</div>
+      </div>`;
+    }).join('');
+
+    // Sinal do melhor outcome >= 2.50
+    const melhoresSinais = outcomeData
+      .filter(od => od.odd >= ODD_MIN)
+      .map(od => calcularSinal(jogo, od.outcome, od.odd))
+      .sort((a, b) => b.score - a.score);
+    const melhorSinal = melhoresSinais[0] || { nivel: 'FORA', score: 0 };
+
+    // H2H mini
+    const total = h ? (h.total || h.total_confrontos || 0) : 0;
+    const hMV   = h ? (h.vitorias_mandante || h.mandante_vitorias || 0) : 0;
+    const hE    = h ? (h.empates || 0) : 0;
+    const hVV   = h ? (h.vitorias_visitante || h.visitante_vitorias || 0) : 0;
+    const hTE   = h ? (h.taxa_empate || 0) : 0;
+    const hTV   = h ? (h.taxa_visitante || 0) : 0;
+    const pM = total ? (hMV / total * 100) : 33;
+    const pE = total ? (hE  / total * 100) : 34;
+    const pV = total ? (hVV / total * 100) : 33;
+
+    const h2hHTML = `<div class="h2h-mini">
+      <div class="h2h-title">H2H — ${total > 0 ? total + ' jogos' : 'Sem histórico'}</div>
+      ${total > 0 ? `
+      <div class="h2h-bars">
+        <div class="h2h-bar-m" style="width:${pM}%"></div>
+        <div class="h2h-bar-e" style="width:${pE}%"></div>
+        <div class="h2h-bar-v" style="width:${pV}%"></div>
+      </div>
+      <div class="h2h-stats">
+        <div class="h2h-stat" style="color:var(--green)"><span>${hMV}</span>Casa</div>
+        <div class="h2h-stat" style="color:var(--gold)"><span>${hE} (${hTE}%)</span>Empate</div>
+        <div class="h2h-stat" style="color:var(--blue)"><span>${hVV} (${hTV}%)</span>Fora</div>
+      </div>` : `<div style="font-size:.65rem;color:var(--muted)">Primeiro confronto</div>`}
+    </div>`;
+
+    // Notas qualitativas da memória
+    const liga = jogo.liga || jogo.codigo_liga || 'BR';
+    const notasMandante  = getNotasTime(liga, jogo.mandante  || '', '1');
+    const notasVisitante = getNotasTime(liga, jogo.visitante || '', '2');
+    const isClassico     = ehClassico(liga, jogo.mandante || '', jogo.visitante || '');
+
+    const todasNotas = [];
+    if (isClassico) todasNotas.push({ tipo: 'classico', texto: '⚡ CLÁSSICO — Empate historicamente frequente' });
+    notasMandante.slice(0,2).forEach(n  => todasNotas.push({ tipo: 'mandante',  texto: `🏠 ${n}` }));
+    notasVisitante.slice(0,2).forEach(n => todasNotas.push({ tipo: 'visitante', texto: `✈️ ${n}` }));
+
+    const notasHTML = todasNotas.length > 0
+      ? `<div class="memoria-notas">${todasNotas.map(n =>
+          `<div class="memoria-nota nota-${n.tipo}">${n.texto}</div>`
+        ).join('')}</div>`
+      : '';
+
+    return `<div class="jogo-card ${isSelected ? 'selecionado' : ''}" id="jogo-${idx}">
+      <div class="jogo-header">
+        <div class="jogo-times">
+          <span>${jogo.mandante || '?'}</span>
+          <span class="vs">VS</span>
+          <span>${jogo.visitante || '?'}</span>
+          ${isClassico ? `<span class="liga-badge" style="background:rgba(245,158,11,0.2);color:var(--gold)">⚡ Clássico</span>` : ''}
+          ${jogo.liga ? `<span class="liga-badge">${jogo.liga}</span>` : ''}
+        </div>
+        <div class="check-box" id="check-${idx}">${isSelected ? '✓' : ''}</div>
+      </div>
+      <div class="odds-row">${oddsHTML}</div>
+      ${notasHTML}
+      <div class="jogo-bottom">
+        ${h2hHTML}
+        <div class="sinal-box sinal-${melhorSinal.nivel}">
+          <div class="sinal-label">Sinal</div>
+          <div class="sinal-valor">${melhorSinal.nivel}</div>
+          <div style="font-size:.6rem;color:var(--muted);margin-top:.2rem;">${melhorSinal.score}/100</div>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ═══════════════════════════════════════════════════
+//  TOGGLE OUTCOME SELEÇÃO
+// ═══════════════════════════════════════════════════
+function toggleOutcome(jogoIdx, outcome, odd, label, jogo) {
+  if (odd < ODD_MIN) { showToast(`Odd ${odd} abaixo do mínimo (${ODD_MIN})`, 'warn'); return; }
+
+  const existing = SELECOES.findIndex(s => s.jogoIdx === jogoIdx);
+
+  if (existing !== -1) {
+    // Já tem seleção desse jogo
+    if (SELECOES[existing].outcome === outcome) {
+      // Deselecionar
+      SELECOES.splice(existing, 1);
+    } else {
+      // Trocar outcome
+      SELECOES[existing] = { jogoIdx, outcome, odd, label: `${jogo} → ${label}`, jogo, outcomeLabel: label };
+      showToast(`Trocado para ${label} @ ${odd}`, 'ok');
+    }
+  } else {
+    if (SELECOES.length >= 5) { showToast('Máximo 5 seleções. Remova uma primeiro.', 'warn'); return; }
+    SELECOES.push({ jogoIdx, outcome, odd, label: `${jogo} → ${label}`, jogo, outcomeLabel: label });
+  }
+
+  atualizarPainel();
+  renderJogos();
+}
+
+// ═══════════════════════════════════════════════════
+//  ATUALIZAR PAINEL DIREITO
+// ═══════════════════════════════════════════════════
+function atualizarPainel() {
+  const n = SELECOES.length;
+  document.getElementById('countBadge').textContent = n;
+
+  const lista = document.getElementById('selecaoLista');
+  if (n === 0) {
+    lista.innerHTML = '<div class="sel-empty">Clique nos outcomes dourados dos jogos</div>';
+    document.getElementById('oddAcum').textContent = '—';
+    document.getElementById('combosInfo').textContent = '—';
+    document.getElementById('stakeTotal').textContent = '—';
+    document.getElementById('btnGerar').disabled = true;
+    document.getElementById('cenariosPanel').style.display = 'none';
+    document.getElementById('evPanel').style.display = 'none';
+    document.getElementById('combosTable').style.display = 'none';
+    return;
+  }
+
+  lista.innerHTML = SELECOES.map((s, i) =>
+    `<div class="sel-item">
+      <span style="color:var(--muted);font-size:.65rem;">${i+1}.</span>
+      <span style="flex:1;padding:0 .4rem;">${s.label}</span>
+      <span class="sel-odd">${s.odd.toFixed(2)}</span>
+      <span class="sel-remove" onclick="removerSelecao(${i})">✕</span>
+    </div>`
+  ).join('');
+
+  const oddAcum = SELECOES.reduce((acc, s) => acc * s.odd, 1);
+  document.getElementById('oddAcum').textContent = oddAcum.toFixed(2);
+
+  calcularCombos();
+  document.getElementById('btnGerar').disabled = n < 2;
+}
+
+function removerSelecao(i) {
+  SELECOES.splice(i, 1);
+  atualizarPainel();
+  renderJogos();
+}
+
+function calcularCombos() {
+  const n = SELECOES.length;
+  const stake = parseFloat(document.getElementById('stakeInput').value) || 5;
+  const nD = comb(n, 2), nT = comb(n, 3);
+  const total = (nD + nT) * stake;
+  document.getElementById('combosInfo').textContent = `${nD} duplas + ${nT} triplas = ${nD+nT} apostas`;
+  document.getElementById('stakeTotal').textContent = `Stake: R$${total.toFixed(2)}`;
+}
+
+function comb(n, k) {
+  if (k > n || k < 0) return 0;
+  if (k === 0 || k === n) return 1;
+  let r = 1;
+  for (let i = 0; i < k; i++) r = r * (n - i) / (i + 1);
+  return Math.round(r);
+}
+
+// ═══════════════════════════════════════════════════
+//  GERAR COMBINAÇÕES E CENÁRIOS
+// ═══════════════════════════════════════════════════
+function gerarCombos() {
+  const n = SELECOES.length;
+  if (n < 2) return;
+
+  const stake = parseFloat(document.getElementById('stakeInput').value) || 5;
+  const oddMedia = SELECOES.reduce((a,s) => a + s.odd, 0) / n;
+  const stakeTotal = (comb(n,2) + comb(n,3)) * stake;
+
+  // Gerar todas as combinações
+  const combsList = [];
+  // Duplas
+  for (let i = 0; i < n; i++)
+    for (let j = i+1; j < n; j++)
+      combsList.push({ tipo:'DUPLA', idxs:[i,j], odd: SELECOES[i].odd * SELECOES[j].odd });
+  // Triplas
+  for (let i = 0; i < n; i++)
+    for (let j = i+1; j < n; j++)
+      for (let k = j+1; k < n; k++)
+        combsList.push({ tipo:'TRIPLA', idxs:[i,j,k], odd: SELECOES[i].odd * SELECOES[j].odd * SELECOES[k].odd });
+
+  // Cenários por número de acertos
+  const cenariosPanel = document.getElementById('cenariosPanel');
+  const cenariosContent = document.getElementById('cenariosContent');
+  cenariosPanel.style.display = 'block';
+
+  // Hit rate estimado baseado nos sinais
+  const pEstimado = estimarHitRate();
+
+  let cenariosHTML = '';
+  let evEsperado = 0;
+  let evTotal = 0;
+
+  for (let k = n; k >= 0; k--) {
+    // Calcular retorno para k acertos (assume melhores odds ganham)
+    let retorno = 0;
+    if (k >= 2) {
+      const duplas = comb(k, 2);
+      const triplas = comb(k, 3);
+      // Odd estimada para combos ganhos (usa odds reais se k <= n)
+      retorno = duplas * oddMedia * oddMedia * stake + triplas * Math.pow(oddMedia, 3) * stake;
+    }
+    const lucro = retorno - stakeTotal;
+    const probK = binomProb(n, k, pEstimado);
+    evTotal += probK * lucro;
+
+    const cls = lucro > 0 ? 'lucro' : (lucro === 0 ? 'neutro' : 'prejuizo');
+    cenariosHTML += `<div class="cenario-row ${cls}">
+      <span class="cenario-label">${k}/${n} acertos</span>
+      <span class="cenario-prob">${(probK*100).toFixed(1)}%</span>
+      <span class="cenario-retorno" style="color:var(--gold)">R$${retorno.toFixed(0)}</span>
+      <span class="cenario-pl ${lucro >= 0 ? 'pos' : 'neg'}">${lucro >= 0 ? '+' : ''}R$${lucro.toFixed(0)}</span>
+    </div>`;
+  }
+
+  cenariosContent.innerHTML = `
+    <div style="display:flex;justify-content:space-between;font-size:.6rem;color:var(--muted);padding:.2rem .5rem .4rem;margin-bottom:.2rem;">
+      <span>Acertos</span><span>Prob est.</span><span>Retorno</span><span>P&L</span>
+    </div>
+    ${cenariosHTML}
+    <div style="font-size:.6rem;color:var(--muted);text-align:center;margin-top:.5rem;">
+      * Odd média usada: ${oddMedia.toFixed(2)} | Hit rate estimado: ${(pEstimado*100).toFixed(0)}%
+    </div>`;
+
+  // EV panel
+  const evPanel = document.getElementById('evPanel');
+  evPanel.style.display = 'block';
+  const evPct = (evTotal / stakeTotal * 100);
+  document.getElementById('evNumero').textContent = `${evTotal >= 0 ? '+' : ''}R$${evTotal.toFixed(2)}`;
+  document.getElementById('evNumero').className = `ev-numero ${evTotal >= 0 ? 'ev-positivo' : 'ev-negativo'}`;
+  document.getElementById('evSub').textContent = `ROI esperado: ${evPct >= 0 ? '+' : ''}${evPct.toFixed(1)}% | Stake: R$${stakeTotal.toFixed(2)}`;
+
+  // Tabela de combos
+  const combosTable = document.getElementById('combosTable');
+  combosTable.style.display = 'block';
+  document.getElementById('combosContent').innerHTML = combsList.map(c => {
+    const jogosLabel = c.idxs.map(i => `<b>${SELECOES[i].outcomeLabel || SELECOES[i].outcome}</b> (${SELECOES[i].odd.toFixed(2)})`).join(' + ');
+    const nomes = c.idxs.map(i => SELECOES[i].jogo.split(' x ')[0]).join(' + ');
+    return `<div class="combo-row">
+      <span class="combo-tipo">${c.tipo}</span>
+      <span class="combo-jogos">${nomes}</span>
+      <span class="combo-odd">${c.odd.toFixed(2)}x</span>
+      <span class="combo-retorno">R$${(c.odd * stake).toFixed(2)}</span>
+    </div>`;
+  }).join('');
+
+  showToast(`${combsList.length} combinações geradas!`, 'ok');
+}
+
+function estimarHitRate() {
+  if (!SELECOES.length) return 0.30;
+  // Média dos sinais das seleções
+  const scores = SELECOES.map(s => {
+    const jogo = JOGOS[s.jogoIdx];
+    if (!jogo) return 30;
+    return calcularSinal(jogo, s.outcome, s.odd).score;
+  });
+  const mediaScore = scores.reduce((a,b)=>a+b,0) / scores.length;
+  // Mapeia score 0-100 para hit rate 20%-55%
+  return 0.20 + (mediaScore / 100) * 0.35;
+}
+
+function binomProb(n, k, p) {
+  return comb(n,k) * Math.pow(p,k) * Math.pow(1-p,n-k);
+}
+
+// ═══════════════════════════════════════════════════
+//  IMPORTAR JSON
+// ═══════════════════════════════════════════════════
+function importarJSON(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    try {
+      const data = JSON.parse(e.target.result);
+      const jogos = data.jogos || [];
+      JOGOS = jogos.map(j => ({
+        mandante:  j.mandante || '?',
+        visitante: j.visitante || '?',
+        liga:      data.liga || j.liga || '',
+        odds: j.odds ? {
+          oddM:      parseFloat(j.odds.oddM) || 0,
+          oddEmpate: parseFloat(j.odds.oddEmpate) || 0,
+          oddV:      parseFloat(j.odds.oddV) || 0
+        } : null,
+        h2h: j.h2h || null
+      }));
+      SELECOES = [];
+      document.getElementById('statusLiga').textContent = `${data.nome_liga || data.liga || 'Liga'} — ${JOGOS.length} jogos`;
+      renderJogos();
+      atualizarPainel();
+      showToast(`${JOGOS.length} jogos carregados!`, 'ok');
+    } catch(err) {
+      showToast('Erro ao ler JSON: ' + err.message, 'warn');
+    }
+  };
+  reader.readAsText(file);
+}
+
+// ═══════════════════════════════════════════════════
+//  ENTRADA MANUAL
+// ═══════════════════════════════════════════════════
+function adicionarManual() {
+  const m  = document.getElementById('mMandante').value.trim();
+  const v  = document.getElementById('mVisitante').value.trim();
+  const lg = document.getElementById('mLiga').value.trim() || 'BR';
+  const o1 = parseFloat(document.getElementById('mOdd1').value) || 0;
+  const oX = parseFloat(document.getElementById('mOddX').value) || 0;
+  const o2 = parseFloat(document.getElementById('mOdd2').value) || 0;
+  const hT = parseInt(document.getElementById('mH2HTotal').value) || 0;
+  const hE = parseInt(document.getElementById('mH2HEmp').value) || 0;
+  const hV = parseInt(document.getElementById('mH2HVis').value) || 0;
+
+  if (!m || !v) { showToast('Informe os nomes dos times', 'warn'); return; }
+  if (o1 === 0 && oX === 0 && o2 === 0) { showToast('Informe pelo menos uma odd', 'warn'); return; }
+
+  const h2h = hT > 0 ? {
+    total_confrontos:    hT,
+    mandante_vitorias:   hT - hE - hV,
+    empates:             hE,
+    visitante_vitorias:  hV,
+    taxa_empate:         parseFloat((hE / hT * 100).toFixed(1)),
+    taxa_visitante:      parseFloat((hV / hT * 100).toFixed(1))
+  } : null;
+
+  JOGOS.push({ mandante: m, visitante: v, liga: lg,
+    odds: { oddM: o1, oddEmpate: oX, oddV: o2 }, h2h });
+
+  // Limpar campos
+  ['mMandante','mVisitante','mOdd1','mOddX','mOdd2','mH2HTotal','mH2HEmp','mH2HVis']
+    .forEach(id => document.getElementById(id).value = '');
+
+  document.getElementById('statusLiga').textContent = `Manual — ${JOGOS.length} jogo(s)`;
+  renderJogos();
+  showToast(`${m} vs ${v} adicionado!`, 'ok');
+}
+
+function limparJogos() {
+  JOGOS = []; SELECOES = [];
+  document.getElementById('statusLiga').textContent = 'Nenhum dado carregado';
+  renderJogos(); atualizarPainel();
+}
+
+// ═══════════════════════════════════════════════════
+//  TOAST
+// ═══════════════════════════════════════════════════
+function showToast(msg, type = 'ok') {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = `toast show ${type}`;
+  setTimeout(() => t.className = 'toast', 2800);
+}
+
+// Init
+renderJogos();
+atualizarPainel();
+</script>
+</body>
+</html>

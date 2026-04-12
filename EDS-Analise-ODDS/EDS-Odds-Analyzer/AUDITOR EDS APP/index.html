@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Auditor EDS - Motor de auditoria neural para validação de projeções esportivas com Poisson, EWMA e TMI.">
+  <title>O Auditor | Laboratório EDS</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👁️</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="data/memoria_viva.js" defer></script>
+  <script src="data/mls2026.js" defer></script>
+  <script src="motor-matematico.js" defer></script>
+  <style>
+    :root {
+      --bg: #050505; --bg2: #111; --bg3: #1a1a1a;
+      --border: rgba(139, 92, 246, 0.2);
+      --purple: #8b5cf6; --green: #10b981; --red: #ef4444; --gold: #fbbf24;
+      --text: #f3f4f6; --muted: #6b7280;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text);
+      display: grid; grid-template-columns: 260px 1fr; height: 100vh; overflow: hidden;
+    }
+
+    /* ═══ SIDEBAR ═══ */
+    aside { background: var(--bg2); border-right: 1px solid var(--border); padding: 1.5rem; display: flex; flex-direction: column; }
+    aside h1 { font-size: 1.5rem; color: var(--purple); margin: 0 0 .5rem 0; display: flex; align-items: center; gap: 10px; }
+    .nav-btn { background: transparent; border: 1px solid transparent; color: var(--muted); padding: .8rem 1rem; text-align: left; font-size: .9rem; font-weight: 600; border-radius: 8px; cursor: pointer; margin-bottom: .5rem; transition: all .2s; width: 100%; }
+    .nav-btn:hover { background: rgba(139, 92, 246, 0.1); color: var(--text); }
+    .nav-btn.active { background: rgba(139, 92, 246, 0.15); border-color: var(--purple); color: var(--purple); }
+    main { padding: 2rem; overflow-y: auto; }
+
+    /* ═══ MOBILE ═══ */
+    .mobile-header { display: none; }
+    @media (max-width: 768px) {
+      body { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+      aside { display: none; }
+      .mobile-header {
+        display: flex; align-items: center; justify-content: space-between;
+        padding: .8rem 1rem; background: var(--bg2); border-bottom: 1px solid var(--border);
+      }
+      .mobile-header h1 { font-size: 1.1rem; color: var(--purple); margin: 0; display: flex; align-items: center; gap: 6px; }
+      .mobile-nav { display: flex; gap: 6px; }
+      .mobile-nav .nav-btn { padding: .4rem .6rem; font-size: .7rem; margin: 0; white-space: nowrap; }
+      main { padding: 1rem; }
+      .upload-zone { flex-direction: column; gap: 1rem; text-align: center; }
+      .upload-zone > div:last-child { width: 100%; justify-content: center; }
+      .page-title { font-size: 1.1rem !important; }
+      .page-subtitle { font-size: .8rem !important; }
+
+      /* Tabela mobile: layout empilhado */
+      #tabela-jogos thead { display: none; }
+      #tabela-jogos tbody tr { display: flex; flex-wrap: wrap; padding: .8rem; margin-bottom: .5rem; border: 1px solid var(--border); border-radius: 10px; background: var(--bg2); }
+      #tabela-jogos tbody tr td { border: none !important; background: none !important; padding: 4px 6px; }
+      #tabela-jogos tbody tr td:first-child { width: 100%; border-radius: 0 !important; font-size: .95rem; padding-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,0.05) !important; margin-bottom: 6px; }
+      #tabela-jogos tbody tr td:not(:first-child) { width: 50%; text-align: center; border-radius: 0 !important; }
+      .score-box { padding: 5px 10px; font-size: .95rem; }
+    }
+
+    /* ═══ COMPONENTES ═══ */
+    .view { display: none; } .view.active { display: block; }
+    .upload-zone { background: var(--bg3); border: 1px solid var(--border); padding: 1.5rem; border-radius: 12px; text-align: left; margin-bottom: 2rem; display: flex; justify-content: space-between; align-items: center; }
+    .card { background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    table { width: 100%; border-collapse: separate; border-spacing: 0 8px; margin-top: 1rem; font-size: 0.9rem; }
+    th { padding: 12px; color: var(--muted); font-size: .75rem; text-transform: uppercase; letter-spacing: 1px; text-align: center; }
+    th:first-child { text-align: left; }
+    td { padding: 16px 12px; background: rgba(255,255,255,0.02); text-align: center; border-top: 1px solid rgba(255,255,255,0.02); border-bottom: 1px solid rgba(255,255,255,0.02); }
+    td:first-child { border-radius: 8px 0 0 8px; border-left: 1px solid rgba(255,255,255,0.02); text-align: left; }
+    td:last-child { border-radius: 0 8px 8px 0; border-right: 1px solid rgba(255,255,255,0.02); }
+    .score-box { display: inline-block; padding: 8px 16px; border-radius: 8px; background: var(--bg); font-weight: 900; font-size: 1.15rem; border: 1px solid rgba(255,255,255,0.05); letter-spacing: 2px; }
+    .score-total { display: block; font-size: 0.75rem; color: var(--muted); margin-top: 6px; font-weight: 700; text-transform: uppercase; }
+
+    /* ═══ BOTOES & BADGES ═══ */
+    .btn-action { background: var(--purple); color: #fff; border: none; padding: .8rem 2rem; font-weight: 700; border-radius: 6px; cursor: pointer; box-shadow: 0 4px 14px rgba(139,92,246,0.3); transition: all 0.2s; }
+    .btn-action:hover { opacity: 0.9; transform: translateY(-1px); }
+    .btn-action:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+    .badge { padding: 4px 8px; border-radius: 4px; font-weight: bold; font-size: 0.75rem; }
+    .bg-green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .bg-red { background: rgba(239, 68, 68, 0.15); color: var(--red); }
+    .bg-purple { background: rgba(139, 92, 246, 0.15); color: var(--purple); }
+    .blur-text { filter: blur(5px); transition: filter 0.5s; user-select: none; }
+    .revealed .blur-text { filter: blur(0px); }
+
+    /* ═══ STATUS ═══ */
+    .status-indicator { display: flex; align-items: center; gap: 8px; font-weight: bold; font-size: .85rem; }
+    .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--red); box-shadow: 0 0 10px var(--red); }
+    .dot.connected { background: var(--green); box-shadow: 0 0 10px var(--green); }
+
+    /* ═══ RESUMO ═══ */
+    .resumo-card { display: none; margin-top: 1.5rem; padding: 1.5rem; background: linear-gradient(135deg, rgba(139,92,246,0.08), rgba(16,185,129,0.08)); border: 1px solid var(--border); border-radius: 12px; }
+    .resumo-card.visible { display: block; animation: fadeIn .5s ease; }
+    .resumo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1rem; margin-top: 1rem; }
+    .resumo-item { text-align: center; }
+    .resumo-item .valor { font-size: 2rem; font-weight: 900; }
+    .resumo-item .label { font-size: .75rem; color: var(--muted); text-transform: uppercase; margin-top: 4px; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+    /* ═══ SPINNER ═══ */
+    .spinner { display: inline-block; width: 14px; height: 14px; border: 2px solid var(--muted); border-top-color: var(--purple); border-radius: 50%; animation: spin .6s linear infinite; vertical-align: middle; margin-right: 6px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <div class="mobile-header">
+    <h1><span>👁️</span> Auditor EDS</h1>
+    <div class="mobile-nav">
+      <button class="nav-btn active" onclick="showView('ingestion')">⚖️ Simulador</button>
+      <button class="nav-btn" onclick="showView('scatter')">📊 Variância</button>
+    </div>
+  </div>
+  <aside>
+    <h1><span>👁️</span> Auditor EDS</h1>
+    <p style="color:var(--muted); font-size:.8rem; margin-bottom: 2rem;">Motor de Retreinamento Neural</p>
+    <button class="nav-btn active" onclick="showView('ingestion')">⚖️ 1. Simulador & Realidade</button>
+    <button class="nav-btn" onclick="showView('scatter')">📊 2. Laboratório de Variância</button>
+    <div style="margin-top:auto; font-size:.7rem; color:var(--muted); border-top:1px solid var(--border); padding-top:1rem;">
+      <span id="sidebar-timestamp">Sem dados</span>
+    </div>
+  </aside>
+  <main>
+    <div id="view-ingestion" class="view active">
+      <h2 class="page-title" style="margin:0 0 .5rem 0">O Teste Cego: Projeção vs Fatos</h2>
+      <p class="page-subtitle" style="color:var(--muted); margin-bottom: 2rem;">A máquina simula a realidade antes de destrancá-la, usando a memória de Machine Learning auto-esculpida pelo Fantasma.</p>
+
+      <div class="upload-zone" id="drop-zone">
+        <div>
+          <h3 style="margin:0 0 .5rem 0">Sincronizador Neurálgico</h3>
+          <p style="color:var(--muted); font-size:.85rem; margin:0">
+            Status do link entre o Motor Fantasma e o Cérebro Auditor.
+            <span id="sync-timestamp" style="display:block; font-size:.75rem; margin-top:4px; color:var(--purple);"></span>
+          </p>
+        </div>
+        <div style="display:flex; align-items:center; gap: 15px; flex-shrink:0;">
+          <div class="status-indicator" id="sync-status">
+            <div class="dot" id="sync-dot"></div>
+            <span id="sync-text">Carregando...</span>
+          </div>
+          <button class="btn-action" id="btn-sync" style="padding: 0.5rem 1rem; font-size: 0.8rem; background: var(--bg2); border: 1px solid var(--border);" onclick="forcarSincronizacao()">🔁 Sincronizar</button>
+        </div>
+      </div>
+
+      <div class="card" id="estado-vazio" style="text-align:center; padding: 3rem; display:none;">
+        <p style="font-size: 2.5rem; margin: 0;">🔌</p>
+        <h3 style="color: var(--muted); margin: 1rem 0 .5rem 0;">Nenhum dado carregado</h3>
+        <p style="color: var(--muted); font-size: .85rem;">Rode o Orquestrador para gerar o <code>memoria_viva.js</code> ou clique em <strong>Sincronizar</strong>.</p>
+      </div>
+
+      <div class="card" id="painel-jogos" style="display:none;">
+        <div style="display:flex; justify-content: space-between; align-items:center; flex-wrap: wrap; gap: 10px;">
+          <h3 style="margin:0">Diagnóstico Cruzado <span id="jogos-count" style="font-size:.8rem; color:var(--muted); font-weight:400;"></span></h3>
+          <div style="display:flex; gap:8px;">
+            <button class="btn-action" id="btn-revelar" onclick="revelarRealidade()" style="background:var(--red); display:none;">💥 REVELAR REALIDADE</button>
+            <button class="btn-action" id="btn-reset" onclick="resetarRodada()" style="display:none; background:var(--bg3); border:1px solid var(--border); font-size:.8rem; padding:.5rem 1rem;">🔄 Nova Rodada</button>
+          </div>
+        </div>
+        <table id="tabela-jogos">
+          <thead>
+            <tr>
+              <th>Partida</th>
+              <th>Análise</th>
+              <th>Cantos HT <br><small>(Mand x Vis) [Total]</small></th>
+              <th>Cantos FT <br><small>(Mand x Vis) [Total]</small></th>
+              <th>Veredito</th>
+            </tr>
+          </thead>
+          <tbody id="tbody-jogos"></tbody>
+        </table>
+      </div>
+
+      <div class="resumo-card" id="resumo-acuracia">
+        <h3 style="margin:0; color:var(--purple);">📊 Resumo da Rodada</h3>
+        <div class="resumo-grid">
+          <div class="resumo-item"><div class="valor" id="res-total" style="color:var(--text)">-</div><div class="label">Jogos</div></div>
+          <div class="resumo-item"><div class="valor" id="res-sniper" style="color:var(--green)">-</div><div class="label">Sniper (4/4)</div></div>
+          <div class="resumo-item"><div class="valor" id="res-bom" style="color:var(--purple)">-</div><div class="label">Bom+ (3+/4)</div></div>
+          <div class="resumo-item"><div class="valor" id="res-acuracia" style="color:var(--gold)">-</div><div class="label">Acurácia</div></div>
+          <div class="resumo-item"><div class="valor" id="res-redflags" style="color:var(--red)">-</div><div class="label">Red Flags</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="view-scatter" class="view">
+      <div class="card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+          <h2 style="margin:0">Matriz de Aprendizado (Heurística)</h2>
+          <button class="nav-btn" onclick="showView('ingestion')" style="width:auto; padding:.4rem .8rem; font-size:.8rem;">← Voltar</button>
+        </div>
+        <p style="color:var(--muted); font-size: 0.85rem;">Após a Quebra da Realidade, as anomalias detectadas que derrubaram a predição perfeita são documentadas abaixo.</p>
+        <div id="insights-log" style="font-family:monospace; color:var(--gold); line-height: 1.6; white-space: pre-wrap; margin-top:2rem;">(Nenhum dado cruzado)</div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    // ═══ ERROR HANDLER GLOBAL ═══
+    window.onerror = function(msg, src, line) {
+      console.error(`[Auditor Error] ${msg} at ${src}:${line}`);
+      return false;
+    };
+
+    let jogosDaRodada = [];
+    let isRealityRevealed = false;
+    let syncTimestamp = null;
+
+    function escapeHtml(str) {
+      const div = document.createElement('div');
+      div.textContent = String(str);
+      return div.innerHTML;
+    }
+
+    function formatTimestamp(date) {
+      return date.toLocaleString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' });
+    }
+
+    // ═══ SINCRONIZAÇÃO ═══
+    function processarSincronizacao() {
+      const dot = document.getElementById('sync-dot');
+      const text = document.getElementById('sync-text');
+      const btnSync = document.getElementById('btn-sync');
+
+      btnSync.disabled = false;
+      btnSync.innerHTML = '🔁 Sincronizar';
+
+      if (typeof window.dadosFantasma !== 'undefined' && Array.isArray(window.dadosFantasma) && window.dadosFantasma.length > 0) {
+        dot.classList.add('connected');
+        text.style.color = "var(--green)";
+        text.innerText = "ONLINE (Sincronizado)";
+
+        syncTimestamp = new Date();
+        const ts = formatTimestamp(syncTimestamp);
+        document.getElementById('sync-timestamp').innerText = 'Última sync: ' + ts;
+        document.getElementById('sidebar-timestamp').innerText = '🕐 ' + ts;
+
+        jogosDaRodada = window.dadosFantasma;
+        document.getElementById('painel-jogos').style.display = 'block';
+        document.getElementById('btn-revelar').style.display = 'block';
+        document.getElementById('estado-vazio').style.display = 'none';
+        document.getElementById('jogos-count').innerText = '(' + jogosDaRodada.length + ' jogos)';
+        renderizarTestesCegos();
+      } else {
+        dot.classList.remove('connected');
+        text.style.color = "var(--red)";
+        text.innerText = "Desconectado (Rode o Orquestrador)";
+        document.getElementById('painel-jogos').style.display = 'none';
+        document.getElementById('estado-vazio').style.display = 'block';
+        document.getElementById('sync-timestamp').innerText = '';
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      if (typeof window.DADOS_MLS === 'undefined') {
+        console.warn('[Auditor] DADOS_MLS não carregado. Motor usará fallback.');
+      }
+      processarSincronizacao();
+    });
+
+    function forcarSincronizacao() {
+      const btnSync = document.getElementById('btn-sync');
+      btnSync.disabled = true;
+      btnSync.innerHTML = '<span class="spinner"></span> Sincronizando...';
+
+      const oldScript = document.getElementById('sync-script');
+      if (oldScript) oldScript.remove();
+
+      const script = document.createElement('script');
+      script.id = 'sync-script';
+      script.src = 'data/memoria_viva.js?t=' + Date.now();
+      script.onload = () => processarSincronizacao();
+      script.onerror = () => {
+        btnSync.disabled = false;
+        btnSync.innerHTML = '🔁 Sincronizar';
+        alert("memoria_viva.js não encontrado. O Orquestrador rodou?");
+      };
+      document.head.appendChild(script);
+    }
+
+    // ═══ NAVEGAÇÃO ═══
+    function showView(id) {
+      document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+      document.getElementById('view-' + id).classList.add('active');
+      document.querySelectorAll('.nav-btn').forEach(btn => {
+        const onclick = btn.getAttribute('onclick');
+        btn.classList.toggle('active', onclick && onclick.includes("'" + id + "'"));
+      });
+    }
+
+    // ═══ RESET ═══
+    function resetarRodada() {
+      isRealityRevealed = false;
+      document.getElementById('btn-revelar').style.display = 'block';
+      document.getElementById('btn-reset').style.display = 'none';
+      document.getElementById('resumo-acuracia').classList.remove('visible');
+      renderizarTestesCegos();
+    }
+
+    // ═══ MOTOR NEURAL ═══
+    function engineNeuralMatematico(jogo) {
+      try {
+        if (typeof DADOS_2026 === 'undefined' || !DADOS_2026 || !DADOS_2026.jogos) {
+          throw new Error('DADOS_2026 indisponível');
+        }
+        const proj = projecaoJogo(jogo.mandante, jogo.visitante);
+        const callResult = proj.expTotalFT > 9.5 ? "OVER" : "UNDER";
+        return { call: callResult, expHT: proj.expTotalHT.toFixed(2), expFT: proj.expTotalFT.toFixed(2), oddsFT: proj.oddsFT || null, real: true };
+      } catch (e) {
+        console.log('[Motor] Fallback: ' + jogo.mandante + ' vs ' + jogo.visitante + '. ' + e.message);
+        let oddBase = 1.80;
+        if (jogo.mercado && jogo.mercado.oddM !== "ODDs Ocultas") oddBase = parseFloat(jogo.mercado.oddM || 2.0);
+        return { call: (oddBase < 1.6 ? "OVER" : "UNDER") + " (SIMULADO)", expHT: "4.00", expFT: "10.00", oddsFT: null, real: false };
+      }
+    }
+
+    // ═══ RENDERIZAÇÃO ═══
+    function renderizarTestesCegos() {
+      const tbody = document.getElementById('tbody-jogos');
+      tbody.innerHTML = '';
+      tbody.classList.remove('revealed');
+
+      jogosDaRodada.forEach((j, index) => {
+        const proj = engineNeuralMatematico(j);
+        j.proj = proj;
+
+        let mHT = 0, vHT = 0, mFT = 0, vFT = 0;
+        if (j.estatisticas_ht && j.estatisticas_ht.cantos) {
+          mHT = j.estatisticas_ht.cantos.m || 0;
+          vHT = j.estatisticas_ht.cantos.v || 0;
+        }
+        if (j.estatisticas_ft && j.estatisticas_ft.cantos) {
+          mFT = j.estatisticas_ft.cantos.m || 0;
+          vFT = j.estatisticas_ft.cantos.v || 0;
+        }
+        const totalHT = mHT + vHT;
+        const totalFT = mFT + vFT;
+
+        const hasData = j.estatisticas_ft && j.estatisticas_ft !== "Indisponível";
+        const cantosHT = hasData
+          ? '<div class="score-box" id="box-ht-' + index + '">' + mHT + ' <span style="color:var(--muted);font-weight:400">x</span> ' + vHT + '</div><span class="score-total">Total: ' + totalHT + '</span>'
+          : '<div class="score-box" style="opacity:0.3">0 x 0</div>';
+        const cantosFT = hasData
+          ? '<div class="score-box" id="box-ft-' + index + '">' + mFT + ' <span style="color:var(--muted);font-weight:400">x</span> ' + vFT + '</div><span class="score-total">Total: ' + totalFT + '</span>'
+          : '<div class="score-box" style="opacity:0.3">0 x 0</div>';
+
+        let projFav = "Empatado";
+        if (proj.oddsFT && proj.oddsFT.home > proj.oddsFT.away) projFav = j.mandante;
+        else if (proj.oddsFT && proj.oddsFT.away > proj.oddsFT.home) projFav = j.visitante;
+        else if (!proj.real) projFav = proj.call.includes("OVER") ? j.mandante : j.visitante;
+
+        const projBadge = proj.real ? '🎯 PALPITE IA (' + proj.call + ')' : '⚠️ PALPITE (' + proj.call + ')';
+        const mEsc = escapeHtml(j.mandante);
+        const vEsc = escapeHtml(j.visitante);
+        const fEsc = escapeHtml(projFav);
+
+        const tr1 = document.createElement('tr');
+        tr1.innerHTML = '<td rowspan="2" style="border-bottom:1px solid rgba(255,255,255,0.05)"><strong style="color:#fff; font-size:1.05rem; display:block; margin-bottom:4px;">' + mEsc + '</strong> <span style="color:var(--muted); font-size:0.8rem;">vs ' + vEsc + '</span></td>' +
+          '<td style="border-bottom:none; border-radius:0;"><span class="badge bg-purple" style="opacity:0.8">' + projBadge + '</span></td>' +
+          '<td style="border-bottom:none; border-radius:0;"><span class="blur-text" style="color:var(--gold); font-size:0.9rem">Linha Justa: ' + proj.expHT + ' <br> <small>Fav: ' + fEsc + '</small></span></td>' +
+          '<td style="border-bottom:none; border-radius:0;"><span class="blur-text" style="color:var(--gold); font-size:0.9rem">Linha Justa: ' + proj.expFT + ' <br> <small>Fav: ' + fEsc + '</small></span></td>' +
+          '<td rowspan="2" style="border-bottom:1px solid rgba(255,255,255,0.05)"><span class="badge blur-text" id="veredicto-' + index + '" style="padding:10px 16px; font-size:0.9rem;">Aguardando Fatos</span></td>';
+        tbody.appendChild(tr1);
+
+        const tr2 = document.createElement('tr');
+        tr2.innerHTML = '<td style="border-top:none; border-radius:0;"><span class="badge" style="background:rgba(255,255,255,0.05); color:#fff;">📊 RESULTADO</span></td>' +
+          '<td style="border-top:none; border-radius:0;"><span class="blur-text">' + cantosHT + '</span></td>' +
+          '<td style="border-top:none; border-radius:0;"><span class="blur-text">' + cantosFT + '</span></td>';
+        tbody.appendChild(tr2);
+      });
+    }
+
+    // ═══ REVELAÇÃO ═══
+    function exporFalsosPositivos(redFlags) {
+      showView('scatter');
+      const log = document.getElementById('insights-log');
+      if (redFlags.length === 0) {
+        log.innerHTML = "🎯 PRECISÃO ABSOLUTA.<br>As métricas táticas e matemáticas alinharam 100%. Nenhuma diretriz anômala encontrada no laboratório.";
+      } else {
+        log.innerHTML = "🚨 SINAIS CAPTURADOS PARA RE-TREINAMENTO DA IA:<br><br>" + redFlags.join("<br><br>");
+      }
+    }
+
+    function revelarRealidade() {
+      if (isRealityRevealed) return;
+      isRealityRevealed = true;
+      document.getElementById('tbody-jogos').classList.add('revealed');
+      document.getElementById('btn-revelar').style.display = 'none';
+      document.getElementById('btn-reset').style.display = 'block';
+
+      let redFlags = [];
+      let totalScore = 0;
+      let sniperCount = 0;
+      let bomCount = 0;
+
+      jogosDaRodada.forEach((j, idx) => {
+        let mHT = 0, vHT = 0, mFT = 0, vFT = 0;
+        if (j.estatisticas_ht && j.estatisticas_ht.cantos) {
+          mHT = j.estatisticas_ht.cantos.m || 0;
+          vHT = j.estatisticas_ht.cantos.v || 0;
+        }
+        if (j.estatisticas_ft && j.estatisticas_ft.cantos) {
+          mFT = j.estatisticas_ft.cantos.m || 0;
+          vFT = j.estatisticas_ft.cantos.v || 0;
+        }
+        const totalHT = mHT + vHT;
+        const totalFT = mFT + vFT;
+
+        let score = 0;
+        const boxHT = document.getElementById('box-ht-' + idx);
+        const boxFT = document.getElementById('box-ft-' + idx);
+        const isOver = j.proj.call.includes("OVER");
+
+        // Validação HT
+        let statusHT = "red";
+        if (isOver) {
+          if (totalHT > 4) { score++; statusHT = "green"; }
+          else if (totalHT === 4) statusHT = "yellow";
+          if (mHT > vHT) score++;
+        } else {
+          if (totalHT < 4) { score++; statusHT = "green"; }
+          else if (totalHT === 4) statusHT = "yellow";
+          if (vHT > mHT) score++;
+        }
+        if (boxHT && j.estatisticas_ft !== "Indisponível") {
+          const colors = { green: ["rgba(16,185,129,0.2)", "var(--green)"], yellow: ["rgba(251,191,36,0.2)", "var(--gold)"], red: ["rgba(239,68,68,0.2)", "var(--red)"] };
+          boxHT.style.background = colors[statusHT][0];
+          boxHT.style.borderColor = colors[statusHT][1];
+        }
+
+        // Validação FT
+        let statusFT = "red";
+        if (isOver) {
+          if (totalFT > 10) { score++; statusFT = "green"; }
+          else if (totalFT === 10) statusFT = "yellow";
+          if (mFT > vFT) score++;
+        } else {
+          if (totalFT < 10) { score++; statusFT = "green"; }
+          else if (totalFT === 10) statusFT = "yellow";
+          if (vFT > mFT) score++;
+        }
+        if (boxFT && j.estatisticas_ft !== "Indisponível") {
+          const colors = { green: ["rgba(16,185,129,0.2)", "var(--green)"], yellow: ["rgba(251,191,36,0.2)", "var(--gold)"], red: ["rgba(239,68,68,0.2)", "var(--red)"] };
+          boxFT.style.background = colors[statusFT][0];
+          boxFT.style.borderColor = colors[statusFT][1];
+        }
+
+        // Veredito
+        const span = document.getElementById('veredicto-' + idx);
+        if (score === 4) { span.className = "badge bg-green"; span.innerText = "🎯 SNIPER (4/4)"; span.style.boxShadow = "0 0 10px var(--green)"; sniperCount++; }
+        else if (score === 3) { span.className = "badge bg-green"; span.innerText = "MUITO BOM (3/4)"; }
+        else if (score === 2) { span.className = "badge bg-purple"; span.innerText = "BOM (2/4)"; }
+        else if (score === 1) { span.className = "badge bg-purple"; span.innerText = "REGULAR (1/4)"; }
+        else { span.className = "badge bg-red"; span.innerText = "PÉSSIMO (0/4)"; }
+
+        if (score >= 3) bomCount++;
+        totalScore += score;
+
+        // Red flags
+        if (score < 3 && j.formacao && j.formacao.m && j.formacao.m.startsWith("5-")) {
+          redFlags.push('[TÁTICA] O mandante (' + escapeHtml(j.mandante) + ') utilizou a tática pesada (' + escapeHtml(j.formacao.m) + '). Isso amortece cantos. DIRETRIZ: Ignorar ODDs se = 5-4-1.');
+        }
+      });
+
+      // Resumo
+      const maxScore = jogosDaRodada.length * 4;
+      const acuracia = maxScore > 0 ? Math.round((totalScore / maxScore) * 100) : 0;
+      document.getElementById('res-total').innerText = jogosDaRodada.length;
+      document.getElementById('res-sniper').innerText = sniperCount;
+      document.getElementById('res-bom').innerText = bomCount;
+      document.getElementById('res-acuracia').innerText = acuracia + '%';
+      document.getElementById('res-redflags').innerText = redFlags.length;
+      document.getElementById('resumo-acuracia').classList.add('visible');
+
+      setTimeout(() => exporFalsosPositivos(redFlags), 2500);
+    }
+  </script>
+</body>
+</html>

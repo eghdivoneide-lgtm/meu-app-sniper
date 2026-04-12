@@ -8,8 +8,6 @@
 <meta name="theme-color" content="#071510">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-<script src="https://unpkg.com/docx@8.5.0/build/index.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
 <style>
 /* ============================================================
    EDS LICITAEDGE PRO — DESIGN SYSTEM
@@ -414,7 +412,8 @@ textarea::placeholder{color:var(--t4)}
 </style>
 </head>
 <body>
-<!-- Chave API armazenada apenas no localStorage do dispositivo do usuário -->
+<!-- Script para puxar a chave externa -->
+<script src="./config-chave.js"></script>
 <!-- ============================================================
      SETUP
      ============================================================ -->
@@ -498,7 +497,6 @@ textarea::placeholder{color:var(--t4)}
     <div class="s-sec">🔑 Acesso à IA</div>
     <div class="s-field"><label>Chave de API Google Gemini</label><input id="s-key" type="password" placeholder="AIzaSy..."/></div>
     <button id="btn-start" onclick="startApp()">🛡️ Ativar EDS LicitaEdge Pro</button>
-    <button id="btn-demo" onclick="startDemo()" style="width:100%;padding:11px;background:transparent;border:1px solid var(--b3);border-radius:var(--r-md);color:var(--gold);font-size:12px;font-weight:700;cursor:pointer;font-family:var(--sans);letter-spacing:.5px;margin-top:6px;transition:all .2s">🎯 Experimentar modo demonstração</button>
     <div class="s-note">
       <p>🔑 Obtenha sua chave gratuita em <a href="https://aistudio.google.com/app/apikey" target="_blank">aistudio.google.com</a>.<br>
       🔒 Todos os dados ficam exclusivamente neste dispositivo. Nenhuma informação é enviada a terceiros além do Google para processamento da IA.<br>
@@ -626,7 +624,7 @@ textarea::placeholder{color:var(--t4)}
             <div class="doc-output-title" id="doc-result-title">Documento gerado</div>
             <div class="doc-text" id="doc-result-text"></div>
             <div class="doc-btns">
-              <button class="doc-btn primary" onclick="downloadDocx()">⬇ Baixar .docx</button>
+              <button class="doc-btn primary" onclick="downloadDoc()">⬇ Baixar .txt</button>
               <button class="doc-btn secondary" onclick="copyDoc()">📋 Copiar</button>
               <button class="doc-btn secondary" onclick="backToDocSelector()">← Novo documento</button>
             </div>
@@ -765,8 +763,6 @@ textarea::placeholder{color:var(--t4)}
   <div class="d-row"><span class="dr-l">Prazo</span><span class="dr-v" id="d-prazo">—</span></div>
   <div class="d-row"><span class="dr-l">Etapa</span><span class="dr-v" id="d-etapa">—</span></div>
   <div class="d-row"><span class="dr-l">Score</span><span class="dr-v" id="d-score">—</span></div>
-  <div id="d-historico" style="margin-top:10px"></div>
-  <div class="mf" style="margin-top:8px"><label style="font-size:10px;color:var(--t2);font-weight:600">Observação ao avançar etapa</label><input id="d-obs" type="text" placeholder="Ex: Proposta enviada, aguardando sessão..." style="font-size:11px"/></div>
   <div class="d-btns">
     <button class="dbtn ask" onclick="askCard()">🎯 Consultar IA</button>
     <button class="dbtn move" onclick="advCard()">→ Avançar</button>
@@ -822,7 +818,7 @@ textarea::placeholder{color:var(--t4)}
      ============================================================ -->
 <script>
 /* ---- STATE ---- */
-let apiKey='', empresa={}, hist=[], busy=false, SYS='', demoMode=false;
+let apiKey='', empresa={}, hist=[], busy=false, SYS='';
 let attachments=[], camStream=null, currentCardId=null;
 let currentDocType='', currentDocTitle='', currentDocContent='';
 let addingStage=0;
@@ -837,8 +833,6 @@ const loadP=()=>{try{return JSON.parse(localStorage.getItem(PK()+'_p')||'[]')}ca
 const saveP=d=>{try{localStorage.setItem(PK()+'_p',JSON.stringify(d))}catch{}};
 const loadC=()=>{try{return JSON.parse(localStorage.getItem(PK()+'_c')||'[]')}catch{return[]}};
 const saveC=d=>{try{localStorage.setItem(PK()+'_c',JSON.stringify(d))}catch{}};
-const loadH=()=>{try{return JSON.parse(localStorage.getItem(PK()+'_h')||'[]')}catch{return[]}};
-const saveH=()=>{try{const textOnly=hist.map(m=>({role:m.role,parts:m.parts.filter(p=>p.text).map(p=>({text:p.text}))})).filter(m=>m.parts.length>0);localStorage.setItem(PK()+'_h',JSON.stringify(textOnly))}catch{}};
 
 /* ---- SYSTEM PROMPT ---- */
 function buildSys(){
@@ -884,9 +878,12 @@ Você é o consultor que esta empresa não conseguiria contratar por R$500/hora 
 /* ---- SETUP ---- */
 function startApp(){
   let k=document.getElementById('s-key').value.trim();
-  if(!k){k=localStorage.getItem('le_api_key')||'';}
+  // Tenta puxar a chave do arquivo config-chave.js
+  if(typeof CHAVE_GOOGLE_GEMINI !== 'undefined' && CHAVE_GOOGLE_GEMINI !== '' && CHAVE_GOOGLE_GEMINI !== 'COLE_SUA_CHAVE_AQUI'){
+    k = CHAVE_GOOGLE_GEMINI;
+  }
+  
   if(!k){alert('Chave de API Google vazia ou inválida.');return;}
-  localStorage.setItem('le_api_key',k);
   empresa={
     razao:document.getElementById('s-razao').value.trim()||'Empresa Fornecedora',
     cnpj:document.getElementById('s-cnpj').value.trim().replace(/\D/g,''),
@@ -902,20 +899,9 @@ function startApp(){
   document.getElementById('top-empresa').textContent=empresa.razao.toUpperCase();
   // Sync regime to calculator
   syncRegime();
-  // Restaurar histórico do chat
-  const savedHist=loadH();
-  if(savedHist.length>0){
-    hist=savedHist;
-    savedHist.forEach(m=>{
-      const txt=m.parts.map(p=>p.text).join('');
-      if(m.role==='user')addUser(txt);
-      else addBot(txt);
-    });
-    addBot('💬 Histórico da sessão anterior restaurado. Continue de onde parou.');
-  }
   // Welcome message
   const meMeio=['Microempresa (ME)','Pequeno Porte (EPP)','MEI'].includes(empresa.porte);
-  if(savedHist.length===0) addBot(`🛡️ EDS LicitaEdge Pro ativado!\n\nBem-vindo, ${empresa.razao.split(' ')[0]}. Plataforma completa de inteligência licitatória online.\n\n📌 Perfil: ${empresa.seg||'—'} · ${empresa.porte||'—'} · ${empresa.regime||'—'}${meMeio?'\n⭐ Benefícios LC 123/2006 ativados automaticamente':''}\n\n🎯 Recursos disponíveis:\n• 💬 Assistente IA — análise estratégica 24h\n• 📋 Pipeline — gestão de processos com alertas\n• 📝 Documentos — impugnações e recursos prontos\n• ✅ Habilitação — controle de certidões e prazos\n• 💰 Calculadora — formação de preço correta\n• 📊 Analytics — performance e ROI\n\nAnexe um edital (PDF ou foto) para análise imediata, ou use os atalhos acima.`);
+  addBot(`🛡️ EDS LicitaEdge Pro ativado!\n\nBem-vindo, ${empresa.razao.split(' ')[0]}. Plataforma completa de inteligência licitatória online.\n\n📌 Perfil: ${empresa.seg||'—'} · ${empresa.porte||'—'} · ${empresa.regime||'—'}${meMeio?'\n⭐ Benefícios LC 123/2006 ativados automaticamente':''}\n\n🎯 Recursos disponíveis:\n• 💬 Assistente IA — análise estratégica 24h\n• 📋 Pipeline — gestão de processos com alertas\n• 📝 Documentos — impugnações e recursos prontos\n• ✅ Habilitação — controle de certidões e prazos\n• 💰 Calculadora — formação de preço correta\n• 📊 Analytics — performance e ROI\n\nAnexe um edital (PDF ou foto) para análise imediata, ou use os atalhos acima.`);
   renderPipeline();
   renderChecklist();
   updateAnalytics();
@@ -1015,7 +1001,6 @@ async function sendMsg(txt){
     const reply=data.candidates?.[0]?.content?.parts?.[0]?.text||'Não consegui processar a resposta do Google Gemini.';
     rmTyping();
     hist.push({role:'model',parts:[{text:reply}]});
-    saveH();
     addBot(reply);
   }catch(e){rmTyping();addBot(`❌ Erro no Gemini: ${e.message||'Problema de conexão. Verifique a chave ou internet.'}`);}
   busy=false;
@@ -1145,27 +1130,12 @@ function openDetail(id){
   document.getElementById('d-prazo').textContent=c.prazo||'—';
   document.getElementById('d-etapa').textContent=STAGES[c.etapa]||'—';
   document.getElementById('d-score').textContent=(c.score||'—')+'/10';
-  document.getElementById('d-obs').value='';
-  const hDiv=document.getElementById('d-historico');
-  if(c.log&&c.log.length>0){
-    hDiv.innerHTML=`<div style="font-size:9px;font-weight:700;color:var(--gold);letter-spacing:1px;text-transform:uppercase;margin-bottom:6px;padding-top:6px;border-top:1px solid var(--b1)">Histórico de movimentações</div>`+
-      c.log.map(l=>`<div style="font-size:10px;color:var(--t2);padding:4px 0;border-bottom:1px solid var(--b1);line-height:1.6"><span style="color:var(--t1);font-weight:600">${l.de} → ${l.para}</span> <span style="font-family:var(--mono);color:var(--t3);font-size:9px">${l.data}</span>${l.obs?`<br><span style="color:var(--gold);font-style:italic">📝 ${esc(l.obs)}</span>`:''}</div>`).join('');
-  }else{
-    hDiv.innerHTML=`<div style="font-size:10px;color:var(--t3);padding:6px 0;border-top:1px solid var(--b1);margin-top:4px">Sem movimentações registradas ainda.</div>`;
-  }
   document.getElementById('modal-detail').classList.add('open');
 }
 function advCard(){
   const cards=loadP();const c=cards.find(x=>x.id===currentCardId);
   if(!c||c.etapa>=4)return;
-  const obs=document.getElementById('d-obs').value.trim();
-  const from=STAGES[c.etapa];
-  c.etapa++;
-  const to=STAGES[c.etapa];
-  if(!c.log)c.log=[];
-  c.log.push({de:from,para:to,data:new Date().toLocaleString('pt-BR'),obs:obs||null});
-  document.getElementById('d-obs').value='';
-  saveP(cards);closeModal('modal-detail');renderPipeline();updateAnalytics();
+  c.etapa++;saveP(cards);closeModal('modal-detail');renderPipeline();updateAnalytics();
 }
 function delCard(){
   if(!confirm('Remover esta oportunidade?'))return;
@@ -1184,37 +1154,9 @@ function goDocFromCard(){
 /* ---- MODAL UTILS ---- */
 function closeModal(id){document.getElementById(id).classList.remove('open');}
 function checkAlerts(){
+  // Run on startup to check deadlines
   if(!empresa.cnpj)return;
   renderPipeline();
-  checkCertNotifications();
-}
-function checkCertNotifications(){
-  const certs=loadC();
-  if(!certs.length)return;
-  const vencendo=certs.filter(c=>getCertStatus(c.venc)==='warn');
-  const vencidas=certs.filter(c=>getCertStatus(c.venc)==='exp');
-  if(vencendo.length===0&&vencidas.length===0)return;
-  if('Notification' in window){
-    if(Notification.permission==='granted'){sendCertNotification(vencendo,vencidas);}
-    else if(Notification.permission!=='denied'){Notification.requestPermission().then(p=>{if(p==='granted')sendCertNotification(vencendo,vencidas);});}
-  }
-  if(vencidas.length>0){
-    const b=document.getElementById('alert-banner');
-    if(!b.classList.contains('show')){b.className='alert-banner show';document.getElementById('alert-txt').textContent=`🔴 ${vencidas.length} certidão(ões) vencida(s) — regularize para não ser inabilitado`;b.onclick=()=>showTab('check');}
-  }else if(vencendo.length>0){
-    const b=document.getElementById('alert-banner');
-    if(!b.classList.contains('show')){b.className='alert-banner warn show';document.getElementById('alert-txt').textContent=`⏰ ${vencendo.length} certidão(ões) vencendo em até 15 dias`;b.onclick=()=>showTab('check');}
-  }
-}
-function sendCertNotification(vencendo,vencidas){
-  const lastNotif=localStorage.getItem('le_last_cert_notif');
-  const today=new Date().toLocaleDateString('pt-BR');
-  if(lastNotif===today)return;
-  localStorage.setItem('le_last_cert_notif',today);
-  let body='';
-  if(vencidas.length>0)body+=`🔴 ${vencidas.length} vencida(s): ${vencidas.map(c=>c.nome).join(', ')}\n`;
-  if(vencendo.length>0)body+=`⏰ ${vencendo.length} vencendo: ${vencendo.map(c=>c.nome).join(', ')}`;
-  try{new Notification('EDS LicitaEdge Pro — Certidões',{body:body.trim(),icon:'./icons/icon-192.png',badge:'./icons/icon-192.png',tag:'cert-alert',requireInteraction:true});}catch(e){}
 }
 
 /* ---- DOCUMENTOS ---- */
@@ -1280,51 +1222,6 @@ function downloadDoc(){
   const a=document.createElement('a');a.href=URL.createObjectURL(blob);
   a.download=`EDS_${currentDocTitle.replace(/\s/g,'_')}_${new Date().toLocaleDateString('pt-BR').replace(/\//g,'-')}.txt`;
   a.click();
-}
-async function downloadDocx(){
-  try{
-    const {Document,Packer,Paragraph,TextRun,AlignmentType,Header,Footer,BorderStyle,HeadingLevel}=docx;
-    const lines=currentDocContent.split('\n');
-    const children=[];
-    children.push(new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:80},children:[new TextRun({text:empresa.razao||'EMPRESA FORNECEDORA',bold:true,size:28,font:'Arial'})]}));
-    children.push(new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:200},children:[new TextRun({text:`CNPJ: ${empresa.cnpj||'___.___.___/____-__'}`,size:20,font:'Arial',color:'555555'})]}));
-    children.push(new Paragraph({spacing:{after:300},border:{bottom:{style:BorderStyle.SINGLE,size:6,color:'c9a84c'}},children:[]}));
-    children.push(new Paragraph({alignment:AlignmentType.CENTER,spacing:{before:200,after:300},children:[new TextRun({text:currentDocTitle.toUpperCase(),bold:true,size:26,font:'Arial',color:'0a1c14'})]}));
-    lines.forEach(line=>{
-      const trimmed=line.trim();
-      if(!trimmed){children.push(new Paragraph({spacing:{after:100},children:[]}));return;}
-      if(trimmed.startsWith('### ')){children.push(new Paragraph({heading:HeadingLevel.HEADING_3,spacing:{before:200,after:100},children:[new TextRun({text:trimmed.replace(/^###\s*/,''),bold:true,size:22,font:'Arial'})]}));return;}
-      if(trimmed.startsWith('## ')){children.push(new Paragraph({heading:HeadingLevel.HEADING_2,spacing:{before:240,after:120},children:[new TextRun({text:trimmed.replace(/^##\s*/,''),bold:true,size:24,font:'Arial'})]}));return;}
-      if(trimmed.startsWith('# ')){children.push(new Paragraph({heading:HeadingLevel.HEADING_1,spacing:{before:300,after:140},children:[new TextRun({text:trimmed.replace(/^#\s*/,''),bold:true,size:28,font:'Arial'})]}));return;}
-      if(trimmed.startsWith('- ')||trimmed.startsWith('* ')||/^\d+[\.\)]\s/.test(trimmed)){
-        const txt=trimmed.replace(/^[-*]\s/,'').replace(/^\d+[\.\)]\s/,'');
-        children.push(new Paragraph({bullet:{level:0},spacing:{after:60},children:parseInline(txt)}));return;
-      }
-      children.push(new Paragraph({alignment:AlignmentType.JUSTIFIED,spacing:{after:120,line:360},children:parseInline(trimmed)}));
-    });
-    children.push(new Paragraph({spacing:{before:600},children:[]}));
-    children.push(new Paragraph({spacing:{after:300},border:{bottom:{style:BorderStyle.SINGLE,size:4,color:'333333'}},children:[]}));
-    children.push(new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:60},children:[new TextRun({text:empresa.razao||'EMPRESA FORNECEDORA',bold:true,size:22,font:'Arial'})]}));
-    children.push(new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:40},children:[new TextRun({text:`CNPJ: ${empresa.cnpj||'___.___.___/____-__'}`,size:18,font:'Arial',color:'555555'})]}));
-    children.push(new Paragraph({alignment:AlignmentType.CENTER,children:[new TextRun({text:new Date().toLocaleDateString('pt-BR',{day:'2-digit',month:'long',year:'numeric'}),size:18,font:'Arial',color:'555555'})]}));
-    const doc=new Document({creator:'EDS LicitaEdge Pro',description:currentDocTitle,sections:[{
-      properties:{page:{margin:{top:1440,right:1200,bottom:1440,left:1440}}},
-      headers:{default:new Header({children:[new Paragraph({alignment:AlignmentType.RIGHT,children:[new TextRun({text:'EDS LicitaEdge Pro',italics:true,size:16,font:'Arial',color:'999999'})]})]})},
-      footers:{default:new Footer({children:[new Paragraph({alignment:AlignmentType.CENTER,children:[new TextRun({text:'Documento gerado por EDS LicitaEdge Pro — EDS Soluções Inteligentes',size:14,font:'Arial',color:'999999'})]})]})},
-      children
-    }]});
-    const blob=await Packer.toBlob(doc);
-    saveAs(blob,`EDS_${currentDocTitle.replace(/\s/g,'_')}_${new Date().toLocaleDateString('pt-BR').replace(/\//g,'-')}.docx`);
-  }catch(err){console.error('Erro DOCX:',err);downloadDoc();}
-}
-function parseInline(text){
-  const {TextRun}=docx;const runs=[];const regex=/\*\*(.+?)\*\*/g;let last=0,match;
-  while((match=regex.exec(text))!==null){
-    if(match.index>last)runs.push(new TextRun({text:text.slice(last,match.index),size:22,font:'Arial'}));
-    runs.push(new TextRun({text:match[1],bold:true,size:22,font:'Arial'}));last=regex.lastIndex;
-  }
-  if(last<text.length)runs.push(new TextRun({text:text.slice(last),size:22,font:'Arial'}));
-  if(!runs.length)runs.push(new TextRun({text,size:22,font:'Arial'}));return runs;
 }
 function copyDoc(){
   navigator.clipboard.writeText(currentDocContent).then(()=>alert('Documento copiado!')).catch(()=>alert('Copie manualmente do texto acima.'));
@@ -1508,17 +1405,13 @@ function updateAnalytics(){
     const pct=Math.round((cnt/maxM)*100);
     mb.innerHTML+=`<div class="bar-row"><span class="bar-row-label" style="font-size:9px">${m}</span><div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:${mcolors[i%mcolors.length]}"><span class="bar-fill-val">${cnt}</span></div></div></div>`;
   });
-  // ROI real
+  // ROI
   const roi=document.getElementById('roi-val');
   const roiDesc=document.getElementById('roi-desc');
-  const totalPipeline=cards.filter(c=>c.etapa<4).reduce((s,c)=>s+(parseFloat(c.val)||0),0);
-  if(contratos.length>0&&totalGanhos>0){
-    const roiPct=totalDisputa>0?Math.round((totalGanhos/totalDisputa)*100):0;
-    roi.textContent=roiPct+'%';
-    roiDesc.textContent=`Eficiência financeira: ${fmtV(totalGanhos)} em contratos fechados de ${fmtV(totalDisputa)} disputados. Taxa de vitória: ${taxa}% (${contratos.length}/${cards.length}). ${totalPipeline>0?`Ainda ${fmtV(totalPipeline)} em disputa ativa.`:''}`;
-  } else if(cards.length>0){
-    roi.textContent='—';
-    roiDesc.textContent=`${cards.length} processo${cards.length>1?'s':''} em acompanhamento (${fmtV(totalDisputa)} em pipeline). Mova processos para "Contrato Ativo" ao vencer para calcular o ROI real.`;
+  if(taxa>0){
+    const roiPct=Math.round((taxa/50)*100);
+    roi.textContent=roiPct>200?roiPct+'%':'Em cálculo';
+    roiDesc.textContent=`Taxa de vitória atual: ${taxa}%. Com ${cards.length} processos cadastrados, a plataforma está gerando inteligência licitatória ativa. Continue registrando processos para cálculo preciso do ROI.`;
   }
 }
 
@@ -1621,49 +1514,6 @@ function importBackup(e){
   };
   r.readAsText(f);
 }
-
-/* ---- MODO DEMONSTRAÇÃO ---- */
-const DEMO_RESPONSES={
-  'analisar um edital':`## 📋 Análise de Edital — Exemplo Demonstrativo\n\nPara uma análise completa, o EDS LicitaEdge Pro avalia:\n\n| Item | Verificação |\n|------|------------|\n| **Objeto** | Tipo, quantidade, especificações técnicas |\n| **Modalidade** | Pregão Eletrônico, Concorrência, Dispensa |\n| **Prazo fatal** | Data/hora da sessão, prazo de impugnação |\n| **Habilitação** | Documentos exigidos vs. seus cadastros |\n| **Julgamento** | Menor preço, técnica e preço, maior desconto |\n| **Cláusulas restritivas** | Art. 9º e Art. 14 da Lei 14.133/2021 |\n\n⚠️ **Atenção**: Cláusulas que restringem competitividade podem ser impugnadas [Art. 164, Lei 14.133/2021].\n\n**Score de viabilidade: 7/10** (exemplo)\n\n✅ *No modo completo, anexe o PDF do edital para análise detalhada com IA.*\n\nPosso detalhar ou gerar o documento necessário?`,
-  'estratégia de lance':`## 💰 Estratégia de Lance — Pregão Eletrônico\n\n| Fase | Estratégia |\n|------|----------|\n| **Lance inicial** | Posicione-se entre o 3º e 5º lugar |\n| **Fase aberta** | Lances decrementais calculados (-2% por rodada) |\n| **Fase fechada** | Lance final com margem mínima de 5% |\n| **Negociação** | Argumentação de inexequibilidade abaixo do piso |\n\n⭐ **Benefício ME/EPP**: Empate ficto até 5% [LC 123/2006, Art. 44-45]\n\nPosso detalhar ou gerar o documento necessário?`,
-  'documentos de habilitação':`## 📁 Habilitação Completa\n\n### Federal\n| Documento | Portal | Validade |\n|-----------|--------|----------|\n| CND Receita Federal + PGFN | solucoes.receita.fazenda.gov.br | 180 dias |\n| CRF — FGTS | consulta-crf.caixa.gov.br | 30 dias |\n| CNDT — Justiça do Trabalho | cndt.tst.jus.br | 180 dias |\n\n⚠️ **ME/EPP**: Pode regularizar na própria sessão — 5 dias úteis [LC 123/2006, Art. 43, §1º]\n\nPosso detalhar ou gerar o documento necessário?`,
-  'impugnar':`## ⚠️ Impugnação de Edital\n\n**Base legal**: Art. 164, Lei 14.133/2021 — Prazo: **3 dias úteis** antes da sessão\n\n| Tipo de Restrição | Exemplo | Artigo |\n|-------------------|---------|--------|\n| Marca específica | Exigir marca X sem justificativa | Art. 41, I |\n| Qualificação excessiva | Atestados com quantidade mínima | Art. 67, §1º |\n| Prazo inexequível | Entrega em 24h para todo o estado | Art. 59 |\n\n✅ *Use a aba "Documentos" para gerar a impugnação formatada.*\n\nPosso detalhar ou gerar o documento necessário?`,
-  'recurso':`## 🛡️ Recurso Administrativo\n\n**Base legal**: Art. 165, Lei 14.133/2021 — Prazo: **3 dias úteis**\n\n| Etapa | Ação | Prazo |\n|-------|------|-------|\n| **Intenção** | Manifestar na sessão | Imediato |\n| **Razões** | Apresentar fundamentação | 3 dias úteis |\n| **Contrarrazões** | Demais licitantes | 3 dias úteis |\n\n✅ *Use a aba "Documentos" para gerar recurso formatado.*\n\nPosso detalhar ou gerar o documento necessário?`,
-  'ME/EPP':`## 🏅 Benefícios ME/EPP — LC 123/2006\n\n| Benefício | Descrição | Artigo |\n|-----------|-----------|--------|\n| **Empate ficto** | Até 5% acima do melhor lance | Art. 44-45 |\n| **Regularização fiscal** | 5 dias úteis na sessão | Art. 43, §1º |\n| **Cota exclusiva** | Lotes até R$80.000 | Art. 48, I |\n| **Subcontratação** | Obrigatória para ME/EPP | Art. 48, II |\n\nPosso detalhar ou gerar o documento necessário?`,
-  'BDI':`## 🧮 BDI e Encargos\n\n| Componente | Faixa Referência |\n|------------|------------------|\n| Administração central | 3% a 5,5% |\n| Seguro/garantia | 0,8% a 1% |\n| Lucro | 6,16% a 8,96% |\n| Tributos | 8,65% a 16,65% |\n| **BDI Total (obras)** | **20,34% a 25%** |\n\n✅ *Use a aba "Preço" para calcular automaticamente.*\n\nPosso detalhar ou gerar o documento necessário?`,
-  'reequilíbrio':`## ⚖️ Reequilíbrio Econômico-Financeiro\n\n**Base legal**: Art. 124, Lei 14.133/2021\n\n| Tipo | Gatilho | Comprovação |\n|------|---------|-------------|\n| **Reajuste** | Índice contratual (IPCA) | Automático |\n| **Revisão** | Fato imprevisível | Memória de cálculo |\n| **Repactuação** | Aumento MO | Convenção coletiva |\n\nPosso detalhar ou gerar o documento necessário?`
-};
-
-function startDemo(){
-  demoMode=true;
-  empresa={razao:'Empresa Demonstração Ltda',cnpj:'00000000000100',regime:'Simples Nacional',seg:'TI — Hardware e Software',estados:'SP, RJ, MG',porte:'Microempresa (ME)',vol:'1–10 proc./mês'};
-  apiKey='DEMO_MODE'; SYS=buildSys();
-  document.getElementById('setup').style.display='none';
-  document.getElementById('app').classList.add('on');
-  document.getElementById('top-empresa').textContent='MODO DEMONSTRAÇÃO';
-  syncRegime();
-  addBot(`🎯 **Modo Demonstração Ativado!**\n\nExplore todas as funcionalidades:\n• 💬 **Chat** — Use os atalhos rápidos para ver respostas exemplo\n• 📋 **Pipeline** — Adicione processos fictícios\n• 📝 **Documentos** — Veja os modelos disponíveis\n• ✅ **Habilitação** — Controle de certidões\n• 💰 **Calculadora** — Formação de preço\n• 📊 **Analytics** — Métricas\n\n⚠️ Para IA completa, insira sua chave Google Gemini gratuita.\n\n**Experimente os atalhos acima!**`);
-  renderPipeline();renderChecklist();updateAnalytics();
-}
-
-const _origSend=sendMsg;
-sendMsg=async function(txt){
-  if(!demoMode)return _origSend(txt);
-  const inp=document.getElementById('inp');
-  const t=txt||inp.value.trim();
-  if(!t||busy)return;
-  inp.value='';inp.style.height='auto';
-  busy=true;document.getElementById('sbtn').disabled=true;
-  addUser(t);showTyping();
-  const tl=t.toLowerCase();
-  let resp=null;
-  for(const[key,val]of Object.entries(DEMO_RESPONSES)){if(tl.includes(key)){resp=val;break;}}
-  if(!resp)resp=`## 💡 Modo Demonstração\n\nEssa consulta requer a IA do Google Gemini.\n\n**Para ativar:** Acesse [aistudio.google.com](https://aistudio.google.com/app/apikey), crie uma chave gratuita e insira na tela inicial.\n\n**Experimente os atalhos rápidos** no topo do chat!`;
-  await new Promise(r=>setTimeout(r,1200+Math.random()*800));
-  rmTyping();addBot(resp);
-  busy=false;document.getElementById('sbtn').disabled=false;
-  document.getElementById('inp').focus();
-};
 </script>
 <script>
   if ('serviceWorker' in navigator) {
@@ -1673,7 +1523,6 @@ sendMsg=async function(txt){
         .catch(err => console.error('Falha SW LicitaEdge', err));
     });
   }
-  (function(){const k=localStorage.getItem('le_api_key');if(k)document.getElementById('s-key').value=k;})();
 </script>
 </body>
 </html>

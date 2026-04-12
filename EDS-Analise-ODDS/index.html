@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EDS Hub — Ecossistema de Análise</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#080c0a;--bg2:#0f1510;--bg3:#141e16;--card:#111a13;
+  --border:rgba(255,255,255,0.07);--glass:rgba(255,255,255,0.04);
+  --text:#e8f0ea;--muted:#5a7060;
+  --green:#34d367;--gold:#f59e0b;--gold2:#fbbf24;
+  --red:#ef4444;--blue:#60a5fa;--purple:#a78bfa;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;}
+
+header{
+  padding:1.5rem 2rem;background:var(--bg2);
+  border-bottom:1px solid var(--border);
+  display:flex;align-items:center;justify-content:space-between;
+}
+.brand{display:flex;align-items:center;gap:1rem;}
+.brand-icon{width:44px;height:44px;background:linear-gradient(135deg,#0a3d1a,#1a6b30);
+  border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;}
+.brand h1{font-size:1.3rem;font-weight:900;color:var(--green);}
+.brand p{font-size:.7rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;}
+.version{font-size:.65rem;color:var(--muted);background:var(--bg3);
+  padding:.3rem .8rem;border-radius:99px;border:1px solid var(--border);}
+
+.container{max-width:1200px;margin:0 auto;padding:2rem;}
+
+/* Seção */
+.section{margin-bottom:2.5rem;}
+.section-header{
+  display:flex;align-items:center;gap:.8rem;margin-bottom:1.2rem;
+  padding-bottom:.6rem;border-bottom:1px solid var(--border);
+}
+.section-icon{font-size:1.2rem;}
+.section-title{font-size:.8rem;font-weight:800;color:var(--muted);
+  letter-spacing:1.5px;text-transform:uppercase;}
+.section-badge{font-size:.6rem;font-weight:700;padding:.2rem .6rem;
+  border-radius:99px;letter-spacing:.5px;}
+.badge-live{background:rgba(52,211,103,0.15);color:var(--green);}
+.badge-beta{background:rgba(245,158,11,0.15);color:var(--gold);}
+.badge-dev{background:rgba(96,165,250,0.12);color:var(--blue);}
+
+/* Cards de App */
+.apps-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem;}
+
+.app-card{
+  background:var(--card);border:1px solid var(--border);border-radius:16px;
+  padding:1.2rem;text-decoration:none;color:var(--text);
+  transition:all .25s;display:flex;flex-direction:column;gap:.8rem;
+  cursor:pointer;
+}
+.app-card:hover{transform:translateY(-3px);border-color:rgba(255,255,255,0.15);
+  box-shadow:0 8px 32px rgba(0,0,0,0.4);}
+.app-card.green:hover{border-color:var(--green);}
+.app-card.gold:hover{border-color:var(--gold);}
+.app-card.blue:hover{border-color:var(--blue);}
+.app-card.purple:hover{border-color:var(--purple);}
+.app-card.red:hover{border-color:var(--red);}
+
+.app-icon{font-size:1.8rem;}
+.app-header{display:flex;align-items:flex-start;justify-content:space-between;}
+.app-name{font-size:.95rem;font-weight:800;margin-bottom:.2rem;}
+.app-sub{font-size:.65rem;color:var(--muted);font-weight:600;
+  letter-spacing:.5px;text-transform:uppercase;}
+.app-desc{font-size:.75rem;color:var(--muted);line-height:1.5;}
+
+.app-tags{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.2rem;}
+.tag{font-size:.6rem;font-weight:600;padding:.15rem .5rem;border-radius:6px;
+  background:rgba(255,255,255,0.05);color:var(--muted);}
+.tag.green{background:rgba(52,211,103,0.1);color:var(--green);}
+.tag.gold{background:rgba(245,158,11,0.1);color:var(--gold);}
+.tag.blue{background:rgba(96,165,250,0.1);color:var(--blue);}
+
+.app-footer{
+  display:flex;align-items:center;justify-content:space-between;
+  padding-top:.6rem;border-top:1px solid var(--border);font-size:.65rem;
+}
+.app-path{color:var(--muted);font-family:monospace;}
+.app-arrow{color:var(--muted);font-size:.9rem;}
+
+/* Arquitetura pipeline */
+.pipeline{
+  background:var(--card);border:1px solid var(--border);border-radius:16px;
+  padding:1.5rem;margin-bottom:2rem;
+}
+.pipeline-title{font-size:.7rem;font-weight:800;color:var(--muted);
+  letter-spacing:1.5px;text-transform:uppercase;margin-bottom:1rem;}
+.pipe-row{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem;}
+.pipe-node{
+  display:flex;align-items:center;gap:.4rem;
+  background:var(--bg3);border:1px solid var(--border);
+  border-radius:8px;padding:.4rem .8rem;font-size:.7rem;font-weight:600;
+}
+.pipe-arrow{color:var(--muted);font-size:.8rem;}
+.pipe-node.green{border-color:rgba(52,211,103,0.3);color:var(--green);}
+.pipe-node.gold{border-color:rgba(245,158,11,0.3);color:var(--gold);}
+.pipe-node.blue{border-color:rgba(96,165,250,0.3);color:var(--blue);}
+.pipe-node.muted{color:var(--muted);}
+
+/* Stats */
+.stats-row{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.8rem;margin-bottom:2rem;}
+.stat-box{background:var(--card);border:1px solid var(--border);border-radius:12px;
+  padding:.8rem 1rem;text-align:center;}
+.stat-number{font-size:1.6rem;font-weight:900;color:var(--gold);}
+.stat-label{font-size:.6rem;color:var(--muted);letter-spacing:.5px;text-transform:uppercase;margin-top:.2rem;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <div class="brand-icon">📊</div>
+    <div>
+      <h1>EDS Analytics Hub</h1>
+      <p>EDS Soluções Inteligentes — Ecossistema Completo</p>
+    </div>
+  </div>
+  <span class="version">v2.0 — Abril 2026</span>
+</header>
+
+<div class="container">
+
+  <!-- STATS -->
+  <div class="stats-row">
+    <div class="stat-box"><div class="stat-number">5</div><div class="stat-label">Ligas Ativas</div></div>
+    <div class="stat-box"><div class="stat-number">423</div><div class="stat-label">Jogos no Histórico</div></div>
+    <div class="stat-box"><div class="stat-number">4</div><div class="stat-label">Apps Produção</div></div>
+    <div class="stat-box"><div class="stat-number">2</div><div class="stat-label">Agentes Fantasma</div></div>
+    <div class="stat-box"><div class="stat-number">75%</div><div class="stat-label">Acerto Teacher (USL)</div></div>
+  </div>
+
+  <!-- PIPELINE -->
+  <div class="pipeline">
+    <div class="pipeline-title">Arquitetura do Ecossistema — Fluxo de Dados</div>
+
+    <div class="pipe-row">
+      <div class="pipe-node green">🕷️ varredor-por-time.js</div>
+      <div class="pipe-arrow">→</div>
+      <div class="pipe-node">📁 brasileirao2026.js</div>
+      <div class="pipe-arrow">+</div>
+      <div class="pipe-node">📁 mls2026.js</div>
+      <div class="pipe-arrow">+</div>
+      <div class="pipe-node">📁 argentina2026.js</div>
+      <div class="pipe-arrow">+</div>
+      <div class="pipe-node">📁 usl2026.js</div>
+      <div class="pipe-arrow">+</div>
+      <div class="pipe-node gold">📁 bundesliga2026.js</div>
+      <div class="pipe-arrow">→</div>
+      <div class="pipe-node green">⚽ Especialista em Cantos</div>
+    </div>
+
+    <div class="pipe-row">
+      <div class="pipe-node gold">🎯 monster_yaaken.js</div>
+      <div class="pipe-arrow">→</div>
+      <div class="pipe-node">📄 yaaken_[LIGA]_[DATA].json</div>
+      <div class="pipe-node muted">(odds 1X2 + H2H)</div>
+      <div class="pipe-arrow">→</div>
+      <div class="pipe-node gold">🎯 YAAKEN Scanner</div>
+    </div>
+
+    <div class="pipe-row">
+      <div class="pipe-node blue">🧪 Teacher (Volvo Test)</div>
+      <div class="pipe-arrow">→</div>
+      <div class="pipe-node">📄 memoria_qualitativa.js</div>
+      <div class="pipe-node muted">(calibracao_teacher)</div>
+      <div class="pipe-arrow">→</div>
+      <div class="pipe-node green">⚽ SmartCoach no Especialista</div>
+    </div>
+  </div>
+
+  <!-- APPS PRODUÇÃO -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">🚀</span>
+      <span class="section-title">Apps em Produção</span>
+      <span class="section-badge badge-live">LIVE</span>
+    </div>
+    <div class="apps-grid">
+
+      <a class="app-card green" href="especialista-cantos/index.html">
+        <div class="app-header">
+          <div>
+            <div class="app-name">⚽ Especialista em Cantos</div>
+            <div class="app-sub">Corner Analytics • SmartCoach</div>
+          </div>
+          <div class="app-icon">📐</div>
+        </div>
+        <div class="app-desc">Motor principal de análise de cantos com projeção Poisson, Sniper v2, calibração Teacher e laudos automáticos via SmartCoach.</div>
+        <div class="app-tags">
+          <span class="tag green">BR • MLS • ARG • USL • BUN</span>
+          <span class="tag green">Sniper v2</span>
+          <span class="tag">Teacher Calibrado</span>
+          <span class="tag">Pinnacle XLS Import</span>
+        </div>
+        <div class="app-footer">
+          <span class="app-path">especialista-cantos/index.html</span>
+          <span class="app-arrow">→</span>
+        </div>
+      </a>
+
+      <a class="app-card gold" href="../yaaken-scanner.html">
+        <div class="app-header">
+          <div>
+            <div class="app-name" style="color:var(--gold)">🎯 YAAKEN Scanner</div>
+            <div class="app-sub">Value Betting • Sistema Yankee</div>
+          </div>
+          <div class="app-icon">⚡</div>
+        </div>
+        <div class="app-desc">Identifica zebras e empates subestimados (odds ≥ 2.50) e gera todas as combinações de duplas + triplas com análise H2H e cálculo de EV.</div>
+        <div class="app-tags">
+          <span class="tag gold">Odds ≥ 2.50</span>
+          <span class="tag gold">Duplas + Triplas</span>
+          <span class="tag">H2H Analysis</span>
+          <span class="tag">Sinal SNIPER</span>
+        </div>
+        <div class="app-footer">
+          <span class="app-path">../yaaken-scanner.html</span>
+          <span class="app-arrow">→</span>
+        </div>
+      </a>
+
+      <a class="app-card blue" href="EDS-ODDS-TEACHER/index.html">
+        <div class="app-header">
+          <div>
+            <div class="app-name" style="color:var(--blue)">🧪 EDS-ODDS-TEACHER</div>
+            <div class="app-sub">Volvo Test v2 • Calibração</div>
+          </div>
+          <div class="app-icon">🔬</div>
+        </div>
+        <div class="app-desc">Framework de validação pré-jogo vs pós-jogo. Mede acerto do modelo e gera receitas de melhoria. Memória injetada no Especialista via SmartCoach.</div>
+        <div class="app-tags">
+          <span class="tag blue">BR • MLS • ARG • USL</span>
+          <span class="tag blue">Volvo Test v2</span>
+          <span class="tag">Over/Under calibrado</span>
+        </div>
+        <div class="app-footer">
+          <span class="app-path">EDS-ODDS-TEACHER/index.html</span>
+          <span class="app-arrow">→</span>
+        </div>
+      </a>
+
+      <a class="app-card purple" href="EDS-Odds-Analyzer/AUDITOR EDS APP/index.html">
+        <div class="app-header">
+          <div>
+            <div class="app-name" style="color:var(--purple)">🔍 Auditor EDS</div>
+            <div class="app-sub">Análise Qualitativa • DNA</div>
+          </div>
+          <div class="app-icon">🧬</div>
+        </div>
+        <div class="app-desc">Auditor de qualidade das projeções. Analisa padrões qualitativos, DNA das ligas e classifica jogos por perfil tático.</div>
+        <div class="app-tags">
+          <span class="tag">DNA das Ligas</span>
+          <span class="tag">Motor Matemático</span>
+          <span class="tag">Qualitativas Engine</span>
+        </div>
+        <div class="app-footer">
+          <span class="app-path">EDS-Odds-Analyzer/AUDITOR EDS APP/</span>
+          <span class="app-arrow">→</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- AGENTES FANTASMA -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">🤖</span>
+      <span class="section-title">Agentes Fantasma (Scrapers)</span>
+      <span class="section-badge badge-live">Node.js • Puppeteer</span>
+    </div>
+    <div class="apps-grid">
+
+      <div class="app-card green" style="cursor:default;">
+        <div class="app-header">
+          <div>
+            <div class="app-name">👻 Agente 1 — Histórico</div>
+            <div class="app-sub">varredor-por-time.js</div>
+          </div>
+          <div class="app-icon">📚</div>
+        </div>
+        <div class="app-desc">Coleta histórico completo por time (200+ jogos) em todas as ligas. Alimenta o Especialista em Cantos com dados de cantos, stats e táticas.</div>
+        <div class="app-tags">
+          <span class="tag green">atualizar.bat [LIGA]</span>
+          <span class="tag">Cantos + Stats</span>
+          <span class="tag">Sem odds</span>
+        </div>
+        <div class="app-footer">
+          <span class="app-path">projeto-fantasma/atualizar.bat</span>
+        </div>
+      </div>
+
+      <div class="app-card gold" style="cursor:default;">
+        <div class="app-header">
+          <div>
+            <div class="app-name" style="color:var(--gold)">🎯 Agente 2 — YAAKEN</div>
+            <div class="app-sub">monster_yaaken.js</div>
+          </div>
+          <div class="app-icon">⚡</div>
+        </div>
+        <div class="app-desc">Coleta RODADA ATUAL com odds 1X2 e confrontos diretos (H2H) por jogo. Alimenta o YAAKEN Scanner para identificar value bets.</div>
+        <div class="app-tags">
+          <span class="tag gold">yaaken.bat [LIGA]</span>
+          <span class="tag gold">Odds 1X2</span>
+          <span class="tag gold">H2H por jogo</span>
+        </div>
+        <div class="app-footer">
+          <span class="app-path">projeto-fantasma/yaaken.bat</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- LIGAS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">🌍</span>
+      <span class="section-title">Ligas Configuradas</span>
+      <span class="section-badge badge-live">5 ligas</span>
+    </div>
+    <div class="apps-grid">
+      <div class="app-card" style="cursor:default;padding:.8rem 1rem;">
+        <div style="font-size:1.2rem;">🇧🇷</div>
+        <div><div class="app-name" style="font-size:.85rem;">Brasileirão Série A</div>
+        <div class="app-sub">BR • 97 jogos</div></div>
+        <div class="app-tags"><span class="tag green">Ativo</span><span class="tag">20 times</span><span class="tag">Teacher OK</span></div>
+      </div>
+      <div class="app-card" style="cursor:default;padding:.8rem 1rem;">
+        <div style="font-size:1.2rem;">🇺🇸</div>
+        <div><div class="app-name" style="font-size:.85rem;">Major League Soccer</div>
+        <div class="app-sub">MLS • 89 jogos</div></div>
+        <div class="app-tags"><span class="tag green">Ativo</span><span class="tag">30 times</span><span class="tag">Teacher OK</span></div>
+      </div>
+      <div class="app-card" style="cursor:default;padding:.8rem 1rem;">
+        <div style="font-size:1.2rem;">🇦🇷</div>
+        <div><div class="app-name" style="font-size:.85rem;">Liga Profesional Argentina</div>
+        <div class="app-sub">ARG • 180 jogos</div></div>
+        <div class="app-tags"><span class="tag green">Ativo</span><span class="tag">30 times</span><span class="tag">Teacher OK</span></div>
+      </div>
+      <div class="app-card" style="cursor:default;padding:.8rem 1rem;">
+        <div style="font-size:1.2rem;">🇺🇸</div>
+        <div><div class="app-name" style="font-size:.85rem;">USL Championship</div>
+        <div class="app-sub">USL • 57 jogos</div></div>
+        <div class="app-tags"><span class="tag green">Ativo</span><span class="tag">25 times</span><span class="tag">Teacher OK</span></div>
+      </div>
+      <div class="app-card" style="cursor:default;padding:.8rem 1rem;">
+        <div style="font-size:1.2rem;">🇩🇪</div>
+        <div><div class="app-name" style="font-size:.85rem;">Bundesliga</div>
+        <div class="app-sub">BUN • aguardando coleta</div></div>
+        <div class="app-tags"><span class="tag gold">Aguardando Fantasma</span><span class="tag">18 times</span><span class="tag">~270 jogos/temporada</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMANDOS RÁPIDOS -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-icon">⌨️</span>
+      <span class="section-title">Comandos Rápidos (projeto-fantasma/)</span>
+    </div>
+    <div style="background:var(--card);border:1px solid var(--border);border-radius:14px;padding:1.2rem;font-family:monospace;font-size:.75rem;line-height:2;">
+      <div style="color:var(--muted);"># Histórico completo (Especialista em Cantos)</div>
+      <div><span style="color:var(--green);">atualizar.bat</span> <span style="color:var(--gold);">BR</span> | <span style="color:var(--gold);">MLS</span> | <span style="color:var(--gold);">ARG</span> | <span style="color:var(--gold);">USL</span> | <span style="color:var(--gold);">BUN</span> | <span style="color:var(--gold);">TODAS</span></div>
+      <div style="color:var(--muted);margin-top:.5rem;"># Rodada atual com Odds + H2H (YAAKEN)</div>
+      <div><span style="color:var(--gold);">yaaken.bat</span> <span style="color:var(--gold);">BR</span> | <span style="color:var(--gold);">MLS</span> | <span style="color:var(--gold);">ARG</span> | <span style="color:var(--gold);">USL</span> | <span style="color:var(--gold);">BUN</span> | <span style="color:var(--gold);">TODAS</span></div>
+      <div style="color:var(--muted);margin-top:.5rem;"># Pipeline rodada (stats + orquestrador)</div>
+      <div><span style="color:var(--blue);">pipeline.bat</span> <span style="color:var(--gold);">MLS</span></div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
