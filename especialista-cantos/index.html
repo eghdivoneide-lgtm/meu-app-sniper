@@ -5323,14 +5323,13 @@ function varrerCisneNegro() {
      const proj = projecaoJogo(jogo.m, jogo.v);
      if(!proj) return;
 
-     const diffG = Math.abs(proj.geral.expHomeFT - proj.geral.expAwayFT);
-     const diffT = Math.abs(proj.tatica.expHomeFT - proj.tatica.expAwayFT);
+     const diff = Math.abs(proj.expHomeFT - proj.expAwayFT);
      
-     if(diffG >= 2.0 || diffT >= 2.0) {
+     if(diff >= 2.0) {
        encontrados++;
        
-       const favorito = proj.tatica.expHomeFT > proj.tatica.expAwayFT ? jogo.m : jogo.v;
-       const superDiff = Math.max(diffG, diffT).toFixed(2);
+       const favorito = proj.expHomeFT > proj.expAwayFT ? jogo.m : jogo.v;
+       const superDiff = diff.toFixed(2);
        
        const card = document.createElement('div');
        card.className = 'stat-card';

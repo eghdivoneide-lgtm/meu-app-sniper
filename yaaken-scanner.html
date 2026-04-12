@@ -466,6 +466,64 @@ nav.eds-nav button.active{
   padding:.35rem .6rem;border-radius:8px;font-family:inherit;font-size:.75rem;outline:none;
 }
 #view-tracker .manual-input:focus{border-color:var(--gold);}
+
+    /* ══ SMARTCOACH YAAKEN ══ */
+    #scy-bubble{
+      position:fixed;bottom:20px;right:20px;width:60px;height:60px;
+      background:linear-gradient(135deg,var(--gold),#d97706);
+      border-radius:50%;display:flex;align-items:center;justify-content:center;
+      font-size:1.6rem;cursor:pointer;box-shadow:0 10px 25px rgba(245,158,11,0.35);
+      z-index:900;transition:transform .2s;user-select:none;
+    }
+    #scy-bubble:hover{transform:scale(1.1);}
+    #scy-drawer{
+      position:fixed;bottom:90px;right:20px;width:390px;height:570px;max-height:82vh;max-width:93vw;
+      background:var(--bg2);border:1px solid var(--border);border-radius:16px;
+      box-shadow:0 15px 40px rgba(0,0,0,0.5);z-index:901;
+      display:flex;flex-direction:column;overflow:hidden;
+      transform:translateY(20px);opacity:0;pointer-events:none;
+      transition:all .35s cubic-bezier(0.175,0.885,0.32,1.275);
+    }
+    #scy-drawer.open{transform:translateY(0);opacity:1;pointer-events:auto;}
+    #scy-drawer.fullscreen{
+      top:0!important;left:0!important;right:0!important;bottom:0!important;
+      width:100vw!important;height:100vh!important;max-height:100vh!important;max-width:100vw!important;
+      border-radius:0!important;border:none!important;
+    }
+    .scy-header{
+      background:linear-gradient(135deg,#1a1200 0%,#0f0d00 100%);padding:1rem;
+      display:flex;justify-content:space-between;align-items:center;
+      border-bottom:1px solid rgba(245,158,11,0.2);flex-shrink:0;
+    }
+    .scy-header-title{display:flex;align-items:center;gap:.5rem;font-weight:800;color:var(--gold);}
+    .scy-header-actions{display:flex;gap:.5rem;}
+    .scy-btn{background:transparent;border:none;color:var(--text);cursor:pointer;font-size:1rem;opacity:.7;transition:opacity .2s;padding:.2rem .4rem;}
+    .scy-btn:hover{opacity:1;}
+    #scy-chat{flex:1;padding:1rem;overflow-y:auto;display:flex;flex-direction:column;gap:.8rem;min-height:0;}
+    .scy-msg{max-width:88%;padding:.75rem .9rem;border-radius:12px;font-size:.83rem;line-height:1.5;}
+    .scy-msg-bot{background:var(--bg3);border:1px solid var(--border);align-self:flex-start;border-bottom-left-radius:2px;}
+    .scy-msg-user{background:rgba(245,158,11,0.12);border:1px solid rgba(245,158,11,0.3);align-self:flex-end;border-bottom-right-radius:2px;}
+    .scy-msg table{width:100%;border-collapse:collapse;margin:.5rem 0;font-size:.78rem;border-radius:4px;overflow:hidden;}
+    .scy-msg th,.scy-msg td{border:1px solid var(--border);padding:.4rem .6rem;text-align:left;}
+    .scy-msg th{background:rgba(245,158,11,0.1);color:var(--gold);font-weight:700;}
+    .scy-msg strong{color:var(--gold);}
+    .scy-input-area{padding:.8rem;background:var(--bg3);border-top:1px solid var(--border);display:flex;flex-direction:column;gap:.5rem;flex-shrink:0;}
+    .scy-input-row{display:flex;gap:.5rem;align-items:center;}
+    #scy-input{flex:1;background:var(--bg);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:.6rem .8rem;font-size:.83rem;font-family:inherit;}
+    #scy-input:focus{outline:none;border-color:var(--gold);}
+    #scy-send{background:linear-gradient(135deg,var(--gold),#d97706);color:#000;border:none;border-radius:8px;padding:0 1rem;font-weight:800;cursor:pointer;font-size:.9rem;height:36px;}
+    #scy-settings{
+      position:absolute;top:0;left:0;width:100%;height:100%;background:var(--bg2);z-index:902;
+      padding:2rem 1.5rem;display:none;flex-direction:column;
+    }
+    #scy-settings.active{display:flex;}
+    #scy-apikey-input{background:var(--bg3);border:1px solid var(--border);color:var(--text);
+      border-radius:8px;padding:.7rem;font-size:.85rem;margin-bottom:1rem;width:100%;font-family:inherit;box-sizing:border-box;}
+    .scy-typing{display:flex;gap:.3rem;align-items:center;padding:.5rem .8rem;}
+    .scy-typing span{width:7px;height:7px;background:var(--gold);border-radius:50%;animation:scy-bounce .8s infinite;}
+    .scy-typing span:nth-child(2){animation-delay:.15s;}
+    .scy-typing span:nth-child(3){animation-delay:.3s;}
+    @keyframes scy-bounce{0%,80%,100%{transform:translateY(0)}40%{transform:translateY(-6px)}}
 </style>
 </head>
 <body>
@@ -2524,10 +2582,23 @@ function gerarLaudoYaaken() {
 
       <!-- Disclaimer -->
       <div style="font-size:.62rem;color:var(--muted);text-align:center;padding-top:.8rem;border-top:1px dashed var(--border)">
-        ⚙️ Laudo baseado em modelo Poisson com shrinkage Bayesiano sobre dados do Escoteiro YAAKEN. Compare as odds justas com o mercado para identificar valor positivo (+EV).
+        ⚙️ Laudo baseado em modelo Poisson com shrinkage Bayesiano + fator H2H sobre dados do Escoteiro YAAKEN.
+      </div>
+
+      <!-- SmartCoach Button -->
+      <div style="margin-top:1rem;text-align:center">
+        <button onclick="analisarComSmartCoach('${liga}','${m}','${v}')" style="background:linear-gradient(135deg,#1a1200,#0f0d00);border:1.5px solid var(--gold);color:var(--gold);padding:.75rem 2rem;border-radius:10px;font-weight:800;font-size:.85rem;cursor:pointer;font-family:inherit;transition:all .2s;box-shadow:0 4px 12px rgba(245,158,11,0.2)" onmouseover="this.style.boxShadow='0 4px 20px rgba(245,158,11,0.4)'" onmouseout="this.style.boxShadow='0 4px 12px rgba(245,158,11,0.2)'">
+          🤖 Analisar com SmartCoach IA
+        </button>
       </div>
     </div>
   `;
+  // Captura contexto para o SmartCoach
+  capturarContextoLaudo(liga, m, v, {
+    xGM, xGV, pWinM, pDraw, pWinV, conf, favNome, favLabel, favOdd, faixaFav,
+    h2hTotal, h2hM: h2hM_, h2hE: h2hE_, h2hV: h2hV_, h2hLabel,
+    atkM, defM, atkV, defV
+  });
 }
 
 // ═══════════════════════════════════════════════════
@@ -3667,6 +3738,268 @@ function atualizarDNASelects() {
     timeSel.innerHTML = '<option value="">Selecione o time</option>' + nomes.map(n => `<option value="${n}">${n}</option>`).join('');
   };
 }
+
+
+// ══════════════════════════════════════════════════════════════════
+//  SMARTCOACH YAAKEN — IA ESPECIALISTA EM RESULTADOS (1x2)
+// ══════════════════════════════════════════════════════════════════
+let scyKey = localStorage.getItem('scy_key') || '';
+let scyHistory = [];          // histórico do chat
+let scyLaudoCtx = null;       // contexto do último laudo gerado
+
+// ── UI Controls ──────────────────────────────────────────────────
+function toggleSCY() {
+  document.getElementById('scy-drawer').classList.toggle('open');
+}
+function toggleSCYFs() {
+  const d = document.getElementById('scy-drawer');
+  const b = document.getElementById('scy-fs-btn');
+  const isFs = d.classList.toggle('fullscreen');
+  b.textContent = isFs ? '⊠' : '⛶';
+  document.getElementById('scy-bubble').style.display = isFs ? 'none' : 'flex';
+}
+function toggleSCYSettings() {
+  const s = document.getElementById('scy-settings');
+  document.getElementById('scy-apikey-input').value = scyKey;
+  s.classList.toggle('active');
+}
+function saveSCYKey() {
+  scyKey = document.getElementById('scy-apikey-input').value.trim();
+  localStorage.setItem('scy_key', scyKey);
+  toggleSCYSettings();
+  addSCYMsg('bot', '✅ Chave salva! Agora gere um laudo de jogo e clique em <strong>Analisar com SmartCoach</strong> — ou me pergunte o que quiser!');
+}
+
+// ── Chat helpers ──────────────────────────────────────────────────
+function addSCYMsg(role, html) {
+  const chat = document.getElementById('scy-chat');
+  const div = document.createElement('div');
+  div.className = 'scy-msg scy-msg-' + role;
+  div.innerHTML = html;
+  chat.appendChild(div);
+  chat.scrollTop = chat.scrollHeight;
+  return div;
+}
+function addSCYTyping() {
+  const chat = document.getElementById('scy-chat');
+  const div = document.createElement('div');
+  div.className = 'scy-msg scy-msg-bot scy-typing-indicator';
+  div.innerHTML = '<div class="scy-typing"><span></span><span></span><span></span></div>';
+  chat.appendChild(div);
+  chat.scrollTop = chat.scrollHeight;
+  return div;
+}
+
+// ── Context Builder ───────────────────────────────────────────────
+function buildSCYContext() {
+  let ctx = '══ CONTEXTO YAAKEN SCANNER ══\n';
+  ctx += 'App: YAAKEN Scanner | Foco: Análise de resultados 1x2 (Vitória/Empate/Derrota)\n';
+
+  // Ligas carregadas
+  const ligas = Object.keys(agEscot);
+  ctx += 'Ligas com dados: ' + (ligas.length ? ligas.join(', ') : 'Nenhuma') + '\n';
+
+  // Resumo geral de todas as ligas
+  ligas.forEach(liga => {
+    const perfis = agEscot[liga]?.perfis || {};
+    const times = Object.values(perfis);
+    if (!times.length) return;
+    const avgGP = (times.reduce((s,t) => s + (t.geral?.gp_jogo||0), 0) / times.length).toFixed(2);
+    const avgGC = (times.reduce((s,t) => s + (t.geral?.gc_jogo||0), 0) / times.length).toFixed(2);
+    ctx += `\n📊 ${liga} — ${times.length} times | Média gols/jogo: ${avgGP} feitos / ${avgGC} sofridos\n`;
+    // Top 3 ofensivos
+    const top3atk = [...times].sort((a,b)=>(b.geral?.gp_jogo||0)-(a.geral?.gp_jogo||0)).slice(0,3);
+    ctx += '  Top ataque: ' + top3atk.map(t => t.nome + ' (' + (t.geral?.gp_jogo||0).toFixed(2) + 'g/j)').join(' | ') + '\n';
+  });
+
+  // Contexto do laudo ativo
+  if (scyLaudoCtx) {
+    ctx += '\n' + scyLaudoCtx;
+  }
+
+  return ctx;
+}
+
+// ── Laudo Context Capture (chamado após gerarLaudoYaaken) ─────────
+function capturarContextoLaudo(liga, m, v, dados) {
+  let ctx = '\n══ LAUDO ATIVO NA TELA ══\n';
+  ctx += 'Confronto: ' + m + ' (CASA) vs ' + v + ' (FORA) — Liga: ' + liga + '\n';
+  ctx += 'xGols esperados: CASA=' + dados.xGM.toFixed(2) + ' | FORA=' + dados.xGV.toFixed(2) + '\n';
+  ctx += 'Probabilidades Poisson: ' + m + ' ' + (dados.pWinM*100).toFixed(1) + '% @ ' + (1/dados.pWinM).toFixed(2);
+  ctx += ' | Empate ' + (dados.pDraw*100).toFixed(1) + '% @ ' + (1/dados.pDraw).toFixed(2);
+  ctx += ' | ' + v + ' ' + (dados.pWinV*100).toFixed(1) + '% @ ' + (1/dados.pWinV).toFixed(2) + '\n';
+  ctx += 'Confiança do modelo: ' + Math.round(dados.conf) + '%\n';
+  ctx += 'Favorito: ' + dados.favNome + ' (' + dados.favLabel + ') @ ' + dados.favOdd.toFixed(2) + ' — ' + dados.faixaFav + '\n';
+  ctx += 'Fator H2H: ' + (dados.h2hLabel || 'Equilibrado') + ' | H2H total: ' + dados.h2hTotal + ' jogos (M:' + dados.h2hM + ' E:' + dados.h2hE + ' V:' + dados.h2hV + ')\n';
+  ctx += 'Ataque CASA: ' + dados.atkM.toFixed(3) + 'x | Defesa vulnerabilidade CASA: ' + dados.defM.toFixed(3) + 'x\n';
+  ctx += 'Ataque FORA: ' + dados.atkV.toFixed(3) + 'x | Defesa vulnerabilidade FORA: ' + dados.defV.toFixed(3) + 'x\n';
+
+  // Perfil DNA
+  const pM = agEscot[liga]?.perfis?.[m];
+  const pV = agEscot[liga]?.perfis?.[v];
+  if (pM) {
+    ctx += '\n🧬 DNA ' + m + ': Perfil=' + (pM.perfil||'N/D') + ' | ' + (pM.geral?.j||pM.jogos||0) + ' jogos';
+    ctx += ' | Casa: ' + (pM.casa?.v_pct||0) + '% vitórias | ' + (pM.casa?.gp_jogo||0).toFixed(2) + 'g/j feitos | ' + (pM.casa?.gc_jogo||0).toFixed(2) + 'g/j sofridos\n';
+    ctx += '  Forma recente: ' + (pM.forma_recente||[]).join('-') + '\n';
+    if (pM.notas_yaaken?.length) ctx += '  Notas: ' + pM.notas_yaaken.join(' | ') + '\n';
+  }
+  if (pV) {
+    ctx += '🧬 DNA ' + v + ': Perfil=' + (pV.perfil||'N/D') + ' | ' + (pV.geral?.j||pV.jogos||0) + ' jogos';
+    ctx += ' | Fora: ' + (pV.fora?.v_pct||0) + '% vitórias | ' + (pV.fora?.gp_jogo||0).toFixed(2) + 'g/j feitos | ' + (pV.fora?.gc_jogo||0).toFixed(2) + 'g/j sofridos\n';
+    ctx += '  Forma recente: ' + (pV.forma_recente||[]).join('-') + '\n';
+    if (pV.notas_yaaken?.length) ctx += '  Notas: ' + pV.notas_yaaken.join(' | ') + '\n';
+  }
+  scyLaudoCtx = ctx;
+}
+
+// ── Análise do Laudo (botão no laudo) ─────────────────────────────
+async function analisarComSmartCoach(liga, m, v) {
+  if (!scyKey) {
+    toggleSCY();
+    setTimeout(() => toggleSCYSettings(), 300);
+    return;
+  }
+  document.getElementById('scy-drawer').classList.add('open');
+  addSCYMsg('user', '🔮 Analise o confronto <strong>' + m + ' vs ' + v + '</strong> e me diz a melhor entrada 1x2.');
+  const typing = addSCYTyping();
+
+  const ctx = buildSCYContext();
+  const systemPrompt = `Você é o *SmartCoach YAAKEN*, IA quantitativa especialista em apostas de resultado (1x2) no futebol.
+Seu foco é EXCLUSIVAMENTE o mercado de resultado: Vitória Mandante, Empate ou Vitória Visitante.
+
+REGRAS ESTRUTURAIS:
+1. Comece com um parágrafo de "Análise do Confronto" destacando os fatores decisivos (ataque, defesa, forma, H2H, DNA).
+2. Apresente o "Veredito Final" com a melhor entrada 1x2 e por quê ela tem Valor Esperado Positivo (+EV) em relação às odds do mercado.
+3. Termine com um "Alerta de Risco" caso algum fator possa invalidar a análise (amostra pequena, forma instável, H2H limitado).
+
+REGRAS ESTÉTICAS:
+NÃO USE ASTERISCOS markdown. Use HTML: <strong style="color:#fbbf24"> para destaques dourados, <strong style="color:#34d367"> para destaques verdes, <strong style="color:#f87171"> para alertas. Use <br><br> para separar parágrafos. Sem listas com traços.
+
+Seja cirúrgico. Máximo 250 palavras. Não enrole.
+--- DADOS DO MODELO YAAKEN ---
+${ctx}
+---`;
+
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'x-api-key': scyKey,
+        'anthropic-version': '2023-06-01',
+        'content-type': 'application/json',
+        'anthropic-dangerous-direct-browser-access': 'true'
+      },
+      body: JSON.stringify({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 800,
+        temperature: 0.35,
+        system: systemPrompt,
+        messages: [{ role: 'user', content: 'Gere a análise deste confronto com veredito 1x2 direto.' }]
+      })
+    });
+    typing.remove();
+    if (!res.ok) {
+      const e = await res.json().catch(()=>({}));
+      addSCYMsg('bot', '<span style="color:var(--red)">❌ Erro API: ' + (e.error?.message || res.status) + '</span>');
+      return;
+    }
+    const data = await res.json();
+    const text = data.content[0].text.replace(/\n\n/g,'<br><br>').replace(/\n/g,'<br>');
+    addSCYMsg('bot', text);
+    scyHistory.push({ role:'assistant', content: data.content[0].text });
+  } catch(err) {
+    typing.remove();
+    addSCYMsg('bot', '<span style="color:var(--red)">⚠️ Falha de conexão. Verifique sua chave em ⚙️.</span>');
+  }
+}
+
+// ── Chat livre ────────────────────────────────────────────────────
+async function sendSCYMsg() {
+  const input = document.getElementById('scy-input');
+  const text = input.value.trim();
+  if (!text) return;
+  if (!scyKey) {
+    toggleSCYSettings();
+    return;
+  }
+  input.value = '';
+  addSCYMsg('user', text);
+  scyHistory.push({ role:'user', content: text });
+  const typing = addSCYTyping();
+
+  const ctx = buildSCYContext();
+  const systemPrompt = `Você é o *SmartCoach YAAKEN*, IA especialista em análise de resultados de futebol (1x2).
+Responda de forma concisa e útil. Use HTML inline para ênfase: <strong style="color:#fbbf24"> para dourado, <strong style="color:#34d367"> para verde. Sem asteriscos markdown.
+Contexto atual do app:\n${ctx}`;
+
+  try {
+    const messages = scyHistory.slice(-10);
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'x-api-key': scyKey,
+        'anthropic-version': '2023-06-01',
+        'content-type': 'application/json',
+        'anthropic-dangerous-direct-browser-access': 'true'
+      },
+      body: JSON.stringify({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 600,
+        temperature: 0.4,
+        system: systemPrompt,
+        messages: messages
+      })
+    });
+    typing.remove();
+    if (!res.ok) {
+      const e = await res.json().catch(()=>({}));
+      addSCYMsg('bot', '<span style="color:var(--red)">❌ ' + (e.error?.message || res.status) + '</span>');
+      return;
+    }
+    const data = await res.json();
+    const reply = data.content[0].text.replace(/\n\n/g,'<br><br>').replace(/\n/g,'<br>');
+    addSCYMsg('bot', reply);
+    scyHistory.push({ role:'assistant', content: data.content[0].text });
+    if (scyHistory.length > 20) scyHistory = scyHistory.slice(-20);
+  } catch(err) {
+    typing.remove();
+    addSCYMsg('bot', '<span style="color:var(--red)">⚠️ Falha de conexão.</span>');
+  }
+}
+
 </script>
+
+<!-- ══ SMARTCOACH YAAKEN ══ -->
+<div id="scy-bubble" onclick="toggleSCY()" title="SmartCoach YAAKEN">🤖</div>
+<div id="scy-drawer">
+  <div class="scy-header">
+    <div class="scy-header-title">🤖 SmartCoach YAAKEN</div>
+    <div class="scy-header-actions">
+      <button class="scy-btn" id="scy-fs-btn" title="Tela cheia" onclick="toggleSCYFs()">⛶</button>
+      <button class="scy-btn" title="Configurar chave API" onclick="toggleSCYSettings()">⚙️</button>
+      <button class="scy-btn" onclick="toggleSCY()">✖</button>
+    </div>
+  </div>
+  <div id="scy-chat">
+    <div class="scy-msg scy-msg-bot">Olá! Sou o <strong>SmartCoach YAAKEN</strong> — IA especialista em análise de resultados (1x2).<br><br>💡 Configure sua chave Anthropic em ⚙️ e gere um laudo de jogo para eu analisar! Ou me pergunte o que quiser sobre as ligas.</div>
+  </div>
+  <div class="scy-input-area">
+    <div class="scy-input-row">
+      <input type="text" id="scy-input" placeholder="Pergunte sobre o jogo, ligas, estratégias..." onkeypress="if(event.key==='Enter') sendSCYMsg()">
+      <button id="scy-send" onclick="sendSCYMsg()">➤</button>
+    </div>
+  </div>
+  <div id="scy-settings">
+    <h3 style="margin-bottom:.8rem;color:var(--gold)">⚙️ Configuração da API</h3>
+    <p style="font-size:.78rem;color:var(--muted);margin-bottom:1rem;line-height:1.4">Sua chave Anthropic é armazenada localmente no navegador (localStorage). Nunca sai do seu dispositivo.</p>
+    <label style="font-size:.78rem;color:var(--muted);margin-bottom:.3rem;display:block">Chave API Anthropic (sk-ant-...)</label>
+    <input type="password" id="scy-apikey-input" placeholder="Cole sua chave aqui...">
+    <div style="margin-top:auto;display:flex;gap:.8rem">
+      <button onclick="toggleSCYSettings()" style="flex:1;background:var(--bg3);border:1px solid var(--border);color:var(--text);padding:.75rem;border-radius:8px;cursor:pointer;font-family:inherit">Cancelar</button>
+      <button onclick="saveSCYKey()" style="flex:1;background:linear-gradient(135deg,var(--gold),#d97706);border:none;color:#000;padding:.75rem;border-radius:8px;font-weight:800;cursor:pointer;font-family:inherit">Salvar Chave</button>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
