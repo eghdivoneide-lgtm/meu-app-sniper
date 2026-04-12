@@ -529,6 +529,35 @@ nav.eds-nav button.active{
     <div id="ranking-content">
       <div class="empty-state"><div class="emoji">🏆</div><p>Aguardando dados do Escoteiro YAAKEN</p></div>
     </div>
+
+    <!-- ── ANALISAR JOGO YAAKEN ── -->
+    <div style="margin-top:1.5rem;background:var(--bg3);border:1px solid var(--border);border-left:4px solid var(--gold);border-radius:12px;padding:1.5rem">
+      <div class="section-title" style="margin-bottom:.5rem;color:var(--text)">⚽ Analisar Jogo — Laudo do Match (1x2)</div>
+      <p style="color:var(--muted);font-size:.82rem;margin-bottom:1rem">Selecione dois times para gerar a projeção de gols esperados, favorito e probabilidades 1x2 com confiança do modelo.</p>
+      <div style="display:flex;gap:.8rem;margin-bottom:1rem;flex-wrap:wrap;align-items:flex-end">
+        <div>
+          <div style="font-size:.6rem;color:var(--muted);font-weight:700;text-transform:uppercase;margin-bottom:.3rem">Liga</div>
+          <select id="laudo-liga-sel" onchange="popularSelectsLaudoY()" style="background:var(--bg2);border:1px solid var(--border);color:var(--gold);padding:.5rem .8rem;border-radius:8px;font-family:inherit;font-size:.8rem">
+            <option value="">— Liga —</option>
+          </select>
+        </div>
+        <div>
+          <div style="font-size:.6rem;color:var(--muted);font-weight:700;text-transform:uppercase;margin-bottom:.3rem">🏠 Mandante</div>
+          <select id="laudo-man-sel" style="background:var(--bg2);border:1px solid var(--border);color:var(--text);padding:.5rem .8rem;border-radius:8px;font-family:inherit;font-size:.8rem;min-width:180px">
+            <option value="">— Casa —</option>
+          </select>
+        </div>
+        <div>
+          <div style="font-size:.6rem;color:var(--muted);font-weight:700;text-transform:uppercase;margin-bottom:.3rem">✈️ Visitante</div>
+          <select id="laudo-vis-sel" style="background:var(--bg2);border:1px solid var(--border);color:var(--text);padding:.5rem .8rem;border-radius:8px;font-family:inherit;font-size:.8rem;min-width:180px">
+            <option value="">— Fora —</option>
+          </select>
+        </div>
+      </div>
+      <button onclick="gerarLaudoYaaken()" style="width:100%;background:linear-gradient(135deg,var(--gold),#d97706);border:none;color:#000;padding:.8rem;border-radius:8px;font-weight:800;cursor:pointer;font-family:inherit;font-size:.9rem;box-shadow:0 4px 12px rgba(245,158,11,0.3);transition:transform .2s" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">🔮 Gerar Laudo do Jogo (1x2 + xGols)</button>
+    </div>
+    <div id="resultado-laudo-y"></div>
+
   </div>
 </div>
 
@@ -2130,6 +2159,375 @@ function renderRanking() {
     </div>`;
   });
   el.innerHTML = html;
+  // Populate laudo liga select
+  const laudoLigaSel = document.getElementById('laudo-liga-sel');
+  if (laudoLigaSel) {
+    const currentLiga = laudoLigaSel.value;
+    laudoLigaSel.innerHTML = '<option value="">— Liga —</option>' + ligas.map(l => `<option value="${l}"${l===currentLiga?' selected':''}>${l}</option>`).join('');
+  }
+}
+
+// ═══════════════════════════════════════════════════
+//  LAUDO DO JOGO — YAAKEN MATCH ANALYSIS
+// ═══════════════════════════════════════════════════
+function popularSelectsLaudoY() {
+  const liga = document.getElementById('laudo-liga-sel').value;
+  const perfis = agEscot[liga]?.perfis || {};
+  const times = Object.keys(perfis).sort();
+  const opts = '<option value="">— Escolha —</option>' + times.map(t => `<option value="${t}">${t}</option>`).join('');
+  document.getElementById('laudo-man-sel').innerHTML = opts;
+  document.getElementById('laudo-vis-sel').innerHTML = opts;
+  document.getElementById('resultado-laudo-y').innerHTML = '';
+}
+
+function gerarLaudoYaaken() {
+  const liga = document.getElementById('laudo-liga-sel').value;
+  const m    = document.getElementById('laudo-man-sel').value;
+  const v    = document.getElementById('laudo-vis-sel').value;
+  const ctr  = document.getElementById('resultado-laudo-y');
+
+  if (!liga || !m || !v) {
+    ctr.innerHTML = `<div style="background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.3);border-radius:8px;padding:.8rem 1rem;color:#fca5a5;font-size:.82rem;margin-top:.8rem">⚠️ Selecione liga, mandante e visitante.</div>`;
+    return;
+  }
+  if (m === v) {
+    ctr.innerHTML = `<div style="background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.3);border-radius:8px;padding:.8rem 1rem;color:#fca5a5;font-size:.82rem;margin-top:.8rem">⚠️ Selecione times diferentes!</div>`;
+    return;
+  }
+
+  const perfis = agEscot[liga]?.perfis || {};
+  const pM = perfis[m];
+  const pV = perfis[v];
+  if (!pM || !pV) {
+    ctr.innerHTML = `<div style="background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.3);border-radius:8px;padding:.8rem 1rem;color:#fca5a5;font-size:.82rem;margin-top:.8rem">⚠️ Dados não encontrados para os times selecionados.</div>`;
+    return;
+  }
+
+  // ── League averages (Poisson base) ──
+  const allP = Object.values(perfis).filter(p => (p.geral?.j || p.jogos || 0) > 0);
+  function avg2(arr) { return arr.length ? arr.reduce((s,x)=>s+x,0)/arr.length : 1; }
+  const leagueAvgGP = avg2(allP.map(p => p.geral?.gp_jogo || 0).filter(x=>x>0));
+
+  // ── Bayesian attack/defense factors ──
+  const jM = pM.geral?.j || pM.jogos || 0;
+  const jV = pV.geral?.j || pV.jogos || 0;
+  const k  = 3; // shrinkage constant
+
+  function shrinkFactor(situacional, global, n, k) {
+    if (!situacional || isNaN(situacional)) return global;
+    const w = n / (n + k);
+    return w * situacional + (1 - w) * global;
+  }
+
+  const atkMraw = (pM.casa?.gp_jogo || pM.geral?.gp_jogo || 0) / leagueAvgGP;
+  const defMraw = (pM.casa?.gc_jogo || pM.geral?.gc_jogo || 0) / leagueAvgGP;
+  const atkVraw = (pV.fora?.gp_jogo  || pV.geral?.gp_jogo || 0) / leagueAvgGP;
+  const defVraw = (pV.fora?.gc_jogo  || pV.geral?.gc_jogo || 0) / leagueAvgGP;
+
+  const jMcasa = pM.casa?.j || Math.round(jM / 2);
+  const jVfora = pV.fora?.j || Math.round(jV / 2);
+
+  const atkM = shrinkFactor(atkMraw, 1.0, jMcasa, k);
+  const defM = shrinkFactor(defMraw, 1.0, jMcasa, k);
+  const atkV = shrinkFactor(atkVraw, 1.0, jVfora, k);
+  const defV = shrinkFactor(defVraw, 1.0, jVfora, k);
+
+  // ── xGols esperados ──
+  const xGM_base = Math.max(0.1, atkM * defV * leagueAvgGP);
+  const xGV_base = Math.max(0.1, atkV * defM * leagueAvgGP);
+  // Ajuste H2H aplicado abaixo após calcular h2hFatorM/V
+  // (variáveis h2hFatorM/V definidas no bloco H2H mais abaixo)
+  const xGTotal = xGM_base + xGV_base;
+
+  // ── Confrontos Diretos (H2H) ──
+  function normN(s) {
+    return (s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,' ').trim();
+  }
+  function nomesSim(a, b) {
+    const na = normN(a), nb = normN(b);
+    if (na === nb) return true;
+    const wa = na.split(' '), wb = nb.split(' ');
+    return wa[0] && wb[0] && (na.includes(wb[0]) || nb.includes(wa[0]));
+  }
+
+  // Fonte 1: agYaaken fixtures (stats agregados da rodada)
+  let h2hAgr = null;
+  const ligaYK = typeof agYaaken !== 'undefined' ? agYaaken[liga] : null;
+  if (ligaYK && ligaYK.jogos) {
+    const jFound = ligaYK.jogos.find(j => nomesSim(j.mandante, m) && nomesSim(j.visitante, v));
+    if (jFound && jFound.h2h && jFound.h2h.total > 0) h2hAgr = jFound.h2h;
+  }
+
+  // Fonte 2: historico_geral — cruzamento entre perfis
+  const histHM = (pM.historico_geral || []).filter(h => nomesSim(h.adversario || '', v));
+  const histHV = (pV.historico_geral || []).filter(h => nomesSim(h.adversario || '', m));
+
+  const h2hJogos = [];
+  const rodH2H = new Set();
+  histHM.forEach(h => {
+    rodH2H.add(h.rodada);
+    const eMan = h.mando === 'C';
+    h2hJogos.push({ man: eMan?m:v, vis: eMan?v:m, res_M: h.resultado,
+      gp: h.gp, gc: h.gc, rd: h.rodada });
+  });
+  histHV.forEach(h => {
+    if (rodH2H.has(h.rodada)) return;
+    rodH2H.add(h.rodada);
+    const eMan = h.mando === 'C';
+    const inv = h.resultado==='V'?'D':h.resultado==='D'?'V':'E';
+    h2hJogos.push({ man: eMan?v:m, vis: eMan?m:v, res_M: inv,
+      gp: h.gc, gc: h.gp, rd: h.rodada });
+  });
+
+  let h2hVM=0, h2hEM=0, h2hVV=0;
+  h2hJogos.forEach(j => { if(j.res_M==='V') h2hVM++; else if(j.res_M==='E') h2hEM++; else h2hVV++; });
+
+  // Totais: prefere historico_geral (com detalhe) quando disponível
+  const h2hTotal = h2hJogos.length > 0 ? h2hJogos.length : (h2hAgr ? h2hAgr.total : 0);
+  const h2hM_ = h2hJogos.length > 0 ? h2hVM : (h2hAgr ? h2hAgr.vitorias_mandante : 0);
+  const h2hE_ = h2hJogos.length > 0 ? h2hEM : (h2hAgr ? h2hAgr.empates : 0);
+  const h2hV_ = h2hJogos.length > 0 ? h2hVV : (h2hAgr ? h2hAgr.vitorias_visitante : 0);
+
+  // ── Fator H2H (ajuste sobre xGols) ──────────────────────────────────────
+  // Se um time domina o H2H, aplica boost leve (±8% max) proporcional ao domínio
+  // Peso do fator H2H cai se a amostra for pequena (< 3 jogos) — shrinkage
+  let h2hFatorM = 1.0, h2hFatorV = 1.0, h2hLabel = null;
+  if (h2hTotal >= 2) {
+    const domM = h2hM_ / h2hTotal;  // 0-1: quanto M domina
+    const domV = h2hV_ / h2hTotal;  // 0-1: quanto V domina
+    const peso = Math.min(1, h2hTotal / 5); // pesos cresce com amostra: 3j=60%, 5j+=100%
+    const maxAdj = 0.08; // máximo ±8%
+    if (domM > 0.6) {
+      h2hFatorM = 1 + (domM - 0.5) * peso * maxAdj * 2;
+      h2hFatorV = 1 - (domM - 0.5) * peso * maxAdj;
+      h2hLabel  = m.split(' ')[0] + ' domina H2H (' + Math.round(domM*100) + '%)';
+    } else if (domV > 0.6) {
+      h2hFatorV = 1 + (domV - 0.5) * peso * maxAdj * 2;
+      h2hFatorM = 1 - (domV - 0.5) * peso * maxAdj;
+      h2hLabel  = v.split(' ')[0] + ' domina H2H (' + Math.round(domV*100) + '%)';
+    }
+    h2hFatorM = Math.max(0.92, Math.min(1.08, h2hFatorM));
+    h2hFatorV = Math.max(0.92, Math.min(1.08, h2hFatorV));
+  }
+
+  // ── Aplica Fator H2H aos xGols ──
+  const xGM = xGM_base * h2hFatorM;
+  const xGV = xGV_base * h2hFatorV;
+
+  // ── Poisson 1x2 ──
+  function poissonProb(k, lam) {
+    let p = Math.exp(-lam);
+    for (let i = 1; i <= k; i++) p *= lam / i;
+    return p;
+  }
+  let pWinM = 0, pDraw = 0, pWinV = 0;
+  const maxG = 9;
+  for (let i = 0; i <= maxG; i++) {
+    for (let j = 0; j <= maxG; j++) {
+      const p = poissonProb(i, xGM) * poissonProb(j, xGV);
+      if (i > j)      pWinM += p;
+      else if (i===j) pDraw += p;
+      else            pWinV += p;
+    }
+  }
+  const total1x2 = pWinM + pDraw + pWinV;
+  pWinM /= total1x2; pDraw /= total1x2; pWinV /= total1x2;
+
+  // ── Confiança ──
+  const nMin = Math.min(jM, jV);
+  const conf = Math.min(88, 30 + nMin * 5.5);
+
+  // ── Favorito ──
+  const maxProb = Math.max(pWinM, pDraw, pWinV);
+  let favNome, favLabel, favCor, favOdd;
+  if (pWinM >= pWinV && pWinM >= pDraw) {
+    favNome = m; favLabel = '🏠 CASA'; favCor = '#34d367'; favOdd = 1 / pWinM;
+  } else if (pWinV > pWinM && pWinV >= pDraw) {
+    favNome = v; favLabel = '✈️ FORA'; favCor = '#60a5fa'; favOdd = 1 / pWinV;
+  } else {
+    favNome = 'Empate'; favLabel = '⚖️ EQUILÍBRIO'; favCor = '#f59e0b'; favOdd = 1 / pDraw;
+  }
+  let faixaFav, corFaixa;
+  if      (favOdd <= 1.40) { faixaFav = 'DOMINANTE';     corFaixa = '#3b82f6'; }
+  else if (favOdd <= 1.65) { faixaFav = 'FAVORITO';       corFaixa = '#34d367'; }
+  else if (favOdd <= 1.90) { faixaFav = 'LEVE FAVORITO';  corFaixa = '#f59e0b'; }
+  else                     { faixaFav = 'EQUILIBRADO';    corFaixa = '#ef4444'; }
+
+  // ── Saldo esperado ──
+  const saldo = xGM - xGV;
+  const saldoStr = saldo > 0.05 ? `+${saldo.toFixed(2)} gols` : saldo < -0.05 ? `${saldo.toFixed(2)} gols` : '≈ Equilibrado';
+  const saldoCor = saldo > 0.05 ? 'var(--green)' : saldo < -0.05 ? 'var(--red)' : 'var(--gold)';
+
+  // ── Forma strip ──
+  function formaStrip(forma) {
+    return (forma || []).map(r =>
+      `<span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:5px;font-size:.62rem;font-weight:900;background:${r==='V'?'rgba(52,211,103,0.2)':r==='E'?'rgba(245,158,11,0.2)':'rgba(239,68,68,0.2)'};color:${r==='V'?'var(--green)':r==='E'?'var(--gold)':'var(--red)'}">${r}</span>`
+    ).join('');
+  }
+
+  // ── Highlight winner cell ──
+  function hl(prob) {
+    return prob === maxProb ? 'rgba(255,255,255,0.05)' : 'transparent';
+  }
+  function hlBorder(prob) {
+    if (prob !== maxProb) return 'var(--border)';
+    return pWinM===maxProb ? 'rgba(52,211,103,0.4)' : pWinV===maxProb ? 'rgba(96,165,250,0.4)' : 'rgba(245,158,11,0.4)';
+  }
+
+  const fmt2 = n => isNaN(n) ? '—' : n.toFixed(2);
+  const fmtPct = n => (n*100).toFixed(1) + '%';
+
+  ctr.innerHTML = `
+    <div style="background:var(--card);border:1px solid var(--border);border-radius:16px;padding:1.5rem;margin-top:1rem">
+
+      <!-- VS Header -->
+      <div style="text-align:center;font-size:1.05rem;font-weight:900;color:var(--text);margin-bottom:1.2rem;padding-bottom:.8rem;border-bottom:1px solid var(--border)">
+        🏠 ${m} <span style="color:var(--muted);font-size:.9rem;margin:0 .6rem">vs</span> ${v} ✈️
+      </div>
+
+      <!-- Favorito badge -->
+      <div style="text-align:center;margin-bottom:1.2rem">
+        <span style="background:${corFaixa}22;color:${corFaixa};padding:.4rem 1.4rem;border-radius:20px;font-weight:900;font-size:.82rem;border:1px solid ${corFaixa}55;letter-spacing:.3px">
+          👑 ${favLabel} — <strong>${favNome}</strong> · ${faixaFav} @ ${fmt2(favOdd)}
+        </span>
+      </div>
+
+      <!-- xGols cards -->
+      <div style="display:grid;grid-template-columns:1fr auto 1fr;gap:.6rem;margin-bottom:1.2rem;align-items:center">
+        <div style="background:var(--bg3);border:1px solid var(--border);border-top:2px solid var(--gold);border-radius:10px;padding:1rem;text-align:center;position:relative">
+          <div style="font-size:.6rem;color:var(--muted);text-transform:uppercase;font-weight:700;margin-bottom:.4rem">🏠 xGols ${m}</div>
+          <div style="font-size:2.2rem;font-weight:900;color:var(--gold);line-height:1">${fmt2(xGM)}</div>
+          <div style="margin-top:.5rem;font-size:.65rem;color:var(--muted)">Atk: ${fmt2(atkM)}x · Def Opp: ${fmt2(defV)}x</div>
+          <div style="margin-top:.4rem;display:flex;gap:.2rem;justify-content:center">${formaStrip(pM.forma_recente)}</div>
+        </div>
+        <div style="text-align:center;padding:.5rem">
+          <div style="font-size:.62rem;color:var(--muted);font-weight:700;text-transform:uppercase;margin-bottom:.4rem">Saldo Esp.</div>
+          <div style="font-size:1.2rem;font-weight:900;color:${saldoCor};line-height:1">${saldoStr}</div>
+          <div style="font-size:.6rem;color:var(--muted);margin-top:.4rem">Confiança</div>
+          <div style="font-size:.9rem;font-weight:800;color:var(--green)">${Math.round(conf)}%</div>
+        </div>
+        <div style="background:var(--bg3);border:1px solid var(--border);border-top:2px solid #60a5fa;border-radius:10px;padding:1rem;text-align:center;position:relative">
+          <div style="font-size:.6rem;color:var(--muted);text-transform:uppercase;font-weight:700;margin-bottom:.4rem">✈️ xGols ${v}</div>
+          <div style="font-size:2.2rem;font-weight:900;color:#60a5fa;line-height:1">${fmt2(xGV)}</div>
+          <div style="margin-top:.5rem;font-size:.65rem;color:var(--muted)">Atk: ${fmt2(atkV)}x · Def Opp: ${fmt2(defM)}x</div>
+          <div style="margin-top:.4rem;display:flex;gap:.2rem;justify-content:center">${formaStrip(pV.forma_recente)}</div>
+        </div>
+      </div>
+
+      <!-- 1x2 probabilidades -->
+      <div style="background:var(--bg3);border:1px solid var(--border);border-radius:10px;padding:1rem;margin-bottom:1.2rem">
+        <div style="font-size:.65rem;color:var(--muted);text-transform:uppercase;font-weight:700;letter-spacing:.5px;margin-bottom:.7rem">⚖️ Probabilidades 1x2 — Modelo Poisson</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:.5rem;margin-bottom:.8rem">
+          <div style="background:${hl(pWinM)};border:1px solid ${hlBorder(pWinM)};border-radius:8px;padding:.8rem;text-align:center">
+            <div style="font-size:.62rem;color:var(--muted);margin-bottom:.3rem;font-weight:600">🏠 ${m.split(' ')[0]}</div>
+            <div style="font-size:1.6rem;font-weight:900;color:var(--green)">${fmtPct(pWinM)}</div>
+            <div style="font-size:.65rem;color:var(--muted);margin-top:.2rem">@ ${fmt2(1/pWinM)}</div>
+          </div>
+          <div style="background:${hl(pDraw)};border:1px solid ${hlBorder(pDraw)};border-radius:8px;padding:.8rem;text-align:center">
+            <div style="font-size:.62rem;color:var(--muted);margin-bottom:.3rem;font-weight:600">⚖️ Empate</div>
+            <div style="font-size:1.6rem;font-weight:900;color:var(--gold)">${fmtPct(pDraw)}</div>
+            <div style="font-size:.65rem;color:var(--muted);margin-top:.2rem">@ ${fmt2(1/pDraw)}</div>
+          </div>
+          <div style="background:${hl(pWinV)};border:1px solid ${hlBorder(pWinV)};border-radius:8px;padding:.8rem;text-align:center">
+            <div style="font-size:.62rem;color:var(--muted);margin-bottom:.3rem;font-weight:600">✈️ ${v.split(' ')[0]}</div>
+            <div style="font-size:1.6rem;font-weight:900;color:#60a5fa">${fmtPct(pWinV)}</div>
+            <div style="font-size:.65rem;color:var(--muted);margin-top:.2rem">@ ${fmt2(1/pWinV)}</div>
+          </div>
+        </div>
+        <!-- Barra de confiança -->
+        <div style="display:flex;justify-content:space-between;font-size:.62rem;color:var(--muted);margin-bottom:.3rem">
+          <span>Confiança do Modelo (amostra)</span>
+          <span style="color:var(--green);font-weight:700">${Math.round(conf)}%</span>
+        </div>
+        <div style="background:rgba(255,255,255,.06);border-radius:99px;height:5px;overflow:hidden">
+          <div style="height:100%;border-radius:99px;background:linear-gradient(90deg,var(--green),var(--green2));width:${conf}%"></div>
+        </div>
+      </div>
+
+      <!-- Força ofensiva/defensiva -->
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:.6rem;margin-bottom:1.2rem">
+        <div style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:.7rem;text-align:center">
+          <div style="font-size:.58rem;color:var(--muted);margin-bottom:.3rem;text-transform:uppercase">🏠 Ataque</div>
+          <div style="font-size:1.2rem;font-weight:900;color:${atkM>=1?'var(--green)':'var(--red)'}">${fmt2(atkM)}x</div>
+          <div style="background:rgba(255,255,255,.05);border-radius:99px;height:3px;margin-top:.4rem;overflow:hidden"><div style="height:100%;border-radius:99px;background:var(--green);width:${Math.min(100,atkM*50)}%"></div></div>
+        </div>
+        <div style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:.7rem;text-align:center">
+          <div style="font-size:.58rem;color:var(--muted);margin-bottom:.3rem;text-transform:uppercase">🏠 Def (sofre)</div>
+          <div style="font-size:1.2rem;font-weight:900;color:${defM<=1?'var(--green)':'var(--red)'}">${fmt2(defM)}x</div>
+          <div style="background:rgba(255,255,255,.05);border-radius:99px;height:3px;margin-top:.4rem;overflow:hidden"><div style="height:100%;border-radius:99px;background:var(--red);width:${Math.min(100,defM*50)}%"></div></div>
+        </div>
+        <div style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:.7rem;text-align:center">
+          <div style="font-size:.58rem;color:var(--muted);margin-bottom:.3rem;text-transform:uppercase">✈️ Ataque</div>
+          <div style="font-size:1.2rem;font-weight:900;color:${atkV>=1?'var(--green)':'var(--red)'}">${fmt2(atkV)}x</div>
+          <div style="background:rgba(255,255,255,.05);border-radius:99px;height:3px;margin-top:.4rem;overflow:hidden"><div style="height:100%;border-radius:99px;background:#60a5fa;width:${Math.min(100,atkV*50)}%"></div></div>
+        </div>
+        <div style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:.7rem;text-align:center">
+          <div style="font-size:.58rem;color:var(--muted);margin-bottom:.3rem;text-transform:uppercase">✈️ Def (sofre)</div>
+          <div style="font-size:1.2rem;font-weight:900;color:${defV<=1?'var(--green)':'var(--red)'}">${fmt2(defV)}x</div>
+          <div style="background:rgba(255,255,255,.05);border-radius:99px;height:3px;margin-top:.4rem;overflow:hidden"><div style="height:100%;border-radius:99px;background:var(--red);width:${Math.min(100,defV*50)}%"></div></div>
+        </div>
+      </div>
+
+      <!-- Confrontos Diretos H2H -->
+      ${(function(){
+        if (h2hTotal === 0) {
+          return '<div style="background:var(--bg3);border:1px solid var(--border);border-left:3px solid var(--border);border-radius:10px;padding:.7rem 1rem;margin-bottom:1.2rem"><div style="font-size:.68rem;color:var(--muted)">⚔️ <strong>Confrontos Diretos:</strong> Nenhum confronto encontrado nos dados atuais. Carregue o Monster YAAKEN para enriquecer o H2H.</div></div>';
+        }
+        const barM = h2hM_ > 0 ? '<div style="background:rgba(52,211,103,0.3);flex:'+h2hM_+';display:flex;align-items:center;justify-content:center;font-size:.68rem;font-weight:900;color:var(--green)">'+h2hM_+'</div>' : '';
+        const barE = h2hE_ > 0 ? '<div style="background:rgba(245,158,11,0.25);flex:'+h2hE_+';display:flex;align-items:center;justify-content:center;font-size:.68rem;font-weight:900;color:var(--gold)">'+h2hE_+'</div>' : '';
+        const barV = h2hV_ > 0 ? '<div style="background:rgba(96,165,250,0.3);flex:'+h2hV_+';display:flex;align-items:center;justify-content:center;font-size:.68rem;font-weight:900;color:#60a5fa">'+h2hV_+'</div>' : '';
+        const ajusteH2H = h2hLabel ? '<div style="margin-top:.5rem;padding:.3rem .7rem;background:rgba(245,158,11,0.1);border:1px solid rgba(245,158,11,0.3);border-radius:6px;font-size:.65rem;color:var(--gold);font-weight:700">⚡ Fator H2H aplicado: '+h2hLabel+'</div>' : '';
+        let jogosHtml = '';
+        if (h2hJogos.length > 0) {
+          h2hJogos.forEach(function(j) {
+            const resCor = j.res_M==='V' ? 'var(--green)' : j.res_M==='E' ? 'var(--gold)' : 'var(--red)';
+            const resLabel = j.res_M==='V' ? m.split(' ')[0]+' venceu' : j.res_M==='E' ? 'Empate' : v.split(' ')[0]+' venceu';
+            const placar = (j.gp!=='?' && j.gc!=='?') ? ' · '+j.gp+'×'+j.gc : '';
+            jogosHtml += '<div style="display:flex;justify-content:space-between;align-items:center;padding:.3rem .5rem;background:var(--bg2);border-radius:6px;margin-bottom:.3rem;font-size:.68rem"><span style="color:var(--muted)">Rd '+(j.rd||'?')+' · '+j.man+' vs '+j.vis+'</span><span style="color:'+resCor+';font-weight:700">'+resLabel+placar+'</span></div>';
+          });
+          jogosHtml = '<div style="border-top:1px solid var(--border);padding-top:.7rem;margin-top:.5rem"><div style="font-size:.6rem;color:var(--muted);font-weight:700;text-transform:uppercase;margin-bottom:.5rem">📋 Histórico Recente</div>'+jogosHtml+'</div>';
+        } else if (h2hAgr) {
+          jogosHtml = '<div style="font-size:.62rem;color:var(--muted);font-style:italic;margin-top:.4rem">Detalhes dos jogos não disponíveis — importe o Monster YAAKEN mais recente.</div>';
+        }
+        return '<div style="background:var(--bg3);border:1px solid var(--border);border-radius:10px;padding:1rem;margin-bottom:1.2rem"><div style="font-size:.65rem;color:var(--muted);text-transform:uppercase;font-weight:700;letter-spacing:.5px;margin-bottom:.8rem">⚔️ Confrontos Diretos (H2H) — '+h2hTotal+' jogo'+(h2hTotal!==1?'s':'')+' encontrado'+(h2hTotal!==1?'s':'')+'</div><div style="display:flex;border-radius:8px;overflow:hidden;height:28px;margin-bottom:.7rem">'+barM+barE+barV+'</div><div style="display:flex;justify-content:space-between;font-size:.65rem;margin-bottom:.5rem"><span style="color:var(--green);font-weight:700">🏠 '+m.split(' ')[0]+': '+h2hM_+' vitória'+(h2hM_!==1?'s':'')+'</span><span style="color:var(--gold)">⚖️ Empates: '+h2hE_+'</span><span style="color:#60a5fa;font-weight:700">✈️ '+v.split(' ')[0]+': '+h2hV_+' vitória'+(h2hV_!==1?'s':'')+'</span></div>'+ajusteH2H+jogosHtml+'</div>';
+      })()}
+
+      <!-- DNA Perfis -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:.7rem;margin-bottom:1.2rem">
+        <div style="background:var(--bg3);border:1px solid rgba(52,211,103,.2);border-radius:10px;padding:.9rem">
+          <div style="font-size:.6rem;color:var(--muted);font-weight:700;text-transform:uppercase;margin-bottom:.4rem">🧬 DNA — ${m}</div>
+          <div style="font-size:.88rem;color:var(--green);font-weight:800;margin-bottom:.3rem">${pM.perfil || 'N/D'}</div>
+          <div style="font-size:.65rem;color:var(--muted)">${pM.geral?.j||pM.jogos||0} jogos · ${pM.casa?.v_pct||0}% vitórias casa · ${pM.geral?.gp_jogo?.toFixed(2)||'—'} gols/jogo</div>
+        </div>
+        <div style="background:var(--bg3);border:1px solid rgba(96,165,250,.2);border-radius:10px;padding:.9rem">
+          <div style="font-size:.6rem;color:var(--muted);font-weight:700;text-transform:uppercase;margin-bottom:.4rem">🧬 DNA — ${v}</div>
+          <div style="font-size:.88rem;color:#60a5fa;font-weight:800;margin-bottom:.3rem">${pV.perfil || 'N/D'}</div>
+          <div style="font-size:.65rem;color:var(--muted)">${pV.geral?.j||pV.jogos||0} jogos · ${pV.fora?.v_pct||0}% vitórias fora · ${pV.geral?.gp_jogo?.toFixed(2)||'—'} gols/jogo</div>
+        </div>
+      </div>
+
+      <!-- Notas YAAKEN -->
+      ${(pM.notas_yaaken?.length||pV.notas_yaaken?.length) ? `
+      <div style="background:rgba(245,158,11,.05);border:1px solid rgba(245,158,11,.2);border-radius:10px;padding:.9rem;margin-bottom:1rem">
+        <div style="font-size:.65rem;color:var(--gold);font-weight:800;text-transform:uppercase;margin-bottom:.6rem">💡 Notas YAAKEN</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:.7rem">
+          <div>
+            <div style="font-size:.6rem;color:var(--muted);font-weight:700;margin-bottom:.3rem">🏠 ${m}</div>
+            ${(pM.notas_yaaken||[]).map(n=>`<div style="font-size:.68rem;color:var(--text);margin-bottom:.25rem">${n}</div>`).join('')}
+          </div>
+          <div>
+            <div style="font-size:.6rem;color:var(--muted);font-weight:700;margin-bottom:.3rem">✈️ ${v}</div>
+            ${(pV.notas_yaaken||[]).map(n=>`<div style="font-size:.68rem;color:var(--text);margin-bottom:.25rem">${n}</div>`).join('')}
+          </div>
+        </div>
+      </div>` : ''}
+
+      <!-- Disclaimer -->
+      <div style="font-size:.62rem;color:var(--muted);text-align:center;padding-top:.8rem;border-top:1px dashed var(--border)">
+        ⚙️ Laudo baseado em modelo Poisson com shrinkage Bayesiano sobre dados do Escoteiro YAAKEN. Compare as odds justas com o mercado para identificar valor positivo (+EV).
+      </div>
+    </div>
+  `;
 }
 
 // ═══════════════════════════════════════════════════

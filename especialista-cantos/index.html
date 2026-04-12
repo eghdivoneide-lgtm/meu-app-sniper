@@ -303,6 +303,7 @@
   <button class="active" id="btn-dashboard" onclick="showView('dashboard')">📊 Dashboard</button>
   <button id="btn-ranking"   onclick="showView('ranking')">🏆 Ranking Times</button>
   <button id="btn-ouro"      onclick="showView('ouro')">🐺 Bala de Prata</button>
+  <button id="btn-cisne-negro" onclick="showView('cisne-negro')">🦢 Cisne Negro</button>
   <button id="btn-time"      onclick="showView('time')">👕 Por Time</button>
   <button id="btn-projecao"  onclick="showView('projecao')">🔮 Projeção de Jogo</button>
   <button id="btn-adicionar" onclick="showView('adicionar')">📥 Adicionar Jogos</button>
@@ -313,6 +314,29 @@
 </nav>
 
 <main>
+
+  <!-- ══════════════════ CISNE NEGRO ══════════════════ -->
+  <div id="view-cisne-negro" class="view">
+    <div class="section-title">🦢 Radar Cisne Negro (Alta Discrepância / ODD 1000)</div>
+    <div style="background:var(--bg3);border:1px solid rgba(251,191,36,0.3);border-radius:12px;padding:1.5rem;margin-bottom:1.5rem">
+      <p style="font-size:0.85rem;color:var(--muted);margin-bottom:1rem">Cole abaixo as zebras ou todos os jogos do dia. O algoritmo varrerá a base focando exclusivamente no Match Odds de Escanteios, isolando as apostas quase perfeitas (onde a diferença esperada é > 2.0).</p>
+      
+      <div style="display:flex;gap:1.5rem;flex-wrap:wrap">
+        <textarea id="import-cisne-textarea" placeholder="Cole os jogos aqui...&#10;Exemplo:&#10;Flamengo x Vasco&#10;Arsenal v Chelsea" style="flex:1;min-width:300px;min-height:150px;background:var(--bg);border:1px solid rgba(251,191,36,0.3);color:var(--text);border-radius:8px;padding:1rem;font-family:monospace;font-size:0.85rem;resize:vertical;" onfocus="this.style.borderColor='var(--gold)'" onblur="this.style.borderColor='rgba(251,191,36,0.3)'"></textarea>
+      </div>
+
+      <div style="margin-top:1.5rem;display:flex;gap:1rem">
+        <button onclick="varrerCisneNegro()" onmouseover="this.style.background='var(--gold2)'" onmouseout="this.style.background='var(--gold)'" style="background:var(--gold);color:#000;border:none;padding:0.75rem 1.5rem;border-radius:8px;font-weight:800;cursor:pointer;font-size:0.9rem;transition:all 0.2s;box-shadow:0 4px 15px rgba(251,191,36,0.3)">
+          🔭 Varrer Frequências Ocultas
+        </button>
+        <button onclick="document.getElementById('import-cisne-textarea').value=''" onmouseover="this.style.background='var(--card)';this.style.color='var(--red)'" onmouseout="this.style.background='transparent';this.style.color='var(--red)'" style="background:transparent;color:var(--red);border:1px solid var(--red);padding:0.75rem 1rem;border-radius:8px;font-weight:600;cursor:pointer;font-size:0.85rem;transition:all 0.2s">Limpar</button>
+      </div>
+    </div>
+    
+    <div id="resultado-cisne-negro" class="grid4">
+      <!-- Cards rendered via JS -->
+    </div>
+  </div>
 
   <!-- ══════════════════ ADICIONAR JOGOS ══════════════════ -->
   <div id="view-adicionar" class="view">
@@ -5244,6 +5268,103 @@ NÃO USE ASTERISCOS Markdown. Use exclusivamente as tags HTML para destaques. Se
   } catch(err) {
     ctr.innerHTML = `<div style="color:var(--red)">⚠️ Falha ao se conectar com os servidores. Verifique sua chave nas configurações do Chat (icone 👔📋).</div>`;
   }
+}
+// ══════════════════════════════════════════════════
+//  Scanner Cisne Negro - Nassim Taleb Extremista
+// ══════════════════════════════════════════════════
+function varrerCisneNegro() {
+  const txt = document.getElementById('import-cisne-textarea').value;
+  if(!txt.trim()) { alert("Cole os jogos primeiro para iniciar a varredura."); return; }
+  
+  const linhas = txt.split('\n');
+  const timesConhecidos = DADOS_2026.times;
+  let candidatos = [];
+  let timeEsperando = null;
+
+  linhas.forEach(linha => {
+    linha = linha.trim();
+    if(linha.length < 3) return;
+    if (/^[\d.,:\s]+$/.test(linha) || /^(Dom|Seg|Ter|Qua|Qui|Sex|Sab|Hoje|Aman|Ao Vivo)/i.test(linha)) return;
+
+    const partes = linha.split(/\s+[x×]\s+|\s+vs\.?\s+|\s+-\s+|\s+v\s+/i);
+    if(partes.length >= 2) {
+      const m = encontrarTimeMaisProximo(partes[0].trim(), timesConhecidos);
+      const v = encontrarTimeMaisProximo(partes[1].trim(), timesConhecidos);
+      if(m && v && m !== v) {
+         if(!candidatos.find(j => j.m === m && j.v === v)) candidatos.push({m,v});
+      }
+      return; 
+    }
+
+    const t = encontrarTimeMaisProximo(linha, timesConhecidos);
+    if (t) {
+      if (!timeEsperando) { timeEsperando = t; } 
+      else {
+         if (timeEsperando !== t && !candidatos.find(j => j.m === timeEsperando && j.v === t)) {
+             candidatos.push({ m: timeEsperando, v: t });
+         }
+         timeEsperando = null; 
+      }
+    } else {
+      if (linha.length > 3) timeEsperando = null;
+    }
+  });
+
+  const ctr = document.getElementById('resultado-cisne-negro');
+  ctr.innerHTML = '';
+  let encontrados = 0;
+
+  if (candidatos.length === 0) {
+    alert("Nenhum time válido identificado para " + LIGA_ATUAL);
+    return;
+  }
+
+  candidatos.forEach(jogo => {
+     const proj = projecaoJogo(jogo.m, jogo.v);
+     if(!proj) return;
+
+     const diffG = Math.abs(proj.geral.expHomeFT - proj.geral.expAwayFT);
+     const diffT = Math.abs(proj.tatica.expHomeFT - proj.tatica.expAwayFT);
+     
+     if(diffG >= 2.0 || diffT >= 2.0) {
+       encontrados++;
+       
+       const favorito = proj.tatica.expHomeFT > proj.tatica.expAwayFT ? jogo.m : jogo.v;
+       const superDiff = Math.max(diffG, diffT).toFixed(2);
+       
+       const card = document.createElement('div');
+       card.className = 'stat-card';
+       card.style.borderColor = 'var(--gold)';
+       card.innerHTML = `
+         <div class="label" style="color:var(--gold)">🦢 SELO CISNE NEGRO</div>
+         <div style="font-size:1.1rem;font-weight:900;color:var(--text);margin-bottom:.5rem;">${jogo.m} <br><span style="font-size:0.8rem;color:var(--muted)">vs</span><br> ${jogo.v}</div>
+         <div style="margin-bottom:.5rem;padding:.5rem;background:rgba(251,191,36,0.1);border-radius:6px;border:1px dashed var(--gold)">
+           <div style="font-size:.7rem;color:var(--muted)">Favorito Absoluto: <span style="font-weight:700;color:var(--text)">${favorito}</span></div>
+           <div style="font-size:.7rem;color:var(--muted)">Vantagem Projetada: <span style="font-weight:700;color:var(--green)">+${superDiff} cantos</span></div>
+           <div style="font-size:.7rem;color:var(--muted)">Nível Matemática: <span style="font-weight:700;color:var(--gold)">Altíssima (Gatilho)</span></div>
+         </div>
+         <button onclick="dispararCoachCisne('${jogo.m}', '${jogo.v}')" style="width:100%;margin-top:.2rem;background:var(--card);border:1px solid #6b8f79;color:var(--text);border-radius:6px;padding:.6rem;cursor:pointer;font-size:.75rem;font-weight:700;transition:all 0.2s" onmouseover="this.style.background='var(--green)';this.style.color='#000';this.style.borderColor='var(--green)'" onmouseout="this.style.background='var(--card)';this.style.color='var(--text)';this.style.borderColor='#6b8f79'">🧠 Gerar Veredito SmartCoach</button>
+       `;
+       ctr.appendChild(card);
+     }
+  });
+
+  if (encontrados === 0) {
+    ctr.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--muted)">Nesta rodada matemática não há jogos com padrão Cisne Negro (diferença > 2.0 cantos). Fique com seu dinheiro no bolso!</div>';
+  } else {
+    // Alerta confetti de acerto
+    try { confetti({ particleCount: 150, spread: 80, origin: { y: 0.6 }, colors: ['#fbbf24', '#f59e0b', '#34d367'] }); } catch(e){}
+  }
+}
+
+function dispararCoachCisne(m, v) {
+   showView('ranking');
+   document.getElementById('sel-m-rank').value = m;
+   document.getElementById('sel-v-rank').value = v;
+   atualizarRankingPainel();
+   setTimeout(() => {
+     gerarAnaliseMatchOddsRanking(m, v);
+   }, 300);
 }
 
 init();
