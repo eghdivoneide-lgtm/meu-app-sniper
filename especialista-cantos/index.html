@@ -5173,27 +5173,28 @@ async function gerarAnaliseMatchOddsRanking() {
   
   const stats = {
     m: {
-      geralFT: rgM?.ft_pro || 0, geralCon: rgM?.ft_con || 0, geralSaldo: rgM?.saldo_ft || 0,
-      casaFT: rcM?.ft_pro || 0, casaCon: rcM?.ft_con || 0, casaSaldo: rcM?.saldo_ft || 0, casaJogos: rcM?.jogos || 0
+      geralFT: rgM?.ft_pro || 0, geralCon: rgM?.ft_con || 0, geralSaldo: rgM?.saldo_ft || 0, geralHTP: rgM?.ht_pro || 0, geralHTC: rgM?.ht_con || 0,
+      casaFT: rcM?.ft_pro || 0, casaCon: rcM?.ft_con || 0, casaSaldo: rcM?.saldo_ft || 0, casaJogos: rcM?.jogos || 0, casaHTP: rcM?.ht_pro || 0, casaHTC: rcM?.ht_con || 0
     },
     v: {
-      geralFT: rgV?.ft_pro || 0, geralCon: rgV?.ft_con || 0, geralSaldo: rgV?.saldo_ft || 0,
-      foraFT: rfV?.ft_pro || 0, foraCon: rfV?.ft_con || 0, foraSaldo: rfV?.saldo_ft || 0, foraJogos: rfV?.jogos || 0
+      geralFT: rgV?.ft_pro || 0, geralCon: rgV?.ft_con || 0, geralSaldo: rgV?.saldo_ft || 0, geralHTP: rgV?.ht_pro || 0, geralHTC: rgV?.ht_con || 0,
+      foraFT: rfV?.ft_pro || 0, foraCon: rfV?.ft_con || 0, foraSaldo: rfV?.saldo_ft || 0, foraJogos: rfV?.jogos || 0, foraHTP: rfV?.ht_pro || 0, foraHTC: rfV?.ht_con || 0
     }
   };
 
   const p = projecaoJogo(m, v);
   const tmiStr = p ? `TMI Mandante: ${fmt(p.tatica.tmiHome)}x | TMI Visitante: ${fmt(p.tatica.tmiAway)}x` : 'TMI Indisponível';
 
-  const userPrompt = `📊 Análise Completa — ${m} 🏠 vs ${v} ✈️\n\n🗂️ Dados Extraídos das 3 Abas de Ranking\n\n📊 Aba GERAL (todos os jogos — casa + fora)\nTime | Jogos | FT Pró | FT Concede | Saldo FT\n${m} | ${rgM?.jogos||0} | ${fmt(stats.m.geralFT)} | ${fmt(stats.m.geralCon)} | ${fmt(stats.m.geralSaldo)}\n${v} | ${rgV?.jogos||0} | ${fmt(stats.v.geralFT)} | ${fmt(stats.v.geralCon)} | ${fmt(stats.v.geralSaldo)}\n\n🏠 Aba EM CASA (contexto situacional — ${m} joga em casa)\nTime | Jogos | FT Pró | FT Concede | Saldo FT\n${m} | ${stats.m.casaJogos} | ${fmt(stats.m.casaFT)} | ${fmt(stats.m.casaCon)} | ${fmt(stats.m.casaSaldo)}\n\n✈️ Aba FORA DE CASA (contexto situacional — ${v} joga fora)\nTime | Jogos | FT Pró | FT Concede | Saldo FT\n${v} | ${stats.v.foraJogos} | ${fmt(stats.v.foraFT)} | ${fmt(stats.v.foraCon)} | ${fmt(stats.v.foraSaldo)}\n\n⚡ Dinâmica Tática (TMI):\n${tmiStr}`;
+  const userPrompt = `📊 Análise Completa — ${m} 🏠 vs ${v} ✈️\n\n🗂️ Dados Extraídos das 3 Abas de Ranking\n\n📊 Aba GERAL (todos os jogos — casa + fora)\nTime | Jogos | FT Pró | FT Concede | HT Pró | HT Concede\n${m} | ${rgM?.jogos||0} | ${fmt(stats.m.geralFT)} | ${fmt(stats.m.geralCon)} | ${fmt(stats.m.geralHTP)} | ${fmt(stats.m.geralHTC)}\n${v} | ${rgV?.jogos||0} | ${fmt(stats.v.geralFT)} | ${fmt(stats.v.geralCon)} | ${fmt(stats.v.geralHTP)} | ${fmt(stats.v.geralHTC)}\n\n🏠 Aba EM CASA (contexto situacional — ${m} joga em casa)\nTime | Jogos | FT Pró | FT Concede | HT Pró | HT Concede\n${m} | ${stats.m.casaJogos} | ${fmt(stats.m.casaFT)} | ${fmt(stats.m.casaCon)} | ${fmt(stats.m.casaHTP)} | ${fmt(stats.m.casaHTC)}\n\n✈️ Aba FORA DE CASA (contexto situacional — ${v} joga fora)\nTime | Jogos | FT Pró | FT Concede | HT Pró | HT Concede\n${v} | ${stats.v.foraJogos} | ${fmt(stats.v.foraFT)} | ${fmt(stats.v.foraCon)} | ${fmt(stats.v.foraHTP)} | ${fmt(stats.v.foraHTC)}\n\n⚡ Dinâmica Tática (TMI):\n${tmiStr}`;
 
   const systemPrompt = `Você é o *SmartCoach*, a IA quantitativa embarcada no app 'Especialista em Cantos'.
-Seu objetivo primário é fornecer um Laudo Oficial focado EXCLUSIVAMENTE no mercado de MATCH ODDS (Vencedor em Escanteios).
+Seu objetivo primário é fornecer um Laudo Oficial focado EXCLUSIVAMENTE nos mercados de MATCH ODDS (Vencedor em Escanteios) para o Tempo Total (FT) e o Primeiro Tempo (HT).
 
 REGRAS ESTRUTURAIS:
-Divida seu laudo em duas estruturas claras.
-1. "<div style="font-weight:800;color:#fca5a5;margin-top:20px;margin-bottom:10px;text-transform:uppercase">🔬 DIAGNÓSTICO DO CONFRONTO</div>": Analise como o mandante performa em casa e o visitante fora. Quem produz mais escanteios diretos e quem sofre mais? 
-2. "<div style="font-weight:800;color:#34d367;margin-top:20px;margin-bottom:10px;text-transform:uppercase">🏆 VEREDITO FINAL (MATCH ODDS)</div>": Determine expressamente quem vencerá em volume de escanteios. OBRIGATÓRIO: Ao final, declare seu "Nível de Confiança (%)". Se for um jogo com "Alta Instabilidade", enfatize o baixo nível de confiança e oriente a "NÃO ENTRAR" em pré-live devido à fraqueza matemática. Se for um jogo de "Alta Confiança", mostre a "Projeção de Diferença de Cantos" (ex: vitória por +2.0 cantos do favorito) e oriente uma intervenção com "Handicap Asiático -1.5".
+Divida seu laudo em TRÊS estruturas claras.
+1. "<div style="font-weight:800;color:#fca5a5;margin-top:20px;margin-bottom:10px;text-transform:uppercase">🔬 DIAGNÓSTICO DO CONFRONTO</div>": Analise como o mandante performa em casa e o visitante fora. Quem produz mais escanteios diretos e quem sofre mais no panorama FT e HT? 
+2. "<div style="font-weight:800;color:#60a5fa;margin-top:20px;margin-bottom:10px;text-transform:uppercase">⏱️ PROJEÇÃO HALF-TIME (HT)</div>": Avalie o cenário específico dos primeiros 45 minutos. Quem provavelmente vencerá em cantos no 1º Tempo? Qual o nível de confiança e a diferença de cantos esperada no HT? Recomende ou não uma entrada no HT.
+3. "<div style="font-weight:800;color:#34d367;margin-top:20px;margin-bottom:10px;text-transform:uppercase">🏆 VEREDITO FINAL (MATCH ODDS FT)</div>": Determine expressamente quem vencerá em volume de escanteios no jogo completo. OBRIGATÓRIO: Ao final, declare seu "Nível de Confiança (%)". Se for um jogo com "Alta Instabilidade", enfatize o baixo nível de confiança e oriente a "NÃO ENTRAR" em pré-live devido à fraqueza matemática. Se for um jogo de "Alta Confiança", mostre a "Projeção de Diferença de Cantos" (ex: vitória por +2.0 cantos do favorito) e oriente uma intervenção com "Handicap Asiático -1.5" (ou adequado).
 
 REGRAS ESTÉTICAS:
 NÃO USE ASTERISCOS Markdown. Use exclusivamente as tags HTML para destaques. Se quiser dar ênfase em dados cruciais (como nomes dos times, números ou greens), use <strong style="color:#34d367"> e </strong>. Não use formatações como ### ou **. Não use tabelas na sua resposta. Crie um texto fluído, bonito, e extremamente analítico.`;
