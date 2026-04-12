@@ -1,0 +1,398 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta charset="UTF-8">
+<meta name="ProgId" content="Word.Document">
+<meta name="Generator" content="Microsoft Word 15">
+<meta name="Originator" content="Microsoft Word 15">
+<style>
+  @page { size: A4; margin: 2cm 2.5cm; }
+  body { font-family: 'Segoe UI', Calibri, Arial, sans-serif; font-size: 11pt; color: #1a1a1a; line-height: 1.6; }
+  h1 { font-size: 22pt; color: #0d3b1e; text-align: center; border-bottom: 3px solid #34d367; padding-bottom: 12pt; margin-top: 0; }
+  h2 { font-size: 16pt; color: #145a2e; border-bottom: 2px solid #34d36755; padding-bottom: 6pt; margin-top: 24pt; page-break-after: avoid; }
+  h3 { font-size: 13pt; color: #1e7a3f; margin-top: 16pt; margin-bottom: 6pt; }
+  h4 { font-size: 11pt; color: #333; margin-top: 12pt; margin-bottom: 4pt; }
+  .header-meta { text-align: center; color: #666; font-size: 9.5pt; margin-bottom: 20pt; }
+  .header-meta strong { color: #145a2e; }
+  .badge-critico { background: #dc2626; color: #fff; padding: 2pt 8pt; border-radius: 4pt; font-weight: 700; font-size: 9pt; }
+  .badge-alto { background: #f59e0b; color: #000; padding: 2pt 8pt; border-radius: 4pt; font-weight: 700; font-size: 9pt; }
+  .badge-medio { background: #3b82f6; color: #fff; padding: 2pt 8pt; border-radius: 4pt; font-weight: 700; font-size: 9pt; }
+  .badge-baixo { background: #6b7280; color: #fff; padding: 2pt 8pt; border-radius: 4pt; font-weight: 700; font-size: 9pt; }
+  .badge-nulo { background: #d1d5db; color: #333; padding: 2pt 8pt; border-radius: 4pt; font-weight: 700; font-size: 9pt; }
+  table { width: 100%; border-collapse: collapse; margin: 10pt 0 16pt 0; font-size: 10pt; }
+  th { background: #0d3b1e; color: #fff; text-align: left; padding: 6pt 8pt; font-weight: 700; border: 1px solid #0d3b1e; }
+  td { padding: 5pt 8pt; border: 1px solid #ccc; vertical-align: top; }
+  tr:nth-child(even) td { background: #f0fdf4; }
+  .red { color: #dc2626; font-weight: 700; }
+  .green { color: #16a34a; font-weight: 700; }
+  .gold { color: #d97706; font-weight: 700; }
+  .highlight { background: #fef3c7; padding: 8pt 12pt; border-left: 4px solid #f59e0b; margin: 12pt 0; font-size: 10.5pt; }
+  .critical-box { background: #fef2f2; padding: 10pt 14pt; border-left: 4px solid #dc2626; margin: 12pt 0; }
+  .success-box { background: #f0fdf4; padding: 10pt 14pt; border-left: 4px solid #16a34a; margin: 12pt 0; }
+  code { font-family: 'Consolas', 'Courier New', monospace; background: #f1f5f9; padding: 1pt 4pt; border-radius: 2pt; font-size: 9.5pt; color: #334155; }
+  .code-block { font-family: 'Consolas', monospace; background: #1e293b; color: #e2e8f0; padding: 10pt 14pt; border-radius: 6pt; font-size: 9pt; margin: 8pt 0 12pt 0; white-space: pre-wrap; line-height: 1.5; }
+  .footer { text-align: center; font-size: 8pt; color: #999; border-top: 1px solid #ccc; padding-top: 10pt; margin-top: 30pt; }
+  .logo-text { font-size: 10pt; font-weight: 800; color: #34d367; letter-spacing: 1pt; }
+  .toc { background: #f8fafc; padding: 14pt 20pt; border: 1px solid #e2e8f0; border-radius: 8pt; margin: 16pt 0; }
+  .toc a { color: #145a2e; text-decoration: none; }
+  .toc li { margin: 4pt 0; }
+  .page-break { page-break-before: always; }
+  .stamp { text-align: center; margin: 20pt 0; padding: 10pt; border: 2px solid #34d367; border-radius: 8pt; background: #f0fdf4; }
+  .stamp-title { font-size: 14pt; font-weight: 800; color: #0d3b1e; }
+  .stamp-sub { font-size: 9pt; color: #666; margin-top: 4pt; }
+</style>
+</head>
+<body>
+
+<!-- CAPA -->
+<div style="text-align:center; margin-top: 80pt; margin-bottom: 60pt;">
+  <div class="logo-text">EDS SOLUCOES INTELIGENTES</div>
+  <h1 style="border:none; margin-top: 20pt; font-size: 26pt;">RELATORIO DE AUDITORIA DE PARIDADE</h1>
+  <div style="font-size: 14pt; color: #145a2e; font-weight: 600; margin-top: 8pt;">
+    EDS Especialista em Cantos (Principal)<br>vs<br>Teacher / Volvo (BACKUP)
+  </div>
+  <div style="margin-top: 30pt; font-size: 10pt; color: #666;">
+    <strong>Tipo:</strong> Auditoria de Sistemas &mdash; Modo Diagnostico (Read-Only)<br>
+    <strong>Data:</strong> 08 de Abril de 2026<br>
+    <strong>Auditor:</strong> Claude Opus 4.6 (Engenheiro de Software Senior)<br>
+    <strong>Solicitante:</strong> Eghdivoneide &mdash; EDS Solucoes Inteligentes<br>
+    <strong>Classificacao:</strong> Uso Interno &mdash; Propriedade Diferenciada
+  </div>
+</div>
+
+<div class="stamp">
+  <div class="stamp-title">DOCUMENTO OFICIAL DE AUDITORIA</div>
+  <div class="stamp-sub">Gerado automaticamente pelo sistema de auditoria EDS | Valido como registro tecnico interno</div>
+</div>
+
+<!-- INDICE -->
+<div class="page-break"></div>
+<h2>Indice</h2>
+<div class="toc">
+<ol>
+  <li><a href="#s0">Achado Preliminar &mdash; Identificacao dos Sistemas</a></li>
+  <li><a href="#s1">Divergencia de Prompts</a></li>
+  <li><a href="#s2">Parametros de LLM (Determinismo)</a></li>
+  <li><a href="#s3">Logica de Dados e Calculo (Motor Matematico)</a></li>
+  <li><a href="#s4">Divergencia de Dados (ETL / Datasets)</a></li>
+  <li><a href="#s5">Variaveis de Estado e Tempo</a></li>
+  <li><a href="#s6">Mapa de Causas-Raiz</a></li>
+  <li><a href="#s7">Diagnostico Final e Acoes Corretivas</a></li>
+</ol>
+</div>
+
+<!-- SEÇÃO 0 -->
+<div class="page-break"></div>
+<h2 id="s0">0. Achado Preliminar &mdash; Identificacao dos Sistemas</h2>
+
+<div class="critical-box">
+  <strong>ACHADO IMPORTANTE:</strong> O "Teacher" NAO existe como aplicativo separado. Ele e uma aba interna (<code>renderTeacher()</code>) dentro do app principal EDS Especialista. O sistema referenciado como "Teacher/Volvo" e na verdade o <strong>BACKUP</strong> localizado no diretorio <code>especialista-cantos_BACKUP/</code>. A divergencia ocorre porque o BACKUP ficou congelado em uma versao anterior enquanto o principal evoluiu com novas funcionalidades.
+</div>
+
+<h3>Inventario de Tamanhos</h3>
+<table>
+  <tr><th>Arquivo</th><th>Principal</th><th>BACKUP</th><th>Delta</th></tr>
+  <tr><td><code>index.html</code></td><td>2.857 linhas (158 KB)</td><td>2.380 linhas (129 KB)</td><td class="red">+477 linhas (+29 KB)</td></tr>
+  <tr><td><code>data/brasileirao2026.js</code></td><td>2.558 linhas (63 KB)</td><td>2.298 linhas (50 KB)</td><td class="red">+260 linhas (+13 KB)</td></tr>
+  <tr><td><code>data/mls2026.js</code></td><td>3.152 linhas (77 KB)</td><td>2.627 linhas (46 KB)</td><td class="red">+525 linhas (+31 KB)</td></tr>
+  <tr><td><code>data/argentina2026.js</code></td><td>Presente</td><td>Presente</td><td>Nao comparado</td></tr>
+  <tr><td><code>data/usl2026.js</code></td><td>Presente</td><td>Presente</td><td>Nao comparado</td></tr>
+</table>
+
+<!-- SEÇÃO 1 -->
+<h2 id="s1">1. Divergencia de Prompts &mdash; <span class="badge-nulo">IMPACTO NULO</span></h2>
+
+<h3>1.1 System Prompt da Funcao <code>gerarRelatorioIA()</code></h3>
+<table>
+  <tr><th>Elemento</th><th>Principal (Linha)</th><th>BACKUP (Linha)</th><th>Identico?</th></tr>
+  <tr><td>System Prompt completo</td><td>L2165-2179</td><td>L1693-1707</td><td class="green">SIM</td></tr>
+  <tr><td>User Prompt</td><td>L2195</td><td>L1723</td><td class="green">SIM</td></tr>
+  <tr><td>Regra "Analise do HT" e "Analise do Jogo (FT)"</td><td>Presente</td><td>Presente</td><td class="green">SIM</td></tr>
+  <tr><td>Regra tabela HTML ultimos 5 jogos</td><td>Presente</td><td>Presente</td><td class="green">SIM</td></tr>
+  <tr><td>Regras esteticas (sem Markdown, HTML only)</td><td>Presente</td><td>Presente</td><td class="green">SIM</td></tr>
+</table>
+
+<h3>1.2 System Prompt do SmartCoach Chat (<code>sendSCMsg()</code>)</h3>
+<table>
+  <tr><th>Elemento</th><th>Principal (Linha)</th><th>BACKUP (Linha)</th><th>Identico?</th></tr>
+  <tr><td>System Prompt completo</td><td>L2470-2503</td><td>L1998-2031</td><td class="green">SIM</td></tr>
+  <tr><td>Dominio de analise (Poisson, xCorners, etc.)</td><td>Presente</td><td>Presente</td><td class="green">SIM</td></tr>
+  <tr><td>Instrucoes de uso de dados em tempo real</td><td>Presente</td><td>Presente</td><td class="green">SIM</td></tr>
+  <tr><td>Regras de formatacao visual (5 regras)</td><td>Presente</td><td>Presente</td><td class="green">SIM</td></tr>
+  <tr><td>Tom de apostador profissional</td><td>Presente</td><td>Presente</td><td class="green">SIM</td></tr>
+</table>
+
+<div class="success-box">
+  <strong>VEREDITO:</strong> Os prompts sao identicos bit a bit entre os dois sistemas. Mesmas instrucoes, mesmos delimitadores, mesmas regras esteticas. <strong>NAO e causa da divergencia.</strong>
+</div>
+
+<!-- SEÇÃO 2 -->
+<h2 id="s2">2. Parametros de LLM (Determinismo) &mdash; <span class="badge-baixo">IMPACTO BAIXO</span></h2>
+
+<table>
+  <tr><th>Parametro</th><th>Principal</th><th>BACKUP</th><th>Identico?</th><th>Observacao</th></tr>
+  <tr><td>Modelo</td><td><code>claude-opus-4-6</code></td><td><code>claude-opus-4-6</code></td><td class="green">SIM</td><td>&mdash;</td></tr>
+  <tr><td>Temperature</td><td><code>0.4</code></td><td><code>0.4</code></td><td class="green">SIM</td><td>Nao e zero &mdash; variacao estocastica</td></tr>
+  <tr><td>Max Tokens</td><td><code>1024</code></td><td><code>1024</code></td><td class="green">SIM</td><td>&mdash;</td></tr>
+  <tr><td>top_p</td><td>Nao definido</td><td>Nao definido</td><td class="green">SIM</td><td>Usa default da API</td></tr>
+  <tr><td>API Version</td><td><code>2023-06-01</code></td><td><code>2023-06-01</code></td><td class="green">SIM</td><td>&mdash;</td></tr>
+  <tr><td>Header especial</td><td><code>anthropic-dangerous-direct-browser-access: true</code></td><td>Identico</td><td class="green">SIM</td><td>&mdash;</td></tr>
+</table>
+
+<div class="highlight">
+  <strong>NOTA TECNICA:</strong> Embora os parametros sejam identicos, <code>temperature: 0.4</code> NAO garante determinismo. Isso significa que, mesmo com inputs identicos, a API retornara textos ligeiramente diferentes a cada chamada. Para determinismo total, seria necessario <code>temperature: 0</code>. Porem, este fator sozinho nao explica divergencia sistematica &mdash; apenas variacao estocastica natural entre chamadas.
+</div>
+
+<!-- SEÇÃO 3 -->
+<div class="page-break"></div>
+<h2 id="s3">3. Logica de Dados e Calculo &mdash; <span class="badge-critico">IMPACTO CRITICO</span></h2>
+
+<h3>3.1 Funcoes Matematicas Base</h3>
+<table>
+  <tr><th>Funcao</th><th>Principal (Linha)</th><th>BACKUP (Linha)</th><th>Formula</th><th>Identica?</th></tr>
+  <tr><td><code>poisson(k, lambda)</code></td><td>L548-553</td><td>L535-540</td><td>P(X=k) = e^(-&lambda;) &times; &lambda;^k / k!</td><td class="green">SIM</td></tr>
+  <tr><td><code>avgWeighted(arr, decay=0.85)</code></td><td>L531-539</td><td>L518-526</td><td>EWMA com decay=0.85</td><td class="green">SIM</td></tr>
+  <tr><td><code>shrink(mediaTime, mediaLiga, n, k=5)</code></td><td>L541-543</td><td>L528-530</td><td>(n&times;team + 5&times;liga) / (n+5)</td><td class="green">SIM</td></tr>
+  <tr><td><code>getOvers(lambda, lines)</code></td><td>L555-571</td><td>L542-558</td><td>1 - P(X &le; floor(line))</td><td class="green">SIM</td></tr>
+  <tr><td><code>getMatchOdds(lamH, lamA)</code></td><td>L573-592</td><td>L560-579</td><td>Simulacao 26&times;26</td><td class="green">SIM</td></tr>
+  <tr><td><code>getStatsTime(time)</code></td><td>L594-623</td><td>L581-610</td><td>Medias casa/fora/geral</td><td class="green">SIM</td></tr>
+</table>
+
+<div class="success-box">
+  As funcoes matematicas base (Poisson, EWMA, Shrinkage, Overs, MatchOdds) sao <strong>identicas</strong> entre os dois sistemas. Mesmos algoritmos, mesmos parametros, mesma precisao.
+</div>
+
+<h3>3.2 Motor de Projecao <code>projecaoJogo()</code></h3>
+<table>
+  <tr><th>Componente</th><th>Principal</th><th>BACKUP</th><th>Identico?</th></tr>
+  <tr><td>TMI (Indice de Dominio Tatico)</td><td>L690-718</td><td>L677-705</td><td class="green">SIM</td></tr>
+  <tr><td>TMI formula: <code>(m_vert &times; 0.75) + (v_rej &times; 0.25)</code></td><td>L714</td><td>L701</td><td class="green">SIM</td></tr>
+  <tr><td>TMI clamp: <code>[0.65, 1.65]</code></td><td>L717-718</td><td>L704-705</td><td class="green">SIM</td></tr>
+  <tr><td>EWMA medias por tempo (HT, 2T)</td><td>L725-733</td><td>L712-720</td><td class="green">SIM</td></tr>
+  <tr><td>Shrinkage Bayesiano (atk/def)</td><td>L739-747</td><td>L726-734</td><td class="green">SIM</td></tr>
+  <tr><td>xCorners (expHome/Away HT/2T)</td><td>L750-756</td><td>L737-743</td><td class="green">SIM</td></tr>
+  <tr><td>Linhas Over HT</td><td><code>[3.5, 4.5, 5.5]</code> L770</td><td><code>[3.5, 4.5, 5.5]</code> L757</td><td class="green">SIM</td></tr>
+  <tr><td>Linhas Over FT</td><td><code>[8.5, 9.5, 10.5, 11.5]</code> L771</td><td><code>[8.5, 9.5, 10.5, 11.5]</code> L758</td><td class="green">SIM</td></tr>
+</table>
+
+<h3>3.3 DIVERGENCIA CRITICA &mdash; Return do <code>projecaoJogo()</code></h3>
+
+<div class="critical-box">
+  <strong>CAUSA-RAIZ IDENTIFICADA:</strong> O return do <code>projecaoJogo()</code> diverge estruturalmente entre os dois sistemas.
+</div>
+
+<h4>BACKUP &mdash; <code>index.html</code> Linha 763:</h4>
+<div class="code-block">return { expTotalHT, expTotalFT, confFT, oversHT, oversFT, oddsHT, oddsFT,
+         m, v, pow: {...}, tatica: {...} };</div>
+
+<h4>PRINCIPAL &mdash; <code>index.html</code> Linha 819:</h4>
+<div class="code-block">return { expTotalHT, expTotalFT, confFT, oversHT, oversFT, oddsHT, oddsFT,
+         m, v, pow: {...}, tatica: {...},
+         <span style="color:#fbbf24; font-weight:700">reisDosCantosData, tiroSniperData, balaDePrataData</span> };  // 3 campos NOVOS</div>
+
+<h4>Estruturas ausentes no BACKUP:</h4>
+<table>
+  <tr><th>Estrutura</th><th>Linhas (Principal)</th><th>Existe no BACKUP?</th><th>Funcao</th></tr>
+  <tr><td><code>reisDosCantosData</code></td><td>L776-791</td><td class="red">NAO</td><td>Classificacao 1x2 em 5 faixas (ABSOLUTO, DOMINANTE, MODERADO, MEDIANO, EQUILIBRADO)</td></tr>
+  <tr><td><code>tiroSniperData</code></td><td>L793-808</td><td class="red">NAO</td><td>Zona neutra Poisson &mdash; OVER/UNDER/NEUTRO com limiares 42%-58%</td></tr>
+  <tr><td><code>balaDePrataData</code></td><td>L810-817</td><td class="red">NAO</td><td>Selo de super-favorito &mdash; NUCLEAR (&le;1.35), FORTE (&le;1.50), MODERADA (&le;1.63)</td></tr>
+</table>
+
+<h3>3.4 Motor de Recomendacao &mdash; AUSENTE NO BACKUP</h3>
+<table>
+  <tr><th>Funcao</th><th>Linhas (Principal)</th><th>Existe no BACKUP?</th><th>Funcao no sistema</th></tr>
+  <tr><td><code>gerarRecomendacoes(p)</code></td><td>L1353-1415 (62 linhas)</td><td class="red">NAO</td><td>Analisa todos os mercados e sugere top 3 entradas</td></tr>
+  <tr><td><code>renderTeacher()</code></td><td>L1417-1523 (106 linhas)</td><td class="red">NAO</td><td>Renderiza aba TEACHER com cards de projecao</td></tr>
+  <tr><td><code>exportarRodadaJSON()</code></td><td>L1528-1625 (97 linhas)</td><td class="red">NAO</td><td>Exporta rodada em JSON formato TEACHER</td></tr>
+  <tr><td>Aba TEACHER no HTML</td><td>L269, L392-398</td><td class="red">NAO</td><td>Interface visual TEACHER</td></tr>
+</table>
+
+<div class="highlight">
+  <strong>IMPACTO DIRETO:</strong> O <code>getAppContext()</code> do Principal injeta dados de Reis dos Cantos, Tiro Sniper e Bala de Prata no contexto enviado para a IA. O BACKUP nao tem essas informacoes. Quando a IA recebe o contexto do Principal, ela ve mais dados numericos de ancoragem e gera analises mais ricas e estruturalmente diferentes.
+</div>
+
+<!-- SEÇÃO 4 -->
+<div class="page-break"></div>
+<h2 id="s4">4. Divergencia de Dados (ETL) &mdash; <span class="badge-critico">IMPACTO CRITICO</span></h2>
+
+<h3>4.1 Datasets com volumes diferentes</h3>
+<table>
+  <tr><th>Dataset</th><th>Principal</th><th>BACKUP</th><th>Diferenca</th><th>Impacto</th></tr>
+  <tr><td><code>brasileirao2026.js</code></td><td>63.469 bytes (2.558 L)</td><td>50.138 bytes (2.298 L)</td><td class="red">+13 KB (+260 linhas)</td><td>Medias de liga diferentes</td></tr>
+  <tr><td><code>mls2026.js</code></td><td>77.195 bytes (3.152 L)</td><td>46.245 bytes (2.627 L)</td><td class="red">+31 KB (+525 linhas)</td><td>Medias de liga diferentes</td></tr>
+  <tr><td><code>argentina2026.js</code></td><td>Presente</td><td>Presente</td><td>Nao comparado</td><td>Possivelmente diferente</td></tr>
+  <tr><td><code>usl2026.js</code></td><td>Presente</td><td>Presente</td><td>Nao comparado</td><td>Possivelmente diferente</td></tr>
+</table>
+
+<div class="critical-box">
+  <strong>EXPLICACAO DO IMPACTO:</strong> O Principal tem mais jogos registrados que o BACKUP. Isso significa que:
+  <ul>
+    <li>As <strong>medias da liga</strong> (<code>l_htHome</code>, <code>l_htAway</code>, <code>l_2tHome</code>, <code>l_2tAway</code>) sao numericamente diferentes</li>
+    <li>Os <strong>fatores atk/def por time</strong> divergem (mais jogos recentes alteram EWMA)</li>
+    <li>O <strong>EWMA</strong> (decay=0.85) produz valores diferentes (sequencia de jogos maior)</li>
+    <li>O <strong>Bayesian Shrinkage</strong> puxa para medias de liga diferentes (priors diferentes)</li>
+    <li>O <strong>TMI</strong> e calculado sobre dados taticos que podem divergir</li>
+    <li>Os <strong>lambdas Poisson</strong> resultantes sao diferentes &rarr; probabilidades diferentes &rarr; recomendacoes diferentes</li>
+  </ul>
+  <strong>Este e o principal vetor de divergencia na analise pre-jogo.</strong>
+</div>
+
+<h3>4.2 Arquivo fantasma no BACKUP</h3>
+<table>
+  <tr><th>Arquivo</th><th>Principal</th><th>BACKUP</th><th>Risco</th></tr>
+  <tr><td><code>data/mls2025.js</code></td><td class="green">NAO EXISTE</td><td>40.340 bytes</td><td class="gold">Dado legado &mdash; pode causar conflito de namespace se carregado acidentalmente</td></tr>
+</table>
+
+<!-- SEÇÃO 5 -->
+<h2 id="s5">5. Variaveis de Estado e Tempo &mdash; <span class="badge-medio">IMPACTO MEDIO</span></h2>
+
+<h3>5.1 Seeds e Randomizacao</h3>
+<table>
+  <tr><th>Verificacao</th><th>Principal</th><th>BACKUP</th><th>Conclusao</th></tr>
+  <tr><td><code>Math.random()</code> na analise</td><td class="green">NAO usado</td><td class="green">NAO usado</td><td>Motor 100% deterministico</td></tr>
+  <tr><td>Seed fixa</td><td>N/A</td><td>N/A</td><td>Nao aplicavel</td></tr>
+</table>
+
+<div class="success-box">
+  NAO ha randomizacao no calculo. O motor matematico e 100% deterministico dado os mesmos inputs. Dados iguais = lambdas iguais = probabilidades iguais.
+</div>
+
+<h3>5.2 Variaveis de Tempo</h3>
+<table>
+  <tr><th>Uso de <code>new Date()</code></th><th>Linha (Principal)</th><th>Contexto</th><th>Impacto na analise?</th></tr>
+  <tr><td>Ordenacao cronologica de jogos</td><td>L924</td><td>Sort de jogosData</td><td class="green">NULO</td></tr>
+  <tr><td>Timestamp de exportacao JSON</td><td>L1601</td><td>Data do arquivo exportado</td><td class="green">NULO</td></tr>
+  <tr><td>Nome do arquivo de laudo</td><td>L2225</td><td>Formatacao de nome</td><td class="green">NULO</td></tr>
+</table>
+
+<p><strong>Nenhuma variavel de tempo e injetada nas formulas Poisson/EWMA/Shrinkage.</strong> O calculo e completamente atemporal.</p>
+
+<h3>5.3 Fator de Contexto Dinamico (<code>getAppContext</code>)</h3>
+<p>A funcao <code>getAppContext()</code> e <strong>identica em logica</strong> entre os dois sistemas (Principal L2345 vs BACKUP L1873). Porem, como o Principal tem o <code>projecaoJogo()</code> que retorna <code>reisDosCantosData</code>, <code>tiroSniperData</code> e <code>balaDePrataData</code>, o contexto montado para a IA sera <strong>mais rico</strong> quando a aba de projecao estiver ativa. O BACKUP monta contexto sem essas informacoes adicionais.</p>
+
+<!-- SEÇÃO 6 -->
+<div class="page-break"></div>
+<h2 id="s6">6. Mapa de Causas-Raiz (Ordenado por Impacto)</h2>
+
+<table>
+  <tr>
+    <th style="width:4%">#</th>
+    <th style="width:8%">Sev.</th>
+    <th style="width:30%">Causa</th>
+    <th style="width:30%">Descricao Tecnica</th>
+    <th style="width:14%">Arquivos</th>
+    <th style="width:14%">Linhas</th>
+  </tr>
+  <tr>
+    <td style="text-align:center; font-weight:900; font-size:14pt;">1</td>
+    <td><span class="badge-critico">CRITICO</span></td>
+    <td><strong>Datasets desincronizados</strong></td>
+    <td>BACKUP tem menos jogos registrados. Medias de liga, fatores atk/def, EWMA e Shrinkage produzem lambdas Poisson distintos. Resultados numericos divergem mesmo com formulas identicas.</td>
+    <td><code>data/brasileirao2026.js</code><br><code>data/mls2026.js</code></td>
+    <td>Todos (dados)</td>
+  </tr>
+  <tr>
+    <td style="text-align:center; font-weight:900; font-size:14pt;">2</td>
+    <td><span class="badge-critico">CRITICO</span></td>
+    <td><strong>projecaoJogo() retorna menos dados no BACKUP</strong></td>
+    <td>Sem Reis dos Cantos, Tiro Sniper e Bala de Prata. IA recebe contexto empobrecido (menos ancoragem numerica). Analise gerada e estruturalmente diferente.</td>
+    <td><code>index.html</code></td>
+    <td>Return: L763 (BACKUP) vs L819 (Principal)</td>
+  </tr>
+  <tr>
+    <td style="text-align:center; font-weight:900; font-size:14pt;">3</td>
+    <td><span class="badge-alto">ALTO</span></td>
+    <td><strong>Motor de Recomendacao ausente</strong></td>
+    <td><code>gerarRecomendacoes()</code>, <code>renderTeacher()</code> e <code>exportarRodadaJSON()</code> nao existem no BACKUP. Aba Teacher nao existe. Sistema de sugestao de entradas inexistente.</td>
+    <td><code>index.html</code></td>
+    <td>L1348-1625 (Principal only)</td>
+  </tr>
+  <tr>
+    <td style="text-align:center; font-weight:900; font-size:14pt;">4</td>
+    <td><span class="badge-baixo">BAIXO</span></td>
+    <td><strong>Temperature 0.4</strong></td>
+    <td>Causa variacao estocastica natural entre chamadas. Mesmo input, saidas levemente diferentes. Nao e bug &mdash; e comportamento esperado de LLMs com temperature > 0.</td>
+    <td><code>index.html</code></td>
+    <td>L2193 / L1721</td>
+  </tr>
+  <tr>
+    <td style="text-align:center; font-weight:900; font-size:14pt;">5</td>
+    <td><span class="badge-baixo">BAIXO</span></td>
+    <td><strong>mls2025.js fantasma</strong></td>
+    <td>Arquivo legado no BACKUP que nao existe no Principal. Pode causar conflito de namespace se carregado.</td>
+    <td><code>data/mls2025.js</code></td>
+    <td>N/A (BACKUP only)</td>
+  </tr>
+</table>
+
+<!-- SEÇÃO 7 -->
+<div class="page-break"></div>
+<h2 id="s7">7. Diagnostico Final e Acoes Corretivas Recomendadas</h2>
+
+<h3>7.1 Diagnostico</h3>
+
+<div class="critical-box" style="font-size: 11pt;">
+  <p>As divergencias de saida da IA entre os dois sistemas <strong>NAO vem dos prompts nem dos parametros de LLM</strong> (que sao identicos). Elas vem de <strong>dois vetores criticos</strong>:</p>
+
+  <p><strong>VETOR 1 &mdash; Dados de treinamento diferentes:</strong> O Principal tem mais jogos registrados nos datasets. Quando <code>getAppContext()</code> monta o contexto para a IA, ele envia medias de liga, projecoes xCorners e historico de jogos DIFERENTES porque os datasets sao maiores. A IA recebe inputs numericos diferentes e consequentemente gera outputs diferentes.</p>
+
+  <p><strong>VETOR 2 &mdash; Motor de projecao mais completo no Principal:</strong> O Principal calcula e injeta no contexto da IA tres estruturas adicionais (Reis dos Cantos, Tiro Sniper, Bala de Prata) que dao a IA mais "ancoragem numerica" para suas recomendacoes. O BACKUP nao tem esses dados, entao a IA improvisa mais e suas analises tem menos precisao direcional.</p>
+</div>
+
+<h3>7.2 Acoes Corretivas Recomendadas</h3>
+<table>
+  <tr><th style="width:5%">#</th><th style="width:10%">Prioridade</th><th style="width:45%">Acao</th><th style="width:40%">Justificativa</th></tr>
+  <tr>
+    <td style="text-align:center; font-weight:700;">1</td>
+    <td><span class="badge-critico">P0</span></td>
+    <td>Sincronizar os 4 datasets (<code>data/*.js</code>) entre Principal e BACKUP</td>
+    <td>Elimina divergencia nos lambdas Poisson. Mesmo input = mesmo output.</td>
+  </tr>
+  <tr>
+    <td style="text-align:center; font-weight:700;">2</td>
+    <td><span class="badge-critico">P0</span></td>
+    <td>Portar os blocos L776-817 (Reis dos Cantos, Tiro Sniper, Bala de Prata) do Principal para o BACKUP</td>
+    <td>Equaliza o return do <code>projecaoJogo()</code>. Contexto da IA sera identico.</td>
+  </tr>
+  <tr>
+    <td style="text-align:center; font-weight:700;">3</td>
+    <td><span class="badge-alto">P1</span></td>
+    <td>Portar <code>gerarRecomendacoes()</code> e <code>renderTeacher()</code> para o BACKUP</td>
+    <td>Iguala funcionalidades disponiveis. Aba TEACHER funcional em ambos.</td>
+  </tr>
+  <tr>
+    <td style="text-align:center; font-weight:700;">4</td>
+    <td><span class="badge-medio">P2</span></td>
+    <td>Considerar <code>temperature: 0</code> se determinismo absoluto for necessario</td>
+    <td>Elimina variacao estocastica. Trade-off: analises menos criativas.</td>
+  </tr>
+  <tr>
+    <td style="text-align:center; font-weight:700;">5</td>
+    <td><span class="badge-baixo">P3</span></td>
+    <td>Remover <code>mls2025.js</code> do BACKUP</td>
+    <td>Elimina risco de conflito de namespace com dado legado.</td>
+  </tr>
+</table>
+
+<h3>7.3 Resumo Visual da Paridade</h3>
+<table>
+  <tr><th>Camada</th><th>Status de Paridade</th><th>Conclusao</th></tr>
+  <tr><td>Prompts (System + User)</td><td style="text-align:center; background:#f0fdf4; font-weight:900; color:#16a34a; font-size:14pt;">100%</td><td>Identicos</td></tr>
+  <tr><td>Parametros LLM (model, temp, tokens)</td><td style="text-align:center; background:#f0fdf4; font-weight:900; color:#16a34a; font-size:14pt;">100%</td><td>Identicos</td></tr>
+  <tr><td>Formulas matematicas (Poisson, EWMA, Shrinkage, TMI)</td><td style="text-align:center; background:#f0fdf4; font-weight:900; color:#16a34a; font-size:14pt;">100%</td><td>Identicas</td></tr>
+  <tr><td>Return do projecaoJogo()</td><td style="text-align:center; background:#fef2f2; font-weight:900; color:#dc2626; font-size:14pt;">67%</td><td>3 estruturas ausentes no BACKUP</td></tr>
+  <tr><td>Datasets (dados de jogos)</td><td style="text-align:center; background:#fef2f2; font-weight:900; color:#dc2626; font-size:14pt;">~70%</td><td>BACKUP defasado em jogos</td></tr>
+  <tr><td>Funcionalidades (Teacher, Recomendacoes)</td><td style="text-align:center; background:#fef2f2; font-weight:900; color:#dc2626; font-size:14pt;">0%</td><td>Ausentes no BACKUP</td></tr>
+  <tr><td>Variaveis de tempo/seeds</td><td style="text-align:center; background:#f0fdf4; font-weight:900; color:#16a34a; font-size:14pt;">100%</td><td>Sem randomizacao</td></tr>
+</table>
+
+<!-- RODAPÉ -->
+<div class="footer">
+  <div class="logo-text" style="margin-bottom: 4pt;">EDS SOLUCOES INTELIGENTES</div>
+  Relatorio de Auditoria de Paridade &mdash; Documento Tecnico Interno<br>
+  Gerado em 08/04/2026 por Claude Opus 4.6 (Engenheiro de Software Senior & Auditor de Sistemas)<br>
+  Arquivo: <code>Relatorio_Auditoria_Paridade_EDS_vs_Teacher_2026-04-08.doc</code><br>
+  <em>Este documento foi gerado automaticamente e reflete o estado do codigo no momento da auditoria.</em>
+</div>
+
+</body>
+</html>

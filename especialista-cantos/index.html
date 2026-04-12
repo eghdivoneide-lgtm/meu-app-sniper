@@ -233,32 +233,38 @@
     #sc-send{background:var(--green);color:#000;border:none;border-radius:8px;padding:0 1rem;font-weight:700;cursor:pointer;white-space:nowrap;}
     /* ── Botão câmera ── */
     #sc-img-btn{
-      background:var(--bg);border:1px solid var(--border);color:var(--gold);
-      border-radius:8px;padding:0 .7rem;font-size:1.1rem;cursor:pointer;
-      transition:all .2s;height:36px;
+      background:rgba(245,158,11,0.15);border:1.5px solid var(--gold);color:var(--gold);
+      border-radius:8px;padding:0 .8rem;font-size:1.1rem;cursor:pointer;
+      transition:all .2s;height:36px;font-weight:700;
     }
-    #sc-img-btn:hover{background:rgba(245,158,11,0.15);border-color:var(--gold);}
-    #sc-img-btn.ativo{background:rgba(245,158,11,0.2);border-color:var(--gold);box-shadow:0 0 8px rgba(245,158,11,0.4);}
+    #sc-img-btn:hover{background:rgba(245,158,11,0.3);box-shadow:0 0 8px rgba(245,158,11,0.4);}
+    #sc-img-btn.ativo{background:rgba(245,158,11,0.35);box-shadow:0 0 12px rgba(245,158,11,0.6);}
     #sc-file-input{display:none;}
-    /* ── Preview de imagem ── */
+    /* ── Preview múltiplas imagens ── */
     #sc-img-preview{
-      display:none;position:relative;
+      display:none;flex-wrap:wrap;gap:.4rem;
       background:var(--bg);border:1px solid rgba(245,158,11,0.3);
-      border-radius:8px;padding:.4rem;gap:.5rem;
-      align-items:center;
+      border-radius:8px;padding:.5rem;align-items:center;
     }
     #sc-img-preview.visivel{display:flex;}
-    #sc-img-thumb{
-      width:48px;height:48px;object-fit:cover;
-      border-radius:6px;border:1px solid var(--border);
+    .sc-thumb-wrap{position:relative;display:inline-block;}
+    .sc-thumb-wrap img{
+      width:52px;height:52px;object-fit:cover;
+      border-radius:6px;border:1px solid var(--gold);display:block;
     }
-    .sc-img-info{flex:1;font-size:.7rem;color:var(--muted);}
-    .sc-img-info strong{color:var(--gold);font-size:.75rem;display:block;margin-bottom:.2rem;}
-    #sc-img-clear{
-      background:none;border:none;color:var(--red);cursor:pointer;
-      font-size:1.1rem;padding:.2rem;opacity:.7;
+    .sc-thumb-remove{
+      position:absolute;top:-5px;right:-5px;
+      background:var(--red);color:#fff;border:none;border-radius:50%;
+      width:16px;height:16px;font-size:.6rem;cursor:pointer;
+      display:flex;align-items:center;justify-content:center;line-height:1;
     }
-    #sc-img-clear:hover{opacity:1;}
+    .sc-img-count{font-size:.7rem;color:var(--gold);font-weight:700;padding:.2rem .5rem;}
+    #sc-img-clear-all{
+      background:none;border:1px solid var(--red);color:var(--red);
+      border-radius:6px;cursor:pointer;font-size:.65rem;padding:.2rem .5rem;
+      margin-left:auto;
+    }
+    #sc-img-clear-all:hover{background:rgba(239,68,68,0.1);}
     /* ── Drag-over ── */
     #sc-drawer.drag-over #sc-chat{
       border:2px dashed var(--gold);background:rgba(245,158,11,0.05);
@@ -400,6 +406,24 @@
         <tbody id="tbody-ranking"></tbody>
       </table>
     </div>
+
+    <!-- ── ANALISAR JOGO (SMART COACH) ── -->
+    <div id="rank-analisar-jogo" style="margin-top:1.5rem;background:var(--bg3);border:1px solid var(--border);border-left:4px solid var(--green);border-radius:12px;padding:1.5rem">
+      <div class="section-title" style="margin-bottom:.5rem;color:var(--text)">⚽ Analisar Jogo — Match Odds (Cantos)</div>
+      <p style="color:var(--muted);font-size:.85rem;margin-bottom:1rem">Escolha dois times para simular um confronto exclusivo do mercado de 1x2 Cantos. O Smart Coach fará o cruzamento de dados GERAL e SITUACIONAL e lhe dará um Veredito Final ao vivo no chat.</p>
+      <div class="controls" style="margin-bottom:1rem">
+        <div class="select-group">
+          <label>🏠 Mandante</label>
+          <select id="sel-rank-mandante" onfocus="popularSelectsRanking(this, 'Casa')"><option value="">— Casa —</option></select>
+        </div>
+        <div class="select-group">
+          <label>✈️ Visitante</label>
+          <select id="sel-rank-visitante" onfocus="popularSelectsRanking(this, 'Fora')"><option value="">— Fora —</option></select>
+        </div>
+      </div>
+      <button onclick="gerarAnaliseMatchOddsRanking()" style="width:100%;background:linear-gradient(135deg,var(--green),var(--green2));border:none;color:#000;padding:.8rem;border-radius:8px;font-weight:800;cursor:pointer;transition:transform .2s;box-shadow:0 4px 12px rgba(52,211,103,0.3)" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">🤖 Gerar Laudo SmartCoach Oficial (Match Odds)</button>
+    </div>
+    <div id="rank-ai-report-container" style="margin-top:1.5rem"></div>
 
     <!-- ── INSIGHT CARD ── -->
     <div id="rank-insight" style="margin-top:1rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.75rem"></div>
@@ -643,20 +667,17 @@
     <div class="msg msg-bot">Olá! Sou o <strong>SmartCoach</strong>, sua Inteligência Artificial Especialista em Cantos.<br><br>💡 Configure sua chave lá na ⚙️ e me pergunte sobre as projeções Sniper da rodada!</div>
   </div>
   <div class="sc-input-area">
-    <!-- Preview da imagem anexada -->
+    <!-- Preview múltiplas imagens -->
     <div id="sc-img-preview">
-      <img id="sc-img-thumb" src="" alt="print">
-      <div class="sc-img-info">
-        <strong>📸 Print ao vivo anexado</strong>
-        SmartCoach vai analisar as estatísticas da imagem
-      </div>
-      <button id="sc-img-clear" onclick="limparImagem()" title="Remover imagem">✖</button>
+      <span class="sc-img-count" id="sc-img-count">0/5 prints</span>
+      <div id="sc-thumbs-container" style="display:flex;gap:.4rem;flex-wrap:wrap;flex:1"></div>
+      <button id="sc-img-clear-all" onclick="limparTodasImagens()" title="Remover todos os prints">🗑 Limpar</button>
     </div>
     <!-- Input + botões -->
     <div class="sc-input-row">
-      <button id="sc-img-btn" title="Anexar print das estatísticas ao vivo (ou cole com Ctrl+V)" onclick="document.getElementById('sc-file-input').click()">📸</button>
-      <input type="file" id="sc-file-input" accept="image/*" onchange="capturarImagem(event)">
-      <input type="text" id="sc-input" placeholder="Pergunte ou cole um print (Ctrl+V)..." onkeypress="if(event.key==='Enter') sendSCMsg()">
+      <button id="sc-img-btn" title="Anexar até 5 prints ao vivo (ou cole com Ctrl+V)" onclick="document.getElementById('sc-file-input').click()">📸</button>
+      <input type="file" id="sc-file-input" accept="image/*" multiple onchange="capturarImagem(event)">
+      <input type="text" id="sc-input" placeholder="Envie prints + texto, ou só pergunte..." onkeypress="if(event.key==='Enter') sendSCMsg()">
       <button id="sc-send" onclick="sendSCMsg()">➤</button>
     </div>
   </div>
@@ -679,6 +700,7 @@
 <script src="data/mls2026.js"></script>
 <script src="data/brasileirao2026.js"></script>
 <script src="data/bundesliga2026.js"></script>
+<script src="data/dna_escoteiro.js"></script>
 <script>
 // ══════════════════════════════════════════════════
 //  VARIAVEIS GLOBAIS E ENGINE DE ANÁLISE
@@ -1097,13 +1119,50 @@ function projecaoJogo(mandante, visitante) {
   const atkAway2T = shrink(v_2t_pro, l_2tGlobal, nV, 3) / (l_2tAway||1);
   const defAway2T = shrink(v_2t_con, l_2tHome,   nV, 3) / (l_2tHome||1);
 
-  // 3. Cantos Esperados (xCorners Real) -> Injetado com o TMI!
-  const expHomeHT = atkHomeHT * defAwayHT * l_htHome * tmiHome;
-  const expAwayHT = atkAwayHT * defHomeHT * l_htAway * tmiAway;
+  // ── DNA ESCOTEIRO — Multiplicadores qualitativos do Escoteiro YAAKEN ──
+  let dnaHome = 1.0, dnaAway = 1.0;
+  let dnaPerfM = 'N/D', dnaPerfV = 'N/D';
+  let dnaAtivo = false;
+
+  if (typeof window.DNA_ESCOTEIRO !== 'undefined' && window.DNA_ESCOTEIRO[LIGA_ATUAL]) {
+    const dnaLiga = window.DNA_ESCOTEIRO[LIGA_ATUAL];
+    const findDNA = (nome) => {
+      if (dnaLiga[nome]) return dnaLiga[nome];
+      const key = Object.keys(dnaLiga).find(k =>
+        nome.toLowerCase().includes(k.toLowerCase().split(' ')[0]) ||
+        k.toLowerCase().includes(nome.toLowerCase().split(' ')[0])
+      );
+      return key ? dnaLiga[key] : null;
+    };
+    const dM = findDNA(mandante);
+    const dV = findDNA(visitante);
+
+    if (dM || dV) {
+      dnaAtivo = true;
+      if (dM) { dnaHome *= dM.multPerfil; dnaPerfM = dM.perfil; }
+      if (dV) {
+        dnaAway *= dV.multPerfil;
+        dnaPerfV = dV.perfil;
+        dnaAway *= dV.multFora;
+      }
+      if (dM && dM.multSupressao < 1.0) {
+        dnaAway *= (1 + (dM.multSupressao - 1) * 0.5);
+      }
+      if (dV && dV.multSupressao < 1.0) {
+        dnaHome *= (1 + (dV.multSupressao - 1) * 0.5);
+      }
+      dnaHome = Math.max(0.60, Math.min(1.35, dnaHome));
+      dnaAway = Math.max(0.50, Math.min(1.35, dnaAway));
+    }
+  }
+
+  // 3. Cantos Esperados (xCorners Real) -> Injetado com TMI + DNA!
+  const expHomeHT = atkHomeHT * defAwayHT * l_htHome * tmiHome * dnaHome;
+  const expAwayHT = atkAwayHT * defHomeHT * l_htAway * tmiAway * dnaAway;
   const expTotalHT = expHomeHT + expAwayHT;
-  
-  const expHome2T = atkHome2T * defAway2T * l_2tHome * tmiHome;
-  const expAway2T = atkAway2T * defHome2T * l_2tAway * tmiAway;
+
+  const expHome2T = atkHome2T * defAway2T * l_2tHome * tmiHome * dnaHome;
+  const expAway2T = atkAway2T * defHome2T * l_2tAway * tmiAway * dnaAway;
   const expTotalFT = expTotalHT + expHome2T + expAway2T;
 
   // Derivando os agregadores FT só para carregar os marcadores visuais do Site (Escala Sniper)
@@ -1221,7 +1280,8 @@ function projecaoJogo(mandante, visitante) {
     pow: { atkHomeFT, atkAwayFT, defHomeFT, defAwayFT },
     tatica: { m_vert, v_vert, m_rej, v_rej, tmiHome, tmiAway, dadosTaticosAusentes },
     reisDosCantosData, tiroSniperData, balaDePrataData, memoria_qualitativa: qualit,
-    incerteza: { dpFT, dpHT }, amostrasInsuficientes, dnaM, dnaV };
+    incerteza: { dpFT, dpHT }, amostrasInsuficientes, dnaM, dnaV,
+    dnaEscoteiro: { ativo: dnaAtivo, perfilM: dnaPerfM, perfilV: dnaPerfV, multHome: dnaHome, multAway: dnaAway } };
 }
 
 // ══════════════════════════════════════════════════
@@ -2096,6 +2156,27 @@ function renderProjecao() {
       </div>
     </div>
     
+    <!-- ═══ DNA ESCOTEIRO ═══ -->
+    ${p.dnaEscoteiro && p.dnaEscoteiro.ativo ? `
+    <div class="section-title">🧬 DNA Escoteiro YAAKEN (Perfil Qualitativo)</div>
+    <div class="grid4" style="margin-bottom:1.5rem">
+      <div class="stat-card" style="border-color:rgba(59,130,246,0.3)">
+        <div class="label">🏠 ${m} — DNA Casa</div>
+        <div class="value" style="font-size:1.2rem;color:${p.dnaEscoteiro.multHome >= 1 ? 'var(--green)' : 'var(--red)'}">${fmt(p.dnaEscoteiro.multHome)}x</div>
+        <div class="sub">Perfil: <strong style="color:#60a5fa">${p.dnaEscoteiro.perfilM}</strong></div>
+      </div>
+      <div class="stat-card" style="border-color:rgba(59,130,246,0.3)">
+        <div class="label">✈️ ${v} — DNA Fora</div>
+        <div class="value" style="font-size:1.2rem;color:${p.dnaEscoteiro.multAway >= 1 ? 'var(--green)' : 'var(--red)'}">${fmt(p.dnaEscoteiro.multAway)}x</div>
+        <div class="sub">Perfil: <strong style="color:#60a5fa">${p.dnaEscoteiro.perfilV}</strong></div>
+      </div>
+    </div>
+    ` : `
+    <div style="background:var(--bg3);border:1px solid var(--border);border-left:4px solid #60a5fa;padding:.8rem 1rem;border-radius:8px;margin-bottom:1rem;color:var(--muted);font-size:.8rem">
+      🧬 <strong>DNA Escoteiro não carregado.</strong> Execute <code>node dna_integrador.js</code> para ativar os multiplicadores qualitativos.
+    </div>
+    `}
+
     <div class="section-title">⚖️ Medidores de Força SNIPER (Escala > 1 = Forte)</div>
     <div class="grid4" style="margin-bottom:1.5rem">
       <div class="stat-card">
@@ -3542,6 +3623,15 @@ REGRAS ESTÉTICAS:
 NÃO USE ASTERISCOS Markdown. Use exclusivamente as tags HTML para destaques. Se quiser dar ênfase em dados cruciais, use <strong style="color:#34d367"> e </strong>. Se quiser usar subtítulos, use <div style="font-weight:800;color:#fca5a5;margin-top:10px;margin-bottom:5px"> TEXTO </div>. Crie um texto fluído antes da tabela final. Não use tabelas exceto para o quadro com os 5 últimos jogos solicitado acima.
 
 Analise as Forças e Vulnerabilidades da tela e determine o melhor mercado para atuação (+EV).
+
+DADOS DO DNA ESCOTEIRO (SE DISPONÍVEL):
+Se os dados incluírem a seção "🧬 DNA ESCOTEIRO", use-os proativamente:
+- Compare o perfil do mandante EM CASA vs o perfil do visitante FORA DE CASA
+- Se o visitante tem "Perda fora alta" ou multiplicador DNA < 0.85, ALERTE que a projeção de cantos do visitante pode estar inflada
+- Se o mandante tem "Forte em casa", reforce a direção do mercado
+- Use as notas YAAKEN para dar contexto qualitativo (ex: "Empata muito 56%", "Em chama 5/5")
+- SEMPRE mencione o multiplicador DNA e o perfil no laudo quando disponíveis
+
 Não enrole. Seja cirúrgico.
 --- DADOS DA PROJEÇÃO ---
 ${ctx}
@@ -3557,7 +3647,7 @@ ${ctx}
         'anthropic-dangerous-direct-browser-access': 'true'
       },
       body: JSON.stringify({
-        model: 'claude-opus-4-6',
+        model: 'claude-haiku-4-5-20251001',
         max_tokens: 1024,
         temperature: 0.4,
         system: systemPrompt,
@@ -3756,6 +3846,43 @@ function getAppContext() {
       ctx += `- ATK ${m}: ${fmt(p.pow.atkHomeFT)}x | DEF vulnerabilidade: ${fmt(p.pow.defHomeFT)}x\n`;
       ctx += `- ATK ${v}: ${fmt(p.pow.atkAwayFT)}x | DEF vulnerabilidade: ${fmt(p.pow.defAwayFT)}x\n`;
 
+      // ── DNA ESCOTEIRO — Perfis + Notas qualitativas para SmartCoach ──
+      if (p.dnaEscoteiro && p.dnaEscoteiro.ativo) {
+        const de = p.dnaEscoteiro;
+        ctx += `\n🧬 DNA ESCOTEIRO (Inteligência Qualitativa):\n`;
+        ctx += `- ${m} (CASA): Perfil ${de.perfilM} | Multiplicador DNA: ${fmt(de.multHome)}x\n`;
+        ctx += `- ${v} (FORA): Perfil ${de.perfilV} | Multiplicador DNA: ${fmt(de.multAway)}x\n`;
+        if (de.multAway < 0.85) ctx += `  ⚠️ ALERTA: ${v} tem perfil fraco/passivo fora — xCorners REDUZIDO pelo DNA\n`;
+        if (de.multAway < 0.75) ctx += `  🚨 CRÍTICO: ${v} cai drasticamente fora de casa — modelo Poisson ajustado para baixo\n`;
+        if (de.multHome > 1.10) ctx += `  🔥 ${m} com perfil ofensivo dominante em casa — xCorners ELEVADO pelo DNA\n`;
+        // Injetar notas YAAKEN do escoteiro
+        if (typeof window.DNA_ESCOTEIRO !== 'undefined' && window.DNA_ESCOTEIRO[LIGA_ATUAL]) {
+          const dnaLiga = window.DNA_ESCOTEIRO[LIGA_ATUAL];
+          const findDNACtx = (nome) => {
+            if (dnaLiga[nome]) return dnaLiga[nome];
+            const key = Object.keys(dnaLiga).find(k =>
+              nome.toLowerCase().includes(k.toLowerCase().split(' ')[0]) ||
+              k.toLowerCase().includes(nome.toLowerCase().split(' ')[0])
+            );
+            return key ? dnaLiga[key] : null;
+          };
+          const dnaM = findDNACtx(m);
+          const dnaV = findDNACtx(v);
+          if (dnaM && dnaM.notas && dnaM.notas.length > 0) {
+            ctx += `- Notas DNA ${m}: ${dnaM.notas.join(' | ')}\n`;
+            ctx += `- Forma recente ${m}: ${dnaM.forma || 'N/D'}\n`;
+            ctx += `- Tendência empate ${m}: ${dnaM.tendencia_empate || 'N/D'}\n`;
+            ctx += `- Casa: ${dnaM.casa_v_pct}% vitórias | ${dnaM.casa_d_pct}% derrotas | GP/j: ${dnaM.casa_gp} | GC/j: ${dnaM.casa_gc}\n`;
+          }
+          if (dnaV && dnaV.notas && dnaV.notas.length > 0) {
+            ctx += `- Notas DNA ${v}: ${dnaV.notas.join(' | ')}\n`;
+            ctx += `- Forma recente ${v}: ${dnaV.forma || 'N/D'}\n`;
+            ctx += `- Tendência empate ${v}: ${dnaV.tendencia_empate || 'N/D'}\n`;
+            ctx += `- Fora: ${dnaV.fora_v_pct}% vitórias | ${dnaV.fora_d_pct}% derrotas | GP/j: ${dnaV.fora_gp} | GC/j: ${dnaV.fora_gc}\n`;
+          }
+        }
+      }
+
       const ultimosM = jogosValidos.filter(j => j.mandante === m || j.visitante === m).slice(-5).reverse();
       const ultimosV = jogosValidos.filter(j => j.mandante === v || j.visitante === v).slice(-5).reverse();
       
@@ -3846,55 +3973,80 @@ function getAppContext() {
 // ══════════════════════════════════════════════════
 //  CANAL DE IMAGEM — SmartCoach Análise ao Vivo
 // ══════════════════════════════════════════════════
-let scImageData = null;   // { base64, mediaType }
+let scImageDatas = [];   // array de { base64, mediaType, dataUrl } — máx 5
 
 function capturarImagem(event) {
-  const file = event.target.files[0];
-  if (!file) return;
-  lerArquivoImagem(file);
-  event.target.value = ''; // reset para permitir re-upload do mesmo arquivo
+  const files = Array.from(event.target.files || []);
+  files.forEach(f => lerArquivoImagem(f));
+  event.target.value = '';
 }
 
 function lerArquivoImagem(file) {
-  if (!file.type.startsWith('image/')) return;
+  if (!file || !file.type.startsWith('image/')) return;
+  if (scImageDatas.length >= 5) {
+    addSCMsg('bot', '⚠️ Máximo de 5 prints por mensagem atingido. Envie a mensagem antes de adicionar mais.');
+    return;
+  }
   const reader = new FileReader();
   reader.onload = (e) => {
-    const base64 = e.target.result.split(',')[1];
+    const dataUrl  = e.target.result;
+    const base64   = dataUrl.split(',')[1];
     const mediaType = file.type;
-    scImageData = { base64, mediaType };
-    // Mostrar preview
-    const thumb = document.getElementById('sc-img-thumb');
-    const preview = document.getElementById('sc-img-preview');
-    const btn = document.getElementById('sc-img-btn');
-    thumb.src = e.target.result;
-    preview.classList.add('visivel');
-    btn.classList.add('ativo');
+    scImageDatas.push({ base64, mediaType, dataUrl });
+    atualizarPreviewImagens();
   };
   reader.readAsDataURL(file);
 }
 
-function limparImagem() {
-  scImageData = null;
-  document.getElementById('sc-img-preview').classList.remove('visivel');
-  document.getElementById('sc-img-btn').classList.remove('ativo');
-  document.getElementById('sc-img-thumb').src = '';
+function atualizarPreviewImagens() {
+  const preview   = document.getElementById('sc-img-preview');
+  const container = document.getElementById('sc-thumbs-container');
+  const count     = document.getElementById('sc-img-count');
+  const btn       = document.getElementById('sc-img-btn');
+  container.innerHTML = '';
+  scImageDatas.forEach((img, idx) => {
+    const wrap = document.createElement('div');
+    wrap.className = 'sc-thumb-wrap';
+    wrap.innerHTML = `
+      <img src="${img.dataUrl}" alt="print ${idx+1}">
+      <button class="sc-thumb-remove" onclick="removerImagem(${idx})" title="Remover">✕</button>`;
+    container.appendChild(wrap);
+  });
+  count.textContent = `${scImageDatas.length}/5 prints`;
+  if (scImageDatas.length > 0) {
+    preview.classList.add('visivel');
+    btn.classList.add('ativo');
+  } else {
+    preview.classList.remove('visivel');
+    btn.classList.remove('ativo');
+  }
 }
 
-// Suporte a Ctrl+V (colar screenshot da área de transferência)
+function removerImagem(idx) {
+  scImageDatas.splice(idx, 1);
+  atualizarPreviewImagens();
+}
+
+function limparTodasImagens() {
+  scImageDatas = [];
+  atualizarPreviewImagens();
+}
+
+// Ctrl+V — colar screenshot
 document.addEventListener('paste', (e) => {
   const drawer = document.getElementById('sc-drawer');
-  if (!drawer.classList.contains('active') && drawer.style.display === 'none') return;
+  if (!drawer || (!drawer.classList.contains('active') && drawer.style.display === 'none')) return;
   const items = e.clipboardData?.items;
   if (!items) return;
   for (const item of items) {
     if (item.type.startsWith('image/')) {
       const file = item.getAsFile();
-      if (file) { lerArquivoImagem(file); break; }
+      if (file) lerArquivoImagem(file);
     }
   }
 });
 
-// Suporte a drag-and-drop no drawer
+// Drag-and-drop no drawer
 document.addEventListener('DOMContentLoaded', () => {
   const drawer = document.getElementById('sc-drawer');
   if (!drawer) return;
@@ -3903,15 +4055,16 @@ document.addEventListener('DOMContentLoaded', () => {
   drawer.addEventListener('drop', (e) => {
     e.preventDefault();
     drawer.classList.remove('drag-over');
-    const file = e.dataTransfer?.files[0];
-    if (file && file.type.startsWith('image/')) lerArquivoImagem(file);
+    Array.from(e.dataTransfer?.files || []).forEach(f => {
+      if (f.type.startsWith('image/')) lerArquivoImagem(f);
+    });
   });
 });
 
 async function sendSCMsg() {
   const input = document.getElementById('sc-input');
   const text  = input.value.trim();
-  const temImagem = !!scImageData;
+  const temImagem = scImageDatas.length > 0;
 
   if (!text && !temImagem) return;
   if (!scKey) {
@@ -3921,26 +4074,30 @@ async function sendSCMsg() {
 
   // Mostrar mensagem do usuário no chat
   if (temImagem) {
-    addSCMsg('user', `${text ? text + '<br>' : ''}<img src="data:${scImageData.mediaType};base64,${scImageData.base64}" style="max-width:200px;border-radius:8px;margin-top:.4rem;border:1px solid var(--border)">`);
+    const thumbsHtml = scImageDatas.map(img =>
+      `<img src="${img.dataUrl}" style="max-width:120px;border-radius:6px;margin:.2rem;border:1px solid var(--border)">`
+    ).join('');
+    addSCMsg('user', `${text ? text + '<br>' : ''}${thumbsHtml}`);
   } else {
     addSCMsg('user', text);
   }
   input.value = '';
 
-  // Montar conteúdo da mensagem (multimodal se tiver imagem)
+  // Montar conteúdo da mensagem (multimodal se tiver imagens)
   let userContent;
   if (temImagem) {
     userContent = [
-      {
+      // todas as imagens primeiro
+      ...scImageDatas.map(img => ({
         type: 'image',
-        source: { type: 'base64', media_type: scImageData.mediaType, data: scImageData.base64 }
-      },
+        source: { type: 'base64', media_type: img.mediaType, data: img.base64 }
+      })),
       {
         type: 'text',
-        text: text || 'Analise as estatísticas desta imagem ao vivo e faça uma projeção profunda de cantos para o restante do jogo.'
+        text: text || `Analise ${scImageDatas.length > 1 ? 'estes ' + scImageDatas.length + ' prints' : 'este print'} com estatísticas ao vivo e faça uma projeção profunda de cantos para o restante do jogo.`
       }
     ];
-    limparImagem(); // limpa preview após enviar
+    limparTodasImagens(); // limpa após enviar
   } else {
     userContent = text;
   }
@@ -4007,7 +4164,15 @@ REGRAS DE FORMATAÇÃO VISUAL (MUITO IMPORTANTE):
 5. Visual luxuoso e limpo — widget profissional de análise quantitativa
 
 Fale com tom de apostador profissional (Punter/Trader). Use emojis estratégicos.
-Ao sugerir oportunidades, foque nas linhas com maior probabilidade e cruze com o histórico real do apostador.`;
+Ao sugerir oportunidades, foque nas linhas com maior probabilidade e cruze com o histórico real do apostador.
+
+DNA ESCOTEIRO: Se o contexto incluir "🧬 DNA ESCOTEIRO", use esses dados para:
+- Alertar sobre times com perfil MURO_DUPLO ou DEFENSIVO (geram menos cantos)
+- Destacar times CAMISA_ABERTA (jogos com muitos gols e cantos)
+- Avisar quando visitante tem "Perda fora alta" (projeção pode estar inflada)
+- Mencionar tendência de empate quando ALTO
+- Citar a forma recente (VVVVV = em chama, DDDDD = crise)
+Esses dados vêm do Escoteiro YAAKEN e são qualitativos — complementam o modelo Poisson.`;
 
 
   try {
@@ -4024,7 +4189,7 @@ Ao sugerir oportunidades, foque nas linhas com maior probabilidade e cruze com o
         'anthropic-dangerous-direct-browser-access': 'true'
       },
       body: JSON.stringify({
-        model: 'claude-opus-4-6',
+        model: 'claude-haiku-4-5-20251001',
         max_tokens: modoAoVivo ? 2048 : 1024,
         temperature: modoAoVivo ? 0.2 : 0.4,
         system: systemPrompt,
@@ -4957,6 +5122,127 @@ function exportarTrackerXLS() {
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, 'BetTracker');
   XLSX.writeFile(wb, `BetTracker_EDS_${new Date().toISOString().split('T')[0]}.xlsx`);
+}
+
+// ══════════════════════════════════════════════════
+//  EXTENSÃO RANKING: ANALISAR JOGO MATCH ODDS
+// ══════════════════════════════════════════════════
+
+function popularSelectsRanking(selectElement, labelTexto) {
+  if (selectElement.children.length > 1) return; // Ja populado para essa liga
+  if (!DADOS_2026 || !DADOS_2026.times) return;
+  
+  // Limpa e preenche
+  selectElement.innerHTML = `<option value="">— ${labelTexto} —</option>`;
+  const options = DADOS_2026.times.slice().sort().map(t => `<option value="${t}">${t}</option>`).join('');
+  selectElement.innerHTML += options;
+}
+
+// Resetar os selects quando trocar a liga
+document.getElementById('seletor-liga').addEventListener('change', () => {
+  const m = document.getElementById('sel-rank-mandante');
+  const v = document.getElementById('sel-rank-visitante');
+  if(m) m.innerHTML = '<option value="">— Casa —</option>';
+  if(v) v.innerHTML = '<option value="">— Fora —</option>';
+});
+
+async function gerarAnaliseMatchOddsRanking() {
+  const m = document.getElementById('sel-rank-mandante').value;
+  const v = document.getElementById('sel-rank-visitante').value;
+  if (!m || !v) {
+    alert('Escolha primeiro o Mandante e o Visitante na ferramenta "Analisar Jogo".');
+    return;
+  }
+  if (!scKey) {
+    alert('Falta a Chave do SmartCoach! Clique em 👔📋 (Bolinha flutuante) e preencha a chave Anthropic nas configurações ⚙️ para usar a IA inteligente aqui.');
+    return;
+  }
+
+  const ctr = document.getElementById('rank-ai-report-container');
+  ctr.innerHTML = `<div style="text-align:center;color:var(--green);font-weight:700;background:var(--bg3);border:1px solid var(--border);padding:1.5rem;border-radius:12px">⏳ O SmartCoach está calculando o laudo matemático exclusivo para o Match Odds... (Aguarde 10seg)</div>`;
+  
+  const rankGeral = getRankingData('geral');
+  const rgM = rankGeral.find(r => r.time === m);
+  const rgV = rankGeral.find(r => r.time === v);
+  
+  const rankCasa = getRankingData('casa');
+  const rcM = rankCasa.find(r => r.time === m);
+  
+  const rankFora = getRankingData('fora');
+  const rfV = rankFora.find(r => r.time === v);
+  
+  const stats = {
+    m: {
+      geralFT: rgM?.ft_pro || 0, geralCon: rgM?.ft_con || 0, geralSaldo: rgM?.saldo_ft || 0,
+      casaFT: rcM?.ft_pro || 0, casaCon: rcM?.ft_con || 0, casaSaldo: rcM?.saldo_ft || 0, casaJogos: rcM?.jogos || 0
+    },
+    v: {
+      geralFT: rgV?.ft_pro || 0, geralCon: rgV?.ft_con || 0, geralSaldo: rgV?.saldo_ft || 0,
+      foraFT: rfV?.ft_pro || 0, foraCon: rfV?.ft_con || 0, foraSaldo: rfV?.saldo_ft || 0, foraJogos: rfV?.jogos || 0
+    }
+  };
+
+  const p = projecaoJogo(m, v);
+  const tmiStr = p ? `TMI Mandante: ${fmt(p.tatica.tmiHome)}x | TMI Visitante: ${fmt(p.tatica.tmiAway)}x` : 'TMI Indisponível';
+
+  const userPrompt = `📊 Análise Completa — ${m} 🏠 vs ${v} ✈️\n\n🗂️ Dados Extraídos das 3 Abas de Ranking\n\n📊 Aba GERAL (todos os jogos — casa + fora)\nTime | Jogos | FT Pró | FT Concede | Saldo FT\n${m} | ${rgM?.jogos||0} | ${fmt(stats.m.geralFT)} | ${fmt(stats.m.geralCon)} | ${fmt(stats.m.geralSaldo)}\n${v} | ${rgV?.jogos||0} | ${fmt(stats.v.geralFT)} | ${fmt(stats.v.geralCon)} | ${fmt(stats.v.geralSaldo)}\n\n🏠 Aba EM CASA (contexto situacional — ${m} joga em casa)\nTime | Jogos | FT Pró | FT Concede | Saldo FT\n${m} | ${stats.m.casaJogos} | ${fmt(stats.m.casaFT)} | ${fmt(stats.m.casaCon)} | ${fmt(stats.m.casaSaldo)}\n\n✈️ Aba FORA DE CASA (contexto situacional — ${v} joga fora)\nTime | Jogos | FT Pró | FT Concede | Saldo FT\n${v} | ${stats.v.foraJogos} | ${fmt(stats.v.foraFT)} | ${fmt(stats.v.foraCon)} | ${fmt(stats.v.foraSaldo)}\n\n⚡ Dinâmica Tática (TMI):\n${tmiStr}`;
+
+  const systemPrompt = `Você é o *SmartCoach*, a IA quantitativa embarcada no app 'Especialista em Cantos'.
+Seu objetivo primário é fornecer um Laudo Oficial focado EXCLUSIVAMENTE no mercado de MATCH ODDS (Vencedor em Escanteios).
+
+REGRAS ESTRUTURAIS:
+Divida seu laudo em duas estruturas claras.
+1. "<div style="font-weight:800;color:#fca5a5;margin-top:20px;margin-bottom:10px;text-transform:uppercase">🔬 DIAGNÓSTICO DO CONFRONTO</div>": Analise como o mandante performa em casa e o visitante fora. Quem produz mais escanteios diretos e quem sofre mais? 
+2. "<div style="font-weight:800;color:#34d367;margin-top:20px;margin-bottom:10px;text-transform:uppercase">🏆 VEREDITO FINAL (MATCH ODDS)</div>": Determine expressamente quem vencerá em volume de escanteios. OBRIGATÓRIO: Ao final, declare seu "Nível de Confiança (%)". Se for um jogo com "Alta Instabilidade", enfatize o baixo nível de confiança e oriente a "NÃO ENTRAR" em pré-live devido à fraqueza matemática. Se for um jogo de "Alta Confiança", mostre a "Projeção de Diferença de Cantos" (ex: vitória por +2.0 cantos do favorito) e oriente uma intervenção com "Handicap Asiático -1.5".
+
+REGRAS ESTÉTICAS:
+NÃO USE ASTERISCOS Markdown. Use exclusivamente as tags HTML para destaques. Se quiser dar ênfase em dados cruciais (como nomes dos times, números ou greens), use <strong style="color:#34d367"> e </strong>. Não use formatações como ### ou **. Não use tabelas na sua resposta. Crie um texto fluído, bonito, e extremamente analítico.`;
+
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'x-api-key': scKey,
+        'anthropic-version': '2023-06-01',
+        'content-type': 'application/json',
+        'anthropic-dangerous-direct-browser-access': 'true'
+      },
+      body: JSON.stringify({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 1500,
+        temperature: 0.4,
+        system: systemPrompt,
+        messages: [{ role: 'user', content: userPrompt + '\n\nCom base nesse cruzamento de dados, apresente o seu Diagnóstico e o seu Veredito Final para o mercado Match Odds.' }]
+      })
+    });
+
+    if (!res.ok) {
+      const e = await res.json().catch(()=>({}));
+      ctr.innerHTML = `<div style="color:var(--red)">❌ Erro na API: ${e.error?.message || res.status}</div>`;
+      return;
+    }
+
+    const data = await res.json();
+    let text = data.content[0].text.replace(/\n\n/g, '<br><br>').replace(/\n/g, '<br>');
+    let rawText = data.content[0].text.replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+
+    ctr.innerHTML = `
+      <div style="background:var(--card);border:1px solid var(--border);border-top:4px solid var(--green);border-radius:12px;padding:2rem;box-shadow:0 10px 30px rgba(0,0,0,0.3)">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1.5rem;border-bottom:1px solid var(--border);padding-bottom:1rem">
+          <div style="font-weight:900;color:var(--green);display:flex;align-items:center;gap:.5rem;font-size:1.3rem">
+            <span>🧠</span> Laudo Oficial — SmartCoach IA
+          </div>
+          <button onclick="exportarAnaliseIA(this.dataset.txt, '${m}', '${v}')" data-txt="${rawText}" onmouseover="this.style.background='var(--green)';this.style.color='#000'" onmouseout="this.style.background='var(--card)';this.style.color='var(--green)'" style="background:var(--card);border:1px solid var(--green);color:var(--green);padding:.6rem 1.2rem;border-radius:6px;font-size:.75rem;font-weight:800;cursor:pointer;transition:all .2s">💾 Exportar Laudo (HTML)</button>
+        </div>
+        <div style="text-align:center;font-size:1.4rem;font-weight:900;color:var(--text);margin-bottom:.5rem">${m} vs ${v}</div>
+        <div style="text-align:center;font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:2rem">Especialista em Cantos PRO • Mercado 1x2</div>
+        <div style="font-size:.95rem;line-height:1.6;color:var(--text)">${text}</div>
+      </div>
+    `;
+
+  } catch(err) {
+    ctr.innerHTML = `<div style="color:var(--red)">⚠️ Falha ao se conectar com os servidores. Verifique sua chave nas configurações do Chat (icone 👔📋).</div>`;
+  }
 }
 
 init();
