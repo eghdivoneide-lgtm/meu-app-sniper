@@ -1,4 +1,5 @@
 @echo off
+cd /d "%~dp0"
 echo ========================================================
 echo   REPESCAGEM CISNE NEGRO - CHILE
 echo   Forcar extracao da Primeira Division do Chile e
