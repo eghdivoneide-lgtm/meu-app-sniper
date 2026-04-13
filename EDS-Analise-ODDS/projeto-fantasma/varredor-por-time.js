@@ -80,7 +80,35 @@ const LIGAS = {
     url_tabela:        'https://www.flashscore.com/football/germany/bundesliga/standings/',
     variavelJS:        'DADOS_BUN',
     arquivoJS:         'bundesliga2026.js',
-    filtroCompetição:  []  // desativado
+    filtroCompetição:  []
+  },
+  J1: {
+    nome:              'J1 League (Japão)',
+    url_tabela:        'https://www.flashscore.com/football/japan/j1-league/standings/',
+    variavelJS:        'DADOS_J1',
+    arquivoJS:         'j1league2026.js',
+    filtroCompetição:  []
+  },
+  ALM: {
+    nome:              'A-League Men (Austrália)',
+    url_tabela:        'https://www.flashscore.com/football/australia/a-league/standings/',
+    variavelJS:        'DADOS_ALM',
+    arquivoJS:         'aleague2026.js',
+    filtroCompetição:  []
+  },
+  CHI: {
+    nome:              'Primera División (Chile)',
+    url_tabela:        'https://www.flashscore.com/football/chile/primera-division/standings/',
+    variavelJS:        'DADOS_CHI',
+    arquivoJS:         'chile2026.js',
+    filtroCompetição:  []
+  },
+  ARG_B: {
+    nome:              'Primera B Nacional (Argentina)',
+    url_tabela:        'https://www.flashscore.com/football/argentina/primera-nacional/standings/',
+    variavelJS:        'DADOS_ARG_B',
+    arquivoJS:         'argentina_b2026.js',
+    filtroCompetição:  []
   }
 };
 

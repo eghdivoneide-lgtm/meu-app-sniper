@@ -12,6 +12,11 @@ echo.
 ::   atualizar.bat BR        → completa histórico do Brasileirão
 ::   atualizar.bat BUN       → completa histórico da Bundesliga (Alemanha)
 ::   atualizar.bat TODAS     → todas as ligas
+::   atualizar.bat J1        → completa histórico da J1 League (Japão)
+::   atualizar.bat ALM       → completa histórico da A-League (Austrália)
+::   atualizar.bat CHI       → completa histórico da Primeira Divisão (Chile)
+::   atualizar.bat ECU       → completa histórico da LigaPro (Equador)
+::   atualizar.bat ARG_B     → completa histórico da Primeira B (Argentina)
 
 set LIGA=%1
 
@@ -22,6 +27,11 @@ if "%LIGA%"=="" (
     echo   atualizar.bat USL      - USL Championship ^(25 times^)
     echo   atualizar.bat BR       - Brasileirao Serie A ^(20 times^)
     echo   atualizar.bat BUN      - Bundesliga Alemanha ^(18 times^)
+    echo   atualizar.bat J1       - J1 League Japao ^(20 times^)
+    echo   atualizar.bat ALM      - A-League Australia ^(12 times^)
+    echo   atualizar.bat CHI      - Primera Division Chile ^(16 times^)
+    echo   atualizar.bat ECU      - LigaPro Equador ^(16 times^)
+    echo   atualizar.bat ARG_B    - Primera B Nacional Argentina ^(38 times^)
     echo   atualizar.bat TODAS    - Todas as ligas
     echo.
     echo Como funciona:
