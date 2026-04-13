@@ -1,35 +1,43 @@
+// ============================================================
+// MAJOR LEAGUE SOCCER 2026 — MOTOR FANTASMA v5 (por time)
+// Atualizado: 2026-04-13
+// ============================================================
+
 window.DADOS_MLS = {
+  "temporada": "Major League Soccer",
+  "ultimaAtualizacao": "2026-04-13",
+  "totalRodadas": 10,
   "times": [
-    "San Diego FC",
-    "Real Salt Lake",
-    "Portland Timbers",
-    "Los Angeles Galaxy",
-    "Minnesota United",
-    "Seattle Sounders",
-    "FC Cincinnati",
-    "CF Montreal",
-    "New York City",
-    "Inter Miami",
-    "Vancouver Whitecaps",
-    "San Jose Earthquakes",
+    "Atlanta Utd",
     "Austin FC",
-    "Los Angeles FC",
+    "CF Montreal",
+    "Charlotte",
+    "Chicago Fire",
+    "Colorado Rapids",
+    "Columbus Crew",
+    "DC United",
+    "FC Cincinnati",
     "FC Dallas",
     "Houston Dynamo",
-    "Sporting Kansas City",
-    "Colorado Rapids",
-    "St. Louis City",
-    "New England Revolution",
-    "Atlanta Utd",
-    "DC United",
-    "Charlotte",
-    "New York Red Bulls",
+    "Inter Miami",
+    "Los Angeles FC",
+    "Los Angeles Galaxy",
+    "Minnesota United",
     "Nashville SC",
+    "New England Revolution",
+    "New York City",
+    "New York Red Bulls",
     "Orlando City",
     "Philadelphia Union",
-    "Chicago Fire",
+    "Portland Timbers",
+    "Real Salt Lake",
+    "San Diego FC",
+    "San Jose Earthquakes",
+    "Seattle Sounders",
+    "Sporting Kansas City",
+    "St. Louis City",
     "Toronto FC",
-    "Columbus Crew"
+    "Vancouver Whitecaps"
   ],
   "jogos": [
     {
@@ -66,7 +74,17 @@ window.DADOS_MLS = {
           "v": 11
         }
       },
-      "rodada": 1
+      "rodada": 1,
+      "placar": {
+        "m": 5,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.51",
+        "oddEmpate": "4.33",
+        "oddV": "5.50"
+      }
     },
     {
       "id": "l2KEZ8Mt",
@@ -246,7 +264,17 @@ window.DADOS_MLS = {
           "v": 0
         }
       },
-      "rodada": 1
+      "rodada": 1,
+      "placar": {
+        "m": 0,
+        "v": 1
+      },
+      "vencedor": "visitante",
+      "odds": {
+        "oddM": "1.53",
+        "oddEmpate": "4.33",
+        "oddV": "5.50"
+      }
     },
     {
       "id": "bH3U2SiJ",
@@ -282,7 +310,17 @@ window.DADOS_MLS = {
           "v": 6
         }
       },
-      "rodada": 1
+      "rodada": 1,
+      "placar": {
+        "m": 0,
+        "v": 0
+      },
+      "vencedor": "empate",
+      "odds": {
+        "oddM": "4.50",
+        "oddEmpate": "4.00",
+        "oddV": "1.68"
+      }
     },
     {
       "id": "EPoHQVqQ",
@@ -318,7 +356,17 @@ window.DADOS_MLS = {
           "v": 5
         }
       },
-      "rodada": 1
+      "rodada": 1,
+      "placar": {
+        "m": 4,
+        "v": 3
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "2.30",
+        "oddEmpate": "3.50",
+        "oddV": "2.85"
+      }
     },
     {
       "id": "AeXnL97m",
@@ -354,7 +402,17 @@ window.DADOS_MLS = {
           "v": 9
         }
       },
-      "rodada": 1
+      "rodada": 1,
+      "placar": {
+        "m": 1,
+        "v": 4
+      },
+      "vencedor": "visitante",
+      "odds": {
+        "oddM": "2.55",
+        "oddEmpate": "3.40",
+        "oddV": "2.55"
+      }
     },
     {
       "id": "UcmlJmx0",
@@ -390,7 +448,17 @@ window.DADOS_MLS = {
           "v": 4
         }
       },
-      "rodada": 1
+      "rodada": 1,
+      "placar": {
+        "m": 3,
+        "v": 1
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.86",
+        "oddEmpate": "3.70",
+        "oddV": "3.80"
+      }
     },
     {
       "id": "UyCD6Ahf",
@@ -426,7 +494,17 @@ window.DADOS_MLS = {
           "v": 3
         }
       },
-      "rodada": 1
+      "rodada": 1,
+      "placar": {
+        "m": 0,
+        "v": 0
+      },
+      "vencedor": "empate",
+      "odds": {
+        "oddM": "2.10",
+        "oddEmpate": "3.40",
+        "oddV": "3.40"
+      }
     },
     {
       "id": "ji0M4lN6",
@@ -462,7 +540,17 @@ window.DADOS_MLS = {
           "v": 13
         }
       },
-      "rodada": 1
+      "rodada": 1,
+      "placar": {
+        "m": 6,
+        "v": 1
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "2.01",
+        "oddEmpate": "3.50",
+        "oddV": "3.50"
+      }
     },
     {
       "id": "xUg68WNs",
@@ -498,7 +586,17 @@ window.DADOS_MLS = {
           "v": 7
         }
       },
-      "rodada": 1
+      "rodada": 1,
+      "placar": {
+        "m": 5,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.45",
+        "oddEmpate": "4.75",
+        "oddV": "6.25"
+      }
     },
     {
       "id": "IqDZDh0K",
@@ -534,7 +632,17 @@ window.DADOS_MLS = {
           "v": 6
         }
       },
-      "rodada": 1
+      "rodada": 1,
+      "placar": {
+        "m": 1,
+        "v": 2
+      },
+      "vencedor": "visitante",
+      "odds": {
+        "oddM": "2.50",
+        "oddEmpate": "3.25",
+        "oddV": "2.75"
+      }
     },
     {
       "id": "StZSVfdn",
@@ -570,7 +678,17 @@ window.DADOS_MLS = {
           "v": 7
         }
       },
-      "rodada": 1
+      "rodada": 1,
+      "placar": {
+        "m": 2,
+        "v": 1
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "3.25",
+        "oddEmpate": "3.50",
+        "oddV": "2.20"
+      }
     },
     {
       "id": "QkQmjk8D",
@@ -606,7 +724,17 @@ window.DADOS_MLS = {
           "v": 2
         }
       },
-      "rodada": 2
+      "rodada": 2,
+      "placar": {
+        "m": 0,
+        "v": 1
+      },
+      "vencedor": "visitante",
+      "odds": {
+        "oddM": "2.01",
+        "oddEmpate": "3.80",
+        "oddV": "3.20"
+      }
     },
     {
       "id": "21IHOwkJ",
@@ -642,7 +770,17 @@ window.DADOS_MLS = {
           "v": 4
         }
       },
-      "rodada": 2
+      "rodada": 2,
+      "placar": {
+        "m": 6,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.45",
+        "oddEmpate": "4.33",
+        "oddV": "6.50"
+      }
     },
     {
       "id": "UNWvhBw1",
@@ -678,7 +816,17 @@ window.DADOS_MLS = {
           "v": 10
         }
       },
-      "rodada": 2
+      "rodada": 2,
+      "placar": {
+        "m": 6,
+        "v": 1
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "2.25",
+        "oddEmpate": "3.50",
+        "oddV": "2.85"
+      }
     },
     {
       "id": "r7YWgX8l",
@@ -714,7 +862,17 @@ window.DADOS_MLS = {
           "v": 11
         }
       },
-      "rodada": 2
+      "rodada": 2,
+      "placar": {
+        "m": 2,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.42",
+        "oddEmpate": "4.75",
+        "oddV": "6.25"
+      }
     },
     {
       "id": "j9gh1FGE",
@@ -750,7 +908,17 @@ window.DADOS_MLS = {
           "v": 2
         }
       },
-      "rodada": 2
+      "rodada": 2,
+      "placar": {
+        "m": 1,
+        "v": 2
+      },
+      "vencedor": "visitante",
+      "odds": {
+        "oddM": "1.53",
+        "oddEmpate": "4.20",
+        "oddV": "5.25"
+      }
     },
     {
       "id": "bZd0agoR",
@@ -786,7 +954,17 @@ window.DADOS_MLS = {
           "v": 4
         }
       },
-      "rodada": 2
+      "rodada": 2,
+      "placar": {
+        "m": 2,
+        "v": 1
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.66",
+        "oddEmpate": "3.90",
+        "oddV": "4.50"
+      }
     },
     {
       "id": "8lKlsfPr",
@@ -822,7 +1000,17 @@ window.DADOS_MLS = {
           "v": 4
         }
       },
-      "rodada": 2
+      "rodada": 2,
+      "placar": {
+        "m": 1,
+        "v": 2
+      },
+      "vencedor": "visitante",
+      "odds": {
+        "oddM": "1.57",
+        "oddEmpate": "3.90",
+        "oddV": "5.50"
+      }
     },
     {
       "id": "2mDcuYge",
@@ -858,7 +1046,17 @@ window.DADOS_MLS = {
           "v": 3
         }
       },
-      "rodada": 2
+      "rodada": 2,
+      "placar": {
+        "m": 3,
+        "v": 3
+      },
+      "vencedor": "empate",
+      "odds": {
+        "oddM": "2.20",
+        "oddEmpate": "3.70",
+        "oddV": "2.85"
+      }
     },
     {
       "id": "z1B5wCO7",
@@ -894,7 +1092,17 @@ window.DADOS_MLS = {
           "v": 10
         }
       },
-      "rodada": 2
+      "rodada": 2,
+      "placar": {
+        "m": 3,
+        "v": 2
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.56",
+        "oddEmpate": "4.10",
+        "oddV": "5.50"
+      }
     },
     {
       "id": "tz481OAc",
@@ -930,7 +1138,17 @@ window.DADOS_MLS = {
           "v": 3
         }
       },
-      "rodada": 2
+      "rodada": 2,
+      "placar": {
+        "m": 0,
+        "v": 0
+      },
+      "vencedor": "empate",
+      "odds": {
+        "oddM": "2.10",
+        "oddEmpate": "3.70",
+        "oddV": "3.00"
+      }
     },
     {
       "id": "2khHa2uA",
@@ -966,7 +1184,17 @@ window.DADOS_MLS = {
           "v": 5
         }
       },
-      "rodada": 2
+      "rodada": 2,
+      "placar": {
+        "m": 3,
+        "v": 1
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.45",
+        "oddEmpate": "4.33",
+        "oddV": "6.50"
+      }
     },
     {
       "id": "tnU8QaK6",
@@ -1002,7 +1230,17 @@ window.DADOS_MLS = {
           "v": 13
         }
       },
-      "rodada": 2
+      "rodada": 2,
+      "placar": {
+        "m": 2,
+        "v": 1
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.81",
+        "oddEmpate": "3.90",
+        "oddV": "3.75"
+      }
     },
     {
       "id": "ETBMwLIj",
@@ -1038,7 +1276,17 @@ window.DADOS_MLS = {
           "v": 4
         }
       },
-      "rodada": 2
+      "rodada": 2,
+      "placar": {
+        "m": 0,
+        "v": 1
+      },
+      "vencedor": "visitante",
+      "odds": {
+        "oddM": "1.57",
+        "oddEmpate": "4.50",
+        "oddV": "4.50"
+      }
     },
     {
       "id": "pbgbqseT",
@@ -1074,7 +1322,17 @@ window.DADOS_MLS = {
           "v": 9
         }
       },
-      "rodada": 2
+      "rodada": 2,
+      "placar": {
+        "m": 3,
+        "v": 1
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "2.45",
+        "oddEmpate": "3.50",
+        "oddV": "2.70"
+      }
     },
     {
       "id": "YLQ0SLkf",
@@ -1110,7 +1368,17 @@ window.DADOS_MLS = {
           "v": 10
         }
       },
-      "rodada": 2
+      "rodada": 2,
+      "placar": {
+        "m": 1,
+        "v": 1
+      },
+      "vencedor": "empate",
+      "odds": {
+        "oddM": "2.10",
+        "oddEmpate": "3.50",
+        "oddV": "3.25"
+      }
     },
     {
       "id": "S8e0UsLs",
@@ -1146,7 +1414,17 @@ window.DADOS_MLS = {
           "v": 5
         }
       },
-      "rodada": 3
+      "rodada": 3,
+      "placar": {
+        "m": 0,
+        "v": 1
+      },
+      "vencedor": "visitante",
+      "odds": {
+        "oddM": "1.66",
+        "oddEmpate": "3.90",
+        "oddV": "4.50"
+      }
     },
     {
       "id": "WxAUZ3cK",
@@ -1182,7 +1460,17 @@ window.DADOS_MLS = {
           "v": 4
         }
       },
-      "rodada": 3
+      "rodada": 3,
+      "placar": {
+        "m": 0,
+        "v": 3
+      },
+      "vencedor": "visitante",
+      "odds": {
+        "oddM": "1.56",
+        "oddEmpate": "4.33",
+        "oddV": "5.00"
+      }
     },
     {
       "id": "Cpejo3QG",
@@ -1218,7 +1506,17 @@ window.DADOS_MLS = {
           "v": 9
         }
       },
-      "rodada": 3
+      "rodada": 3,
+      "placar": {
+        "m": 1,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.27",
+        "oddEmpate": "5.25",
+        "oddV": "9.50"
+      }
     },
     {
       "id": "GURsC05D",
@@ -1254,7 +1552,17 @@ window.DADOS_MLS = {
           "v": 10
         }
       },
-      "rodada": 3
+      "rodada": 3,
+      "placar": {
+        "m": 1,
+        "v": 4
+      },
+      "vencedor": "visitante",
+      "odds": {
+        "oddM": "4.20",
+        "oddEmpate": "4.33",
+        "oddV": "1.66"
+      }
     },
     {
       "id": "GI1smPe4",
@@ -1290,7 +1598,17 @@ window.DADOS_MLS = {
           "v": 12
         }
       },
-      "rodada": 3
+      "rodada": 3,
+      "placar": {
+        "m": 4,
+        "v": 1
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "2.10",
+        "oddEmpate": "3.90",
+        "oddV": "2.85"
+      }
     },
     {
       "id": "SdLnRsZp",
@@ -1326,7 +1644,17 @@ window.DADOS_MLS = {
           "v": 10
         }
       },
-      "rodada": 3
+      "rodada": 3,
+      "placar": {
+        "m": 3,
+        "v": 1
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.66",
+        "oddEmpate": "4.20",
+        "oddV": "4.33"
+      }
     },
     {
       "id": "bsVGW3BN",
@@ -1362,7 +1690,17 @@ window.DADOS_MLS = {
           "v": 10
         }
       },
-      "rodada": 3
+      "rodada": 3,
+      "placar": {
+        "m": 0,
+        "v": 1
+      },
+      "vencedor": "visitante",
+      "odds": {
+        "oddM": "4.10",
+        "oddEmpate": "4.10",
+        "oddV": "1.71"
+      }
     },
     {
       "id": "8hbZloRi",
@@ -1398,7 +1736,17 @@ window.DADOS_MLS = {
           "v": 6
         }
       },
-      "rodada": 3
+      "rodada": 3,
+      "placar": {
+        "m": 0,
+        "v": 1
+      },
+      "vencedor": "visitante",
+      "odds": {
+        "oddM": "3.00",
+        "oddEmpate": "3.60",
+        "oddV": "2.20"
+      }
     },
     {
       "id": "4K9sI4dU",
@@ -1434,7 +1782,17 @@ window.DADOS_MLS = {
           "v": 3
         }
       },
-      "rodada": 3
+      "rodada": 3,
+      "placar": {
+        "m": 2,
+        "v": 3
+      },
+      "vencedor": "visitante",
+      "odds": {
+        "oddM": "2.15",
+        "oddEmpate": "3.50",
+        "oddV": "3.25"
+      }
     },
     {
       "id": "YZqix8sn",
@@ -1470,7 +1828,17 @@ window.DADOS_MLS = {
           "v": 0
         }
       },
-      "rodada": 3
+      "rodada": 3,
+      "placar": {
+        "m": 3,
+        "v": 1
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.96",
+        "oddEmpate": "3.50",
+        "oddV": "3.70"
+      }
     },
     {
       "id": "U1w0znCb",
@@ -1506,7 +1874,17 @@ window.DADOS_MLS = {
           "v": 7
         }
       },
-      "rodada": 3
+      "rodada": 3,
+      "placar": {
+        "m": 0,
+        "v": 0
+      },
+      "vencedor": "empate",
+      "odds": {
+        "oddM": "1.86",
+        "oddEmpate": "3.60",
+        "oddV": "3.80"
+      }
     },
     {
       "id": "2Fy8YPtB",
@@ -1542,7 +1920,17 @@ window.DADOS_MLS = {
           "v": 4
         }
       },
-      "rodada": 3
+      "rodada": 3,
+      "placar": {
+        "m": 0,
+        "v": 1
+      },
+      "vencedor": "visitante",
+      "odds": {
+        "oddM": "1.86",
+        "oddEmpate": "3.80",
+        "oddV": "3.70"
+      }
     },
     {
       "id": "r5LYJQRH",
@@ -1578,7 +1966,17 @@ window.DADOS_MLS = {
           "v": 2
         }
       },
-      "rodada": 3
+      "rodada": 3,
+      "placar": {
+        "m": 1,
+        "v": 2
+      },
+      "vencedor": "visitante",
+      "odds": {
+        "oddM": "4.20",
+        "oddEmpate": "4.33",
+        "oddV": "1.62"
+      }
     },
     {
       "id": "zuIQLnc5",
@@ -1614,7 +2012,17 @@ window.DADOS_MLS = {
           "v": 3
         }
       },
-      "rodada": 3
+      "rodada": 3,
+      "placar": {
+        "m": 5,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.56",
+        "oddEmpate": "4.33",
+        "oddV": "5.25"
+      }
     },
     {
       "id": "zRxh7mrC",
@@ -1650,7 +2058,17 @@ window.DADOS_MLS = {
           "v": 4
         }
       },
-      "rodada": 4
+      "rodada": 4,
+      "placar": {
+        "m": 2,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.49",
+        "oddEmpate": "4.33",
+        "oddV": "5.50"
+      }
     },
     {
       "id": "EBlq99Da",
@@ -1686,7 +2104,17 @@ window.DADOS_MLS = {
           "v": 7
         }
       },
-      "rodada": 4
+      "rodada": 4,
+      "placar": {
+        "m": 2,
+        "v": 4
+      },
+      "vencedor": "visitante",
+      "odds": {
+        "oddM": "3.90",
+        "oddEmpate": "3.75",
+        "oddV": "1.66"
+      }
     },
     {
       "id": "6ooyBVrm",
@@ -1722,7 +2150,17 @@ window.DADOS_MLS = {
           "v": 6
         }
       },
-      "rodada": 4
+      "rodada": 4,
+      "placar": {
+        "m": 1,
+        "v": 2
+      },
+      "vencedor": "visitante",
+      "odds": {
+        "oddM": "2.25",
+        "oddEmpate": "3.20",
+        "oddV": "3.20"
+      }
     },
     {
       "id": "lA6ATwaE",
@@ -1758,7 +2196,17 @@ window.DADOS_MLS = {
           "v": 3
         }
       },
-      "rodada": 4
+      "rodada": 4,
+      "placar": {
+        "m": 1,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.96",
+        "oddEmpate": "3.50",
+        "oddV": "3.80"
+      }
     },
     {
       "id": "dGJO5z77",
@@ -1794,7 +2242,17 @@ window.DADOS_MLS = {
           "v": 1
         }
       },
-      "rodada": 4
+      "rodada": 4,
+      "placar": {
+        "m": 3,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.96",
+        "oddEmpate": "3.75",
+        "oddV": "3.50"
+      }
     },
     {
       "id": "84OZDMz1",
@@ -1830,7 +2288,17 @@ window.DADOS_MLS = {
           "v": 5
         }
       },
-      "rodada": 4
+      "rodada": 4,
+      "placar": {
+        "m": 3,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.35",
+        "oddEmpate": "5.00",
+        "oddV": "7.50"
+      }
     },
     {
       "id": "8joyFvpL",
@@ -1866,7 +2334,17 @@ window.DADOS_MLS = {
           "v": 4
         }
       },
-      "rodada": 4
+      "rodada": 4,
+      "placar": {
+        "m": 0,
+        "v": 0
+      },
+      "vencedor": "empate",
+      "odds": {
+        "oddM": "2.57",
+        "oddEmpate": "3.40",
+        "oddV": "2.57"
+      }
     },
     {
       "id": "hOM79I7r",
@@ -1902,7 +2380,17 @@ window.DADOS_MLS = {
           "v": 9
         }
       },
-      "rodada": 4
+      "rodada": 4,
+      "placar": {
+        "m": 0,
+        "v": 2
+      },
+      "vencedor": "visitante",
+      "odds": {
+        "oddM": "3.40",
+        "oddEmpate": "4.00",
+        "oddV": "1.86"
+      }
     },
     {
       "id": "0lQF7dxe",
@@ -1938,7 +2426,17 @@ window.DADOS_MLS = {
           "v": 6
         }
       },
-      "rodada": 4
+      "rodada": 4,
+      "placar": {
+        "m": 2,
+        "v": 2
+      },
+      "vencedor": "empate",
+      "odds": {
+        "oddM": "4.33",
+        "oddEmpate": "4.33",
+        "oddV": "1.62"
+      }
     },
     {
       "id": "pIDr9ld2",
@@ -1974,7 +2472,17 @@ window.DADOS_MLS = {
           "v": 7
         }
       },
-      "rodada": 4
+      "rodada": 4,
+      "placar": {
+        "m": 2,
+        "v": 1
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "3.40",
+        "oddEmpate": "3.40",
+        "oddV": "2.10"
+      }
     },
     {
       "id": "2grTG0F8",
@@ -2010,7 +2518,17 @@ window.DADOS_MLS = {
           "v": 5
         }
       },
-      "rodada": 4
+      "rodada": 4,
+      "placar": {
+        "m": 2,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.86",
+        "oddEmpate": "3.60",
+        "oddV": "3.75"
+      }
     },
     {
       "id": "hKY3GW3S",
@@ -2046,7 +2564,17 @@ window.DADOS_MLS = {
           "v": 7
         }
       },
-      "rodada": 4
+      "rodada": 4,
+      "placar": {
+        "m": 2,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "2.05",
+        "oddEmpate": "3.60",
+        "oddV": "3.25"
+      }
     },
     {
       "id": "C4FzBARk",
@@ -2082,7 +2610,17 @@ window.DADOS_MLS = {
           "v": 5
         }
       },
-      "rodada": 4
+      "rodada": 4,
+      "placar": {
+        "m": 1,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "2.10",
+        "oddEmpate": "3.30",
+        "oddV": "2.85"
+      }
     },
     {
       "id": "nkzRFr6l",
@@ -2118,7 +2656,17 @@ window.DADOS_MLS = {
           "v": 3
         }
       },
-      "rodada": 4
+      "rodada": 4,
+      "placar": {
+        "m": 3,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.49",
+        "oddEmpate": "4.33",
+        "oddV": "5.50"
+      }
     },
     {
       "id": "KhLdIhZF",
@@ -2154,7 +2702,17 @@ window.DADOS_MLS = {
           "v": 4
         }
       },
-      "rodada": 4
+      "rodada": 4,
+      "placar": {
+        "m": 1,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.81",
+        "oddEmpate": "3.80",
+        "oddV": "3.90"
+      }
     },
     {
       "id": "z5ogbXsp",
@@ -2190,7 +2748,17 @@ window.DADOS_MLS = {
           "v": 6
         }
       },
-      "rodada": 5
+      "rodada": 5,
+      "placar": {
+        "m": 2,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.30",
+        "oddEmpate": "5.50",
+        "oddV": "7.50"
+      }
     },
     {
       "id": "vZaN3gKM",
@@ -2226,7 +2794,17 @@ window.DADOS_MLS = {
           "v": 7
         }
       },
-      "rodada": 5
+      "rodada": 5,
+      "placar": {
+        "m": 1,
+        "v": 1
+      },
+      "vencedor": "empate",
+      "odds": {
+        "oddM": "2.10",
+        "oddEmpate": "3.75",
+        "oddV": "3.10"
+      }
     },
     {
       "id": "xA367yLc",
@@ -2262,7 +2840,17 @@ window.DADOS_MLS = {
           "v": 7
         }
       },
-      "rodada": 5
+      "rodada": 5,
+      "placar": {
+        "m": 3,
+        "v": 2
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "2.82",
+        "oddEmpate": "3.60",
+        "oddV": "2.30"
+      }
     },
     {
       "id": "IZqeL4rR",
@@ -2298,7 +2886,12 @@ window.DADOS_MLS = {
           "v": 2
         }
       },
-      "rodada": 5
+      "rodada": 5,
+      "placar": {
+        "m": 5,
+        "v": 0
+      },
+      "vencedor": "mandante"
     },
     {
       "id": "pz7E5FkA",
@@ -2334,7 +2927,17 @@ window.DADOS_MLS = {
           "v": 4
         }
       },
-      "rodada": 5
+      "rodada": 5,
+      "placar": {
+        "m": 3,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.68",
+        "oddEmpate": "4.33",
+        "oddV": "4.10"
+      }
     },
     {
       "id": "dEQJqYSj",
@@ -2370,7 +2973,17 @@ window.DADOS_MLS = {
           "v": 9
         }
       },
-      "rodada": 5
+      "rodada": 5,
+      "placar": {
+        "m": 3,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.86",
+        "oddEmpate": "4.00",
+        "oddV": "3.50"
+      }
     },
     {
       "id": "YFLvgx64",
@@ -2406,7 +3019,17 @@ window.DADOS_MLS = {
           "v": 6
         }
       },
-      "rodada": 5
+      "rodada": 5,
+      "placar": {
+        "m": 2,
+        "v": 2
+      },
+      "vencedor": "empate",
+      "odds": {
+        "oddM": "2.25",
+        "oddEmpate": "3.30",
+        "oddV": "3.10"
+      }
     },
     {
       "id": "M7jnNQDE",
@@ -2442,7 +3065,17 @@ window.DADOS_MLS = {
           "v": 8
         }
       },
-      "rodada": 5
+      "rodada": 5,
+      "placar": {
+        "m": 3,
+        "v": 2
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.96",
+        "oddEmpate": "3.70",
+        "oddV": "3.60"
+      }
     },
     {
       "id": "6TJniGzH",
@@ -2478,7 +3111,17 @@ window.DADOS_MLS = {
           "v": 1
         }
       },
-      "rodada": 5
+      "rodada": 5,
+      "placar": {
+        "m": 2,
+        "v": 1
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "2.20",
+        "oddEmpate": "3.60",
+        "oddV": "3.10"
+      }
     },
     {
       "id": "QVZmkf5T",
@@ -2514,7 +3157,17 @@ window.DADOS_MLS = {
           "v": 2
         }
       },
-      "rodada": 5
+      "rodada": 5,
+      "placar": {
+        "m": 4,
+        "v": 1
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.49",
+        "oddEmpate": "4.33",
+        "oddV": "5.25"
+      }
     },
     {
       "id": "AszpXfqo",
@@ -2550,7 +3203,17 @@ window.DADOS_MLS = {
           "v": 9
         }
       },
-      "rodada": 5
+      "rodada": 5,
+      "placar": {
+        "m": 1,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "3.00",
+        "oddEmpate": "3.30",
+        "oddV": "2.40"
+      }
     },
     {
       "id": "xlSVfbyh",
@@ -2586,7 +3249,17 @@ window.DADOS_MLS = {
           "v": 9
         }
       },
-      "rodada": 5
+      "rodada": 5,
+      "placar": {
+        "m": 1,
+        "v": 2
+      },
+      "vencedor": "visitante",
+      "odds": {
+        "oddM": "1.79",
+        "oddEmpate": "3.80",
+        "oddV": "4.20"
+      }
     },
     {
       "id": "UD30aNL7",
@@ -2622,7 +3295,17 @@ window.DADOS_MLS = {
           "v": 4
         }
       },
-      "rodada": 5
+      "rodada": 5,
+      "placar": {
+        "m": 1,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.27",
+        "oddEmpate": "5.75",
+        "oddV": "8.50"
+      }
     },
     {
       "id": "jgNBk3aC",
@@ -2658,7 +3341,17 @@ window.DADOS_MLS = {
           "v": 5
         }
       },
-      "rodada": 5
+      "rodada": 5,
+      "placar": {
+        "m": 2,
+        "v": 0
+      },
+      "vencedor": "mandante",
+      "odds": {
+        "oddM": "1.91",
+        "oddEmpate": "3.50",
+        "oddV": "3.90"
+      }
     },
     {
       "id": "bo54iPUa",
@@ -2694,7 +3387,17 @@ window.DADOS_MLS = {
           "v": 5
         }
       },
-      "rodada": 5
+      "rodada": 5,
+      "placar": {
+        "m": 1,
+        "v": 1
+      },
+      "vencedor": "empate",
+      "odds": {
+        "oddM": "2.45",
+        "oddEmpate": "3.50",
+        "oddV": "2.65"
+      }
     },
     {
       "id": "r7fgiyow",
@@ -3235,10 +3938,709 @@ window.DADOS_MLS = {
         }
       },
       "rodada": 6
+    },
+    {
+      "match_id": "YuxJ8zxe",
+      "mandante": "Nashville SC",
+      "visitante": "Inter Miami",
+      "rodada": 7,
+      "data": "11.03.2026 20:30",
+      "placar": {
+        "m": 0,
+        "v": 0
+      },
+      "tabela": {
+        "pos_mandante": 16,
+        "pts_mandante": null,
+        "pos_visitante": 18,
+        "pts_visitante": null
+      },
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 8
+        }
+      }
+    },
+    {
+      "match_id": "lGoJtCA4",
+      "mandante": "Toronto FC",
+      "visitante": "FC Cincinnati",
+      "rodada": 7,
+      "data": "11.04.2026 14:00",
+      "placar": {
+        "m": 1,
+        "v": 1
+      },
+      "tabela": {
+        "pos_mandante": 21,
+        "pts_mandante": null,
+        "pos_visitante": 25,
+        "pts_visitante": null
+      },
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 7,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 7
+        }
+      }
+    },
+    {
+      "match_id": "8C6YKLU1",
+      "mandante": "Austin FC",
+      "visitante": "Los Angeles Galaxy",
+      "rodada": 7,
+      "data": "11.04.2026 15:30",
+      "placar": {
+        "m": 1,
+        "v": 2
+      },
+      "tabela": {
+        "pos_mandante": 13,
+        "pts_mandante": null,
+        "pos_visitante": 10,
+        "pts_visitante": null
+      },
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 2
+        },
+        "ft": {
+          "m": 6,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 12
+        }
+      }
+    },
+    {
+      "match_id": "pruSvjuH",
+      "mandante": "CF Montreal",
+      "visitante": "Philadelphia Union",
+      "rodada": 7,
+      "data": "11.04.2026 15:30",
+      "placar": {
+        "m": 1,
+        "v": 2
+      },
+      "tabela": {
+        "pos_mandante": 30,
+        "pts_mandante": null,
+        "pos_visitante": 29,
+        "pts_visitante": null
+      },
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 15
+        }
+      }
+    },
+    {
+      "match_id": "neBDrPM8",
+      "mandante": "Portland Timbers",
+      "visitante": "Los Angeles FC",
+      "rodada": 7,
+      "data": "11.04.2026 17:45",
+      "placar": {
+        "m": 2,
+        "v": 1
+      },
+      "tabela": {
+        "pos_mandante": 11,
+        "pts_mandante": null,
+        "pos_visitante": 3,
+        "pts_visitante": null
+      },
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 3
+        },
+        "ft": {
+          "m": 1,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 18
+        }
+      }
+    },
+    {
+      "match_id": "IewzwU9T",
+      "mandante": "Vancouver Whitecaps",
+      "visitante": "New York City",
+      "rodada": 7,
+      "data": "11.04.2026 20:30",
+      "placar": {
+        "m": 2,
+        "v": 0
+      },
+      "tabela": {
+        "pos_mandante": 1,
+        "pts_mandante": null,
+        "pos_visitante": 19,
+        "pts_visitante": null
+      },
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 0
+        },
+        "ft": {
+          "m": 12,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 23,
+          "v": 10
+        }
+      }
+    },
+    {
+      "match_id": "6PG61dtJ",
+      "mandante": "Seattle Sounders",
+      "visitante": "Vancouver Whitecaps",
+      "rodada": 8,
+      "data": "19.03.2026 00:00",
+      "placar": {
+        "m": 2,
+        "v": 1
+      },
+      "tabela": {
+        "pos_mandante": 5,
+        "pts_mandante": null,
+        "pos_visitante": 1,
+        "pts_visitante": null
+      },
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 14
+        }
+      }
+    },
+    {
+      "match_id": "Glr3gtyR",
+      "mandante": "Sporting Kansas City",
+      "visitante": "San Jose Earthquakes",
+      "rodada": 8,
+      "data": "11.04.2026 21:30",
+      "placar": {
+        "m": 1,
+        "v": 3
+      },
+      "tabela": {
+        "pos_mandante": 15,
+        "pts_mandante": null,
+        "pos_visitante": 2,
+        "pts_visitante": null
+      },
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 2,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 10
+        }
+      }
+    },
+    {
+      "match_id": "lnGcmSY8",
+      "mandante": "Real Salt Lake",
+      "visitante": "FC Dallas",
+      "rodada": 8,
+      "data": "30.01.2026 08:00",
+      "placar": {
+        "m": 0,
+        "v": 2
+      },
+      "tabela": {
+        "pos_mandante": 4,
+        "pts_mandante": null,
+        "pos_visitante": 7,
+        "pts_visitante": null
+      },
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 3,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 6
+        }
+      }
+    },
+    {
+      "match_id": "fLELt3iL",
+      "mandante": "Charlotte",
+      "visitante": "Nashville SC",
+      "rodada": 8,
+      "data": "11.04.2026 20:30",
+      "placar": {
+        "m": 1,
+        "v": 2
+      },
+      "tabela": {
+        "pos_mandante": 20,
+        "pts_mandante": null,
+        "pos_visitante": 16,
+        "pts_visitante": null
+      },
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 11
+        }
+      }
+    },
+    {
+      "match_id": "vgjhysFr",
+      "mandante": "Inter Miami",
+      "visitante": "New York Red Bulls",
+      "rodada": 8,
+      "data": "11.04.2026 20:30",
+      "placar": {
+        "m": 2,
+        "v": 2
+      },
+      "tabela": {
+        "pos_mandante": 18,
+        "pts_mandante": null,
+        "pos_visitante": 22,
+        "pts_visitante": null
+      },
+      "cantos": {
+        "ht": {
+          "m": 8,
+          "v": 2
+        },
+        "ft": {
+          "m": 12,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 5
+        }
+      }
+    },
+    {
+      "match_id": "nJg0ZKqe",
+      "mandante": "New England Revolution",
+      "visitante": "DC United",
+      "rodada": 8,
+      "data": "11.04.2026 20:30",
+      "placar": {
+        "m": 1,
+        "v": 0
+      },
+      "tabela": {
+        "pos_mandante": 23,
+        "pts_mandante": null,
+        "pos_visitante": 24,
+        "pts_visitante": null
+      },
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 14
+        }
+      }
+    },
+    {
+      "match_id": "KMlfe26E",
+      "mandante": "FC Dallas",
+      "visitante": "St. Louis City",
+      "rodada": 9,
+      "data": "11.04.2026 21:30",
+      "placar": {
+        "m": 1,
+        "v": 1
+      },
+      "tabela": {
+        "pos_mandante": 7,
+        "pts_mandante": null,
+        "pos_visitante": 14,
+        "pts_visitante": null
+      },
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 6
+        },
+        "ft": {
+          "m": 5,
+          "v": 10
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 10
+        }
+      }
+    },
+    {
+      "match_id": "SS18XbE7",
+      "mandante": "Chicago Fire",
+      "visitante": "Atlanta Utd",
+      "rodada": 9,
+      "data": "11.04.2026 21:30",
+      "placar": {
+        "m": 1,
+        "v": 0
+      },
+      "tabela": {
+        "pos_mandante": 17,
+        "pts_mandante": null,
+        "pos_visitante": 27,
+        "pts_visitante": null
+      },
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 6
+        },
+        "ft": {
+          "m": 6,
+          "v": 11
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 20
+        }
+      }
+    },
+    {
+      "match_id": "nXYYmKbl",
+      "mandante": "Colorado Rapids",
+      "visitante": "Houston Dynamo",
+      "rodada": 9,
+      "data": "11.04.2026 22:30",
+      "placar": {
+        "m": 6,
+        "v": 2
+      },
+      "tabela": {
+        "pos_mandante": 6,
+        "pts_mandante": null,
+        "pos_visitante": 12,
+        "pts_visitante": null
+      },
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 2,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 20
+        }
+      }
+    },
+    {
+      "match_id": "8nNsnbT0",
+      "mandante": "San Diego FC",
+      "visitante": "Minnesota United",
+      "rodada": 9,
+      "data": "11.04.2026 23:30",
+      "placar": {
+        "m": 1,
+        "v": 2
+      },
+      "tabela": {
+        "pos_mandante": 8,
+        "pts_mandante": null,
+        "pos_visitante": 9,
+        "pts_visitante": null
+      },
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 64,
+          "v": 36
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 21
+        }
+      }
+    },
+    {
+      "match_id": "YBIb3IB6",
+      "mandante": "Vancouver Whitecaps",
+      "visitante": "Seattle Sounders",
+      "rodada": 10,
+      "data": "12.03.2026 23:00",
+      "placar": {
+        "m": 0,
+        "v": 3
+      },
+      "tabela": {
+        "pos_mandante": 1,
+        "pts_mandante": null,
+        "pos_visitante": 5,
+        "pts_visitante": null
+      },
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 1
+        },
+        "ft": {
+          "m": 11,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 64,
+          "v": 36
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 10
+        }
+      }
+    },
+    {
+      "match_id": "vwuR6E67",
+      "mandante": "Inter Miami",
+      "visitante": "Nashville SC",
+      "rodada": 10,
+      "data": "18.03.2026 20:00",
+      "placar": {
+        "m": 1,
+        "v": 1
+      },
+      "tabela": {
+        "pos_mandante": 18,
+        "pts_mandante": null,
+        "pos_visitante": 16,
+        "pts_visitante": null
+      },
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 2
+        },
+        "ft": {
+          "m": 5,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 5
+        }
+      }
+    },
+    {
+      "match_id": "f3LkpxbD",
+      "mandante": "Columbus Crew",
+      "visitante": "Orlando City",
+      "rodada": 10,
+      "data": "12.04.2026 20:00",
+      "placar": {
+        "m": 1,
+        "v": 1
+      },
+      "tabela": {
+        "pos_mandante": 26,
+        "pts_mandante": null,
+        "pos_visitante": 28,
+        "pts_visitante": null
+      },
+      "cantos": {
+        "ht": {
+          "m": 6,
+          "v": 0
+        },
+        "ft": {
+          "m": 8,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 65,
+          "v": 35
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 5
+        }
+      }
     }
-  ],
-  "totalRodadas": 6,
-  "ultimaAtualizacao": "2026-04-09"
+  ]
 };
-
-if (typeof module !== "undefined") module.exports = { DADOS_MLS };
