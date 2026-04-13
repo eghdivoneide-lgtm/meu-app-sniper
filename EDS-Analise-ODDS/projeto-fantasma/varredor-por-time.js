@@ -98,7 +98,7 @@ const LIGAS = {
   },
   CHI: {
     nome:              'Primera División (Chile)',
-    url_tabela:        'https://www.flashscore.com/football/chile/primera-division/standings/',
+    url_tabela:        'https://www.flashscore.com/football/chile/liga-de-primera/standings/',
     variavelJS:        'DADOS_CHI',
     arquivoJS:         'chile2026.js',
     filtroCompetição:  []

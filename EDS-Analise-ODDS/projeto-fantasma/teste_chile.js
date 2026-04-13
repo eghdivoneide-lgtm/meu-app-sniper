@@ -3,14 +3,16 @@ const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 puppeteer.use(StealthPlugin());
 
 (async () => {
-    const browser = await puppeteer.launch({ headless: true });
+    const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
-    await page.goto('https://www.flashscore.com/football/chile/primera-division/standings/', { waitUntil: 'networkidle2' });
-    const title = await page.title();
-    const html = await page.content();
-    console.log("Title: " + title);
-    if(html.includes("ui-table__row")) { console.log("FOUND TABLE ROW"); }
-    else { console.log("NO TABLE ROW FOUND"); }
-    console.log(html.substring(0, 500));
+    await page.goto('https://www.flashscore.com/football/chile/', { waitUntil: 'domcontentloaded' });
+    
+    // allow time to load and bypass CF
+    await new Promise(resolve => setTimeout(resolve, 5000));
+    
+    const links = await page.evaluate(() => {
+        return Array.from(document.querySelectorAll('a')).map(a => a.href).filter(href => href.includes('chile'));
+    });
+    console.log(links);
     await browser.close();
 })();
