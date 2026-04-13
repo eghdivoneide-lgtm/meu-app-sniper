@@ -524,6 +524,58 @@ nav.eds-nav button.active{
     .scy-typing span:nth-child(2){animation-delay:.15s;}
     .scy-typing span:nth-child(3){animation-delay:.3s;}
     @keyframes scy-bounce{0%,80%,100%{transform:translateY(0)}40%{transform:translateY(-6px)}}
+    /* ── SmartCoach Rich Response Styles ── */
+    .scy-msg .sc-section-title{
+      font-size:.65rem;font-weight:900;text-transform:uppercase;letter-spacing:.8px;
+      color:var(--gold);border-bottom:1px solid rgba(245,158,11,0.25);
+      padding-bottom:.3rem;margin:.8rem 0 .5rem;
+    }
+    .scy-msg .sc-section-title.green{color:var(--green);border-color:rgba(52,211,103,0.25);}
+    .scy-msg .sc-section-title.red{color:#f87171;border-color:rgba(248,113,113,0.25);}
+    .scy-msg .sc-verdict{
+      background:linear-gradient(135deg,rgba(245,158,11,0.12),rgba(245,158,11,0.04));
+      border:1px solid rgba(245,158,11,0.3);border-left:3px solid var(--gold);
+      border-radius:8px;padding:.7rem .9rem;margin:.5rem 0;
+    }
+    .scy-msg .sc-alert{
+      background:rgba(248,113,113,0.08);border:1px solid rgba(248,113,113,0.25);
+      border-left:3px solid #f87171;border-radius:8px;padding:.6rem .9rem;margin:.5rem 0;
+      font-size:.78rem;color:#fca5a5;
+    }
+    .scy-msg .sc-grid{display:grid;grid-template-columns:1fr 1fr;gap:.4rem;margin:.4rem 0;}
+    .scy-msg .sc-cell{
+      background:var(--bg2);border:1px solid var(--border);border-radius:6px;
+      padding:.5rem .7rem;font-size:.75rem;
+    }
+    .scy-msg .sc-cell .sc-cell-label{font-size:.58rem;color:var(--muted);text-transform:uppercase;font-weight:700;margin-bottom:.15rem;}
+    .scy-msg .sc-cell .sc-cell-val{font-weight:800;font-size:.88rem;}
+    .scy-msg .sc-prob-table{width:100%;border-collapse:collapse;margin:.5rem 0;font-size:.75rem;border-radius:8px;overflow:hidden;}
+    .scy-msg .sc-prob-table th{
+      background:rgba(245,158,11,0.12);color:var(--gold);font-size:.6rem;font-weight:800;
+      text-transform:uppercase;padding:.45rem .6rem;text-align:left;border-bottom:1px solid rgba(245,158,11,0.2);
+    }
+    .scy-msg .sc-prob-table td{
+      padding:.45rem .6rem;border-bottom:1px solid rgba(255,255,255,0.04);color:var(--text);vertical-align:middle;
+    }
+    .scy-msg .sc-prob-table tr:last-child td{border-bottom:none;}
+    .scy-msg .sc-prob-table tr.winner{background:rgba(52,211,103,0.08);}
+    .scy-msg .sc-prob-table .ev-pos{color:var(--green);font-weight:800;}
+    .scy-msg .sc-prob-table .ev-neg{color:#f87171;}
+    .scy-msg .sc-prob-table .ev-neu{color:var(--muted);}
+    .scy-msg .sc-badge{
+      display:inline-block;padding:.2rem .6rem;border-radius:12px;font-size:.65rem;font-weight:800;
+      margin:.1rem .15rem;
+    }
+    .scy-msg .sc-badge.green{background:rgba(52,211,103,0.15);color:var(--green);border:1px solid rgba(52,211,103,0.3);}
+    .scy-msg .sc-badge.gold{background:rgba(245,158,11,0.15);color:var(--gold);border:1px solid rgba(245,158,11,0.3);}
+    .scy-msg .sc-badge.red{background:rgba(248,113,113,0.15);color:#f87171;border:1px solid rgba(248,113,113,0.3);}
+    .scy-msg .sc-badge.blue{background:rgba(96,165,250,0.15);color:#60a5fa;border:1px solid rgba(96,165,250,0.3);}
+    .scy-msg .sc-divider{border:none;border-top:1px solid var(--border);margin:.6rem 0;}
+    .scy-msg .sc-vs-header{
+      text-align:center;font-size:.9rem;font-weight:900;padding:.5rem 0;
+      background:linear-gradient(135deg,rgba(245,158,11,0.06),transparent);
+      border-radius:8px;margin-bottom:.5rem;border:1px solid rgba(245,158,11,0.1);
+    }
 </style>
 </head>
 <body>
@@ -3790,29 +3842,86 @@ function addSCYTyping() {
   return div;
 }
 
-// ── Context Builder ───────────────────────────────────────────────
+// ── Context Builder — DADOS COMPLETOS DO ESCOTEIRO ──────────────
 function buildSCYContext() {
-  let ctx = '══ CONTEXTO YAAKEN SCANNER ══\n';
-  ctx += 'App: YAAKEN Scanner | Foco: Análise de resultados 1x2 (Vitória/Empate/Derrota)\n';
+  let ctx = '══ YAAKEN SCANNER — DADOS COMPLETOS ══\n';
+  ctx += 'Sistema: Análise de resultados 1x2 | Modelo: Poisson + Bayesiano + H2H\n';
 
-  // Ligas carregadas
   const ligas = Object.keys(agEscot);
-  ctx += 'Ligas com dados: ' + (ligas.length ? ligas.join(', ') : 'Nenhuma') + '\n';
+  if (!ligas.length) {
+    ctx += 'Nenhuma liga carregada.\n';
+    if (scyLaudoCtx) ctx += scyLaudoCtx;
+    return ctx;
+  }
+  ctx += 'Ligas: ' + ligas.join(', ') + '\n';
 
-  // Resumo geral de todas as ligas
   ligas.forEach(liga => {
     const perfis = agEscot[liga]?.perfis || {};
-    const times = Object.values(perfis);
+    const times  = Object.values(perfis);
     if (!times.length) return;
-    const avgGP = (times.reduce((s,t) => s + (t.geral?.gp_jogo||0), 0) / times.length).toFixed(2);
-    const avgGC = (times.reduce((s,t) => s + (t.geral?.gc_jogo||0), 0) / times.length).toFixed(2);
-    ctx += `\n📊 ${liga} — ${times.length} times | Média gols/jogo: ${avgGP} feitos / ${avgGC} sofridos\n`;
-    // Top 3 ofensivos
-    const top3atk = [...times].sort((a,b)=>(b.geral?.gp_jogo||0)-(a.geral?.gp_jogo||0)).slice(0,3);
-    ctx += '  Top ataque: ' + top3atk.map(t => t.nome + ' (' + (t.geral?.gp_jogo||0).toFixed(2) + 'g/j)').join(' | ') + '\n';
+
+    // ── Médias da liga (base Poisson) ──
+    const leagueGP = times.reduce((s,t)=>s+(t.geral?.gp_jogo||0),0)/times.length;
+    const leagueGC = times.reduce((s,t)=>s+(t.geral?.gc_jogo||0),0)/times.length;
+
+    ctx += '\n══ LIGA: ' + liga + ' (' + times.length + ' times) ══\n';
+    ctx += 'Média liga: ' + leagueGP.toFixed(2) + ' gols/jogo feitos | ' + leagueGC.toFixed(2) + ' sofridos\n\n';
+
+    // ── Perfil completo de cada time ──
+    const sorted = [...times].sort((a,b)=>(a.posicao||99)-(b.posicao||99));
+    sorted.forEach(t => {
+      const g  = t.geral  || {};
+      const c  = t.casa   || {};
+      const f  = t.fora   || {};
+      const nm = t.nome   || '?';
+      const pos = t.posicao ? '#'+t.posicao+' ' : '';
+
+      ctx += pos + nm + '\n';
+      ctx += '  GERAL: ' + (g.j||t.jogos||0) + 'j | V:' + (g.v||0) + ' E:' + (g.e||0) + ' D:' + (g.d||0);
+      ctx += ' | GP:' + (g.gp_jogo||0).toFixed(2) + '/j GC:' + (g.gc_jogo||0).toFixed(2) + '/j';
+      ctx += ' | Saldo:' + (g.saldo||0) + '\n';
+
+      ctx += '  CASA:  ' + (c.j||0) + 'j | ' + (c.v_pct||0) + '%V ' + (c.e_pct||0) + '%E ' + (c.d_pct||0) + '%D';
+      ctx += ' | GP:' + (c.gp_jogo||0).toFixed(2) + ' GC:' + (c.gc_jogo||0).toFixed(2) + '\n';
+
+      ctx += '  FORA:  ' + (f.j||0) + 'j | ' + (f.v_pct||0) + '%V ' + (f.e_pct||0) + '%E ' + (f.d_pct||0) + '%D';
+      ctx += ' | GP:' + (f.gp_jogo||0).toFixed(2) + ' GC:' + (f.gc_jogo||0).toFixed(2) + '\n';
+
+      if (t.forma_recente?.length) {
+        ctx += '  FORMA: ' + t.forma_recente.join('-');
+        ctx += ' | Perfil: ' + (t.perfil||'N/D');
+        ctx += ' | Empate: ' + (t.tendencia_empate||'N/D') + '\n';
+      }
+      if (t.notas_yaaken?.length) {
+        ctx += '  NOTAS: ' + t.notas_yaaken.join(' | ') + '\n';
+      }
+      if (t.historico_geral?.length) {
+        const hist = t.historico_geral.slice(0,3).map(h =>
+          'Rd'+(h.rodada||'?')+' vs '+(h.adversario||'?')+' ('+h.mando+') '+h.resultado+
+          (h.gp!=='?'?' '+h.gp+'x'+h.gc:'')
+        ).join(' | ');
+        ctx += '  HIST:  ' + hist + '\n';
+      }
+    });
+
+    // ── Fixtures da rodada (agYaaken) ──
+    const yk = typeof agYaaken !== 'undefined' ? agYaaken[liga] : null;
+    if (yk?.jogos?.length) {
+      const agend = yk.jogos.filter(j=>j.status==='AGENDADO'||!j.placar);
+      if (agend.length) {
+        ctx += '\nPRÓXIMOS JOGOS (' + liga + '):\n';
+        agend.forEach(j => {
+          const h = j.h2h;
+          ctx += '  ' + j.mandante + ' vs ' + j.visitante;
+          if (j.odds) ctx += ' | Odds: M=' + (j.odds.oddM||'?') + ' E=' + (j.odds.oddEmpate||'?') + ' V=' + (j.odds.oddV||'?');
+          if (h?.total > 0) ctx += ' | H2H(' + h.total + 'j): M=' + h.vitorias_mandante + ' E=' + h.empates + ' V=' + h.vitorias_visitante;
+          ctx += '\n';
+        });
+      }
+    }
   });
 
-  // Contexto do laudo ativo
+  // ── Laudo ativo (se gerado) ──
   if (scyLaudoCtx) {
     ctx += '\n' + scyLaudoCtx;
   }
@@ -3864,19 +3973,31 @@ async function analisarComSmartCoach(liga, m, v) {
   const typing = addSCYTyping();
 
   const ctx = buildSCYContext();
-  const systemPrompt = `Você é o *SmartCoach YAAKEN*, IA quantitativa especialista em apostas de resultado (1x2) no futebol.
-Seu foco é EXCLUSIVAMENTE o mercado de resultado: Vitória Mandante, Empate ou Vitória Visitante.
+  const systemPrompt = `Você é o *SmartCoach YAAKEN*, IA quantitativa especialista em apostas de resultado (1x2).
 
-REGRAS ESTRUTURAIS:
-1. Comece com um parágrafo de "Análise do Confronto" destacando os fatores decisivos (ataque, defesa, forma, H2H, DNA).
-2. Apresente o "Veredito Final" com a melhor entrada 1x2 e por quê ela tem Valor Esperado Positivo (+EV) em relação às odds do mercado.
-3. Termine com um "Alerta de Risco" caso algum fator possa invalidar a análise (amostra pequena, forma instável, H2H limitado).
+DADOS DISPONÍVEIS: Você recebe os dados COMPLETOS do Escoteiro YAAKEN de todos os times. Use SEMPRE os números reais do contexto. Nunca diga que não tem dados.
 
-REGRAS ESTÉTICAS:
-NÃO USE ASTERISCOS markdown. Use HTML: <strong style="color:#fbbf24"> para destaques dourados, <strong style="color:#34d367"> para destaques verdes, <strong style="color:#f87171"> para alertas. Use <br><br> para separar parágrafos. Sem listas com traços.
+FORMATO OBRIGATÓRIO — retorne EXCLUSIVAMENTE HTML usando estas classes CSS disponíveis no app:
+- Títulos de seção: <div class="sc-section-title">TEXTO</div> (ou class="sc-section-title green" ou "red")
+- Linha divisória: <hr class="sc-divider">
+- VS Header: <div class="sc-vs-header">🏠 MANDANTE vs VISITANTE ✈️</div>
+- Grid 2 colunas: <div class="sc-grid"><div class="sc-cell"><div class="sc-cell-label">LABEL</div><div class="sc-cell-val" style="color:var(--green)">VALOR</div></div>...</div>
+- Tabela de probabilidades: <table class="sc-prob-table"><thead><tr><th>Resultado</th><th>Prob.</th><th>Odd Justa</th><th>Odd Mercado</th><th>EV</th></tr></thead><tbody><tr class="winner"><td>...</td>...</tr></tbody></table> — use class="winner" na linha favorita, class="ev-pos"/"ev-neg" nas células EV
+- Veredito: <div class="sc-verdict">texto do veredito</div>
+- Alerta: <div class="sc-alert">texto do alerta</div>
+- Badges: <span class="sc-badge green">TEXTO</span> (ou gold/red/blue)
+- Ênfase: <strong style="color:#fbbf24">dourado</strong> ou <strong style="color:#34d367">verde</strong> ou <strong style="color:#f87171">vermelho</strong>
 
-Seja cirúrgico. Máximo 250 palavras. Não enrole.
---- DADOS DO MODELO YAAKEN ---
+ESTRUTURA DA RESPOSTA:
+1. VS Header com os nomes
+2. Grid com dados-chave dos dois times (GP casa, GC fora, forma, perfil)
+3. Seção "ANÁLISE DO CONFRONTO" com texto fluido
+4. Seção "PROBABILIDADES 1x2" com a tabela sc-prob-table (calcule EV = Prob/OddMercado - 1 em %)
+5. Seção "VEREDITO FINAL" com sc-verdict
+6. Seção "ALERTA DE RISCO" com sc-alert
+
+REGRAS: ZERO markdown (sem #, **, -, ---). Seja cirúrgico. Máximo 300 palavras. Se as odds não estiverem no contexto, omita coluna "Odd Mercado" e "EV".
+--- DADOS COMPLETOS YAAKEN ---
 ${ctx}
 ---`;
 
@@ -3929,8 +4050,21 @@ async function sendSCYMsg() {
 
   const ctx = buildSCYContext();
   const systemPrompt = `Você é o *SmartCoach YAAKEN*, IA especialista em análise de resultados de futebol (1x2).
-Responda de forma concisa e útil. Use HTML inline para ênfase: <strong style="color:#fbbf24"> para dourado, <strong style="color:#34d367"> para verde. Sem asteriscos markdown.
-Contexto atual do app:\n${ctx}`;
+
+DADOS DISPONÍVEIS: Você recebe os perfis COMPLETOS de todos os times — gols feitos/sofridos em casa e fora, V/E/D, forma, perfil DNA, fixtures com odds e H2H. USE os números reais. Nunca diga que não tem dados se o time estiver no contexto.
+
+FORMATO: Use HTML estruturado com as classes CSS do app quando for análise de jogo:
+- Títulos: <div class="sc-section-title">TEXTO</div>
+- Grid de dados: <div class="sc-grid"><div class="sc-cell"><div class="sc-cell-label">LABEL</div><div class="sc-cell-val">VAL</div></div></div>
+- Tabelas: <table class="sc-prob-table">...</table>
+- Veredito: <div class="sc-verdict">...</div>
+- Alerta: <div class="sc-alert">...</div>
+- Badges: <span class="sc-badge green">TEXTO</span>
+- Ênfase: <strong style="color:#fbbf24">dourado</strong>
+Para perguntas simples/conversacionais, responda em prosa com ênfase HTML inline. ZERO asteriscos ou # markdown.
+
+CONTEXTO COMPLETO DO APP:
+${ctx}`;
 
   try {
     const messages = scyHistory.slice(-10);

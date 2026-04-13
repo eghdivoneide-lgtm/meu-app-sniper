@@ -293,6 +293,11 @@
         <option value="ARG">🇦🇷 Liga Profesional</option>
         <option value="USL">🇺🇸 USL Championship</option>
         <option value="BUN">🇩🇪 Bundesliga</option>
+        <option value="ALM">🇦🇺 A-League</option>
+        <option value="J1">🇯🇵 J1 League</option>
+        <option value="CHI">🇨🇱 Primera Div. (CHI)</option>
+        <option value="ECU">🇪🇨 LigaPro (ECU)</option>
+        <option value="ARG_B">🇦🇷 Primera B (ARG)</option>
       </select>
     </div>
   </div>
@@ -724,6 +729,11 @@
 <script src="data/mls2026.js"></script>
 <script src="data/brasileirao2026.js"></script>
 <script src="data/bundesliga2026.js"></script>
+<script src="data/aleague2026.js"></script>
+<script src="data/j1league2026.js"></script>
+<script src="data/chile2026.js"></script>
+<script src="data/equador2026.js"></script>
+<script src="data/argentina_b2026.js"></script>
 <script src="data/dna_escoteiro.js"></script>
 <script>
 // ══════════════════════════════════════════════════
@@ -2979,7 +2989,7 @@ carregarCustomJogos();
 
 function trocarLiga(liga) {
   // Guard: only switch to leagues with data loaded
-  const ligaMap = { BR: window.DADOS_BR, MLS: window.DADOS_MLS, ARG: window.DADOS_ARG, USL: window.DADOS_USL, BUN: window.DADOS_BUN };
+  const ligaMap = { BR: window.DADOS_BR, MLS: window.DADOS_MLS, ARG: window.DADOS_ARG, USL: window.DADOS_USL, BUN: window.DADOS_BUN, ALM: window.DADOS_ALM, J1: window.DADOS_J1, CHI: window.DADOS_CHI, ECU: window.DADOS_ECU, ARG_B: window.DADOS_ARG_B };
   const novosDados = ligaMap[liga];
   if (!novosDados || !novosDados.times || novosDados.times.length === 0) {
     alert(`⚠️ Liga "${liga}" ainda não tem dados carregados. Importe os dados primeiro.`);
