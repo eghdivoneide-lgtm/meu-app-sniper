@@ -1,13 +1,13 @@
-// Auto-gerado em 2026-04-14 — EDS Soluções Inteligentes
-// Liga: BUN | Times: 18 | Jogos c/ placar: 255
+// Auto-gerado em 2026-04-15 — EDS Soluções Inteligentes
+// Liga: BUN | Times: 18 | Jogos c/ placar: 261
 
 window.ESCOTEIRO_BUN = {
   "meta": {
     "liga": "BUN",
     "nome_liga": "Bundesliga",
-    "data_coleta": "2026-04-14",
+    "data_coleta": "2026-04-15",
     "total_times": 18,
-    "jogos_analisados": 255,
+    "jogos_analisados": 261,
     "jogos_sem_placar": 0,
     "fonte": "Recalculado a partir dos dados completos do Motor V4/V5 com placar real",
     "agente": "Recalcular Escoteiro v1 (dados reais)"
@@ -16,22 +16,22 @@ window.ESCOTEIRO_BUN = {
     "Bayern Munich": {
       "nome": "Bayern Munich",
       "posicao": 1,
-      "jogos": 28,
-      "pontos": 75,
+      "jogos": 29,
+      "pontos": 78,
       "geral": {
-        "v": 24,
+        "v": 25,
         "e": 3,
         "d": 1,
-        "j": 28,
+        "j": 29,
         "v_pct": 86,
-        "e_pct": 11,
-        "d_pct": 4,
-        "gp": 97,
+        "e_pct": 10,
+        "d_pct": 3,
+        "gp": 102,
         "gc": 27,
-        "gp_jogo": 3.46,
-        "gc_jogo": 0.96,
-        "saldo": 70,
-        "media_gols_jogo": 4.43
+        "gp_jogo": 3.52,
+        "gc_jogo": 0.93,
+        "saldo": 75,
+        "media_gols_jogo": 4.45
       },
       "casa": {
         "v": 12,
@@ -48,18 +48,18 @@ window.ESCOTEIRO_BUN = {
         "media_gols": 4.64
       },
       "fora": {
-        "v": 12,
+        "v": 13,
         "e": 2,
         "d": 0,
-        "j": 14,
-        "gp": 45,
+        "j": 15,
+        "gp": 50,
         "gc": 14,
-        "gp_jogo": 3.21,
-        "gc_jogo": 1,
-        "v_pct": 86,
-        "e_pct": 14,
+        "gp_jogo": 3.33,
+        "gc_jogo": 0.93,
+        "v_pct": 87,
+        "e_pct": 13,
         "d_pct": 0,
-        "media_gols": 4.21
+        "media_gols": 4.27
       },
       "forma_recente": [
         "V",
@@ -69,6 +69,18 @@ window.ESCOTEIRO_BUN = {
         "V"
       ],
       "jogos_geral": [
+        {
+          "data": "11.04.2026 13:30",
+          "mandante": "St. Pauli",
+          "visitante": "Bayern Munich",
+          "gm": 0,
+          "gv": 5,
+          "ctx": "FORA",
+          "outro": "St. Pauli",
+          "golsPro": 5,
+          "golsCon": 0,
+          "res": "V"
+        },
         {
           "data": "04.04.2026 10:30",
           "mandante": "Freiburg",
@@ -116,18 +128,6 @@ window.ESCOTEIRO_BUN = {
           "golsPro": 4,
           "golsCon": 1,
           "res": "V"
-        },
-        {
-          "data": "28.02.2026 14:30",
-          "mandante": "Dortmund",
-          "visitante": "Bayern Munich",
-          "gm": 2,
-          "gv": 3,
-          "ctx": "FORA",
-          "outro": "Dortmund",
-          "golsPro": 3,
-          "golsCon": 2,
-          "res": "V"
         }
       ],
       "jogos_casa": [
@@ -174,6 +174,14 @@ window.ESCOTEIRO_BUN = {
       ],
       "jogos_fora": [
         {
+          "data": "11.04.2026 13:30",
+          "mandante": "St. Pauli",
+          "visitante": "Bayern Munich",
+          "gm": 0,
+          "gv": 5,
+          "res": "V"
+        },
+        {
           "data": "04.04.2026 10:30",
           "mandante": "Freiburg",
           "visitante": "Bayern Munich",
@@ -204,17 +212,19 @@ window.ESCOTEIRO_BUN = {
           "gm": 0,
           "gv": 3,
           "res": "V"
-        },
-        {
-          "data": "31.01.2026 14:30",
-          "mandante": "Hamburger SV",
-          "visitante": "Bayern Munich",
-          "gm": 2,
-          "gv": 2,
-          "res": "E"
         }
       ],
       "historico_geral": [
+        {
+          "data": "11.04.2026 13:30",
+          "adversario": "St. Pauli",
+          "ctx": "FORA",
+          "golsPro": 5,
+          "golsCon": 0,
+          "gm": 0,
+          "gv": 5,
+          "res": "V"
+        },
         {
           "data": "04.04.2026 10:30",
           "adversario": "Freiburg",
@@ -640,6 +650,16 @@ window.ESCOTEIRO_BUN = {
       ],
       "historico_fora": [
         {
+          "data": "11.04.2026 13:30",
+          "adversario": "St. Pauli",
+          "ctx": "FORA",
+          "golsPro": 5,
+          "golsCon": 0,
+          "gm": 0,
+          "gv": 5,
+          "res": "V"
+        },
+        {
           "data": "04.04.2026 10:30",
           "adversario": "Freiburg",
           "ctx": "FORA",
@@ -784,8 +804,8 @@ window.ESCOTEIRO_BUN = {
       "tendencia_empate": "BAIXO",
       "notas_yaaken": [
         "🏠 Forte em casa (86% vitórias)",
-        "✈️ Surpreende fora (86% vitórias fora)",
-        "⚽ Muito ofensivo (3.46 gols/jogo)",
+        "✈️ Surpreende fora (87% vitórias fora)",
+        "⚽ Muito ofensivo (3.52 gols/jogo)",
         "🔥 Em chama! 4/5 vitórias recentes"
       ]
     },
@@ -846,6 +866,18 @@ window.ESCOTEIRO_BUN = {
       ],
       "jogos_geral": [
         {
+          "data": "11.04.2026 10:30",
+          "mandante": "Dortmund",
+          "visitante": "Bayer Leverkusen",
+          "gm": 0,
+          "gv": 1,
+          "ctx": "CASA",
+          "outro": "Bayer Leverkusen",
+          "golsPro": 0,
+          "golsCon": 1,
+          "res": "D"
+        },
+        {
           "data": "04.04.2026 13:30",
           "mandante": "Stuttgart",
           "visitante": "Dortmund",
@@ -892,21 +924,17 @@ window.ESCOTEIRO_BUN = {
           "golsPro": 2,
           "golsCon": 1,
           "res": "V"
-        },
-        {
-          "data": "28.02.2026 14:30",
-          "mandante": "Dortmund",
-          "visitante": "Bayern Munich",
-          "gm": 2,
-          "gv": 3,
-          "ctx": "CASA",
-          "outro": "Bayern Munich",
-          "golsPro": 2,
-          "golsCon": 3,
-          "res": "D"
         }
       ],
       "jogos_casa": [
+        {
+          "data": "11.04.2026 10:30",
+          "mandante": "Dortmund",
+          "visitante": "Bayer Leverkusen",
+          "gm": 0,
+          "gv": 1,
+          "res": "D"
+        },
         {
           "data": "21.03.2026 14:30",
           "mandante": "Dortmund",
@@ -937,14 +965,6 @@ window.ESCOTEIRO_BUN = {
           "visitante": "Mainz",
           "gm": 4,
           "gv": 0,
-          "res": "V"
-        },
-        {
-          "data": "01.02.2026 13:30",
-          "mandante": "Dortmund",
-          "visitante": "Heidenheim",
-          "gm": 3,
-          "gv": 2,
           "res": "V"
         }
       ],
@@ -991,6 +1011,16 @@ window.ESCOTEIRO_BUN = {
         }
       ],
       "historico_geral": [
+        {
+          "data": "11.04.2026 10:30",
+          "adversario": "Bayer Leverkusen",
+          "ctx": "CASA",
+          "golsPro": 0,
+          "golsCon": 1,
+          "gm": 0,
+          "gv": 1,
+          "res": "D"
+        },
         {
           "data": "04.04.2026 13:30",
           "adversario": "Stuttgart",
@@ -1152,16 +1182,6 @@ window.ESCOTEIRO_BUN = {
           "res": "V"
         },
         {
-          "data": "02.12.2025 17:00",
-          "adversario": "Bayer Leverkusen",
-          "ctx": "CASA",
-          "golsPro": 0,
-          "golsCon": 1,
-          "gm": 0,
-          "gv": 1,
-          "res": "D"
-        },
-        {
           "data": "29.11.2025 14:30",
           "adversario": "Bayer Leverkusen",
           "ctx": "FORA",
@@ -1284,6 +1304,16 @@ window.ESCOTEIRO_BUN = {
       ],
       "historico_casa": [
         {
+          "data": "11.04.2026 10:30",
+          "adversario": "Bayer Leverkusen",
+          "ctx": "CASA",
+          "golsPro": 0,
+          "golsCon": 1,
+          "gm": 0,
+          "gv": 1,
+          "res": "D"
+        },
+        {
           "data": "21.03.2026 14:30",
           "adversario": "Hamburger SV",
           "ctx": "CASA",
@@ -1372,16 +1402,6 @@ window.ESCOTEIRO_BUN = {
           "gm": 2,
           "gv": 0,
           "res": "V"
-        },
-        {
-          "data": "02.12.2025 17:00",
-          "adversario": "Bayer Leverkusen",
-          "ctx": "CASA",
-          "golsPro": 0,
-          "golsCon": 1,
-          "gm": 0,
-          "gv": 1,
-          "res": "D"
         },
         {
           "data": "22.11.2025 11:30",
@@ -1588,49 +1608,49 @@ window.ESCOTEIRO_BUN = {
       "nome": "RB Leipzig",
       "posicao": 3,
       "jogos": 29,
-      "pontos": 53,
+      "pontos": 56,
       "geral": {
-        "v": 16,
+        "v": 17,
         "e": 5,
-        "d": 8,
+        "d": 7,
         "j": 29,
-        "v_pct": 55,
+        "v_pct": 59,
         "e_pct": 17,
-        "d_pct": 28,
-        "gp": 55,
-        "gc": 36,
-        "gp_jogo": 1.9,
-        "gc_jogo": 1.24,
-        "saldo": 19,
-        "media_gols_jogo": 3.14
+        "d_pct": 24,
+        "gp": 56,
+        "gc": 32,
+        "gp_jogo": 1.93,
+        "gc_jogo": 1.1,
+        "saldo": 24,
+        "media_gols_jogo": 3.03
       },
       "casa": {
-        "v": 9,
+        "v": 10,
         "e": 2,
         "d": 3,
-        "j": 14,
-        "gp": 34,
+        "j": 15,
+        "gp": 35,
         "gc": 18,
-        "gp_jogo": 2.43,
-        "gc_jogo": 1.29,
-        "v_pct": 64,
-        "e_pct": 14,
-        "d_pct": 21,
-        "media_gols": 3.71
+        "gp_jogo": 2.33,
+        "gc_jogo": 1.2,
+        "v_pct": 67,
+        "e_pct": 13,
+        "d_pct": 20,
+        "media_gols": 3.53
       },
       "fora": {
         "v": 7,
         "e": 3,
-        "d": 5,
-        "j": 15,
+        "d": 4,
+        "j": 14,
         "gp": 21,
-        "gc": 18,
-        "gp_jogo": 1.4,
-        "gc_jogo": 1.2,
-        "v_pct": 47,
-        "e_pct": 20,
-        "d_pct": 33,
-        "media_gols": 2.6
+        "gc": 14,
+        "gp_jogo": 1.5,
+        "gc_jogo": 1,
+        "v_pct": 50,
+        "e_pct": 21,
+        "d_pct": 29,
+        "media_gols": 2.5
       },
       "forma_recente": [
         "D",
@@ -1640,6 +1660,18 @@ window.ESCOTEIRO_BUN = {
         "V"
       ],
       "jogos_geral": [
+        {
+          "data": "11.04.2026 10:30",
+          "mandante": "RB Leipzig",
+          "visitante": "B. Monchengladbach",
+          "gm": 1,
+          "gv": 0,
+          "ctx": "CASA",
+          "outro": "B. Monchengladbach",
+          "golsPro": 1,
+          "golsCon": 0,
+          "res": "V"
+        },
         {
           "data": "04.04.2026 10:30",
           "mandante": "Werder Bremen",
@@ -1687,21 +1719,17 @@ window.ESCOTEIRO_BUN = {
           "golsPro": 2,
           "golsCon": 1,
           "res": "V"
-        },
-        {
-          "data": "01.03.2026 15:30",
-          "mandante": "Hamburger SV",
-          "visitante": "RB Leipzig",
-          "gm": 1,
-          "gv": 2,
-          "ctx": "FORA",
-          "outro": "Hamburger SV",
-          "golsPro": 2,
-          "golsCon": 1,
-          "res": "V"
         }
       ],
       "jogos_casa": [
+        {
+          "data": "11.04.2026 10:30",
+          "mandante": "RB Leipzig",
+          "visitante": "B. Monchengladbach",
+          "gm": 1,
+          "gv": 0,
+          "res": "V"
+        },
         {
           "data": "20.03.2026 16:30",
           "mandante": "RB Leipzig",
@@ -1733,14 +1761,6 @@ window.ESCOTEIRO_BUN = {
           "gm": 2,
           "gv": 2,
           "res": "E"
-        },
-        {
-          "data": "31.01.2026 11:30",
-          "mandante": "RB Leipzig",
-          "visitante": "Mainz",
-          "gm": 1,
-          "gv": 2,
-          "res": "D"
         }
       ],
       "jogos_fora": [
@@ -1786,6 +1806,16 @@ window.ESCOTEIRO_BUN = {
         }
       ],
       "historico_geral": [
+        {
+          "data": "11.04.2026 10:30",
+          "adversario": "B. Monchengladbach",
+          "ctx": "CASA",
+          "golsPro": 1,
+          "golsCon": 0,
+          "gm": 1,
+          "gv": 0,
+          "res": "V"
+        },
         {
           "data": "04.04.2026 10:30",
           "adversario": "Werder Bremen",
@@ -2065,19 +2095,19 @@ window.ESCOTEIRO_BUN = {
           "gm": 2,
           "gv": 0,
           "res": "V"
-        },
-        {
-          "data": "26.04.2025 13:30",
-          "adversario": "Eintracht Frankfurt",
-          "ctx": "FORA",
-          "golsPro": 0,
-          "golsCon": 4,
-          "gm": 4,
-          "gv": 0,
-          "res": "D"
         }
       ],
       "historico_casa": [
+        {
+          "data": "11.04.2026 10:30",
+          "adversario": "B. Monchengladbach",
+          "ctx": "CASA",
+          "golsPro": 1,
+          "golsCon": 0,
+          "gm": 1,
+          "gv": 0,
+          "res": "V"
+        },
         {
           "data": "20.03.2026 16:30",
           "adversario": "Hoffenheim",
@@ -2359,58 +2389,49 @@ window.ESCOTEIRO_BUN = {
           "gm": 0,
           "gv": 1,
           "res": "V"
-        },
-        {
-          "data": "26.04.2025 13:30",
-          "adversario": "Eintracht Frankfurt",
-          "ctx": "FORA",
-          "golsPro": 0,
-          "golsCon": 4,
-          "gm": 4,
-          "gv": 0,
-          "res": "D"
         }
       ],
-      "perfil": "OFENSIVO",
+      "perfil": "OFENSIVO_SOLIDO",
       "tendencia_empate": "BAIXO",
       "notas_yaaken": [
-        "🏠 Forte em casa (64% vitórias)",
+        "🏠 Forte em casa (67% vitórias)",
+        "✈️ Surpreende fora (50% vitórias fora)",
         "🔥 Em chama! 4/5 vitórias recentes"
       ]
     },
     "Stuttgart": {
       "nome": "Stuttgart",
       "posicao": 4,
-      "jogos": 28,
-      "pontos": 53,
+      "jogos": 29,
+      "pontos": 56,
       "geral": {
-        "v": 16,
+        "v": 17,
         "e": 5,
         "d": 7,
-        "j": 28,
-        "v_pct": 57,
-        "e_pct": 18,
-        "d_pct": 25,
-        "gp": 56,
+        "j": 29,
+        "v_pct": 59,
+        "e_pct": 17,
+        "d_pct": 24,
+        "gp": 60,
         "gc": 38,
-        "gp_jogo": 2,
-        "gc_jogo": 1.36,
-        "saldo": 18,
-        "media_gols_jogo": 3.36
+        "gp_jogo": 2.07,
+        "gc_jogo": 1.31,
+        "saldo": 22,
+        "media_gols_jogo": 3.38
       },
       "casa": {
-        "v": 10,
+        "v": 11,
         "e": 2,
         "d": 2,
-        "j": 14,
-        "gp": 22,
+        "j": 15,
+        "gp": 26,
         "gc": 14,
-        "gp_jogo": 1.57,
-        "gc_jogo": 1,
-        "v_pct": 71,
-        "e_pct": 14,
-        "d_pct": 14,
-        "media_gols": 2.57
+        "gp_jogo": 1.73,
+        "gc_jogo": 0.93,
+        "v_pct": 73,
+        "e_pct": 13,
+        "d_pct": 13,
+        "media_gols": 2.67
       },
       "fora": {
         "v": 6,
@@ -2434,6 +2455,18 @@ window.ESCOTEIRO_BUN = {
         "V"
       ],
       "jogos_geral": [
+        {
+          "data": "12.04.2026 12:30",
+          "mandante": "Stuttgart",
+          "visitante": "Hamburger SV",
+          "gm": 4,
+          "gv": 0,
+          "ctx": "CASA",
+          "outro": "Hamburger SV",
+          "golsPro": 4,
+          "golsCon": 0,
+          "res": "V"
+        },
         {
           "data": "04.04.2026 13:30",
           "mandante": "Stuttgart",
@@ -2481,21 +2514,17 @@ window.ESCOTEIRO_BUN = {
           "golsPro": 2,
           "golsCon": 2,
           "res": "E"
-        },
-        {
-          "data": "01.03.2026 11:30",
-          "mandante": "Stuttgart",
-          "visitante": "Wolfsburg",
-          "gm": 4,
-          "gv": 0,
-          "ctx": "CASA",
-          "outro": "Wolfsburg",
-          "golsPro": 4,
-          "golsCon": 0,
-          "res": "V"
         }
       ],
       "jogos_casa": [
+        {
+          "data": "12.04.2026 12:30",
+          "mandante": "Stuttgart",
+          "visitante": "Hamburger SV",
+          "gm": 4,
+          "gv": 0,
+          "res": "V"
+        },
         {
           "data": "04.04.2026 13:30",
           "mandante": "Stuttgart",
@@ -2526,14 +2555,6 @@ window.ESCOTEIRO_BUN = {
           "visitante": "FC Koln",
           "gm": 3,
           "gv": 1,
-          "res": "V"
-        },
-        {
-          "data": "01.02.2026 11:30",
-          "mandante": "Stuttgart",
-          "visitante": "Freiburg",
-          "gm": 1,
-          "gv": 0,
           "res": "V"
         }
       ],
@@ -2580,6 +2601,16 @@ window.ESCOTEIRO_BUN = {
         }
       ],
       "historico_geral": [
+        {
+          "data": "12.04.2026 12:30",
+          "adversario": "Hamburger SV",
+          "ctx": "CASA",
+          "golsPro": 4,
+          "golsCon": 0,
+          "gm": 4,
+          "gv": 0,
+          "res": "V"
+        },
         {
           "data": "04.04.2026 13:30",
           "adversario": "Dortmund",
@@ -2862,6 +2893,16 @@ window.ESCOTEIRO_BUN = {
         }
       ],
       "historico_casa": [
+        {
+          "data": "12.04.2026 12:30",
+          "adversario": "Hamburger SV",
+          "ctx": "CASA",
+          "golsPro": 4,
+          "golsCon": 0,
+          "gm": 4,
+          "gv": 0,
+          "res": "V"
+        },
         {
           "data": "04.04.2026 13:30",
           "adversario": "Dortmund",
@@ -3148,8 +3189,8 @@ window.ESCOTEIRO_BUN = {
       "perfil": "OFENSIVO",
       "tendencia_empate": "BAIXO",
       "notas_yaaken": [
-        "🏠 Forte em casa (71% vitórias)",
-        "⚽ Muito ofensivo (2 gols/jogo)"
+        "🏠 Forte em casa (73% vitórias)",
+        "⚽ Muito ofensivo (2.07 gols/jogo)"
       ]
     },
     "Bayer Leverkusen": {
@@ -3209,6 +3250,18 @@ window.ESCOTEIRO_BUN = {
       ],
       "jogos_geral": [
         {
+          "data": "11.04.2026 10:30",
+          "mandante": "Dortmund",
+          "visitante": "Bayer Leverkusen",
+          "gm": 0,
+          "gv": 1,
+          "ctx": "FORA",
+          "outro": "Dortmund",
+          "golsPro": 1,
+          "golsCon": 0,
+          "res": "V"
+        },
+        {
           "data": "04.04.2026 10:30",
           "mandante": "Bayer Leverkusen",
           "visitante": "Wolfsburg",
@@ -3255,18 +3308,6 @@ window.ESCOTEIRO_BUN = {
           "golsPro": 3,
           "golsCon": 3,
           "res": "E"
-        },
-        {
-          "data": "04.03.2026 16:30",
-          "mandante": "Hamburger SV",
-          "visitante": "Bayer Leverkusen",
-          "gm": 0,
-          "gv": 1,
-          "ctx": "FORA",
-          "outro": "Hamburger SV",
-          "golsPro": 1,
-          "golsCon": 0,
-          "res": "V"
         }
       ],
       "jogos_casa": [
@@ -3313,6 +3354,14 @@ window.ESCOTEIRO_BUN = {
       ],
       "jogos_fora": [
         {
+          "data": "11.04.2026 10:30",
+          "mandante": "Dortmund",
+          "visitante": "Bayer Leverkusen",
+          "gm": 0,
+          "gv": 1,
+          "res": "V"
+        },
+        {
           "data": "21.03.2026 11:30",
           "mandante": "Heidenheim",
           "visitante": "Bayer Leverkusen",
@@ -3343,17 +3392,19 @@ window.ESCOTEIRO_BUN = {
           "gm": 1,
           "gv": 0,
           "res": "D"
-        },
-        {
-          "data": "07.02.2026 14:30",
-          "mandante": "B. Monchengladbach",
-          "visitante": "Bayer Leverkusen",
-          "gm": 1,
-          "gv": 1,
-          "res": "E"
         }
       ],
       "historico_geral": [
+        {
+          "data": "11.04.2026 10:30",
+          "adversario": "Dortmund",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 0,
+          "gm": 0,
+          "gv": 1,
+          "res": "V"
+        },
         {
           "data": "04.04.2026 10:30",
           "adversario": "Wolfsburg",
@@ -3513,16 +3564,6 @@ window.ESCOTEIRO_BUN = {
           "gm": 2,
           "gv": 0,
           "res": "D"
-        },
-        {
-          "data": "02.12.2025 17:00",
-          "adversario": "Dortmund",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 0,
-          "gm": 0,
-          "gv": 1,
-          "res": "V"
         },
         {
           "data": "29.11.2025 14:30",
@@ -3789,6 +3830,16 @@ window.ESCOTEIRO_BUN = {
       ],
       "historico_fora": [
         {
+          "data": "11.04.2026 10:30",
+          "adversario": "Dortmund",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 0,
+          "gm": 0,
+          "gv": 1,
+          "res": "V"
+        },
+        {
           "data": "21.03.2026 11:30",
           "adversario": "Heidenheim",
           "ctx": "FORA",
@@ -3877,16 +3928,6 @@ window.ESCOTEIRO_BUN = {
           "gm": 2,
           "gv": 0,
           "res": "D"
-        },
-        {
-          "data": "02.12.2025 17:00",
-          "adversario": "Dortmund",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 0,
-          "gm": 0,
-          "gv": 1,
-          "res": "V"
         },
         {
           "data": "22.11.2025 11:30",
@@ -4751,49 +4792,61 @@ window.ESCOTEIRO_BUN = {
         "v_pct": 38,
         "e_pct": 31,
         "d_pct": 31,
-        "gp": 56,
-        "gc": 53,
-        "gp_jogo": 1.93,
-        "gc_jogo": 1.83,
-        "saldo": 3,
-        "media_gols_jogo": 3.76
+        "gp": 54,
+        "gc": 54,
+        "gp_jogo": 1.86,
+        "gc_jogo": 1.86,
+        "saldo": 0,
+        "media_gols_jogo": 3.72
       },
       "casa": {
-        "v": 8,
+        "v": 7,
         "e": 3,
         "d": 4,
-        "j": 15,
-        "gp": 29,
+        "j": 14,
+        "gp": 25,
         "gc": 20,
-        "gp_jogo": 1.93,
-        "gc_jogo": 1.33,
-        "v_pct": 53,
-        "e_pct": 20,
-        "d_pct": 27,
-        "media_gols": 3.27
+        "gp_jogo": 1.79,
+        "gc_jogo": 1.43,
+        "v_pct": 50,
+        "e_pct": 21,
+        "d_pct": 29,
+        "media_gols": 3.21
       },
       "fora": {
-        "v": 3,
+        "v": 4,
         "e": 6,
         "d": 5,
-        "j": 14,
-        "gp": 27,
-        "gc": 33,
+        "j": 15,
+        "gp": 29,
+        "gc": 34,
         "gp_jogo": 1.93,
-        "gc_jogo": 2.36,
-        "v_pct": 21,
-        "e_pct": 43,
-        "d_pct": 36,
-        "media_gols": 4.29
+        "gc_jogo": 2.27,
+        "v_pct": 27,
+        "e_pct": 40,
+        "d_pct": 33,
+        "media_gols": 4.2
       },
       "forma_recente": [
         "D",
         "D",
         "D",
         "D",
-        "E"
+        "V"
       ],
       "jogos_geral": [
+        {
+          "data": "11.04.2026 10:30",
+          "mandante": "Wolfsburg",
+          "visitante": "Eintracht Frankfurt",
+          "gm": 1,
+          "gv": 2,
+          "ctx": "FORA",
+          "outro": "Wolfsburg",
+          "golsPro": 2,
+          "golsCon": 1,
+          "res": "V"
+        },
         {
           "data": "05.04.2026 12:30",
           "mandante": "Eintracht Frankfurt",
@@ -4841,18 +4894,6 @@ window.ESCOTEIRO_BUN = {
           "golsPro": 0,
           "golsCon": 0,
           "res": "E"
-        },
-        {
-          "data": "01.03.2026 13:30",
-          "mandante": "Eintracht Frankfurt",
-          "visitante": "Freiburg",
-          "gm": 2,
-          "gv": 0,
-          "ctx": "CASA",
-          "outro": "Freiburg",
-          "golsPro": 2,
-          "golsCon": 0,
-          "res": "V"
         }
       ],
       "jogos_casa": [
@@ -4899,6 +4940,14 @@ window.ESCOTEIRO_BUN = {
       ],
       "jogos_fora": [
         {
+          "data": "11.04.2026 10:30",
+          "mandante": "Wolfsburg",
+          "visitante": "Eintracht Frankfurt",
+          "gm": 1,
+          "gv": 2,
+          "res": "V"
+        },
+        {
           "data": "22.03.2026 11:30",
           "mandante": "Mainz",
           "visitante": "Eintracht Frankfurt",
@@ -4929,17 +4978,19 @@ window.ESCOTEIRO_BUN = {
           "gm": 1,
           "gv": 1,
           "res": "E"
-        },
-        {
-          "data": "16.01.2026 16:30",
-          "mandante": "Werder Bremen",
-          "visitante": "Eintracht Frankfurt",
-          "gm": 3,
-          "gv": 3,
-          "res": "E"
         }
       ],
       "historico_geral": [
+        {
+          "data": "11.04.2026 10:30",
+          "adversario": "Wolfsburg",
+          "ctx": "FORA",
+          "golsPro": 2,
+          "golsCon": 1,
+          "gm": 1,
+          "gv": 2,
+          "res": "V"
+        },
         {
           "data": "05.04.2026 12:30",
           "adversario": "FC Koln",
@@ -5219,16 +5270,6 @@ window.ESCOTEIRO_BUN = {
           "gm": 4,
           "gv": 1,
           "res": "V"
-        },
-        {
-          "data": "26.04.2025 13:30",
-          "adversario": "RB Leipzig",
-          "ctx": "CASA",
-          "golsPro": 4,
-          "golsCon": 0,
-          "gm": 4,
-          "gv": 0,
-          "res": "V"
         }
       ],
       "historico_casa": [
@@ -5371,19 +5412,19 @@ window.ESCOTEIRO_BUN = {
           "gm": 4,
           "gv": 1,
           "res": "V"
-        },
-        {
-          "data": "26.04.2025 13:30",
-          "adversario": "RB Leipzig",
-          "ctx": "CASA",
-          "golsPro": 4,
-          "golsCon": 0,
-          "gm": 4,
-          "gv": 0,
-          "res": "V"
         }
       ],
       "historico_fora": [
+        {
+          "data": "11.04.2026 10:30",
+          "adversario": "Wolfsburg",
+          "ctx": "FORA",
+          "golsPro": 2,
+          "golsCon": 1,
+          "gm": 1,
+          "gv": 2,
+          "res": "V"
+        },
         {
           "data": "22.03.2026 11:30",
           "adversario": "Mainz",
@@ -5534,22 +5575,22 @@ window.ESCOTEIRO_BUN = {
     "Freiburg": {
       "nome": "Freiburg",
       "posicao": 8,
-      "jogos": 28,
-      "pontos": 37,
+      "jogos": 29,
+      "pontos": 40,
       "geral": {
-        "v": 10,
+        "v": 11,
         "e": 7,
         "d": 11,
-        "j": 28,
-        "v_pct": 36,
-        "e_pct": 25,
-        "d_pct": 39,
-        "gp": 41,
+        "j": 29,
+        "v_pct": 38,
+        "e_pct": 24,
+        "d_pct": 38,
+        "gp": 42,
         "gc": 47,
-        "gp_jogo": 1.46,
-        "gc_jogo": 1.68,
-        "saldo": -6,
-        "media_gols_jogo": 3.14
+        "gp_jogo": 1.45,
+        "gc_jogo": 1.62,
+        "saldo": -5,
+        "media_gols_jogo": 3.07
       },
       "casa": {
         "v": 7,
@@ -5566,18 +5607,18 @@ window.ESCOTEIRO_BUN = {
         "media_gols": 3.21
       },
       "fora": {
-        "v": 3,
+        "v": 4,
         "e": 3,
         "d": 8,
-        "j": 14,
-        "gp": 15,
+        "j": 15,
+        "gp": 16,
         "gc": 28,
         "gp_jogo": 1.07,
-        "gc_jogo": 2,
-        "v_pct": 21,
-        "e_pct": 21,
-        "d_pct": 57,
-        "media_gols": 3.07
+        "gc_jogo": 1.87,
+        "v_pct": 27,
+        "e_pct": 20,
+        "d_pct": 53,
+        "media_gols": 2.93
       },
       "forma_recente": [
         "D",
@@ -5587,6 +5628,18 @@ window.ESCOTEIRO_BUN = {
         "V"
       ],
       "jogos_geral": [
+        {
+          "data": "12.04.2026 14:30",
+          "mandante": "Mainz",
+          "visitante": "Freiburg",
+          "gm": 0,
+          "gv": 1,
+          "ctx": "FORA",
+          "outro": "Mainz",
+          "golsPro": 1,
+          "golsCon": 0,
+          "res": "V"
+        },
         {
           "data": "04.04.2026 10:30",
           "mandante": "Freiburg",
@@ -5634,18 +5687,6 @@ window.ESCOTEIRO_BUN = {
           "golsPro": 3,
           "golsCon": 3,
           "res": "E"
-        },
-        {
-          "data": "01.03.2026 13:30",
-          "mandante": "Eintracht Frankfurt",
-          "visitante": "Freiburg",
-          "gm": 2,
-          "gv": 0,
-          "ctx": "FORA",
-          "outro": "Eintracht Frankfurt",
-          "golsPro": 0,
-          "golsCon": 2,
-          "res": "D"
         }
       ],
       "jogos_casa": [
@@ -5692,6 +5733,14 @@ window.ESCOTEIRO_BUN = {
       ],
       "jogos_fora": [
         {
+          "data": "12.04.2026 14:30",
+          "mandante": "Mainz",
+          "visitante": "Freiburg",
+          "gm": 0,
+          "gv": 1,
+          "res": "V"
+        },
+        {
           "data": "22.03.2026 13:30",
           "mandante": "St. Pauli",
           "visitante": "Freiburg",
@@ -5722,17 +5771,19 @@ window.ESCOTEIRO_BUN = {
           "gm": 1,
           "gv": 0,
           "res": "D"
-        },
-        {
-          "data": "18.01.2026 13:30",
-          "mandante": "Augsburg",
-          "visitante": "Freiburg",
-          "gm": 2,
-          "gv": 2,
-          "res": "E"
         }
       ],
       "historico_geral": [
+        {
+          "data": "12.04.2026 14:30",
+          "adversario": "Mainz",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 0,
+          "gm": 0,
+          "gv": 1,
+          "res": "V"
+        },
         {
           "data": "04.04.2026 10:30",
           "adversario": "Bayern Munich",
@@ -6158,6 +6209,16 @@ window.ESCOTEIRO_BUN = {
       ],
       "historico_fora": [
         {
+          "data": "12.04.2026 14:30",
+          "adversario": "Mainz",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 0,
+          "gm": 0,
+          "gv": 1,
+          "res": "V"
+        },
+        {
           "data": "22.03.2026 13:30",
           "adversario": "St. Pauli",
           "ctx": "FORA",
@@ -6299,7 +6360,7 @@ window.ESCOTEIRO_BUN = {
         }
       ],
       "perfil": "EQUILIBRADO",
-      "tendencia_empate": "MEDIO",
+      "tendencia_empate": "BAIXO",
       "notas_yaaken": [
         "❄️ Crise! 4/5 derrotas recentes"
       ]
@@ -6307,36 +6368,36 @@ window.ESCOTEIRO_BUN = {
     "Mainz": {
       "nome": "Mainz",
       "posicao": 9,
-      "jogos": 28,
+      "jogos": 29,
       "pontos": 33,
       "geral": {
         "v": 8,
         "e": 9,
-        "d": 11,
-        "j": 28,
-        "v_pct": 29,
-        "e_pct": 32,
-        "d_pct": 39,
+        "d": 12,
+        "j": 29,
+        "v_pct": 28,
+        "e_pct": 31,
+        "d_pct": 41,
         "gp": 35,
-        "gc": 43,
-        "gp_jogo": 1.25,
-        "gc_jogo": 1.54,
-        "saldo": -8,
-        "media_gols_jogo": 2.79
+        "gc": 44,
+        "gp_jogo": 1.21,
+        "gc_jogo": 1.52,
+        "saldo": -9,
+        "media_gols_jogo": 2.72
       },
       "casa": {
         "v": 4,
         "e": 5,
-        "d": 5,
-        "j": 14,
+        "d": 6,
+        "j": 15,
         "gp": 17,
-        "gc": 17,
-        "gp_jogo": 1.21,
-        "gc_jogo": 1.21,
-        "v_pct": 29,
-        "e_pct": 36,
-        "d_pct": 36,
-        "media_gols": 2.43
+        "gc": 18,
+        "gp_jogo": 1.13,
+        "gc_jogo": 1.2,
+        "v_pct": 27,
+        "e_pct": 33,
+        "d_pct": 40,
+        "media_gols": 2.33
       },
       "fora": {
         "v": 4,
@@ -6360,6 +6421,18 @@ window.ESCOTEIRO_BUN = {
         "V"
       ],
       "jogos_geral": [
+        {
+          "data": "12.04.2026 14:30",
+          "mandante": "Mainz",
+          "visitante": "Freiburg",
+          "gm": 0,
+          "gv": 1,
+          "ctx": "CASA",
+          "outro": "Freiburg",
+          "golsPro": 0,
+          "golsCon": 1,
+          "res": "D"
+        },
         {
           "data": "04.04.2026 10:30",
           "mandante": "Hoffenheim",
@@ -6407,21 +6480,17 @@ window.ESCOTEIRO_BUN = {
           "golsPro": 2,
           "golsCon": 2,
           "res": "E"
-        },
-        {
-          "data": "28.02.2026 11:30",
-          "mandante": "Bayer Leverkusen",
-          "visitante": "Mainz",
-          "gm": 1,
-          "gv": 1,
-          "ctx": "FORA",
-          "outro": "Bayer Leverkusen",
-          "golsPro": 1,
-          "golsCon": 1,
-          "res": "E"
         }
       ],
       "jogos_casa": [
+        {
+          "data": "12.04.2026 14:30",
+          "mandante": "Mainz",
+          "visitante": "Freiburg",
+          "gm": 0,
+          "gv": 1,
+          "res": "D"
+        },
         {
           "data": "22.03.2026 11:30",
           "mandante": "Mainz",
@@ -6452,14 +6521,6 @@ window.ESCOTEIRO_BUN = {
           "visitante": "Augsburg",
           "gm": 2,
           "gv": 0,
-          "res": "V"
-        },
-        {
-          "data": "24.01.2026 11:30",
-          "mandante": "Mainz",
-          "visitante": "Wolfsburg",
-          "gm": 3,
-          "gv": 1,
           "res": "V"
         }
       ],
@@ -6506,6 +6567,16 @@ window.ESCOTEIRO_BUN = {
         }
       ],
       "historico_geral": [
+        {
+          "data": "12.04.2026 14:30",
+          "adversario": "Freiburg",
+          "ctx": "CASA",
+          "golsPro": 0,
+          "golsCon": 1,
+          "gm": 0,
+          "gv": 1,
+          "res": "D"
+        },
         {
           "data": "04.04.2026 10:30",
           "adversario": "Hoffenheim",
@@ -6788,6 +6859,16 @@ window.ESCOTEIRO_BUN = {
         }
       ],
       "historico_casa": [
+        {
+          "data": "12.04.2026 14:30",
+          "adversario": "Freiburg",
+          "ctx": "CASA",
+          "golsPro": 0,
+          "golsCon": 1,
+          "gm": 0,
+          "gv": 1,
+          "res": "D"
+        },
         {
           "data": "22.03.2026 11:30",
           "adversario": "Eintracht Frankfurt",
@@ -7872,22 +7953,22 @@ window.ESCOTEIRO_BUN = {
     "Hamburger SV": {
       "nome": "Hamburger SV",
       "posicao": 11,
-      "jogos": 28,
+      "jogos": 29,
       "pontos": 31,
       "geral": {
         "v": 7,
         "e": 10,
-        "d": 11,
-        "j": 28,
-        "v_pct": 25,
-        "e_pct": 36,
-        "d_pct": 39,
+        "d": 12,
+        "j": 29,
+        "v_pct": 24,
+        "e_pct": 34,
+        "d_pct": 41,
         "gp": 32,
-        "gc": 41,
-        "gp_jogo": 1.14,
-        "gc_jogo": 1.46,
-        "saldo": -9,
-        "media_gols_jogo": 2.61
+        "gc": 45,
+        "gp_jogo": 1.1,
+        "gc_jogo": 1.55,
+        "saldo": -13,
+        "media_gols_jogo": 2.66
       },
       "casa": {
         "v": 5,
@@ -7906,25 +7987,37 @@ window.ESCOTEIRO_BUN = {
       "fora": {
         "v": 2,
         "e": 4,
-        "d": 7,
-        "j": 13,
+        "d": 8,
+        "j": 14,
         "gp": 11,
-        "gc": 23,
-        "gp_jogo": 0.85,
-        "gc_jogo": 1.77,
-        "v_pct": 15,
-        "e_pct": 31,
-        "d_pct": 54,
-        "media_gols": 2.62
+        "gc": 27,
+        "gp_jogo": 0.79,
+        "gc_jogo": 1.93,
+        "v_pct": 14,
+        "e_pct": 29,
+        "d_pct": 57,
+        "media_gols": 2.71
       },
       "forma_recente": [
         "D",
         "E",
         "D",
-        "V",
+        "D",
         "V"
       ],
       "jogos_geral": [
+        {
+          "data": "12.04.2026 12:30",
+          "mandante": "Stuttgart",
+          "visitante": "Hamburger SV",
+          "gm": 4,
+          "gv": 0,
+          "ctx": "FORA",
+          "outro": "Stuttgart",
+          "golsPro": 0,
+          "golsCon": 4,
+          "res": "D"
+        },
         {
           "data": "04.04.2026 10:30",
           "mandante": "Hamburger SV",
@@ -7972,18 +8065,6 @@ window.ESCOTEIRO_BUN = {
           "golsPro": 2,
           "golsCon": 1,
           "res": "V"
-        },
-        {
-          "data": "04.03.2026 16:30",
-          "mandante": "Hamburger SV",
-          "visitante": "Bayer Leverkusen",
-          "gm": 0,
-          "gv": 1,
-          "ctx": "CASA",
-          "outro": "Bayer Leverkusen",
-          "golsPro": 0,
-          "golsCon": 1,
-          "res": "D"
         }
       ],
       "jogos_casa": [
@@ -8030,6 +8111,14 @@ window.ESCOTEIRO_BUN = {
       ],
       "jogos_fora": [
         {
+          "data": "12.04.2026 12:30",
+          "mandante": "Stuttgart",
+          "visitante": "Hamburger SV",
+          "gm": 4,
+          "gv": 0,
+          "res": "D"
+        },
+        {
           "data": "21.03.2026 14:30",
           "mandante": "Dortmund",
           "visitante": "Hamburger SV",
@@ -8060,17 +8149,19 @@ window.ESCOTEIRO_BUN = {
           "gm": 0,
           "gv": 2,
           "res": "V"
-        },
-        {
-          "data": "23.01.2026 16:30",
-          "mandante": "St. Pauli",
-          "visitante": "Hamburger SV",
-          "gm": 0,
-          "gv": 0,
-          "res": "E"
         }
       ],
       "historico_geral": [
+        {
+          "data": "12.04.2026 12:30",
+          "adversario": "Stuttgart",
+          "ctx": "FORA",
+          "golsPro": 0,
+          "golsCon": 4,
+          "gm": 4,
+          "gv": 0,
+          "res": "D"
+        },
         {
           "data": "04.04.2026 10:30",
           "adversario": "Augsburg",
@@ -8506,6 +8597,16 @@ window.ESCOTEIRO_BUN = {
       ],
       "historico_fora": [
         {
+          "data": "12.04.2026 12:30",
+          "adversario": "Stuttgart",
+          "ctx": "FORA",
+          "golsPro": 0,
+          "golsCon": 4,
+          "gm": 4,
+          "gv": 0,
+          "res": "D"
+        },
+        {
           "data": "21.03.2026 14:30",
           "adversario": "Dortmund",
           "ctx": "FORA",
@@ -8639,28 +8740,28 @@ window.ESCOTEIRO_BUN = {
       "perfil": "EQUILIBRADO",
       "tendencia_empate": "MEDIO",
       "notas_yaaken": [
-        "⚖️ Empata muito (36% dos jogos) — empate tem valor"
+        "❄️ Crise! 3/5 derrotas recentes"
       ]
     },
     "Union Berlin": {
       "nome": "Union Berlin",
       "posicao": 12,
-      "jogos": 28,
+      "jogos": 29,
       "pontos": 31,
       "geral": {
         "v": 8,
         "e": 7,
-        "d": 13,
-        "j": 28,
-        "v_pct": 29,
-        "e_pct": 25,
-        "d_pct": 46,
-        "gp": 32,
-        "gc": 48,
+        "d": 14,
+        "j": 29,
+        "v_pct": 28,
+        "e_pct": 24,
+        "d_pct": 48,
+        "gp": 33,
+        "gc": 51,
         "gp_jogo": 1.14,
-        "gc_jogo": 1.71,
-        "saldo": -16,
-        "media_gols_jogo": 2.86
+        "gc_jogo": 1.76,
+        "saldo": -18,
+        "media_gols_jogo": 2.9
       },
       "casa": {
         "v": 4,
@@ -8679,16 +8780,16 @@ window.ESCOTEIRO_BUN = {
       "fora": {
         "v": 4,
         "e": 2,
-        "d": 8,
-        "j": 14,
-        "gp": 13,
-        "gc": 25,
+        "d": 9,
+        "j": 15,
+        "gp": 14,
+        "gc": 28,
         "gp_jogo": 0.93,
-        "gc_jogo": 1.79,
-        "v_pct": 29,
-        "e_pct": 14,
-        "d_pct": 57,
-        "media_gols": 2.71
+        "gc_jogo": 1.87,
+        "v_pct": 27,
+        "e_pct": 13,
+        "d_pct": 60,
+        "media_gols": 2.8
       },
       "forma_recente": [
         "D",
@@ -8698,6 +8799,18 @@ window.ESCOTEIRO_BUN = {
         "V"
       ],
       "jogos_geral": [
+        {
+          "data": "11.04.2026 10:30",
+          "mandante": "Heidenheim",
+          "visitante": "Union Berlin",
+          "gm": 3,
+          "gv": 1,
+          "ctx": "FORA",
+          "outro": "Heidenheim",
+          "golsPro": 1,
+          "golsCon": 3,
+          "res": "D"
+        },
         {
           "data": "05.04.2026 10:30",
           "mandante": "Union Berlin",
@@ -8745,18 +8858,6 @@ window.ESCOTEIRO_BUN = {
           "golsPro": 1,
           "golsCon": 4,
           "res": "D"
-        },
-        {
-          "data": "28.02.2026 11:30",
-          "mandante": "B. Monchengladbach",
-          "visitante": "Union Berlin",
-          "gm": 1,
-          "gv": 0,
-          "ctx": "FORA",
-          "outro": "B. Monchengladbach",
-          "golsPro": 0,
-          "golsCon": 1,
-          "res": "D"
         }
       ],
       "jogos_casa": [
@@ -8803,6 +8904,14 @@ window.ESCOTEIRO_BUN = {
       ],
       "jogos_fora": [
         {
+          "data": "11.04.2026 10:30",
+          "mandante": "Heidenheim",
+          "visitante": "Union Berlin",
+          "gm": 3,
+          "gv": 1,
+          "res": "D"
+        },
+        {
           "data": "21.03.2026 11:30",
           "mandante": "Bayern Munich",
           "visitante": "Union Berlin",
@@ -8833,17 +8942,19 @@ window.ESCOTEIRO_BUN = {
           "gm": 3,
           "gv": 2,
           "res": "D"
-        },
-        {
-          "data": "31.01.2026 11:30",
-          "mandante": "Hoffenheim",
-          "visitante": "Union Berlin",
-          "gm": 3,
-          "gv": 1,
-          "res": "D"
         }
       ],
       "historico_geral": [
+        {
+          "data": "11.04.2026 10:30",
+          "adversario": "Heidenheim",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 3,
+          "gm": 3,
+          "gv": 1,
+          "res": "D"
+        },
         {
           "data": "05.04.2026 10:30",
           "adversario": "St. Pauli",
@@ -9269,6 +9380,16 @@ window.ESCOTEIRO_BUN = {
       ],
       "historico_fora": [
         {
+          "data": "11.04.2026 10:30",
+          "adversario": "Heidenheim",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 3,
+          "gm": 3,
+          "gv": 1,
+          "res": "D"
+        },
+        {
           "data": "21.03.2026 11:30",
           "adversario": "Bayern Munich",
           "ctx": "FORA",
@@ -9410,6 +9531,800 @@ window.ESCOTEIRO_BUN = {
         }
       ],
       "perfil": "EQUILIBRADO",
+      "tendencia_empate": "BAIXO",
+      "notas_yaaken": [
+        "⚠️ Perda fora alta (60%) — evitar como visitante",
+        "❄️ Crise! 3/5 derrotas recentes"
+      ]
+    },
+    "FC Koln": {
+      "nome": "FC Koln",
+      "posicao": 13,
+      "jogos": 29,
+      "pontos": 30,
+      "geral": {
+        "v": 7,
+        "e": 9,
+        "d": 13,
+        "j": 29,
+        "v_pct": 24,
+        "e_pct": 31,
+        "d_pct": 45,
+        "gp": 43,
+        "gc": 50,
+        "gp_jogo": 1.48,
+        "gc_jogo": 1.72,
+        "saldo": -7,
+        "media_gols_jogo": 3.21
+      },
+      "casa": {
+        "v": 5,
+        "e": 4,
+        "d": 6,
+        "j": 15,
+        "gp": 28,
+        "gc": 25,
+        "gp_jogo": 1.87,
+        "gc_jogo": 1.67,
+        "v_pct": 33,
+        "e_pct": 27,
+        "d_pct": 40,
+        "media_gols": 3.53
+      },
+      "fora": {
+        "v": 2,
+        "e": 5,
+        "d": 7,
+        "j": 14,
+        "gp": 15,
+        "gc": 25,
+        "gp_jogo": 1.07,
+        "gc_jogo": 1.79,
+        "v_pct": 14,
+        "e_pct": 36,
+        "d_pct": 50,
+        "media_gols": 2.86
+      },
+      "forma_recente": [
+        "D",
+        "D",
+        "D",
+        "E",
+        "E"
+      ],
+      "jogos_geral": [
+        {
+          "data": "12.04.2026 10:30",
+          "mandante": "FC Koln",
+          "visitante": "Werder Bremen",
+          "gm": 3,
+          "gv": 1,
+          "ctx": "CASA",
+          "outro": "Werder Bremen",
+          "golsPro": 3,
+          "golsCon": 1,
+          "res": "V"
+        },
+        {
+          "data": "05.04.2026 12:30",
+          "mandante": "Eintracht Frankfurt",
+          "visitante": "FC Koln",
+          "gm": 2,
+          "gv": 2,
+          "ctx": "FORA",
+          "outro": "Eintracht Frankfurt",
+          "golsPro": 2,
+          "golsCon": 2,
+          "res": "E"
+        },
+        {
+          "data": "21.03.2026 11:30",
+          "mandante": "FC Koln",
+          "visitante": "B. Monchengladbach",
+          "gm": 3,
+          "gv": 3,
+          "ctx": "CASA",
+          "outro": "B. Monchengladbach",
+          "golsPro": 3,
+          "golsCon": 3,
+          "res": "E"
+        },
+        {
+          "data": "14.03.2026 14:30",
+          "mandante": "Hamburger SV",
+          "visitante": "FC Koln",
+          "gm": 1,
+          "gv": 1,
+          "ctx": "FORA",
+          "outro": "Hamburger SV",
+          "golsPro": 1,
+          "golsCon": 1,
+          "res": "E"
+        },
+        {
+          "data": "07.03.2026 14:30",
+          "mandante": "FC Koln",
+          "visitante": "Dortmund",
+          "gm": 1,
+          "gv": 2,
+          "ctx": "CASA",
+          "outro": "Dortmund",
+          "golsPro": 1,
+          "golsCon": 2,
+          "res": "D"
+        }
+      ],
+      "jogos_casa": [
+        {
+          "data": "12.04.2026 10:30",
+          "mandante": "FC Koln",
+          "visitante": "Werder Bremen",
+          "gm": 3,
+          "gv": 1,
+          "res": "V"
+        },
+        {
+          "data": "21.03.2026 11:30",
+          "mandante": "FC Koln",
+          "visitante": "B. Monchengladbach",
+          "gm": 3,
+          "gv": 3,
+          "res": "E"
+        },
+        {
+          "data": "07.03.2026 14:30",
+          "mandante": "FC Koln",
+          "visitante": "Dortmund",
+          "gm": 1,
+          "gv": 2,
+          "res": "D"
+        },
+        {
+          "data": "21.02.2026 11:30",
+          "mandante": "FC Koln",
+          "visitante": "Hoffenheim",
+          "gm": 2,
+          "gv": 2,
+          "res": "E"
+        },
+        {
+          "data": "08.02.2026 11:30",
+          "mandante": "FC Koln",
+          "visitante": "RB Leipzig",
+          "gm": 1,
+          "gv": 2,
+          "res": "D"
+        }
+      ],
+      "jogos_fora": [
+        {
+          "data": "05.04.2026 12:30",
+          "mandante": "Eintracht Frankfurt",
+          "visitante": "FC Koln",
+          "gm": 2,
+          "gv": 2,
+          "res": "E"
+        },
+        {
+          "data": "14.03.2026 14:30",
+          "mandante": "Hamburger SV",
+          "visitante": "FC Koln",
+          "gm": 1,
+          "gv": 1,
+          "res": "E"
+        },
+        {
+          "data": "27.02.2026 16:30",
+          "mandante": "Augsburg",
+          "visitante": "FC Koln",
+          "gm": 2,
+          "gv": 0,
+          "res": "D"
+        },
+        {
+          "data": "14.02.2026 14:30",
+          "mandante": "Stuttgart",
+          "visitante": "FC Koln",
+          "gm": 3,
+          "gv": 1,
+          "res": "D"
+        },
+        {
+          "data": "25.01.2026 13:30",
+          "mandante": "Freiburg",
+          "visitante": "FC Koln",
+          "gm": 2,
+          "gv": 1,
+          "res": "D"
+        }
+      ],
+      "historico_geral": [
+        {
+          "data": "12.04.2026 10:30",
+          "adversario": "Werder Bremen",
+          "ctx": "CASA",
+          "golsPro": 3,
+          "golsCon": 1,
+          "gm": 3,
+          "gv": 1,
+          "res": "V"
+        },
+        {
+          "data": "05.04.2026 12:30",
+          "adversario": "Eintracht Frankfurt",
+          "ctx": "FORA",
+          "golsPro": 2,
+          "golsCon": 2,
+          "gm": 2,
+          "gv": 2,
+          "res": "E"
+        },
+        {
+          "data": "21.03.2026 11:30",
+          "adversario": "B. Monchengladbach",
+          "ctx": "CASA",
+          "golsPro": 3,
+          "golsCon": 3,
+          "gm": 3,
+          "gv": 3,
+          "res": "E"
+        },
+        {
+          "data": "14.03.2026 14:30",
+          "adversario": "Hamburger SV",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 1,
+          "gm": 1,
+          "gv": 1,
+          "res": "E"
+        },
+        {
+          "data": "07.03.2026 14:30",
+          "adversario": "Dortmund",
+          "ctx": "CASA",
+          "golsPro": 1,
+          "golsCon": 2,
+          "gm": 1,
+          "gv": 2,
+          "res": "D"
+        },
+        {
+          "data": "27.02.2026 16:30",
+          "adversario": "Augsburg",
+          "ctx": "FORA",
+          "golsPro": 0,
+          "golsCon": 2,
+          "gm": 2,
+          "gv": 0,
+          "res": "D"
+        },
+        {
+          "data": "21.02.2026 11:30",
+          "adversario": "Hoffenheim",
+          "ctx": "CASA",
+          "golsPro": 2,
+          "golsCon": 2,
+          "gm": 2,
+          "gv": 2,
+          "res": "E"
+        },
+        {
+          "data": "14.02.2026 14:30",
+          "adversario": "Stuttgart",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 3,
+          "gm": 3,
+          "gv": 1,
+          "res": "D"
+        },
+        {
+          "data": "08.02.2026 11:30",
+          "adversario": "RB Leipzig",
+          "ctx": "CASA",
+          "golsPro": 1,
+          "golsCon": 2,
+          "gm": 1,
+          "gv": 2,
+          "res": "D"
+        },
+        {
+          "data": "30.01.2026 16:30",
+          "adversario": "Wolfsburg",
+          "ctx": "CASA",
+          "golsPro": 1,
+          "golsCon": 0,
+          "gm": 1,
+          "gv": 0,
+          "res": "V"
+        },
+        {
+          "data": "25.01.2026 13:30",
+          "adversario": "Freiburg",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 2,
+          "gm": 2,
+          "gv": 1,
+          "res": "D"
+        },
+        {
+          "data": "17.01.2026 11:30",
+          "adversario": "Mainz",
+          "ctx": "CASA",
+          "golsPro": 2,
+          "golsCon": 1,
+          "gm": 2,
+          "gv": 1,
+          "res": "V"
+        },
+        {
+          "data": "14.01.2026 16:30",
+          "adversario": "Bayern Munich",
+          "ctx": "CASA",
+          "golsPro": 1,
+          "golsCon": 3,
+          "gm": 1,
+          "gv": 3,
+          "res": "D"
+        },
+        {
+          "data": "10.01.2026 11:30",
+          "adversario": "Heidenheim",
+          "ctx": "FORA",
+          "golsPro": 2,
+          "golsCon": 2,
+          "gm": 2,
+          "gv": 2,
+          "res": "E"
+        },
+        {
+          "data": "20.12.2025 11:30",
+          "adversario": "Union Berlin",
+          "ctx": "CASA",
+          "golsPro": 0,
+          "golsCon": 1,
+          "gm": 0,
+          "gv": 1,
+          "res": "D"
+        },
+        {
+          "data": "13.12.2025 14:30",
+          "adversario": "Bayer Leverkusen",
+          "ctx": "FORA",
+          "golsPro": 0,
+          "golsCon": 2,
+          "gm": 2,
+          "gv": 0,
+          "res": "D"
+        },
+        {
+          "data": "06.12.2025 11:30",
+          "adversario": "St. Pauli",
+          "ctx": "CASA",
+          "golsPro": 1,
+          "golsCon": 1,
+          "gm": 1,
+          "gv": 1,
+          "res": "E"
+        },
+        {
+          "data": "29.11.2025 11:30",
+          "adversario": "Werder Bremen",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 1,
+          "gm": 1,
+          "gv": 1,
+          "res": "E"
+        },
+        {
+          "data": "22.11.2025 14:30",
+          "adversario": "Eintracht Frankfurt",
+          "ctx": "CASA",
+          "golsPro": 3,
+          "golsCon": 4,
+          "gm": 3,
+          "gv": 4,
+          "res": "D"
+        },
+        {
+          "data": "08.11.2025 14:30",
+          "adversario": "B. Monchengladbach",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 3,
+          "gm": 3,
+          "gv": 1,
+          "res": "D"
+        },
+        {
+          "data": "02.11.2025 11:30",
+          "adversario": "Hamburger SV",
+          "ctx": "CASA",
+          "golsPro": 4,
+          "golsCon": 1,
+          "gm": 4,
+          "gv": 1,
+          "res": "V"
+        },
+        {
+          "data": "25.10.2025 13:30",
+          "adversario": "Dortmund",
+          "ctx": "FORA",
+          "golsPro": 0,
+          "golsCon": 1,
+          "gm": 1,
+          "gv": 0,
+          "res": "D"
+        },
+        {
+          "data": "18.10.2025 10:30",
+          "adversario": "Augsburg",
+          "ctx": "CASA",
+          "golsPro": 1,
+          "golsCon": 1,
+          "gm": 1,
+          "gv": 1,
+          "res": "E"
+        },
+        {
+          "data": "03.10.2025 15:30",
+          "adversario": "Hoffenheim",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 0,
+          "gm": 0,
+          "gv": 1,
+          "res": "V"
+        },
+        {
+          "data": "28.09.2025 12:30",
+          "adversario": "Stuttgart",
+          "ctx": "CASA",
+          "golsPro": 1,
+          "golsCon": 2,
+          "gm": 1,
+          "gv": 2,
+          "res": "D"
+        },
+        {
+          "data": "20.09.2025 13:30",
+          "adversario": "RB Leipzig",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 3,
+          "gm": 3,
+          "gv": 1,
+          "res": "D"
+        },
+        {
+          "data": "13.09.2025 10:30",
+          "adversario": "Wolfsburg",
+          "ctx": "FORA",
+          "golsPro": 3,
+          "golsCon": 3,
+          "gm": 3,
+          "gv": 3,
+          "res": "E"
+        },
+        {
+          "data": "31.08.2025 14:30",
+          "adversario": "Freiburg",
+          "ctx": "CASA",
+          "golsPro": 4,
+          "golsCon": 1,
+          "gm": 4,
+          "gv": 1,
+          "res": "V"
+        },
+        {
+          "data": "24.08.2025 10:30",
+          "adversario": "Mainz",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 0,
+          "gm": 0,
+          "gv": 1,
+          "res": "V"
+        }
+      ],
+      "historico_casa": [
+        {
+          "data": "12.04.2026 10:30",
+          "adversario": "Werder Bremen",
+          "ctx": "CASA",
+          "golsPro": 3,
+          "golsCon": 1,
+          "gm": 3,
+          "gv": 1,
+          "res": "V"
+        },
+        {
+          "data": "21.03.2026 11:30",
+          "adversario": "B. Monchengladbach",
+          "ctx": "CASA",
+          "golsPro": 3,
+          "golsCon": 3,
+          "gm": 3,
+          "gv": 3,
+          "res": "E"
+        },
+        {
+          "data": "07.03.2026 14:30",
+          "adversario": "Dortmund",
+          "ctx": "CASA",
+          "golsPro": 1,
+          "golsCon": 2,
+          "gm": 1,
+          "gv": 2,
+          "res": "D"
+        },
+        {
+          "data": "21.02.2026 11:30",
+          "adversario": "Hoffenheim",
+          "ctx": "CASA",
+          "golsPro": 2,
+          "golsCon": 2,
+          "gm": 2,
+          "gv": 2,
+          "res": "E"
+        },
+        {
+          "data": "08.02.2026 11:30",
+          "adversario": "RB Leipzig",
+          "ctx": "CASA",
+          "golsPro": 1,
+          "golsCon": 2,
+          "gm": 1,
+          "gv": 2,
+          "res": "D"
+        },
+        {
+          "data": "30.01.2026 16:30",
+          "adversario": "Wolfsburg",
+          "ctx": "CASA",
+          "golsPro": 1,
+          "golsCon": 0,
+          "gm": 1,
+          "gv": 0,
+          "res": "V"
+        },
+        {
+          "data": "17.01.2026 11:30",
+          "adversario": "Mainz",
+          "ctx": "CASA",
+          "golsPro": 2,
+          "golsCon": 1,
+          "gm": 2,
+          "gv": 1,
+          "res": "V"
+        },
+        {
+          "data": "14.01.2026 16:30",
+          "adversario": "Bayern Munich",
+          "ctx": "CASA",
+          "golsPro": 1,
+          "golsCon": 3,
+          "gm": 1,
+          "gv": 3,
+          "res": "D"
+        },
+        {
+          "data": "20.12.2025 11:30",
+          "adversario": "Union Berlin",
+          "ctx": "CASA",
+          "golsPro": 0,
+          "golsCon": 1,
+          "gm": 0,
+          "gv": 1,
+          "res": "D"
+        },
+        {
+          "data": "06.12.2025 11:30",
+          "adversario": "St. Pauli",
+          "ctx": "CASA",
+          "golsPro": 1,
+          "golsCon": 1,
+          "gm": 1,
+          "gv": 1,
+          "res": "E"
+        },
+        {
+          "data": "22.11.2025 14:30",
+          "adversario": "Eintracht Frankfurt",
+          "ctx": "CASA",
+          "golsPro": 3,
+          "golsCon": 4,
+          "gm": 3,
+          "gv": 4,
+          "res": "D"
+        },
+        {
+          "data": "02.11.2025 11:30",
+          "adversario": "Hamburger SV",
+          "ctx": "CASA",
+          "golsPro": 4,
+          "golsCon": 1,
+          "gm": 4,
+          "gv": 1,
+          "res": "V"
+        },
+        {
+          "data": "18.10.2025 10:30",
+          "adversario": "Augsburg",
+          "ctx": "CASA",
+          "golsPro": 1,
+          "golsCon": 1,
+          "gm": 1,
+          "gv": 1,
+          "res": "E"
+        },
+        {
+          "data": "28.09.2025 12:30",
+          "adversario": "Stuttgart",
+          "ctx": "CASA",
+          "golsPro": 1,
+          "golsCon": 2,
+          "gm": 1,
+          "gv": 2,
+          "res": "D"
+        },
+        {
+          "data": "31.08.2025 14:30",
+          "adversario": "Freiburg",
+          "ctx": "CASA",
+          "golsPro": 4,
+          "golsCon": 1,
+          "gm": 4,
+          "gv": 1,
+          "res": "V"
+        }
+      ],
+      "historico_fora": [
+        {
+          "data": "05.04.2026 12:30",
+          "adversario": "Eintracht Frankfurt",
+          "ctx": "FORA",
+          "golsPro": 2,
+          "golsCon": 2,
+          "gm": 2,
+          "gv": 2,
+          "res": "E"
+        },
+        {
+          "data": "14.03.2026 14:30",
+          "adversario": "Hamburger SV",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 1,
+          "gm": 1,
+          "gv": 1,
+          "res": "E"
+        },
+        {
+          "data": "27.02.2026 16:30",
+          "adversario": "Augsburg",
+          "ctx": "FORA",
+          "golsPro": 0,
+          "golsCon": 2,
+          "gm": 2,
+          "gv": 0,
+          "res": "D"
+        },
+        {
+          "data": "14.02.2026 14:30",
+          "adversario": "Stuttgart",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 3,
+          "gm": 3,
+          "gv": 1,
+          "res": "D"
+        },
+        {
+          "data": "25.01.2026 13:30",
+          "adversario": "Freiburg",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 2,
+          "gm": 2,
+          "gv": 1,
+          "res": "D"
+        },
+        {
+          "data": "10.01.2026 11:30",
+          "adversario": "Heidenheim",
+          "ctx": "FORA",
+          "golsPro": 2,
+          "golsCon": 2,
+          "gm": 2,
+          "gv": 2,
+          "res": "E"
+        },
+        {
+          "data": "13.12.2025 14:30",
+          "adversario": "Bayer Leverkusen",
+          "ctx": "FORA",
+          "golsPro": 0,
+          "golsCon": 2,
+          "gm": 2,
+          "gv": 0,
+          "res": "D"
+        },
+        {
+          "data": "29.11.2025 11:30",
+          "adversario": "Werder Bremen",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 1,
+          "gm": 1,
+          "gv": 1,
+          "res": "E"
+        },
+        {
+          "data": "08.11.2025 14:30",
+          "adversario": "B. Monchengladbach",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 3,
+          "gm": 3,
+          "gv": 1,
+          "res": "D"
+        },
+        {
+          "data": "25.10.2025 13:30",
+          "adversario": "Dortmund",
+          "ctx": "FORA",
+          "golsPro": 0,
+          "golsCon": 1,
+          "gm": 1,
+          "gv": 0,
+          "res": "D"
+        },
+        {
+          "data": "03.10.2025 15:30",
+          "adversario": "Hoffenheim",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 0,
+          "gm": 0,
+          "gv": 1,
+          "res": "V"
+        },
+        {
+          "data": "20.09.2025 13:30",
+          "adversario": "RB Leipzig",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 3,
+          "gm": 3,
+          "gv": 1,
+          "res": "D"
+        },
+        {
+          "data": "13.09.2025 10:30",
+          "adversario": "Wolfsburg",
+          "ctx": "FORA",
+          "golsPro": 3,
+          "golsCon": 3,
+          "gm": 3,
+          "gv": 3,
+          "res": "E"
+        },
+        {
+          "data": "24.08.2025 10:30",
+          "adversario": "Mainz",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 0,
+          "gm": 0,
+          "gv": 1,
+          "res": "V"
+        }
+      ],
+      "perfil": "EQUILIBRADO",
       "tendencia_empate": "MEDIO",
       "notas_yaaken": [
         "❄️ Crise! 3/5 derrotas recentes"
@@ -9417,23 +10332,23 @@ window.ESCOTEIRO_BUN = {
     },
     "B. Monchengladbach": {
       "nome": "B. Monchengladbach",
-      "posicao": 13,
-      "jogos": 28,
+      "posicao": 14,
+      "jogos": 29,
       "pontos": 30,
       "geral": {
         "v": 7,
         "e": 9,
-        "d": 12,
-        "j": 28,
-        "v_pct": 25,
-        "e_pct": 32,
-        "d_pct": 43,
+        "d": 13,
+        "j": 29,
+        "v_pct": 24,
+        "e_pct": 31,
+        "d_pct": 45,
         "gp": 35,
-        "gc": 48,
-        "gp_jogo": 1.25,
-        "gc_jogo": 1.71,
-        "saldo": -13,
-        "media_gols_jogo": 2.96
+        "gc": 49,
+        "gp_jogo": 1.21,
+        "gc_jogo": 1.69,
+        "saldo": -14,
+        "media_gols_jogo": 2.9
       },
       "casa": {
         "v": 4,
@@ -9452,16 +10367,16 @@ window.ESCOTEIRO_BUN = {
       "fora": {
         "v": 3,
         "e": 4,
-        "d": 7,
-        "j": 14,
+        "d": 8,
+        "j": 15,
         "gp": 17,
-        "gc": 25,
-        "gp_jogo": 1.21,
-        "gc_jogo": 1.79,
-        "v_pct": 21,
-        "e_pct": 29,
-        "d_pct": 50,
-        "media_gols": 3
+        "gc": 26,
+        "gp_jogo": 1.13,
+        "gc_jogo": 1.73,
+        "v_pct": 20,
+        "e_pct": 27,
+        "d_pct": 53,
+        "media_gols": 2.87
       },
       "forma_recente": [
         "D",
@@ -9471,6 +10386,18 @@ window.ESCOTEIRO_BUN = {
         "E"
       ],
       "jogos_geral": [
+        {
+          "data": "11.04.2026 10:30",
+          "mandante": "RB Leipzig",
+          "visitante": "B. Monchengladbach",
+          "gm": 1,
+          "gv": 0,
+          "ctx": "FORA",
+          "outro": "RB Leipzig",
+          "golsPro": 0,
+          "golsCon": 1,
+          "res": "D"
+        },
         {
           "data": "04.04.2026 10:30",
           "mandante": "B. Monchengladbach",
@@ -9518,18 +10445,6 @@ window.ESCOTEIRO_BUN = {
           "golsPro": 1,
           "golsCon": 4,
           "res": "D"
-        },
-        {
-          "data": "28.02.2026 11:30",
-          "mandante": "B. Monchengladbach",
-          "visitante": "Union Berlin",
-          "gm": 1,
-          "gv": 0,
-          "ctx": "CASA",
-          "outro": "Union Berlin",
-          "golsPro": 1,
-          "golsCon": 0,
-          "res": "V"
         }
       ],
       "jogos_casa": [
@@ -9576,6 +10491,14 @@ window.ESCOTEIRO_BUN = {
       ],
       "jogos_fora": [
         {
+          "data": "11.04.2026 10:30",
+          "mandante": "RB Leipzig",
+          "visitante": "B. Monchengladbach",
+          "gm": 1,
+          "gv": 0,
+          "res": "D"
+        },
+        {
           "data": "21.03.2026 11:30",
           "mandante": "FC Koln",
           "visitante": "B. Monchengladbach",
@@ -9606,17 +10529,19 @@ window.ESCOTEIRO_BUN = {
           "gm": 3,
           "gv": 0,
           "res": "D"
-        },
-        {
-          "data": "31.01.2026 11:30",
-          "mandante": "Werder Bremen",
-          "visitante": "B. Monchengladbach",
-          "gm": 1,
-          "gv": 1,
-          "res": "E"
         }
       ],
       "historico_geral": [
+        {
+          "data": "11.04.2026 10:30",
+          "adversario": "RB Leipzig",
+          "ctx": "FORA",
+          "golsPro": 0,
+          "golsCon": 1,
+          "gm": 1,
+          "gv": 0,
+          "res": "D"
+        },
         {
           "data": "04.04.2026 10:30",
           "adversario": "Heidenheim",
@@ -10041,6 +10966,16 @@ window.ESCOTEIRO_BUN = {
         }
       ],
       "historico_fora": [
+        {
+          "data": "11.04.2026 10:30",
+          "adversario": "RB Leipzig",
+          "ctx": "FORA",
+          "golsPro": 0,
+          "golsCon": 1,
+          "gm": 1,
+          "gv": 0,
+          "res": "D"
+        },
         {
           "data": "21.03.2026 11:30",
           "adversario": "FC Koln",
@@ -10188,798 +11123,25 @@ window.ESCOTEIRO_BUN = {
         "❄️ Crise! 3/5 derrotas recentes"
       ]
     },
-    "St. Pauli": {
-      "nome": "St. Pauli",
-      "posicao": 14,
-      "jogos": 28,
-      "pontos": 28,
-      "geral": {
-        "v": 7,
-        "e": 7,
-        "d": 14,
-        "j": 28,
-        "v_pct": 25,
-        "e_pct": 25,
-        "d_pct": 50,
-        "gp": 28,
-        "gc": 44,
-        "gp_jogo": 1,
-        "gc_jogo": 1.57,
-        "saldo": -16,
-        "media_gols_jogo": 2.57
-      },
-      "casa": {
-        "v": 5,
-        "e": 4,
-        "d": 4,
-        "j": 13,
-        "gp": 17,
-        "gc": 19,
-        "gp_jogo": 1.31,
-        "gc_jogo": 1.46,
-        "v_pct": 38,
-        "e_pct": 31,
-        "d_pct": 31,
-        "media_gols": 2.77
-      },
-      "fora": {
-        "v": 2,
-        "e": 3,
-        "d": 10,
-        "j": 15,
-        "gp": 11,
-        "gc": 25,
-        "gp_jogo": 0.73,
-        "gc_jogo": 1.67,
-        "v_pct": 13,
-        "e_pct": 20,
-        "d_pct": 67,
-        "media_gols": 2.4
-      },
-      "forma_recente": [
-        "E",
-        "V",
-        "V",
-        "D",
-        "E"
-      ],
-      "jogos_geral": [
-        {
-          "data": "05.04.2026 10:30",
-          "mandante": "Union Berlin",
-          "visitante": "St. Pauli",
-          "gm": 1,
-          "gv": 1,
-          "ctx": "FORA",
-          "outro": "Union Berlin",
-          "golsPro": 1,
-          "golsCon": 1,
-          "res": "E"
-        },
-        {
-          "data": "22.03.2026 13:30",
-          "mandante": "St. Pauli",
-          "visitante": "Freiburg",
-          "gm": 1,
-          "gv": 2,
-          "ctx": "CASA",
-          "outro": "Freiburg",
-          "golsPro": 1,
-          "golsCon": 2,
-          "res": "D"
-        },
-        {
-          "data": "13.03.2026 16:30",
-          "mandante": "B. Monchengladbach",
-          "visitante": "St. Pauli",
-          "gm": 2,
-          "gv": 0,
-          "ctx": "FORA",
-          "outro": "B. Monchengladbach",
-          "golsPro": 0,
-          "golsCon": 2,
-          "res": "D"
-        },
-        {
-          "data": "08.03.2026 11:30",
-          "mandante": "St. Pauli",
-          "visitante": "Eintracht Frankfurt",
-          "gm": 0,
-          "gv": 0,
-          "ctx": "CASA",
-          "outro": "Eintracht Frankfurt",
-          "golsPro": 0,
-          "golsCon": 0,
-          "res": "E"
-        },
-        {
-          "data": "28.02.2026 11:30",
-          "mandante": "Hoffenheim",
-          "visitante": "St. Pauli",
-          "gm": 0,
-          "gv": 1,
-          "ctx": "FORA",
-          "outro": "Hoffenheim",
-          "golsPro": 1,
-          "golsCon": 0,
-          "res": "V"
-        }
-      ],
-      "jogos_casa": [
-        {
-          "data": "22.03.2026 13:30",
-          "mandante": "St. Pauli",
-          "visitante": "Freiburg",
-          "gm": 1,
-          "gv": 2,
-          "res": "D"
-        },
-        {
-          "data": "08.03.2026 11:30",
-          "mandante": "St. Pauli",
-          "visitante": "Eintracht Frankfurt",
-          "gm": 0,
-          "gv": 0,
-          "res": "E"
-        },
-        {
-          "data": "22.02.2026 13:30",
-          "mandante": "St. Pauli",
-          "visitante": "Werder Bremen",
-          "gm": 2,
-          "gv": 1,
-          "res": "V"
-        },
-        {
-          "data": "07.02.2026 11:30",
-          "mandante": "St. Pauli",
-          "visitante": "Stuttgart",
-          "gm": 2,
-          "gv": 1,
-          "res": "V"
-        },
-        {
-          "data": "27.01.2026 16:30",
-          "mandante": "St. Pauli",
-          "visitante": "RB Leipzig",
-          "gm": 1,
-          "gv": 1,
-          "res": "E"
-        }
-      ],
-      "jogos_fora": [
-        {
-          "data": "05.04.2026 10:30",
-          "mandante": "Union Berlin",
-          "visitante": "St. Pauli",
-          "gm": 1,
-          "gv": 1,
-          "res": "E"
-        },
-        {
-          "data": "13.03.2026 16:30",
-          "mandante": "B. Monchengladbach",
-          "visitante": "St. Pauli",
-          "gm": 2,
-          "gv": 0,
-          "res": "D"
-        },
-        {
-          "data": "28.02.2026 11:30",
-          "mandante": "Hoffenheim",
-          "visitante": "St. Pauli",
-          "gm": 0,
-          "gv": 1,
-          "res": "V"
-        },
-        {
-          "data": "14.02.2026 11:30",
-          "mandante": "Bayer Leverkusen",
-          "visitante": "St. Pauli",
-          "gm": 4,
-          "gv": 0,
-          "res": "D"
-        },
-        {
-          "data": "31.01.2026 11:30",
-          "mandante": "Augsburg",
-          "visitante": "St. Pauli",
-          "gm": 2,
-          "gv": 1,
-          "res": "D"
-        }
-      ],
-      "historico_geral": [
-        {
-          "data": "05.04.2026 10:30",
-          "adversario": "Union Berlin",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 1,
-          "gm": 1,
-          "gv": 1,
-          "res": "E"
-        },
-        {
-          "data": "22.03.2026 13:30",
-          "adversario": "Freiburg",
-          "ctx": "CASA",
-          "golsPro": 1,
-          "golsCon": 2,
-          "gm": 1,
-          "gv": 2,
-          "res": "D"
-        },
-        {
-          "data": "13.03.2026 16:30",
-          "adversario": "B. Monchengladbach",
-          "ctx": "FORA",
-          "golsPro": 0,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 0,
-          "res": "D"
-        },
-        {
-          "data": "08.03.2026 11:30",
-          "adversario": "Eintracht Frankfurt",
-          "ctx": "CASA",
-          "golsPro": 0,
-          "golsCon": 0,
-          "gm": 0,
-          "gv": 0,
-          "res": "E"
-        },
-        {
-          "data": "28.02.2026 11:30",
-          "adversario": "Hoffenheim",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 0,
-          "gm": 0,
-          "gv": 1,
-          "res": "V"
-        },
-        {
-          "data": "22.02.2026 13:30",
-          "adversario": "Werder Bremen",
-          "ctx": "CASA",
-          "golsPro": 2,
-          "golsCon": 1,
-          "gm": 2,
-          "gv": 1,
-          "res": "V"
-        },
-        {
-          "data": "14.02.2026 11:30",
-          "adversario": "Bayer Leverkusen",
-          "ctx": "FORA",
-          "golsPro": 0,
-          "golsCon": 4,
-          "gm": 4,
-          "gv": 0,
-          "res": "D"
-        },
-        {
-          "data": "07.02.2026 11:30",
-          "adversario": "Stuttgart",
-          "ctx": "CASA",
-          "golsPro": 2,
-          "golsCon": 1,
-          "gm": 2,
-          "gv": 1,
-          "res": "V"
-        },
-        {
-          "data": "31.01.2026 11:30",
-          "adversario": "Augsburg",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 1,
-          "res": "D"
-        },
-        {
-          "data": "27.01.2026 16:30",
-          "adversario": "RB Leipzig",
-          "ctx": "CASA",
-          "golsPro": 1,
-          "golsCon": 1,
-          "gm": 1,
-          "gv": 1,
-          "res": "E"
-        },
-        {
-          "data": "23.01.2026 16:30",
-          "adversario": "Hamburger SV",
-          "ctx": "CASA",
-          "golsPro": 0,
-          "golsCon": 0,
-          "gm": 0,
-          "gv": 0,
-          "res": "E"
-        },
-        {
-          "data": "17.01.2026 11:30",
-          "adversario": "Dortmund",
-          "ctx": "FORA",
-          "golsPro": 2,
-          "golsCon": 3,
-          "gm": 3,
-          "gv": 2,
-          "res": "D"
-        },
-        {
-          "data": "14.01.2026 14:30",
-          "adversario": "Wolfsburg",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 1,
-          "res": "D"
-        },
-        {
-          "data": "21.12.2025 11:30",
-          "adversario": "Mainz",
-          "ctx": "FORA",
-          "golsPro": 0,
-          "golsCon": 0,
-          "gm": 0,
-          "gv": 0,
-          "res": "E"
-        },
-        {
-          "data": "13.12.2025 11:30",
-          "adversario": "Heidenheim",
-          "ctx": "CASA",
-          "golsPro": 2,
-          "golsCon": 1,
-          "gm": 2,
-          "gv": 1,
-          "res": "V"
-        },
-        {
-          "data": "06.12.2025 11:30",
-          "adversario": "FC Koln",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 1,
-          "gm": 1,
-          "gv": 1,
-          "res": "E"
-        },
-        {
-          "data": "29.11.2025 11:30",
-          "adversario": "Bayern Munich",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 3,
-          "gm": 3,
-          "gv": 1,
-          "res": "D"
-        },
-        {
-          "data": "23.11.2025 13:30",
-          "adversario": "Union Berlin",
-          "ctx": "CASA",
-          "golsPro": 0,
-          "golsCon": 1,
-          "gm": 0,
-          "gv": 1,
-          "res": "D"
-        },
-        {
-          "data": "09.11.2025 11:30",
-          "adversario": "Freiburg",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 1,
-          "res": "D"
-        },
-        {
-          "data": "01.11.2025 11:30",
-          "adversario": "B. Monchengladbach",
-          "ctx": "CASA",
-          "golsPro": 0,
-          "golsCon": 4,
-          "gm": 0,
-          "gv": 4,
-          "res": "D"
-        },
-        {
-          "data": "28.10.2025 16:45",
-          "adversario": "Hoffenheim",
-          "ctx": "CASA",
-          "golsPro": 3,
-          "golsCon": 2,
-          "gm": 3,
-          "gv": 2,
-          "res": "V"
-        },
-        {
-          "data": "25.10.2025 10:30",
-          "adversario": "Eintracht Frankfurt",
-          "ctx": "FORA",
-          "golsPro": 0,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 0,
-          "res": "D"
-        },
-        {
-          "data": "04.10.2025 10:30",
-          "adversario": "Werder Bremen",
-          "ctx": "FORA",
-          "golsPro": 0,
-          "golsCon": 1,
-          "gm": 1,
-          "gv": 0,
-          "res": "D"
-        },
-        {
-          "data": "27.09.2025 10:30",
-          "adversario": "Bayer Leverkusen",
-          "ctx": "CASA",
-          "golsPro": 1,
-          "golsCon": 2,
-          "gm": 1,
-          "gv": 2,
-          "res": "D"
-        },
-        {
-          "data": "19.09.2025 15:30",
-          "adversario": "Stuttgart",
-          "ctx": "FORA",
-          "golsPro": 0,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 0,
-          "res": "D"
-        },
-        {
-          "data": "14.09.2025 10:30",
-          "adversario": "Augsburg",
-          "ctx": "CASA",
-          "golsPro": 2,
-          "golsCon": 1,
-          "gm": 2,
-          "gv": 1,
-          "res": "V"
-        },
-        {
-          "data": "29.08.2025 15:30",
-          "adversario": "Hamburger SV",
-          "ctx": "FORA",
-          "golsPro": 2,
-          "golsCon": 0,
-          "gm": 0,
-          "gv": 2,
-          "res": "V"
-        },
-        {
-          "data": "23.08.2025 13:30",
-          "adversario": "Dortmund",
-          "ctx": "CASA",
-          "golsPro": 3,
-          "golsCon": 3,
-          "gm": 3,
-          "gv": 3,
-          "res": "E"
-        }
-      ],
-      "historico_casa": [
-        {
-          "data": "22.03.2026 13:30",
-          "adversario": "Freiburg",
-          "ctx": "CASA",
-          "golsPro": 1,
-          "golsCon": 2,
-          "gm": 1,
-          "gv": 2,
-          "res": "D"
-        },
-        {
-          "data": "08.03.2026 11:30",
-          "adversario": "Eintracht Frankfurt",
-          "ctx": "CASA",
-          "golsPro": 0,
-          "golsCon": 0,
-          "gm": 0,
-          "gv": 0,
-          "res": "E"
-        },
-        {
-          "data": "22.02.2026 13:30",
-          "adversario": "Werder Bremen",
-          "ctx": "CASA",
-          "golsPro": 2,
-          "golsCon": 1,
-          "gm": 2,
-          "gv": 1,
-          "res": "V"
-        },
-        {
-          "data": "07.02.2026 11:30",
-          "adversario": "Stuttgart",
-          "ctx": "CASA",
-          "golsPro": 2,
-          "golsCon": 1,
-          "gm": 2,
-          "gv": 1,
-          "res": "V"
-        },
-        {
-          "data": "27.01.2026 16:30",
-          "adversario": "RB Leipzig",
-          "ctx": "CASA",
-          "golsPro": 1,
-          "golsCon": 1,
-          "gm": 1,
-          "gv": 1,
-          "res": "E"
-        },
-        {
-          "data": "23.01.2026 16:30",
-          "adversario": "Hamburger SV",
-          "ctx": "CASA",
-          "golsPro": 0,
-          "golsCon": 0,
-          "gm": 0,
-          "gv": 0,
-          "res": "E"
-        },
-        {
-          "data": "13.12.2025 11:30",
-          "adversario": "Heidenheim",
-          "ctx": "CASA",
-          "golsPro": 2,
-          "golsCon": 1,
-          "gm": 2,
-          "gv": 1,
-          "res": "V"
-        },
-        {
-          "data": "23.11.2025 13:30",
-          "adversario": "Union Berlin",
-          "ctx": "CASA",
-          "golsPro": 0,
-          "golsCon": 1,
-          "gm": 0,
-          "gv": 1,
-          "res": "D"
-        },
-        {
-          "data": "01.11.2025 11:30",
-          "adversario": "B. Monchengladbach",
-          "ctx": "CASA",
-          "golsPro": 0,
-          "golsCon": 4,
-          "gm": 0,
-          "gv": 4,
-          "res": "D"
-        },
-        {
-          "data": "28.10.2025 16:45",
-          "adversario": "Hoffenheim",
-          "ctx": "CASA",
-          "golsPro": 3,
-          "golsCon": 2,
-          "gm": 3,
-          "gv": 2,
-          "res": "V"
-        },
-        {
-          "data": "27.09.2025 10:30",
-          "adversario": "Bayer Leverkusen",
-          "ctx": "CASA",
-          "golsPro": 1,
-          "golsCon": 2,
-          "gm": 1,
-          "gv": 2,
-          "res": "D"
-        },
-        {
-          "data": "14.09.2025 10:30",
-          "adversario": "Augsburg",
-          "ctx": "CASA",
-          "golsPro": 2,
-          "golsCon": 1,
-          "gm": 2,
-          "gv": 1,
-          "res": "V"
-        },
-        {
-          "data": "23.08.2025 13:30",
-          "adversario": "Dortmund",
-          "ctx": "CASA",
-          "golsPro": 3,
-          "golsCon": 3,
-          "gm": 3,
-          "gv": 3,
-          "res": "E"
-        }
-      ],
-      "historico_fora": [
-        {
-          "data": "05.04.2026 10:30",
-          "adversario": "Union Berlin",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 1,
-          "gm": 1,
-          "gv": 1,
-          "res": "E"
-        },
-        {
-          "data": "13.03.2026 16:30",
-          "adversario": "B. Monchengladbach",
-          "ctx": "FORA",
-          "golsPro": 0,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 0,
-          "res": "D"
-        },
-        {
-          "data": "28.02.2026 11:30",
-          "adversario": "Hoffenheim",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 0,
-          "gm": 0,
-          "gv": 1,
-          "res": "V"
-        },
-        {
-          "data": "14.02.2026 11:30",
-          "adversario": "Bayer Leverkusen",
-          "ctx": "FORA",
-          "golsPro": 0,
-          "golsCon": 4,
-          "gm": 4,
-          "gv": 0,
-          "res": "D"
-        },
-        {
-          "data": "31.01.2026 11:30",
-          "adversario": "Augsburg",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 1,
-          "res": "D"
-        },
-        {
-          "data": "17.01.2026 11:30",
-          "adversario": "Dortmund",
-          "ctx": "FORA",
-          "golsPro": 2,
-          "golsCon": 3,
-          "gm": 3,
-          "gv": 2,
-          "res": "D"
-        },
-        {
-          "data": "14.01.2026 14:30",
-          "adversario": "Wolfsburg",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 1,
-          "res": "D"
-        },
-        {
-          "data": "21.12.2025 11:30",
-          "adversario": "Mainz",
-          "ctx": "FORA",
-          "golsPro": 0,
-          "golsCon": 0,
-          "gm": 0,
-          "gv": 0,
-          "res": "E"
-        },
-        {
-          "data": "06.12.2025 11:30",
-          "adversario": "FC Koln",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 1,
-          "gm": 1,
-          "gv": 1,
-          "res": "E"
-        },
-        {
-          "data": "29.11.2025 11:30",
-          "adversario": "Bayern Munich",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 3,
-          "gm": 3,
-          "gv": 1,
-          "res": "D"
-        },
-        {
-          "data": "09.11.2025 11:30",
-          "adversario": "Freiburg",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 1,
-          "res": "D"
-        },
-        {
-          "data": "25.10.2025 10:30",
-          "adversario": "Eintracht Frankfurt",
-          "ctx": "FORA",
-          "golsPro": 0,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 0,
-          "res": "D"
-        },
-        {
-          "data": "04.10.2025 10:30",
-          "adversario": "Werder Bremen",
-          "ctx": "FORA",
-          "golsPro": 0,
-          "golsCon": 1,
-          "gm": 1,
-          "gv": 0,
-          "res": "D"
-        },
-        {
-          "data": "19.09.2025 15:30",
-          "adversario": "Stuttgart",
-          "ctx": "FORA",
-          "golsPro": 0,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 0,
-          "res": "D"
-        },
-        {
-          "data": "29.08.2025 15:30",
-          "adversario": "Hamburger SV",
-          "ctx": "FORA",
-          "golsPro": 2,
-          "golsCon": 0,
-          "gm": 0,
-          "gv": 2,
-          "res": "V"
-        }
-      ],
-      "perfil": "EQUILIBRADO",
-      "tendencia_empate": "MEDIO",
-      "notas_yaaken": [
-        "⚠️ Perda fora alta (67%) — evitar como visitante"
-      ]
-    },
     "Werder Bremen": {
       "nome": "Werder Bremen",
       "posicao": 15,
-      "jogos": 28,
+      "jogos": 29,
       "pontos": 28,
       "geral": {
         "v": 7,
         "e": 7,
-        "d": 14,
-        "j": 28,
-        "v_pct": 25,
-        "e_pct": 25,
-        "d_pct": 50,
-        "gp": 31,
-        "gc": 49,
-        "gp_jogo": 1.11,
-        "gc_jogo": 1.75,
-        "saldo": -18,
-        "media_gols_jogo": 2.86
+        "d": 15,
+        "j": 29,
+        "v_pct": 24,
+        "e_pct": 24,
+        "d_pct": 52,
+        "gp": 32,
+        "gc": 52,
+        "gp_jogo": 1.1,
+        "gc_jogo": 1.79,
+        "saldo": -20,
+        "media_gols_jogo": 2.9
       },
       "casa": {
         "v": 4,
@@ -10998,16 +11160,16 @@ window.ESCOTEIRO_BUN = {
       "fora": {
         "v": 3,
         "e": 3,
-        "d": 8,
-        "j": 14,
-        "gp": 16,
-        "gc": 24,
-        "gp_jogo": 1.14,
-        "gc_jogo": 1.71,
-        "v_pct": 21,
-        "e_pct": 21,
-        "d_pct": 57,
-        "media_gols": 2.86
+        "d": 9,
+        "j": 15,
+        "gp": 17,
+        "gc": 27,
+        "gp_jogo": 1.13,
+        "gc_jogo": 1.8,
+        "v_pct": 20,
+        "e_pct": 20,
+        "d_pct": 60,
+        "media_gols": 2.93
       },
       "forma_recente": [
         "D",
@@ -11017,6 +11179,18 @@ window.ESCOTEIRO_BUN = {
         "D"
       ],
       "jogos_geral": [
+        {
+          "data": "12.04.2026 10:30",
+          "mandante": "FC Koln",
+          "visitante": "Werder Bremen",
+          "gm": 3,
+          "gv": 1,
+          "ctx": "FORA",
+          "outro": "FC Koln",
+          "golsPro": 1,
+          "golsCon": 3,
+          "res": "D"
+        },
         {
           "data": "04.04.2026 10:30",
           "mandante": "Werder Bremen",
@@ -11064,18 +11238,6 @@ window.ESCOTEIRO_BUN = {
           "golsPro": 4,
           "golsCon": 1,
           "res": "V"
-        },
-        {
-          "data": "28.02.2026 11:30",
-          "mandante": "Werder Bremen",
-          "visitante": "Heidenheim",
-          "gm": 2,
-          "gv": 0,
-          "ctx": "CASA",
-          "outro": "Heidenheim",
-          "golsPro": 2,
-          "golsCon": 0,
-          "res": "V"
         }
       ],
       "jogos_casa": [
@@ -11122,6 +11284,14 @@ window.ESCOTEIRO_BUN = {
       ],
       "jogos_fora": [
         {
+          "data": "12.04.2026 10:30",
+          "mandante": "FC Koln",
+          "visitante": "Werder Bremen",
+          "gm": 3,
+          "gv": 1,
+          "res": "D"
+        },
+        {
           "data": "21.03.2026 11:30",
           "mandante": "Wolfsburg",
           "visitante": "Werder Bremen",
@@ -11152,17 +11322,19 @@ window.ESCOTEIRO_BUN = {
           "gm": 1,
           "gv": 0,
           "res": "D"
-        },
-        {
-          "data": "24.01.2026 11:30",
-          "mandante": "Bayer Leverkusen",
-          "visitante": "Werder Bremen",
-          "gm": 1,
-          "gv": 0,
-          "res": "D"
         }
       ],
       "historico_geral": [
+        {
+          "data": "12.04.2026 10:30",
+          "adversario": "FC Koln",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 3,
+          "gm": 3,
+          "gv": 1,
+          "res": "D"
+        },
         {
           "data": "04.04.2026 10:30",
           "adversario": "RB Leipzig",
@@ -11588,6 +11760,16 @@ window.ESCOTEIRO_BUN = {
       ],
       "historico_fora": [
         {
+          "data": "12.04.2026 10:30",
+          "adversario": "FC Koln",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 3,
+          "gm": 3,
+          "gv": 1,
+          "res": "D"
+        },
+        {
           "data": "21.03.2026 11:30",
           "adversario": "Wolfsburg",
           "ctx": "FORA",
@@ -11729,207 +11911,208 @@ window.ESCOTEIRO_BUN = {
         }
       ],
       "perfil": "EQUILIBRADO",
-      "tendencia_empate": "MEDIO",
+      "tendencia_empate": "BAIXO",
       "notas_yaaken": [
+        "⚠️ Perda fora alta (60%) — evitar como visitante",
         "❄️ Crise! 5/5 derrotas recentes"
       ]
     },
-    "FC Koln": {
-      "nome": "FC Koln",
+    "St. Pauli": {
+      "nome": "St. Pauli",
       "posicao": 16,
-      "jogos": 28,
-      "pontos": 27,
+      "jogos": 29,
+      "pontos": 28,
       "geral": {
-        "v": 6,
-        "e": 9,
-        "d": 13,
-        "j": 28,
-        "v_pct": 21,
-        "e_pct": 32,
-        "d_pct": 46,
-        "gp": 40,
+        "v": 7,
+        "e": 7,
+        "d": 15,
+        "j": 29,
+        "v_pct": 24,
+        "e_pct": 24,
+        "d_pct": 52,
+        "gp": 28,
         "gc": 49,
-        "gp_jogo": 1.43,
-        "gc_jogo": 1.75,
-        "saldo": -9,
-        "media_gols_jogo": 3.18
+        "gp_jogo": 0.97,
+        "gc_jogo": 1.69,
+        "saldo": -21,
+        "media_gols_jogo": 2.66
       },
       "casa": {
-        "v": 4,
+        "v": 5,
         "e": 4,
-        "d": 6,
+        "d": 5,
         "j": 14,
-        "gp": 25,
+        "gp": 17,
         "gc": 24,
-        "gp_jogo": 1.79,
+        "gp_jogo": 1.21,
         "gc_jogo": 1.71,
-        "v_pct": 29,
+        "v_pct": 36,
         "e_pct": 29,
-        "d_pct": 43,
-        "media_gols": 3.5
+        "d_pct": 36,
+        "media_gols": 2.93
       },
       "fora": {
         "v": 2,
-        "e": 5,
-        "d": 7,
-        "j": 14,
-        "gp": 15,
+        "e": 3,
+        "d": 10,
+        "j": 15,
+        "gp": 11,
         "gc": 25,
-        "gp_jogo": 1.07,
-        "gc_jogo": 1.79,
-        "v_pct": 14,
-        "e_pct": 36,
-        "d_pct": 50,
-        "media_gols": 2.86
+        "gp_jogo": 0.73,
+        "gc_jogo": 1.67,
+        "v_pct": 13,
+        "e_pct": 20,
+        "d_pct": 67,
+        "media_gols": 2.4
       },
       "forma_recente": [
-        "D",
-        "D",
-        "D",
         "E",
+        "V",
+        "V",
+        "D",
         "E"
       ],
       "jogos_geral": [
         {
-          "data": "05.04.2026 12:30",
-          "mandante": "Eintracht Frankfurt",
-          "visitante": "FC Koln",
-          "gm": 2,
-          "gv": 2,
-          "ctx": "FORA",
-          "outro": "Eintracht Frankfurt",
-          "golsPro": 2,
-          "golsCon": 2,
-          "res": "E"
-        },
-        {
-          "data": "21.03.2026 11:30",
-          "mandante": "FC Koln",
-          "visitante": "B. Monchengladbach",
-          "gm": 3,
-          "gv": 3,
+          "data": "11.04.2026 13:30",
+          "mandante": "St. Pauli",
+          "visitante": "Bayern Munich",
+          "gm": 0,
+          "gv": 5,
           "ctx": "CASA",
-          "outro": "B. Monchengladbach",
-          "golsPro": 3,
-          "golsCon": 3,
-          "res": "E"
+          "outro": "Bayern Munich",
+          "golsPro": 0,
+          "golsCon": 5,
+          "res": "D"
         },
         {
-          "data": "14.03.2026 14:30",
-          "mandante": "Hamburger SV",
-          "visitante": "FC Koln",
+          "data": "05.04.2026 10:30",
+          "mandante": "Union Berlin",
+          "visitante": "St. Pauli",
           "gm": 1,
           "gv": 1,
           "ctx": "FORA",
-          "outro": "Hamburger SV",
+          "outro": "Union Berlin",
           "golsPro": 1,
           "golsCon": 1,
           "res": "E"
         },
         {
-          "data": "07.03.2026 14:30",
-          "mandante": "FC Koln",
-          "visitante": "Dortmund",
+          "data": "22.03.2026 13:30",
+          "mandante": "St. Pauli",
+          "visitante": "Freiburg",
           "gm": 1,
           "gv": 2,
           "ctx": "CASA",
-          "outro": "Dortmund",
+          "outro": "Freiburg",
           "golsPro": 1,
           "golsCon": 2,
           "res": "D"
         },
         {
-          "data": "27.02.2026 16:30",
-          "mandante": "Augsburg",
-          "visitante": "FC Koln",
+          "data": "13.03.2026 16:30",
+          "mandante": "B. Monchengladbach",
+          "visitante": "St. Pauli",
           "gm": 2,
           "gv": 0,
           "ctx": "FORA",
-          "outro": "Augsburg",
+          "outro": "B. Monchengladbach",
           "golsPro": 0,
           "golsCon": 2,
           "res": "D"
+        },
+        {
+          "data": "08.03.2026 11:30",
+          "mandante": "St. Pauli",
+          "visitante": "Eintracht Frankfurt",
+          "gm": 0,
+          "gv": 0,
+          "ctx": "CASA",
+          "outro": "Eintracht Frankfurt",
+          "golsPro": 0,
+          "golsCon": 0,
+          "res": "E"
         }
       ],
       "jogos_casa": [
         {
-          "data": "21.03.2026 11:30",
-          "mandante": "FC Koln",
-          "visitante": "B. Monchengladbach",
-          "gm": 3,
-          "gv": 3,
-          "res": "E"
+          "data": "11.04.2026 13:30",
+          "mandante": "St. Pauli",
+          "visitante": "Bayern Munich",
+          "gm": 0,
+          "gv": 5,
+          "res": "D"
         },
         {
-          "data": "07.03.2026 14:30",
-          "mandante": "FC Koln",
-          "visitante": "Dortmund",
+          "data": "22.03.2026 13:30",
+          "mandante": "St. Pauli",
+          "visitante": "Freiburg",
           "gm": 1,
           "gv": 2,
           "res": "D"
         },
         {
-          "data": "21.02.2026 11:30",
-          "mandante": "FC Koln",
-          "visitante": "Hoffenheim",
-          "gm": 2,
-          "gv": 2,
-          "res": "E"
-        },
-        {
-          "data": "08.02.2026 11:30",
-          "mandante": "FC Koln",
-          "visitante": "RB Leipzig",
-          "gm": 1,
-          "gv": 2,
-          "res": "D"
-        },
-        {
-          "data": "30.01.2026 16:30",
-          "mandante": "FC Koln",
-          "visitante": "Wolfsburg",
-          "gm": 1,
+          "data": "08.03.2026 11:30",
+          "mandante": "St. Pauli",
+          "visitante": "Eintracht Frankfurt",
+          "gm": 0,
           "gv": 0,
+          "res": "E"
+        },
+        {
+          "data": "22.02.2026 13:30",
+          "mandante": "St. Pauli",
+          "visitante": "Werder Bremen",
+          "gm": 2,
+          "gv": 1,
+          "res": "V"
+        },
+        {
+          "data": "07.02.2026 11:30",
+          "mandante": "St. Pauli",
+          "visitante": "Stuttgart",
+          "gm": 2,
+          "gv": 1,
           "res": "V"
         }
       ],
       "jogos_fora": [
         {
-          "data": "05.04.2026 12:30",
-          "mandante": "Eintracht Frankfurt",
-          "visitante": "FC Koln",
-          "gm": 2,
-          "gv": 2,
-          "res": "E"
-        },
-        {
-          "data": "14.03.2026 14:30",
-          "mandante": "Hamburger SV",
-          "visitante": "FC Koln",
+          "data": "05.04.2026 10:30",
+          "mandante": "Union Berlin",
+          "visitante": "St. Pauli",
           "gm": 1,
           "gv": 1,
           "res": "E"
         },
         {
-          "data": "27.02.2026 16:30",
-          "mandante": "Augsburg",
-          "visitante": "FC Koln",
+          "data": "13.03.2026 16:30",
+          "mandante": "B. Monchengladbach",
+          "visitante": "St. Pauli",
           "gm": 2,
           "gv": 0,
           "res": "D"
         },
         {
-          "data": "14.02.2026 14:30",
-          "mandante": "Stuttgart",
-          "visitante": "FC Koln",
-          "gm": 3,
+          "data": "28.02.2026 11:30",
+          "mandante": "Hoffenheim",
+          "visitante": "St. Pauli",
+          "gm": 0,
           "gv": 1,
+          "res": "V"
+        },
+        {
+          "data": "14.02.2026 11:30",
+          "mandante": "Bayer Leverkusen",
+          "visitante": "St. Pauli",
+          "gm": 4,
+          "gv": 0,
           "res": "D"
         },
         {
-          "data": "25.01.2026 13:30",
-          "mandante": "Freiburg",
-          "visitante": "FC Koln",
+          "data": "31.01.2026 11:30",
+          "mandante": "Augsburg",
+          "visitante": "St. Pauli",
           "gm": 2,
           "gv": 1,
           "res": "D"
@@ -11937,28 +12120,18 @@ window.ESCOTEIRO_BUN = {
       ],
       "historico_geral": [
         {
-          "data": "05.04.2026 12:30",
-          "adversario": "Eintracht Frankfurt",
-          "ctx": "FORA",
-          "golsPro": 2,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 2,
-          "res": "E"
-        },
-        {
-          "data": "21.03.2026 11:30",
-          "adversario": "B. Monchengladbach",
+          "data": "11.04.2026 13:30",
+          "adversario": "Bayern Munich",
           "ctx": "CASA",
-          "golsPro": 3,
-          "golsCon": 3,
-          "gm": 3,
-          "gv": 3,
-          "res": "E"
+          "golsPro": 0,
+          "golsCon": 5,
+          "gm": 0,
+          "gv": 5,
+          "res": "D"
         },
         {
-          "data": "14.03.2026 14:30",
-          "adversario": "Hamburger SV",
+          "data": "05.04.2026 10:30",
+          "adversario": "Union Berlin",
           "ctx": "FORA",
           "golsPro": 1,
           "golsCon": 1,
@@ -11967,8 +12140,8 @@ window.ESCOTEIRO_BUN = {
           "res": "E"
         },
         {
-          "data": "07.03.2026 14:30",
-          "adversario": "Dortmund",
+          "data": "22.03.2026 13:30",
+          "adversario": "Freiburg",
           "ctx": "CASA",
           "golsPro": 1,
           "golsCon": 2,
@@ -11977,8 +12150,8 @@ window.ESCOTEIRO_BUN = {
           "res": "D"
         },
         {
-          "data": "27.02.2026 16:30",
-          "adversario": "Augsburg",
+          "data": "13.03.2026 16:30",
+          "adversario": "B. Monchengladbach",
           "ctx": "FORA",
           "golsPro": 0,
           "golsCon": 2,
@@ -11987,58 +12160,28 @@ window.ESCOTEIRO_BUN = {
           "res": "D"
         },
         {
-          "data": "21.02.2026 11:30",
-          "adversario": "Hoffenheim",
+          "data": "08.03.2026 11:30",
+          "adversario": "Eintracht Frankfurt",
           "ctx": "CASA",
-          "golsPro": 2,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 2,
+          "golsPro": 0,
+          "golsCon": 0,
+          "gm": 0,
+          "gv": 0,
           "res": "E"
         },
         {
-          "data": "14.02.2026 14:30",
-          "adversario": "Stuttgart",
+          "data": "28.02.2026 11:30",
+          "adversario": "Hoffenheim",
           "ctx": "FORA",
           "golsPro": 1,
-          "golsCon": 3,
-          "gm": 3,
-          "gv": 1,
-          "res": "D"
-        },
-        {
-          "data": "08.02.2026 11:30",
-          "adversario": "RB Leipzig",
-          "ctx": "CASA",
-          "golsPro": 1,
-          "golsCon": 2,
-          "gm": 1,
-          "gv": 2,
-          "res": "D"
-        },
-        {
-          "data": "30.01.2026 16:30",
-          "adversario": "Wolfsburg",
-          "ctx": "CASA",
-          "golsPro": 1,
           "golsCon": 0,
-          "gm": 1,
-          "gv": 0,
+          "gm": 0,
+          "gv": 1,
           "res": "V"
         },
         {
-          "data": "25.01.2026 13:30",
-          "adversario": "Freiburg",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 1,
-          "res": "D"
-        },
-        {
-          "data": "17.01.2026 11:30",
-          "adversario": "Mainz",
+          "data": "22.02.2026 13:30",
+          "adversario": "Werder Bremen",
           "ctx": "CASA",
           "golsPro": 2,
           "golsCon": 1,
@@ -12047,27 +12190,117 @@ window.ESCOTEIRO_BUN = {
           "res": "V"
         },
         {
-          "data": "14.01.2026 16:30",
-          "adversario": "Bayern Munich",
-          "ctx": "CASA",
-          "golsPro": 1,
-          "golsCon": 3,
-          "gm": 1,
-          "gv": 3,
+          "data": "14.02.2026 11:30",
+          "adversario": "Bayer Leverkusen",
+          "ctx": "FORA",
+          "golsPro": 0,
+          "golsCon": 4,
+          "gm": 4,
+          "gv": 0,
           "res": "D"
         },
         {
-          "data": "10.01.2026 11:30",
-          "adversario": "Heidenheim",
-          "ctx": "FORA",
+          "data": "07.02.2026 11:30",
+          "adversario": "Stuttgart",
+          "ctx": "CASA",
           "golsPro": 2,
+          "golsCon": 1,
+          "gm": 2,
+          "gv": 1,
+          "res": "V"
+        },
+        {
+          "data": "31.01.2026 11:30",
+          "adversario": "Augsburg",
+          "ctx": "FORA",
+          "golsPro": 1,
           "golsCon": 2,
           "gm": 2,
-          "gv": 2,
+          "gv": 1,
+          "res": "D"
+        },
+        {
+          "data": "27.01.2026 16:30",
+          "adversario": "RB Leipzig",
+          "ctx": "CASA",
+          "golsPro": 1,
+          "golsCon": 1,
+          "gm": 1,
+          "gv": 1,
           "res": "E"
         },
         {
-          "data": "20.12.2025 11:30",
+          "data": "23.01.2026 16:30",
+          "adversario": "Hamburger SV",
+          "ctx": "CASA",
+          "golsPro": 0,
+          "golsCon": 0,
+          "gm": 0,
+          "gv": 0,
+          "res": "E"
+        },
+        {
+          "data": "17.01.2026 11:30",
+          "adversario": "Dortmund",
+          "ctx": "FORA",
+          "golsPro": 2,
+          "golsCon": 3,
+          "gm": 3,
+          "gv": 2,
+          "res": "D"
+        },
+        {
+          "data": "14.01.2026 14:30",
+          "adversario": "Wolfsburg",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 2,
+          "gm": 2,
+          "gv": 1,
+          "res": "D"
+        },
+        {
+          "data": "21.12.2025 11:30",
+          "adversario": "Mainz",
+          "ctx": "FORA",
+          "golsPro": 0,
+          "golsCon": 0,
+          "gm": 0,
+          "gv": 0,
+          "res": "E"
+        },
+        {
+          "data": "13.12.2025 11:30",
+          "adversario": "Heidenheim",
+          "ctx": "CASA",
+          "golsPro": 2,
+          "golsCon": 1,
+          "gm": 2,
+          "gv": 1,
+          "res": "V"
+        },
+        {
+          "data": "06.12.2025 11:30",
+          "adversario": "FC Koln",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 1,
+          "gm": 1,
+          "gv": 1,
+          "res": "E"
+        },
+        {
+          "data": "29.11.2025 11:30",
+          "adversario": "Bayern Munich",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 3,
+          "gm": 3,
+          "gv": 1,
+          "res": "D"
+        },
+        {
+          "data": "23.11.2025 13:30",
           "adversario": "Union Berlin",
           "ctx": "CASA",
           "golsPro": 0,
@@ -12077,8 +12310,38 @@ window.ESCOTEIRO_BUN = {
           "res": "D"
         },
         {
-          "data": "13.12.2025 14:30",
-          "adversario": "Bayer Leverkusen",
+          "data": "09.11.2025 11:30",
+          "adversario": "Freiburg",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 2,
+          "gm": 2,
+          "gv": 1,
+          "res": "D"
+        },
+        {
+          "data": "01.11.2025 11:30",
+          "adversario": "B. Monchengladbach",
+          "ctx": "CASA",
+          "golsPro": 0,
+          "golsCon": 4,
+          "gm": 0,
+          "gv": 4,
+          "res": "D"
+        },
+        {
+          "data": "28.10.2025 16:45",
+          "adversario": "Hoffenheim",
+          "ctx": "CASA",
+          "golsPro": 3,
+          "golsCon": 2,
+          "gm": 3,
+          "gv": 2,
+          "res": "V"
+        },
+        {
+          "data": "25.10.2025 10:30",
+          "adversario": "Eintracht Frankfurt",
           "ctx": "FORA",
           "golsPro": 0,
           "golsCon": 2,
@@ -12087,58 +12350,8 @@ window.ESCOTEIRO_BUN = {
           "res": "D"
         },
         {
-          "data": "06.12.2025 11:30",
-          "adversario": "St. Pauli",
-          "ctx": "CASA",
-          "golsPro": 1,
-          "golsCon": 1,
-          "gm": 1,
-          "gv": 1,
-          "res": "E"
-        },
-        {
-          "data": "29.11.2025 11:30",
+          "data": "04.10.2025 10:30",
           "adversario": "Werder Bremen",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 1,
-          "gm": 1,
-          "gv": 1,
-          "res": "E"
-        },
-        {
-          "data": "22.11.2025 14:30",
-          "adversario": "Eintracht Frankfurt",
-          "ctx": "CASA",
-          "golsPro": 3,
-          "golsCon": 4,
-          "gm": 3,
-          "gv": 4,
-          "res": "D"
-        },
-        {
-          "data": "08.11.2025 14:30",
-          "adversario": "B. Monchengladbach",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 3,
-          "gm": 3,
-          "gv": 1,
-          "res": "D"
-        },
-        {
-          "data": "02.11.2025 11:30",
-          "adversario": "Hamburger SV",
-          "ctx": "CASA",
-          "golsPro": 4,
-          "golsCon": 1,
-          "gm": 4,
-          "gv": 1,
-          "res": "V"
-        },
-        {
-          "data": "25.10.2025 13:30",
-          "adversario": "Dortmund",
           "ctx": "FORA",
           "golsPro": 0,
           "golsCon": 1,
@@ -12147,28 +12360,8 @@ window.ESCOTEIRO_BUN = {
           "res": "D"
         },
         {
-          "data": "18.10.2025 10:30",
-          "adversario": "Augsburg",
-          "ctx": "CASA",
-          "golsPro": 1,
-          "golsCon": 1,
-          "gm": 1,
-          "gv": 1,
-          "res": "E"
-        },
-        {
-          "data": "03.10.2025 15:30",
-          "adversario": "Hoffenheim",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 0,
-          "gm": 0,
-          "gv": 1,
-          "res": "V"
-        },
-        {
-          "data": "28.09.2025 12:30",
-          "adversario": "Stuttgart",
+          "data": "27.09.2025 10:30",
+          "adversario": "Bayer Leverkusen",
           "ctx": "CASA",
           "golsPro": 1,
           "golsCon": 2,
@@ -12177,60 +12370,60 @@ window.ESCOTEIRO_BUN = {
           "res": "D"
         },
         {
-          "data": "20.09.2025 13:30",
-          "adversario": "RB Leipzig",
+          "data": "19.09.2025 15:30",
+          "adversario": "Stuttgart",
           "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 3,
-          "gm": 3,
-          "gv": 1,
+          "golsPro": 0,
+          "golsCon": 2,
+          "gm": 2,
+          "gv": 0,
           "res": "D"
         },
         {
-          "data": "13.09.2025 10:30",
-          "adversario": "Wolfsburg",
+          "data": "14.09.2025 10:30",
+          "adversario": "Augsburg",
+          "ctx": "CASA",
+          "golsPro": 2,
+          "golsCon": 1,
+          "gm": 2,
+          "gv": 1,
+          "res": "V"
+        },
+        {
+          "data": "29.08.2025 15:30",
+          "adversario": "Hamburger SV",
           "ctx": "FORA",
+          "golsPro": 2,
+          "golsCon": 0,
+          "gm": 0,
+          "gv": 2,
+          "res": "V"
+        },
+        {
+          "data": "23.08.2025 13:30",
+          "adversario": "Dortmund",
+          "ctx": "CASA",
           "golsPro": 3,
           "golsCon": 3,
           "gm": 3,
           "gv": 3,
           "res": "E"
-        },
-        {
-          "data": "31.08.2025 14:30",
-          "adversario": "Freiburg",
-          "ctx": "CASA",
-          "golsPro": 4,
-          "golsCon": 1,
-          "gm": 4,
-          "gv": 1,
-          "res": "V"
-        },
-        {
-          "data": "24.08.2025 10:30",
-          "adversario": "Mainz",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 0,
-          "gm": 0,
-          "gv": 1,
-          "res": "V"
         }
       ],
       "historico_casa": [
         {
-          "data": "21.03.2026 11:30",
-          "adversario": "B. Monchengladbach",
+          "data": "11.04.2026 13:30",
+          "adversario": "Bayern Munich",
           "ctx": "CASA",
-          "golsPro": 3,
-          "golsCon": 3,
-          "gm": 3,
-          "gv": 3,
-          "res": "E"
+          "golsPro": 0,
+          "golsCon": 5,
+          "gm": 0,
+          "gv": 5,
+          "res": "D"
         },
         {
-          "data": "07.03.2026 14:30",
-          "adversario": "Dortmund",
+          "data": "22.03.2026 13:30",
+          "adversario": "Freiburg",
           "ctx": "CASA",
           "golsPro": 1,
           "golsCon": 2,
@@ -12239,38 +12432,18 @@ window.ESCOTEIRO_BUN = {
           "res": "D"
         },
         {
-          "data": "21.02.2026 11:30",
-          "adversario": "Hoffenheim",
+          "data": "08.03.2026 11:30",
+          "adversario": "Eintracht Frankfurt",
           "ctx": "CASA",
-          "golsPro": 2,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 2,
-          "res": "E"
-        },
-        {
-          "data": "08.02.2026 11:30",
-          "adversario": "RB Leipzig",
-          "ctx": "CASA",
-          "golsPro": 1,
-          "golsCon": 2,
-          "gm": 1,
-          "gv": 2,
-          "res": "D"
-        },
-        {
-          "data": "30.01.2026 16:30",
-          "adversario": "Wolfsburg",
-          "ctx": "CASA",
-          "golsPro": 1,
+          "golsPro": 0,
           "golsCon": 0,
-          "gm": 1,
+          "gm": 0,
           "gv": 0,
-          "res": "V"
+          "res": "E"
         },
         {
-          "data": "17.01.2026 11:30",
-          "adversario": "Mainz",
+          "data": "22.02.2026 13:30",
+          "adversario": "Werder Bremen",
           "ctx": "CASA",
           "golsPro": 2,
           "golsCon": 1,
@@ -12279,17 +12452,47 @@ window.ESCOTEIRO_BUN = {
           "res": "V"
         },
         {
-          "data": "14.01.2026 16:30",
-          "adversario": "Bayern Munich",
+          "data": "07.02.2026 11:30",
+          "adversario": "Stuttgart",
           "ctx": "CASA",
-          "golsPro": 1,
-          "golsCon": 3,
-          "gm": 1,
-          "gv": 3,
-          "res": "D"
+          "golsPro": 2,
+          "golsCon": 1,
+          "gm": 2,
+          "gv": 1,
+          "res": "V"
         },
         {
-          "data": "20.12.2025 11:30",
+          "data": "27.01.2026 16:30",
+          "adversario": "RB Leipzig",
+          "ctx": "CASA",
+          "golsPro": 1,
+          "golsCon": 1,
+          "gm": 1,
+          "gv": 1,
+          "res": "E"
+        },
+        {
+          "data": "23.01.2026 16:30",
+          "adversario": "Hamburger SV",
+          "ctx": "CASA",
+          "golsPro": 0,
+          "golsCon": 0,
+          "gm": 0,
+          "gv": 0,
+          "res": "E"
+        },
+        {
+          "data": "13.12.2025 11:30",
+          "adversario": "Heidenheim",
+          "ctx": "CASA",
+          "golsPro": 2,
+          "golsCon": 1,
+          "gm": 2,
+          "gv": 1,
+          "res": "V"
+        },
+        {
+          "data": "23.11.2025 13:30",
           "adversario": "Union Berlin",
           "ctx": "CASA",
           "golsPro": 0,
@@ -12299,48 +12502,28 @@ window.ESCOTEIRO_BUN = {
           "res": "D"
         },
         {
-          "data": "06.12.2025 11:30",
-          "adversario": "St. Pauli",
+          "data": "01.11.2025 11:30",
+          "adversario": "B. Monchengladbach",
           "ctx": "CASA",
-          "golsPro": 1,
-          "golsCon": 1,
-          "gm": 1,
-          "gv": 1,
-          "res": "E"
-        },
-        {
-          "data": "22.11.2025 14:30",
-          "adversario": "Eintracht Frankfurt",
-          "ctx": "CASA",
-          "golsPro": 3,
+          "golsPro": 0,
           "golsCon": 4,
-          "gm": 3,
+          "gm": 0,
           "gv": 4,
           "res": "D"
         },
         {
-          "data": "02.11.2025 11:30",
-          "adversario": "Hamburger SV",
+          "data": "28.10.2025 16:45",
+          "adversario": "Hoffenheim",
           "ctx": "CASA",
-          "golsPro": 4,
-          "golsCon": 1,
-          "gm": 4,
-          "gv": 1,
+          "golsPro": 3,
+          "golsCon": 2,
+          "gm": 3,
+          "gv": 2,
           "res": "V"
         },
         {
-          "data": "18.10.2025 10:30",
-          "adversario": "Augsburg",
-          "ctx": "CASA",
-          "golsPro": 1,
-          "golsCon": 1,
-          "gm": 1,
-          "gv": 1,
-          "res": "E"
-        },
-        {
-          "data": "28.09.2025 12:30",
-          "adversario": "Stuttgart",
+          "data": "27.09.2025 10:30",
+          "adversario": "Bayer Leverkusen",
           "ctx": "CASA",
           "golsPro": 1,
           "golsCon": 2,
@@ -12349,30 +12532,30 @@ window.ESCOTEIRO_BUN = {
           "res": "D"
         },
         {
-          "data": "31.08.2025 14:30",
-          "adversario": "Freiburg",
+          "data": "14.09.2025 10:30",
+          "adversario": "Augsburg",
           "ctx": "CASA",
-          "golsPro": 4,
+          "golsPro": 2,
           "golsCon": 1,
-          "gm": 4,
+          "gm": 2,
           "gv": 1,
           "res": "V"
+        },
+        {
+          "data": "23.08.2025 13:30",
+          "adversario": "Dortmund",
+          "ctx": "CASA",
+          "golsPro": 3,
+          "golsCon": 3,
+          "gm": 3,
+          "gv": 3,
+          "res": "E"
         }
       ],
       "historico_fora": [
         {
-          "data": "05.04.2026 12:30",
-          "adversario": "Eintracht Frankfurt",
-          "ctx": "FORA",
-          "golsPro": 2,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 2,
-          "res": "E"
-        },
-        {
-          "data": "14.03.2026 14:30",
-          "adversario": "Hamburger SV",
+          "data": "05.04.2026 10:30",
+          "adversario": "Union Berlin",
           "ctx": "FORA",
           "golsPro": 1,
           "golsCon": 1,
@@ -12381,87 +12564,17 @@ window.ESCOTEIRO_BUN = {
           "res": "E"
         },
         {
-          "data": "27.02.2026 16:30",
-          "adversario": "Augsburg",
-          "ctx": "FORA",
-          "golsPro": 0,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 0,
-          "res": "D"
-        },
-        {
-          "data": "14.02.2026 14:30",
-          "adversario": "Stuttgart",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 3,
-          "gm": 3,
-          "gv": 1,
-          "res": "D"
-        },
-        {
-          "data": "25.01.2026 13:30",
-          "adversario": "Freiburg",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 1,
-          "res": "D"
-        },
-        {
-          "data": "10.01.2026 11:30",
-          "adversario": "Heidenheim",
-          "ctx": "FORA",
-          "golsPro": 2,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 2,
-          "res": "E"
-        },
-        {
-          "data": "13.12.2025 14:30",
-          "adversario": "Bayer Leverkusen",
-          "ctx": "FORA",
-          "golsPro": 0,
-          "golsCon": 2,
-          "gm": 2,
-          "gv": 0,
-          "res": "D"
-        },
-        {
-          "data": "29.11.2025 11:30",
-          "adversario": "Werder Bremen",
-          "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 1,
-          "gm": 1,
-          "gv": 1,
-          "res": "E"
-        },
-        {
-          "data": "08.11.2025 14:30",
+          "data": "13.03.2026 16:30",
           "adversario": "B. Monchengladbach",
           "ctx": "FORA",
-          "golsPro": 1,
-          "golsCon": 3,
-          "gm": 3,
-          "gv": 1,
-          "res": "D"
-        },
-        {
-          "data": "25.10.2025 13:30",
-          "adversario": "Dortmund",
-          "ctx": "FORA",
           "golsPro": 0,
-          "golsCon": 1,
-          "gm": 1,
+          "golsCon": 2,
+          "gm": 2,
           "gv": 0,
           "res": "D"
         },
         {
-          "data": "03.10.2025 15:30",
+          "data": "28.02.2026 11:30",
           "adversario": "Hoffenheim",
           "ctx": "FORA",
           "golsPro": 1,
@@ -12471,8 +12584,68 @@ window.ESCOTEIRO_BUN = {
           "res": "V"
         },
         {
-          "data": "20.09.2025 13:30",
-          "adversario": "RB Leipzig",
+          "data": "14.02.2026 11:30",
+          "adversario": "Bayer Leverkusen",
+          "ctx": "FORA",
+          "golsPro": 0,
+          "golsCon": 4,
+          "gm": 4,
+          "gv": 0,
+          "res": "D"
+        },
+        {
+          "data": "31.01.2026 11:30",
+          "adversario": "Augsburg",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 2,
+          "gm": 2,
+          "gv": 1,
+          "res": "D"
+        },
+        {
+          "data": "17.01.2026 11:30",
+          "adversario": "Dortmund",
+          "ctx": "FORA",
+          "golsPro": 2,
+          "golsCon": 3,
+          "gm": 3,
+          "gv": 2,
+          "res": "D"
+        },
+        {
+          "data": "14.01.2026 14:30",
+          "adversario": "Wolfsburg",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 2,
+          "gm": 2,
+          "gv": 1,
+          "res": "D"
+        },
+        {
+          "data": "21.12.2025 11:30",
+          "adversario": "Mainz",
+          "ctx": "FORA",
+          "golsPro": 0,
+          "golsCon": 0,
+          "gm": 0,
+          "gv": 0,
+          "res": "E"
+        },
+        {
+          "data": "06.12.2025 11:30",
+          "adversario": "FC Koln",
+          "ctx": "FORA",
+          "golsPro": 1,
+          "golsCon": 1,
+          "gm": 1,
+          "gv": 1,
+          "res": "E"
+        },
+        {
+          "data": "29.11.2025 11:30",
+          "adversario": "Bayern Munich",
           "ctx": "FORA",
           "golsPro": 1,
           "golsCon": 3,
@@ -12481,65 +12654,95 @@ window.ESCOTEIRO_BUN = {
           "res": "D"
         },
         {
-          "data": "13.09.2025 10:30",
-          "adversario": "Wolfsburg",
-          "ctx": "FORA",
-          "golsPro": 3,
-          "golsCon": 3,
-          "gm": 3,
-          "gv": 3,
-          "res": "E"
-        },
-        {
-          "data": "24.08.2025 10:30",
-          "adversario": "Mainz",
+          "data": "09.11.2025 11:30",
+          "adversario": "Freiburg",
           "ctx": "FORA",
           "golsPro": 1,
+          "golsCon": 2,
+          "gm": 2,
+          "gv": 1,
+          "res": "D"
+        },
+        {
+          "data": "25.10.2025 10:30",
+          "adversario": "Eintracht Frankfurt",
+          "ctx": "FORA",
+          "golsPro": 0,
+          "golsCon": 2,
+          "gm": 2,
+          "gv": 0,
+          "res": "D"
+        },
+        {
+          "data": "04.10.2025 10:30",
+          "adversario": "Werder Bremen",
+          "ctx": "FORA",
+          "golsPro": 0,
+          "golsCon": 1,
+          "gm": 1,
+          "gv": 0,
+          "res": "D"
+        },
+        {
+          "data": "19.09.2025 15:30",
+          "adversario": "Stuttgart",
+          "ctx": "FORA",
+          "golsPro": 0,
+          "golsCon": 2,
+          "gm": 2,
+          "gv": 0,
+          "res": "D"
+        },
+        {
+          "data": "29.08.2025 15:30",
+          "adversario": "Hamburger SV",
+          "ctx": "FORA",
+          "golsPro": 2,
           "golsCon": 0,
           "gm": 0,
-          "gv": 1,
+          "gv": 2,
           "res": "V"
         }
       ],
-      "perfil": "EQUILIBRADO",
-      "tendencia_empate": "MEDIO",
+      "perfil": "VULNERAVEL",
+      "tendencia_empate": "BAIXO",
       "notas_yaaken": [
-        "❄️ Crise! 3/5 derrotas recentes"
+        "⚠️ Perda fora alta (67%) — evitar como visitante"
       ]
     },
     "Wolfsburg": {
       "nome": "Wolfsburg",
       "posicao": 17,
-      "jogos": 28,
+      "jogos": 29,
       "pontos": 21,
       "geral": {
         "v": 5,
         "e": 6,
-        "d": 17,
-        "j": 28,
-        "v_pct": 18,
+        "d": 18,
+        "j": 29,
+        "v_pct": 17,
         "e_pct": 21,
-        "d_pct": 61,
-        "gp": 38,
-        "gc": 63,
-        "gp_jogo": 1.36,
-        "gc_jogo": 2.25,
-        "saldo": -25,
-        "media_gols_jogo": 3.61
+        "d_pct": 62,
+        "gp": 39,
+        "gc": 65,
+        "gp_jogo": 1.34,
+        "gc_jogo": 2.24,
+        "saldo": -26,
+        "media_gols_jogo": 3.59
       },
       "casa": {
         "v": 2,
         "e": 3,
-        "d": 9,
-        "j": 14,
-        "gp": 20,
-        "gc": 29,
-        "gp_jogo": 1.43,
+        "d": 10,
+        "j": 15,
+        "gp": 21,
+        "gc": 31,
+        "gp_jogo": 1.4,
         "gc_jogo": 2.07,
-        "v_pct": 14,
-        "e_pct": 21,
-        "d_pct": 64,
-        "media_gols": 3.5
+        "v_pct": 13,
+        "e_pct": 20,
+        "d_pct": 67,
+        "media_gols": 3.47
       },
       "fora": {
         "v": 3,
@@ -12563,6 +12766,18 @@ window.ESCOTEIRO_BUN = {
         "D"
       ],
       "jogos_geral": [
+        {
+          "data": "11.04.2026 10:30",
+          "mandante": "Wolfsburg",
+          "visitante": "Eintracht Frankfurt",
+          "gm": 1,
+          "gv": 2,
+          "ctx": "CASA",
+          "outro": "Eintracht Frankfurt",
+          "golsPro": 1,
+          "golsCon": 2,
+          "res": "D"
+        },
         {
           "data": "04.04.2026 10:30",
           "mandante": "Bayer Leverkusen",
@@ -12610,21 +12825,17 @@ window.ESCOTEIRO_BUN = {
           "golsPro": 1,
           "golsCon": 2,
           "res": "D"
-        },
-        {
-          "data": "01.03.2026 11:30",
-          "mandante": "Stuttgart",
-          "visitante": "Wolfsburg",
-          "gm": 4,
-          "gv": 0,
-          "ctx": "FORA",
-          "outro": "Stuttgart",
-          "golsPro": 0,
-          "golsCon": 4,
-          "res": "D"
         }
       ],
       "jogos_casa": [
+        {
+          "data": "11.04.2026 10:30",
+          "mandante": "Wolfsburg",
+          "visitante": "Eintracht Frankfurt",
+          "gm": 1,
+          "gv": 2,
+          "res": "D"
+        },
         {
           "data": "21.03.2026 11:30",
           "mandante": "Wolfsburg",
@@ -12656,14 +12867,6 @@ window.ESCOTEIRO_BUN = {
           "gm": 1,
           "gv": 2,
           "res": "D"
-        },
-        {
-          "data": "17.01.2026 11:30",
-          "mandante": "Wolfsburg",
-          "visitante": "Heidenheim",
-          "gm": 1,
-          "gv": 1,
-          "res": "E"
         }
       ],
       "jogos_fora": [
@@ -12709,6 +12912,16 @@ window.ESCOTEIRO_BUN = {
         }
       ],
       "historico_geral": [
+        {
+          "data": "11.04.2026 10:30",
+          "adversario": "Eintracht Frankfurt",
+          "ctx": "CASA",
+          "golsPro": 1,
+          "golsCon": 2,
+          "gm": 1,
+          "gv": 2,
+          "res": "D"
+        },
         {
           "data": "04.04.2026 10:30",
           "adversario": "Bayer Leverkusen",
@@ -12991,6 +13204,16 @@ window.ESCOTEIRO_BUN = {
         }
       ],
       "historico_casa": [
+        {
+          "data": "11.04.2026 10:30",
+          "adversario": "Eintracht Frankfurt",
+          "ctx": "CASA",
+          "golsPro": 1,
+          "golsCon": 2,
+          "gm": 1,
+          "gv": 2,
+          "res": "D"
+        },
         {
           "data": "21.03.2026 11:30",
           "adversario": "Werder Bremen",
@@ -13277,44 +13500,44 @@ window.ESCOTEIRO_BUN = {
       "perfil": "EQUILIBRADO",
       "tendencia_empate": "BAIXO",
       "notas_yaaken": [
-        "🚨 Perde em casa (64%) — zebra visitante tem valor",
-        "🔓 Defesa frágil (2.25 sofridos/jogo)",
+        "🚨 Perde em casa (67%) — zebra visitante tem valor",
+        "🔓 Defesa frágil (2.24 sofridos/jogo)",
         "❄️ Crise! 4/5 derrotas recentes"
       ]
     },
     "Heidenheim": {
       "nome": "Heidenheim",
       "posicao": 18,
-      "jogos": 28,
-      "pontos": 16,
+      "jogos": 29,
+      "pontos": 19,
       "geral": {
-        "v": 3,
+        "v": 4,
         "e": 7,
         "d": 18,
-        "j": 28,
-        "v_pct": 11,
-        "e_pct": 25,
-        "d_pct": 64,
-        "gp": 29,
-        "gc": 63,
-        "gp_jogo": 1.04,
-        "gc_jogo": 2.25,
-        "saldo": -34,
-        "media_gols_jogo": 3.29
+        "j": 29,
+        "v_pct": 14,
+        "e_pct": 24,
+        "d_pct": 62,
+        "gp": 32,
+        "gc": 64,
+        "gp_jogo": 1.1,
+        "gc_jogo": 2.21,
+        "saldo": -32,
+        "media_gols_jogo": 3.31
       },
       "casa": {
-        "v": 2,
+        "v": 3,
         "e": 5,
         "d": 7,
-        "j": 14,
-        "gp": 18,
-        "gc": 34,
-        "gp_jogo": 1.29,
-        "gc_jogo": 2.43,
-        "v_pct": 14,
-        "e_pct": 36,
-        "d_pct": 50,
-        "media_gols": 3.71
+        "j": 15,
+        "gp": 21,
+        "gc": 35,
+        "gp_jogo": 1.4,
+        "gc_jogo": 2.33,
+        "v_pct": 20,
+        "e_pct": 33,
+        "d_pct": 47,
+        "media_gols": 3.73
       },
       "fora": {
         "v": 1,
@@ -13338,6 +13561,18 @@ window.ESCOTEIRO_BUN = {
         "D"
       ],
       "jogos_geral": [
+        {
+          "data": "11.04.2026 10:30",
+          "mandante": "Heidenheim",
+          "visitante": "Union Berlin",
+          "gm": 3,
+          "gv": 1,
+          "ctx": "CASA",
+          "outro": "Union Berlin",
+          "golsPro": 3,
+          "golsCon": 1,
+          "res": "V"
+        },
         {
           "data": "04.04.2026 10:30",
           "mandante": "B. Monchengladbach",
@@ -13385,21 +13620,17 @@ window.ESCOTEIRO_BUN = {
           "golsPro": 2,
           "golsCon": 4,
           "res": "D"
-        },
-        {
-          "data": "28.02.2026 11:30",
-          "mandante": "Werder Bremen",
-          "visitante": "Heidenheim",
-          "gm": 2,
-          "gv": 0,
-          "ctx": "FORA",
-          "outro": "Werder Bremen",
-          "golsPro": 0,
-          "golsCon": 2,
-          "res": "D"
         }
       ],
       "jogos_casa": [
+        {
+          "data": "11.04.2026 10:30",
+          "mandante": "Heidenheim",
+          "visitante": "Union Berlin",
+          "gm": 3,
+          "gv": 1,
+          "res": "V"
+        },
         {
           "data": "21.03.2026 11:30",
           "mandante": "Heidenheim",
@@ -13430,14 +13661,6 @@ window.ESCOTEIRO_BUN = {
           "visitante": "Hamburger SV",
           "gm": 0,
           "gv": 2,
-          "res": "D"
-        },
-        {
-          "data": "24.01.2026 11:30",
-          "mandante": "Heidenheim",
-          "visitante": "RB Leipzig",
-          "gm": 0,
-          "gv": 3,
           "res": "D"
         }
       ],
@@ -13484,6 +13707,16 @@ window.ESCOTEIRO_BUN = {
         }
       ],
       "historico_geral": [
+        {
+          "data": "11.04.2026 10:30",
+          "adversario": "Union Berlin",
+          "ctx": "CASA",
+          "golsPro": 3,
+          "golsCon": 1,
+          "gm": 3,
+          "gv": 1,
+          "res": "V"
+        },
         {
           "data": "04.04.2026 10:30",
           "adversario": "B. Monchengladbach",
@@ -13766,6 +13999,16 @@ window.ESCOTEIRO_BUN = {
         }
       ],
       "historico_casa": [
+        {
+          "data": "11.04.2026 10:30",
+          "adversario": "Union Berlin",
+          "ctx": "CASA",
+          "golsPro": 3,
+          "golsCon": 1,
+          "gm": 3,
+          "gv": 1,
+          "res": "V"
+        },
         {
           "data": "21.03.2026 11:30",
           "adversario": "Bayer Leverkusen",
@@ -14050,11 +14293,10 @@ window.ESCOTEIRO_BUN = {
         }
       ],
       "perfil": "EQUILIBRADO",
-      "tendencia_empate": "MEDIO",
+      "tendencia_empate": "BAIXO",
       "notas_yaaken": [
         "⚠️ Perda fora alta (79%) — evitar como visitante",
-        "🚨 Perde em casa (50%) — zebra visitante tem valor",
-        "🔓 Defesa frágil (2.25 sofridos/jogo)",
+        "🔓 Defesa frágil (2.21 sofridos/jogo)",
         "❄️ Crise! 3/5 derrotas recentes"
       ]
     }

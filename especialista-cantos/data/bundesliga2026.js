@@ -1,5 +1,5 @@
-// Bundesliga 2026 — LIMPO
-// 262 jogos | Atualizado: 2026-04-15
+// Bundesliga 2026 — LIMPO (sem jogos de copa)
+// 261 jogos | Atualizado: 2026-04-15
 window.DADOS_BUN = {
   "temporada": "Bundesliga (Alemanha)",
   "ultimaAtualizacao": "2026/04/15",
@@ -5017,43 +5017,6 @@ window.DADOS_BUN = {
       },
       "placar": {
         "m": 1,
-        "v": 1
-      }
-    },
-    {
-      "match_id": "IHhZ0sue",
-      "mandante": "Dortmund",
-      "visitante": "Bayer Leverkusen",
-      "rodada": 113,
-      "data": "02.12.2025 17:00",
-      "tabela": {
-        "pos_mandante": 2,
-        "pts_mandante": null,
-        "pos_visitante": 6,
-        "pts_visitante": null
-      },
-      "cantos": {
-        "ht": {
-          "m": 4,
-          "v": 0
-        },
-        "ft": {
-          "m": 11,
-          "v": 0
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 58,
-          "v": 42
-        },
-        "finalizacoes": {
-          "m": 20,
-          "v": 6
-        }
-      },
-      "placar": {
-        "m": 0,
         "v": 1
       }
     },
