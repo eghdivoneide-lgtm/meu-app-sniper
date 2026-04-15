@@ -1,11 +1,8 @@
-// ============================================================
-// BUNDESLIGA (ALEMANHA) 2026 — MOTOR FANTASMA v5 (por time)
-// Atualizado: 2026-04-11
-// ============================================================
-
+// Bundesliga 2026 — LIMPO
+// 262 jogos | Atualizado: 2026-04-15
 window.DADOS_BUN = {
   "temporada": "Bundesliga (Alemanha)",
-  "ultimaAtualizacao": "2026-04-11",
+  "ultimaAtualizacao": "2026/04/15",
   "totalRodadas": 218,
   "times": [
     "Augsburg",
@@ -59,6 +56,10 @@ window.DADOS_BUN = {
           "m": 18,
           "v": 7
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 3
       }
     },
     {
@@ -92,6 +93,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 21
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 3
       }
     },
     {
@@ -125,6 +130,10 @@ window.DADOS_BUN = {
           "m": 31,
           "v": 5
         }
+      },
+      "placar": {
+        "m": 4,
+        "v": 0
       }
     },
     {
@@ -158,6 +167,10 @@ window.DADOS_BUN = {
           "m": 21,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -191,6 +204,10 @@ window.DADOS_BUN = {
           "m": 7,
           "v": 13
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -224,6 +241,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 7
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -257,6 +278,10 @@ window.DADOS_BUN = {
           "m": 18,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 4,
+        "v": 1
       }
     },
     {
@@ -290,6 +315,10 @@ window.DADOS_BUN = {
           "m": 10,
           "v": 14
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 3
       }
     },
     {
@@ -323,6 +352,10 @@ window.DADOS_BUN = {
           "m": 24,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 2
       }
     },
     {
@@ -356,6 +389,10 @@ window.DADOS_BUN = {
           "m": 14,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 3
       }
     },
     {
@@ -389,6 +426,10 @@ window.DADOS_BUN = {
           "m": 17,
           "v": 16
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -422,6 +463,10 @@ window.DADOS_BUN = {
           "m": 10,
           "v": 19
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -455,6 +500,10 @@ window.DADOS_BUN = {
           "m": 27,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 5,
+        "v": 1
       }
     },
     {
@@ -488,6 +537,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 7
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -521,6 +574,10 @@ window.DADOS_BUN = {
           "m": 14,
           "v": 13
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 2
       }
     },
     {
@@ -554,6 +611,10 @@ window.DADOS_BUN = {
           "m": 15,
           "v": 16
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -587,6 +648,10 @@ window.DADOS_BUN = {
           "m": 17,
           "v": 19
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 5
       }
     },
     {
@@ -620,6 +685,10 @@ window.DADOS_BUN = {
           "m": 8,
           "v": 19
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 3
       }
     },
     {
@@ -653,6 +722,10 @@ window.DADOS_BUN = {
           "m": 16,
           "v": 8
         }
+      },
+      "placar": {
+        "m": 8,
+        "v": 1
       }
     },
     {
@@ -686,6 +759,10 @@ window.DADOS_BUN = {
           "m": 14,
           "v": 8
         }
+      },
+      "placar": {
+        "m": 5,
+        "v": 0
       }
     },
     {
@@ -719,6 +796,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -752,6 +833,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 2
       }
     },
     {
@@ -785,6 +870,10 @@ window.DADOS_BUN = {
           "m": 20,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 2
       }
     },
     {
@@ -818,6 +907,10 @@ window.DADOS_BUN = {
           "m": 15,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -851,6 +944,10 @@ window.DADOS_BUN = {
           "m": 7,
           "v": 12
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -884,6 +981,10 @@ window.DADOS_BUN = {
           "m": 7,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 3
       }
     },
     {
@@ -917,6 +1018,10 @@ window.DADOS_BUN = {
           "m": 21,
           "v": 3
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -950,6 +1055,10 @@ window.DADOS_BUN = {
           "m": 18,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -983,6 +1092,10 @@ window.DADOS_BUN = {
           "m": 24,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 4,
+        "v": 0
       }
     },
     {
@@ -1016,6 +1129,10 @@ window.DADOS_BUN = {
           "m": 10,
           "v": 14
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -1049,6 +1166,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 5
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 2
       }
     },
     {
@@ -1082,6 +1203,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 13
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 5
       }
     },
     {
@@ -1115,6 +1240,10 @@ window.DADOS_BUN = {
           "m": 18,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 2
       }
     },
     {
@@ -1148,6 +1277,10 @@ window.DADOS_BUN = {
           "m": 10,
           "v": 12
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 3
       }
     },
     {
@@ -1181,6 +1314,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 1
       }
     },
     {
@@ -1214,6 +1351,10 @@ window.DADOS_BUN = {
           "m": 15,
           "v": 7
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -1247,6 +1388,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 17
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 3
       }
     },
     {
@@ -1280,6 +1425,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 20
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -1313,6 +1462,10 @@ window.DADOS_BUN = {
           "m": 20,
           "v": 12
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 2
       }
     },
     {
@@ -1346,6 +1499,10 @@ window.DADOS_BUN = {
           "m": 16,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -1379,6 +1536,10 @@ window.DADOS_BUN = {
           "m": 25,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 6,
+        "v": 3
       }
     },
     {
@@ -1412,6 +1573,10 @@ window.DADOS_BUN = {
           "m": 8,
           "v": 16
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 4
       }
     },
     {
@@ -1445,6 +1610,10 @@ window.DADOS_BUN = {
           "m": 16,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 4
       }
     },
     {
@@ -1478,6 +1647,10 @@ window.DADOS_BUN = {
           "m": 17,
           "v": 13
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 2
       }
     },
     {
@@ -1511,6 +1684,10 @@ window.DADOS_BUN = {
           "m": 21,
           "v": 4
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -1544,6 +1721,10 @@ window.DADOS_BUN = {
           "m": 20,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -1577,6 +1758,10 @@ window.DADOS_BUN = {
           "m": 9,
           "v": 18
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 2
       }
     },
     {
@@ -1610,6 +1795,10 @@ window.DADOS_BUN = {
           "m": 25,
           "v": 13
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 0
       }
     },
     {
@@ -1643,6 +1832,10 @@ window.DADOS_BUN = {
           "m": 9,
           "v": 16
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 1
       }
     },
     {
@@ -1676,6 +1869,10 @@ window.DADOS_BUN = {
           "m": 26,
           "v": 12
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 2
       }
     },
     {
@@ -1709,6 +1906,10 @@ window.DADOS_BUN = {
           "m": 9,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 3
       }
     },
     {
@@ -1742,6 +1943,10 @@ window.DADOS_BUN = {
           "m": 19,
           "v": 8
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -1775,6 +1980,10 @@ window.DADOS_BUN = {
           "m": 18,
           "v": 7
         }
+      },
+      "placar": {
+        "m": 5,
+        "v": 1
       }
     },
     {
@@ -1808,6 +2017,10 @@ window.DADOS_BUN = {
           "m": 9,
           "v": 14
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 3
       }
     },
     {
@@ -1841,6 +2054,10 @@ window.DADOS_BUN = {
           "m": 21,
           "v": 17
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 3
       }
     },
     {
@@ -1874,6 +2091,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 8
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -1907,6 +2128,10 @@ window.DADOS_BUN = {
           "m": 8,
           "v": 16
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -1940,6 +2165,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 4,
+        "v": 0
       }
     },
     {
@@ -1973,6 +2202,10 @@ window.DADOS_BUN = {
           "m": 9,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -2006,6 +2239,10 @@ window.DADOS_BUN = {
           "m": 11,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 3
       }
     },
     {
@@ -2039,6 +2276,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 17
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -2072,6 +2313,10 @@ window.DADOS_BUN = {
           "m": 20,
           "v": 14
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 2
       }
     },
     {
@@ -2105,6 +2350,10 @@ window.DADOS_BUN = {
           "m": 8,
           "v": 12
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -2138,6 +2387,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 3
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -2171,6 +2424,10 @@ window.DADOS_BUN = {
           "m": 15,
           "v": 4
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -2204,6 +2461,10 @@ window.DADOS_BUN = {
           "m": 11,
           "v": 3
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -2237,6 +2498,10 @@ window.DADOS_BUN = {
           "m": 7,
           "v": 17
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -2270,6 +2535,10 @@ window.DADOS_BUN = {
           "m": 11,
           "v": 8
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 0
       }
     },
     {
@@ -2303,6 +2572,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 20
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 0
       }
     },
     {
@@ -2336,6 +2609,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 8
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 3
       }
     },
     {
@@ -2369,6 +2646,10 @@ window.DADOS_BUN = {
           "m": 10,
           "v": 14
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -2402,6 +2683,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 16
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 3
       }
     },
     {
@@ -2435,6 +2720,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 15
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -2468,6 +2757,10 @@ window.DADOS_BUN = {
           "m": 19,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -2501,6 +2794,10 @@ window.DADOS_BUN = {
           "m": 10,
           "v": 12
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -2534,6 +2831,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 19
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -2567,6 +2868,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 13
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 2
       }
     },
     {
@@ -2600,6 +2905,10 @@ window.DADOS_BUN = {
           "m": 9,
           "v": 15
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 4
       }
     },
     {
@@ -2633,6 +2942,10 @@ window.DADOS_BUN = {
           "m": 20,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -2666,6 +2979,10 @@ window.DADOS_BUN = {
           "m": 16,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 2
       }
     },
     {
@@ -2699,6 +3016,10 @@ window.DADOS_BUN = {
           "m": 17,
           "v": 14
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -2732,6 +3053,10 @@ window.DADOS_BUN = {
           "m": 14,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 4,
+        "v": 0
       }
     },
     {
@@ -2765,6 +3090,10 @@ window.DADOS_BUN = {
           "m": 20,
           "v": 7
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 1
       }
     },
     {
@@ -2798,6 +3127,10 @@ window.DADOS_BUN = {
           "m": 20,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -2831,6 +3164,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 15
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -2864,6 +3201,10 @@ window.DADOS_BUN = {
           "m": 19,
           "v": 12
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 2
       }
     },
     {
@@ -2897,6 +3238,10 @@ window.DADOS_BUN = {
           "m": 18,
           "v": 18
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -2930,6 +3275,10 @@ window.DADOS_BUN = {
           "m": 16,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -2963,6 +3312,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 21
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -2996,6 +3349,10 @@ window.DADOS_BUN = {
           "m": 20,
           "v": 14
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 2
       }
     },
     {
@@ -3029,6 +3386,10 @@ window.DADOS_BUN = {
           "m": 14,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -3062,6 +3423,10 @@ window.DADOS_BUN = {
           "m": 17,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 2
       }
     },
     {
@@ -3095,6 +3460,10 @@ window.DADOS_BUN = {
           "m": 16,
           "v": 7
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -3128,6 +3497,10 @@ window.DADOS_BUN = {
           "m": 14,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -3161,6 +3534,10 @@ window.DADOS_BUN = {
           "m": 10,
           "v": 15
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 3
       }
     },
     {
@@ -3194,6 +3571,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 16
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -3227,6 +3608,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 17
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -3260,6 +3645,10 @@ window.DADOS_BUN = {
           "m": 9,
           "v": 16
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -3293,6 +3682,10 @@ window.DADOS_BUN = {
           "m": 15,
           "v": 15
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 2
       }
     },
     {
@@ -3326,6 +3719,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 17
         }
+      },
+      "placar": {
+        "m": 4,
+        "v": 0
       }
     },
     {
@@ -3359,6 +3756,10 @@ window.DADOS_BUN = {
           "m": 21,
           "v": 6
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -3392,6 +3793,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 12
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 2
       }
     },
     {
@@ -3425,6 +3830,10 @@ window.DADOS_BUN = {
           "m": 10,
           "v": 15
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 3
       }
     },
     {
@@ -3458,6 +3867,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 3
       }
     },
     {
@@ -3491,6 +3904,10 @@ window.DADOS_BUN = {
           "m": 10,
           "v": 8
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -3524,6 +3941,10 @@ window.DADOS_BUN = {
           "m": 18,
           "v": 7
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -3557,6 +3978,10 @@ window.DADOS_BUN = {
           "m": 25,
           "v": 6
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 0
       }
     },
     {
@@ -3590,6 +4015,10 @@ window.DADOS_BUN = {
           "m": 11,
           "v": 8
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -3623,6 +4052,10 @@ window.DADOS_BUN = {
           "m": 17,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -3656,6 +4089,10 @@ window.DADOS_BUN = {
           "m": 5,
           "v": 13
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -3689,6 +4126,10 @@ window.DADOS_BUN = {
           "m": 18,
           "v": 6
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 0
       }
     },
     {
@@ -3722,6 +4163,10 @@ window.DADOS_BUN = {
           "m": 5,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -3755,6 +4200,10 @@ window.DADOS_BUN = {
           "m": 14,
           "v": 13
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -3788,6 +4237,10 @@ window.DADOS_BUN = {
           "m": 15,
           "v": 14
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -3821,6 +4274,10 @@ window.DADOS_BUN = {
           "m": 14,
           "v": 21
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 2
       }
     },
     {
@@ -3854,6 +4311,10 @@ window.DADOS_BUN = {
           "m": 8,
           "v": 5
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 0
       }
     },
     {
@@ -3887,6 +4348,10 @@ window.DADOS_BUN = {
           "m": 10,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 2
       }
     },
     {
@@ -3920,6 +4385,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -3953,6 +4422,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 13
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -3986,6 +4459,10 @@ window.DADOS_BUN = {
           "m": 24,
           "v": 4
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 2
       }
     },
     {
@@ -4019,6 +4496,10 @@ window.DADOS_BUN = {
           "m": 8,
           "v": 23
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 4
       }
     },
     {
@@ -4052,6 +4533,10 @@ window.DADOS_BUN = {
           "m": 24,
           "v": 5
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 2
       }
     },
     {
@@ -4085,6 +4570,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 19
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 5
       }
     },
     {
@@ -4118,6 +4607,10 @@ window.DADOS_BUN = {
           "m": 19,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 1
       }
     },
     {
@@ -4151,6 +4644,10 @@ window.DADOS_BUN = {
           "m": 22,
           "v": 8
         }
+      },
+      "placar": {
+        "m": 6,
+        "v": 2
       }
     },
     {
@@ -4184,6 +4681,10 @@ window.DADOS_BUN = {
           "m": 18,
           "v": 7
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 0
       }
     },
     {
@@ -4217,6 +4718,10 @@ window.DADOS_BUN = {
           "m": 1,
           "v": 27
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 3
       }
     },
     {
@@ -4250,6 +4755,10 @@ window.DADOS_BUN = {
           "m": 15,
           "v": 8
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -4283,6 +4792,10 @@ window.DADOS_BUN = {
           "m": 6,
           "v": 12
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 3
       }
     },
     {
@@ -4316,6 +4829,10 @@ window.DADOS_BUN = {
           "m": 26,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 4,
+        "v": 0
       }
     },
     {
@@ -4349,6 +4866,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 18
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 4
       }
     },
     {
@@ -4382,6 +4903,10 @@ window.DADOS_BUN = {
           "m": 22,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 5,
+        "v": 0
       }
     },
     {
@@ -4415,6 +4940,10 @@ window.DADOS_BUN = {
           "m": 10,
           "v": 20
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 3
       }
     },
     {
@@ -4448,6 +4977,10 @@ window.DADOS_BUN = {
           "m": 10,
           "v": 6
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -4481,6 +5014,10 @@ window.DADOS_BUN = {
           "m": 21,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -4514,6 +5051,10 @@ window.DADOS_BUN = {
           "m": 20,
           "v": 6
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -4547,6 +5088,10 @@ window.DADOS_BUN = {
           "m": 16,
           "v": 8
         }
+      },
+      "placar": {
+        "m": 6,
+        "v": 0
       }
     },
     {
@@ -4580,6 +5125,10 @@ window.DADOS_BUN = {
           "m": 8,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -4613,6 +5162,10 @@ window.DADOS_BUN = {
           "m": 14,
           "v": 7
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -4646,6 +5199,10 @@ window.DADOS_BUN = {
           "m": 14,
           "v": 16
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 3
       }
     },
     {
@@ -4679,6 +5236,10 @@ window.DADOS_BUN = {
           "m": 9,
           "v": 17
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -4712,6 +5273,10 @@ window.DADOS_BUN = {
           "m": 9,
           "v": 5
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -4745,6 +5310,10 @@ window.DADOS_BUN = {
           "m": 27,
           "v": 5
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -4778,6 +5347,10 @@ window.DADOS_BUN = {
           "m": 15,
           "v": 13
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -4811,6 +5384,10 @@ window.DADOS_BUN = {
           "m": 8,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 2
       }
     },
     {
@@ -4844,6 +5421,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -4877,6 +5458,10 @@ window.DADOS_BUN = {
           "m": 6,
           "v": 17
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 2
       }
     },
     {
@@ -4910,6 +5495,10 @@ window.DADOS_BUN = {
           "m": 11,
           "v": 12
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 0
       }
     },
     {
@@ -4943,6 +5532,10 @@ window.DADOS_BUN = {
           "m": 11,
           "v": 8
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 3
       }
     },
     {
@@ -4976,6 +5569,10 @@ window.DADOS_BUN = {
           "m": 19,
           "v": 15
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 3
       }
     },
     {
@@ -5009,6 +5606,10 @@ window.DADOS_BUN = {
           "m": 16,
           "v": 14
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 1
       }
     },
     {
@@ -5042,6 +5643,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 1
       }
     },
     {
@@ -5075,6 +5680,10 @@ window.DADOS_BUN = {
           "m": 8,
           "v": 20
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 0
       }
     },
     {
@@ -5108,6 +5717,10 @@ window.DADOS_BUN = {
           "m": 22,
           "v": 15
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -5141,6 +5754,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 17
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 1
       }
     },
     {
@@ -5174,6 +5791,10 @@ window.DADOS_BUN = {
           "m": 15,
           "v": 15
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 6
       }
     },
     {
@@ -5207,6 +5828,10 @@ window.DADOS_BUN = {
           "m": 10,
           "v": 15
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -5240,6 +5865,10 @@ window.DADOS_BUN = {
           "m": 22,
           "v": 20
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -5273,6 +5902,10 @@ window.DADOS_BUN = {
           "m": 18,
           "v": 13
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 1
       }
     },
     {
@@ -5306,6 +5939,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 19
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -5339,39 +5976,10 @@ window.DADOS_BUN = {
           "m": 19,
           "v": 5
         }
-      }
-    },
-    {
-      "match_id": "OI1v35vP",
-      "mandante": "Eintracht Frankfurt",
-      "visitante": "RB Leipzig",
-      "rodada": 138,
-      "data": "26.04.2025 13:30",
-      "tabela": {
-        "pos_mandante": 7,
-        "pts_mandante": null,
-        "pos_visitante": 3,
-        "pts_visitante": null
       },
-      "cantos": {
-        "ht": {
-          "m": 6,
-          "v": 3
-        },
-        "ft": {
-          "m": 8,
-          "v": 4
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 46,
-          "v": 54
-        },
-        "finalizacoes": {
-          "m": 9,
-          "v": 7
-        }
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -5405,6 +6013,10 @@ window.DADOS_BUN = {
           "m": 10,
           "v": 4
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 0
       }
     },
     {
@@ -5438,6 +6050,10 @@ window.DADOS_BUN = {
           "m": 11,
           "v": 24
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 4
       }
     },
     {
@@ -5471,6 +6087,10 @@ window.DADOS_BUN = {
           "m": 9,
           "v": 14
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -5504,6 +6124,10 @@ window.DADOS_BUN = {
           "m": 17,
           "v": 17
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 2
       }
     },
     {
@@ -5537,6 +6161,10 @@ window.DADOS_BUN = {
           "m": 19,
           "v": 13
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -5570,6 +6198,10 @@ window.DADOS_BUN = {
           "m": 11,
           "v": 15
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 3
       }
     },
     {
@@ -5603,6 +6235,10 @@ window.DADOS_BUN = {
           "m": 18,
           "v": 5
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -5636,6 +6272,10 @@ window.DADOS_BUN = {
           "m": 15,
           "v": 15
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -5669,6 +6309,10 @@ window.DADOS_BUN = {
           "m": 17,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -5702,6 +6346,10 @@ window.DADOS_BUN = {
           "m": 14,
           "v": 7
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 1
       }
     },
     {
@@ -5735,6 +6383,10 @@ window.DADOS_BUN = {
           "m": 10,
           "v": 14
         }
+      },
+      "placar": {
+        "m": 4,
+        "v": 1
       }
     },
     {
@@ -5768,6 +6420,10 @@ window.DADOS_BUN = {
           "m": 17,
           "v": 14
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 0
       }
     },
     {
@@ -5801,6 +6457,10 @@ window.DADOS_BUN = {
           "m": 17,
           "v": 19
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -5834,6 +6494,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 3
       }
     },
     {
@@ -5867,6 +6531,10 @@ window.DADOS_BUN = {
           "m": 19,
           "v": 8
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 2
       }
     },
     {
@@ -5900,6 +6568,10 @@ window.DADOS_BUN = {
           "m": 14,
           "v": 12
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 1
       }
     },
     {
@@ -5933,6 +6605,10 @@ window.DADOS_BUN = {
           "m": 15,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -5966,6 +6642,10 @@ window.DADOS_BUN = {
           "m": 6,
           "v": 15
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -5999,6 +6679,10 @@ window.DADOS_BUN = {
           "m": 20,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 4
       }
     },
     {
@@ -6032,6 +6716,10 @@ window.DADOS_BUN = {
           "m": 17,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 3
       }
     },
     {
@@ -6065,6 +6753,10 @@ window.DADOS_BUN = {
           "m": 7,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -6098,6 +6790,10 @@ window.DADOS_BUN = {
           "m": 17,
           "v": 6
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -6131,6 +6827,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 20
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -6164,6 +6864,10 @@ window.DADOS_BUN = {
           "m": 21,
           "v": 7
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 3
       }
     },
     {
@@ -6197,6 +6901,10 @@ window.DADOS_BUN = {
           "m": 25,
           "v": 1
         }
+      },
+      "placar": {
+        "m": 6,
+        "v": 0
       }
     },
     {
@@ -6230,6 +6938,10 @@ window.DADOS_BUN = {
           "m": 19,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -6263,6 +6975,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 20
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 4
       }
     },
     {
@@ -6296,6 +7012,10 @@ window.DADOS_BUN = {
           "m": 9,
           "v": 16
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -6329,6 +7049,10 @@ window.DADOS_BUN = {
           "m": 20,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -6362,6 +7086,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 5
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -6395,6 +7123,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 13
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -6428,6 +7160,10 @@ window.DADOS_BUN = {
           "m": 18,
           "v": 13
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 1
       }
     },
     {
@@ -6461,6 +7197,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 3
       }
     },
     {
@@ -6494,6 +7234,10 @@ window.DADOS_BUN = {
           "m": 9,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -6527,6 +7271,10 @@ window.DADOS_BUN = {
           "m": 11,
           "v": 12
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -6560,6 +7308,10 @@ window.DADOS_BUN = {
           "m": 15,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -6593,6 +7345,10 @@ window.DADOS_BUN = {
           "m": 11,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 4
       }
     },
     {
@@ -6626,6 +7382,10 @@ window.DADOS_BUN = {
           "m": 14,
           "v": 3
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -6659,6 +7419,10 @@ window.DADOS_BUN = {
           "m": 10,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -6692,6 +7456,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 8
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 2
       }
     },
     {
@@ -6725,6 +7493,10 @@ window.DADOS_BUN = {
           "m": 11,
           "v": 21
         }
+      },
+      "placar": {
+        "m": 4,
+        "v": 6
       }
     },
     {
@@ -6758,6 +7530,10 @@ window.DADOS_BUN = {
           "m": 19,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 4
       }
     },
     {
@@ -6791,6 +7567,10 @@ window.DADOS_BUN = {
           "m": 18,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 4,
+        "v": 1
       }
     },
     {
@@ -6824,6 +7604,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 15
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 4
       }
     },
     {
@@ -6857,6 +7641,10 @@ window.DADOS_BUN = {
           "m": 11,
           "v": 13
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 0
       }
     },
     {
@@ -6890,6 +7678,10 @@ window.DADOS_BUN = {
           "m": 10,
           "v": 5
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -6923,6 +7715,10 @@ window.DADOS_BUN = {
           "m": 15,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 4,
+        "v": 0
       }
     },
     {
@@ -6956,6 +7752,10 @@ window.DADOS_BUN = {
           "m": 9,
           "v": 12
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 0
       }
     },
     {
@@ -6989,6 +7789,10 @@ window.DADOS_BUN = {
           "m": 16,
           "v": 16
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -7022,6 +7826,10 @@ window.DADOS_BUN = {
           "m": 23,
           "v": 1
         }
+      },
+      "placar": {
+        "m": 4,
+        "v": 0
       }
     },
     {
@@ -7055,6 +7863,10 @@ window.DADOS_BUN = {
           "m": 8,
           "v": 7
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -7088,6 +7900,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 3
       }
     },
     {
@@ -7121,6 +7937,10 @@ window.DADOS_BUN = {
           "m": 18,
           "v": 12
         }
+      },
+      "placar": {
+        "m": 4,
+        "v": 1
       }
     },
     {
@@ -7154,6 +7974,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 5
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 0
       }
     },
     {
@@ -7187,6 +8011,10 @@ window.DADOS_BUN = {
           "m": 8,
           "v": 14
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -7220,6 +8048,10 @@ window.DADOS_BUN = {
           "m": 18,
           "v": 12
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 4
       }
     },
     {
@@ -7253,6 +8085,10 @@ window.DADOS_BUN = {
           "m": 11,
           "v": 17
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -7286,6 +8122,10 @@ window.DADOS_BUN = {
           "m": 19,
           "v": 12
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -7319,6 +8159,10 @@ window.DADOS_BUN = {
           "m": 14,
           "v": 9
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 0
       }
     },
     {
@@ -7352,6 +8196,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 15
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -7385,6 +8233,10 @@ window.DADOS_BUN = {
           "m": 9,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -7418,6 +8270,10 @@ window.DADOS_BUN = {
           "m": 10,
           "v": 14
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 1
       }
     },
     {
@@ -7451,6 +8307,10 @@ window.DADOS_BUN = {
           "m": 11,
           "v": 8
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -7484,6 +8344,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -7517,6 +8381,10 @@ window.DADOS_BUN = {
           "m": 16,
           "v": 14
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 3
       }
     },
     {
@@ -7550,6 +8418,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -7583,6 +8455,10 @@ window.DADOS_BUN = {
           "m": 4,
           "v": 21
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 1
       }
     },
     {
@@ -7616,6 +8492,10 @@ window.DADOS_BUN = {
           "m": 9,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -7649,6 +8529,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 7
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -7682,6 +8566,10 @@ window.DADOS_BUN = {
           "m": 16,
           "v": 12
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -7715,6 +8603,10 @@ window.DADOS_BUN = {
           "m": 16,
           "v": 8
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 1
       }
     },
     {
@@ -7748,6 +8640,10 @@ window.DADOS_BUN = {
           "m": 11,
           "v": 16
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 0
       }
     },
     {
@@ -7781,6 +8677,10 @@ window.DADOS_BUN = {
           "m": 8,
           "v": 21
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -7814,6 +8714,10 @@ window.DADOS_BUN = {
           "m": 23,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 4,
+        "v": 1
       }
     },
     {
@@ -7847,6 +8751,10 @@ window.DADOS_BUN = {
           "m": 12,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 2
       }
     },
     {
@@ -7880,6 +8788,10 @@ window.DADOS_BUN = {
           "m": 27,
           "v": 6
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -7913,6 +8825,10 @@ window.DADOS_BUN = {
           "m": 22,
           "v": 20
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -7946,6 +8862,10 @@ window.DADOS_BUN = {
           "m": 5,
           "v": 17
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 2
       }
     },
     {
@@ -7979,6 +8899,10 @@ window.DADOS_BUN = {
           "m": 17,
           "v": 7
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 0
       }
     },
     {
@@ -8012,6 +8936,10 @@ window.DADOS_BUN = {
           "m": 14,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 3
       }
     },
     {
@@ -8045,6 +8973,10 @@ window.DADOS_BUN = {
           "m": 7,
           "v": 16
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 3
       }
     },
     {
@@ -8078,6 +9010,10 @@ window.DADOS_BUN = {
           "m": 16,
           "v": 15
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 4
       }
     },
     {
@@ -8111,6 +9047,10 @@ window.DADOS_BUN = {
           "m": 9,
           "v": 19
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 1
       }
     },
     {
@@ -8144,6 +9084,10 @@ window.DADOS_BUN = {
           "m": 19,
           "v": 12
         }
+      },
+      "placar": {
+        "m": 0,
+        "v": 4
       }
     },
     {
@@ -8177,6 +9121,10 @@ window.DADOS_BUN = {
           "m": 13,
           "v": 15
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -8210,6 +9158,10 @@ window.DADOS_BUN = {
           "m": 17,
           "v": 10
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -8243,6 +9195,10 @@ window.DADOS_BUN = {
           "m": 20,
           "v": 7
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -8276,6 +9232,10 @@ window.DADOS_BUN = {
           "m": 31,
           "v": 11
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 2
       }
     },
     {
@@ -8309,6 +9269,10 @@ window.DADOS_BUN = {
           "m": 15,
           "v": 13
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -8342,6 +9306,10 @@ window.DADOS_BUN = {
           "m": 11,
           "v": 5
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -8375,6 +9343,10 @@ window.DADOS_BUN = {
           "m": 14,
           "v": 14
         }
+      },
+      "placar": {
+        "m": 3,
+        "v": 3
       }
     },
     {
@@ -8408,6 +9380,10 @@ window.DADOS_BUN = {
           "m": 8,
           "v": 20
         }
+      },
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -8441,6 +9417,346 @@ window.DADOS_BUN = {
           "m": 7,
           "v": 15
         }
+      },
+      "placar": {
+        "m": 1,
+        "v": 3
+      }
+    },
+    {
+      "id": "jckRSoU8",
+      "mandante": "Mainz",
+      "visitante": "Freiburg",
+      "data": "12.04.2026 14:30",
+      "rodada": null,
+      "fonte": "agente-assistente",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 8
+        }
+      },
+      "placar": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    {
+      "id": "6VjbL3Mr",
+      "mandante": "Stuttgart",
+      "visitante": "Hamburger SV",
+      "data": "12.04.2026 12:30",
+      "rodada": null,
+      "fonte": "agente-assistente",
+      "gols": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 4,
+          "v": 0
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 5,
+          "v": 1
+        },
+        "ft": {
+          "m": 8,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 65,
+          "v": 35
+        },
+        "finalizacoes": {
+          "m": 23,
+          "v": 9
+        }
+      },
+      "placar": {
+        "m": 4,
+        "v": 0
+      }
+    },
+    {
+      "id": "hnFuYt6l",
+      "mandante": "FC Koln",
+      "visitante": "Werder Bremen",
+      "data": "12.04.2026 10:30",
+      "rodada": null,
+      "fonte": "agente-assistente",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 1
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 1
+        },
+        "ft": {
+          "m": 8,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 27,
+          "v": 6
+        }
+      },
+      "placar": {
+        "m": 3,
+        "v": 1
+      }
+    },
+    {
+      "id": "2Hz1uPDE",
+      "mandante": "St. Pauli",
+      "visitante": "Bayern Munich",
+      "data": "11.04.2026 13:30",
+      "rodada": null,
+      "fonte": "agente-assistente",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 0,
+          "v": 5
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 23,
+          "v": 77
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 20
+        }
+      },
+      "placar": {
+        "m": 0,
+        "v": 5
+      }
+    },
+    {
+      "id": "zk7v5rx2",
+      "mandante": "Dortmund",
+      "visitante": "Bayer Leverkusen",
+      "data": "11.04.2026 10:30",
+      "rodada": null,
+      "fonte": "agente-assistente",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 1
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 5,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 11
+        }
+      },
+      "placar": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    {
+      "id": "dGT9w3rR",
+      "mandante": "Heidenheim",
+      "visitante": "Union Berlin",
+      "data": "11.04.2026 10:30",
+      "rodada": null,
+      "fonte": "agente-assistente",
+      "gols": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 1
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 10
+        }
+      },
+      "placar": {
+        "m": 3,
+        "v": 1
+      }
+    },
+    {
+      "id": "OAmZQPbL",
+      "mandante": "RB Leipzig",
+      "visitante": "B. Monchengladbach",
+      "data": "11.04.2026 10:30",
+      "rodada": null,
+      "fonte": "agente-assistente",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 2
+        },
+        "ft": {
+          "m": 11,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 24,
+          "v": 15
+        }
+      },
+      "placar": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    {
+      "id": "Eef6Jsie",
+      "mandante": "Wolfsburg",
+      "visitante": "Eintracht Frankfurt",
+      "data": "11.04.2026 10:30",
+      "rodada": null,
+      "fonte": "agente-assistente",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 7,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 22,
+          "v": 10
+        }
+      },
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     }
   ]

@@ -3708,5 +3708,3136 @@
         "v": 3
       }
     }
+  },
+  {
+    "id": "KSihrsx3",
+    "mandante": "Velez Sarsfield",
+    "visitante": "Central Cordoba",
+    "gols": {
+      "ht": {
+        "m": 1,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "bN6cMaFq",
+    "mandante": "Lanus",
+    "visitante": "Banfield",
+    "gols": {
+      "ht": {
+        "m": 1,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "t6OmXGT1",
+    "mandante": "Defensa y Justicia",
+    "visitante": "Talleres Cordoba",
+    "gols": {
+      "ht": {
+        "m": 1,
+        "v": 2
+      },
+      "ft": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "0MJNqfD7",
+    "mandante": "Sarmiento Junin",
+    "visitante": "Gimnasia L.P.",
+    "gols": {
+      "ht": {
+        "m": 1,
+        "v": 2
+      },
+      "ft": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "KQjl0Fcl",
+    "mandante": "Racing Club",
+    "visitante": "River Plate",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 2
+      },
+      "ft": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "bcN6mxEr",
+    "mandante": "Atl. Tucuman",
+    "visitante": "Tigre",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "6NQEoGre",
+    "mandante": "Huracan",
+    "visitante": "Rosario Central",
+    "gols": {
+      "ht": {
+        "m": 3,
+        "v": 1
+      },
+      "ft": {
+        "m": 3,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "trt1tL6F",
+    "mandante": "Newells Old Boys",
+    "visitante": "San Lorenzo",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "fk06Kwpd",
+    "mandante": "Platense",
+    "visitante": "Gimnasia Mendoza",
+    "gols": {
+      "ht": {
+        "m": 1,
+        "v": 1
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "hG697c5E",
+    "mandante": "Estudiantes Rio Cuarto",
+    "visitante": "Barracas Central",
+    "gols": {
+      "ht": {
+        "m": 1,
+        "v": 2
+      },
+      "ft": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "6arSfKL8",
+    "mandante": "Boca Juniors",
+    "visitante": "Independiente",
+    "gols": {
+      "ht": {
+        "m": 1,
+        "v": 1
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "l8q9vayS",
+    "mandante": "Estudiantes L.P.",
+    "visitante": "Union de Santa Fe",
+    "gols": {
+      "ht": {
+        "m": 2,
+        "v": 1
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "EPozgbjL",
+    "mandante": "Ind. Rivadavia",
+    "visitante": "Argentinos Jrs",
+    "gols": {
+      "ht": {
+        "m": 3,
+        "v": 1
+      },
+      "ft": {
+        "m": 3,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "8hQuZxak",
+    "mandante": "Dep. Riestra",
+    "visitante": "Instituto",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 1
+      },
+      "ft": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "lr0I5yzR",
+    "mandante": "Belgrano",
+    "visitante": "Aldosivi",
+    "gols": {
+      "ht": {
+        "m": 1,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "nJ3WxRrQ",
+    "mandante": "Instituto",
+    "visitante": "Defensa y Justicia",
+    "gols": {
+      "ht": {
+        "m": 2,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "2iLRRLiM",
+    "mandante": "Argentinos Jrs",
+    "visitante": "Banfield",
+    "gols": {
+      "ht": {
+        "m": 3,
+        "v": 2
+      },
+      "ft": {
+        "m": 3,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "AH8BTM5C",
+    "mandante": "Central Cordoba",
+    "visitante": "Newells Old Boys",
+    "gols": {
+      "ht": {
+        "m": 1,
+        "v": 3
+      },
+      "ft": {
+        "m": 1,
+        "v": 3
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "25pxprjg",
+    "mandante": "River Plate",
+    "visitante": "Belgrano",
+    "gols": {
+      "ht": {
+        "m": 3,
+        "v": 0
+      },
+      "ft": {
+        "m": 3,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "xp4QNiZj",
+    "mandante": "Gimnasia L.P.",
+    "visitante": "Huracan",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 3
+      },
+      "ft": {
+        "m": 0,
+        "v": 3
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "K8TAV3hc",
+    "mandante": "Rosario Central",
+    "visitante": "Atl. Tucuman",
+    "gols": {
+      "ht": {
+        "m": 2,
+        "v": 1
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "OpIyHqM6",
+    "mandante": "Independiente",
+    "visitante": "Racing Club",
+    "gols": {
+      "ht": {
+        "m": 1,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "zJrprMK5",
+    "mandante": "Aldosivi",
+    "visitante": "Estudiantes Rio Cuarto",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "GUwuWiwA",
+    "mandante": "Instituto",
+    "visitante": "Velez Sarsfield",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "CdXmUV7M",
+    "mandante": "Union de Santa Fe",
+    "visitante": "Platense",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "zc36HhOG",
+    "mandante": "Aldosivi",
+    "visitante": "Defensa y Justicia",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "4fCSMm0d",
+    "mandante": "Central Cordoba",
+    "visitante": "Gimnasia Mendoza",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "4AGjprbK",
+    "mandante": "Banfield",
+    "visitante": "Huracan",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "27moAAGj",
+    "mandante": "Independiente",
+    "visitante": "Estudiantes L.P.",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "8SIJO9Vq",
+    "mandante": "San Lorenzo",
+    "visitante": "Lanus",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 3
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "r3QXXD8c",
+    "mandante": "Talleres Cordoba",
+    "visitante": "Newells Old Boys",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "zg7MvMLs",
+    "mandante": "Ind. Rivadavia",
+    "visitante": "Atl. Tucuman",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "UX3Epih3",
+    "mandante": "Barracas Central",
+    "visitante": "River Plate",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "dnKfQM6l",
+    "mandante": "Rosario Central",
+    "visitante": "Belgrano",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "jmhNrVMF",
+    "mandante": "Gimnasia L.P.",
+    "visitante": "Racing Club",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "WOdFFWhT",
+    "mandante": "Boca Juniors",
+    "visitante": "Dep. Riestra",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "QRBBMv6D",
+    "mandante": "Argentinos Jrs",
+    "visitante": "Sarmiento Junin",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "hED3O0y1",
+    "mandante": "Tigre",
+    "visitante": "Estudiantes Rio Cuarto",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "xxfXdLsQ",
+    "mandante": "Platense",
+    "visitante": "Instituto",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "AFoMr8T6",
+    "mandante": "Velez Sarsfield",
+    "visitante": "Talleres Cordoba",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "IukUtnbJ",
+    "mandante": "Newells Old Boys",
+    "visitante": "Independiente",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "4YbwyvL6",
+    "mandante": "Gimnasia Mendoza",
+    "visitante": "San Lorenzo",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "d8eVx0jf",
+    "mandante": "Atl. Tucuman",
+    "visitante": "Central Cordoba",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "dMz4ia5m",
+    "mandante": "Huracan",
+    "visitante": "Ind. Rivadavia",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "KbYDlbHP",
+    "mandante": "Estudiantes L.P.",
+    "visitante": "Boca Juniors",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "Odfo4xkg",
+    "mandante": "River Plate",
+    "visitante": "Gimnasia L.P.",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "jqdw6bKt",
+    "mandante": "Racing Club",
+    "visitante": "Rosario Central",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "CdDhsG9a",
+    "mandante": "Aldosivi",
+    "visitante": "Barracas Central",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "pr7oZHkJ",
+    "mandante": "Lanus",
+    "visitante": "Union de Santa Fe",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "GUJqqxum",
+    "mandante": "Dep. Riestra",
+    "visitante": "Defensa y Justicia",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "Q1SKmH4C",
+    "mandante": "Estudiantes Rio Cuarto",
+    "visitante": "Argentinos Jrs",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "CIQSoeZO",
+    "mandante": "Belgrano",
+    "visitante": "Tigre",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "4nvCkwz0",
+    "mandante": "Sarmiento Junin",
+    "visitante": "Banfield",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "x0KKIy4n",
+    "mandante": "Independiente",
+    "visitante": "Velez Sarsfield",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "YRDTGFYb",
+    "mandante": "Talleres Cordoba",
+    "visitante": "Platense",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "Ii99fPHd",
+    "mandante": "San Lorenzo",
+    "visitante": "Central Cordoba",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "rajpDhkL",
+    "mandante": "Atl. Tucuman",
+    "visitante": "Huracan",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "nyuBbYIU",
+    "mandante": "Boca Juniors",
+    "visitante": "Newells Old Boys",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "8tx20F5F",
+    "mandante": "Rosario Central",
+    "visitante": "River Plate",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "KOmf2GJ5",
+    "mandante": "Barracas Central",
+    "visitante": "Dep. Riestra",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "QLj20flI",
+    "mandante": "Defensa y Justicia",
+    "visitante": "Estudiantes L.P.",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "AR51domp",
+    "mandante": "Union de Santa Fe",
+    "visitante": "Gimnasia Mendoza",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 4,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "bBGtgXck",
+    "mandante": "Argentinos Jrs",
+    "visitante": "Belgrano",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "2uVAbgzS",
+    "mandante": "Tigre",
+    "visitante": "Racing Club",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 3,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "0GYg2yy3",
+    "mandante": "Gimnasia L.P.",
+    "visitante": "Aldosivi",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 3,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "6uCyFg3B",
+    "mandante": "Instituto",
+    "visitante": "Lanus",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "Mq2yFEK8",
+    "mandante": "Ind. Rivadavia",
+    "visitante": "Sarmiento Junin",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "fwAkiBS1",
+    "mandante": "Banfield",
+    "visitante": "Estudiantes Rio Cuarto",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "l0VO5Ase",
+    "mandante": "",
+    "visitante": "",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "MR85ImR0",
+    "mandante": "",
+    "visitante": "",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "tSg0zMnn",
+    "mandante": "",
+    "visitante": "",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "MmptVQA6",
+    "mandante": "",
+    "visitante": "",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "UDmlT4uJ",
+    "mandante": "",
+    "visitante": "",
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "0YeXWntf",
+    "mandante": "Belgrano",
+    "visitante": "Banfield",
+    "rodada": 4,
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ft": {
+        "m": 0,
+        "v": 0
+      },
+      "ht": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "E15cK9dl",
+    "mandante": "Velez Sarsfield",
+    "visitante": "Boca Juniors",
+    "rodada": 4,
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ft": {
+        "m": 0,
+        "v": 0
+      },
+      "ht": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "UTTQPVYQ",
+    "mandante": "Platense",
+    "visitante": "Independiente",
+    "rodada": 4,
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ft": {
+        "m": 0,
+        "v": 0
+      },
+      "ht": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "hYyG7WCr",
+    "mandante": "Huracan",
+    "visitante": "San Lorenzo",
+    "rodada": 4,
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ft": {
+        "m": 0,
+        "v": 0
+      },
+      "ht": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "MDTW3lC7",
+    "mandante": "Gimnasia Mendoza",
+    "visitante": "Instituto",
+    "rodada": 4,
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ft": {
+        "m": 0,
+        "v": 0
+      },
+      "ht": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "Amk0vVmK",
+    "mandante": "Sarmiento Junin",
+    "visitante": "Atl. Tucuman",
+    "rodada": 4,
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ft": {
+        "m": 0,
+        "v": 0
+      },
+      "ht": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "Ig2EGReD",
+    "mandante": "Estudiantes L.P.",
+    "visitante": "Dep. Riestra",
+    "rodada": 4,
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ft": {
+        "m": 0,
+        "v": 0
+      },
+      "ht": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "xMBJRi4E",
+    "mandante": "Lanus",
+    "visitante": "Talleres Cordoba",
+    "rodada": 4,
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ft": {
+        "m": 0,
+        "v": 0
+      },
+      "ht": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "h8hPY8Bs",
+    "mandante": "Estudiantes Rio Cuarto",
+    "visitante": "Ind. Rivadavia",
+    "rodada": 4,
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ft": {
+        "m": 0,
+        "v": 0
+      },
+      "ht": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "Euh8YaHb",
+    "mandante": "Barracas Central",
+    "visitante": "Gimnasia L.P.",
+    "rodada": 4,
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ft": {
+        "m": 0,
+        "v": 0
+      },
+      "ht": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "xdpXcGpA",
+    "mandante": "Argentinos Jrs",
+    "visitante": "River Plate",
+    "rodada": 5,
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ft": {
+        "m": 0,
+        "v": 0
+      },
+      "ht": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "UVtPaxGc",
+    "mandante": "Tigre",
+    "visitante": "Aldosivi",
+    "rodada": 5,
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ft": {
+        "m": 0,
+        "v": 0
+      },
+      "ht": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "25QePevo",
+    "mandante": "Defensa y Justicia",
+    "visitante": "Velez Sarsfield",
+    "rodada": 5,
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "cantos": {
+      "ft": {
+        "m": 0,
+        "v": 0
+      },
+      "ht": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "KKD6se0T",
+    "mandante": "Union de Santa Fe",
+    "visitante": "San Lorenzo",
+    "rodada": 5,
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ft": {
+        "m": 0,
+        "v": 0
+      },
+      "ht": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "KMG0ufvC",
+    "mandante": "Independiente",
+    "visitante": "Lanus",
+    "rodada": 5,
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "cantos": {
+      "ft": {
+        "m": 0,
+        "v": 0
+      },
+      "ht": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
+  },
+  {
+    "id": "YNwtdfFM",
+    "mandante": "Banfield",
+    "visitante": "Racing Club",
+    "rodada": 5,
+    "gols": {
+      "ht": {
+        "m": 0,
+        "v": 0
+      },
+      "ft": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "cantos": {
+      "ft": {
+        "m": 0,
+        "v": 0
+      },
+      "ht": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "stats_taticas": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 0
+      }
+    }
   }
 ]

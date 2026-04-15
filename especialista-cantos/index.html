@@ -3645,28 +3645,83 @@ async function gerarRelatorioIA(mandante, visitante) {
   const ctr = document.getElementById('ai-report-container');
   ctr.innerHTML = `<div style="text-align:center;color:var(--green);font-weight:700">⏳ O SmartCoach está calculando o laudo matemático... (Aguarde 10seg)</div>`;
 
-  const ctx = getAppContext();
+  let ctx = getAppContext();
+
+  // ── INJEÇÃO DIRETA: dados situacionais casa/fora para o laudo ──
+  // Garante que SEMPRE chegam ao SmartCoach, independente da aba ativa
+  const jogosValidos_IA = DADOS_2026.jogos.filter(j => j.cantos !== null);
+  const casaM_IA = jogosValidos_IA.filter(j => j.mandante === mandante).slice(-5).reverse();
+  const foraV_IA = jogosValidos_IA.filter(j => j.visitante === visitante).slice(-5).reverse();
+
+  ctx += `\n\n════════════════════════════════════════════════════`;
+  ctx += `\n🏠 ÚLTIMOS ${casaM_IA.length} JOGOS EM CASA DO MANDANTE (${mandante}):\n`;
+  if (casaM_IA.length > 0) {
+    let spro = 0, scon = 0;
+    casaM_IA.forEach(j => {
+      spro += j.cantos.ft.m; scon += j.cantos.ft.v;
+      ctx += `  ${fmtDate(j.data)} - ${mandante} vs ${j.visitante} | Cantos: ${j.cantos.ft.m}x${j.cantos.ft.v} (Total: ${j.cantos.ft.m+j.cantos.ft.v}) | HT: ${j.cantos.ht.m}x${j.cantos.ht.v}\n`;
+    });
+    ctx += `  📊 MÉDIA EM CASA: ${mandante} produz ${(spro/casaM_IA.length).toFixed(1)} e sofre ${(scon/casaM_IA.length).toFixed(1)} cantos/jogo\n`;
+  } else { ctx += `  ⚠️ Sem jogos em casa registrados\n`; }
+
+  ctx += `\n✈️ ÚLTIMOS ${foraV_IA.length} JOGOS FORA DO VISITANTE (${visitante}):\n`;
+  if (foraV_IA.length > 0) {
+    let spro = 0, scon = 0;
+    foraV_IA.forEach(j => {
+      spro += j.cantos.ft.v; scon += j.cantos.ft.m;
+      ctx += `  ${fmtDate(j.data)} - ${j.mandante} vs ${visitante} | Cantos: ${j.cantos.ft.m}x${j.cantos.ft.v} (Total: ${j.cantos.ft.m+j.cantos.ft.v}) | HT: ${j.cantos.ht.m}x${j.cantos.ht.v}\n`;
+    });
+    ctx += `  📊 MÉDIA FORA: ${visitante} produz ${(spro/foraV_IA.length).toFixed(1)} e sofre ${(scon/foraV_IA.length).toFixed(1)} cantos/jogo\n`;
+  } else { ctx += `  ⚠️ Sem jogos fora registrados\n`; }
+
+  // Últimos 5 gerais (para tabela de referência)
+  const geralM_IA = jogosValidos_IA.filter(j => j.mandante === mandante || j.visitante === mandante).slice(-5).reverse();
+  const geralV_IA = jogosValidos_IA.filter(j => j.mandante === visitante || j.visitante === visitante).slice(-5).reverse();
+  ctx += `\n📋 ÚLTIMOS 5 JOGOS GERAIS — ${mandante}:\n`;
+  geralM_IA.forEach(j => {
+    const ic = j.mandante === mandante ? '🏠' : '✈️';
+    ctx += `  ${ic} ${fmtDate(j.data)} - ${j.mandante} vs ${j.visitante} | Cantos FT: ${j.cantos.ft.m}x${j.cantos.ft.v} | HT: ${j.cantos.ht.m}x${j.cantos.ht.v}\n`;
+  });
+  ctx += `\n📋 ÚLTIMOS 5 JOGOS GERAIS — ${visitante}:\n`;
+  geralV_IA.forEach(j => {
+    const ic = j.mandante === visitante ? '🏠' : '✈️';
+    ctx += `  ${ic} ${fmtDate(j.data)} - ${j.mandante} vs ${j.visitante} | Cantos FT: ${j.cantos.ft.m}x${j.cantos.ft.v} | HT: ${j.cantos.ht.m}x${j.cantos.ht.v}\n`;
+  });
+  ctx += `════════════════════════════════════════════════════\n`;
+
   const systemPrompt = `Você é o *SmartCoach*, a IA quantitativa embarcada no app 'Especialista em Cantos'.
 Seu objetivo primário é fornecer um Veredito Analítico para a partida de agora.
 
 REGRAS ESTRUTURAIS:
-Obrigatoriamente divida seu laudo em dois parágrafos ou seções de análise claras: "Análise do HT (1º Tempo)" e "Análise do Jogo (FT)". Indique em cada um onde estatisticamente está a melhor aposta com Valor Esperado Positivo (+EV) — seja no Handicap HT, Overs HT, Match Odds, ou no FT.
-OBRIGATORIAMENTE: Ao final do seu laudo, apresente um quadro (Tabela HTML estilizada e moderna com <table>, <tr>, <th>, <td>) mostrando os últimos 5 jogos do Mandante e os últimos 5 jogos do Visitante, detalhando para cada: Data, Oponente, Cantos HT e Cantos FT. Os dados brutos para isso estão no fim do bloco de contexto.
+Obrigatoriamente divida seu laudo em TRÊS seções:
+
+1. "Análise do HT (1º Tempo)" — onde está a melhor aposta HT com +EV
+2. "Análise do Jogo (FT)" — onde está a melhor aposta FT com +EV
+3. "Tabelas de Histórico" — DUAS tabelas obrigatórias:
+   - Tabela 1: "🏠 Últimos 5 jogos EM CASA do Mandante" (Data, Adversário, Cantos M x Cantos V, Total)
+   - Tabela 2: "✈️ Últimos 5 jogos FORA do Visitante" (Data, Adversário, Cantos M x Cantos V, Total)
+
+REGRA CRÍTICA — ANÁLISE SITUACIONAL:
+NUNCA baseie sua análise em médias GERAIS quando dados SITUACIONAIS (casa/fora) estão disponíveis.
+- Os dados incluem "🏠 ÚLTIMOS JOGOS EM CASA DO MANDANTE" com média específica em casa
+- Os dados incluem "✈️ ÚLTIMOS JOGOS FORA DO VISITANTE" com média específica fora
+- USE SEMPRE essas médias situacionais como base da sua análise, não as médias gerais
+- Se o mandante produz 2.0 cantos em casa mas 5.0 geral, use 2.0 como referência
+- Se o visitante produz 1.5 cantos fora mas 4.0 geral, use 1.5 como referência
+- COMPARE: "Em casa o mandante produz X e sofre Y" vs "Fora o visitante produz W e sofre Z"
 
 REGRAS ESTÉTICAS:
-NÃO USE ASTERISCOS Markdown. Use exclusivamente as tags HTML para destaques. Se quiser dar ênfase em dados cruciais, use <strong style="color:#34d367"> e </strong>. Se quiser usar subtítulos, use <div style="font-weight:800;color:#fca5a5;margin-top:10px;margin-bottom:5px"> TEXTO </div>. Crie um texto fluído antes da tabela final. Não use tabelas exceto para o quadro com os 5 últimos jogos solicitado acima.
-
-Analise as Forças e Vulnerabilidades da tela e determine o melhor mercado para atuação (+EV).
+NÃO USE ASTERISCOS Markdown. Use exclusivamente tags HTML para destaques. Se quiser dar ênfase em dados cruciais, use <strong style="color:#34d367"> e </strong>. Se quiser usar subtítulos, use <div style="font-weight:800;color:#fca5a5;margin-top:10px;margin-bottom:5px"> TEXTO </div>. Crie um texto fluído antes das tabelas finais. Use tabelas HTML estilizadas (<table>, <tr>, <th>, <td>) APENAS para os quadros de histórico.
 
 DADOS DO DNA ESCOTEIRO (SE DISPONÍVEL):
-Se os dados incluírem a seção "🧬 DNA ESCOTEIRO", use-os proativamente:
-- Compare o perfil do mandante EM CASA vs o perfil do visitante FORA DE CASA
-- Se o visitante tem "Perda fora alta" ou multiplicador DNA < 0.85, ALERTE que a projeção de cantos do visitante pode estar inflada
+Se os dados incluírem "🧬 DNA ESCOTEIRO", use proativamente:
+- Compare perfil do mandante EM CASA vs perfil do visitante FORA DE CASA
+- Se o visitante tem "Perda fora alta" ou multiplicador DNA < 0.85, ALERTE que xCorners pode estar inflado
 - Se o mandante tem "Forte em casa", reforce a direção do mercado
-- Use as notas YAAKEN para dar contexto qualitativo (ex: "Empata muito 56%", "Em chama 5/5")
-- SEMPRE mencione o multiplicador DNA e o perfil no laudo quando disponíveis
+- Use notas YAAKEN para contexto qualitativo (empates, forma, crises)
+- SEMPRE mencione o multiplicador DNA e perfil no laudo
 
-Não enrole. Seja cirúrgico.
+Seja cirúrgico. Zero enrolação.
 --- DADOS DA PROJEÇÃO ---
 ${ctx}
 ------------------------------`;
@@ -3681,11 +3736,11 @@ ${ctx}
         'anthropic-dangerous-direct-browser-access': 'true'
       },
       body: JSON.stringify({
-        model: 'claude-haiku-4-5-20251001',
-        max_tokens: 1024,
-        temperature: 0.4,
+        model: 'claude-sonnet-4-6',
+        max_tokens: 3000,
+        temperature: 0.3,
         system: systemPrompt,
-        messages: [{ role: 'user', content: 'Gere o laudo deste confronto com indicação direta do(s) melhor(es) cenário(s) de escanteios.' }]
+        messages: [{ role: 'user', content: `Gere o laudo completo de ${mandante} vs ${visitante}. OBRIGATÓRIO: inclua as duas tabelas HTML (🏠 Últimos 5 jogos EM CASA do mandante e ✈️ Últimos 5 jogos FORA do visitante). Use os dados situacionais casa/fora como base principal da análise, não as médias gerais.` }]
       })
     });
 
@@ -3917,16 +3972,51 @@ function getAppContext() {
         }
       }
 
+      // ── ÚLTIMOS 5 JOGOS EM CASA do mandante (dados situacionais reais) ──
+      const casaM = jogosValidos.filter(j => j.mandante === m).slice(-5).reverse();
+      ctx += `\n🏠 ÚLTIMOS ${casaM.length} JOGOS EM CASA DO MANDANTE (${m}):\n`;
+      if (casaM.length > 0) {
+        let somaCantosPro = 0, somaCantosCon = 0;
+        casaM.forEach(j => {
+          const totalFT = j.cantos.ft.m + j.cantos.ft.v;
+          somaCantosPro += j.cantos.ft.m;
+          somaCantosCon += j.cantos.ft.v;
+          ctx += `  ${fmtDate(j.data)} - ${m} vs ${j.visitante} | Cantos: ${j.cantos.ft.m}x${j.cantos.ft.v} (Total: ${totalFT}) | HT: ${j.cantos.ht.m}x${j.cantos.ht.v}\n`;
+        });
+        ctx += `  📊 MÉDIA EM CASA: ${m} produz ${(somaCantosPro/casaM.length).toFixed(1)} e sofre ${(somaCantosCon/casaM.length).toFixed(1)} cantos/jogo em casa\n`;
+      } else {
+        ctx += `  ⚠️ Sem jogos em casa registrados\n`;
+      }
+
+      // ── ÚLTIMOS 5 JOGOS FORA do visitante (dados situacionais reais) ──
+      const foraV = jogosValidos.filter(j => j.visitante === v).slice(-5).reverse();
+      ctx += `\n✈️ ÚLTIMOS ${foraV.length} JOGOS FORA DO VISITANTE (${v}):\n`;
+      if (foraV.length > 0) {
+        let somaCantosPro = 0, somaCantosCon = 0;
+        foraV.forEach(j => {
+          const totalFT = j.cantos.ft.m + j.cantos.ft.v;
+          somaCantosPro += j.cantos.ft.v;
+          somaCantosCon += j.cantos.ft.m;
+          ctx += `  ${fmtDate(j.data)} - ${j.mandante} vs ${v} | Cantos: ${j.cantos.ft.m}x${j.cantos.ft.v} (Total: ${totalFT}) | HT: ${j.cantos.ht.m}x${j.cantos.ht.v}\n`;
+        });
+        ctx += `  📊 MÉDIA FORA: ${v} produz ${(somaCantosPro/foraV.length).toFixed(1)} e sofre ${(somaCantosCon/foraV.length).toFixed(1)} cantos/jogo fora de casa\n`;
+      } else {
+        ctx += `  ⚠️ Sem jogos fora registrados\n`;
+      }
+
+      // ── HISTÓRICO GERAL (para referência da tabela) ──
       const ultimosM = jogosValidos.filter(j => j.mandante === m || j.visitante === m).slice(-5).reverse();
       const ultimosV = jogosValidos.filter(j => j.mandante === v || j.visitante === v).slice(-5).reverse();
-      
-      ctx += `\n- ÚLTIMOS 5 JOGOS DO MANDANTE (${m}):\n`;
+
+      ctx += `\n📋 ÚLTIMOS 5 JOGOS GERAIS DO MANDANTE (${m}) — casa e fora:\n`;
       ultimosM.forEach(j => {
-        ctx += `  ${fmtDate(j.data)} - ${j.mandante} vs ${j.visitante} | Cantos HT: ${j.cantos.ht.m}x${j.cantos.ht.v} | Cantos FT: ${j.cantos.ft.m}x${j.cantos.ft.v}\n`;
+        const mando = j.mandante === m ? '🏠' : '✈️';
+        ctx += `  ${mando} ${fmtDate(j.data)} - ${j.mandante} vs ${j.visitante} | Cantos HT: ${j.cantos.ht.m}x${j.cantos.ht.v} | Cantos FT: ${j.cantos.ft.m}x${j.cantos.ft.v}\n`;
       });
-      ctx += `\n- ÚLTIMOS 5 JOGOS DO VISITANTE (${v}):\n`;
+      ctx += `\n📋 ÚLTIMOS 5 JOGOS GERAIS DO VISITANTE (${v}) — casa e fora:\n`;
       ultimosV.forEach(j => {
-        ctx += `  ${fmtDate(j.data)} - ${j.mandante} vs ${j.visitante} | Cantos HT: ${j.cantos.ht.m}x${j.cantos.ht.v} | Cantos FT: ${j.cantos.ft.m}x${j.cantos.ft.v}\n`;
+        const mando = j.mandante === v ? '🏠' : '✈️';
+        ctx += `  ${mando} ${fmtDate(j.data)} - ${j.mandante} vs ${j.visitante} | Cantos HT: ${j.cantos.ht.m}x${j.cantos.ht.v} | Cantos FT: ${j.cantos.ft.m}x${j.cantos.ft.v}\n`;
       });
     }
   }
