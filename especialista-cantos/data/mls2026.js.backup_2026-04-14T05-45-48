@@ -1,12 +1,37 @@
-// ============================================================
-// MLS 2026 — Injeção Varredor v4 (rodada coletada 2026-05-12)
-// 133 jogos | Atualizado: 2026-05-13
-// ============================================================
-
+// MLS 2026 - Rodadas 1-7 (104 jogos)
 window.DADOS_MLS = {
-  "temporada": "MLS 2026",
-  "ultimaAtualizacao": "2026-05-13",
-  "totalRodadas": 0,
+  "times": [
+    "San Diego FC",
+    "Real Salt Lake",
+    "Portland Timbers",
+    "Los Angeles Galaxy",
+    "Minnesota United",
+    "Seattle Sounders",
+    "FC Cincinnati",
+    "CF Montreal",
+    "New York City",
+    "Inter Miami",
+    "Vancouver Whitecaps",
+    "San Jose Earthquakes",
+    "Austin FC",
+    "Los Angeles FC",
+    "FC Dallas",
+    "Houston Dynamo",
+    "Sporting Kansas City",
+    "Colorado Rapids",
+    "St. Louis City",
+    "New England Revolution",
+    "Atlanta Utd",
+    "DC United",
+    "Charlotte",
+    "New York Red Bulls",
+    "Nashville SC",
+    "Orlando City",
+    "Philadelphia Union",
+    "Chicago Fire",
+    "Toronto FC",
+    "Columbus Crew"
+  ],
   "jogos": [
     {
       "id": "r1DNXnig",
@@ -46,8 +71,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 5,
         "v": 0
-      },
-      "data": "22.03.2026 20:00"
+      }
     },
     {
       "id": "l2KEZ8Mt",
@@ -83,12 +107,7 @@ window.DADOS_MLS = {
           "v": 13
         }
       },
-      "rodada": 1,
-      "data": "22.03.2026 17:45",
-      "placar": {
-        "m": 1,
-        "v": 1
-      }
+      "rodada": 1
     },
     {
       "id": "bwu5F5yP",
@@ -124,12 +143,7 @@ window.DADOS_MLS = {
           "v": 6
         }
       },
-      "rodada": 1,
-      "data": "22.03.2026 15:30",
-      "placar": {
-        "m": 0,
-        "v": 0
-      }
+      "rodada": 1
     },
     {
       "id": "fgQqSCeB",
@@ -165,12 +179,7 @@ window.DADOS_MLS = {
           "v": 10
         }
       },
-      "rodada": 1,
-      "data": "22.03.2026 14:00",
-      "placar": {
-        "m": 4,
-        "v": 3
-      }
+      "rodada": 1
     },
     {
       "id": "xOjdHR6C",
@@ -206,12 +215,7 @@ window.DADOS_MLS = {
           "v": 7
         }
       },
-      "rodada": 1,
-      "data": "22.03.2026 14:00",
-      "placar": {
-        "m": 2,
-        "v": 3
-      }
+      "rodada": 1
     },
     {
       "id": "MuSyUYQb",
@@ -251,8 +255,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 0,
         "v": 1
-      },
-      "data": "21.03.2026 23:30"
+      }
     },
     {
       "id": "bH3U2SiJ",
@@ -292,8 +295,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 0,
         "v": 0
-      },
-      "data": "21.03.2026 21:45"
+      }
     },
     {
       "id": "EPoHQVqQ",
@@ -333,8 +335,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 4,
         "v": 3
-      },
-      "data": "21.03.2026 21:30"
+      }
     },
     {
       "id": "AeXnL97m",
@@ -374,8 +375,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 1,
         "v": 4
-      },
-      "data": "21.03.2026 21:30"
+      }
     },
     {
       "id": "UcmlJmx0",
@@ -415,8 +415,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 3,
         "v": 1
-      },
-      "data": "21.03.2026 21:30"
+      }
     },
     {
       "id": "UyCD6Ahf",
@@ -456,8 +455,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 0,
         "v": 0
-      },
-      "data": "21.03.2026 20:30"
+      }
     },
     {
       "id": "ji0M4lN6",
@@ -497,8 +495,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 6,
         "v": 1
-      },
-      "data": "21.03.2026 20:30"
+      }
     },
     {
       "id": "xUg68WNs",
@@ -538,8 +535,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 5,
         "v": 0
-      },
-      "data": "21.03.2026 19:15"
+      }
     },
     {
       "id": "IqDZDh0K",
@@ -579,8 +575,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 1,
         "v": 2
-      },
-      "data": "21.03.2026 17:30"
+      }
     },
     {
       "id": "StZSVfdn",
@@ -620,8 +615,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 2,
         "v": 1
-      },
-      "data": "21.03.2026 14:00"
+      }
     },
     {
       "id": "QkQmjk8D",
@@ -661,8 +655,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 0,
         "v": 1
-      },
-      "data": "15.03.2026 20:00"
+      }
     },
     {
       "id": "21IHOwkJ",
@@ -702,8 +695,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 6,
         "v": 0
-      },
-      "data": "15.03.2026 17:30"
+      }
     },
     {
       "id": "UNWvhBw1",
@@ -743,8 +735,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 6,
         "v": 1
-      },
-      "data": "15.03.2026 15:30"
+      }
     },
     {
       "id": "r7YWgX8l",
@@ -784,8 +775,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 2,
         "v": 0
-      },
-      "data": "14.03.2026 23:30"
+      }
     },
     {
       "id": "j9gh1FGE",
@@ -825,8 +815,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 1,
         "v": 2
-      },
-      "data": "14.03.2026 22:30"
+      }
     },
     {
       "id": "bZd0agoR",
@@ -866,8 +855,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 2,
         "v": 1
-      },
-      "data": "14.03.2026 22:30"
+      }
     },
     {
       "id": "8lKlsfPr",
@@ -907,8 +895,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 1,
         "v": 2
-      },
-      "data": "14.03.2026 21:30"
+      }
     },
     {
       "id": "2mDcuYge",
@@ -948,8 +935,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 3,
         "v": 3
-      },
-      "data": "14.03.2026 21:30"
+      }
     },
     {
       "id": "z1B5wCO7",
@@ -989,8 +975,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 3,
         "v": 2
-      },
-      "data": "14.03.2026 21:30"
+      }
     },
     {
       "id": "tz481OAc",
@@ -1030,8 +1015,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 0,
         "v": 0
-      },
-      "data": "14.03.2026 20:30"
+      }
     },
     {
       "id": "2khHa2uA",
@@ -1071,8 +1055,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 3,
         "v": 1
-      },
-      "data": "14.03.2026 20:30"
+      }
     },
     {
       "id": "tnU8QaK6",
@@ -1112,8 +1095,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 2,
         "v": 1
-      },
-      "data": "14.03.2026 20:30"
+      }
     },
     {
       "id": "ETBMwLIj",
@@ -1153,8 +1135,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 0,
         "v": 1
-      },
-      "data": "14.03.2026 19:15"
+      }
     },
     {
       "id": "pbgbqseT",
@@ -1194,8 +1175,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 3,
         "v": 1
-      },
-      "data": "14.03.2026 16:15"
+      }
     },
     {
       "id": "YLQ0SLkf",
@@ -1235,8 +1215,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 1,
         "v": 1
-      },
-      "data": "14.03.2026 14:00"
+      }
     },
     {
       "id": "S8e0UsLs",
@@ -1276,8 +1255,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 0,
         "v": 1
-      },
-      "data": "08.03.2026 20:00"
+      }
     },
     {
       "id": "WxAUZ3cK",
@@ -1317,8 +1295,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 0,
         "v": 3
-      },
-      "data": "08.03.2026 17:30"
+      }
     },
     {
       "id": "Cpejo3QG",
@@ -1358,8 +1335,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 1,
         "v": 0
-      },
-      "data": "08.03.2026 00:30"
+      }
     },
     {
       "id": "GURsC05D",
@@ -1399,8 +1375,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 1,
         "v": 4
-      },
-      "data": "08.03.2026 00:30"
+      }
     },
     {
       "id": "GI1smPe4",
@@ -1440,8 +1415,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 4,
         "v": 1
-      },
-      "data": "07.03.2026 23:30"
+      }
     },
     {
       "id": "SdLnRsZp",
@@ -1481,8 +1455,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 3,
         "v": 1
-      },
-      "data": "07.03.2026 22:30"
+      }
     },
     {
       "id": "bsVGW3BN",
@@ -1522,8 +1495,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 0,
         "v": 1
-      },
-      "data": "07.03.2026 22:30"
+      }
     },
     {
       "id": "8hbZloRi",
@@ -1563,8 +1535,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 0,
         "v": 1
-      },
-      "data": "07.03.2026 22:30"
+      }
     },
     {
       "id": "4K9sI4dU",
@@ -1604,8 +1575,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 2,
         "v": 3
-      },
-      "data": "07.03.2026 21:30"
+      }
     },
     {
       "id": "YZqix8sn",
@@ -1645,8 +1615,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 3,
         "v": 1
-      },
-      "data": "07.03.2026 21:30"
+      }
     },
     {
       "id": "U1w0znCb",
@@ -1686,8 +1655,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 0,
         "v": 0
-      },
-      "data": "07.03.2026 21:30"
+      }
     },
     {
       "id": "2Fy8YPtB",
@@ -1727,8 +1695,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 0,
         "v": 1
-      },
-      "data": "07.03.2026 21:30"
+      }
     },
     {
       "id": "r5LYJQRH",
@@ -1768,8 +1735,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 1,
         "v": 2
-      },
-      "data": "07.03.2026 18:30"
+      }
     },
     {
       "id": "zuIQLnc5",
@@ -1809,8 +1775,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 5,
         "v": 0
-      },
-      "data": "07.03.2026 16:30"
+      }
     },
     {
       "id": "zRxh7mrC",
@@ -1850,8 +1815,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 2,
         "v": 0
-      },
-      "data": "01.03.2026 23:15"
+      }
     },
     {
       "id": "EBlq99Da",
@@ -1891,8 +1855,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 2,
         "v": 4
-      },
-      "data": "01.03.2026 21:00"
+      }
     },
     {
       "id": "6ooyBVrm",
@@ -1932,8 +1895,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 1,
         "v": 2
-      },
-      "data": "01.03.2026 18:30"
+      }
     },
     {
       "id": "lA6ATwaE",
@@ -1973,8 +1935,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 1,
         "v": 0
-      },
-      "data": "01.03.2026 16:30"
+      }
     },
     {
       "id": "dGJO5z77",
@@ -2014,8 +1975,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 3,
         "v": 0
-      },
-      "data": "01.03.2026 00:30"
+      }
     },
     {
       "id": "84OZDMz1",
@@ -2055,8 +2015,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 3,
         "v": 0
-      },
-      "data": "28.02.2026 23:30"
+      }
     },
     {
       "id": "8joyFvpL",
@@ -2096,8 +2055,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 0,
         "v": 0
-      },
-      "data": "28.02.2026 22:30"
+      }
     },
     {
       "id": "hOM79I7r",
@@ -2137,8 +2095,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 0,
         "v": 2
-      },
-      "data": "28.02.2026 22:30"
+      }
     },
     {
       "id": "0lQF7dxe",
@@ -2178,8 +2135,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 2,
         "v": 2
-      },
-      "data": "28.02.2026 22:30"
+      }
     },
     {
       "id": "pIDr9ld2",
@@ -2219,8 +2175,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 2,
         "v": 1
-      },
-      "data": "28.02.2026 21:30"
+      }
     },
     {
       "id": "2grTG0F8",
@@ -2260,8 +2215,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 2,
         "v": 0
-      },
-      "data": "28.02.2026 21:30"
+      }
     },
     {
       "id": "hKY3GW3S",
@@ -2301,8 +2255,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 2,
         "v": 0
-      },
-      "data": "28.02.2026 18:30"
+      }
     },
     {
       "id": "C4FzBARk",
@@ -2342,8 +2295,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 1,
         "v": 0
-      },
-      "data": "28.02.2026 18:30"
+      }
     },
     {
       "id": "nkzRFr6l",
@@ -2383,8 +2335,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 3,
         "v": 0
-      },
-      "data": "28.02.2026 16:30"
+      }
     },
     {
       "id": "KhLdIhZF",
@@ -2424,8 +2375,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 1,
         "v": 0
-      },
-      "data": "28.02.2026 16:30"
+      }
     },
     {
       "id": "z5ogbXsp",
@@ -2465,8 +2415,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 2,
         "v": 0
-      },
-      "data": "22.02.2026 23:15"
+      }
     },
     {
       "id": "vZaN3gKM",
@@ -2506,8 +2455,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 1,
         "v": 1
-      },
-      "data": "22.02.2026 21:00"
+      }
     },
     {
       "id": "xA367yLc",
@@ -2547,8 +2495,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 3,
         "v": 2
-      },
-      "data": "22.02.2026 00:30"
+      }
     },
     {
       "id": "IZqeL4rR",
@@ -2588,8 +2535,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 5,
         "v": 0
-      },
-      "data": "22.02.2026 00:30"
+      }
     },
     {
       "id": "pz7E5FkA",
@@ -2629,8 +2575,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 3,
         "v": 0
-      },
-      "data": "22.02.2026 00:30"
+      }
     },
     {
       "id": "dEQJqYSj",
@@ -2670,8 +2615,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 3,
         "v": 0
-      },
-      "data": "21.02.2026 23:30"
+      }
     },
     {
       "id": "YFLvgx64",
@@ -2711,8 +2655,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 2,
         "v": 2
-      },
-      "data": "21.02.2026 22:30"
+      }
     },
     {
       "id": "M7jnNQDE",
@@ -2752,8 +2695,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 3,
         "v": 2
-      },
-      "data": "21.02.2026 22:30"
+      }
     },
     {
       "id": "6TJniGzH",
@@ -2793,8 +2735,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 2,
         "v": 1
-      },
-      "data": "21.02.2026 22:30"
+      }
     },
     {
       "id": "QVZmkf5T",
@@ -2834,8 +2775,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 4,
         "v": 1
-      },
-      "data": "21.02.2026 22:30"
+      }
     },
     {
       "id": "AszpXfqo",
@@ -2875,8 +2815,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 1,
         "v": 0
-      },
-      "data": "21.02.2026 21:30"
+      }
     },
     {
       "id": "xlSVfbyh",
@@ -2916,8 +2855,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 1,
         "v": 2
-      },
-      "data": "21.02.2026 21:30"
+      }
     },
     {
       "id": "UD30aNL7",
@@ -2957,8 +2895,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 1,
         "v": 0
-      },
-      "data": "21.02.2026 21:30"
+      }
     },
     {
       "id": "jgNBk3aC",
@@ -2998,8 +2935,7 @@ window.DADOS_MLS = {
       "placar": {
         "m": 2,
         "v": 0
-      },
-      "data": "21.02.2026 18:45"
+      }
     },
     {
       "id": "bo54iPUa",
@@ -3039,8 +2975,547 @@ window.DADOS_MLS = {
       "placar": {
         "m": 1,
         "v": 1
+      }
+    },
+    {
+      "id": "r7fgiyow",
+      "mandante": "Los Angeles Galaxy",
+      "visitante": "Minnesota United",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
       },
-      "data": "21.02.2026 16:30"
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 9,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 9
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r7bby3e4",
+      "mandante": "San Jose Earthquakes",
+      "visitante": "San Diego FC",
+      "gols": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 0
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 5
+        },
+        "ft": {
+          "m": 7,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 24,
+          "v": 4
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r7j85e2r",
+      "mandante": "Vancouver Whitecaps",
+      "visitante": "Portland Timbers",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 22,
+          "v": 8
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r7220fr4",
+      "mandante": "Los Angeles FC",
+      "visitante": "Orlando City",
+      "gols": {
+        "ht": {
+          "m": 5,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 0
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 7,
+          "v": 2
+        },
+        "ft": {
+          "m": 8,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 12
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r704qhml",
+      "mandante": "Chicago Fire",
+      "visitante": "Nashville SC",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 10
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r720otup",
+      "mandante": "Houston Dynamo",
+      "visitante": "Seattle Sounders",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 2
+        },
+        "ft": {
+          "m": 9,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 6
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r79orx9u",
+      "mandante": "Atlanta Utd",
+      "visitante": "Columbus Crew",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 4
+        },
+        "ft": {
+          "m": 4,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 16
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r7wq2gcb",
+      "mandante": "Charlotte",
+      "visitante": "Philadelphia Union",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 17
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r7sl0qmn",
+      "mandante": "DC United",
+      "visitante": "FC Dallas",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 0,
+          "v": 4
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 15
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r7601zf5",
+      "mandante": "Inter Miami",
+      "visitante": "Austin FC",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 2
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 7,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 66,
+          "v": 34
+        },
+        "finalizacoes": {
+          "m": 28,
+          "v": 9
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r78vexo6",
+      "mandante": "New York City",
+      "visitante": "St. Louis City",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 2,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 14
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r77axwku",
+      "mandante": "New York Red Bulls",
+      "visitante": "FC Cincinnati",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 2
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 2,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 17
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r7218tgs",
+      "mandante": "New England Revolution",
+      "visitante": "CF Montreal",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 0
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 1,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 35,
+          "v": 65
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 18
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r7lxaoo1",
+      "mandante": "Real Salt Lake",
+      "visitante": "Sporting Kansas City",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 1
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 22,
+          "v": 5
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r78u4u5r",
+      "mandante": "Toronto FC",
+      "visitante": "Colorado Rapids",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 7,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 5
+        }
+      },
+      "rodada": 6
     },
     {
       "id": "GERgS3xS",
@@ -3656,1918 +4131,8 @@ window.DADOS_MLS = {
         "m": 3,
         "v": 2
       }
-    },
-    {
-      "id": "f3LkpxbD",
-      "mandante": "Columbus Crew",
-      "visitante": "Orlando City",
-      "data": "12.04.2026 20:00",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 1
-        },
-        "ft": {
-          "m": 1,
-          "v": 1
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 6,
-          "v": 0
-        },
-        "ft": {
-          "m": 8,
-          "v": 1
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 65,
-          "v": 35
-        },
-        "finalizacoes": {
-          "m": 20,
-          "v": 5
-        }
-      },
-      "placar": {
-        "m": 1,
-        "v": 1
-      },
-      "match_id": "f3LkpxbD"
-    },
-    {
-      "id": "8nNsnbT0",
-      "mandante": "San Diego FC",
-      "visitante": "Minnesota United",
-      "data": "11.04.2026 23:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 1,
-          "v": 2
-        },
-        "ft": {
-          "m": 1,
-          "v": 2
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 1,
-          "v": 0
-        },
-        "ft": {
-          "m": 4,
-          "v": 5
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 64,
-          "v": 36
-        },
-        "finalizacoes": {
-          "m": 17,
-          "v": 21
-        }
-      },
-      "placar": {
-        "m": 1,
-        "v": 2
-      },
-      "match_id": "8nNsnbT0"
-    },
-    {
-      "id": "nXYYmKbl",
-      "mandante": "Colorado Rapids",
-      "visitante": "Houston Dynamo",
-      "data": "11.04.2026 22:30",
-      "rodada": null,
-      "fonte": "agente-assistente",
-      "gols": {
-        "ht": {
-          "m": 2,
-          "v": 0
-        },
-        "ft": {
-          "m": 6,
-          "v": 2
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 2,
-          "v": 2
-        },
-        "ft": {
-          "m": 2,
-          "v": 4
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 51,
-          "v": 49
-        },
-        "finalizacoes": {
-          "m": 16,
-          "v": 20
-        }
-      },
-      "placar": {
-        "m": 6,
-        "v": 2
-      }
-    },
-    {
-      "id": "SS18XbE7",
-      "mandante": "Chicago Fire",
-      "visitante": "Atlanta Utd",
-      "data": "11.04.2026 21:30",
-      "rodada": null,
-      "fonte": "agente-assistente",
-      "gols": {
-        "ht": {
-          "m": 1,
-          "v": 0
-        },
-        "ft": {
-          "m": 1,
-          "v": 0
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 4,
-          "v": 6
-        },
-        "ft": {
-          "m": 6,
-          "v": 11
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 45,
-          "v": 55
-        },
-        "finalizacoes": {
-          "m": 18,
-          "v": 20
-        }
-      },
-      "placar": {
-        "m": 1,
-        "v": 0
-      }
-    },
-    {
-      "id": "KMlfe26E",
-      "mandante": "FC Dallas",
-      "visitante": "St. Louis City",
-      "data": "11.04.2026 21:30",
-      "rodada": null,
-      "fonte": "agente-assistente",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 0
-        },
-        "ft": {
-          "m": 1,
-          "v": 1
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 1,
-          "v": 6
-        },
-        "ft": {
-          "m": 5,
-          "v": 10
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 41,
-          "v": 59
-        },
-        "finalizacoes": {
-          "m": 11,
-          "v": 10
-        }
-      },
-      "placar": {
-        "m": 1,
-        "v": 1
-      }
-    },
-    {
-      "id": "Glr3gtyR",
-      "mandante": "Sporting Kansas City",
-      "visitante": "San Jose Earthquakes",
-      "data": "11.04.2026 21:30",
-      "rodada": null,
-      "fonte": "agente-assistente",
-      "gols": {
-        "ht": {
-          "m": 1,
-          "v": 1
-        },
-        "ft": {
-          "m": 1,
-          "v": 3
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 0,
-          "v": 2
-        },
-        "ft": {
-          "m": 2,
-          "v": 4
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 49,
-          "v": 51
-        },
-        "finalizacoes": {
-          "m": 10,
-          "v": 10
-        }
-      },
-      "placar": {
-        "m": 1,
-        "v": 3
-      }
-    },
-    {
-      "id": "fLELt3iL",
-      "mandante": "Charlotte",
-      "visitante": "Nashville SC",
-      "data": "11.04.2026 20:30",
-      "rodada": null,
-      "fonte": "agente-assistente",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 1
-        },
-        "ft": {
-          "m": 1,
-          "v": 2
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 0,
-          "v": 0
-        },
-        "ft": {
-          "m": 2,
-          "v": 4
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 45,
-          "v": 55
-        },
-        "finalizacoes": {
-          "m": 8,
-          "v": 11
-        }
-      },
-      "placar": {
-        "m": 1,
-        "v": 2
-      }
-    },
-    {
-      "id": "vgjhysFr",
-      "mandante": "Inter Miami",
-      "visitante": "New York Red Bulls",
-      "data": "11.04.2026 20:30",
-      "rodada": null,
-      "fonte": "agente-assistente",
-      "gols": {
-        "ht": {
-          "m": 1,
-          "v": 1
-        },
-        "ft": {
-          "m": 2,
-          "v": 2
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 8,
-          "v": 2
-        },
-        "ft": {
-          "m": 12,
-          "v": 3
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 55,
-          "v": 45
-        },
-        "finalizacoes": {
-          "m": 16,
-          "v": 5
-        }
-      },
-      "placar": {
-        "m": 2,
-        "v": 2
-      }
-    },
-    {
-      "id": "nJg0ZKqe",
-      "mandante": "New England Revolution",
-      "visitante": "DC United",
-      "data": "11.04.2026 20:30",
-      "rodada": null,
-      "fonte": "agente-assistente",
-      "gols": {
-        "ht": {
-          "m": 1,
-          "v": 0
-        },
-        "ft": {
-          "m": 1,
-          "v": 0
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 0,
-          "v": 1
-        },
-        "ft": {
-          "m": 2,
-          "v": 3
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 54,
-          "v": 46
-        },
-        "finalizacoes": {
-          "m": 11,
-          "v": 14
-        }
-      },
-      "placar": {
-        "m": 1,
-        "v": 0
-      }
-    },
-    {
-      "id": "IewzwU9T",
-      "mandante": "Vancouver Whitecaps",
-      "visitante": "New York City",
-      "data": "11.04.2026 20:30",
-      "rodada": null,
-      "fonte": "agente-assistente",
-      "gols": {
-        "ht": {
-          "m": 1,
-          "v": 0
-        },
-        "ft": {
-          "m": 2,
-          "v": 0
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 6,
-          "v": 0
-        },
-        "ft": {
-          "m": 12,
-          "v": 5
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 42,
-          "v": 58
-        },
-        "finalizacoes": {
-          "m": 23,
-          "v": 10
-        }
-      },
-      "placar": {
-        "m": 2,
-        "v": 0
-      }
-    },
-    {
-      "id": "neBDrPM8",
-      "mandante": "Portland Timbers",
-      "visitante": "Los Angeles FC",
-      "data": "11.04.2026 17:45",
-      "rodada": null,
-      "fonte": "agente-assistente",
-      "gols": {
-        "ht": {
-          "m": 1,
-          "v": 0
-        },
-        "ft": {
-          "m": 2,
-          "v": 1
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 0,
-          "v": 3
-        },
-        "ft": {
-          "m": 1,
-          "v": 7
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 58,
-          "v": 42
-        },
-        "finalizacoes": {
-          "m": 10,
-          "v": 18
-        }
-      },
-      "placar": {
-        "m": 2,
-        "v": 1
-      }
-    },
-    {
-      "id": "8C6YKLU1",
-      "mandante": "Austin FC",
-      "visitante": "Los Angeles Galaxy",
-      "data": "11.04.2026 15:30",
-      "rodada": null,
-      "fonte": "agente-assistente",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 1
-        },
-        "ft": {
-          "m": 1,
-          "v": 2
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 3,
-          "v": 2
-        },
-        "ft": {
-          "m": 6,
-          "v": 5
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 61,
-          "v": 39
-        },
-        "finalizacoes": {
-          "m": 13,
-          "v": 12
-        }
-      },
-      "placar": {
-        "m": 1,
-        "v": 2
-      }
-    },
-    {
-      "id": "pruSvjuH",
-      "mandante": "CF Montreal",
-      "visitante": "Philadelphia Union",
-      "data": "11.04.2026 15:30",
-      "rodada": null,
-      "fonte": "agente-assistente",
-      "gols": {
-        "ht": {
-          "m": 1,
-          "v": 0
-        },
-        "ft": {
-          "m": 1,
-          "v": 2
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 1,
-          "v": 1
-        },
-        "ft": {
-          "m": 2,
-          "v": 4
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 50,
-          "v": 50
-        },
-        "finalizacoes": {
-          "m": 7,
-          "v": 15
-        }
-      },
-      "placar": {
-        "m": 1,
-        "v": 2
-      }
-    },
-    {
-      "id": "lGoJtCA4",
-      "mandante": "Toronto FC",
-      "visitante": "FC Cincinnati",
-      "data": "11.04.2026 14:00",
-      "rodada": null,
-      "fonte": "agente-assistente",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 0
-        },
-        "ft": {
-          "m": 1,
-          "v": 1
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 3,
-          "v": 2
-        },
-        "ft": {
-          "m": 7,
-          "v": 4
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 49,
-          "v": 51
-        },
-        "finalizacoes": {
-          "m": 10,
-          "v": 7
-        }
-      },
-      "placar": {
-        "m": 1,
-        "v": 1
-      }
-    },
-    {
-      "match_id": "2qevfSqS",
-      "id": "2qevfSqS",
-      "mandante": "Austin FC",
-      "visitante": "St. Louis City",
-      "data": "03.05.2026 18:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 0
-        },
-        "ft": {
-          "m": 2,
-          "v": 0
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 2,
-          "v": 4
-        },
-        "ft": {
-          "m": 4,
-          "v": 6
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 55,
-          "v": 45
-        },
-        "finalizacoes": {
-          "m": 16,
-          "v": 15
-        }
-      },
-      "placar": {
-        "m": 2,
-        "v": 0
-      }
-    },
-    {
-      "match_id": "fJiWelFF",
-      "id": "fJiWelFF",
-      "mandante": "New York City",
-      "visitante": "DC United",
-      "data": "03.05.2026 16:00",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 1
-        },
-        "ft": {
-          "m": 0,
-          "v": 2
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 2,
-          "v": 2
-        },
-        "ft": {
-          "m": 6,
-          "v": 3
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 73,
-          "v": 27
-        },
-        "finalizacoes": {
-          "m": 9,
-          "v": 19
-        }
-      },
-      "placar": {
-        "m": 0,
-        "v": 2
-      }
-    },
-    {
-      "match_id": "jsXCrgck",
-      "id": "jsXCrgck",
-      "mandante": "Los Angeles Galaxy",
-      "visitante": "Vancouver Whitecaps",
-      "data": "02.05.2026 23:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 0
-        },
-        "ft": {
-          "m": 1,
-          "v": 1
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 0,
-          "v": 2
-        },
-        "ft": {
-          "m": 1,
-          "v": 2
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 38,
-          "v": 62
-        },
-        "finalizacoes": {
-          "m": 7,
-          "v": 19
-        }
-      },
-      "placar": {
-        "m": 1,
-        "v": 1
-      }
-    },
-    {
-      "match_id": "Y33NcAp3",
-      "id": "Y33NcAp3",
-      "mandante": "San Diego FC",
-      "visitante": "Los Angeles FC",
-      "data": "02.05.2026 22:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 1,
-          "v": 0
-        },
-        "ft": {
-          "m": 2,
-          "v": 2
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 2,
-          "v": 0
-        },
-        "ft": {
-          "m": 2,
-          "v": 3
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 56,
-          "v": 44
-        },
-        "finalizacoes": {
-          "m": 8,
-          "v": 9
-        }
-      },
-      "placar": {
-        "m": 2,
-        "v": 2
-      }
-    },
-    {
-      "match_id": "neezxTNq",
-      "id": "neezxTNq",
-      "mandante": "Chicago Fire",
-      "visitante": "FC Cincinnati",
-      "data": "02.05.2026 21:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 2,
-          "v": 2
-        },
-        "ft": {
-          "m": 2,
-          "v": 3
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 3,
-          "v": 0
-        },
-        "ft": {
-          "m": 10,
-          "v": 1
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 56,
-          "v": 44
-        },
-        "finalizacoes": {
-          "m": 33,
-          "v": 10
-        }
-      },
-      "placar": {
-        "m": 2,
-        "v": 3
-      }
-    },
-    {
-      "match_id": "6cByz7hd",
-      "id": "6cByz7hd",
-      "mandante": "Houston Dynamo",
-      "visitante": "Colorado Rapids",
-      "data": "02.05.2026 21:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 0
-        },
-        "ft": {
-          "m": 1,
-          "v": 0
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 1,
-          "v": 2
-        },
-        "ft": {
-          "m": 6,
-          "v": 5
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 39,
-          "v": 61
-        },
-        "finalizacoes": {
-          "m": 9,
-          "v": 4
-        }
-      },
-      "placar": {
-        "m": 1,
-        "v": 0
-      }
-    },
-    {
-      "match_id": "bqhYky5F",
-      "id": "bqhYky5F",
-      "mandante": "Atlanta Utd",
-      "visitante": "CF Montreal",
-      "data": "02.05.2026 20:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 2,
-          "v": 1
-        },
-        "ft": {
-          "m": 3,
-          "v": 1
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 1,
-          "v": 1
-        },
-        "ft": {
-          "m": 3,
-          "v": 2
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 53,
-          "v": 47
-        },
-        "finalizacoes": {
-          "m": 18,
-          "v": 11
-        }
-      },
-      "placar": {
-        "m": 3,
-        "v": 1
-      }
-    },
-    {
-      "match_id": "82ByvGgU",
-      "id": "82ByvGgU",
-      "mandante": "Columbus Crew",
-      "visitante": "Minnesota United",
-      "data": "02.05.2026 20:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 1,
-          "v": 0
-        },
-        "ft": {
-          "m": 2,
-          "v": 3
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 2,
-          "v": 3
-        },
-        "ft": {
-          "m": 4,
-          "v": 6
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 66,
-          "v": 34
-        },
-        "finalizacoes": {
-          "m": 13,
-          "v": 12
-        }
-      },
-      "placar": {
-        "m": 2,
-        "v": 3
-      }
-    },
-    {
-      "match_id": "CGynbJvn",
-      "id": "CGynbJvn",
-      "mandante": "New England Revolution",
-      "visitante": "Charlotte",
-      "data": "02.05.2026 20:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 0
-        },
-        "ft": {
-          "m": 1,
-          "v": 0
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 2,
-          "v": 3
-        },
-        "ft": {
-          "m": 3,
-          "v": 5
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 55,
-          "v": 45
-        },
-        "finalizacoes": {
-          "m": 14,
-          "v": 9
-        }
-      },
-      "placar": {
-        "m": 1,
-        "v": 0
-      }
-    },
-    {
-      "match_id": "Ktufdc9b",
-      "id": "Ktufdc9b",
-      "mandante": "New York Red Bulls",
-      "visitante": "FC Dallas",
-      "data": "02.05.2026 20:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 0
-        },
-        "ft": {
-          "m": 0,
-          "v": 2
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 5,
-          "v": 2
-        },
-        "ft": {
-          "m": 8,
-          "v": 4
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 58,
-          "v": 42
-        },
-        "finalizacoes": {
-          "m": 9,
-          "v": 12
-        }
-      },
-      "placar": {
-        "m": 0,
-        "v": 2
-      }
-    },
-    {
-      "match_id": "G8Y2fyvB",
-      "id": "G8Y2fyvB",
-      "mandante": "Philadelphia Union",
-      "visitante": "Nashville SC",
-      "data": "02.05.2026 20:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 0
-        },
-        "ft": {
-          "m": 0,
-          "v": 0
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 2,
-          "v": 0
-        },
-        "ft": {
-          "m": 5,
-          "v": 2
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 46,
-          "v": 54
-        },
-        "finalizacoes": {
-          "m": 16,
-          "v": 8
-        }
-      },
-      "placar": {
-        "m": 0,
-        "v": 0
-      }
-    },
-    {
-      "match_id": "258TuxPH",
-      "id": "258TuxPH",
-      "mandante": "Inter Miami",
-      "visitante": "Orlando City",
-      "data": "02.05.2026 20:15",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 3,
-          "v": 1
-        },
-        "ft": {
-          "m": 3,
-          "v": 4
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 8,
-          "v": 0
-        },
-        "ft": {
-          "m": 10,
-          "v": 2
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 64,
-          "v": 36
-        },
-        "finalizacoes": {
-          "m": 26,
-          "v": 13
-        }
-      },
-      "placar": {
-        "m": 3,
-        "v": 4
-      }
-    },
-    {
-      "match_id": "6wFKsbf5",
-      "id": "6wFKsbf5",
-      "mandante": "Real Salt Lake",
-      "visitante": "Portland Timbers",
-      "data": "02.05.2026 17:45",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 2,
-          "v": 0
-        },
-        "ft": {
-          "m": 2,
-          "v": 0
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 3,
-          "v": 2
-        },
-        "ft": {
-          "m": 6,
-          "v": 2
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 53,
-          "v": 47
-        },
-        "finalizacoes": {
-          "m": 25,
-          "v": 11
-        }
-      },
-      "placar": {
-        "m": 2,
-        "v": 0
-      }
-    },
-    {
-      "match_id": "YPGCqKPh",
-      "id": "YPGCqKPh",
-      "mandante": "Sporting Kansas City",
-      "visitante": "Seattle Sounders",
-      "data": "02.05.2026 15:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 1,
-          "v": 1
-        },
-        "ft": {
-          "m": 1,
-          "v": 1
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 1,
-          "v": 2
-        },
-        "ft": {
-          "m": 4,
-          "v": 9
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 35,
-          "v": 65
-        },
-        "finalizacoes": {
-          "m": 10,
-          "v": 26
-        }
-      },
-      "placar": {
-        "m": 1,
-        "v": 1
-      }
-    },
-    {
-      "match_id": "KbtslFZR",
-      "id": "KbtslFZR",
-      "mandante": "Toronto FC",
-      "visitante": "San Jose Earthquakes",
-      "data": "02.05.2026 14:00",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 1,
-          "v": 1
-        },
-        "ft": {
-          "m": 1,
-          "v": 1
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 3,
-          "v": 3
-        },
-        "ft": {
-          "m": 8,
-          "v": 9
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 48,
-          "v": 52
-        },
-        "finalizacoes": {
-          "m": 11,
-          "v": 10
-        }
-      },
-      "placar": {
-        "m": 1,
-        "v": 1
-      }
-    },
-    {
-      "match_id": "pM3Mb5mm",
-      "id": "pM3Mb5mm",
-      "mandante": "Los Angeles FC",
-      "visitante": "Houston Dynamo",
-      "data": "10.05.2026 22:00",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 1,
-          "v": 2
-        },
-        "ft": {
-          "m": 1,
-          "v": 4
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 6,
-          "v": 0
-        },
-        "ft": {
-          "m": 10,
-          "v": 3
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 67,
-          "v": 33
-        },
-        "finalizacoes": {
-          "m": 19,
-          "v": 12
-        }
-      },
-      "placar": {
-        "m": 1,
-        "v": 4
-      }
-    },
-    {
-      "match_id": "ljIj4RPP",
-      "id": "ljIj4RPP",
-      "mandante": "Minnesota United",
-      "visitante": "Austin FC",
-      "data": "10.05.2026 20:00",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 1
-        },
-        "ft": {
-          "m": 2,
-          "v": 2
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 2,
-          "v": 3
-        },
-        "ft": {
-          "m": 3,
-          "v": 4
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 55,
-          "v": 45
-        },
-        "finalizacoes": {
-          "m": 18,
-          "v": 12
-        }
-      },
-      "placar": {
-        "m": 2,
-        "v": 2
-      }
-    },
-    {
-      "match_id": "Ysz4tOXI",
-      "id": "Ysz4tOXI",
-      "mandante": "New York City",
-      "visitante": "Columbus Crew",
-      "data": "10.05.2026 17:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 2,
-          "v": 0
-        },
-        "ft": {
-          "m": 3,
-          "v": 0
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 0,
-          "v": 4
-        },
-        "ft": {
-          "m": 3,
-          "v": 8
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 42,
-          "v": 58
-        },
-        "finalizacoes": {
-          "m": 9,
-          "v": 11
-        }
-      },
-      "placar": {
-        "m": 3,
-        "v": 0
-      }
-    },
-    {
-      "match_id": "v1Ymp6Yg",
-      "id": "v1Ymp6Yg",
-      "mandante": "Portland Timbers",
-      "visitante": "Sporting Kansas City",
-      "data": "09.05.2026 23:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 4,
-          "v": 0
-        },
-        "ft": {
-          "m": 6,
-          "v": 0
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 2,
-          "v": 0
-        },
-        "ft": {
-          "m": 4,
-          "v": 4
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 63,
-          "v": 37
-        },
-        "finalizacoes": {
-          "m": 16,
-          "v": 11
-        }
-      },
-      "placar": {
-        "m": 6,
-        "v": 0
-      }
-    },
-    {
-      "match_id": "vNXlW7ph",
-      "id": "vNXlW7ph",
-      "mandante": "San Jose Earthquakes",
-      "visitante": "Vancouver Whitecaps",
-      "data": "09.05.2026 23:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 1,
-          "v": 0
-        },
-        "ft": {
-          "m": 1,
-          "v": 1
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 2,
-          "v": 3
-        },
-        "ft": {
-          "m": 2,
-          "v": 4
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 29,
-          "v": 71
-        },
-        "finalizacoes": {
-          "m": 7,
-          "v": 16
-        }
-      },
-      "placar": {
-        "m": 1,
-        "v": 1
-      }
-    },
-    {
-      "match_id": "0GMdrp36",
-      "id": "0GMdrp36",
-      "mandante": "Seattle Sounders",
-      "visitante": "San Diego FC",
-      "data": "09.05.2026 23:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 1
-        },
-        "ft": {
-          "m": 1,
-          "v": 1
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 2,
-          "v": 1
-        },
-        "ft": {
-          "m": 8,
-          "v": 2
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 47,
-          "v": 53
-        },
-        "finalizacoes": {
-          "m": 26,
-          "v": 15
-        }
-      },
-      "placar": {
-        "m": 1,
-        "v": 1
-      }
-    },
-    {
-      "match_id": "WzVunS3s",
-      "id": "WzVunS3s",
-      "mandante": "Colorado Rapids",
-      "visitante": "St. Louis City",
-      "data": "09.05.2026 22:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 1
-        },
-        "ft": {
-          "m": 0,
-          "v": 1
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 6,
-          "v": 0
-        },
-        "ft": {
-          "m": 11,
-          "v": 1
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 56,
-          "v": 44
-        },
-        "finalizacoes": {
-          "m": 10,
-          "v": 10
-        }
-      },
-      "placar": {
-        "m": 0,
-        "v": 1
-      }
-    },
-    {
-      "match_id": "YoAi1qie",
-      "id": "YoAi1qie",
-      "mandante": "Nashville SC",
-      "visitante": "DC United",
-      "data": "09.05.2026 22:15",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 2
-        },
-        "ft": {
-          "m": 2,
-          "v": 2
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 4,
-          "v": 5
-        },
-        "ft": {
-          "m": 8,
-          "v": 7
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 74,
-          "v": 26
-        },
-        "finalizacoes": {
-          "m": 16,
-          "v": 12
-        }
-      },
-      "placar": {
-        "m": 2,
-        "v": 2
-      }
-    },
-    {
-      "match_id": "nVBq35Mr",
-      "id": "nVBq35Mr",
-      "mandante": "FC Dallas",
-      "visitante": "Real Salt Lake",
-      "data": "09.05.2026 21:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 2,
-          "v": 0
-        },
-        "ft": {
-          "m": 3,
-          "v": 1
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 2,
-          "v": 5
-        },
-        "ft": {
-          "m": 4,
-          "v": 7
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 27,
-          "v": 73
-        },
-        "finalizacoes": {
-          "m": 11,
-          "v": 9
-        }
-      },
-      "placar": {
-        "m": 3,
-        "v": 1
-      }
-    },
-    {
-      "match_id": "vPlInpx2",
-      "id": "vPlInpx2",
-      "mandante": "Atlanta Utd",
-      "visitante": "Los Angeles Galaxy",
-      "data": "09.05.2026 20:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 0
-        },
-        "ft": {
-          "m": 1,
-          "v": 2
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 4,
-          "v": 1
-        },
-        "ft": {
-          "m": 6,
-          "v": 5
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 53,
-          "v": 47
-        },
-        "finalizacoes": {
-          "m": 14,
-          "v": 10
-        }
-      },
-      "placar": {
-        "m": 1,
-        "v": 2
-      }
-    },
-    {
-      "match_id": "fXW4AmU8",
-      "id": "fXW4AmU8",
-      "mandante": "Charlotte",
-      "visitante": "FC Cincinnati",
-      "data": "09.05.2026 20:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 2
-        },
-        "ft": {
-          "m": 2,
-          "v": 2
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 3,
-          "v": 2
-        },
-        "ft": {
-          "m": 7,
-          "v": 4
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 47,
-          "v": 53
-        },
-        "finalizacoes": {
-          "m": 12,
-          "v": 13
-        }
-      },
-      "placar": {
-        "m": 2,
-        "v": 2
-      }
-    },
-    {
-      "match_id": "2czD8RbL",
-      "id": "2czD8RbL",
-      "mandante": "New England Revolution",
-      "visitante": "Philadelphia Union",
-      "data": "09.05.2026 20:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 1
-        },
-        "ft": {
-          "m": 2,
-          "v": 1
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 5,
-          "v": 3
-        },
-        "ft": {
-          "m": 9,
-          "v": 3
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 61,
-          "v": 39
-        },
-        "finalizacoes": {
-          "m": 10,
-          "v": 11
-        }
-      },
-      "placar": {
-        "m": 2,
-        "v": 1
-      }
-    },
-    {
-      "match_id": "ptQLtXR1",
-      "id": "ptQLtXR1",
-      "mandante": "CF Montreal",
-      "visitante": "Orlando City",
-      "data": "09.05.2026 17:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 0
-        },
-        "ft": {
-          "m": 2,
-          "v": 0
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 4,
-          "v": 1
-        },
-        "ft": {
-          "m": 11,
-          "v": 3
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 53,
-          "v": 47
-        },
-        "finalizacoes": {
-          "m": 23,
-          "v": 8
-        }
-      },
-      "placar": {
-        "m": 2,
-        "v": 0
-      }
-    },
-    {
-      "match_id": "6BjAl67k",
-      "id": "6BjAl67k",
-      "mandante": "Chicago Fire",
-      "visitante": "New York Red Bulls",
-      "data": "09.05.2026 15:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 1
-        },
-        "ft": {
-          "m": 1,
-          "v": 3
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 2,
-          "v": 0
-        },
-        "ft": {
-          "m": 6,
-          "v": 3
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 64,
-          "v": 36
-        },
-        "finalizacoes": {
-          "m": 15,
-          "v": 9
-        }
-      },
-      "placar": {
-        "m": 1,
-        "v": 3
-      }
-    },
-    {
-      "match_id": "xzD74zK8",
-      "id": "xzD74zK8",
-      "mandante": "Toronto FC",
-      "visitante": "Inter Miami",
-      "data": "09.05.2026 14:00",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 1
-        },
-        "ft": {
-          "m": 2,
-          "v": 4
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 2,
-          "v": 0
-        },
-        "ft": {
-          "m": 4,
-          "v": 4
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 40,
-          "v": 60
-        },
-        "finalizacoes": {
-          "m": 13,
-          "v": 11
-        }
-      },
-      "placar": {
-        "m": 2,
-        "v": 4
-      }
     }
   ],
-  "times": [
-    "Atlanta Utd",
-    "Austin FC",
-    "CF Montreal",
-    "Charlotte",
-    "Chicago Fire",
-    "Colorado Rapids",
-    "Columbus Crew",
-    "DC United",
-    "FC Cincinnati",
-    "FC Dallas",
-    "Houston Dynamo",
-    "Inter Miami",
-    "Los Angeles FC",
-    "Los Angeles Galaxy",
-    "Minnesota United",
-    "Nashville SC",
-    "New England Revolution",
-    "New York City",
-    "New York Red Bulls",
-    "Orlando City",
-    "Philadelphia Union",
-    "Portland Timbers",
-    "Real Salt Lake",
-    "San Diego FC",
-    "San Jose Earthquakes",
-    "Seattle Sounders",
-    "Sporting Kansas City",
-    "St. Louis City",
-    "Toronto FC",
-    "Vancouver Whitecaps"
-  ]
+  "totalRodadas": 6,
+  "ultimaAtualizacao": "2026-04-09"
 };

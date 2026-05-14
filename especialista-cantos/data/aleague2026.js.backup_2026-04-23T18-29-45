@@ -1,11 +1,11 @@
 // ============================================================
-// ALM 2026 — Injeção Varredor v4 (upsert)
-// 90 jogos | Atualizado: 2026-04-23
+// A-LEAGUE MEN (AUSTRÁLIA) 2026 — MOTOR FANTASMA v5 (por time)
+// Atualizado: 2026-04-13
 // ============================================================
 
 window.DADOS_ALM = {
   "temporada": "2025/2026",
-  "ultimaAtualizacao": "2026-04-23",
+  "ultimaAtualizacao": "2026-04-13",
   "totalRodadas": 72,
   "times": [
     "Adelaide United",
@@ -2204,7 +2204,7 @@ window.DADOS_ALM = {
       "match_id": "Gvg7in74",
       "mandante": "Melbourne City",
       "visitante": "Wellington Phoenix",
-      "rodada": null,
+      "rodada": 59,
       "data": "12.04.2026 02:00",
       "tabela": {
         "pos_mandante": 6,
@@ -2231,22 +2231,6 @@ window.DADOS_ALM = {
           "m": 16,
           "v": 6
         }
-      },
-      "id": "Gvg7in74",
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 1,
-          "v": 0
-        },
-        "ft": {
-          "m": 2,
-          "v": 0
-        }
-      },
-      "placar": {
-        "m": 2,
-        "v": 0
       }
     },
     {
@@ -2385,7 +2369,7 @@ window.DADOS_ALM = {
       "match_id": "YRkyVIyp",
       "mandante": "Perth Glory",
       "visitante": "Macarthur FC",
-      "rodada": null,
+      "rodada": 63,
       "data": "12.04.2026 06:00",
       "tabela": {
         "pos_mandante": 10,
@@ -2412,22 +2396,6 @@ window.DADOS_ALM = {
           "m": 18,
           "v": 14
         }
-      },
-      "id": "YRkyVIyp",
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 0
-        },
-        "ft": {
-          "m": 3,
-          "v": 1
-        }
-      },
-      "placar": {
-        "m": 3,
-        "v": 1
       }
     },
     {
@@ -2824,255 +2792,6 @@ window.DADOS_ALM = {
           "m": 11,
           "v": 23
         }
-      }
-    },
-    {
-      "match_id": "4WNnmIcS",
-      "id": "4WNnmIcS",
-      "mandante": "Adelaide United",
-      "visitante": "Macarthur FC",
-      "data": "19.04.2026 02:30",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 1
-        },
-        "ft": {
-          "m": 3,
-          "v": 1
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 5,
-          "v": 1
-        },
-        "ft": {
-          "m": 12,
-          "v": 3
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 62,
-          "v": 38
-        },
-        "finalizacoes": {
-          "m": 19,
-          "v": 11
-        }
-      },
-      "placar": {
-        "m": 3,
-        "v": 1
-      }
-    },
-    {
-      "match_id": "pKpOm46T",
-      "id": "pKpOm46T",
-      "mandante": "Auckland FC",
-      "visitante": "Central Coast Mariners",
-      "data": "19.04.2026 00:00",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 1
-        },
-        "ft": {
-          "m": 0,
-          "v": 1
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 6,
-          "v": 0
-        },
-        "ft": {
-          "m": 12,
-          "v": 1
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 64,
-          "v": 36
-        },
-        "finalizacoes": {
-          "m": 21,
-          "v": 13
-        }
-      },
-      "placar": {
-        "m": 0,
-        "v": 1
-      }
-    },
-    {
-      "match_id": "IFPvkvTF",
-      "id": "IFPvkvTF",
-      "mandante": "Sydney FC",
-      "visitante": "Perth Glory",
-      "data": "18.04.2026 06:35",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 0,
-          "v": 0
-        },
-        "ft": {
-          "m": 0,
-          "v": 0
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 2,
-          "v": 1
-        },
-        "ft": {
-          "m": 4,
-          "v": 1
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 64,
-          "v": 36
-        },
-        "finalizacoes": {
-          "m": 17,
-          "v": 8
-        }
-      },
-      "placar": {
-        "m": 0,
-        "v": 0
-      }
-    },
-    {
-      "match_id": "d0yWj0b3",
-      "id": "d0yWj0b3",
-      "mandante": "Brisbane Roar",
-      "visitante": "Melbourne City",
-      "data": "18.04.2026 04:00",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": null,
-        "ft": null
-      },
-      "cantos": {
-        "ht": {
-          "m": 0,
-          "v": 4
-        },
-        "ft": {
-          "m": 3,
-          "v": 5
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 55,
-          "v": 45
-        },
-        "finalizacoes": {
-          "m": 15,
-          "v": 10
-        }
-      },
-      "placar": null
-    },
-    {
-      "match_id": "lhiFkQyH",
-      "id": "lhiFkQyH",
-      "mandante": "Wellington Phoenix",
-      "visitante": "WS Wanderers",
-      "data": "18.04.2026 02:00",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 1,
-          "v": 1
-        },
-        "ft": {
-          "m": 2,
-          "v": 1
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 6,
-          "v": 3
-        },
-        "ft": {
-          "m": 10,
-          "v": 4
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 45,
-          "v": 55
-        },
-        "finalizacoes": {
-          "m": 18,
-          "v": 10
-        }
-      },
-      "placar": {
-        "m": 2,
-        "v": 1
-      }
-    },
-    {
-      "match_id": "UgqpTd6d",
-      "id": "UgqpTd6d",
-      "mandante": "Melbourne Victory",
-      "visitante": "Newcastle Jets",
-      "data": "17.04.2026 06:35",
-      "rodada": null,
-      "fonte": "varredor-rodada-v4",
-      "gols": {
-        "ht": {
-          "m": 2,
-          "v": 1
-        },
-        "ft": {
-          "m": 2,
-          "v": 2
-        }
-      },
-      "cantos": {
-        "ht": {
-          "m": 3,
-          "v": 1
-        },
-        "ft": {
-          "m": 7,
-          "v": 3
-        }
-      },
-      "stats_taticas": {
-        "posse": {
-          "m": 38,
-          "v": 62
-        },
-        "finalizacoes": {
-          "m": 18,
-          "v": 11
-        }
-      },
-      "placar": {
-        "m": 2,
-        "v": 2
       }
     }
   ]
