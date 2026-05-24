@@ -1,0 +1,131 @@
+
+🛡️  ════════════════════════════════════════════════════════════════
+       AUDITOR SUPREMO DE CANTOS — Análise Fria
+       Tipo: TOP-14 HDP
+       Modo: BACKTEST (base congelada 2026-05-08)
+   ════════════════════════════════════════════════════════════════
+
+🧠 Cérebro carregado: 7 ligas, 179 times, 1034 H2H
+📥 Rodada: 88 jogos para analisar
+
+🔬 Analisados: 9 | Cortados F1: 54 | F2: 25 | sem dados: 0
+
+═══════════════════════════════════════════════════════════════════════════
+#1 — Probabilidade 96/100 — HDP_FT_MANDANTE
+═══════════════════════════════════════════════════════════════════════════
+Liga: ARG | Rodada ?
+Partida: River Plate (casa) vs Atl. Tucuman (fora)
+
+🧠 SINAIS DO CÉREBRO:
+   🏆 River Plate está no TOP MANDANTES DOMINADORES
+   🛡️ Atl. Tucuman é UNDER-FRIENDLY fora
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ████████░░  83.33333333333334/100 (peso 22)  Mandante domina em casa
+        └ dif média casa = 5.25 (cobra 7.13, sofre 1.88)
+   ██████████  100/100 (peso 18)  Visitante submisso fora
+        └ dif média fora = -0.12 (cobra só 3.25, sofre 3.38)
+   ██████████  100/100 (peso 14)  Mandante recorrente em dif≥4 em casa
+        └ 75% dos jogos em casa com dif≥4
+   █████████░  87.5/100 (peso 12)  H2H confirma mandante
+        └ 1 confrontos, dif média vista mand = 5
+   █████████░   88/100 (peso 10)  Mandante consistente em casa
+        └ DP diferencial casa = 1.92 (menor = mais previsível)
+
+═══════════════════════════════════════════════════════════════════════════
+#2 — Probabilidade 86/100 — HDP_FT_MANDANTE
+═══════════════════════════════════════════════════════════════════════════
+Liga: ARG | Rodada ?
+Partida: Argentinos Jrs (casa) vs Lanus (fora)
+
+🧠 SINAIS DO CÉREBRO:
+   🏆 Argentinos Jrs está no TOP MANDANTES DOMINADORES
+   🏠 Argentinos Jrs é UNDER-FRIENDLY em casa
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ██████████  100/100 (peso 18)  Visitante submisso fora
+        └ dif média fora = -2.25 (cobra só 3.25, sofre 5.5)
+   █████████░  93.4/100 (peso 14)  Mandante recorrente em dif≥4 em casa
+        └ 66.7% dos jogos em casa com dif≥4
+   ██████░░░░  58.00000000000001/100 (peso 22)  Mandante domina em casa
+        └ dif média casa = 4.11 (cobra 6, sofre 1.89)
+   ██████████  100/100 (peso 12)  H2H confirma mandante
+        └ 1 confrontos, dif média vista mand = 6
+   ██████████  100/100 (peso  8)  Visitante gera poucos cantos fora
+        └ cobra 3.25 cantos/jogo fora
+
+═══════════════════════════════════════════════════════════════════════════
+#3 — Probabilidade 53/100 — HDP_FT_MANDANTE
+═══════════════════════════════════════════════════════════════════════════
+Liga: BR_B | Rodada ?
+Partida: America MG (casa) vs CRB (fora)
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ██████████  100/100 (peso 18)  Visitante submisso fora
+        └ dif média fora = -1.25 (cobra só 3.75, sofre 5)
+   ██████░░░░   60/100 (peso 14)  Mandante recorrente em dif≥4 em casa
+        └ 50% dos jogos em casa com dif≥4
+   ██████████  100/100 (peso  8)  Visitante gera poucos cantos fora
+        └ cobra 3.75 cantos/jogo fora
+   ██████░░░░  63.714285714285715/100 (peso 10)  Mandante consistente em casa
+        └ DP diferencial casa = 2.77 (menor = mais previsível)
+   ██████░░░░  63.66666666666667/100 (peso  8)  Liga produz jogos com dif≥4 frequentemente
+        └ liga tem 44.1% de jogos com dif≥4
+
+═══════════════════════════════════════════════════════════════════════════
+#4 — Probabilidade 47/100 — HDP_FT_VISITANTE
+═══════════════════════════════════════════════════════════════════════════
+Liga: BUN | Rodada ?
+Partida: Augsburg (casa) vs B. Monchengladbach (fora)
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ██████████  100/100 (peso 18)  Mandante submisso em casa
+        └ dif média casa = -0.06
+   ██████████  100/100 (peso 12)  H2H confirma visitante
+        └ 1 confrontos, dif média vista mand = 0
+   ███████░░░   65/100 (peso  8)  DNA: contexto favorece visitante
+        └ vistFora✗ chamaV✗ criseM✓
+   ██████░░░░  57.99999999999999/100 (peso  8)  Liga produz jogos com dif≥4 frequentemente
+        └ liga tem 42.4% de jogos com dif≥4
+   ████░░░░░░  36.85714285714286/100 (peso 10)  Visitante consistente fora
+        └ DP diferencial fora = 3.71
+
+═══════════════════════════════════════════════════════════════════════════
+#5 — Probabilidade 35/100 — HDP_FT_VISITANTE
+═══════════════════════════════════════════════════════════════════════════
+Liga: MLS | Rodada ?
+Partida: Austin FC (casa) vs St. Louis City (fora)
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ██████████  100/100 (peso 12)  H2H confirma visitante
+        └ 1 confrontos, dif média vista mand = -2
+   ███████░░░   65/100 (peso  8)  DNA: contexto favorece visitante
+        └ vistFora✗ chamaV✗ criseM✓
+   █████░░░░░  50.28571428571428/100 (peso 10)  Visitante consistente fora
+        └ DP diferencial fora = 3.24
+   ██████░░░░  58.666666666666664/100 (peso  8)  Liga produz jogos com dif≥4 frequentemente
+        └ liga tem 42.6% de jogos com dif≥4
+   ███░░░░░░░  33.24999999999999/100 (peso 14)  Visitante recorrente em dif≥4 fora
+        └ 33.3% dos jogos fora com dif≥4
+
+═══════════════════════════════════════════════════════════════════════════
+SUMÁRIO — TOP 14 HDP
+═══════════════════════════════════════════════════════════════════════════
+Probabilidade média: 63.4/100
+Probabilidade mín: 35 | máx: 96
+Distribuição por liga:
+   ARG: 2
+   BR_B: 1
+   BUN: 1
+   MLS: 1
+
+═══════════════════════════════════════════════════════════════════════════
+CONFERÊNCIA COM GABARITO REAL
+═══════════════════════════════════════════════════════════════════════════
+  ✅ River Plate vs Atl. Tucuman [ARG] real: M=6 V=1 (dif=5, tot=7)
+  ❌ Argentinos Jrs vs Lanus [ARG] real: M=3 V=2 (dif=1, tot=5)
+  ❌ America MG vs CRB [BR_B] real: M=3 V=4 (dif=-1, tot=7)
+  ❌ Augsburg vs B. Monchengladbach [BUN] real: M=2 V=2 (dif=0, tot=4)
+  ❌ Austin FC vs St. Louis City [MLS] real: M=4 V=6 (dif=-2, tot=10)
+
+  TAXA: 1✅ 4❌ = 20.0% (1/5)

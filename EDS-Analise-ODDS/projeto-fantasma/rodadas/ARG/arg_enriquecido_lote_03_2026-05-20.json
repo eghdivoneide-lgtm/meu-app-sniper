@@ -1,0 +1,3034 @@
+[
+  {
+    "url": "https://www.flashscore.com/match/0YeXWntf/#/match-summary",
+    "match_id": "0YeXWntf",
+    "data_partida": "07.02.2026 22:15",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Belgrano",
+    "visitante": "Banfield",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 63,
+        "v": 37
+      },
+      "finalizacoes": {
+        "m": 16,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 7,
+        "v": 3
+      },
+      "cantos": {
+        "m": 11,
+        "v": 1
+      },
+      "passes": {
+        "m": "(447/517)",
+        "v": "79%"
+      },
+      "cartoes_amarelos": {
+        "m": 4,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 2
+      },
+      "faltas": {
+        "m": 16,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 6
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 71,
+        "v": 29
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 1
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 0
+      },
+      "cantos": {
+        "m": 7,
+        "v": 0
+      },
+      "passes": {
+        "m": "(279/315)",
+        "v": "77%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 0
+      },
+      "faltas": {
+        "m": 6,
+        "v": 5
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 5
+      }
+    },
+    "formacao": {
+      "m": "Desconhecida",
+      "v": "Desconhecida"
+    },
+    "mercado": {
+      "oddM": "1.76",
+      "oddEmpate": "3.40",
+      "oddV": "5.00"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:48:58.506Z",
+      "campos_disponiveis": 20,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "formacao_m",
+        "formacao_v"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/E15cK9dl/#/match-summary",
+    "match_id": "E15cK9dl",
+    "data_partida": "08.02.2026 22:15",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Velez Sarsfield",
+    "visitante": "Boca Juniors",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "2 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 15,
+        "v": 9
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 3
+      },
+      "cantos": {
+        "m": 2,
+        "v": 7
+      },
+      "passes": {
+        "m": "(394/470)",
+        "v": "81%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 2
+      },
+      "faltas": {
+        "m": 11,
+        "v": 10
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 53,
+        "v": 47
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 2
+      },
+      "cantos": {
+        "m": 1,
+        "v": 5
+      },
+      "passes": {
+        "m": "(214/250)",
+        "v": "80%"
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 1
+      },
+      "faltas": {
+        "m": 6,
+        "v": 6
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "Desconhecida",
+      "v": "Desconhecida"
+    },
+    "mercado": {
+      "oddM": "3.10",
+      "oddEmpate": "2.85",
+      "oddV": "2.45"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:49:28.406Z",
+      "campos_disponiveis": 19,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "formacao_m",
+        "formacao_v"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/UTTQPVYQ/#/match-summary",
+    "match_id": "UTTQPVYQ",
+    "data_partida": "08.02.2026 17:00",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Platense",
+    "visitante": "Independiente",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 51,
+        "v": 49
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 5
+      },
+      "cantos": {
+        "m": 4,
+        "v": 1
+      },
+      "passes": {
+        "m": "(206/318)",
+        "v": "68%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 4
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 5
+      },
+      "faltas": {
+        "m": 12,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 5,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 49,
+        "v": 51
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 4
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 2
+      },
+      "cantos": {
+        "m": 1,
+        "v": 0
+      },
+      "passes": {
+        "m": "(97/158)",
+        "v": "66%"
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 2
+      },
+      "faltas": {
+        "m": 7,
+        "v": 3
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "Desconhecida",
+      "v": "Desconhecida"
+    },
+    "mercado": {
+      "oddM": "2.70",
+      "oddEmpate": "2.75",
+      "oddV": "3.00"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:49:58.613Z",
+      "campos_disponiveis": 19,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "formacao_m",
+        "formacao_v"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/hYyG7WCr/#/match-summary",
+    "match_id": "hYyG7WCr",
+    "data_partida": "08.02.2026 19:15",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Huracan",
+    "visitante": "San Lorenzo",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 49,
+        "v": 51
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 0
+      },
+      "cantos": {
+        "m": 1,
+        "v": 2
+      },
+      "passes": {
+        "m": "(176/286)",
+        "v": "64%"
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 6
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 2
+      },
+      "faltas": {
+        "m": 17,
+        "v": 22
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 56,
+        "v": 44
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 2
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 0
+      },
+      "cantos": {
+        "m": 0,
+        "v": 1
+      },
+      "passes": {
+        "m": "(108/164)",
+        "v": "54%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 1
+      },
+      "faltas": {
+        "m": 8,
+        "v": 11
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "Desconhecida",
+      "v": "Desconhecida"
+    },
+    "mercado": {
+      "oddM": "2.45",
+      "oddEmpate": "2.70",
+      "oddV": "3.40"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:50:27.602Z",
+      "campos_disponiveis": 20,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "formacao_m",
+        "formacao_v"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/MDTW3lC7/#/match-summary",
+    "match_id": "MDTW3lC7",
+    "data_partida": "08.02.2026 22:15",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Gimnasia Mendoza",
+    "visitante": "Instituto",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 46,
+        "v": 54
+      },
+      "finalizacoes": {
+        "m": 12,
+        "v": 12
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 5
+      },
+      "cantos": {
+        "m": 4,
+        "v": 7
+      },
+      "passes": {
+        "m": "(253/337)",
+        "v": "73%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 3
+      },
+      "faltas": {
+        "m": 12,
+        "v": 8
+      },
+      "defesas_goleiro": {
+        "m": 5,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 2
+      },
+      "cantos": {
+        "m": 2,
+        "v": 3
+      },
+      "passes": {
+        "m": "(152/191)",
+        "v": "75%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 0
+      },
+      "faltas": {
+        "m": 5,
+        "v": 6
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "Desconhecida",
+      "v": "Desconhecida"
+    },
+    "mercado": {
+      "oddM": "3.20",
+      "oddEmpate": "2.75",
+      "oddV": "2.57"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:50:56.233Z",
+      "campos_disponiveis": 20,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "formacao_m",
+        "formacao_v"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/xMBJRi4E/#/match-summary",
+    "match_id": "xMBJRi4E",
+    "data_partida": "09.02.2026 19:15",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Lanus",
+    "visitante": "Talleres Cordoba",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "1 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 45,
+        "v": 55
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 12
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 5
+      },
+      "cantos": {
+        "m": 0,
+        "v": 3
+      },
+      "passes": {
+        "m": "(384/465)",
+        "v": "84%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 0
+      },
+      "faltas": {
+        "m": 12,
+        "v": 12
+      },
+      "defesas_goleiro": {
+        "m": 4,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 42,
+        "v": 58
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 1
+      },
+      "cantos": {
+        "m": 0,
+        "v": 1
+      },
+      "passes": {
+        "m": "(204/245)",
+        "v": "86%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 0
+      },
+      "faltas": {
+        "m": 8,
+        "v": 5
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-3-1-2"
+    },
+    "mercado": {
+      "oddM": "2.01",
+      "oddEmpate": "2.85",
+      "oddV": "4.33"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:55:10.381Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/h8hPY8Bs/#/match-summary",
+    "match_id": "h8hPY8Bs",
+    "data_partida": "09.02.2026 21:30",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Estudiantes Rio Cuarto",
+    "visitante": "Ind. Rivadavia",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 49,
+        "v": 51
+      },
+      "finalizacoes": {
+        "m": 12,
+        "v": 15
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 3
+      },
+      "cantos": {
+        "m": 3,
+        "v": 4
+      },
+      "passes": {
+        "m": "(224/346)",
+        "v": "66%"
+      },
+      "cartoes_amarelos": {
+        "m": 4,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 5
+      },
+      "faltas": {
+        "m": 12,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 0
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 2
+      },
+      "cantos": {
+        "m": 1,
+        "v": 1
+      },
+      "passes": {
+        "m": "(133/194)",
+        "v": "71%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 0
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 2
+      },
+      "faltas": {
+        "m": 6,
+        "v": 5
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "5-3-2",
+      "v": "5-3-2"
+    },
+    "mercado": {
+      "oddM": "4.00",
+      "oddEmpate": "2.75",
+      "oddV": "2.15"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:55:38.308Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/Euh8YaHb/#/match-summary",
+    "match_id": "Euh8YaHb",
+    "data_partida": "09.02.2026 17:00",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Barracas Central",
+    "visitante": "Gimnasia L.P.",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "2 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 33,
+        "v": 67
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 12
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 4
+      },
+      "cantos": {
+        "m": 2,
+        "v": 7
+      },
+      "passes": {
+        "m": "(198/277)",
+        "v": "87%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 3
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 4
+      },
+      "faltas": {
+        "m": 17,
+        "v": 10
+      },
+      "defesas_goleiro": {
+        "m": 4,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 41,
+        "v": 59
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 0
+      },
+      "cantos": {
+        "m": 2,
+        "v": 2
+      },
+      "passes": {
+        "m": "(137/182)",
+        "v": "87%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 3
+      },
+      "faltas": {
+        "m": 5,
+        "v": 6
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "3-5-2",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "2.75",
+      "oddEmpate": "2.85",
+      "oddV": "2.75"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:56:07.800Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/xdpXcGpA/#/match-summary",
+    "match_id": "xdpXcGpA",
+    "data_partida": "12.02.2026 21:15",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Argentinos Jrs",
+    "visitante": "River Plate",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 14,
+        "v": 9
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 1
+      },
+      "cantos": {
+        "m": 1,
+        "v": 1
+      },
+      "passes": {
+        "m": "(299/402)",
+        "v": "75%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 4
+      },
+      "impedimentos": {
+        "m": 5,
+        "v": 3
+      },
+      "faltas": {
+        "m": 9,
+        "v": 17
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 52,
+        "v": 48
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 1
+      },
+      "cantos": {
+        "m": 1,
+        "v": 0
+      },
+      "passes": {
+        "m": "(153/208)",
+        "v": "70%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 1
+      },
+      "faltas": {
+        "m": 6,
+        "v": 8
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 3
+      }
+    },
+    "formacao": {
+      "m": "4-2-2-2",
+      "v": "4-3-2-1"
+    },
+    "mercado": {
+      "oddM": "2.20",
+      "oddEmpate": "2.85",
+      "oddV": "3.70"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:56:36.602Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/UVtPaxGc/#/match-summary",
+    "match_id": "UVtPaxGc",
+    "data_partida": "12.02.2026 19:00",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Tigre",
+    "visitante": "Aldosivi",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 44,
+        "v": 56
+      },
+      "finalizacoes": {
+        "m": 14,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 0
+      },
+      "cantos": {
+        "m": 7,
+        "v": 4
+      },
+      "passes": {
+        "m": "(188/283)",
+        "v": "75%"
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 1
+      },
+      "faltas": {
+        "m": 9,
+        "v": 17
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 5
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 45,
+        "v": 55
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 0
+      },
+      "cantos": {
+        "m": 5,
+        "v": 3
+      },
+      "passes": {
+        "m": "(111/151)",
+        "v": "78%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 0
+      },
+      "faltas": {
+        "m": 2,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "5-3-2"
+    },
+    "mercado": {
+      "oddM": "1.71",
+      "oddEmpate": "3.10",
+      "oddV": "6.00"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:57:05.274Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/25QePevo/#/match-summary",
+    "match_id": "25QePevo",
+    "data_partida": "13.02.2026 22:15",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Defensa y Justicia",
+    "visitante": "Velez Sarsfield",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "1 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 34,
+        "v": 66
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 12
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 2
+      },
+      "cantos": {
+        "m": 5,
+        "v": 1
+      },
+      "passes": {
+        "m": "(213/290)",
+        "v": "82%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 1
+      },
+      "faltas": {
+        "m": 14,
+        "v": 10
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 34,
+        "v": 66
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 1
+      },
+      "cantos": {
+        "m": 4,
+        "v": 0
+      },
+      "passes": {
+        "m": "(95/131)",
+        "v": "84%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 1
+      },
+      "faltas": {
+        "m": 6,
+        "v": 4
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "5-4-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "3.70",
+      "oddEmpate": "2.75",
+      "oddV": "2.30"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:57:35.405Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/KKD6se0T/#/match-summary",
+    "match_id": "KKD6se0T",
+    "data_partida": "13.02.2026 22:15",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Union de Santa Fe",
+    "visitante": "San Lorenzo",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 54,
+        "v": 46
+      },
+      "finalizacoes": {
+        "m": 23,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 3
+      },
+      "cantos": {
+        "m": 6,
+        "v": 1
+      },
+      "passes": {
+        "m": "(245/334)",
+        "v": "67%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 5
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 1
+      },
+      "faltas": {
+        "m": 10,
+        "v": 14
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 55,
+        "v": 45
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 4
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 2
+      },
+      "cantos": {
+        "m": 3,
+        "v": 1
+      },
+      "passes": {
+        "m": "(142/184)",
+        "v": "69%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 0
+      },
+      "faltas": {
+        "m": 9,
+        "v": 6
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "2.01",
+      "oddEmpate": "2.70",
+      "oddV": "5.00"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:58:04.705Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/KMG0ufvC/#/match-summary",
+    "match_id": "KMG0ufvC",
+    "data_partida": "13.02.2026 20:00",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Independiente",
+    "visitante": "Lanus",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "2 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 17,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 0
+      },
+      "cantos": {
+        "m": 7,
+        "v": 1
+      },
+      "passes": {
+        "m": "(286/362)",
+        "v": "77%"
+      },
+      "cartoes_amarelos": {
+        "m": 4,
+        "v": 2
+      },
+      "cartoes_vermelhos": {
+        "m": 1,
+        "v": 0
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 5
+      },
+      "faltas": {
+        "m": 18,
+        "v": 14
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 58,
+        "v": 42
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 1
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 0
+      },
+      "cantos": {
+        "m": 6,
+        "v": 1
+      },
+      "passes": {
+        "m": "(173/209)",
+        "v": "75%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 3
+      },
+      "faltas": {
+        "m": 3,
+        "v": 7
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "4-1-4-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "2.05",
+      "oddEmpate": "2.82",
+      "oddV": "4.33"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:58:34.985Z",
+      "campos_disponiveis": 23,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/YNwtdfFM/#/match-summary",
+    "match_id": "YNwtdfFM",
+    "data_partida": "14.02.2026 17:30",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Banfield",
+    "visitante": "Racing Club",
+    "placar": {
+      "ht": "0 - 2",
+      "ft": "0 - 2"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 43,
+        "v": 57
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 11
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 5
+      },
+      "cantos": {
+        "m": 8,
+        "v": 3
+      },
+      "passes": {
+        "m": "(184/277)",
+        "v": "78%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 5
+      },
+      "impedimentos": {
+        "m": 4,
+        "v": 3
+      },
+      "faltas": {
+        "m": 7,
+        "v": 14
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 36,
+        "v": 64
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 3
+      },
+      "cantos": {
+        "m": 4,
+        "v": 2
+      },
+      "passes": {
+        "m": "(70/111)",
+        "v": "81%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 2
+      },
+      "faltas": {
+        "m": 3,
+        "v": 6
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 3
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-3-3"
+    },
+    "mercado": {
+      "oddM": "4.33",
+      "oddEmpate": "3.30",
+      "oddV": "1.86"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:59:05.623Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/juMkow14/#/match-summary",
+    "match_id": "juMkow14",
+    "data_partida": "14.02.2026 19:45",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Talleres Cordoba",
+    "visitante": "Gimnasia Mendoza",
+    "placar": {
+      "ht": "1 - 1",
+      "ft": "2 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 62,
+        "v": 38
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 8
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 5
+      },
+      "cantos": {
+        "m": 4,
+        "v": 2
+      },
+      "passes": {
+        "m": "(397/486)",
+        "v": "71%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 1
+      },
+      "faltas": {
+        "m": 12,
+        "v": 14
+      },
+      "defesas_goleiro": {
+        "m": 4,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 63,
+        "v": 37
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 4
+      },
+      "cantos": {
+        "m": 2,
+        "v": 0
+      },
+      "passes": {
+        "m": "(200/245)",
+        "v": "75%"
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 0
+      },
+      "faltas": {
+        "m": 4,
+        "v": 7
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "1.62",
+      "oddEmpate": "3.25",
+      "oddV": "7.00"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:59:34.519Z",
+      "campos_disponiveis": 21,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/G2XbCFa3/#/match-summary",
+    "match_id": "G2XbCFa3",
+    "data_partida": "14.02.2026 19:45",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Huracan",
+    "visitante": "Sarmiento Junin",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 55,
+        "v": 45
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 0
+      },
+      "cantos": {
+        "m": 6,
+        "v": 2
+      },
+      "passes": {
+        "m": "(223/310)",
+        "v": "65%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 7
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 1
+      },
+      "faltas": {
+        "m": 10,
+        "v": 23
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 56,
+        "v": 44
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 2
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 0
+      },
+      "cantos": {
+        "m": 3,
+        "v": 2
+      },
+      "passes": {
+        "m": "(126/169)",
+        "v": "69%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 1
+      },
+      "faltas": {
+        "m": 5,
+        "v": 11
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "1.76",
+      "oddEmpate": "3.10",
+      "oddV": "6.00"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T06:00:04.020Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/UgPBjYxp/#/match-summary",
+    "match_id": "UgPBjYxp",
+    "data_partida": "14.02.2026 22:00",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Ind. Rivadavia",
+    "visitante": "Belgrano",
+    "placar": {
+      "ht": "0 - 1",
+      "ft": "0 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 16,
+        "v": 11
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 3
+      },
+      "cantos": {
+        "m": 8,
+        "v": 5
+      },
+      "passes": {
+        "m": "(244/315)",
+        "v": "81%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 1
+      },
+      "faltas": {
+        "m": 14,
+        "v": 12
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 39,
+        "v": 61
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 4
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 2
+      },
+      "cantos": {
+        "m": 3,
+        "v": 2
+      },
+      "passes": {
+        "m": "(88/123)",
+        "v": "83%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 1
+      },
+      "faltas": {
+        "m": 8,
+        "v": 5
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "3-4-3",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "2.35",
+      "oddEmpate": "2.70",
+      "oddV": "3.50"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T06:00:33.825Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/lduDlC7d/#/match-summary",
+    "match_id": "lduDlC7d",
+    "data_partida": "14.02.2026 22:00",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Atl. Tucuman",
+    "visitante": "Estudiantes Rio Cuarto",
+    "placar": {
+      "ht": "2 - 0",
+      "ft": "4 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 49,
+        "v": 51
+      },
+      "finalizacoes": {
+        "m": 18,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 7,
+        "v": 0
+      },
+      "cantos": {
+        "m": 7,
+        "v": 2
+      },
+      "passes": {
+        "m": "(176/266)",
+        "v": "62%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 3
+      },
+      "impedimentos": {
+        "m": 7,
+        "v": 3
+      },
+      "faltas": {
+        "m": 13,
+        "v": 11
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 56,
+        "v": 44
+      },
+      "finalizacoes": {
+        "m": 10,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 0
+      },
+      "cantos": {
+        "m": 4,
+        "v": 0
+      },
+      "passes": {
+        "m": "(94/146)",
+        "v": "54%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 1
+      },
+      "faltas": {
+        "m": 8,
+        "v": 8
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-1-3-2",
+      "v": "4-3-3"
+    },
+    "mercado": {
+      "oddM": "1.86",
+      "oddEmpate": "3.25",
+      "oddV": "4.50"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T06:01:04.138Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/A7oHWwnB/#/match-summary",
+    "match_id": "A7oHWwnB",
+    "data_partida": "15.02.2026 17:00",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Gimnasia L.P.",
+    "visitante": "Estudiantes L.P.",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 41,
+        "v": 59
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 14
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 4
+      },
+      "cantos": {
+        "m": 4,
+        "v": 6
+      },
+      "passes": {
+        "m": "(228/292)",
+        "v": "86%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 3
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 0
+      },
+      "faltas": {
+        "m": 14,
+        "v": 13
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 42,
+        "v": 58
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 2
+      },
+      "cantos": {
+        "m": 2,
+        "v": 3
+      },
+      "passes": {
+        "m": "(130/168)",
+        "v": "84%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 0
+      },
+      "faltas": {
+        "m": 5,
+        "v": 7
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "3.25",
+      "oddEmpate": "2.65",
+      "oddV": "2.65"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T06:01:33.631Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/fDStmaWi/#/match-summary",
+    "match_id": "fDStmaWi",
+    "data_partida": "15.02.2026 19:30",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Boca Juniors",
+    "visitante": "Platense",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 63,
+        "v": 37
+      },
+      "finalizacoes": {
+        "m": 10,
+        "v": 14
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 1
+      },
+      "cantos": {
+        "m": 1,
+        "v": 2
+      },
+      "passes": {
+        "m": "(425/524)",
+        "v": "70%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 1
+      },
+      "faltas": {
+        "m": 6,
+        "v": 12
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 64,
+        "v": 36
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 8
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 1
+      },
+      "cantos": {
+        "m": 1,
+        "v": 1
+      },
+      "passes": {
+        "m": "(217/265)",
+        "v": "71%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 0
+      },
+      "faltas": {
+        "m": 4,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "4-3-3",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "1.61",
+      "oddEmpate": "3.40",
+      "oddV": "6.50"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T06:02:02.309Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/lz4xxZNj/#/match-summary",
+    "match_id": "lz4xxZNj",
+    "data_partida": "15.02.2026 22:00",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Rosario Central",
+    "visitante": "Barracas Central",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "2 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 66,
+        "v": 34
+      },
+      "finalizacoes": {
+        "m": 19,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 7,
+        "v": 3
+      },
+      "cantos": {
+        "m": 3,
+        "v": 0
+      },
+      "passes": {
+        "m": "(456/528)",
+        "v": "73%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 3
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 0
+      },
+      "faltas": {
+        "m": 11,
+        "v": 16
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 5
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 67,
+        "v": 33
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 2
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 2
+      },
+      "cantos": {
+        "m": 2,
+        "v": 0
+      },
+      "passes": {
+        "m": "(204/241)",
+        "v": "70%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 0
+      },
+      "faltas": {
+        "m": 5,
+        "v": 8
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "4-3-2-1",
+      "v": "5-3-2"
+    },
+    "mercado": {
+      "oddM": "1.51",
+      "oddEmpate": "3.40",
+      "oddV": "8.50"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T06:02:30.777Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/OhKcqHVG/#/match-summary",
+    "match_id": "OhKcqHVG",
+    "data_partida": "15.02.2026 22:00",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Instituto",
+    "visitante": "Central Cordoba",
+    "placar": {
+      "ht": "2 - 0",
+      "ft": "2 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 46,
+        "v": 54
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 8
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 0
+      },
+      "cantos": {
+        "m": 3,
+        "v": 5
+      },
+      "passes": {
+        "m": "(177/271)",
+        "v": "72%"
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 5
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 2
+      },
+      "faltas": {
+        "m": 22,
+        "v": 18
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 55,
+        "v": 45
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 1
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 0
+      },
+      "cantos": {
+        "m": 1,
+        "v": 1
+      },
+      "passes": {
+        "m": "(112/150)",
+        "v": "68%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 0
+      },
+      "faltas": {
+        "m": 8,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "3-4-3",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "1.81",
+      "oddEmpate": "3.10",
+      "oddV": "4.75"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T06:02:59.579Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/IXlPUHGN/#/match-summary",
+    "match_id": "IXlPUHGN",
+    "data_partida": "16.02.2026 19:00",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Dep. Riestra",
+    "visitante": "Newells Old Boys",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "1 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 16,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 4
+      },
+      "cantos": {
+        "m": 4,
+        "v": 4
+      },
+      "passes": {
+        "m": "(152/276)",
+        "v": "58%"
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 3
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 3
+      },
+      "faltas": {
+        "m": 17,
+        "v": 6
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 52,
+        "v": 48
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 2
+      },
+      "cantos": {
+        "m": 2,
+        "v": 0
+      },
+      "passes": {
+        "m": "(78/142)",
+        "v": "59%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 2
+      },
+      "faltas": {
+        "m": 7,
+        "v": 4
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "5-3-2",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "2.25",
+      "oddEmpate": "2.65",
+      "oddV": "3.90"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T06:03:29.264Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/xW0tPhq9/#/match-summary",
+    "match_id": "xW0tPhq9",
+    "data_partida": "20.02.2026 17:15",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Defensa y Justicia",
+    "visitante": "Belgrano",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "1 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 57,
+        "v": 43
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 13
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 3
+      },
+      "cantos": {
+        "m": 5,
+        "v": 3
+      },
+      "passes": {
+        "m": "(375/448)",
+        "v": "76%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 3
+      },
+      "cartoes_vermelhos": {
+        "m": 1,
+        "v": 0
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 2
+      },
+      "faltas": {
+        "m": 7,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 58,
+        "v": 42
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 2
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 0
+      },
+      "cantos": {
+        "m": 2,
+        "v": 0
+      },
+      "passes": {
+        "m": "(225/262)",
+        "v": "76%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 1
+      },
+      "faltas": {
+        "m": 3,
+        "v": 4
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "3.20",
+      "oddEmpate": "2.82",
+      "oddV": "2.55"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T06:03:59.615Z",
+      "campos_disponiveis": 23,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/MNIg1ki2/#/match-summary",
+    "match_id": "MNIg1ki2",
+    "data_partida": "20.02.2026 17:45",
+    "liga": "Liga Profesional Argentina",
+    "codigo_liga": "ARG",
+    "rodada": null,
+    "mandante": "Estudiantes L.P.",
+    "visitante": "Sarmiento Junin",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 42,
+        "v": 58
+      },
+      "finalizacoes": {
+        "m": 12,
+        "v": 12
+      },
+      "chutes_alvo": {
+        "m": 7,
+        "v": 3
+      },
+      "cantos": {
+        "m": 4,
+        "v": 4
+      },
+      "passes": {
+        "m": "(198/274)",
+        "v": "81%"
+      },
+      "cartoes_amarelos": {
+        "m": 4,
+        "v": 4
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 1
+      },
+      "faltas": {
+        "m": 14,
+        "v": 8
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 6
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 52,
+        "v": 48
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 4
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 1
+      },
+      "cantos": {
+        "m": 1,
+        "v": 1
+      },
+      "passes": {
+        "m": "(129/168)",
+        "v": "70%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 1
+      },
+      "faltas": {
+        "m": 6,
+        "v": 6
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 3
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "1.57",
+      "oddEmpate": "3.50",
+      "oddV": "7.00"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T06:04:28.900Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  }
+]

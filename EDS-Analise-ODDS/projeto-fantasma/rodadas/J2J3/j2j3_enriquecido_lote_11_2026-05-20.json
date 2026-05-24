@@ -1,0 +1,669 @@
+[
+  {
+    "url": "https://www.flashscore.com/match/fNaIE5AD/#/match-summary",
+    "match_id": "fNaIE5AD",
+    "data_partida": "07.02.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Giravanz Kitakyushu",
+    "visitante": "Gainare Tottori",
+    "placar": {
+      "ht": "1 - 1",
+      "ft": "1 - 3"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 6
+      },
+      "cantos": {
+        "m": 5,
+        "v": 4
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 46,
+        "v": 54
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 2
+      },
+      "cantos": {
+        "m": 2,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "2.25",
+      "oddEmpate": "3.10",
+      "oddV": "3.20"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T11:10:07.868Z",
+      "campos_disponiveis": 13,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/jVlVNDbe/#/match-summary",
+    "match_id": "jVlVNDbe",
+    "data_partida": "08.03.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Gainare Tottori",
+    "visitante": "Ryukyu",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 57,
+        "v": 43
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 2
+      },
+      "cantos": {
+        "m": 9,
+        "v": 1
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 58,
+        "v": 42
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 1
+      },
+      "cantos": {
+        "m": 4,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "2.30",
+      "oddEmpate": "3.00",
+      "oddV": "3.20"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T11:10:37.622Z",
+      "campos_disponiveis": 13,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/GKlD56IE/#/match-summary",
+    "match_id": "GKlD56IE",
+    "data_partida": "12.04.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Reilac Shiga",
+    "visitante": "Ryukyu",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "2 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 44,
+        "v": 56
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 15
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 6
+      },
+      "cantos": {
+        "m": 5,
+        "v": 6
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 38,
+        "v": 62
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 9
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 3
+      },
+      "cantos": {
+        "m": 3,
+        "v": 5
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "3-4-1-2"
+    },
+    "mercado": {
+      "oddM": "2.70",
+      "oddEmpate": "3.15",
+      "oddV": "2.55"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T11:11:07.178Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/tbb7ywS1/#/match-summary",
+    "match_id": "tbb7ywS1",
+    "data_partida": "28.02.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Giravanz Kitakyushu",
+    "visitante": "Reilac Shiga",
+    "placar": {
+      "ht": "0 - 1",
+      "ft": "1 - 2"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 59,
+        "v": 41
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 15
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 6
+      },
+      "cantos": {
+        "m": 1,
+        "v": 5
+      },
+      "cartoes_amarelos": {
+        "m": 5,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 44,
+        "v": 56
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 11
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 4
+      },
+      "cantos": {
+        "m": 1,
+        "v": 4
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "1.91",
+      "oddEmpate": "3.25",
+      "oddV": "4.05"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T11:11:37.378Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/CpVMQ0dn/#/match-summary",
+    "match_id": "CpVMQ0dn",
+    "data_partida": "21.02.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Ryukyu",
+    "visitante": "Reilac Shiga",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 53,
+        "v": 47
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 4
+      },
+      "cantos": {
+        "m": 3,
+        "v": 6
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 3
+      },
+      "cantos": {
+        "m": 0,
+        "v": 6
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "2.05",
+      "oddEmpate": "3.45",
+      "oddV": "3.30"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T11:12:07.579Z",
+      "campos_disponiveis": 12,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_amarelos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/h6LaNVqH/#/match-summary",
+    "match_id": "h6LaNVqH",
+    "data_partida": "18.04.2026 04:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Ryukyu",
+    "visitante": "Giravanz Kitakyushu",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 2"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 43,
+        "v": 57
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 5
+      },
+      "cantos": {
+        "m": 4,
+        "v": 5
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 42,
+        "v": 58
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 2
+      },
+      "cantos": {
+        "m": 4,
+        "v": 0
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "2.18",
+      "oddEmpate": "3.25",
+      "oddV": "3.20"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T11:12:36.843Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/KKiJ9ccR/#/match-summary",
+    "match_id": "KKiJ9ccR",
+    "data_partida": "29.03.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Giravanz Kitakyushu",
+    "visitante": "Ryukyu",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 45,
+        "v": 55
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 0
+      },
+      "cantos": {
+        "m": 4,
+        "v": 3
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 0
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 2
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 0
+      },
+      "cantos": {
+        "m": 1,
+        "v": 2
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "3-1-4-2"
+    },
+    "mercado": {
+      "oddM": "2.37",
+      "oddEmpate": "3.40",
+      "oddV": "2.75"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T11:13:05.482Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  }
+]

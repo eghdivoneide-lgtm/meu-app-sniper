@@ -129,7 +129,6 @@ class FlashscoreMonster {
       placar: { ht: 'Indisponível', ft: 'Indisponível' },
       estatisticas_ft: null,
       estatisticas_ht: null,
-      estatisticas_2t: null,
       formacao: { m: 'Desconhecida', v: 'Desconhecida' },
       mercado: null,
       meta: {
@@ -259,8 +258,8 @@ class FlashscoreMonster {
       const domStatsHT = await page.evaluate(this._extractStatsFromDOM);
       dados.estatisticas_ht = Object.keys(domStatsHT || {}).length > 0 ? domStatsHT : null;
 
-      // ═══ TOTAL DA PARTIDA (HT + FT = dados gerais) ═══
-      dados.estatisticas_2t = this._somarTempos(dados.estatisticas_ht, dados.estatisticas_ft);
+      // 2º tempo nunca é armazenado: HT é confiável, FT já é o total cumulativo do Flashscore.
+      // Quem precisar do 2T deve calcular FT - HT (somar HT+FT contava o 1º tempo duas vezes).
       dados.meta.metodo_extracao.ft = 'DOM';
       dados.meta.metodo_extracao.ht = 'DOM';
 

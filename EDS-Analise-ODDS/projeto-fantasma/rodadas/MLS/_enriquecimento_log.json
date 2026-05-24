@@ -1,0 +1,712 @@
+{
+  "enriquecidos": [
+    {
+      "match_id": "r1DNXnig",
+      "mandante": "San Diego FC",
+      "visitante": "Real Salt Lake",
+      "campos": 23,
+      "ts": "2026-05-19T23:38:55.450Z"
+    },
+    {
+      "match_id": "l2KEZ8Mt",
+      "mandante": "Portland Timbers",
+      "visitante": "Los Angeles Galaxy",
+      "campos": 23,
+      "ts": "2026-05-19T23:39:24.557Z"
+    },
+    {
+      "match_id": "bwu5F5yP",
+      "mandante": "Minnesota United",
+      "visitante": "Seattle Sounders",
+      "campos": 22,
+      "ts": "2026-05-19T23:39:54.255Z"
+    },
+    {
+      "match_id": "fgQqSCeB",
+      "mandante": "FC Cincinnati",
+      "visitante": "CF Montreal",
+      "campos": 22,
+      "ts": "2026-05-20T02:15:53.322Z"
+    },
+    {
+      "match_id": "xOjdHR6C",
+      "mandante": "New York City",
+      "visitante": "Inter Miami",
+      "campos": 22,
+      "ts": "2026-05-20T02:16:23.643Z"
+    },
+    {
+      "match_id": "MuSyUYQb",
+      "mandante": "Vancouver Whitecaps",
+      "visitante": "San Jose Earthquakes",
+      "campos": 22,
+      "ts": "2026-05-20T02:16:54.781Z"
+    },
+    {
+      "match_id": "bH3U2SiJ",
+      "mandante": "Austin FC",
+      "visitante": "Los Angeles FC",
+      "campos": 22,
+      "ts": "2026-05-20T02:17:25.183Z"
+    },
+    {
+      "match_id": "EPoHQVqQ",
+      "mandante": "FC Dallas",
+      "visitante": "Houston Dynamo",
+      "campos": 23,
+      "ts": "2026-05-20T02:17:54.788Z"
+    },
+    {
+      "match_id": "AeXnL97m",
+      "mandante": "Sporting Kansas City",
+      "visitante": "Colorado Rapids",
+      "campos": 22,
+      "ts": "2026-05-20T02:18:23.172Z"
+    },
+    {
+      "match_id": "UcmlJmx0",
+      "mandante": "St. Louis City",
+      "visitante": "New England Revolution",
+      "campos": 22,
+      "ts": "2026-05-20T02:18:53.301Z"
+    },
+    {
+      "match_id": "UyCD6Ahf",
+      "mandante": "Atlanta Utd",
+      "visitante": "DC United",
+      "campos": 21,
+      "ts": "2026-05-20T02:19:22.456Z"
+    },
+    {
+      "match_id": "ji0M4lN6",
+      "mandante": "Charlotte",
+      "visitante": "New York Red Bulls",
+      "campos": 23,
+      "ts": "2026-05-20T02:19:51.670Z"
+    },
+    {
+      "match_id": "xUg68WNs",
+      "mandante": "Nashville SC",
+      "visitante": "Orlando City",
+      "campos": 22,
+      "ts": "2026-05-20T02:20:21.973Z"
+    },
+    {
+      "match_id": "IqDZDh0K",
+      "mandante": "Philadelphia Union",
+      "visitante": "Chicago Fire",
+      "campos": 22,
+      "ts": "2026-05-20T02:20:51.615Z"
+    },
+    {
+      "match_id": "StZSVfdn",
+      "mandante": "Toronto FC",
+      "visitante": "Columbus Crew",
+      "campos": 22,
+      "ts": "2026-05-20T02:21:19.590Z"
+    },
+    {
+      "match_id": "QkQmjk8D",
+      "mandante": "San Jose Earthquakes",
+      "visitante": "Seattle Sounders",
+      "campos": 22,
+      "ts": "2026-05-20T02:21:49.933Z"
+    },
+    {
+      "match_id": "21IHOwkJ",
+      "mandante": "Vancouver Whitecaps",
+      "visitante": "Minnesota United",
+      "campos": 22,
+      "ts": "2026-05-20T02:22:19.455Z"
+    },
+    {
+      "match_id": "UNWvhBw1",
+      "mandante": "New England Revolution",
+      "visitante": "FC Cincinnati",
+      "campos": 23,
+      "ts": "2026-05-20T02:22:49.847Z"
+    },
+    {
+      "match_id": "r7YWgX8l",
+      "mandante": "Los Angeles FC",
+      "visitante": "St. Louis City",
+      "campos": 20,
+      "ts": "2026-05-20T02:23:19.101Z"
+    },
+    {
+      "match_id": "j9gh1FGE",
+      "mandante": "Los Angeles Galaxy",
+      "visitante": "Sporting Kansas City",
+      "campos": 21,
+      "ts": "2026-05-20T02:23:47.491Z"
+    },
+    {
+      "match_id": "bZd0agoR",
+      "mandante": "Real Salt Lake",
+      "visitante": "Austin FC",
+      "campos": 22,
+      "ts": "2026-05-20T02:24:16.042Z"
+    },
+    {
+      "match_id": "8lKlsfPr",
+      "mandante": "Chicago Fire",
+      "visitante": "DC United",
+      "campos": 22,
+      "ts": "2026-05-20T02:24:45.866Z"
+    },
+    {
+      "match_id": "2mDcuYge",
+      "mandante": "FC Dallas",
+      "visitante": "San Diego FC",
+      "campos": 22,
+      "ts": "2026-05-20T02:25:15.044Z"
+    },
+    {
+      "match_id": "z1B5wCO7",
+      "mandante": "Houston Dynamo",
+      "visitante": "Portland Timbers",
+      "campos": 23,
+      "ts": "2026-05-20T02:25:44.564Z"
+    },
+    {
+      "match_id": "tz481OAc",
+      "mandante": "Charlotte",
+      "visitante": "Inter Miami",
+      "campos": 22,
+      "ts": "2026-05-20T02:26:14.969Z"
+    },
+    {
+      "match_id": "2khHa2uA",
+      "mandante": "New York City",
+      "visitante": "Colorado Rapids",
+      "campos": 22,
+      "ts": "2026-05-20T02:26:45.003Z"
+    },
+    {
+      "match_id": "tnU8QaK6",
+      "mandante": "Orlando City",
+      "visitante": "CF Montreal",
+      "campos": 22,
+      "ts": "2026-05-20T02:27:14.502Z"
+    },
+    {
+      "match_id": "ETBMwLIj",
+      "mandante": "Columbus Crew",
+      "visitante": "Nashville SC",
+      "campos": 22,
+      "ts": "2026-05-20T02:27:44.041Z"
+    },
+    {
+      "match_id": "pbgbqseT",
+      "mandante": "Atlanta Utd",
+      "visitante": "Philadelphia Union",
+      "campos": 22,
+      "ts": "2026-05-20T02:28:13.339Z"
+    },
+    {
+      "match_id": "YLQ0SLkf",
+      "mandante": "Toronto FC",
+      "visitante": "New York Red Bulls",
+      "campos": 22,
+      "ts": "2026-05-20T02:28:43.528Z"
+    },
+    {
+      "match_id": "S8e0UsLs",
+      "mandante": "FC Cincinnati",
+      "visitante": "Toronto FC",
+      "campos": 22,
+      "ts": "2026-05-20T02:29:13.709Z"
+    },
+    {
+      "match_id": "WxAUZ3cK",
+      "mandante": "New York Red Bulls",
+      "visitante": "CF Montreal",
+      "campos": 21,
+      "ts": "2026-05-20T02:29:43.547Z"
+    },
+    {
+      "match_id": "Cpejo3QG",
+      "mandante": "Los Angeles FC",
+      "visitante": "FC Dallas",
+      "campos": 22,
+      "ts": "2026-05-20T02:30:13.444Z"
+    },
+    {
+      "match_id": "GURsC05D",
+      "mandante": "Portland Timbers",
+      "visitante": "Vancouver Whitecaps",
+      "campos": 22,
+      "ts": "2026-05-20T02:30:43.970Z"
+    },
+    {
+      "match_id": "GI1smPe4",
+      "mandante": "Colorado Rapids",
+      "visitante": "Los Angeles Galaxy",
+      "campos": 23,
+      "ts": "2026-05-20T02:31:13.708Z"
+    },
+    {
+      "match_id": "SdLnRsZp",
+      "mandante": "Nashville SC",
+      "visitante": "Minnesota United",
+      "campos": 21,
+      "ts": "2026-05-20T02:31:42.332Z"
+    },
+    {
+      "match_id": "bsVGW3BN",
+      "mandante": "Sporting Kansas City",
+      "visitante": "San Diego FC",
+      "campos": 22,
+      "ts": "2026-05-20T02:32:10.732Z"
+    },
+    {
+      "match_id": "8hbZloRi",
+      "mandante": "St. Louis City",
+      "visitante": "Seattle Sounders",
+      "campos": 22,
+      "ts": "2026-05-20T02:32:40.312Z"
+    },
+    {
+      "match_id": "4K9sI4dU",
+      "mandante": "Atlanta Utd",
+      "visitante": "Real Salt Lake",
+      "campos": 22,
+      "ts": "2026-05-20T02:33:09.239Z"
+    },
+    {
+      "match_id": "YZqix8sn",
+      "mandante": "Charlotte",
+      "visitante": "Austin FC",
+      "campos": 24,
+      "ts": "2026-05-20T02:33:39.052Z"
+    },
+    {
+      "match_id": "U1w0znCb",
+      "mandante": "Columbus Crew",
+      "visitante": "Chicago Fire",
+      "campos": 22,
+      "ts": "2026-05-20T02:34:08.079Z"
+    },
+    {
+      "match_id": "2Fy8YPtB",
+      "mandante": "Philadelphia Union",
+      "visitante": "San Jose Earthquakes",
+      "campos": 22,
+      "ts": "2026-05-20T02:34:38.814Z"
+    },
+    {
+      "match_id": "r5LYJQRH",
+      "mandante": "DC United",
+      "visitante": "Inter Miami",
+      "campos": 21,
+      "ts": "2026-05-20T02:35:08.016Z"
+    },
+    {
+      "match_id": "zuIQLnc5",
+      "mandante": "New York City",
+      "visitante": "Orlando City",
+      "campos": 24,
+      "ts": "2026-05-20T02:35:36.948Z"
+    },
+    {
+      "match_id": "zRxh7mrC",
+      "mandante": "San Diego FC",
+      "visitante": "St. Louis City",
+      "campos": 22,
+      "ts": "2026-05-20T02:36:06.537Z"
+    },
+    {
+      "match_id": "EBlq99Da",
+      "mandante": "Orlando City",
+      "visitante": "Inter Miami",
+      "campos": 23,
+      "ts": "2026-05-20T02:36:36.048Z"
+    },
+    {
+      "match_id": "6ooyBVrm",
+      "mandante": "Philadelphia Union",
+      "visitante": "New York City",
+      "campos": 23,
+      "ts": "2026-05-20T02:37:06.044Z"
+    },
+    {
+      "match_id": "lA6ATwaE",
+      "mandante": "Austin FC",
+      "visitante": "DC United",
+      "campos": 22,
+      "ts": "2026-05-20T02:37:36.552Z"
+    },
+    {
+      "match_id": "dGJO5z77",
+      "mandante": "Los Angeles Galaxy",
+      "visitante": "Charlotte",
+      "campos": 22,
+      "ts": "2026-05-20T02:38:07.973Z"
+    },
+    {
+      "match_id": "84OZDMz1",
+      "mandante": "Vancouver Whitecaps",
+      "visitante": "Toronto FC",
+      "campos": 21,
+      "ts": "2026-05-20T02:38:38.564Z"
+    },
+    {
+      "match_id": "8joyFvpL",
+      "mandante": "FC Dallas",
+      "visitante": "Nashville SC",
+      "campos": 22,
+      "ts": "2026-05-20T02:39:09.184Z"
+    },
+    {
+      "match_id": "hOM79I7r",
+      "mandante": "Houston Dynamo",
+      "visitante": "Los Angeles FC",
+      "campos": 24,
+      "ts": "2026-05-20T02:39:39.694Z"
+    },
+    {
+      "match_id": "0lQF7dxe",
+      "mandante": "Sporting Kansas City",
+      "visitante": "Columbus Crew",
+      "campos": 22,
+      "ts": "2026-05-20T02:40:10.140Z"
+    },
+    {
+      "match_id": "pIDr9ld2",
+      "mandante": "Real Salt Lake",
+      "visitante": "Seattle Sounders",
+      "campos": 22,
+      "ts": "2026-05-20T02:40:40.049Z"
+    },
+    {
+      "match_id": "2grTG0F8",
+      "mandante": "San Jose Earthquakes",
+      "visitante": "Atlanta Utd",
+      "campos": 22,
+      "ts": "2026-05-20T02:41:08.902Z"
+    },
+    {
+      "match_id": "hKY3GW3S",
+      "mandante": "Colorado Rapids",
+      "visitante": "Portland Timbers",
+      "campos": 23,
+      "ts": "2026-05-20T02:41:38.083Z"
+    },
+    {
+      "match_id": "C4FzBARk",
+      "mandante": "Minnesota United",
+      "visitante": "FC Cincinnati",
+      "campos": 21,
+      "ts": "2026-05-20T02:42:07.090Z"
+    },
+    {
+      "match_id": "nkzRFr6l",
+      "mandante": "Chicago Fire",
+      "visitante": "CF Montreal",
+      "campos": 23,
+      "ts": "2026-05-20T02:42:37.347Z"
+    },
+    {
+      "match_id": "KhLdIhZF",
+      "mandante": "New York Red Bulls",
+      "visitante": "New England Revolution",
+      "campos": 22,
+      "ts": "2026-05-20T02:43:06.888Z"
+    },
+    {
+      "match_id": "z5ogbXsp",
+      "mandante": "Seattle Sounders",
+      "visitante": "Colorado Rapids",
+      "campos": 22,
+      "ts": "2026-05-20T02:43:35.312Z"
+    },
+    {
+      "match_id": "vZaN3gKM",
+      "mandante": "Los Angeles Galaxy",
+      "visitante": "New York City",
+      "campos": 23,
+      "ts": "2026-05-20T02:44:05.357Z"
+    },
+    {
+      "match_id": "xA367yLc",
+      "mandante": "Portland Timbers",
+      "visitante": "Columbus Crew",
+      "campos": 22,
+      "ts": "2026-05-20T02:44:36.239Z"
+    },
+    {
+      "match_id": "IZqeL4rR",
+      "mandante": "San Diego FC",
+      "visitante": "CF Montreal",
+      "campos": 23,
+      "ts": "2026-05-20T02:45:04.865Z"
+    },
+    {
+      "match_id": "pz7E5FkA",
+      "mandante": "San Jose Earthquakes",
+      "visitante": "Sporting Kansas City",
+      "campos": 22,
+      "ts": "2026-05-20T02:45:36.244Z"
+    },
+    {
+      "match_id": "dEQJqYSj",
+      "mandante": "Los Angeles FC",
+      "visitante": "Inter Miami",
+      "campos": 22,
+      "ts": "2026-05-20T02:46:07.234Z"
+    },
+    {
+      "match_id": "YFLvgx64",
+      "mandante": "Austin FC",
+      "visitante": "Minnesota United",
+      "campos": 22,
+      "ts": "2026-05-20T02:46:36.010Z"
+    },
+    {
+      "match_id": "M7jnNQDE",
+      "mandante": "FC Dallas",
+      "visitante": "Toronto FC",
+      "campos": 22,
+      "ts": "2026-05-20T02:47:05.452Z"
+    },
+    {
+      "match_id": "6TJniGzH",
+      "mandante": "Houston Dynamo",
+      "visitante": "Chicago Fire",
+      "campos": 22,
+      "ts": "2026-05-20T02:47:34.492Z"
+    },
+    {
+      "match_id": "QVZmkf5T",
+      "mandante": "Nashville SC",
+      "visitante": "New England Revolution",
+      "campos": 21,
+      "ts": "2026-05-20T02:48:03.988Z"
+    },
+    {
+      "match_id": "AszpXfqo",
+      "mandante": "DC United",
+      "visitante": "Philadelphia Union",
+      "campos": 23,
+      "ts": "2026-05-20T02:48:32.865Z"
+    },
+    {
+      "match_id": "xlSVfbyh",
+      "mandante": "Orlando City",
+      "visitante": "New York Red Bulls",
+      "campos": 22,
+      "ts": "2026-05-20T02:49:04.229Z"
+    },
+    {
+      "match_id": "UD30aNL7",
+      "mandante": "Vancouver Whitecaps",
+      "visitante": "Real Salt Lake",
+      "campos": 22,
+      "ts": "2026-05-20T02:49:33.891Z"
+    },
+    {
+      "match_id": "jgNBk3aC",
+      "mandante": "FC Cincinnati",
+      "visitante": "Atlanta Utd",
+      "campos": 22,
+      "ts": "2026-05-20T02:50:04.115Z"
+    },
+    {
+      "match_id": "bo54iPUa",
+      "mandante": "St. Louis City",
+      "visitante": "Charlotte",
+      "campos": 22,
+      "ts": "2026-05-20T02:50:32.971Z"
+    },
+    {
+      "match_id": "GERgS3xS",
+      "mandante": "Los Angeles Galaxy",
+      "visitante": "Minnesota United",
+      "campos": 22,
+      "ts": "2026-05-20T02:51:02.629Z"
+    },
+    {
+      "match_id": "za8QMs0k",
+      "mandante": "San Jose Earthquakes",
+      "visitante": "San Diego FC",
+      "campos": 24,
+      "ts": "2026-05-20T02:51:31.809Z"
+    },
+    {
+      "match_id": "2amBrYuh",
+      "mandante": "Vancouver Whitecaps",
+      "visitante": "Portland Timbers",
+      "campos": 21,
+      "ts": "2026-05-20T02:51:59.836Z"
+    },
+    {
+      "match_id": "8lOoUP7F",
+      "mandante": "Los Angeles FC",
+      "visitante": "Orlando City",
+      "campos": 22,
+      "ts": "2026-05-20T02:52:29.748Z"
+    },
+    {
+      "match_id": "Meri8rod",
+      "mandante": "Chicago Fire",
+      "visitante": "Nashville SC",
+      "campos": 21,
+      "ts": "2026-05-20T02:52:59.379Z"
+    },
+    {
+      "match_id": "nZZxWow3",
+      "mandante": "Houston Dynamo",
+      "visitante": "Seattle Sounders",
+      "campos": 22,
+      "ts": "2026-05-20T02:53:28.714Z"
+    },
+    {
+      "match_id": "Ct5vU4jI",
+      "mandante": "Atlanta Utd",
+      "visitante": "Columbus Crew",
+      "campos": 21,
+      "ts": "2026-05-20T02:53:57.441Z"
+    },
+    {
+      "match_id": "IuXBBdzi",
+      "mandante": "Charlotte",
+      "visitante": "Philadelphia Union",
+      "campos": 22,
+      "ts": "2026-05-20T02:54:27.336Z"
+    },
+    {
+      "match_id": "04ddJ8gc",
+      "mandante": "DC United",
+      "visitante": "FC Dallas",
+      "campos": 22,
+      "ts": "2026-05-20T02:54:56.746Z"
+    },
+    {
+      "match_id": "YV93HnO9",
+      "mandante": "Inter Miami",
+      "visitante": "Austin FC",
+      "campos": 22,
+      "ts": "2026-05-20T02:55:26.521Z"
+    },
+    {
+      "match_id": "Uc3CFQhM",
+      "mandante": "New York City",
+      "visitante": "St. Louis City",
+      "campos": 22,
+      "ts": "2026-05-20T02:55:54.996Z"
+    },
+    {
+      "match_id": "QTlrA4Gq",
+      "mandante": "New York Red Bulls",
+      "visitante": "FC Cincinnati",
+      "campos": 23,
+      "ts": "2026-05-20T02:56:25.831Z"
+    },
+    {
+      "match_id": "M3AOKUmo",
+      "mandante": "New England Revolution",
+      "visitante": "CF Montreal",
+      "campos": 22,
+      "ts": "2026-05-20T02:56:53.704Z"
+    },
+    {
+      "match_id": "GEBVVQL5",
+      "mandante": "Real Salt Lake",
+      "visitante": "Sporting Kansas City",
+      "campos": 21,
+      "ts": "2026-05-20T02:57:21.938Z"
+    },
+    {
+      "match_id": "jLJhQjQN",
+      "mandante": "Toronto FC",
+      "visitante": "Colorado Rapids",
+      "campos": 24,
+      "ts": "2026-05-20T02:57:50.786Z"
+    },
+    {
+      "match_id": "nXYYmKbl",
+      "mandante": "Colorado Rapids",
+      "visitante": "Houston Dynamo",
+      "campos": 21,
+      "ts": "2026-05-20T02:58:20.512Z"
+    },
+    {
+      "match_id": "SS18XbE7",
+      "mandante": "Chicago Fire",
+      "visitante": "Atlanta Utd",
+      "campos": 22,
+      "ts": "2026-05-20T02:58:49.255Z"
+    },
+    {
+      "match_id": "KMlfe26E",
+      "mandante": "FC Dallas",
+      "visitante": "St. Louis City",
+      "campos": 22,
+      "ts": "2026-05-20T02:59:19.672Z"
+    },
+    {
+      "match_id": "Glr3gtyR",
+      "mandante": "Sporting Kansas City",
+      "visitante": "San Jose Earthquakes",
+      "campos": 21,
+      "ts": "2026-05-20T02:59:49.463Z"
+    },
+    {
+      "match_id": "fLELt3iL",
+      "mandante": "Charlotte",
+      "visitante": "Nashville SC",
+      "campos": 22,
+      "ts": "2026-05-20T03:00:19.894Z"
+    },
+    {
+      "match_id": "vgjhysFr",
+      "mandante": "Inter Miami",
+      "visitante": "New York Red Bulls",
+      "campos": 21,
+      "ts": "2026-05-20T03:00:49.552Z"
+    },
+    {
+      "match_id": "nJg0ZKqe",
+      "mandante": "New England Revolution",
+      "visitante": "DC United",
+      "campos": 20,
+      "ts": "2026-05-20T03:01:18.054Z"
+    },
+    {
+      "match_id": "IewzwU9T",
+      "mandante": "Vancouver Whitecaps",
+      "visitante": "New York City",
+      "campos": 21,
+      "ts": "2026-05-20T03:01:48.549Z"
+    },
+    {
+      "match_id": "neBDrPM8",
+      "mandante": "Portland Timbers",
+      "visitante": "Los Angeles FC",
+      "campos": 22,
+      "ts": "2026-05-20T03:02:19.710Z"
+    },
+    {
+      "match_id": "8C6YKLU1",
+      "mandante": "Austin FC",
+      "visitante": "Los Angeles Galaxy",
+      "campos": 22,
+      "ts": "2026-05-20T03:02:47.901Z"
+    },
+    {
+      "match_id": "pruSvjuH",
+      "mandante": "CF Montreal",
+      "visitante": "Philadelphia Union",
+      "campos": 22,
+      "ts": "2026-05-20T03:03:17.814Z"
+    },
+    {
+      "match_id": "lGoJtCA4",
+      "mandante": "Toronto FC",
+      "visitante": "FC Cincinnati",
+      "campos": 23,
+      "ts": "2026-05-20T03:03:48.978Z"
+    }
+  ],
+  "falhados": []
+}

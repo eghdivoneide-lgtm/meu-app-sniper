@@ -1,0 +1,2424 @@
+[
+  {
+    "url": "https://www.flashscore.com/match/ENKl5KeD/#/match-summary",
+    "match_id": "ENKl5KeD",
+    "data_partida": "21.02.2026 17:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Almagro",
+    "visitante": "San Martin T.",
+    "placar": {
+      "ht": "0 - 1",
+      "ft": "0 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 45,
+        "v": 55
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 12
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 8
+      },
+      "cantos": {
+        "m": 8,
+        "v": 3
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 6
+      },
+      "cartoes_vermelhos": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 51,
+        "v": 49
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 4
+      },
+      "cantos": {
+        "m": 5,
+        "v": 1
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "3-5-2",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "2.70",
+      "oddEmpate": "2.57",
+      "oddV": "3.10"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:02:45.555Z",
+      "campos_disponiveis": 15,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/8rgabCrT/#/match-summary",
+    "match_id": "8rgabCrT",
+    "data_partida": "15.02.2026 19:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "San Martin T.",
+    "visitante": "Patronato",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 53,
+        "v": 47
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 4
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 1
+      },
+      "cantos": {
+        "m": 4,
+        "v": 2
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 5
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 51,
+        "v": 49
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 1
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 0
+      },
+      "cantos": {
+        "m": 0,
+        "v": 2
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "2.01",
+      "oddEmpate": "3.00",
+      "oddV": "4.33"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:03:15.391Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/WMi1FbKD/#/match-summary",
+    "match_id": "WMi1FbKD",
+    "data_partida": "23.03.2026 16:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Nueva Chicago",
+    "visitante": "Gimnasia y Tiro",
+    "placar": {
+      "ht": "2 - 1",
+      "ft": "3 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 56,
+        "v": 44
+      },
+      "finalizacoes": {
+        "m": 15,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 11,
+        "v": 7
+      },
+      "cantos": {
+        "m": 4,
+        "v": 4
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 52,
+        "v": 48
+      },
+      "finalizacoes": {
+        "m": 12,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 9,
+        "v": 5
+      },
+      "cantos": {
+        "m": 3,
+        "v": 2
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "2.55",
+      "oddEmpate": "2.57",
+      "oddV": "3.25"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:03:45.791Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/xvDDUzPO/#/match-summary",
+    "match_id": "xvDDUzPO",
+    "data_partida": "28.02.2026 20:30",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Agropecuario",
+    "visitante": "Nueva Chicago",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 2"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 55,
+        "v": 45
+      },
+      "finalizacoes": {
+        "m": 12,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 5
+      },
+      "cantos": {
+        "m": 9,
+        "v": 1
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 52,
+        "v": 48
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 1
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 0
+      },
+      "cantos": {
+        "m": 3,
+        "v": 0
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "1.76",
+      "oddEmpate": "3.10",
+      "oddV": "5.50"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:04:16.126Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/Sh9YCBcM/#/match-summary",
+    "match_id": "Sh9YCBcM",
+    "data_partida": "15.02.2026 17:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Club A. Guemes",
+    "visitante": "Nueva Chicago",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 8
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 5
+      },
+      "cantos": {
+        "m": 10,
+        "v": 1
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 59,
+        "v": 41
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 2
+      },
+      "cantos": {
+        "m": 6,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-3-3"
+    },
+    "mercado": {
+      "oddM": "1.96",
+      "oddEmpate": "2.75",
+      "oddV": "4.75"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:04:45.712Z",
+      "campos_disponiveis": 13,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/bqbwNAwK/#/match-summary",
+    "match_id": "bqbwNAwK",
+    "data_partida": "22.03.2026 16:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Temperley",
+    "visitante": "Atletico Atlanta",
+    "placar": {
+      "ht": "1 - 1",
+      "ft": "2 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 58,
+        "v": 42
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 8
+      },
+      "chutes_alvo": {
+        "m": 9,
+        "v": 6
+      },
+      "cantos": {
+        "m": 3,
+        "v": 1
+      },
+      "cartoes_amarelos": {
+        "m": 5,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 57,
+        "v": 43
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 6
+      },
+      "cantos": {
+        "m": 2,
+        "v": 1
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "2.65",
+      "oddEmpate": "2.57",
+      "oddV": "3.20"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:05:15.792Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/APdODoq9/#/match-summary",
+    "match_id": "APdODoq9",
+    "data_partida": "15.03.2026 16:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Gimnasia y Tiro",
+    "visitante": "Temperley",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 55,
+        "v": 45
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 4
+      },
+      "cantos": {
+        "m": 5,
+        "v": 1
+      },
+      "cartoes_amarelos": {
+        "m": 4,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 55,
+        "v": 45
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 1
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 1
+      },
+      "cantos": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "1.71",
+      "oddEmpate": "3.00",
+      "oddV": "6.00"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:05:44.968Z",
+      "campos_disponiveis": 13,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/tCJ4WdfC/#/match-summary",
+    "match_id": "tCJ4WdfC",
+    "data_partida": "01.03.2026 20:30",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Atl. Rafaela",
+    "visitante": "Temperley",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 46,
+        "v": 54
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 7,
+        "v": 3
+      },
+      "cantos": {
+        "m": 4,
+        "v": 5
+      },
+      "cartoes_amarelos": {
+        "m": 5,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 49,
+        "v": 51
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 4
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 3
+      },
+      "cantos": {
+        "m": 1,
+        "v": 3
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-3-3",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "2.32",
+      "oddEmpate": "2.57",
+      "oddV": "3.80"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:06:15.168Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/M76u92dl/#/match-summary",
+    "match_id": "M76u92dl",
+    "data_partida": "22.02.2026 20:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Temperley",
+    "visitante": "Agropecuario",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 49,
+        "v": 51
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 9
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 4
+      },
+      "cantos": {
+        "m": 3,
+        "v": 9
+      },
+      "cartoes_amarelos": {
+        "m": 5,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 53,
+        "v": 47
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 4
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 2
+      },
+      "cantos": {
+        "m": 1,
+        "v": 4
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "5-3-2"
+    },
+    "mercado": {
+      "oddM": "2.25",
+      "oddEmpate": "2.82",
+      "oddV": "3.50"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:06:43.391Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/URl9Hl1s/#/match-summary",
+    "match_id": "URl9Hl1s",
+    "data_partida": "22.03.2026 19:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Deportivo Maipu",
+    "visitante": "Midland",
+    "placar": {
+      "ht": "0 - 1",
+      "ft": "0 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 52,
+        "v": 48
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 12
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 5
+      },
+      "cantos": {
+        "m": 8,
+        "v": 2
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 51,
+        "v": 49
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 9
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 3
+      },
+      "cantos": {
+        "m": 3,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "5-3-2",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "2.25",
+      "oddEmpate": "2.82",
+      "oddV": "3.40"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:07:13.144Z",
+      "campos_disponiveis": 13,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/M3GTi4Mk/#/match-summary",
+    "match_id": "M3GTi4Mk",
+    "data_partida": "15.03.2026 16:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Midland",
+    "visitante": "Almagro",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "1 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 45,
+        "v": 55
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 4
+      },
+      "chutes_alvo": {
+        "m": 8,
+        "v": 4
+      },
+      "cantos": {
+        "m": 3,
+        "v": 1
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 42,
+        "v": 58
+      },
+      "finalizacoes": {
+        "m": 10,
+        "v": 0
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 0
+      },
+      "cantos": {
+        "m": 2,
+        "v": 0
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-3-1-2",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "1.86",
+      "oddEmpate": "2.85",
+      "oddV": "5.00"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:07:43.942Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/0vqWHcuJ/#/match-summary",
+    "match_id": "0vqWHcuJ",
+    "data_partida": "01.03.2026 17:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Midland",
+    "visitante": "Colegiales",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "2 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 55,
+        "v": 45
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 1
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 0
+      },
+      "cantos": {
+        "m": 2,
+        "v": 0
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 62,
+        "v": 38
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 0
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 0
+      },
+      "cantos": {
+        "m": 1,
+        "v": 0
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "4-3-1-2",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "1.68",
+      "oddEmpate": "3.10",
+      "oddV": "5.75"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:08:12.691Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/YRiFLutf/#/match-summary",
+    "match_id": "YRiFLutf",
+    "data_partida": "21.02.2026 20:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Quilmes",
+    "visitante": "Midland",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 46,
+        "v": 54
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 11
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 6
+      },
+      "cantos": {
+        "m": 5,
+        "v": 7
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 44,
+        "v": 56
+      },
+      "finalizacoes": {
+        "m": 1,
+        "v": 4
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 3
+      },
+      "cantos": {
+        "m": 4,
+        "v": 3
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-3-1-2"
+    },
+    "mercado": {
+      "oddM": "2.25",
+      "oddEmpate": "3.00",
+      "oddV": "3.25"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:08:43.375Z",
+      "campos_disponiveis": 13,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/v1vgHu7b/#/match-summary",
+    "match_id": "v1vgHu7b",
+    "data_partida": "05.04.2026 17:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Quilmes",
+    "visitante": "Deportivo Maipu",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "2 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 51,
+        "v": 49
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 9
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 4
+      },
+      "cantos": {
+        "m": 2,
+        "v": 8
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 1
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 0
+      },
+      "cantos": {
+        "m": 2,
+        "v": 3
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "1.71",
+      "oddEmpate": "3.20",
+      "oddV": "5.00"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:09:12.616Z",
+      "campos_disponiveis": 13,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/jswIFSVg/#/match-summary",
+    "match_id": "jswIFSVg",
+    "data_partida": "21.03.2026 14:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Almagro",
+    "visitante": "Quilmes",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 53,
+        "v": 47
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 1
+      },
+      "cantos": {
+        "m": 3,
+        "v": 4
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 59,
+        "v": 41
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 0
+      },
+      "cantos": {
+        "m": 1,
+        "v": 1
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "2.55",
+      "oddEmpate": "2.65",
+      "oddV": "3.25"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:09:42.509Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/2JZdcQbS/#/match-summary",
+    "match_id": "2JZdcQbS",
+    "data_partida": "14.03.2026 20:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Quilmes",
+    "visitante": "Patronato",
+    "placar": {
+      "ht": "2 - 0",
+      "ft": "3 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 49,
+        "v": 51
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 7,
+        "v": 5
+      },
+      "cantos": {
+        "m": 0,
+        "v": 3
+      },
+      "cartoes_amarelos": {
+        "m": 5,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 2
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 2
+      },
+      "cantos": {
+        "m": 0,
+        "v": 2
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "2.15",
+      "oddEmpate": "2.70",
+      "oddV": "3.80"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:10:12.017Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/4jdr2fq4/#/match-summary",
+    "match_id": "4jdr2fq4",
+    "data_partida": "16.02.2026 17:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Atletico Atlanta",
+    "visitante": "Quilmes",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 53,
+        "v": 47
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 3
+      },
+      "cantos": {
+        "m": 4,
+        "v": 2
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 49,
+        "v": 51
+      },
+      "finalizacoes": {
+        "m": 2,
+        "v": 1
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 1
+      },
+      "cantos": {
+        "m": 2,
+        "v": 0
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "1.96",
+      "oddEmpate": "2.75",
+      "oddV": "4.75"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:10:40.965Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/6ybzUIj4/#/match-summary",
+    "match_id": "6ybzUIj4",
+    "data_partida": "05.04.2026 20:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Atl. Rafaela",
+    "visitante": "Club A. Guemes",
+    "placar": {
+      "ht": "0 - 1",
+      "ft": "1 - 2"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 56,
+        "v": 44
+      },
+      "finalizacoes": {
+        "m": 2,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 4
+      },
+      "cantos": {
+        "m": 8,
+        "v": 3
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 59,
+        "v": 41
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 4
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 2
+      },
+      "cantos": {
+        "m": 3,
+        "v": 1
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "2.10",
+      "oddEmpate": "2.50",
+      "oddV": "4.50"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:11:09.795Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/2s0pJtLl/#/match-summary",
+    "match_id": "2s0pJtLl",
+    "data_partida": "22.03.2026 16:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Chacarita Juniors",
+    "visitante": "Atl. Rafaela",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 47,
+        "v": 53
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 6
+      },
+      "cantos": {
+        "m": 2,
+        "v": 5
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 49,
+        "v": 51
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 3
+      },
+      "cantos": {
+        "m": 0,
+        "v": 2
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "4-3-3",
+      "v": "4-3-3"
+    },
+    "mercado": {
+      "oddM": "2.15",
+      "oddEmpate": "2.75",
+      "oddV": "4.00"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:11:39.126Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/GQy363yq/#/match-summary",
+    "match_id": "GQy363yq",
+    "data_partida": "13.03.2026 21:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Atl. Rafaela",
+    "visitante": "San Martin S.J.",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 46,
+        "v": 54
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 8
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 2
+      },
+      "cantos": {
+        "m": 3,
+        "v": 4
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 46,
+        "v": 54
+      },
+      "finalizacoes": {
+        "m": 2,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 1
+      },
+      "cantos": {
+        "m": 1,
+        "v": 2
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 3
+      }
+    },
+    "formacao": {
+      "m": "4-3-3",
+      "v": "4-3-3"
+    },
+    "mercado": {
+      "oddM": "2.25",
+      "oddEmpate": "2.65",
+      "oddV": "3.75"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:12:09.943Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/fL4m7tR0/#/match-summary",
+    "match_id": "fL4m7tR0",
+    "data_partida": "21.02.2026 20:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Deportivo Maipu",
+    "visitante": "Atl. Rafaela",
+    "placar": {
+      "ht": "1 - 1",
+      "ft": "2 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 57,
+        "v": 43
+      },
+      "finalizacoes": {
+        "m": 18,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 7,
+        "v": 4
+      },
+      "cantos": {
+        "m": 8,
+        "v": 0
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 2
+      },
+      "cartoes_vermelhos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 53,
+        "v": 47
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 4
+      },
+      "cantos": {
+        "m": 3,
+        "v": 0
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 2
+      },
+      "cartoes_vermelhos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-3-3"
+    },
+    "mercado": {
+      "oddM": "2.25",
+      "oddEmpate": "2.65",
+      "oddV": "3.90"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:12:40.247Z",
+      "campos_disponiveis": 16,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/hGUVhj6j/#/match-summary",
+    "match_id": "hGUVhj6j",
+    "data_partida": "13.02.2026 21:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Atl. Rafaela",
+    "visitante": "Almagro",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 52,
+        "v": 48
+      },
+      "finalizacoes": {
+        "m": 1,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 1
+      },
+      "cantos": {
+        "m": 7,
+        "v": 6
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 53,
+        "v": 47
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 1
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 1
+      },
+      "cantos": {
+        "m": 2,
+        "v": 4
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "2.05",
+      "oddEmpate": "2.70",
+      "oddV": "4.20"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:13:09.915Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/lItWnIvg/#/match-summary",
+    "match_id": "lItWnIvg",
+    "data_partida": "01.03.2026 17:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Club A. Guemes",
+    "visitante": "Chacarita Juniors",
+    "placar": {
+      "ht": "1 - 1",
+      "ft": "2 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 46,
+        "v": 54
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 2
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 2
+      },
+      "cantos": {
+        "m": 5,
+        "v": 7
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 46,
+        "v": 54
+      },
+      "finalizacoes": {
+        "m": 2,
+        "v": 2
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 2
+      },
+      "cantos": {
+        "m": 1,
+        "v": 3
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-3-3"
+    },
+    "mercado": {
+      "oddM": "2.01",
+      "oddEmpate": "2.57",
+      "oddV": "5.00"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:13:39.153Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/IFHu8yUp/#/match-summary",
+    "match_id": "IFHu8yUp",
+    "data_partida": "03.04.2026 22:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Gimnasia y Tiro",
+    "visitante": "San Martin S.J.",
+    "placar": {
+      "ht": "1 - 1",
+      "ft": "1 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 49,
+        "v": 51
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 3
+      },
+      "cantos": {
+        "m": 2,
+        "v": 5
+      },
+      "cartoes_amarelos": {
+        "m": 6,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 52,
+        "v": 48
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 2
+      },
+      "cantos": {
+        "m": 1,
+        "v": 2
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-3-3"
+    },
+    "mercado": {
+      "oddM": "1.96",
+      "oddEmpate": "2.85",
+      "oddV": "4.75"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:14:10.017Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/rZppJ1xn/#/match-summary",
+    "match_id": "rZppJ1xn",
+    "data_partida": "04.04.2026 16:00",
+    "liga": "Primera B Nacional (Argentina)",
+    "codigo_liga": "ARG_B",
+    "rodada": null,
+    "mandante": "Colegiales",
+    "visitante": "Almagro",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 56,
+        "v": 44
+      },
+      "finalizacoes": {
+        "m": 12,
+        "v": 2
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 1
+      },
+      "cantos": {
+        "m": 8,
+        "v": 2
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 5
+      },
+      "cartoes_vermelhos": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 47,
+        "v": 53
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 2
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 1
+      },
+      "cantos": {
+        "m": 5,
+        "v": 1
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-1-3-2",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "2.25",
+      "oddEmpate": "2.65",
+      "oddV": "3.70"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T05:14:39.411Z",
+      "campos_disponiveis": 15,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  }
+]

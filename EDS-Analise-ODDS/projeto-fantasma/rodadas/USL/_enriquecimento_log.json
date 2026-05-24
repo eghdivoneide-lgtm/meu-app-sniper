@@ -1,0 +1,390 @@
+{
+  "enriquecidos": [
+    {
+      "match_id": "drMlOa1e",
+      "mandante": "FC Tulsa",
+      "visitante": "Phoenix Rising",
+      "campos": 22,
+      "ts": "2026-05-20T12:57:59.908Z"
+    },
+    {
+      "match_id": "p42qpsOE",
+      "mandante": "Oakland Roots",
+      "visitante": "Orange County SC",
+      "campos": 22,
+      "ts": "2026-05-20T12:58:30.095Z"
+    },
+    {
+      "match_id": "W0xAVs9L",
+      "mandante": "Brooklyn",
+      "visitante": "Louisville City",
+      "campos": 22,
+      "ts": "2026-05-20T12:58:59.656Z"
+    },
+    {
+      "match_id": "CIIPPCx0",
+      "mandante": "Tampa Bay",
+      "visitante": "Loudoun",
+      "campos": 22,
+      "ts": "2026-05-20T12:59:28.775Z"
+    },
+    {
+      "match_id": "UeKdMwW7",
+      "mandante": "Miami FC",
+      "visitante": "Rhode Island",
+      "campos": 23,
+      "ts": "2026-05-20T12:59:58.223Z"
+    },
+    {
+      "match_id": "tfvegA3L",
+      "mandante": "Pittsburgh",
+      "visitante": "Sporting Jax",
+      "campos": 22,
+      "ts": "2026-05-20T13:00:29.174Z"
+    },
+    {
+      "match_id": "d64iZlCk",
+      "mandante": "Hartford Athletic",
+      "visitante": "Indy Eleven",
+      "campos": 22,
+      "ts": "2026-05-20T13:00:58.933Z"
+    },
+    {
+      "match_id": "2qTuQLWr",
+      "mandante": "Detroit",
+      "visitante": "Charleston",
+      "campos": 22,
+      "ts": "2026-05-20T13:01:27.564Z"
+    },
+    {
+      "match_id": "pSpneWY8",
+      "mandante": "New Mexico",
+      "visitante": "Colorado Springs",
+      "campos": 22,
+      "ts": "2026-05-20T13:01:58.144Z"
+    },
+    {
+      "match_id": "KYQwuL6U",
+      "mandante": "Sporting Jax",
+      "visitante": "Miami FC",
+      "campos": 22,
+      "ts": "2026-05-20T13:02:26.226Z"
+    },
+    {
+      "match_id": "C8NVtsxI",
+      "mandante": "Lexington",
+      "visitante": "Brooklyn",
+      "campos": 22,
+      "ts": "2026-05-20T13:02:54.842Z"
+    },
+    {
+      "match_id": "AcUBgJc4",
+      "mandante": "Orange County SC",
+      "visitante": "Colorado Springs",
+      "campos": 21,
+      "ts": "2026-05-20T13:03:24.117Z"
+    },
+    {
+      "match_id": "xvsAANKr",
+      "mandante": "Phoenix Rising",
+      "visitante": "Oakland Roots",
+      "campos": 22,
+      "ts": "2026-05-20T13:03:53.651Z"
+    },
+    {
+      "match_id": "AiuI81ke",
+      "mandante": "Sacramento Republic",
+      "visitante": "Monterey Bay",
+      "campos": 22,
+      "ts": "2026-05-20T13:04:24.879Z"
+    },
+    {
+      "match_id": "6JYQ6uK7",
+      "mandante": "San Antonio",
+      "visitante": "New Mexico",
+      "campos": 22,
+      "ts": "2026-05-20T13:04:53.111Z"
+    },
+    {
+      "match_id": "CdcVH5S8",
+      "mandante": "FC Tulsa",
+      "visitante": "Las Vegas Lights",
+      "campos": 21,
+      "ts": "2026-05-20T13:05:22.714Z"
+    },
+    {
+      "match_id": "6PNKicSG",
+      "mandante": "Tampa Bay",
+      "visitante": "Pittsburgh",
+      "campos": 22,
+      "ts": "2026-05-20T13:05:51.838Z"
+    },
+    {
+      "match_id": "OzHzdO5k",
+      "mandante": "Brooklyn",
+      "visitante": "Hartford Athletic",
+      "campos": 22,
+      "ts": "2026-05-20T13:06:21.202Z"
+    },
+    {
+      "match_id": "W0Krf2z2",
+      "mandante": "Charleston",
+      "visitante": "Birmingham",
+      "campos": 22,
+      "ts": "2026-05-20T13:06:50.532Z"
+    },
+    {
+      "match_id": "MylHXyyo",
+      "mandante": "Indy Eleven",
+      "visitante": "Detroit",
+      "campos": 21,
+      "ts": "2026-05-20T13:07:19.207Z"
+    },
+    {
+      "match_id": "KM0wGqcL",
+      "mandante": "Louisville City",
+      "visitante": "Rhode Island",
+      "campos": 23,
+      "ts": "2026-05-20T13:07:48.131Z"
+    },
+    {
+      "match_id": "xpW3euTi",
+      "mandante": "Loudoun",
+      "visitante": "Miami FC",
+      "campos": 22,
+      "ts": "2026-05-20T13:08:16.687Z"
+    },
+    {
+      "match_id": "xOtMQQic",
+      "mandante": "Monterey Bay",
+      "visitante": "El Paso",
+      "campos": 23,
+      "ts": "2026-05-20T13:08:45.976Z"
+    },
+    {
+      "match_id": "jmExuKrB",
+      "mandante": "Oakland Roots",
+      "visitante": "New Mexico",
+      "campos": 21,
+      "ts": "2026-05-20T13:09:14.237Z"
+    },
+    {
+      "match_id": "C22owbDN",
+      "mandante": "Phoenix Rising",
+      "visitante": "Orange County SC",
+      "campos": 24,
+      "ts": "2026-05-20T13:09:43.902Z"
+    },
+    {
+      "match_id": "neHLr2qn",
+      "mandante": "FC Tulsa",
+      "visitante": "San Antonio",
+      "campos": 22,
+      "ts": "2026-05-20T13:10:12.891Z"
+    },
+    {
+      "match_id": "SC1PQrxi",
+      "mandante": "Lexington",
+      "visitante": "Sacramento Republic",
+      "campos": 22,
+      "ts": "2026-05-20T13:10:43.208Z"
+    },
+    {
+      "match_id": "xpl3QKTH",
+      "mandante": "Colorado Springs",
+      "visitante": "Las Vegas Lights",
+      "campos": 20,
+      "ts": "2026-05-20T13:11:14.140Z"
+    },
+    {
+      "match_id": "WrsCObbU",
+      "mandante": "Detroit",
+      "visitante": "Brooklyn",
+      "campos": 22,
+      "ts": "2026-05-20T13:11:44.306Z"
+    },
+    {
+      "match_id": "rNAUttEb",
+      "mandante": "Louisville City",
+      "visitante": "Miami FC",
+      "campos": 21,
+      "ts": "2026-05-20T13:12:14.408Z"
+    },
+    {
+      "match_id": "AyuUO4M9",
+      "mandante": "Rhode Island",
+      "visitante": "Sporting Jax",
+      "campos": 23,
+      "ts": "2026-05-20T13:12:44.247Z"
+    },
+    {
+      "match_id": "dUAgW4ET",
+      "mandante": "Loudoun",
+      "visitante": "Pittsburgh",
+      "campos": 22,
+      "ts": "2026-05-20T13:13:14.120Z"
+    },
+    {
+      "match_id": "Mylxx9ph",
+      "mandante": "Birmingham",
+      "visitante": "Hartford Athletic",
+      "campos": 23,
+      "ts": "2026-05-20T13:13:42.446Z"
+    },
+    {
+      "match_id": "UJpeSta5",
+      "mandante": "Brooklyn",
+      "visitante": "Indy Eleven",
+      "campos": 21,
+      "ts": "2026-05-20T13:14:11.990Z"
+    },
+    {
+      "match_id": "rmfLF3Fa",
+      "mandante": "Monterey Bay",
+      "visitante": "Oakland Roots",
+      "campos": 22,
+      "ts": "2026-05-20T13:14:41.700Z"
+    },
+    {
+      "match_id": "rTyX7BJb",
+      "mandante": "Orange County SC",
+      "visitante": "Las Vegas Lights",
+      "campos": 22,
+      "ts": "2026-05-20T13:15:11.073Z"
+    },
+    {
+      "match_id": "CSoxCLEO",
+      "mandante": "Sacramento Republic",
+      "visitante": "FC Tulsa",
+      "campos": 21,
+      "ts": "2026-05-20T13:15:41.089Z"
+    },
+    {
+      "match_id": "jkFtNoNP",
+      "mandante": "El Paso",
+      "visitante": "Colorado Springs",
+      "campos": 21,
+      "ts": "2026-05-20T13:16:10.773Z"
+    },
+    {
+      "match_id": "0vgvWOat",
+      "mandante": "San Antonio",
+      "visitante": "Phoenix Rising",
+      "campos": 22,
+      "ts": "2026-05-20T13:16:39.276Z"
+    },
+    {
+      "match_id": "UqUo1406",
+      "mandante": "Birmingham",
+      "visitante": "Tampa Bay",
+      "campos": 22,
+      "ts": "2026-05-20T13:17:08.235Z"
+    },
+    {
+      "match_id": "84dnU2Uh",
+      "mandante": "Sporting Jax",
+      "visitante": "Hartford Athletic",
+      "campos": 22,
+      "ts": "2026-05-20T13:17:38.226Z"
+    },
+    {
+      "match_id": "QBNfarVI",
+      "mandante": "Charleston",
+      "visitante": "Pittsburgh",
+      "campos": 22,
+      "ts": "2026-05-20T13:18:08.261Z"
+    },
+    {
+      "match_id": "zNjDHPpm",
+      "mandante": "Lexington",
+      "visitante": "Louisville City",
+      "campos": 22,
+      "ts": "2026-05-20T13:18:38.414Z"
+    },
+    {
+      "match_id": "fwf0grUO",
+      "mandante": "Las Vegas Lights",
+      "visitante": "Sacramento Republic",
+      "campos": 22,
+      "ts": "2026-05-20T13:19:07.337Z"
+    },
+    {
+      "match_id": "jaxIBPqg",
+      "mandante": "Phoenix Rising",
+      "visitante": "New Mexico",
+      "campos": 22,
+      "ts": "2026-05-20T13:19:36.595Z"
+    },
+    {
+      "match_id": "bPuQ93E5",
+      "mandante": "San Antonio",
+      "visitante": "Miami FC",
+      "campos": 23,
+      "ts": "2026-05-20T13:20:06.179Z"
+    },
+    {
+      "match_id": "UV8zan0m",
+      "mandante": "FC Tulsa",
+      "visitante": "Orange County SC",
+      "campos": 22,
+      "ts": "2026-05-20T13:20:35.343Z"
+    },
+    {
+      "match_id": "fiZY7sqI",
+      "mandante": "Tampa Bay",
+      "visitante": "Oakland Roots",
+      "campos": 21,
+      "ts": "2026-05-20T13:21:06.124Z"
+    },
+    {
+      "match_id": "v1pIt5pJ",
+      "mandante": "Brooklyn",
+      "visitante": "Charleston",
+      "campos": 22,
+      "ts": "2026-05-20T13:21:35.999Z"
+    },
+    {
+      "match_id": "Qc2qcQUa",
+      "mandante": "Hartford Athletic",
+      "visitante": "El Paso",
+      "campos": 22,
+      "ts": "2026-05-20T13:22:04.192Z"
+    },
+    {
+      "match_id": "bB0ie4aC",
+      "mandante": "Indy Eleven",
+      "visitante": "Monterey Bay",
+      "campos": 22,
+      "ts": "2026-05-20T13:22:32.574Z"
+    },
+    {
+      "match_id": "Uql9DoFt",
+      "mandante": "Lexington",
+      "visitante": "Rhode Island",
+      "campos": 21,
+      "ts": "2026-05-20T13:23:01.602Z"
+    },
+    {
+      "match_id": "KdN448xQ",
+      "mandante": "Detroit",
+      "visitante": "Sporting Jax",
+      "campos": 22,
+      "ts": "2026-05-20T13:23:30.544Z"
+    },
+    {
+      "match_id": "z9m1pmof",
+      "mandante": "Loudoun",
+      "visitante": "Louisville City",
+      "campos": 22,
+      "ts": "2026-05-20T13:23:59.830Z"
+    },
+    {
+      "match_id": "2ekgn9Gs",
+      "mandante": "Orange County SC",
+      "visitante": "San Antonio",
+      "campos": 22,
+      "ts": "2026-05-20T13:24:28.719Z"
+    }
+  ],
+  "falhados": []
+}

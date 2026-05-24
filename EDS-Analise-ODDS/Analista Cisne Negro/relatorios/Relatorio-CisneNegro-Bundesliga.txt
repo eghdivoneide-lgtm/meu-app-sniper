@@ -1,0 +1,332 @@
+═══════════════════════════════════════════════════════════════════
+  🦢 RELATÓRIO CISNE NEGRO — EDS Soluções Inteligentes
+═══════════════════════════════════════════════════════════════════
+  Liga:     Bundesliga
+  Data:     2026-04-16 18:05
+  Jogos:    11 jogos da próxima rodada
+  Motor:    Sniper Pro v2 (Bayesian + EWMA + TMI + Poisson)
+═══════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────┐
+│  RESUMO POR JOGO                                              │
+└─────────────────────────────────────────────────────────────────┘
+
+  ── JOGO 1: St. Pauli (CASA) vs FC Koln (FORA) ──
+  xCorners FT: 10.96 | HT: 3.76
+  Casa: 6.25 cantos | Fora: 4.71 cantos
+  Confiança: 47.3% | Incerteza: ±3.5
+  Reis dos Cantos: St. Pauli (MODERADO) @1.61
+  Sniper: FT=NEUTRO (53.5%) | HT=UNDER 4 (32.4%)
+  🎯 BALA DE PRATA: St. Pauli (MODERADA) @1.61
+  DNA: St. Pauli=VOLATIL | FC Koln=VOLATIL
+  Jogos analisados: St. Pauli=29 | FC Koln=29
+  Mercados FT:
+    🦢 Over 7.5: 85.4% (fair @1.17) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 76.4% (fair @1.31) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 9.5: 65.5% (fair @1.53) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 10.5: 53.5% (fair @1.87) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 41.6% (fair @2.40) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 30.7% (fair @3.26) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🟢 Over 2.5: 72.4% (fair @1.38) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 3.5: 51.7% (fair @1.93) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 4.5: 32.4% (fair @3.09) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 17.8% (fair @5.62) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 8.7% (fair @11.52) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 2: Bayer Leverkusen (CASA) vs Augsburg (FORA) ──
+  xCorners FT: 8.2 | HT: 3.37
+  Casa: 4.46 cantos | Fora: 3.74 cantos
+  Confiança: 47.3% | Incerteza: ±3.8
+  Reis dos Cantos: Bayer Leverkusen (MEDIANO) @1.89
+  Sniper: FT=UNDER 10 (20.5%) | HT=UNDER 4 (25.1%)
+  DNA: Bayer Leverkusen=VOLATIL | Augsburg=VOLATIL
+  Jogos analisados: Bayer Leverkusen=29 | Augsburg=29
+  Mercados FT:
+    🟡 Over 7.5: 57.5% (fair @1.74) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 8.5: 43.5% (fair @2.30) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 30.9% (fair @3.24) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 20.5% (fair @4.89) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 12.7% (fair @7.88) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 7.4% (fair @13.52) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🟢 Over 2.5: 65.5% (fair @1.53) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 3.5: 43.6% (fair @2.30) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 4.5: 25.1% (fair @3.99) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 12.6% (fair @7.93) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 5.6% (fair @17.88) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 3: Hoffenheim (CASA) vs Dortmund (FORA) ──
+  xCorners FT: 10.03 | HT: 4.44
+  Casa: 6.05 cantos | Fora: 3.98 cantos
+  Confiança: 47.3% | Incerteza: ±4.9
+  Reis dos Cantos: Hoffenheim (DOMINANTE) @1.45
+  Sniper: FT=NEUTRO (42%) | HT=NEUTRO (45.6%)
+  🎯 BALA DE PRATA: Hoffenheim (FORTE) @1.45
+  DNA: Hoffenheim=VOLATIL | Dortmund=VOLATIL
+  Jogos analisados: Hoffenheim=29 | Dortmund=29
+  Mercados FT:
+    🦢 Over 7.5: 78.2% (fair @1.28) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 8.5: 67.0% (fair @1.49) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 9.5: 54.5% (fair @1.83) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 42.0% (fair @2.38) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 30.6% (fair @3.26) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 21.1% (fair @4.74) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 82.0% (fair @1.22) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 3.5: 64.7% (fair @1.54) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 4.5: 45.6% (fair @2.19) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 28.7% (fair @3.49) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 16.1% (fair @6.20) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 4: Union Berlin (CASA) vs Wolfsburg (FORA) ──
+  xCorners FT: 13.41 | HT: 6.45
+  Casa: 9.58 cantos | Fora: 3.84 cantos
+  Confiança: 47.3% | Incerteza: ±3.7
+  Reis dos Cantos: Union Berlin (ABSOLUTO) @1.08
+  Sniper: FT=OVER 10 (78.2%) | HT=OVER 4 (77.1%)
+  🎯 BALA DE PRATA: Union Berlin (NUCLEAR) @1.08
+  DNA: Union Berlin=VOLATIL | Wolfsburg=VOLATIL
+  Jogos analisados: Union Berlin=29 | Wolfsburg=29
+  Mercados FT:
+    🦢 Over 7.5: 95.7% (fair @1.05) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 91.8% (fair @1.09) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 9.5: 86.0% (fair @1.16) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 10.5: 78.2% (fair @1.28) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 11.5: 68.7% (fair @1.45) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 12.5: 58.2% (fair @1.72) — MEDIA CONFIANCA — Cautela recomendada
+  Mercados HT:
+    🦢 Over 2.5: 95.5% (fair @1.05) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 3.5: 88.5% (fair @1.13) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 4.5: 77.1% (fair @1.30) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 5.5: 62.4% (fair @1.60) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 6.5: 46.6% (fair @2.15) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 5: Werder Bremen (CASA) vs Hamburger SV (FORA) ──
+  xCorners FT: 8.21 | HT: 4.84
+  Casa: 5.14 cantos | Fora: 3.06 cantos
+  Confiança: 47.3% | Incerteza: ±3.8
+  Reis dos Cantos: Werder Bremen (DOMINANTE) @1.41
+  Sniper: FT=UNDER 10 (20.5%) | HT=NEUTRO (53.2%)
+  🎯 BALA DE PRATA: Werder Bremen (FORTE) @1.41
+  DNA: Werder Bremen=VOLATIL | Hamburger SV=VOLATIL
+  Jogos analisados: Werder Bremen=29 | Hamburger SV=29
+  Mercados FT:
+    🟡 Over 7.5: 57.5% (fair @1.74) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 8.5: 43.6% (fair @2.29) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 30.9% (fair @3.23) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 20.5% (fair @4.88) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 12.7% (fair @7.85) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 7.4% (fair @13.47) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 86.2% (fair @1.16) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 3.5: 71.2% (fair @1.40) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 4.5: 53.2% (fair @1.88) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 35.7% (fair @2.80) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 21.5% (fair @4.64) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 6: Eintracht Frankfurt (CASA) vs RB Leipzig (FORA) ──
+  xCorners FT: 7.93 | HT: 3.96
+  Casa: 3.63 cantos | Fora: 4.3 cantos
+  Confiança: 47.3% | Incerteza: ±4.3
+  Reis dos Cantos: RB Leipzig (EQUILIBRADO) @1.91
+  Sniper: FT=UNDER 10 (17.7%) | HT=UNDER 4 (36.4%)
+  DNA: Eintracht Frankfurt=VOLATIL | RB Leipzig=VOLATIL
+  Jogos analisados: Eintracht Frankfurt=29 | RB Leipzig=29
+  Mercados FT:
+    🔴 Over 7.5: 53.7% (fair @1.86) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 8.5: 39.7% (fair @2.52) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 27.4% (fair @3.65) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 17.7% (fair @5.66) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 10.7% (fair @9.38) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 6.0% (fair @16.59) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 75.6% (fair @1.32) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 3.5: 55.9% (fair @1.79) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 4.5: 36.4% (fair @2.75) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 20.9% (fair @4.78) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 10.7% (fair @9.37) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 7: Freiburg (CASA) vs Heidenheim (FORA) ──
+  xCorners FT: 9.41 | HT: 3.72
+  Casa: 4.65 cantos | Fora: 4.75 cantos
+  Confiança: 47.3% | Incerteza: ±3.9
+  Reis dos Cantos: Heidenheim (EQUILIBRADO) @2.24
+  Sniper: FT=UNDER 10 (34.3%) | HT=UNDER 4 (31.7%)
+  DNA: Freiburg=VOLATIL | Heidenheim=VOLATIL
+  Jogos analisados: Freiburg=29 | Heidenheim=29
+  Mercados FT:
+    🟢 Over 7.5: 72.1% (fair @1.39) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 8.5: 59.7% (fair @1.68) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 9.5: 46.6% (fair @2.15) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 34.3% (fair @2.91) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 23.8% (fair @4.20) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 15.6% (fair @6.42) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🟢 Over 2.5: 71.8% (fair @1.39) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 3.5: 51.0% (fair @1.96) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 4.5: 31.7% (fair @3.16) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 17.3% (fair @5.79) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 8.4% (fair @11.97) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 8: Bayern Munich (CASA) vs Stuttgart (FORA) ──
+  xCorners FT: 10.51 | HT: 3.86
+  Casa: 5.71 cantos | Fora: 4.8 cantos
+  Confiança: 47.3% | Incerteza: ±3.7
+  Reis dos Cantos: Bayern Munich (MEDIANO) @1.82
+  Sniper: FT=NEUTRO (48%) | HT=UNDER 4 (34.4%)
+  DNA: Bayern Munich=VOLATIL | Stuttgart=VOLATIL
+  Jogos analisados: Bayern Munich=29 | Stuttgart=29
+  Mercados FT:
+    🦢 Over 7.5: 82.2% (fair @1.22) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 8.5: 72.1% (fair @1.39) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 9.5: 60.4% (fair @1.66) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 10.5: 48.0% (fair @2.08) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 36.2% (fair @2.76) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 25.9% (fair @3.86) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🟢 Over 2.5: 74.1% (fair @1.35) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 3.5: 53.9% (fair @1.86) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 4.5: 34.4% (fair @2.91) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 19.3% (fair @5.17) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 9.7% (fair @10.35) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 9: B. Monchengladbach (CASA) vs Mainz (FORA) ──
+  xCorners FT: 8.75 | HT: 3.46
+  Casa: 4.22 cantos | Fora: 4.53 cantos
+  Confiança: 47.3% | Incerteza: ±4.0
+  Reis dos Cantos: Mainz (EQUILIBRADO) @2.12
+  Sniper: FT=UNDER 10 (26.5%) | HT=UNDER 4 (26.7%)
+  DNA: B. Monchengladbach=VOLATIL | Mainz=VOLATIL
+  Jogos analisados: B. Monchengladbach=29 | Mainz=29
+  Mercados FT:
+    🟡 Over 7.5: 64.6% (fair @1.55) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 8.5: 51.1% (fair @1.96) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 38.0% (fair @2.63) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 26.5% (fair @3.78) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 17.3% (fair @5.77) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 10.7% (fair @9.37) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🟢 Over 2.5: 67.2% (fair @1.49) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 3.5: 45.5% (fair @2.20) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 4.5: 26.7% (fair @3.75) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 13.7% (fair @7.30) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 6.2% (fair @16.08) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 10: RB Leipzig (CASA) vs Union Berlin (FORA) ──
+  xCorners FT: 11.33 | HT: 4.94
+  Casa: 5.53 cantos | Fora: 5.8 cantos
+  Confiança: 47.3% | Incerteza: ±4.1
+  Reis dos Cantos: Union Berlin (EQUILIBRADO) @2.12
+  Sniper: FT=NEUTRO (57.9%) | HT=NEUTRO (54.9%)
+  DNA: RB Leipzig=VOLATIL | Union Berlin=VOLATIL
+  Jogos analisados: RB Leipzig=29 | Union Berlin=29
+  Mercados FT:
+    🦢 Over 7.5: 87.7% (fair @1.14) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 79.6% (fair @1.26) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 9.5: 69.4% (fair @1.44) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 10.5: 57.9% (fair @1.73) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 11.5: 46.0% (fair @2.17) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 34.8% (fair @2.88) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 87.0% (fair @1.15) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 3.5: 72.6% (fair @1.38) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 4.5: 54.9% (fair @1.82) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 37.3% (fair @2.68) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 22.9% (fair @4.37) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 11: Augsburg (CASA) vs Eintracht Frankfurt (FORA) ──
+  xCorners FT: 10.17 | HT: 4.99
+  Casa: 5.11 cantos | Fora: 5.06 cantos
+  Confiança: 47.3% | Incerteza: ±3.9
+  Reis dos Cantos: Augsburg (EQUILIBRADO) @2.25
+  Sniper: FT=NEUTRO (43.8%) | HT=NEUTRO (55.8%)
+  DNA: Augsburg=VOLATIL | Eintracht Frankfurt=VOLATIL
+  Jogos analisados: Augsburg=29 | Eintracht Frankfurt=29
+  Mercados FT:
+    🦢 Over 7.5: 79.5% (fair @1.26) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 8.5: 68.6% (fair @1.46) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 9.5: 56.3% (fair @1.78) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 10.5: 43.8% (fair @2.28) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 32.2% (fair @3.10) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 22.5% (fair @4.45) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 87.5% (fair @1.14) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 3.5: 73.4% (fair @1.36) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 4.5: 55.8% (fair @1.79) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 5.5: 38.3% (fair @2.61) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 23.7% (fair @4.22) — BAIXA CONFIANCA — Evitar este mercado
+
+┌─────────────────────────────────────────────────────────────────┐
+│  🦢 RANKING CISNE NEGRO — MERCADOS POR CONFIANÇA              │
+└─────────────────────────────────────────────────────────────────┘
+
+  🦢🦢🦢 PADRÃO CISNE NEGRO — ALTÍSSIMA CONFIANÇA 🦢🦢🦢
+  ─────────────────────────────────────────────────
+  1. Union Berlin vs Wolfsburg → Over 7.5: 95.7% (fair @1.05) [OVER/UNDER FT]
+  2. Union Berlin vs Wolfsburg → Over 2.5 (HT): 95.5% (fair @1.05) [OVER/UNDER HT]
+  3. Union Berlin vs Wolfsburg → Over 8.5: 91.8% (fair @1.09) [OVER/UNDER FT]
+  4. Union Berlin vs Wolfsburg → Over 3.5 (HT): 88.5% (fair @1.13) [OVER/UNDER HT]
+  5. RB Leipzig vs Union Berlin → Over 7.5: 87.7% (fair @1.14) [OVER/UNDER FT]
+  6. Augsburg vs Eintracht Frankfurt → Over 2.5 (HT): 87.5% (fair @1.14) [OVER/UNDER HT]
+  7. RB Leipzig vs Union Berlin → Over 2.5 (HT): 87.0% (fair @1.15) [OVER/UNDER HT]
+  8. Werder Bremen vs Hamburger SV → Over 2.5 (HT): 86.2% (fair @1.16) [OVER/UNDER HT]
+  9. Union Berlin vs Wolfsburg → Over 9.5: 86.0% (fair @1.16) [OVER/UNDER FT]
+  10. St. Pauli vs FC Koln → Over 7.5: 85.4% (fair @1.17) [OVER/UNDER FT]
+  11. Bayern Munich vs Stuttgart → Over 7.5: 82.2% (fair @1.22) [OVER/UNDER FT]
+  12. Hoffenheim vs Dortmund → Over 2.5 (HT): 82.0% (fair @1.22) [OVER/UNDER HT]
+  13. RB Leipzig vs Union Berlin → Over 8.5: 79.6% (fair @1.26) [OVER/UNDER FT]
+  14. Augsburg vs Eintracht Frankfurt → Over 7.5: 79.5% (fair @1.26) [OVER/UNDER FT]
+  15. Hoffenheim vs Dortmund → Over 7.5: 78.2% (fair @1.28) [OVER/UNDER FT]
+  16. Union Berlin vs Wolfsburg → Over 10.5: 78.2% (fair @1.28) [OVER/UNDER FT]
+  17. Union Berlin vs Wolfsburg → SNIPER FT: OVER 10: 78.2% (fair @0.00) [SNIPER]
+  18. Union Berlin vs Wolfsburg → SNIPER HT: OVER 4: 77.1% (fair @0.00) [SNIPER]
+  19. Union Berlin vs Wolfsburg → Over 4.5 (HT): 77.1% (fair @1.30) [OVER/UNDER HT]
+  20. St. Pauli vs FC Koln → Over 8.5: 76.4% (fair @1.31) [OVER/UNDER FT]
+  21. Eintracht Frankfurt vs RB Leipzig → Over 2.5 (HT): 75.6% (fair @1.32) [OVER/UNDER HT]
+
+  🟢 ALTA CONFIANÇA — Mercados recomendados
+  ─────────────────────────────────────────────────
+  1. Bayern Munich vs Stuttgart → Over 2.5 (HT): 74.1% (fair @1.35) [OVER/UNDER HT]
+  2. Augsburg vs Eintracht Frankfurt → Over 3.5 (HT): 73.4% (fair @1.36) [OVER/UNDER HT]
+  3. RB Leipzig vs Union Berlin → Over 3.5 (HT): 72.6% (fair @1.38) [OVER/UNDER HT]
+  4. St. Pauli vs FC Koln → Over 2.5 (HT): 72.4% (fair @1.38) [OVER/UNDER HT]
+  5. Bayern Munich vs Stuttgart → Over 8.5: 72.1% (fair @1.39) [OVER/UNDER FT]
+  6. Freiburg vs Heidenheim → Over 7.5: 72.1% (fair @1.39) [OVER/UNDER FT]
+  7. Freiburg vs Heidenheim → Over 2.5 (HT): 71.8% (fair @1.39) [OVER/UNDER HT]
+  8. Werder Bremen vs Hamburger SV → Over 3.5 (HT): 71.2% (fair @1.40) [OVER/UNDER HT]
+  9. RB Leipzig vs Union Berlin → Over 9.5: 69.4% (fair @1.44) [OVER/UNDER FT]
+  10. Union Berlin vs Wolfsburg → Over 11.5: 68.7% (fair @1.45) [OVER/UNDER FT]
+  11. Augsburg vs Eintracht Frankfurt → Over 8.5: 68.6% (fair @1.46) [OVER/UNDER FT]
+  12. B. Monchengladbach vs Mainz → Over 2.5 (HT): 67.2% (fair @1.49) [OVER/UNDER HT]
+  13. Hoffenheim vs Dortmund → Over 8.5: 67.0% (fair @1.49) [OVER/UNDER FT]
+  14. St. Pauli vs FC Koln → Over 9.5: 65.5% (fair @1.53) [OVER/UNDER FT]
+  15. Bayer Leverkusen vs Augsburg → Over 2.5 (HT): 65.5% (fair @1.53) [OVER/UNDER HT]
+
+  🟡 MÉDIA CONFIANÇA — Cautela recomendada
+  ─────────────────────────────────────────────────
+  1. Hoffenheim vs Dortmund → Over 3.5 (HT): 64.7% (fair @1.54) [OVER/UNDER HT]
+  2. B. Monchengladbach vs Mainz → Over 7.5: 64.6% (fair @1.55) [OVER/UNDER FT]
+  3. Union Berlin vs Wolfsburg → Over 5.5 (HT): 62.4% (fair @1.60) [OVER/UNDER HT]
+  4. Bayern Munich vs Stuttgart → Over 9.5: 60.4% (fair @1.66) [OVER/UNDER FT]
+  5. Freiburg vs Heidenheim → Over 8.5: 59.7% (fair @1.68) [OVER/UNDER FT]
+  6. Union Berlin vs Wolfsburg → Over 12.5: 58.2% (fair @1.72) [OVER/UNDER FT]
+  7. RB Leipzig vs Union Berlin → Over 10.5: 57.9% (fair @1.73) [OVER/UNDER FT]
+  8. Werder Bremen vs Hamburger SV → Over 7.5: 57.5% (fair @1.74) [OVER/UNDER FT]
+  9. Bayer Leverkusen vs Augsburg → Over 7.5: 57.5% (fair @1.74) [OVER/UNDER FT]
+  10. Augsburg vs Eintracht Frankfurt → Over 9.5: 56.3% (fair @1.78) [OVER/UNDER FT]
+  11. Eintracht Frankfurt vs RB Leipzig → Over 3.5 (HT): 55.9% (fair @1.79) [OVER/UNDER HT]
+  12. Augsburg vs Eintracht Frankfurt → Over 4.5 (HT): 55.8% (fair @1.79) [OVER/UNDER HT]
+
+  🎯 BALAS DE PRATA DA RODADA
+  ─────────────────────────────────────────────────
+  St. Pauli vs FC Koln → BALA DE PRATA: St. Pauli (MODERADA) @1.61
+  Hoffenheim vs Dortmund → BALA DE PRATA: Hoffenheim (FORTE) @1.45
+  Union Berlin vs Wolfsburg → BALA DE PRATA: Union Berlin (NUCLEAR) @1.08
+  Werder Bremen vs Hamburger SV → BALA DE PRATA: Werder Bremen (FORTE) @1.41
+
+═══════════════════════════════════════════════════════════════════
+  Gerado automaticamente pelo Agente Nassim Taleb v1.0
+  Motor: Sniper Pro v2 | 2026-04-16 18:05
+  EDS Soluções Inteligentes — Analista Cisne Negro
+═══════════════════════════════════════════════════════════════════

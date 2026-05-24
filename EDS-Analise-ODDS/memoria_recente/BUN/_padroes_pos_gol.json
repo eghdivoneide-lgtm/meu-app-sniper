@@ -1,0 +1,750 @@
+{
+ "Augsburg": {
+  "time": "Augsburg",
+  "n_jogos": 3,
+  "n_casa": 2,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 5.5,
+   "casa_sof": 4.5,
+   "casa_total": 10.0,
+   "casa_pro_ht": 3.5,
+   "casa_sof_ht": 0.5,
+   "fora_pro": 2,
+   "fora_sof": 8,
+   "fora_total": 10,
+   "fora_pro_ht": 0,
+   "fora_sof_ht": 6
+  },
+  "pos_gol_pro": {
+   "n": 3,
+   "diff": -1.33,
+   "estilo": "RECUA_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 53.8,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 5.67,
+   "posse_avg": 36.7,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "alta variancia sd 4.0",
+   "ultimos": [
+    9,
+    2,
+    2
+   ]
+  }
+ },
+ "B. Monchengladbach": {
+  "time": "B. Monchengladbach",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 0.5,
+   "casa_sof": 3.5,
+   "casa_total": 4.0,
+   "casa_pro_ht": 0.5,
+   "casa_sof_ht": 2,
+   "fora_pro": 3.5,
+   "fora_sof": 5,
+   "fora_total": 8.5,
+   "fora_pro_ht": 2.5,
+   "fora_sof_ht": 2.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 75.0,
+   "categoria": "BLITZ_INICIAL"
+  },
+  "sangrador": {
+   "sof_avg": 4.25,
+   "posse_avg": 51.5,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 2.2 desvio +0.0",
+   "ultimos": [
+    0,
+    5,
+    1,
+    2
+   ]
+  }
+ },
+ "Bayer Leverkusen": {
+  "time": "Bayer Leverkusen",
+  "n_jogos": 3,
+  "n_casa": 1,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 7,
+   "casa_sof": 3,
+   "casa_total": 10,
+   "casa_pro_ht": 5,
+   "casa_sof_ht": 0,
+   "fora_pro": 5.5,
+   "fora_sof": 4.5,
+   "fora_total": 10.0,
+   "fora_pro_ht": 4,
+   "fora_sof_ht": 2
+  },
+  "pos_gol_pro": {
+   "n": 2,
+   "diff": -1.5,
+   "estilo": "RECUA_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 72.2,
+   "categoria": "BLITZ_INICIAL"
+  },
+  "sangrador": {
+   "sof_avg": 4,
+   "posse_avg": 53.7,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.0 desvio +0.0",
+   "ultimos": [
+    5,
+    7,
+    6
+   ]
+  }
+ },
+ "Bayern Munich": {
+  "time": "Bayern Munich",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 12,
+   "casa_sof": 4,
+   "casa_total": 16,
+   "casa_pro_ht": 3,
+   "casa_sof_ht": 3,
+   "fora_pro": 3.5,
+   "fora_sof": 5,
+   "fora_total": 8.5,
+   "fora_pro_ht": 2,
+   "fora_sof_ht": 3
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "diff": 4.5,
+   "estilo": "REAGE_PRESSIONA"
+  },
+  "distribuicao": {
+   "pct_ht": 32.3,
+   "categoria": "ASFIXIA_FINAL"
+  },
+  "sangrador": {
+   "sof_avg": 4.5,
+   "posse_avg": 69.8,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "alta variancia sd 5.0",
+   "ultimos": [
+    11,
+    4,
+    13,
+    3
+   ]
+  }
+ },
+ "Dortmund": {
+  "time": "Dortmund",
+  "n_jogos": 3,
+  "n_casa": 2,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 5.5,
+   "casa_sof": 1,
+   "casa_total": 6.5,
+   "casa_pro_ht": 2.5,
+   "casa_sof_ht": 0,
+   "fora_pro": 1,
+   "fora_sof": 1,
+   "fora_total": 2,
+   "fora_pro_ht": 1,
+   "fora_sof_ht": 1
+  },
+  "pos_gol_pro": {
+   "n": 2,
+   "diff": 2,
+   "estilo": "PRESSIONA_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 50.0,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 1,
+   "posse_avg": 55.7,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 2.6 desvio +0.0",
+   "ultimos": [
+    5,
+    1,
+    6
+   ]
+  }
+ },
+ "Eintracht Frankfurt": {
+  "time": "Eintracht Frankfurt",
+  "n_jogos": 3,
+  "n_casa": 1,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 9,
+   "casa_sof": 4,
+   "casa_total": 13,
+   "casa_pro_ht": 4,
+   "casa_sof_ht": 2,
+   "fora_pro": 4.5,
+   "fora_sof": 7.5,
+   "fora_total": 12.0,
+   "fora_pro_ht": 0.5,
+   "fora_sof_ht": 3
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "diff": -0.5,
+   "estilo": "EQUILIBRADO_REACAO"
+  },
+  "distribuicao": {
+   "pct_ht": 27.8,
+   "categoria": "ASFIXIA_FINAL"
+  },
+  "sangrador": {
+   "sof_avg": 6.33,
+   "posse_avg": 56,
+   "tipo": "SANGRA_COM_BOLA"
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "alta variancia sd 3.6",
+   "ultimos": [
+    7,
+    9,
+    2
+   ]
+  }
+ },
+ "FC Koln": {
+  "time": "FC Koln",
+  "n_jogos": 3,
+  "n_casa": 2,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 4,
+   "casa_sof": 4.5,
+   "casa_total": 8.5,
+   "casa_pro_ht": 0.5,
+   "casa_sof_ht": 4,
+   "fora_pro": 5,
+   "fora_sof": 2,
+   "fora_total": 7,
+   "fora_pro_ht": 4,
+   "fora_sof_ht": 0
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "diff": 3.0,
+   "estilo": "REAGE_PRESSIONA"
+  },
+  "distribuicao": {
+   "pct_ht": 38.5,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 3.67,
+   "posse_avg": 50.7,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 2.1 desvio +0.0",
+   "ultimos": [
+    2,
+    5,
+    6
+   ]
+  }
+ },
+ "Freiburg": {
+  "time": "Freiburg",
+  "n_jogos": 3,
+  "n_casa": 1,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 1,
+   "casa_sof": 7,
+   "casa_total": 8,
+   "casa_pro_ht": 0,
+   "casa_sof_ht": 0,
+   "fora_pro": 2,
+   "fora_sof": 3.5,
+   "fora_total": 5.5,
+   "fora_pro_ht": 1,
+   "fora_sof_ht": 2
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 40.0,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 4.67,
+   "posse_avg": 51.7,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 2.1 desvio +0.0",
+   "ultimos": [
+    0,
+    1,
+    4
+   ]
+  }
+ },
+ "Hamburger SV": {
+  "time": "Hamburger SV",
+  "n_jogos": 3,
+  "n_casa": 2,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 3,
+   "casa_sof": 6.5,
+   "casa_total": 9.5,
+   "casa_pro_ht": 0.5,
+   "casa_sof_ht": 2,
+   "fora_pro": 4,
+   "fora_sof": 9,
+   "fora_total": 13,
+   "fora_pro_ht": 2,
+   "fora_sof_ht": 4
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 30.0,
+   "categoria": "ASFIXIA_FINAL"
+  },
+  "sangrador": {
+   "sof_avg": 7.33,
+   "posse_avg": 41.3,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.2 desvio +0.0",
+   "ultimos": [
+    4,
+    4,
+    2
+   ]
+  }
+ },
+ "Heidenheim": {
+  "time": "Heidenheim",
+  "n_jogos": 3,
+  "n_casa": 1,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 6,
+   "casa_sof": 6,
+   "casa_total": 12,
+   "casa_pro_ht": 1,
+   "casa_sof_ht": 3,
+   "fora_pro": 4.5,
+   "fora_sof": 9.5,
+   "fora_total": 14.0,
+   "fora_pro_ht": 3,
+   "fora_sof_ht": 1.5
+  },
+  "pos_gol_pro": {
+   "n": 3,
+   "diff": -3.67,
+   "estilo": "RECUA_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 46.7,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 8.33,
+   "posse_avg": 34.7,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.0 desvio +0.0",
+   "ultimos": [
+    6,
+    5,
+    4
+   ]
+  }
+ },
+ "Hoffenheim": {
+  "time": "Hoffenheim",
+  "n_jogos": 3,
+  "n_casa": 2,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 6,
+   "casa_sof": 4,
+   "casa_total": 10,
+   "casa_pro_ht": 3.5,
+   "casa_sof_ht": 0.5,
+   "fora_pro": 9,
+   "fora_sof": 4,
+   "fora_total": 13,
+   "fora_pro_ht": 2,
+   "fora_sof_ht": 1
+  },
+  "pos_gol_pro": {
+   "n": 3,
+   "diff": 0.67,
+   "estilo": "EQUILIBRADO_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 42.9,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 4,
+   "posse_avg": 59,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 2.6 desvio +0.0",
+   "ultimos": [
+    9,
+    4,
+    8
+   ]
+  }
+ },
+ "Mainz": {
+  "time": "Mainz",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 5.5,
+   "casa_sof": 6,
+   "casa_total": 11.5,
+   "casa_pro_ht": 3,
+   "casa_sof_ht": 4,
+   "fora_pro": 6.5,
+   "fora_sof": 3.5,
+   "fora_total": 10.0,
+   "fora_pro_ht": 4,
+   "fora_sof_ht": 1.5
+  },
+  "pos_gol_pro": {
+   "n": 2,
+   "diff": -1,
+   "estilo": "RECUA_POS_GOL"
+  },
+  "pos_gol_contra": {
+   "n": 2,
+   "diff": 2,
+   "estilo": "REAGE_PRESSIONA"
+  },
+  "distribuicao": {
+   "pct_ht": 58.3,
+   "categoria": "BLITZ_INICIAL"
+  },
+  "sangrador": {
+   "sof_avg": 4.75,
+   "posse_avg": 48.2,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.4 desvio +0.0",
+   "ultimos": [
+    6,
+    4,
+    7,
+    7
+   ]
+  }
+ },
+ "RB Leipzig": {
+  "time": "RB Leipzig",
+  "n_jogos": 3,
+  "n_casa": 2,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 6.5,
+   "casa_sof": 4.5,
+   "casa_total": 11.0,
+   "casa_pro_ht": 3,
+   "casa_sof_ht": 1.5,
+   "fora_pro": 3,
+   "fora_sof": 7,
+   "fora_total": 10,
+   "fora_pro_ht": 0,
+   "fora_sof_ht": 5
+  },
+  "pos_gol_pro": {
+   "n": 2,
+   "diff": 0.5,
+   "estilo": "EQUILIBRADO_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 37.5,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 5.33,
+   "posse_avg": 60.7,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "alta variancia sd 4.0",
+   "ultimos": [
+    10,
+    3,
+    3
+   ]
+  }
+ },
+ "St. Pauli": {
+  "time": "St. Pauli",
+  "n_jogos": 3,
+  "n_casa": 1,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 7,
+   "casa_sof": 7,
+   "casa_total": 14,
+   "casa_pro_ht": 3,
+   "casa_sof_ht": 5,
+   "fora_pro": 5.5,
+   "fora_sof": 4.5,
+   "fora_total": 10.0,
+   "fora_pro_ht": 2.5,
+   "fora_sof_ht": 1
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 3,
+   "diff": 0.33,
+   "estilo": "EQUILIBRADO_REACAO"
+  },
+  "distribuicao": {
+   "pct_ht": 44.4,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 5.33,
+   "posse_avg": 45.7,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.0 desvio +0.0",
+   "ultimos": [
+    6,
+    7,
+    5
+   ]
+  }
+ },
+ "Stuttgart": {
+  "time": "Stuttgart",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 10.5,
+   "casa_sof": 4,
+   "casa_total": 14.5,
+   "casa_pro_ht": 5,
+   "casa_sof_ht": 2.5,
+   "fora_pro": 4,
+   "fora_sof": 7.5,
+   "fora_total": 11.5,
+   "fora_pro_ht": 1.5,
+   "fora_sof_ht": 2.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 3,
+   "diff": 1.0,
+   "estilo": "EQUILIBRADO_REACAO"
+  },
+  "distribuicao": {
+   "pct_ht": 44.8,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 5.75,
+   "posse_avg": 51.2,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "alta variancia sd 4.8",
+   "ultimos": [
+    3,
+    14,
+    5,
+    7
+   ]
+  }
+ },
+ "Union Berlin": {
+  "time": "Union Berlin",
+  "n_jogos": 3,
+  "n_casa": 1,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 2,
+   "casa_sof": 5,
+   "casa_total": 7,
+   "casa_pro_ht": 0,
+   "casa_sof_ht": 4,
+   "fora_pro": 6,
+   "fora_sof": 8.5,
+   "fora_total": 14.5,
+   "fora_pro_ht": 3.5,
+   "fora_sof_ht": 4.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "diff": -0.5,
+   "estilo": "EQUILIBRADO_REACAO"
+  },
+  "distribuicao": {
+   "pct_ht": 50.0,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 7.33,
+   "posse_avg": 46.3,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "alta variancia sd 3.1",
+   "ultimos": [
+    4,
+    2,
+    8
+   ]
+  }
+ },
+ "Werder Bremen": {
+  "time": "Werder Bremen",
+  "n_jogos": 3,
+  "n_casa": 1,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 8,
+   "casa_sof": 2,
+   "casa_total": 10,
+   "casa_pro_ht": 6,
+   "casa_sof_ht": 0,
+   "fora_pro": 2.5,
+   "fora_sof": 11,
+   "fora_total": 13.5,
+   "fora_pro_ht": 1.5,
+   "fora_sof_ht": 6
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "diff": 0,
+   "estilo": "EQUILIBRADO_REACAO"
+  },
+  "distribuicao": {
+   "pct_ht": 69.2,
+   "categoria": "BLITZ_INICIAL"
+  },
+  "sangrador": {
+   "sof_avg": 8,
+   "posse_avg": 42.7,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "alta variancia sd 3.2",
+   "ultimos": [
+    2,
+    8,
+    3
+   ]
+  }
+ },
+ "Wolfsburg": {
+  "time": "Wolfsburg",
+  "n_jogos": 3,
+  "n_casa": 2,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 7,
+   "casa_sof": 4,
+   "casa_total": 11,
+   "casa_pro_ht": 3.5,
+   "casa_sof_ht": 3.5,
+   "fora_pro": 7,
+   "fora_sof": 1,
+   "fora_total": 8,
+   "fora_pro_ht": 0,
+   "fora_sof_ht": 0
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 33.3,
+   "categoria": "ASFIXIA_FINAL"
+  },
+  "sangrador": {
+   "sof_avg": 3,
+   "posse_avg": 37.7,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.0 desvio +0.0",
+   "ultimos": [
+    8,
+    7,
+    6
+   ]
+  }
+ }
+}

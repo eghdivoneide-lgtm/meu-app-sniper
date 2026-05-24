@@ -1,0 +1,292 @@
+{
+  "geradoEm": "2026-05-24T03:33:47.355Z",
+  "janelaRodadas": [
+    "2026-04-01",
+    "2026-04-08",
+    "2026-04-15",
+    "2026-04-22",
+    "2026-04-28",
+    "2026-05-05",
+    "2026-05-12",
+    "2026-05-13",
+    "2026-05-15",
+    "2026-05-18"
+  ],
+  "criterio": {
+    "corteTaxa": 50,
+    "corteAmostra": 30,
+    "thresholdTop": 60
+  },
+  "matriz": {
+    "ARG": {
+      "HDP_FT_MANDANTE": {
+        "g": 9,
+        "r": 5,
+        "n": 14,
+        "taxa": 64.3,
+        "status": "REPROVADA"
+      },
+      "HDP_FT_VISITANTE": {
+        "g": 9,
+        "r": 0,
+        "n": 9,
+        "taxa": 100,
+        "status": "REPROVADA"
+      },
+      "UNDER_9_FT": {
+        "g": 18,
+        "r": 13,
+        "n": 31,
+        "taxa": 58.1,
+        "status": "APROVADA"
+      }
+    },
+    "ARG_B": {
+      "HDP_FT_MANDANTE": {
+        "g": 1,
+        "r": 1,
+        "n": 2,
+        "taxa": 50,
+        "status": "REPROVADA"
+      },
+      "HDP_FT_VISITANTE": {
+        "n": 0,
+        "taxa": null,
+        "status": "SEM_DADOS"
+      },
+      "UNDER_9_FT": {
+        "g": 18,
+        "r": 16,
+        "n": 34,
+        "taxa": 52.9,
+        "status": "APROVADA"
+      }
+    },
+    "BR": {
+      "HDP_FT_MANDANTE": {
+        "g": 0,
+        "r": 2,
+        "n": 2,
+        "taxa": 0,
+        "status": "REPROVADA"
+      },
+      "HDP_FT_VISITANTE": {
+        "n": 0,
+        "taxa": null,
+        "status": "SEM_DADOS"
+      },
+      "UNDER_9_FT": {
+        "n": 0,
+        "taxa": null,
+        "status": "SEM_DADOS"
+      }
+    },
+    "BR_B": {
+      "HDP_FT_MANDANTE": {
+        "n": 0,
+        "taxa": null,
+        "status": "SEM_DADOS"
+      },
+      "HDP_FT_VISITANTE": {
+        "n": 0,
+        "taxa": null,
+        "status": "SEM_DADOS"
+      },
+      "UNDER_9_FT": {
+        "g": 0,
+        "r": 1,
+        "n": 1,
+        "taxa": 0,
+        "status": "REPROVADA"
+      }
+    },
+    "BUN": {
+      "HDP_FT_MANDANTE": {
+        "g": 1,
+        "r": 0,
+        "n": 1,
+        "taxa": 100,
+        "status": "REPROVADA"
+      },
+      "HDP_FT_VISITANTE": {
+        "n": 0,
+        "taxa": null,
+        "status": "SEM_DADOS"
+      },
+      "UNDER_9_FT": {
+        "g": 0,
+        "r": 1,
+        "n": 1,
+        "taxa": 0,
+        "status": "REPROVADA"
+      }
+    },
+    "J2J3": {
+      "HDP_FT_MANDANTE": {
+        "g": 4,
+        "r": 0,
+        "n": 4,
+        "taxa": 100,
+        "status": "REPROVADA"
+      },
+      "HDP_FT_VISITANTE": {
+        "g": 2,
+        "r": 2,
+        "n": 4,
+        "taxa": 50,
+        "status": "REPROVADA"
+      },
+      "UNDER_9_FT": {
+        "g": 3,
+        "r": 3,
+        "n": 6,
+        "taxa": 50,
+        "status": "REPROVADA"
+      }
+    },
+    "MLS": {
+      "HDP_FT_MANDANTE": {
+        "g": 2,
+        "r": 0,
+        "n": 2,
+        "taxa": 100,
+        "status": "REPROVADA"
+      },
+      "HDP_FT_VISITANTE": {
+        "n": 0,
+        "taxa": null,
+        "status": "SEM_DADOS"
+      },
+      "UNDER_9_FT": {
+        "g": 0,
+        "r": 4,
+        "n": 4,
+        "taxa": 0,
+        "status": "REPROVADA"
+      }
+    },
+    "USL": {
+      "HDP_FT_MANDANTE": {
+        "g": 2,
+        "r": 0,
+        "n": 2,
+        "taxa": 100,
+        "status": "REPROVADA"
+      },
+      "HDP_FT_VISITANTE": {
+        "n": 0,
+        "taxa": null,
+        "status": "SEM_DADOS"
+      },
+      "UNDER_9_FT": {
+        "g": 0,
+        "r": 1,
+        "n": 1,
+        "taxa": 0,
+        "status": "REPROVADA"
+      }
+    }
+  },
+  "agregadoLiga": {
+    "ARG": {
+      "g": 36,
+      "r": 18,
+      "n": 54,
+      "taxa": 66.7,
+      "status": "APROVADA"
+    },
+    "ARG_B": {
+      "g": 19,
+      "r": 17,
+      "n": 36,
+      "taxa": 52.8,
+      "status": "APROVADA"
+    },
+    "BR": {
+      "g": 0,
+      "r": 2,
+      "n": 2,
+      "taxa": 0,
+      "status": "REPROVADA"
+    },
+    "BR_B": {
+      "g": 0,
+      "r": 1,
+      "n": 1,
+      "taxa": 0,
+      "status": "REPROVADA"
+    },
+    "BUN": {
+      "g": 1,
+      "r": 1,
+      "n": 2,
+      "taxa": 50,
+      "status": "REPROVADA"
+    },
+    "J2J3": {
+      "g": 9,
+      "r": 5,
+      "n": 14,
+      "taxa": 64.3,
+      "status": "REPROVADA"
+    },
+    "MLS": {
+      "g": 2,
+      "r": 4,
+      "n": 6,
+      "taxa": 33.3,
+      "status": "REPROVADA"
+    },
+    "USL": {
+      "g": 2,
+      "r": 1,
+      "n": 3,
+      "taxa": 66.7,
+      "status": "REPROVADA"
+    }
+  },
+  "porFaixa": {
+    "HDP_FT_MANDANTE": {
+      "90+": {
+        "g": 4,
+        "r": 0
+      },
+      "75-89": {
+        "g": 8,
+        "r": 4
+      },
+      "60-74": {
+        "g": 7,
+        "r": 4
+      }
+    },
+    "HDP_FT_VISITANTE": {
+      "90+": {
+        "g": 0,
+        "r": 0
+      },
+      "75-89": {
+        "g": 3,
+        "r": 0
+      },
+      "60-74": {
+        "g": 8,
+        "r": 2
+      }
+    },
+    "UNDER_9_FT": {
+      "90+": {
+        "g": 2,
+        "r": 4
+      },
+      "75-89": {
+        "g": 23,
+        "r": 11
+      },
+      "60-74": {
+        "g": 14,
+        "r": 24
+      }
+    }
+  }
+}

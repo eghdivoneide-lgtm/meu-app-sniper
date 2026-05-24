@@ -1,0 +1,19 @@
+{
+  "modo": {
+    "dataLimite": "2026-05-08",
+    "nome": "BACKTEST"
+  },
+  "geradoEm": "2026-05-14T05:10:39.518Z",
+  "totalAnalisados": 88,
+  "eliminadosPor": {
+    "F1": 50,
+    "F2": 31,
+    "F3": 0,
+    "F4": 0,
+    "F5": 0,
+    "F6": 0,
+    "sem_dados": 7
+  },
+  "aprovadosBrutos": 0,
+  "listaFinal": []
+}

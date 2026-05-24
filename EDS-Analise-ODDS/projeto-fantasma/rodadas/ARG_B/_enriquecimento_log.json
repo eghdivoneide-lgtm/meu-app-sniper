@@ -1,0 +1,1000 @@
+{
+  "enriquecidos": [
+    {
+      "match_id": "MwBSuBt1",
+      "mandante": "Colon Santa Fe",
+      "visitante": "San Miguel",
+      "campos": 14,
+      "ts": "2026-05-20T04:13:38.067Z"
+    },
+    {
+      "match_id": "EoTZwkBD",
+      "mandante": "Colon Santa Fe",
+      "visitante": "Racing Cordoba",
+      "campos": 14,
+      "ts": "2026-05-20T04:14:06.442Z"
+    },
+    {
+      "match_id": "0SI3K3EN",
+      "mandante": "Patronato",
+      "visitante": "Colon Santa Fe",
+      "campos": 14,
+      "ts": "2026-05-20T04:14:37.326Z"
+    },
+    {
+      "match_id": "xYwUtcQ1",
+      "mandante": "San Telmo",
+      "visitante": "Colon Santa Fe",
+      "campos": 14,
+      "ts": "2026-05-20T04:15:07.612Z"
+    },
+    {
+      "match_id": "jy6tj13F",
+      "mandante": "Colon Santa Fe",
+      "visitante": "Acassuso",
+      "campos": 14,
+      "ts": "2026-05-20T04:15:37.224Z"
+    },
+    {
+      "match_id": "EFU9Solf",
+      "mandante": "Colon Santa Fe",
+      "visitante": "Ferro",
+      "campos": 14,
+      "ts": "2026-05-20T04:16:07.690Z"
+    },
+    {
+      "match_id": "zRzEADS8",
+      "mandante": "Central Norte",
+      "visitante": "Colon Santa Fe",
+      "campos": 14,
+      "ts": "2026-05-20T04:16:36.520Z"
+    },
+    {
+      "match_id": "v1CBhu7N",
+      "mandante": "Colon Santa Fe",
+      "visitante": "Deportivo Madryn",
+      "campos": 14,
+      "ts": "2026-05-20T04:17:07.468Z"
+    },
+    {
+      "match_id": "4zt4m2rA",
+      "mandante": "Almirante Brown",
+      "visitante": "Def. de Belgrano",
+      "campos": 14,
+      "ts": "2026-05-20T04:17:36.203Z"
+    },
+    {
+      "match_id": "YByy7mu0",
+      "mandante": "Def. de Belgrano",
+      "visitante": "Ciudad Bolivar",
+      "campos": 14,
+      "ts": "2026-05-20T04:18:05.876Z"
+    },
+    {
+      "match_id": "na9wXtbT",
+      "mandante": "Def. de Belgrano",
+      "visitante": "Atl. Rafaela",
+      "campos": 16,
+      "ts": "2026-05-20T04:18:35.972Z"
+    },
+    {
+      "match_id": "407jHw2E",
+      "mandante": "Def. de Belgrano",
+      "visitante": "CA Mitre",
+      "campos": 15,
+      "ts": "2026-05-20T04:19:05.538Z"
+    },
+    {
+      "match_id": "zNp2gFhA",
+      "mandante": "CA Estudiantes",
+      "visitante": "Def. de Belgrano",
+      "campos": 14,
+      "ts": "2026-05-20T04:19:36.012Z"
+    },
+    {
+      "match_id": "SICrCQ3D",
+      "mandante": "Los Andes",
+      "visitante": "Def. de Belgrano",
+      "campos": 14,
+      "ts": "2026-05-20T04:20:06.367Z"
+    },
+    {
+      "match_id": "xAip3VKr",
+      "mandante": "Def. de Belgrano",
+      "visitante": "Godoy Cruz",
+      "campos": 14,
+      "ts": "2026-05-20T04:20:36.539Z"
+    },
+    {
+      "match_id": "hpE3f1xB",
+      "mandante": "Deportivo Moron",
+      "visitante": "Def. de Belgrano",
+      "campos": 14,
+      "ts": "2026-05-20T04:21:05.312Z"
+    },
+    {
+      "match_id": "Imy1U7Js",
+      "mandante": "Deportivo Moron",
+      "visitante": "Central Norte",
+      "campos": 14,
+      "ts": "2026-05-20T04:21:34.595Z"
+    },
+    {
+      "match_id": "UuWmmglR",
+      "mandante": "Godoy Cruz",
+      "visitante": "Acassuso",
+      "campos": 14,
+      "ts": "2026-05-20T04:22:04.203Z"
+    },
+    {
+      "match_id": "QBHJsXBl",
+      "mandante": "Deportivo Moron",
+      "visitante": "San Telmo",
+      "campos": 14,
+      "ts": "2026-05-20T04:22:35.004Z"
+    },
+    {
+      "match_id": "fs6M1h3K",
+      "mandante": "San Miguel",
+      "visitante": "Deportivo Moron",
+      "campos": 16,
+      "ts": "2026-05-20T04:23:03.619Z"
+    },
+    {
+      "match_id": "WS25B8Vh",
+      "mandante": "Almagro",
+      "visitante": "Deportivo Moron",
+      "campos": 14,
+      "ts": "2026-05-20T04:23:33.829Z"
+    },
+    {
+      "match_id": "4vWF40I8",
+      "mandante": "Acassuso",
+      "visitante": "Deportivo Moron",
+      "campos": 15,
+      "ts": "2026-05-20T04:24:03.684Z"
+    },
+    {
+      "match_id": "IN7YiNY2",
+      "mandante": "Deportivo Moron",
+      "visitante": "Chaco For Ever",
+      "campos": 13,
+      "ts": "2026-05-20T04:24:32.961Z"
+    },
+    {
+      "match_id": "8vZL8icL",
+      "mandante": "Deportivo Madryn",
+      "visitante": "Deportivo Moron",
+      "campos": 16,
+      "ts": "2026-05-20T04:25:03.472Z"
+    },
+    {
+      "match_id": "QPdhdWQs",
+      "mandante": "San Telmo",
+      "visitante": "Godoy Cruz",
+      "campos": 15,
+      "ts": "2026-05-20T04:25:33.776Z"
+    },
+    {
+      "match_id": "C6nMxoUi",
+      "mandante": "Deportivo Maipu",
+      "visitante": "Godoy Cruz",
+      "campos": 16,
+      "ts": "2026-05-20T04:26:04.112Z"
+    },
+    {
+      "match_id": "06PO2vmL",
+      "mandante": "Chaco For Ever",
+      "visitante": "Godoy Cruz",
+      "campos": 14,
+      "ts": "2026-05-20T04:26:33.636Z"
+    },
+    {
+      "match_id": "0nwlpBFd",
+      "mandante": "Godoy Cruz",
+      "visitante": "Ferro",
+      "campos": 15,
+      "ts": "2026-05-20T04:27:02.761Z"
+    },
+    {
+      "match_id": "8EkVZTeK",
+      "mandante": "Godoy Cruz",
+      "visitante": "Deportivo Madryn",
+      "campos": 14,
+      "ts": "2026-05-20T04:27:33.311Z"
+    },
+    {
+      "match_id": "WUPfdN7b",
+      "mandante": "Godoy Cruz",
+      "visitante": "Ciudad Bolivar",
+      "campos": 14,
+      "ts": "2026-05-20T04:28:03.068Z"
+    },
+    {
+      "match_id": "bybxVgSr",
+      "mandante": "CA Mitre",
+      "visitante": "Deportivo Madryn",
+      "campos": 14,
+      "ts": "2026-05-20T04:28:32.432Z"
+    },
+    {
+      "match_id": "QoYS89Am",
+      "mandante": "Deportivo Madryn",
+      "visitante": "Almirante Brown",
+      "campos": 15,
+      "ts": "2026-05-20T04:29:03.031Z"
+    },
+    {
+      "match_id": "KlZngRFO",
+      "mandante": "Deportivo Madryn",
+      "visitante": "San Martin T.",
+      "campos": 15,
+      "ts": "2026-05-20T04:29:31.777Z"
+    },
+    {
+      "match_id": "O4U3gzA7",
+      "mandante": "Deportivo Madryn",
+      "visitante": "CA Estudiantes",
+      "campos": 14,
+      "ts": "2026-05-20T04:30:01.774Z"
+    },
+    {
+      "match_id": "rmlAigNM",
+      "mandante": "All Boys",
+      "visitante": "Deportivo Madryn",
+      "campos": 14,
+      "ts": "2026-05-20T04:30:32.530Z"
+    },
+    {
+      "match_id": "YDxukFJE",
+      "mandante": "Los Andes",
+      "visitante": "Chaco For Ever",
+      "campos": 14,
+      "ts": "2026-05-20T04:31:03.170Z"
+    },
+    {
+      "match_id": "Mij1fAef",
+      "mandante": "Acassuso",
+      "visitante": "Los Andes",
+      "campos": 15,
+      "ts": "2026-05-20T04:31:33.005Z"
+    },
+    {
+      "match_id": "nPhU54aU",
+      "mandante": "Los Andes",
+      "visitante": "Temperley",
+      "campos": 13,
+      "ts": "2026-05-20T04:32:04.592Z"
+    },
+    {
+      "match_id": "dxBfcIAr",
+      "mandante": "Ferro",
+      "visitante": "Los Andes",
+      "campos": 13,
+      "ts": "2026-05-20T04:32:33.709Z"
+    },
+    {
+      "match_id": "SKPtnXpp",
+      "mandante": "Los Andes",
+      "visitante": "Central Norte",
+      "campos": 14,
+      "ts": "2026-05-20T04:33:03.617Z"
+    },
+    {
+      "match_id": "pzeh19ke",
+      "mandante": "Ciudad Bolivar",
+      "visitante": "Los Andes",
+      "campos": 15,
+      "ts": "2026-05-20T04:33:34.642Z"
+    },
+    {
+      "match_id": "O4Mnbqwn",
+      "mandante": "Los Andes",
+      "visitante": "Almirante Brown",
+      "campos": 14,
+      "ts": "2026-05-20T04:34:05.336Z"
+    },
+    {
+      "match_id": "QqLUY2TG",
+      "mandante": "Colegiales",
+      "visitante": "San Miguel",
+      "campos": 14,
+      "ts": "2026-05-20T04:34:35.717Z"
+    },
+    {
+      "match_id": "GIkLrJek",
+      "mandante": "San Miguel",
+      "visitante": "Racing Cordoba",
+      "campos": 14,
+      "ts": "2026-05-20T04:35:04.421Z"
+    },
+    {
+      "match_id": "n3akluYR",
+      "mandante": "San Miguel",
+      "visitante": "San Telmo",
+      "campos": 14,
+      "ts": "2026-05-20T04:35:34.917Z"
+    },
+    {
+      "match_id": "nTSHQPI6",
+      "mandante": "San Miguel",
+      "visitante": "Chaco For Ever",
+      "campos": 14,
+      "ts": "2026-05-20T04:36:04.628Z"
+    },
+    {
+      "match_id": "KIhRnAz2",
+      "mandante": "Ferro",
+      "visitante": "San Miguel",
+      "campos": 14,
+      "ts": "2026-05-20T04:36:34.545Z"
+    },
+    {
+      "match_id": "bogrmJUp",
+      "mandante": "San Miguel",
+      "visitante": "Central Norte",
+      "campos": 12,
+      "ts": "2026-05-20T04:37:03.943Z"
+    },
+    {
+      "match_id": "WMsdkODc",
+      "mandante": "Racing Cordoba",
+      "visitante": "Ciudad Bolivar",
+      "campos": 14,
+      "ts": "2026-05-20T04:37:33.522Z"
+    },
+    {
+      "match_id": "EBfM7QUH",
+      "mandante": "San Martin S.J.",
+      "visitante": "Racing Cordoba",
+      "campos": 14,
+      "ts": "2026-05-20T04:38:03.428Z"
+    },
+    {
+      "match_id": "n147XXVj",
+      "mandante": "Racing Cordoba",
+      "visitante": "Almirante Brown",
+      "campos": 14,
+      "ts": "2026-05-20T04:38:31.785Z"
+    },
+    {
+      "match_id": "SfUeLUtR",
+      "mandante": "Racing Cordoba",
+      "visitante": "CA Mitre",
+      "campos": 16,
+      "ts": "2026-05-20T04:39:01.459Z"
+    },
+    {
+      "match_id": "h4xo7vMG",
+      "mandante": "Acassuso",
+      "visitante": "Racing Cordoba",
+      "campos": 13,
+      "ts": "2026-05-20T04:39:31.484Z"
+    },
+    {
+      "match_id": "CQhUu2NH",
+      "mandante": "Racing Cordoba",
+      "visitante": "CA Estudiantes",
+      "campos": 14,
+      "ts": "2026-05-20T04:40:01.232Z"
+    },
+    {
+      "match_id": "h2FeMPqB",
+      "mandante": "Ciudad Bolivar",
+      "visitante": "Agropecuario",
+      "campos": 14,
+      "ts": "2026-05-20T04:40:31.829Z"
+    },
+    {
+      "match_id": "AaZNbVom",
+      "mandante": "Ciudad Bolivar",
+      "visitante": "Almirante Brown",
+      "campos": 14,
+      "ts": "2026-05-20T04:41:00.342Z"
+    },
+    {
+      "match_id": "veigeyOc",
+      "mandante": "CA Mitre",
+      "visitante": "Ciudad Bolivar",
+      "campos": 14,
+      "ts": "2026-05-20T04:41:29.699Z"
+    },
+    {
+      "match_id": "Kh9zEnZ0",
+      "mandante": "All Boys",
+      "visitante": "Ciudad Bolivar",
+      "campos": 16,
+      "ts": "2026-05-20T04:41:57.743Z"
+    },
+    {
+      "match_id": "reMQO3mJ",
+      "mandante": "San Telmo",
+      "visitante": "Acassuso",
+      "campos": 14,
+      "ts": "2026-05-20T04:42:27.190Z"
+    },
+    {
+      "match_id": "SGkgRBR7",
+      "mandante": "All Boys",
+      "visitante": "Ferro",
+      "campos": 15,
+      "ts": "2026-05-20T04:42:58.048Z"
+    },
+    {
+      "match_id": "Is09RKLj",
+      "mandante": "Midland",
+      "visitante": "Acassuso",
+      "campos": 16,
+      "ts": "2026-05-20T04:43:26.357Z"
+    },
+    {
+      "match_id": "E74AjSfJ",
+      "mandante": "Ferro",
+      "visitante": "CA Estudiantes",
+      "campos": 14,
+      "ts": "2026-05-20T04:43:56.603Z"
+    },
+    {
+      "match_id": "OMuvemoC",
+      "mandante": "Atletico Atlanta",
+      "visitante": "Ferro",
+      "campos": 13,
+      "ts": "2026-05-20T04:44:26.487Z"
+    },
+    {
+      "match_id": "jutUAMMi",
+      "mandante": "San Telmo",
+      "visitante": "Ferro",
+      "campos": 14,
+      "ts": "2026-05-20T04:44:56.558Z"
+    },
+    {
+      "match_id": "n7Zx90i4",
+      "mandante": "Acassuso",
+      "visitante": "Chaco For Ever",
+      "campos": 16,
+      "ts": "2026-05-20T04:45:25.702Z"
+    },
+    {
+      "match_id": "f5l9hlQ6",
+      "mandante": "Chaco For Ever",
+      "visitante": "All Boys",
+      "campos": 14,
+      "ts": "2026-05-20T04:45:55.130Z"
+    },
+    {
+      "match_id": "j9sWd9Ga",
+      "mandante": "Nueva Chicago",
+      "visitante": "All Boys",
+      "campos": 14,
+      "ts": "2026-05-20T04:46:25.014Z"
+    },
+    {
+      "match_id": "GvReedue",
+      "mandante": "Central Norte",
+      "visitante": "All Boys",
+      "campos": 14,
+      "ts": "2026-05-20T04:46:53.775Z"
+    },
+    {
+      "match_id": "6kq1amK7",
+      "mandante": "Almirante Brown",
+      "visitante": "All Boys",
+      "campos": 14,
+      "ts": "2026-05-20T04:47:23.801Z"
+    },
+    {
+      "match_id": "pvixvthU",
+      "mandante": "All Boys",
+      "visitante": "CA Mitre",
+      "campos": 14,
+      "ts": "2026-05-20T04:47:53.259Z"
+    },
+    {
+      "match_id": "611pTXde",
+      "mandante": "CA Estudiantes",
+      "visitante": "Central Norte",
+      "campos": 14,
+      "ts": "2026-05-20T04:48:23.741Z"
+    },
+    {
+      "match_id": "tEddEVnQ",
+      "mandante": "Central Norte",
+      "visitante": "CA Mitre",
+      "campos": 13,
+      "ts": "2026-05-20T04:48:52.525Z"
+    },
+    {
+      "match_id": "KCazFsxo",
+      "mandante": "Gimnasia y Tiro",
+      "visitante": "Central Norte",
+      "campos": 15,
+      "ts": "2026-05-20T04:49:21.924Z"
+    },
+    {
+      "match_id": "Iq1D9n05",
+      "mandante": "Chacarita Juniors",
+      "visitante": "CA Estudiantes",
+      "campos": 14,
+      "ts": "2026-05-20T04:49:50.723Z"
+    },
+    {
+      "match_id": "OQFRF84l",
+      "mandante": "CA Estudiantes",
+      "visitante": "Almirante Brown",
+      "campos": 15,
+      "ts": "2026-05-20T04:50:20.118Z"
+    },
+    {
+      "match_id": "QkOvQ7pn",
+      "mandante": "Club A. Guemes",
+      "visitante": "CA Mitre",
+      "campos": 14,
+      "ts": "2026-05-20T04:50:48.853Z"
+    },
+    {
+      "match_id": "IJHMzPb4",
+      "mandante": "San Telmo",
+      "visitante": "Quilmes",
+      "campos": 14,
+      "ts": "2026-05-20T04:51:18.158Z"
+    },
+    {
+      "match_id": "ChkJlW5k",
+      "mandante": "Chaco For Ever",
+      "visitante": "San Telmo",
+      "campos": 14,
+      "ts": "2026-05-20T04:51:46.297Z"
+    },
+    {
+      "match_id": "WnRnOoFb",
+      "mandante": "Almirante Brown",
+      "visitante": "Tristan Suarez",
+      "campos": 14,
+      "ts": "2026-05-20T04:52:14.627Z"
+    },
+    {
+      "match_id": "ADEdDU0t",
+      "mandante": "Chaco For Ever",
+      "visitante": "Gimnasia Jujuy",
+      "campos": 14,
+      "ts": "2026-05-20T04:52:43.540Z"
+    },
+    {
+      "match_id": "SQpOJJA6",
+      "mandante": "Gimnasia Jujuy",
+      "visitante": "Quilmes",
+      "campos": 14,
+      "ts": "2026-05-20T04:53:14.199Z"
+    },
+    {
+      "match_id": "8p6cYIPa",
+      "mandante": "San Martin T.",
+      "visitante": "Deportivo Maipu",
+      "campos": 14,
+      "ts": "2026-05-20T04:53:44.421Z"
+    },
+    {
+      "match_id": "YNaSVvMi",
+      "mandante": "San Martin T.",
+      "visitante": "Chacarita Juniors",
+      "campos": 14,
+      "ts": "2026-05-20T04:54:13.990Z"
+    },
+    {
+      "match_id": "h6ZYBpVI",
+      "mandante": "Gimnasia Jujuy",
+      "visitante": "Patronato",
+      "campos": 15,
+      "ts": "2026-05-20T04:54:43.392Z"
+    },
+    {
+      "match_id": "8tW9Dc6N",
+      "mandante": "Atletico Atlanta",
+      "visitante": "Nueva Chicago",
+      "campos": 14,
+      "ts": "2026-05-20T04:55:13.295Z"
+    },
+    {
+      "match_id": "fB9jQzjT",
+      "mandante": "Agropecuario",
+      "visitante": "Gimnasia Jujuy",
+      "campos": 14,
+      "ts": "2026-05-20T04:55:43.386Z"
+    },
+    {
+      "match_id": "AqL5QOSE",
+      "mandante": "Tristan Suarez",
+      "visitante": "Gimnasia Jujuy",
+      "campos": 15,
+      "ts": "2026-05-20T04:56:13.519Z"
+    },
+    {
+      "match_id": "U5ykanUF",
+      "mandante": "Gimnasia Jujuy",
+      "visitante": "Colegiales",
+      "campos": 14,
+      "ts": "2026-05-20T04:56:43.684Z"
+    },
+    {
+      "match_id": "vo8C5Tkd",
+      "mandante": "Chacarita Juniors",
+      "visitante": "Gimnasia Jujuy",
+      "campos": 14,
+      "ts": "2026-05-20T04:57:12.638Z"
+    },
+    {
+      "match_id": "Wxbz4GEi",
+      "mandante": "Gimnasia Jujuy",
+      "visitante": "Midland",
+      "campos": 13,
+      "ts": "2026-05-20T04:57:42.599Z"
+    },
+    {
+      "match_id": "hjmNlvAt",
+      "mandante": "Tristan Suarez",
+      "visitante": "San Martin S.J.",
+      "campos": 13,
+      "ts": "2026-05-20T04:58:12.563Z"
+    },
+    {
+      "match_id": "23iqSdLG",
+      "mandante": "Agropecuario",
+      "visitante": "Tristan Suarez",
+      "campos": 14,
+      "ts": "2026-05-20T04:58:41.154Z"
+    },
+    {
+      "match_id": "p6TJ2Lz8",
+      "mandante": "Tristan Suarez",
+      "visitante": "Club A. Guemes",
+      "campos": 14,
+      "ts": "2026-05-20T04:59:11.629Z"
+    },
+    {
+      "match_id": "S6l7RACF",
+      "mandante": "Nueva Chicago",
+      "visitante": "Tristan Suarez",
+      "campos": 16,
+      "ts": "2026-05-20T04:59:42.361Z"
+    },
+    {
+      "match_id": "fuBQEXS9",
+      "mandante": "Tristan Suarez",
+      "visitante": "Temperley",
+      "campos": 14,
+      "ts": "2026-05-20T05:00:10.465Z"
+    },
+    {
+      "match_id": "nRs1FJyB",
+      "mandante": "Midland",
+      "visitante": "Temperley",
+      "campos": 15,
+      "ts": "2026-05-20T05:00:40.947Z"
+    },
+    {
+      "match_id": "QFycXicd",
+      "mandante": "Temperley",
+      "visitante": "Quilmes",
+      "campos": 14,
+      "ts": "2026-05-20T05:01:10.366Z"
+    },
+    {
+      "match_id": "6kw9rI5c",
+      "mandante": "Club A. Guemes",
+      "visitante": "San Martin T.",
+      "campos": 14,
+      "ts": "2026-05-20T05:01:40.411Z"
+    },
+    {
+      "match_id": "b9ggHKk1",
+      "mandante": "San Martin S.J.",
+      "visitante": "San Martin T.",
+      "campos": 14,
+      "ts": "2026-05-20T05:02:10.388Z"
+    },
+    {
+      "match_id": "dteWBPDL",
+      "mandante": "San Martin T.",
+      "visitante": "Nueva Chicago",
+      "campos": 14,
+      "ts": "2026-05-20T05:02:39.804Z"
+    },
+    {
+      "match_id": "ENKl5KeD",
+      "mandante": "Almagro",
+      "visitante": "San Martin T.",
+      "campos": 15,
+      "ts": "2026-05-20T05:03:10.185Z"
+    },
+    {
+      "match_id": "8rgabCrT",
+      "mandante": "San Martin T.",
+      "visitante": "Patronato",
+      "campos": 14,
+      "ts": "2026-05-20T05:03:40.339Z"
+    },
+    {
+      "match_id": "WMi1FbKD",
+      "mandante": "Nueva Chicago",
+      "visitante": "Gimnasia y Tiro",
+      "campos": 14,
+      "ts": "2026-05-20T05:04:10.842Z"
+    },
+    {
+      "match_id": "xvDDUzPO",
+      "mandante": "Agropecuario",
+      "visitante": "Nueva Chicago",
+      "campos": 14,
+      "ts": "2026-05-20T05:04:41.010Z"
+    },
+    {
+      "match_id": "Sh9YCBcM",
+      "mandante": "Club A. Guemes",
+      "visitante": "Nueva Chicago",
+      "campos": 13,
+      "ts": "2026-05-20T05:05:10.844Z"
+    },
+    {
+      "match_id": "bqbwNAwK",
+      "mandante": "Temperley",
+      "visitante": "Atletico Atlanta",
+      "campos": 14,
+      "ts": "2026-05-20T05:05:39.846Z"
+    },
+    {
+      "match_id": "APdODoq9",
+      "mandante": "Gimnasia y Tiro",
+      "visitante": "Temperley",
+      "campos": 13,
+      "ts": "2026-05-20T05:06:09.815Z"
+    },
+    {
+      "match_id": "tCJ4WdfC",
+      "mandante": "Atl. Rafaela",
+      "visitante": "Temperley",
+      "campos": 14,
+      "ts": "2026-05-20T05:06:39.187Z"
+    },
+    {
+      "match_id": "M76u92dl",
+      "mandante": "Temperley",
+      "visitante": "Agropecuario",
+      "campos": 14,
+      "ts": "2026-05-20T05:07:08.582Z"
+    },
+    {
+      "match_id": "URl9Hl1s",
+      "mandante": "Deportivo Maipu",
+      "visitante": "Midland",
+      "campos": 13,
+      "ts": "2026-05-20T05:07:38.147Z"
+    },
+    {
+      "match_id": "M3GTi4Mk",
+      "mandante": "Midland",
+      "visitante": "Almagro",
+      "campos": 14,
+      "ts": "2026-05-20T05:08:08.398Z"
+    },
+    {
+      "match_id": "0vqWHcuJ",
+      "mandante": "Midland",
+      "visitante": "Colegiales",
+      "campos": 14,
+      "ts": "2026-05-20T05:08:37.578Z"
+    },
+    {
+      "match_id": "YRiFLutf",
+      "mandante": "Quilmes",
+      "visitante": "Midland",
+      "campos": 13,
+      "ts": "2026-05-20T05:09:07.365Z"
+    },
+    {
+      "match_id": "v1vgHu7b",
+      "mandante": "Quilmes",
+      "visitante": "Deportivo Maipu",
+      "campos": 13,
+      "ts": "2026-05-20T05:09:36.521Z"
+    },
+    {
+      "match_id": "jswIFSVg",
+      "mandante": "Almagro",
+      "visitante": "Quilmes",
+      "campos": 14,
+      "ts": "2026-05-20T05:10:06.467Z"
+    },
+    {
+      "match_id": "2JZdcQbS",
+      "mandante": "Quilmes",
+      "visitante": "Patronato",
+      "campos": 14,
+      "ts": "2026-05-20T05:10:35.978Z"
+    },
+    {
+      "match_id": "4jdr2fq4",
+      "mandante": "Atletico Atlanta",
+      "visitante": "Quilmes",
+      "campos": 14,
+      "ts": "2026-05-20T05:11:04.696Z"
+    },
+    {
+      "match_id": "6ybzUIj4",
+      "mandante": "Atl. Rafaela",
+      "visitante": "Club A. Guemes",
+      "campos": 14,
+      "ts": "2026-05-20T05:11:34.157Z"
+    },
+    {
+      "match_id": "2s0pJtLl",
+      "mandante": "Chacarita Juniors",
+      "visitante": "Atl. Rafaela",
+      "campos": 14,
+      "ts": "2026-05-20T05:12:04.385Z"
+    },
+    {
+      "match_id": "GQy363yq",
+      "mandante": "Atl. Rafaela",
+      "visitante": "San Martin S.J.",
+      "campos": 14,
+      "ts": "2026-05-20T05:12:34.257Z"
+    },
+    {
+      "match_id": "fL4m7tR0",
+      "mandante": "Deportivo Maipu",
+      "visitante": "Atl. Rafaela",
+      "campos": 16,
+      "ts": "2026-05-20T05:13:05.277Z"
+    },
+    {
+      "match_id": "hGUVhj6j",
+      "mandante": "Atl. Rafaela",
+      "visitante": "Almagro",
+      "campos": 14,
+      "ts": "2026-05-20T05:13:34.629Z"
+    },
+    {
+      "match_id": "lItWnIvg",
+      "mandante": "Club A. Guemes",
+      "visitante": "Chacarita Juniors",
+      "campos": 14,
+      "ts": "2026-05-20T05:14:03.994Z"
+    },
+    {
+      "match_id": "IFHu8yUp",
+      "mandante": "Gimnasia y Tiro",
+      "visitante": "San Martin S.J.",
+      "campos": 14,
+      "ts": "2026-05-20T05:14:34.537Z"
+    },
+    {
+      "match_id": "rZppJ1xn",
+      "mandante": "Colegiales",
+      "visitante": "Almagro",
+      "campos": 15,
+      "ts": "2026-05-20T05:15:03.443Z"
+    },
+    {
+      "match_id": "EyIigZJF",
+      "mandante": "Almagro",
+      "visitante": "Patronato",
+      "campos": 15,
+      "ts": "2026-05-20T05:15:33.573Z"
+    },
+    {
+      "match_id": "2HWHtdzA",
+      "mandante": "Chacarita Juniors",
+      "visitante": "Gimnasia y Tiro",
+      "campos": 14,
+      "ts": "2026-05-20T05:16:03.667Z"
+    },
+    {
+      "match_id": "nVHlzuem",
+      "mandante": "Gimnasia y Tiro",
+      "visitante": "Almagro",
+      "campos": 13,
+      "ts": "2026-05-20T05:16:32.541Z"
+    },
+    {
+      "match_id": "tUCzTNmK",
+      "mandante": "Patronato",
+      "visitante": "Gimnasia y Tiro",
+      "campos": 14,
+      "ts": "2026-05-20T05:17:02.437Z"
+    },
+    {
+      "match_id": "0Iki0YDG",
+      "mandante": "Gimnasia y Tiro",
+      "visitante": "Colegiales",
+      "campos": 14,
+      "ts": "2026-05-20T05:17:32.053Z"
+    },
+    {
+      "match_id": "Wb9EO2cR",
+      "mandante": "Club A. Guemes",
+      "visitante": "Agropecuario",
+      "campos": 14,
+      "ts": "2026-05-20T05:18:01.002Z"
+    },
+    {
+      "match_id": "KtoaTWs3",
+      "mandante": "San Martin S.J.",
+      "visitante": "Club A. Guemes",
+      "campos": 14,
+      "ts": "2026-05-20T05:18:30.056Z"
+    },
+    {
+      "match_id": "lvzB4s6e",
+      "mandante": "Agropecuario",
+      "visitante": "Chacarita Juniors",
+      "campos": 14,
+      "ts": "2026-05-20T05:18:58.865Z"
+    },
+    {
+      "match_id": "nwj57kLq",
+      "mandante": "Chacarita Juniors",
+      "visitante": "San Martin S.J.",
+      "campos": 14,
+      "ts": "2026-05-20T05:19:28.299Z"
+    },
+    {
+      "match_id": "bDHHGgbc",
+      "mandante": "Agropecuario",
+      "visitante": "Deportivo Maipu",
+      "campos": 14,
+      "ts": "2026-05-20T05:19:59.335Z"
+    },
+    {
+      "match_id": "b7tQD606",
+      "mandante": "Patronato",
+      "visitante": "Colegiales",
+      "campos": 14,
+      "ts": "2026-05-20T05:20:29.142Z"
+    },
+    {
+      "match_id": "GnRIu1XP",
+      "mandante": "Atletico Atlanta",
+      "visitante": "Patronato",
+      "campos": 14,
+      "ts": "2026-05-20T05:20:59.064Z"
+    },
+    {
+      "match_id": "UTJyjri2",
+      "mandante": "Atletico Atlanta",
+      "visitante": "Deportivo Maipu",
+      "campos": 13,
+      "ts": "2026-05-20T05:21:30.053Z"
+    },
+    {
+      "match_id": "Q1l7N1Bs",
+      "mandante": "Colegiales",
+      "visitante": "Atletico Atlanta",
+      "campos": 14,
+      "ts": "2026-05-20T05:21:58.818Z"
+    },
+    {
+      "match_id": "6BEqeek3",
+      "mandante": "Deportivo Maipu",
+      "visitante": "Colegiales",
+      "campos": 13,
+      "ts": "2026-05-20T05:22:27.925Z"
+    },
+    {
+      "match_id": "IkYlZDSq",
+      "mandante": "Nueva Chicago",
+      "visitante": "Midland",
+      "campos": 14,
+      "ts": "2026-05-20T05:22:57.195Z"
+    }
+  ],
+  "falhados": [
+    {
+      "match_id": "YeymNjCE",
+      "mandante": "CA Mitre",
+      "visitante": "CA Estudiantes",
+      "erro": "Cantos FT não extraídos",
+      "ts": "2026-05-20T05:24:25.018Z"
+    }
+  ]
+}

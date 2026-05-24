@@ -1,3 +1,4 @@
+// MLS 2026 - Rodadas 1-7 (104 jogos)
 window.DADOS_MLS = {
   "times": [
     "San Diego FC",
@@ -65,6 +66,11 @@ window.DADOS_MLS = {
           "m": 7,
           "v": 11
         }
+      },
+      "rodada": 1,
+      "placar": {
+        "m": 5,
+        "v": 0
       }
     },
     {
@@ -100,7 +106,8 @@ window.DADOS_MLS = {
           "m": 5,
           "v": 13
         }
-      }
+      },
+      "rodada": 1
     },
     {
       "id": "bwu5F5yP",
@@ -135,7 +142,8 @@ window.DADOS_MLS = {
           "m": 4,
           "v": 6
         }
-      }
+      },
+      "rodada": 1
     },
     {
       "id": "fgQqSCeB",
@@ -170,7 +178,8 @@ window.DADOS_MLS = {
           "m": 8,
           "v": 10
         }
-      }
+      },
+      "rodada": 1
     },
     {
       "id": "xOjdHR6C",
@@ -205,7 +214,8 @@ window.DADOS_MLS = {
           "m": 7,
           "v": 7
         }
-      }
+      },
+      "rodada": 1
     },
     {
       "id": "MuSyUYQb",
@@ -240,6 +250,11 @@ window.DADOS_MLS = {
           "m": 5,
           "v": 0
         }
+      },
+      "rodada": 1,
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -275,6 +290,11 @@ window.DADOS_MLS = {
           "m": 7,
           "v": 6
         }
+      },
+      "rodada": 1,
+      "placar": {
+        "m": 0,
+        "v": 0
       }
     },
     {
@@ -310,6 +330,11 @@ window.DADOS_MLS = {
           "m": 10,
           "v": 5
         }
+      },
+      "rodada": 1,
+      "placar": {
+        "m": 4,
+        "v": 3
       }
     },
     {
@@ -345,6 +370,11 @@ window.DADOS_MLS = {
           "m": 3,
           "v": 9
         }
+      },
+      "rodada": 1,
+      "placar": {
+        "m": 1,
+        "v": 4
       }
     },
     {
@@ -380,6 +410,11 @@ window.DADOS_MLS = {
           "m": 5,
           "v": 4
         }
+      },
+      "rodada": 1,
+      "placar": {
+        "m": 3,
+        "v": 1
       }
     },
     {
@@ -415,6 +450,11 @@ window.DADOS_MLS = {
           "m": 3,
           "v": 3
         }
+      },
+      "rodada": 1,
+      "placar": {
+        "m": 0,
+        "v": 0
       }
     },
     {
@@ -450,6 +490,11 @@ window.DADOS_MLS = {
           "m": 10,
           "v": 13
         }
+      },
+      "rodada": 1,
+      "placar": {
+        "m": 6,
+        "v": 1
       }
     },
     {
@@ -485,6 +530,11 @@ window.DADOS_MLS = {
           "m": 9,
           "v": 7
         }
+      },
+      "rodada": 1,
+      "placar": {
+        "m": 5,
+        "v": 0
       }
     },
     {
@@ -520,6 +570,11 @@ window.DADOS_MLS = {
           "m": 7,
           "v": 6
         }
+      },
+      "rodada": 1,
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -555,6 +610,11 @@ window.DADOS_MLS = {
           "m": 5,
           "v": 7
         }
+      },
+      "rodada": 1,
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -590,6 +650,11 @@ window.DADOS_MLS = {
           "m": 14,
           "v": 2
         }
+      },
+      "rodada": 2,
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -625,6 +690,11 @@ window.DADOS_MLS = {
           "m": 7,
           "v": 4
         }
+      },
+      "rodada": 2,
+      "placar": {
+        "m": 6,
+        "v": 0
       }
     },
     {
@@ -660,6 +730,11 @@ window.DADOS_MLS = {
           "m": 9,
           "v": 10
         }
+      },
+      "rodada": 2,
+      "placar": {
+        "m": 6,
+        "v": 1
       }
     },
     {
@@ -695,6 +770,11 @@ window.DADOS_MLS = {
           "m": 11,
           "v": 11
         }
+      },
+      "rodada": 2,
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -730,6 +810,11 @@ window.DADOS_MLS = {
           "m": 11,
           "v": 2
         }
+      },
+      "rodada": 2,
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -765,6 +850,11 @@ window.DADOS_MLS = {
           "m": 15,
           "v": 4
         }
+      },
+      "rodada": 2,
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -800,6 +890,11 @@ window.DADOS_MLS = {
           "m": 8,
           "v": 4
         }
+      },
+      "rodada": 2,
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -835,6 +930,11 @@ window.DADOS_MLS = {
           "m": 6,
           "v": 3
         }
+      },
+      "rodada": 2,
+      "placar": {
+        "m": 3,
+        "v": 3
       }
     },
     {
@@ -870,6 +970,11 @@ window.DADOS_MLS = {
           "m": 14,
           "v": 10
         }
+      },
+      "rodada": 2,
+      "placar": {
+        "m": 3,
+        "v": 2
       }
     },
     {
@@ -905,6 +1010,11 @@ window.DADOS_MLS = {
           "m": 5,
           "v": 3
         }
+      },
+      "rodada": 2,
+      "placar": {
+        "m": 0,
+        "v": 0
       }
     },
     {
@@ -940,6 +1050,11 @@ window.DADOS_MLS = {
           "m": 5,
           "v": 5
         }
+      },
+      "rodada": 2,
+      "placar": {
+        "m": 3,
+        "v": 1
       }
     },
     {
@@ -975,6 +1090,11 @@ window.DADOS_MLS = {
           "m": 7,
           "v": 13
         }
+      },
+      "rodada": 2,
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -1010,6 +1130,11 @@ window.DADOS_MLS = {
           "m": 5,
           "v": 4
         }
+      },
+      "rodada": 2,
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -1045,6 +1170,11 @@ window.DADOS_MLS = {
           "m": 4,
           "v": 9
         }
+      },
+      "rodada": 2,
+      "placar": {
+        "m": 3,
+        "v": 1
       }
     },
     {
@@ -1080,6 +1210,11 @@ window.DADOS_MLS = {
           "m": 8,
           "v": 10
         }
+      },
+      "rodada": 2,
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -1115,6 +1250,11 @@ window.DADOS_MLS = {
           "m": 9,
           "v": 5
         }
+      },
+      "rodada": 3,
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -1150,6 +1290,11 @@ window.DADOS_MLS = {
           "m": 9,
           "v": 4
         }
+      },
+      "rodada": 3,
+      "placar": {
+        "m": 0,
+        "v": 3
       }
     },
     {
@@ -1185,6 +1330,11 @@ window.DADOS_MLS = {
           "m": 4,
           "v": 9
         }
+      },
+      "rodada": 3,
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -1220,6 +1370,11 @@ window.DADOS_MLS = {
           "m": 4,
           "v": 10
         }
+      },
+      "rodada": 3,
+      "placar": {
+        "m": 1,
+        "v": 4
       }
     },
     {
@@ -1255,6 +1410,11 @@ window.DADOS_MLS = {
           "m": 7,
           "v": 12
         }
+      },
+      "rodada": 3,
+      "placar": {
+        "m": 4,
+        "v": 1
       }
     },
     {
@@ -1290,6 +1450,11 @@ window.DADOS_MLS = {
           "m": 4,
           "v": 10
         }
+      },
+      "rodada": 3,
+      "placar": {
+        "m": 3,
+        "v": 1
       }
     },
     {
@@ -1325,6 +1490,11 @@ window.DADOS_MLS = {
           "m": 2,
           "v": 10
         }
+      },
+      "rodada": 3,
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -1360,6 +1530,11 @@ window.DADOS_MLS = {
           "m": 4,
           "v": 6
         }
+      },
+      "rodada": 3,
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -1395,6 +1570,11 @@ window.DADOS_MLS = {
           "m": 8,
           "v": 3
         }
+      },
+      "rodada": 3,
+      "placar": {
+        "m": 2,
+        "v": 3
       }
     },
     {
@@ -1430,6 +1610,11 @@ window.DADOS_MLS = {
           "m": 18,
           "v": 0
         }
+      },
+      "rodada": 3,
+      "placar": {
+        "m": 3,
+        "v": 1
       }
     },
     {
@@ -1465,6 +1650,11 @@ window.DADOS_MLS = {
           "m": 7,
           "v": 7
         }
+      },
+      "rodada": 3,
+      "placar": {
+        "m": 0,
+        "v": 0
       }
     },
     {
@@ -1500,6 +1690,11 @@ window.DADOS_MLS = {
           "m": 8,
           "v": 4
         }
+      },
+      "rodada": 3,
+      "placar": {
+        "m": 0,
+        "v": 1
       }
     },
     {
@@ -1535,6 +1730,11 @@ window.DADOS_MLS = {
           "m": 9,
           "v": 2
         }
+      },
+      "rodada": 3,
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -1570,6 +1770,11 @@ window.DADOS_MLS = {
           "m": 3,
           "v": 3
         }
+      },
+      "rodada": 3,
+      "placar": {
+        "m": 5,
+        "v": 0
       }
     },
     {
@@ -1605,6 +1810,11 @@ window.DADOS_MLS = {
           "m": 5,
           "v": 4
         }
+      },
+      "rodada": 4,
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -1640,6 +1850,11 @@ window.DADOS_MLS = {
           "m": 7,
           "v": 7
         }
+      },
+      "rodada": 4,
+      "placar": {
+        "m": 2,
+        "v": 4
       }
     },
     {
@@ -1675,6 +1890,11 @@ window.DADOS_MLS = {
           "m": 10,
           "v": 6
         }
+      },
+      "rodada": 4,
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -1710,6 +1930,11 @@ window.DADOS_MLS = {
           "m": 9,
           "v": 3
         }
+      },
+      "rodada": 4,
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -1745,6 +1970,11 @@ window.DADOS_MLS = {
           "m": 5,
           "v": 1
         }
+      },
+      "rodada": 4,
+      "placar": {
+        "m": 3,
+        "v": 0
       }
     },
     {
@@ -1780,6 +2010,11 @@ window.DADOS_MLS = {
           "m": 3,
           "v": 5
         }
+      },
+      "rodada": 4,
+      "placar": {
+        "m": 3,
+        "v": 0
       }
     },
     {
@@ -1815,6 +2050,11 @@ window.DADOS_MLS = {
           "m": 5,
           "v": 4
         }
+      },
+      "rodada": 4,
+      "placar": {
+        "m": 0,
+        "v": 0
       }
     },
     {
@@ -1850,6 +2090,11 @@ window.DADOS_MLS = {
           "m": 6,
           "v": 9
         }
+      },
+      "rodada": 4,
+      "placar": {
+        "m": 0,
+        "v": 2
       }
     },
     {
@@ -1885,6 +2130,11 @@ window.DADOS_MLS = {
           "m": 4,
           "v": 6
         }
+      },
+      "rodada": 4,
+      "placar": {
+        "m": 2,
+        "v": 2
       }
     },
     {
@@ -1920,6 +2170,11 @@ window.DADOS_MLS = {
           "m": 12,
           "v": 7
         }
+      },
+      "rodada": 4,
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -1955,6 +2210,11 @@ window.DADOS_MLS = {
           "m": 4,
           "v": 5
         }
+      },
+      "rodada": 4,
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -1990,6 +2250,11 @@ window.DADOS_MLS = {
           "m": 13,
           "v": 7
         }
+      },
+      "rodada": 4,
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -2025,6 +2290,11 @@ window.DADOS_MLS = {
           "m": 8,
           "v": 5
         }
+      },
+      "rodada": 4,
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -2060,6 +2330,11 @@ window.DADOS_MLS = {
           "m": 11,
           "v": 3
         }
+      },
+      "rodada": 4,
+      "placar": {
+        "m": 3,
+        "v": 0
       }
     },
     {
@@ -2095,6 +2370,11 @@ window.DADOS_MLS = {
           "m": 6,
           "v": 4
         }
+      },
+      "rodada": 4,
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -2130,6 +2410,11 @@ window.DADOS_MLS = {
           "m": 8,
           "v": 6
         }
+      },
+      "rodada": 5,
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -2165,6 +2450,11 @@ window.DADOS_MLS = {
           "m": 2,
           "v": 7
         }
+      },
+      "rodada": 5,
+      "placar": {
+        "m": 1,
+        "v": 1
       }
     },
     {
@@ -2200,6 +2490,11 @@ window.DADOS_MLS = {
           "m": 4,
           "v": 7
         }
+      },
+      "rodada": 5,
+      "placar": {
+        "m": 3,
+        "v": 2
       }
     },
     {
@@ -2235,6 +2530,11 @@ window.DADOS_MLS = {
           "m": 6,
           "v": 2
         }
+      },
+      "rodada": 5,
+      "placar": {
+        "m": 5,
+        "v": 0
       }
     },
     {
@@ -2270,6 +2570,11 @@ window.DADOS_MLS = {
           "m": 7,
           "v": 4
         }
+      },
+      "rodada": 5,
+      "placar": {
+        "m": 3,
+        "v": 0
       }
     },
     {
@@ -2305,6 +2610,11 @@ window.DADOS_MLS = {
           "m": 5,
           "v": 9
         }
+      },
+      "rodada": 5,
+      "placar": {
+        "m": 3,
+        "v": 0
       }
     },
     {
@@ -2340,6 +2650,11 @@ window.DADOS_MLS = {
           "m": 7,
           "v": 6
         }
+      },
+      "rodada": 5,
+      "placar": {
+        "m": 2,
+        "v": 2
       }
     },
     {
@@ -2375,6 +2690,11 @@ window.DADOS_MLS = {
           "m": 7,
           "v": 8
         }
+      },
+      "rodada": 5,
+      "placar": {
+        "m": 3,
+        "v": 2
       }
     },
     {
@@ -2410,6 +2730,11 @@ window.DADOS_MLS = {
           "m": 8,
           "v": 1
         }
+      },
+      "rodada": 5,
+      "placar": {
+        "m": 2,
+        "v": 1
       }
     },
     {
@@ -2445,6 +2770,11 @@ window.DADOS_MLS = {
           "m": 5,
           "v": 2
         }
+      },
+      "rodada": 5,
+      "placar": {
+        "m": 4,
+        "v": 1
       }
     },
     {
@@ -2480,6 +2810,11 @@ window.DADOS_MLS = {
           "m": 4,
           "v": 9
         }
+      },
+      "rodada": 5,
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -2515,6 +2850,11 @@ window.DADOS_MLS = {
           "m": 15,
           "v": 9
         }
+      },
+      "rodada": 5,
+      "placar": {
+        "m": 1,
+        "v": 2
       }
     },
     {
@@ -2550,6 +2890,11 @@ window.DADOS_MLS = {
           "m": 5,
           "v": 4
         }
+      },
+      "rodada": 5,
+      "placar": {
+        "m": 1,
+        "v": 0
       }
     },
     {
@@ -2585,6 +2930,11 @@ window.DADOS_MLS = {
           "m": 6,
           "v": 5
         }
+      },
+      "rodada": 5,
+      "placar": {
+        "m": 2,
+        "v": 0
       }
     },
     {
@@ -2620,8 +2970,1169 @@ window.DADOS_MLS = {
           "m": 12,
           "v": 5
         }
+      },
+      "rodada": 5,
+      "placar": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    {
+      "id": "r7fgiyow",
+      "mandante": "Los Angeles Galaxy",
+      "visitante": "Minnesota United",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 9,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 9
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r7bby3e4",
+      "mandante": "San Jose Earthquakes",
+      "visitante": "San Diego FC",
+      "gols": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 0
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 5
+        },
+        "ft": {
+          "m": 7,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 24,
+          "v": 4
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r7j85e2r",
+      "mandante": "Vancouver Whitecaps",
+      "visitante": "Portland Timbers",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 22,
+          "v": 8
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r7220fr4",
+      "mandante": "Los Angeles FC",
+      "visitante": "Orlando City",
+      "gols": {
+        "ht": {
+          "m": 5,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 0
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 7,
+          "v": 2
+        },
+        "ft": {
+          "m": 8,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 12
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r704qhml",
+      "mandante": "Chicago Fire",
+      "visitante": "Nashville SC",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 10
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r720otup",
+      "mandante": "Houston Dynamo",
+      "visitante": "Seattle Sounders",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 2
+        },
+        "ft": {
+          "m": 9,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 6
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r79orx9u",
+      "mandante": "Atlanta Utd",
+      "visitante": "Columbus Crew",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 4
+        },
+        "ft": {
+          "m": 4,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 16
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r7wq2gcb",
+      "mandante": "Charlotte",
+      "visitante": "Philadelphia Union",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 17
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r7sl0qmn",
+      "mandante": "DC United",
+      "visitante": "FC Dallas",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 0,
+          "v": 4
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 15
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r7601zf5",
+      "mandante": "Inter Miami",
+      "visitante": "Austin FC",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 2
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 7,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 66,
+          "v": 34
+        },
+        "finalizacoes": {
+          "m": 28,
+          "v": 9
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r78vexo6",
+      "mandante": "New York City",
+      "visitante": "St. Louis City",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 2,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 14
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r77axwku",
+      "mandante": "New York Red Bulls",
+      "visitante": "FC Cincinnati",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 2
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 2,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 17
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r7218tgs",
+      "mandante": "New England Revolution",
+      "visitante": "CF Montreal",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 0
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 1,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 35,
+          "v": 65
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 18
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r7lxaoo1",
+      "mandante": "Real Salt Lake",
+      "visitante": "Sporting Kansas City",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 1
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 22,
+          "v": 5
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "r78u4u5r",
+      "mandante": "Toronto FC",
+      "visitante": "Colorado Rapids",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 7,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 5
+        }
+      },
+      "rodada": 6
+    },
+    {
+      "id": "GERgS3xS",
+      "mandante": "Los Angeles Galaxy",
+      "visitante": "Minnesota United",
+      "data": "06/04/2026",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 9,
+          "v": 0
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 9
+        }
+      },
+      "rodada": 7,
+      "placar": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    {
+      "id": "za8QMs0k",
+      "mandante": "San Jose Earthquakes",
+      "visitante": "San Diego FC",
+      "data": "06/04/2026",
+      "gols": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 0
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 5
+        },
+        "ft": {
+          "m": 7,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 24,
+          "v": 4
+        }
+      },
+      "rodada": 7,
+      "placar": {
+        "m": 3,
+        "v": 0
+      }
+    },
+    {
+      "id": "2amBrYuh",
+      "mandante": "Vancouver Whitecaps",
+      "visitante": "Portland Timbers",
+      "data": "06/04/2026",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 2
+        },
+        "ft": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 7,
+          "v": 2
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 22,
+          "v": 8
+        }
+      },
+      "rodada": 7,
+      "placar": {
+        "m": 3,
+        "v": 2
+      }
+    },
+    {
+      "id": "8lOoUP7F",
+      "mandante": "Los Angeles FC",
+      "visitante": "Orlando City",
+      "data": "06/04/2026",
+      "gols": {
+        "ht": {
+          "m": 5,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 0
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 7,
+          "v": 2
+        },
+        "ft": {
+          "m": 8,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 12
+        }
+      },
+      "rodada": 7,
+      "placar": {
+        "m": 6,
+        "v": 0
+      }
+    },
+    {
+      "id": "Meri8rod",
+      "mandante": "Chicago Fire",
+      "visitante": "Nashville SC",
+      "data": "06/04/2026",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 10
+        }
+      },
+      "rodada": 7,
+      "placar": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    {
+      "id": "nZZxWow3",
+      "mandante": "Houston Dynamo",
+      "visitante": "Seattle Sounders",
+      "data": "06/04/2026",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 2
+        },
+        "ft": {
+          "m": 9,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 6
+        }
+      },
+      "rodada": 7,
+      "placar": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    {
+      "id": "Ct5vU4jI",
+      "mandante": "Atlanta Utd",
+      "visitante": "Columbus Crew",
+      "data": "06/04/2026",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 4
+        },
+        "ft": {
+          "m": 4,
+          "v": 8
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 16
+        }
+      },
+      "rodada": 7,
+      "placar": {
+        "m": 1,
+        "v": 3
+      }
+    },
+    {
+      "id": "IuXBBdzi",
+      "mandante": "Charlotte",
+      "visitante": "Philadelphia Union",
+      "data": "06/04/2026",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 4,
+          "v": 1
+        },
+        "ft": {
+          "m": 6,
+          "v": 7
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 17
+        }
+      },
+      "rodada": 7,
+      "placar": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    {
+      "id": "04ddJ8gc",
+      "mandante": "DC United",
+      "visitante": "FC Dallas",
+      "data": "06/04/2026",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 0,
+          "v": 4
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 0
+        },
+        "ft": {
+          "m": 6,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 15
+        }
+      },
+      "rodada": 7,
+      "placar": {
+        "m": 0,
+        "v": 4
+      }
+    },
+    {
+      "id": "YV93HnO9",
+      "mandante": "Inter Miami",
+      "visitante": "Austin FC",
+      "data": "06/04/2026",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 2,
+          "v": 2
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 2,
+          "v": 3
+        },
+        "ft": {
+          "m": 7,
+          "v": 3
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 66,
+          "v": 34
+        },
+        "finalizacoes": {
+          "m": 28,
+          "v": 9
+        }
+      },
+      "rodada": 7,
+      "placar": {
+        "m": 2,
+        "v": 2
+      }
+    },
+    {
+      "id": "Uc3CFQhM",
+      "mandante": "New York City",
+      "visitante": "St. Louis City",
+      "data": "06/04/2026",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 2,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 14
+        }
+      },
+      "rodada": 7,
+      "placar": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    {
+      "id": "QTlrA4Gq",
+      "mandante": "New York Red Bulls",
+      "visitante": "FC Cincinnati",
+      "data": "06/04/2026",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 1
+        },
+        "ft": {
+          "m": 4,
+          "v": 2
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 2,
+          "v": 6
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 17
+        }
+      },
+      "rodada": 7,
+      "placar": {
+        "m": 4,
+        "v": 2
+      }
+    },
+    {
+      "id": "M3AOKUmo",
+      "mandante": "New England Revolution",
+      "visitante": "CF Montreal",
+      "data": "06/04/2026",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 0
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 1,
+          "v": 3
+        },
+        "ft": {
+          "m": 1,
+          "v": 5
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 35,
+          "v": 65
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 18
+        }
+      },
+      "rodada": 7,
+      "placar": {
+        "m": 3,
+        "v": 0
+      }
+    },
+    {
+      "id": "GEBVVQL5",
+      "mandante": "Real Salt Lake",
+      "visitante": "Sporting Kansas City",
+      "data": "06/04/2026",
+      "gols": {
+        "ht": {
+          "m": 1,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 1
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 3,
+          "v": 0
+        },
+        "ft": {
+          "m": 7,
+          "v": 1
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 22,
+          "v": 5
+        }
+      },
+      "rodada": 7,
+      "placar": {
+        "m": 3,
+        "v": 1
+      }
+    },
+    {
+      "id": "jLJhQjQN",
+      "mandante": "Toronto FC",
+      "visitante": "Colorado Rapids",
+      "data": "06/04/2026",
+      "gols": {
+        "ht": {
+          "m": 0,
+          "v": 0
+        },
+        "ft": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "cantos": {
+        "ht": {
+          "m": 0,
+          "v": 2
+        },
+        "ft": {
+          "m": 7,
+          "v": 4
+        }
+      },
+      "stats_taticas": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 5
+        }
+      },
+      "rodada": 7,
+      "placar": {
+        "m": 3,
+        "v": 2
       }
     }
   ],
-  "totalRodadas": 38
+  "totalRodadas": 6,
+  "ultimaAtualizacao": "2026-04-09"
 };

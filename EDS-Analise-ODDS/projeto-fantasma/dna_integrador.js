@@ -16,7 +16,9 @@ const path = require('path');
 const escoteiroDir = path.join(__dirname, '..', 'EDS-ODDS-TEACHER', 'escoteiro');
 const verbose = process.argv.includes('--verbose');
 
-const LIGAS = ['BR', 'MLS', 'ARG', 'USL', 'BUN'];
+const LIGAS = ['BR', 'MLS', 'ARG', 'ARG_B', 'USL', 'BUN',
+               // 7 ligas novas (29-30/04/2026):
+               'BR_B', 'J2', 'J2_J3', 'ARG_M', 'CHN_1', 'CHN_2', 'CHN_SUP'];
 
 // Mapeamento perfil → multiplicador de cantos
 const PERFIL_MULT = {
@@ -37,7 +39,9 @@ const DNA = {};
 let totalTimes = 0;
 
 LIGAS.forEach(liga => {
-  const files = fs.readdirSync(escoteiroDir).filter(f => f.startsWith('escoteiro_' + liga));
+  // Padrão exato: escoteiro_{LIGA}_YYYY-MM-DD.json — evita que ARG case com ARG_B
+  const re = new RegExp('^escoteiro_' + liga + '_\\d{4}-\\d{2}-\\d{2}\\.json$');
+  const files = fs.readdirSync(escoteiroDir).filter(f => re.test(f));
   if (files.length === 0) { console.log(`  ⚠️  ${liga}: sem dados do escoteiro`); return; }
 
   const latest = files.sort().pop();

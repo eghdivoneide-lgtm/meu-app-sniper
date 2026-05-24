@@ -1,0 +1,3052 @@
+[
+  {
+    "url": "https://www.flashscore.com/match/fgQqSCeB/#/match-summary",
+    "match_id": "fgQqSCeB",
+    "data_partida": "22.03.2026 14:00",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "FC Cincinnati",
+    "visitante": "CF Montreal",
+    "placar": {
+      "ht": "1 - 2",
+      "ft": "4 - 3"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 46,
+        "v": 54
+      },
+      "finalizacoes": {
+        "m": 15,
+        "v": 19
+      },
+      "chutes_alvo": {
+        "m": 8,
+        "v": 7
+      },
+      "cantos": {
+        "m": 2,
+        "v": 2
+      },
+      "passes": {
+        "m": "(276/352)",
+        "v": "80%"
+      },
+      "cartoes_amarelos": {
+        "m": 4,
+        "v": 1
+      },
+      "cartoes_vermelhos": {
+        "m": 1,
+        "v": 0
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 2
+      },
+      "faltas": {
+        "m": 20,
+        "v": 11
+      },
+      "defesas_goleiro": {
+        "m": 4,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 9
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 3
+      },
+      "cantos": {
+        "m": 0,
+        "v": 1
+      },
+      "passes": {
+        "m": "(151/198)",
+        "v": "74%"
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 2
+      },
+      "faltas": {
+        "m": 9,
+        "v": 4
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 3
+      }
+    },
+    "formacao": {
+      "m": "3-4-1-2",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "1.66",
+      "oddEmpate": "4.00",
+      "oddV": "4.33"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:15:26.896Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/xOjdHR6C/#/match-summary",
+    "match_id": "xOjdHR6C",
+    "data_partida": "22.03.2026 14:00",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "New York City",
+    "visitante": "Inter Miami",
+    "placar": {
+      "ht": "1 - 1",
+      "ft": "2 - 3"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 46,
+        "v": 54
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 22
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 8
+      },
+      "cantos": {
+        "m": 7,
+        "v": 7
+      },
+      "passes": {
+        "m": "(393/468)",
+        "v": "90%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 3
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 2
+      },
+      "faltas": {
+        "m": 12,
+        "v": 14
+      },
+      "defesas_goleiro": {
+        "m": 5,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 41,
+        "v": 59
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 15
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 5
+      },
+      "cantos": {
+        "m": 2,
+        "v": 4
+      },
+      "passes": {
+        "m": "(179/216)",
+        "v": "92%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 0
+      },
+      "faltas": {
+        "m": 3,
+        "v": 6
+      },
+      "defesas_goleiro": {
+        "m": 4,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-3-3",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "2.15",
+      "oddEmpate": "3.50",
+      "oddV": "3.20"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:15:58.920Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/MuSyUYQb/#/match-summary",
+    "match_id": "MuSyUYQb",
+    "data_partida": "21.03.2026 23:30",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "Vancouver Whitecaps",
+    "visitante": "San Jose Earthquakes",
+    "placar": {
+      "ht": "0 - 1",
+      "ft": "0 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 61,
+        "v": 39
+      },
+      "finalizacoes": {
+        "m": 12,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 3
+      },
+      "cantos": {
+        "m": 3,
+        "v": 5
+      },
+      "passes": {
+        "m": "(463/534)",
+        "v": "81%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 3
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 1
+      },
+      "faltas": {
+        "m": 11,
+        "v": 12
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 6
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 3
+      },
+      "cantos": {
+        "m": 1,
+        "v": 2
+      },
+      "passes": {
+        "m": "(199/226)",
+        "v": "88%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 1
+      },
+      "faltas": {
+        "m": 6,
+        "v": 6
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 3
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "1.53",
+      "oddEmpate": "4.33",
+      "oddV": "5.50"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:16:29.388Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/bH3U2SiJ/#/match-summary",
+    "match_id": "bH3U2SiJ",
+    "data_partida": "21.03.2026 21:45",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "Austin FC",
+    "visitante": "Los Angeles FC",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 62,
+        "v": 38
+      },
+      "finalizacoes": {
+        "m": 10,
+        "v": 12
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 1
+      },
+      "cantos": {
+        "m": 5,
+        "v": 4
+      },
+      "passes": {
+        "m": "(613/684)",
+        "v": "86%"
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 0
+      },
+      "faltas": {
+        "m": 11,
+        "v": 7
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 68,
+        "v": 32
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 0
+      },
+      "cantos": {
+        "m": 1,
+        "v": 2
+      },
+      "passes": {
+        "m": "(336/377)",
+        "v": "80%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 0
+      },
+      "faltas": {
+        "m": 5,
+        "v": 4
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-3-3"
+    },
+    "mercado": {
+      "oddM": "4.50",
+      "oddEmpate": "4.00",
+      "oddV": "1.68"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:17:00.981Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/EPoHQVqQ/#/match-summary",
+    "match_id": "EPoHQVqQ",
+    "data_partida": "21.03.2026 21:30",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "FC Dallas",
+    "visitante": "Houston Dynamo",
+    "placar": {
+      "ht": "2 - 3",
+      "ft": "4 - 3"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 55,
+        "v": 45
+      },
+      "finalizacoes": {
+        "m": 16,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 4
+      },
+      "cantos": {
+        "m": 6,
+        "v": 8
+      },
+      "passes": {
+        "m": "(367/446)",
+        "v": "77%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 4
+      },
+      "cartoes_vermelhos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 0
+      },
+      "faltas": {
+        "m": 16,
+        "v": 14
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 56,
+        "v": 44
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 3
+      },
+      "cantos": {
+        "m": 1,
+        "v": 4
+      },
+      "passes": {
+        "m": "(183/226)",
+        "v": "77%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 0
+      },
+      "faltas": {
+        "m": 6,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "3-5-1-1",
+      "v": "3-4-3"
+    },
+    "mercado": {
+      "oddM": "2.30",
+      "oddEmpate": "3.50",
+      "oddV": "2.85"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:17:31.019Z",
+      "campos_disponiveis": 23,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/AeXnL97m/#/match-summary",
+    "match_id": "AeXnL97m",
+    "data_partida": "21.03.2026 21:30",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "Sporting Kansas City",
+    "visitante": "Colorado Rapids",
+    "placar": {
+      "ht": "1 - 2",
+      "ft": "1 - 4"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 17
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 9
+      },
+      "cantos": {
+        "m": 6,
+        "v": 4
+      },
+      "passes": {
+        "m": "(363/422)",
+        "v": "85%"
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 3
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 0
+      },
+      "faltas": {
+        "m": 17,
+        "v": 21
+      },
+      "defesas_goleiro": {
+        "m": 4,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 42,
+        "v": 58
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 8
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 4
+      },
+      "cantos": {
+        "m": 2,
+        "v": 1
+      },
+      "passes": {
+        "m": "(167/191)",
+        "v": "89%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 0
+      },
+      "faltas": {
+        "m": 8,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-3-3",
+      "v": "4-1-4-1"
+    },
+    "mercado": {
+      "oddM": "2.55",
+      "oddEmpate": "3.40",
+      "oddV": "2.55"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:17:59.341Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/UcmlJmx0/#/match-summary",
+    "match_id": "UcmlJmx0",
+    "data_partida": "21.03.2026 21:30",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "St. Louis City",
+    "visitante": "New England Revolution",
+    "placar": {
+      "ht": "2 - 1",
+      "ft": "3 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 8
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 2
+      },
+      "cantos": {
+        "m": 6,
+        "v": 3
+      },
+      "passes": {
+        "m": "(406/465)",
+        "v": "89%"
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 3
+      },
+      "faltas": {
+        "m": 11,
+        "v": 12
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 53,
+        "v": 47
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 4
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 1
+      },
+      "cantos": {
+        "m": 2,
+        "v": 1
+      },
+      "passes": {
+        "m": "(242/269)",
+        "v": "85%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 0
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 3
+      },
+      "faltas": {
+        "m": 6,
+        "v": 1
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "4-3-3"
+    },
+    "mercado": {
+      "oddM": "1.86",
+      "oddEmpate": "3.70",
+      "oddV": "3.80"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:18:29.212Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/UyCD6Ahf/#/match-summary",
+    "match_id": "UyCD6Ahf",
+    "data_partida": "21.03.2026 20:30",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "Atlanta Utd",
+    "visitante": "DC United",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 71,
+        "v": 29
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 4
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 1
+      },
+      "cantos": {
+        "m": 3,
+        "v": 4
+      },
+      "passes": {
+        "m": "(696/791)",
+        "v": "75%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 0
+      },
+      "faltas": {
+        "m": 7,
+        "v": 10
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 66,
+        "v": 34
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 1
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 0
+      },
+      "cantos": {
+        "m": 2,
+        "v": 2
+      },
+      "passes": {
+        "m": "(345/384)",
+        "v": "80%"
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 0
+      },
+      "faltas": {
+        "m": 2,
+        "v": 5
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "4-1-4-1",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "2.10",
+      "oddEmpate": "3.40",
+      "oddV": "3.40"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:18:58.240Z",
+      "campos_disponiveis": 21,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/ji0M4lN6/#/match-summary",
+    "match_id": "ji0M4lN6",
+    "data_partida": "21.03.2026 20:30",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "Charlotte",
+    "visitante": "New York Red Bulls",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "6 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 45,
+        "v": 55
+      },
+      "finalizacoes": {
+        "m": 15,
+        "v": 22
+      },
+      "chutes_alvo": {
+        "m": 10,
+        "v": 7
+      },
+      "cantos": {
+        "m": 2,
+        "v": 8
+      },
+      "passes": {
+        "m": "(407/462)",
+        "v": "91%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "cartoes_vermelhos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 6,
+        "v": 1
+      },
+      "faltas": {
+        "m": 8,
+        "v": 7
+      },
+      "defesas_goleiro": {
+        "m": 6,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 38,
+        "v": 62
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 9
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 2
+      },
+      "cantos": {
+        "m": 1,
+        "v": 4
+      },
+      "passes": {
+        "m": "(162/196)",
+        "v": "90%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 0
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 1
+      },
+      "faltas": {
+        "m": 3,
+        "v": 5
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-3-3"
+    },
+    "mercado": {
+      "oddM": "2.01",
+      "oddEmpate": "3.50",
+      "oddV": "3.50"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:19:27.811Z",
+      "campos_disponiveis": 23,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/xUg68WNs/#/match-summary",
+    "match_id": "xUg68WNs",
+    "data_partida": "21.03.2026 19:15",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "Nashville SC",
+    "visitante": "Orlando City",
+    "placar": {
+      "ht": "2 - 0",
+      "ft": "5 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 57,
+        "v": 43
+      },
+      "finalizacoes": {
+        "m": 19,
+        "v": 9
+      },
+      "chutes_alvo": {
+        "m": 8,
+        "v": 1
+      },
+      "cantos": {
+        "m": 5,
+        "v": 5
+      },
+      "passes": {
+        "m": "(489/534)",
+        "v": "82%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 2
+      },
+      "faltas": {
+        "m": 15,
+        "v": 5
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 64,
+        "v": 36
+      },
+      "finalizacoes": {
+        "m": 10,
+        "v": 2
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 1
+      },
+      "cantos": {
+        "m": 3,
+        "v": 1
+      },
+      "passes": {
+        "m": "(285/309)",
+        "v": "74%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 1
+      },
+      "faltas": {
+        "m": 1,
+        "v": 2
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "1.45",
+      "oddEmpate": "4.75",
+      "oddV": "6.25"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:19:57.633Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/IqDZDh0K/#/match-summary",
+    "match_id": "IqDZDh0K",
+    "data_partida": "21.03.2026 17:30",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "Philadelphia Union",
+    "visitante": "Chicago Fire",
+    "placar": {
+      "ht": "1 - 1",
+      "ft": "1 - 2"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 47,
+        "v": 53
+      },
+      "finalizacoes": {
+        "m": 12,
+        "v": 11
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 4
+      },
+      "cantos": {
+        "m": 6,
+        "v": 2
+      },
+      "passes": {
+        "m": "(273/377)",
+        "v": "73%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 3
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 0
+      },
+      "faltas": {
+        "m": 11,
+        "v": 15
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 44,
+        "v": 56
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 3
+      },
+      "cantos": {
+        "m": 3,
+        "v": 1
+      },
+      "passes": {
+        "m": "(134/177)",
+        "v": "75%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 0
+      },
+      "faltas": {
+        "m": 5,
+        "v": 7
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "2.50",
+      "oddEmpate": "3.25",
+      "oddV": "2.75"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:20:27.372Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/StZSVfdn/#/match-summary",
+    "match_id": "StZSVfdn",
+    "data_partida": "21.03.2026 14:00",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "Toronto FC",
+    "visitante": "Columbus Crew",
+    "placar": {
+      "ht": "0 - 1",
+      "ft": "2 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 45,
+        "v": 55
+      },
+      "finalizacoes": {
+        "m": 12,
+        "v": 8
+      },
+      "chutes_alvo": {
+        "m": 7,
+        "v": 4
+      },
+      "cantos": {
+        "m": 10,
+        "v": 7
+      },
+      "passes": {
+        "m": "(286/374)",
+        "v": "84%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 3
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 2
+      },
+      "faltas": {
+        "m": 9,
+        "v": 20
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 43,
+        "v": 57
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 1
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 1
+      },
+      "cantos": {
+        "m": 7,
+        "v": 1
+      },
+      "passes": {
+        "m": "(126/166)",
+        "v": "81%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 2
+      },
+      "faltas": {
+        "m": 6,
+        "v": 11
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "3.25",
+      "oddEmpate": "3.50",
+      "oddV": "2.20"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:20:56.171Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/QkQmjk8D/#/match-summary",
+    "match_id": "QkQmjk8D",
+    "data_partida": "15.03.2026 20:00",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "San Jose Earthquakes",
+    "visitante": "Seattle Sounders",
+    "placar": {
+      "ht": "0 - 1",
+      "ft": "0 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 63,
+        "v": 37
+      },
+      "finalizacoes": {
+        "m": 25,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 7,
+        "v": 4
+      },
+      "cantos": {
+        "m": 17,
+        "v": 0
+      },
+      "passes": {
+        "m": "(421/481)",
+        "v": "82%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 4
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 1
+      },
+      "faltas": {
+        "m": 6,
+        "v": 11
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 6
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 60,
+        "v": 40
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 4
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 2
+      },
+      "cantos": {
+        "m": 5,
+        "v": 0
+      },
+      "passes": {
+        "m": "(193/228)",
+        "v": "80%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 0
+      },
+      "faltas": {
+        "m": 3,
+        "v": 6
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "2.01",
+      "oddEmpate": "3.80",
+      "oddV": "3.20"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:21:24.242Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/21IHOwkJ/#/match-summary",
+    "match_id": "21IHOwkJ",
+    "data_partida": "15.03.2026 17:30",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "Vancouver Whitecaps",
+    "visitante": "Minnesota United",
+    "placar": {
+      "ht": "4 - 0",
+      "ft": "6 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 16,
+        "v": 8
+      },
+      "chutes_alvo": {
+        "m": 8,
+        "v": 4
+      },
+      "cantos": {
+        "m": 3,
+        "v": 7
+      },
+      "passes": {
+        "m": "(391/451)",
+        "v": "87%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 4
+      },
+      "faltas": {
+        "m": 23,
+        "v": 22
+      },
+      "defesas_goleiro": {
+        "m": 4,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 49,
+        "v": 51
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 4
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 1
+      },
+      "cantos": {
+        "m": 0,
+        "v": 2
+      },
+      "passes": {
+        "m": "(208/234)",
+        "v": "90%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 1
+      },
+      "faltas": {
+        "m": 8,
+        "v": 8
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "1.45",
+      "oddEmpate": "4.33",
+      "oddV": "6.50"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:21:54.057Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/UNWvhBw1/#/match-summary",
+    "match_id": "UNWvhBw1",
+    "data_partida": "15.03.2026 15:30",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "New England Revolution",
+    "visitante": "FC Cincinnati",
+    "placar": {
+      "ht": "3 - 1",
+      "ft": "6 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 55,
+        "v": 45
+      },
+      "finalizacoes": {
+        "m": 16,
+        "v": 15
+      },
+      "chutes_alvo": {
+        "m": 10,
+        "v": 9
+      },
+      "cantos": {
+        "m": 1,
+        "v": 3
+      },
+      "passes": {
+        "m": "(504/565)",
+        "v": "82%"
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 2
+      },
+      "cartoes_vermelhos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 4,
+        "v": 1
+      },
+      "faltas": {
+        "m": 15,
+        "v": 14
+      },
+      "defesas_goleiro": {
+        "m": 7,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 52,
+        "v": 48
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 5
+      },
+      "cantos": {
+        "m": 1,
+        "v": 0
+      },
+      "passes": {
+        "m": "(222/252)",
+        "v": "83%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 1
+      },
+      "faltas": {
+        "m": 10,
+        "v": 12
+      },
+      "defesas_goleiro": {
+        "m": 4,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "3-5-2"
+    },
+    "mercado": {
+      "oddM": "2.25",
+      "oddEmpate": "3.50",
+      "oddV": "2.85"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:22:25.336Z",
+      "campos_disponiveis": 23,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/r7YWgX8l/#/match-summary",
+    "match_id": "r7YWgX8l",
+    "data_partida": "14.03.2026 23:30",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "Los Angeles FC",
+    "visitante": "St. Louis City",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "2 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 45,
+        "v": 55
+      },
+      "finalizacoes": {
+        "m": 16,
+        "v": 18
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 4
+      },
+      "cantos": {
+        "m": 5,
+        "v": 9
+      },
+      "passes": {
+        "m": "(378/441)",
+        "v": "87%"
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 4
+      },
+      "faltas": {
+        "m": 12,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 4,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 1
+      },
+      "cantos": {
+        "m": 1,
+        "v": 3
+      },
+      "passes": {
+        "m": "(222/252)",
+        "v": "88%"
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 1
+      },
+      "faltas": {
+        "m": 7,
+        "v": 6
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "1.42",
+      "oddEmpate": "4.75",
+      "oddV": "6.25"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:22:54.952Z",
+      "campos_disponiveis": 20,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_amarelos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/j9gh1FGE/#/match-summary",
+    "match_id": "j9gh1FGE",
+    "data_partida": "14.03.2026 22:30",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "Los Angeles Galaxy",
+    "visitante": "Sporting Kansas City",
+    "placar": {
+      "ht": "0 - 1",
+      "ft": "1 - 2"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 61,
+        "v": 39
+      },
+      "finalizacoes": {
+        "m": 18,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 4
+      },
+      "cantos": {
+        "m": 10,
+        "v": 3
+      },
+      "passes": {
+        "m": "(542/602)",
+        "v": "83%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 2
+      },
+      "faltas": {
+        "m": 7,
+        "v": 12
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 60,
+        "v": 40
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 2
+      },
+      "cantos": {
+        "m": 2,
+        "v": 3
+      },
+      "passes": {
+        "m": "(288/321)",
+        "v": "86%"
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 1
+      },
+      "faltas": {
+        "m": 3,
+        "v": 5
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-3-3"
+    },
+    "mercado": {
+      "oddM": "1.53",
+      "oddEmpate": "4.20",
+      "oddV": "5.25"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:23:23.223Z",
+      "campos_disponiveis": 21,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/bZd0agoR/#/match-summary",
+    "match_id": "bZd0agoR",
+    "data_partida": "14.03.2026 22:30",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "Real Salt Lake",
+    "visitante": "Austin FC",
+    "placar": {
+      "ht": "1 - 1",
+      "ft": "2 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 60,
+        "v": 40
+      },
+      "finalizacoes": {
+        "m": 23,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 8,
+        "v": 3
+      },
+      "cantos": {
+        "m": 7,
+        "v": 4
+      },
+      "passes": {
+        "m": "(443/511)",
+        "v": "80%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 4
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 2
+      },
+      "faltas": {
+        "m": 12,
+        "v": 10
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 7
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 56,
+        "v": 44
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 3
+      },
+      "cantos": {
+        "m": 4,
+        "v": 4
+      },
+      "passes": {
+        "m": "(187/214)",
+        "v": "82%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 0
+      },
+      "faltas": {
+        "m": 9,
+        "v": 4
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 4
+      }
+    },
+    "formacao": {
+      "m": "3-4-3",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "1.66",
+      "oddEmpate": "3.90",
+      "oddV": "4.50"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:23:52.139Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/8lKlsfPr/#/match-summary",
+    "match_id": "8lKlsfPr",
+    "data_partida": "14.03.2026 21:30",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "Chicago Fire",
+    "visitante": "DC United",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "1 - 2"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 67,
+        "v": 33
+      },
+      "finalizacoes": {
+        "m": 15,
+        "v": 13
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 4
+      },
+      "cantos": {
+        "m": 4,
+        "v": 5
+      },
+      "passes": {
+        "m": "(526/635)",
+        "v": "66%"
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 3
+      },
+      "faltas": {
+        "m": 12,
+        "v": 11
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 60,
+        "v": 40
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 9
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 1
+      },
+      "cantos": {
+        "m": 0,
+        "v": 3
+      },
+      "passes": {
+        "m": "(230/284)",
+        "v": "68%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 1
+      },
+      "faltas": {
+        "m": 3,
+        "v": 5
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "1.57",
+      "oddEmpate": "3.90",
+      "oddV": "5.50"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:24:21.523Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/2mDcuYge/#/match-summary",
+    "match_id": "2mDcuYge",
+    "data_partida": "14.03.2026 21:30",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "FC Dallas",
+    "visitante": "San Diego FC",
+    "placar": {
+      "ht": "1 - 2",
+      "ft": "3 - 3"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 35,
+        "v": 65
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 8,
+        "v": 4
+      },
+      "cantos": {
+        "m": 3,
+        "v": 0
+      },
+      "passes": {
+        "m": "(308/386)",
+        "v": "88%"
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 6,
+        "v": 4
+      },
+      "faltas": {
+        "m": 16,
+        "v": 12
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 5
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 35,
+        "v": 65
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 2
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 2
+      },
+      "cantos": {
+        "m": 2,
+        "v": 0
+      },
+      "passes": {
+        "m": "(150/188)",
+        "v": "90%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 2
+      },
+      "faltas": {
+        "m": 6,
+        "v": 7
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 4
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "4-3-3"
+    },
+    "mercado": {
+      "oddM": "2.20",
+      "oddEmpate": "3.70",
+      "oddV": "2.85"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:24:50.993Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/z1B5wCO7/#/match-summary",
+    "match_id": "z1B5wCO7",
+    "data_partida": "14.03.2026 21:30",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "Houston Dynamo",
+    "visitante": "Portland Timbers",
+    "placar": {
+      "ht": "0 - 1",
+      "ft": "3 - 2"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 19,
+        "v": 17
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 9
+      },
+      "cantos": {
+        "m": 10,
+        "v": 6
+      },
+      "passes": {
+        "m": "(346/408)",
+        "v": "85%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 4
+      },
+      "cartoes_vermelhos": {
+        "m": 1,
+        "v": 0
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 3
+      },
+      "faltas": {
+        "m": 12,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 6,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 42,
+        "v": 58
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 5
+      },
+      "cantos": {
+        "m": 4,
+        "v": 4
+      },
+      "passes": {
+        "m": "(151/184)",
+        "v": "91%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 3
+      },
+      "faltas": {
+        "m": 3,
+        "v": 4
+      },
+      "defesas_goleiro": {
+        "m": 4,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "3-4-3",
+      "v": "4-3-3"
+    },
+    "mercado": {
+      "oddM": "1.56",
+      "oddEmpate": "4.10",
+      "oddV": "5.50"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:25:20.602Z",
+      "campos_disponiveis": 23,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/tz481OAc/#/match-summary",
+    "match_id": "tz481OAc",
+    "data_partida": "14.03.2026 20:30",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "Charlotte",
+    "visitante": "Inter Miami",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 45,
+        "v": 55
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 3
+      },
+      "cantos": {
+        "m": 3,
+        "v": 5
+      },
+      "passes": {
+        "m": "(407/463)",
+        "v": "88%"
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 2
+      },
+      "faltas": {
+        "m": 12,
+        "v": 16
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 5
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 2
+      },
+      "cantos": {
+        "m": 1,
+        "v": 3
+      },
+      "passes": {
+        "m": "(229/261)",
+        "v": "86%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 1
+      },
+      "faltas": {
+        "m": 5,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "2.10",
+      "oddEmpate": "3.70",
+      "oddV": "3.00"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:25:50.226Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/2khHa2uA/#/match-summary",
+    "match_id": "2khHa2uA",
+    "data_partida": "14.03.2026 20:30",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "New York City",
+    "visitante": "Colorado Rapids",
+    "placar": {
+      "ht": "2 - 1",
+      "ft": "3 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 41,
+        "v": 59
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 8
+      },
+      "chutes_alvo": {
+        "m": 8,
+        "v": 2
+      },
+      "cantos": {
+        "m": 4,
+        "v": 4
+      },
+      "passes": {
+        "m": "(335/421)",
+        "v": "89%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 5,
+        "v": 1
+      },
+      "faltas": {
+        "m": 14,
+        "v": 25
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 5
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 43,
+        "v": 57
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 2
+      },
+      "cantos": {
+        "m": 3,
+        "v": 2
+      },
+      "passes": {
+        "m": "(173/214)",
+        "v": "88%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 1
+      },
+      "faltas": {
+        "m": 9,
+        "v": 12
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "1.45",
+      "oddEmpate": "4.33",
+      "oddV": "6.50"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:26:20.454Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/tnU8QaK6/#/match-summary",
+    "match_id": "tnU8QaK6",
+    "data_partida": "14.03.2026 20:30",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "Orlando City",
+    "visitante": "CF Montreal",
+    "placar": {
+      "ht": "2 - 1",
+      "ft": "2 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 35,
+        "v": 65
+      },
+      "finalizacoes": {
+        "m": 15,
+        "v": 18
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 6
+      },
+      "cantos": {
+        "m": 4,
+        "v": 10
+      },
+      "passes": {
+        "m": "(243/307)",
+        "v": "87%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 0
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 3
+      },
+      "faltas": {
+        "m": 12,
+        "v": 14
+      },
+      "defesas_goleiro": {
+        "m": 4,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 41,
+        "v": 59
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 2
+      },
+      "cantos": {
+        "m": 2,
+        "v": 5
+      },
+      "passes": {
+        "m": "(144/174)",
+        "v": "88%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 0
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 0
+      },
+      "faltas": {
+        "m": 7,
+        "v": 8
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "1.81",
+      "oddEmpate": "3.90",
+      "oddV": "3.75"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:26:50.891Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/ETBMwLIj/#/match-summary",
+    "match_id": "ETBMwLIj",
+    "data_partida": "14.03.2026 19:15",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "Columbus Crew",
+    "visitante": "Nashville SC",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 57,
+        "v": 43
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 8
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 4
+      },
+      "cantos": {
+        "m": 6,
+        "v": 3
+      },
+      "passes": {
+        "m": "(552/628)",
+        "v": "86%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 5
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 1
+      },
+      "faltas": {
+        "m": 4,
+        "v": 12
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 62,
+        "v": 38
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 4
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 1
+      },
+      "cantos": {
+        "m": 3,
+        "v": 2
+      },
+      "passes": {
+        "m": "(312/341)",
+        "v": "85%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 3
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 0
+      },
+      "faltas": {
+        "m": 2,
+        "v": 8
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-4-2"
+    },
+    "mercado": {
+      "oddM": "1.57",
+      "oddEmpate": "4.50",
+      "oddV": "4.50"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T02:27:20.282Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      },
+      "estatisticas_2t_removida": true
+    }
+  }
+]

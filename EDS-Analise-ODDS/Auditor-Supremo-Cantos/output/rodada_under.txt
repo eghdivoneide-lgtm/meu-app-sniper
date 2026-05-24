@@ -1,0 +1,232 @@
+
+🛡️  ════════════════════════════════════════════════════════════════
+       AUDITOR SUPREMO DE CANTOS — Análise Fria
+       Tipo: TOP-10 UNDER
+       Modo: PRODUÇÃO
+   ════════════════════════════════════════════════════════════════
+
+🧠 Cérebro carregado: 8 ligas, 227 times, 1276 H2H
+📥 Rodada: 77 jogos para analisar
+
+🔬 Analisados: 22 | Cortados F1: 1 | F2: 54 | sem dados: 0
+
+═══════════════════════════════════════════════════════════════════════════
+#1 — Probabilidade 98/100 — UNDER_9_FT
+═══════════════════════════════════════════════════════════════════════════
+Liga: ARG_B | Rodada ?
+Partida: CA Estudiantes (casa) vs Colon Santa Fe (fora)
+
+🧠 SINAIS DO CÉREBRO:
+   🏠 CA Estudiantes é UNDER-FRIENDLY em casa
+   🛡️ Colon Santa Fe é UNDER-FRIENDLY fora
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ██████████  97.77777777777779/100 (peso 22)  Mandante joga partidas de poucos cantos em casa
+        └ total médio casa = 6.6 (min 5, max 11)
+   ██████████  100/100 (peso 18)  Visitante joga partidas de poucos cantos fora
+        └ total médio fora = 6.2 (min 1, max 11)
+   ██████████  100/100 (peso 14)  Mandante recorrente em under 9 casa
+        └ 80% dos jogos casa com <9 cantos
+   ███████░░░   70/100 (peso 12)  Visitante recorrente em under 9 fora
+        └ 60% dos jogos fora com <9 cantos
+   █████████░   90/100 (peso  8)  DNA: perfis defensivos
+        └ M=MURO_DUPLO, V=DEFENSIVO | semChama✓
+
+═══════════════════════════════════════════════════════════════════════════
+#2 — Probabilidade 87/100 — UNDER_9_FT
+═══════════════════════════════════════════════════════════════════════════
+Liga: ARG_B | Rodada ?
+Partida: Midland (casa) vs Agropecuario (fora)
+
+🧠 SINAIS DO CÉREBRO:
+   🏆 Midland está no TOP MANDANTES DOMINADORES
+   🏠 Midland é UNDER-FRIENDLY em casa
+   🛡️ Agropecuario é UNDER-FRIENDLY fora
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ██████████  100/100 (peso 22)  Mandante joga partidas de poucos cantos em casa
+        └ total médio casa = 6.5 (min 2, max 10)
+   ████████░░  83.4/100 (peso 14)  Mandante recorrente em under 9 casa
+        └ 66.7% dos jogos casa com <9 cantos
+   ██████░░░░  62.222222222222236/100 (peso 18)  Visitante joga partidas de poucos cantos fora
+        └ total médio fora = 8.2 (min 4, max 12)
+   ███████░░░   70/100 (peso 12)  Visitante recorrente em under 9 fora
+        └ 60% dos jogos fora com <9 cantos
+   ████████░░  80.00000000000001/100 (peso  8)  Liga é defensiva em cantos
+        └ liga média 8.6 cantos, 51.9% under 9
+
+═══════════════════════════════════════════════════════════════════════════
+#3 — Probabilidade 77/100 — UNDER_9_FT
+═══════════════════════════════════════════════════════════════════════════
+Liga: ARG_B | Rodada ?
+Partida: All Boys (casa) vs Deportivo Moron (fora)
+
+🧠 SINAIS DO CÉREBRO:
+   🏆 All Boys está no TOP MANDANTES DOMINADORES
+   🛡️ Deportivo Moron é UNDER-FRIENDLY fora
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ███████░░░  71.11111111111111/100 (peso 18)  Visitante joga partidas de poucos cantos fora
+        └ total médio fora = 7.8 (min 6, max 12)
+   ██████████  100/100 (peso 12)  Visitante recorrente em under 9 fora
+        └ 80% dos jogos fora com <9 cantos
+   █████░░░░░  53.33333333333334/100 (peso 22)  Mandante joga partidas de poucos cantos em casa
+        └ total médio casa = 8.6 (min 7, max 10)
+   ███████░░░   70/100 (peso 14)  Mandante recorrente em under 9 casa
+        └ 60% dos jogos casa com <9 cantos
+   ██████████  100/100 (peso  8)  Ambos consistentes em total
+        └ DP médio = 1.67 (M=1.2, V=2.14)
+
+═══════════════════════════════════════════════════════════════════════════
+#4 — Probabilidade 71/100 — UNDER_9_FT
+═══════════════════════════════════════════════════════════════════════════
+Liga: ARG_B | Rodada ?
+Partida: Ciudad Bolivar (casa) vs Acassuso (fora)
+
+🧠 SINAIS DO CÉREBRO:
+   🏠 Ciudad Bolivar é UNDER-FRIENDLY em casa
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ████████░░  75.55555555555557/100 (peso 22)  Mandante joga partidas de poucos cantos em casa
+        └ total médio casa = 7.6 (min 3, max 15)
+   ██████████  100/100 (peso 14)  Mandante recorrente em under 9 casa
+        └ 80% dos jogos casa com <9 cantos
+   ██████░░░░  62.88888888888889/100 (peso 18)  Visitante joga partidas de poucos cantos fora
+        └ total médio fora = 8.17 (min 2, max 11)
+   █████████░   90/100 (peso  8)  DNA: perfis defensivos
+        └ M=EQUILIBRADO, V=DEFENSIVO | semChama✓
+   ████████░░  80.00000000000001/100 (peso  8)  Liga é defensiva em cantos
+        └ liga média 8.6 cantos, 51.9% under 9
+
+═══════════════════════════════════════════════════════════════════════════
+#5 — Probabilidade 71/100 — UNDER_9_FT
+═══════════════════════════════════════════════════════════════════════════
+Liga: ARG_B | Rodada ?
+Partida: Gimnasia y Tiro (casa) vs San Martin T. (fora)
+
+🧠 SINAIS DO CÉREBRO:
+   🛡️ San Martin T. é UNDER-FRIENDLY fora
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ██████████  100/100 (peso 18)  Visitante joga partidas de poucos cantos fora
+        └ total médio fora = 5.8 (min 4, max 11)
+   ██████████  100/100 (peso 12)  Visitante recorrente em under 9 fora
+        └ 80% dos jogos fora com <9 cantos
+   █████████░   90/100 (peso  8)  DNA: perfis defensivos
+        └ M=EQUILIBRADO, V=DEFENSIVO | semChama✓
+   ████████░░  80.00000000000001/100 (peso  8)  Liga é defensiva em cantos
+        └ liga média 8.6 cantos, 51.9% under 9
+   ███░░░░░░░  28.666666666666647/100 (peso 22)  Mandante joga partidas de poucos cantos em casa
+        └ total médio casa = 9.71 (min 6, max 16)
+
+═══════════════════════════════════════════════════════════════════════════
+#6 — Probabilidade 69/100 — UNDER_9_FT
+═══════════════════════════════════════════════════════════════════════════
+Liga: BR_B | Rodada ?
+Partida: Cuiaba (casa) vs Novorizontino (fora)
+
+🧠 SINAIS DO CÉREBRO:
+   🏠 Cuiaba é UNDER-FRIENDLY em casa
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ██████████  100/100 (peso 22)  Mandante joga partidas de poucos cantos em casa
+        └ total médio casa = 4.75 (min 1, max 10)
+   ██████████  100/100 (peso 14)  Mandante recorrente em under 9 casa
+        └ 75% dos jogos casa com <9 cantos
+   █████████░   90/100 (peso  8)  DNA: perfis defensivos
+        └ M=MURO_DUPLO, V=DEFENSIVO | semChama✓
+   ████████░░  79.2/100 (peso  8)  Ambos consistentes em total
+        └ DP médio = 2.52 (M=3.34, V=1.7)
+   ███░░░░░░░  29.555555555555557/100 (peso 18)  Visitante joga partidas de poucos cantos fora
+        └ total médio fora = 9.67 (min 8, max 12)
+
+═══════════════════════════════════════════════════════════════════════════
+#7 — Probabilidade 63/100 — UNDER_9_FT
+═══════════════════════════════════════════════════════════════════════════
+Liga: ARG_B | Rodada ?
+Partida: Quilmes (casa) vs Tristan Suarez (fora)
+
+🧠 SINAIS DO CÉREBRO:
+   🛡️ Tristan Suarez é UNDER-FRIENDLY fora
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ████████░░  75.55555555555557/100 (peso 18)  Visitante joga partidas de poucos cantos fora
+        └ total médio fora = 7.6 (min 4, max 10)
+   █████░░░░░  48.88888888888887/100 (peso 22)  Mandante joga partidas de poucos cantos em casa
+        └ total médio casa = 8.8 (min 3, max 12)
+   ███████░░░   70/100 (peso 12)  Visitante recorrente em under 9 fora
+        └ 60% dos jogos fora com <9 cantos
+   █████████░   90/100 (peso  8)  DNA: perfis defensivos
+        └ M=MURO_DUPLO, V=DEFENSIVO | semChama✓
+   ████████░░  80.00000000000001/100 (peso  8)  Liga é defensiva em cantos
+        └ liga média 8.6 cantos, 51.9% under 9
+
+═══════════════════════════════════════════════════════════════════════════
+#8 — Probabilidade 59/100 — UNDER_9_FT
+═══════════════════════════════════════════════════════════════════════════
+Liga: ARG_B | Rodada ?
+Partida: Almirante Brown (casa) vs San Telmo (fora)
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   █████░░░░░  48.88888888888887/100 (peso 22)  Mandante joga partidas de poucos cantos em casa
+        └ total médio casa = 8.8 (min 8, max 10)
+   █████░░░░░  53.33333333333334/100 (peso 18)  Visitante joga partidas de poucos cantos fora
+        └ total médio fora = 8.6 (min 5, max 15)
+   ███████░░░   70/100 (peso 12)  Visitante recorrente em under 9 fora
+        └ 60% dos jogos fora com <9 cantos
+   █████████░   90/100 (peso  8)  DNA: perfis defensivos
+        └ M=DEFENSIVO, V=MURO_DUPLO | semChama✓
+   █████████░  88.4/100 (peso  8)  Ambos consistentes em total
+        └ DP médio = 2.29 (M=0.75, V=3.83)
+
+═══════════════════════════════════════════════════════════════════════════
+#9 — Probabilidade 56/100 — UNDER_9_FT
+═══════════════════════════════════════════════════════════════════════════
+Liga: J2J3 | Rodada ?
+Partida: Iwata (casa) vs Fujieda MYFC (fora)
+
+🧠 SINAIS DO CÉREBRO:
+   🏠 Iwata é UNDER-FRIENDLY em casa
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ██████░░░░  63.77777777777776/100 (peso 22)  Mandante joga partidas de poucos cantos em casa
+        └ total médio casa = 8.13 (min 4, max 12)
+   █████░░░░░   50/100 (peso 18)  Visitante joga partidas de poucos cantos fora
+        └ total médio fora = 8.75 (min 3, max 14)
+   █████░░░░░   50/100 (peso 14)  Mandante recorrente em under 9 casa
+        └ 50% dos jogos casa com <9 cantos
+   ███████░░░   65/100 (peso  8)  DNA: perfis defensivos
+        └ M=?, V=? | semChama✓
+   ██████░░░░  61.20000000000001/100 (peso  8)  Ambos consistentes em total
+        └ DP médio = 2.97 (M=2.52, V=3.42)
+
+═══════════════════════════════════════════════════════════════════════════
+#10 — Probabilidade 53/100 — UNDER_9_FT
+═══════════════════════════════════════════════════════════════════════════
+Liga: J2J3 | Rodada ?
+Partida: Sagan Tosu (casa) vs Renofa Yamaguchi (fora)
+
+🧠 SINAIS DO CÉREBRO:
+   🏠 Sagan Tosu é UNDER-FRIENDLY em casa
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ████████░░  76.22222222222221/100 (peso 22)  Mandante joga partidas de poucos cantos em casa
+        └ total médio casa = 7.57 (min 2, max 11)
+   ██████░░░░  64.2/100 (peso 14)  Mandante recorrente em under 9 casa
+        └ 57.1% dos jogos casa com <9 cantos
+   ████████░░   80/100 (peso 10)  H2H confirma under 9
+        └ 1 confrontos, total médio = 8
+   ███████░░░  68.6/100 (peso  8)  Ambos consistentes em total
+        └ DP médio = 2.79 (M=3.02, V=2.55)
+   ███████░░░   65/100 (peso  8)  DNA: perfis defensivos
+        └ M=?, V=? | semChama✓
+
+═══════════════════════════════════════════════════════════════════════════
+SUMÁRIO — TOP 10 UNDER
+═══════════════════════════════════════════════════════════════════════════
+Probabilidade média: 70.4/100
+Probabilidade mín: 53 | máx: 98
+Distribuição por liga:
+   ARG_B: 7
+   BR_B: 1
+   J2J3: 2

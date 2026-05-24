@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"/c/Users/egnal/OneDrive/Área de Trabalho/MEU APP/Agentes da S.H.I.E.L.D/\" 2>&1 | head -30)",
+      "Read(//c/Users/egnal/OneDrive/Área de Trabalho/MEU APP/**)",
+      "Bash(node -e ' *)"
+    ]
+  }
+}

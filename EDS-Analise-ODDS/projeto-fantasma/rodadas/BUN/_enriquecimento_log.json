@@ -1,0 +1,1881 @@
+{
+  "enriquecidos": [
+    {
+      "match_id": "hGI0nrQ1",
+      "mandante": "Union Berlin",
+      "visitante": "Bayern Munich",
+      "campos": 21,
+      "ts": "2026-05-20T06:54:36.328Z"
+    },
+    {
+      "match_id": "dMlJam0M",
+      "mandante": "Freiburg",
+      "visitante": "Bayern Munich",
+      "campos": 22,
+      "ts": "2026-05-20T06:55:05.493Z"
+    },
+    {
+      "match_id": "hj5ikutm",
+      "mandante": "Bayern Munich",
+      "visitante": "Union Berlin",
+      "campos": 22,
+      "ts": "2026-05-20T06:55:35.260Z"
+    },
+    {
+      "match_id": "AqZxvfGl",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Bayern Munich",
+      "campos": 24,
+      "ts": "2026-05-20T06:56:05.289Z"
+    },
+    {
+      "match_id": "4AjdVPXG",
+      "mandante": "Hamburger SV",
+      "visitante": "RB Leipzig",
+      "campos": 22,
+      "ts": "2026-05-20T06:56:36.582Z"
+    },
+    {
+      "match_id": "6ezkfRNq",
+      "mandante": "Werder Bremen",
+      "visitante": "RB Leipzig",
+      "campos": 21,
+      "ts": "2026-05-20T06:57:06.181Z"
+    },
+    {
+      "match_id": "Czf4T32T",
+      "mandante": "Bayern Munich",
+      "visitante": "B. Monchengladbach",
+      "campos": 22,
+      "ts": "2026-05-20T06:57:36.967Z"
+    },
+    {
+      "match_id": "dQO6K8Jb",
+      "mandante": "Dortmund",
+      "visitante": "Bayern Munich",
+      "campos": 22,
+      "ts": "2026-05-20T06:58:06.705Z"
+    },
+    {
+      "match_id": "Gn7GD06E",
+      "mandante": "Bayern Munich",
+      "visitante": "Eintracht Frankfurt",
+      "campos": 22,
+      "ts": "2026-05-20T06:58:35.845Z"
+    },
+    {
+      "match_id": "rLTZ0NM8",
+      "mandante": "Werder Bremen",
+      "visitante": "Bayern Munich",
+      "campos": 22,
+      "ts": "2026-05-20T06:59:05.666Z"
+    },
+    {
+      "match_id": "rHwOqPnA",
+      "mandante": "RB Leipzig",
+      "visitante": "Augsburg",
+      "campos": 21,
+      "ts": "2026-05-20T06:59:36.705Z"
+    },
+    {
+      "match_id": "hWEilpw3",
+      "mandante": "FC Koln",
+      "visitante": "RB Leipzig",
+      "campos": 21,
+      "ts": "2026-05-20T07:00:06.673Z"
+    },
+    {
+      "match_id": "ne5gywrH",
+      "mandante": "Bayern Munich",
+      "visitante": "Hoffenheim",
+      "campos": 24,
+      "ts": "2026-05-20T07:00:37.086Z"
+    },
+    {
+      "match_id": "f3czdX2n",
+      "mandante": "Bayern Munich",
+      "visitante": "RB Leipzig",
+      "campos": 21,
+      "ts": "2026-05-20T07:01:07.503Z"
+    },
+    {
+      "match_id": "vV1owaD4",
+      "mandante": "Hamburger SV",
+      "visitante": "Bayern Munich",
+      "campos": 22,
+      "ts": "2026-05-20T07:01:36.327Z"
+    },
+    {
+      "match_id": "WQTReAO7",
+      "mandante": "Bayern Munich",
+      "visitante": "Augsburg",
+      "campos": 21,
+      "ts": "2026-05-20T07:02:04.622Z"
+    },
+    {
+      "match_id": "dSod5Ne4",
+      "mandante": "RB Leipzig",
+      "visitante": "Bayern Munich",
+      "campos": 20,
+      "ts": "2026-05-20T07:02:32.977Z"
+    },
+    {
+      "match_id": "xOEVl2BN",
+      "mandante": "FC Koln",
+      "visitante": "Bayern Munich",
+      "campos": 20,
+      "ts": "2026-05-20T07:03:01.425Z"
+    },
+    {
+      "match_id": "8lrOEUTg",
+      "mandante": "Bayern Munich",
+      "visitante": "Wolfsburg",
+      "campos": 22,
+      "ts": "2026-05-20T07:03:30.235Z"
+    },
+    {
+      "match_id": "SrS8qyAO",
+      "mandante": "RB Leipzig",
+      "visitante": "Hoffenheim",
+      "campos": 22,
+      "ts": "2026-05-20T07:04:00.184Z"
+    },
+    {
+      "match_id": "xKhKjXaf",
+      "mandante": "Stuttgart",
+      "visitante": "RB Leipzig",
+      "campos": 22,
+      "ts": "2026-05-20T07:04:29.086Z"
+    },
+    {
+      "match_id": "23wbiAkC",
+      "mandante": "RB Leipzig",
+      "visitante": "Dortmund",
+      "campos": 22,
+      "ts": "2026-05-20T07:04:58.472Z"
+    },
+    {
+      "match_id": "SComwKU1",
+      "mandante": "RB Leipzig",
+      "visitante": "Wolfsburg",
+      "campos": 21,
+      "ts": "2026-05-20T07:05:28.854Z"
+    },
+    {
+      "match_id": "KMQVrUqQ",
+      "mandante": "RB Leipzig",
+      "visitante": "Mainz",
+      "campos": 22,
+      "ts": "2026-05-20T07:05:57.344Z"
+    },
+    {
+      "match_id": "ObDLNPCO",
+      "mandante": "St. Pauli",
+      "visitante": "RB Leipzig",
+      "campos": 21,
+      "ts": "2026-05-20T07:06:26.762Z"
+    },
+    {
+      "match_id": "zZjSO8hf",
+      "mandante": "Heidenheim",
+      "visitante": "RB Leipzig",
+      "campos": 21,
+      "ts": "2026-05-20T07:06:57.309Z"
+    },
+    {
+      "match_id": "4IYfxPRH",
+      "mandante": "RB Leipzig",
+      "visitante": "Freiburg",
+      "campos": 22,
+      "ts": "2026-05-20T07:07:27.355Z"
+    },
+    {
+      "match_id": "QN5Aynx0",
+      "mandante": "Stuttgart",
+      "visitante": "Freiburg",
+      "campos": 21,
+      "ts": "2026-05-20T07:07:55.408Z"
+    },
+    {
+      "match_id": "QJVMGQIN",
+      "mandante": "Stuttgart",
+      "visitante": "Wolfsburg",
+      "campos": 21,
+      "ts": "2026-05-20T07:08:24.748Z"
+    },
+    {
+      "match_id": "Yg01qtZp",
+      "mandante": "Hamburger SV",
+      "visitante": "Bayer Leverkusen",
+      "campos": 22,
+      "ts": "2026-05-20T07:08:55.157Z"
+    },
+    {
+      "match_id": "2NTch5hd",
+      "mandante": "Stuttgart",
+      "visitante": "Dortmund",
+      "campos": 22,
+      "ts": "2026-05-20T07:09:25.115Z"
+    },
+    {
+      "match_id": "vNeR1IPh",
+      "mandante": "Augsburg",
+      "visitante": "Stuttgart",
+      "campos": 21,
+      "ts": "2026-05-20T07:09:53.815Z"
+    },
+    {
+      "match_id": "OENMooIc",
+      "mandante": "Mainz",
+      "visitante": "Stuttgart",
+      "campos": 21,
+      "ts": "2026-05-20T07:10:22.487Z"
+    },
+    {
+      "match_id": "G63X5945",
+      "mandante": "Heidenheim",
+      "visitante": "Stuttgart",
+      "campos": 21,
+      "ts": "2026-05-20T07:10:51.739Z"
+    },
+    {
+      "match_id": "GYRsa1iL",
+      "mandante": "Stuttgart",
+      "visitante": "FC Koln",
+      "campos": 22,
+      "ts": "2026-05-20T07:11:20.320Z"
+    },
+    {
+      "match_id": "6wZdS2Gq",
+      "mandante": "St. Pauli",
+      "visitante": "Stuttgart",
+      "campos": 21,
+      "ts": "2026-05-20T07:11:49.232Z"
+    },
+    {
+      "match_id": "Wn528m8D",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Stuttgart",
+      "campos": 22,
+      "ts": "2026-05-20T07:12:20.035Z"
+    },
+    {
+      "match_id": "lrCyogAk",
+      "mandante": "Stuttgart",
+      "visitante": "Union Berlin",
+      "campos": 22,
+      "ts": "2026-05-20T07:12:48.576Z"
+    },
+    {
+      "match_id": "OKldz3dU",
+      "mandante": "Stuttgart",
+      "visitante": "Eintracht Frankfurt",
+      "campos": 22,
+      "ts": "2026-05-20T07:13:18.149Z"
+    },
+    {
+      "match_id": "riSaCQqS",
+      "mandante": "Hoffenheim",
+      "visitante": "Mainz",
+      "campos": 22,
+      "ts": "2026-05-20T07:13:48.563Z"
+    },
+    {
+      "match_id": "Stc23V0c",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Wolfsburg",
+      "campos": 22,
+      "ts": "2026-05-20T07:14:17.583Z"
+    },
+    {
+      "match_id": "IofboxOE",
+      "mandante": "Heidenheim",
+      "visitante": "Hoffenheim",
+      "campos": 20,
+      "ts": "2026-05-20T07:14:46.873Z"
+    },
+    {
+      "match_id": "GEoWC8b6",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Stuttgart",
+      "campos": 22,
+      "ts": "2026-05-20T07:15:17.221Z"
+    },
+    {
+      "match_id": "zBrFHLL7",
+      "mandante": "Augsburg",
+      "visitante": "Hoffenheim",
+      "campos": 22,
+      "ts": "2026-05-20T07:15:47.059Z"
+    },
+    {
+      "match_id": "vqkymkaJ",
+      "mandante": "Hoffenheim",
+      "visitante": "Wolfsburg",
+      "campos": 21,
+      "ts": "2026-05-20T07:16:16.052Z"
+    },
+    {
+      "match_id": "re2mXo34",
+      "mandante": "Hoffenheim",
+      "visitante": "St. Pauli",
+      "campos": 22,
+      "ts": "2026-05-20T07:16:45.911Z"
+    },
+    {
+      "match_id": "lK1u4mZH",
+      "mandante": "FC Koln",
+      "visitante": "Hoffenheim",
+      "campos": 22,
+      "ts": "2026-05-20T07:17:15.332Z"
+    },
+    {
+      "match_id": "SQQLiJqe",
+      "mandante": "Hoffenheim",
+      "visitante": "Freiburg",
+      "campos": 22,
+      "ts": "2026-05-20T07:17:45.423Z"
+    },
+    {
+      "match_id": "hxMjHHjo",
+      "mandante": "Hoffenheim",
+      "visitante": "Union Berlin",
+      "campos": 22,
+      "ts": "2026-05-20T07:18:14.971Z"
+    },
+    {
+      "match_id": "2B3cTTrm",
+      "mandante": "Werder Bremen",
+      "visitante": "Hoffenheim",
+      "campos": 22,
+      "ts": "2026-05-20T07:18:44.077Z"
+    },
+    {
+      "match_id": "KnAMHioR",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Hoffenheim",
+      "campos": 22,
+      "ts": "2026-05-20T07:19:14.245Z"
+    },
+    {
+      "match_id": "YVou5E1L",
+      "mandante": "Hoffenheim",
+      "visitante": "Bayer Leverkusen",
+      "campos": 21,
+      "ts": "2026-05-20T07:19:42.897Z"
+    },
+    {
+      "match_id": "rPLMjOtB",
+      "mandante": "Hoffenheim",
+      "visitante": "B. Monchengladbach",
+      "campos": 22,
+      "ts": "2026-05-20T07:20:11.621Z"
+    },
+    {
+      "match_id": "tnhrbzPH",
+      "mandante": "Heidenheim",
+      "visitante": "Bayer Leverkusen",
+      "campos": 22,
+      "ts": "2026-05-20T07:20:40.733Z"
+    },
+    {
+      "match_id": "WKzyOsQj",
+      "mandante": "Freiburg",
+      "visitante": "Bayer Leverkusen",
+      "campos": 21,
+      "ts": "2026-05-20T07:21:09.483Z"
+    },
+    {
+      "match_id": "pnel2R3U",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Mainz",
+      "campos": 21,
+      "ts": "2026-05-20T07:21:38.075Z"
+    },
+    {
+      "match_id": "Es7G9i5t",
+      "mandante": "Union Berlin",
+      "visitante": "Bayer Leverkusen",
+      "campos": 22,
+      "ts": "2026-05-20T07:22:07.118Z"
+    },
+    {
+      "match_id": "lb80nO7F",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "St. Pauli",
+      "campos": 21,
+      "ts": "2026-05-20T07:22:38.042Z"
+    },
+    {
+      "match_id": "6FjAy7gc",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Bayer Leverkusen",
+      "campos": 22,
+      "ts": "2026-05-20T07:23:08.333Z"
+    },
+    {
+      "match_id": "W0pyNnN6",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Bayer Leverkusen",
+      "campos": 22,
+      "ts": "2026-05-20T07:23:38.435Z"
+    },
+    {
+      "match_id": "nZBEJDGE",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Werder Bremen",
+      "campos": 21,
+      "ts": "2026-05-20T07:24:07.910Z"
+    },
+    {
+      "match_id": "z70A19V9",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "FC Koln",
+      "campos": 22,
+      "ts": "2026-05-20T07:24:36.891Z"
+    },
+    {
+      "match_id": "MVd8ocuC",
+      "mandante": "Mainz",
+      "visitante": "Eintracht Frankfurt",
+      "campos": 22,
+      "ts": "2026-05-20T07:25:06.575Z"
+    },
+    {
+      "match_id": "I9xoxYp1",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Heidenheim",
+      "campos": 23,
+      "ts": "2026-05-20T07:25:36.183Z"
+    },
+    {
+      "match_id": "zBzbMUln",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Freiburg",
+      "campos": 21,
+      "ts": "2026-05-20T07:26:05.574Z"
+    },
+    {
+      "match_id": "zerRXOhM",
+      "mandante": "Union Berlin",
+      "visitante": "Eintracht Frankfurt",
+      "campos": 23,
+      "ts": "2026-05-20T07:26:35.607Z"
+    },
+    {
+      "match_id": "rNb2ZGCT",
+      "mandante": "Freiburg",
+      "visitante": "Werder Bremen",
+      "campos": 22,
+      "ts": "2026-05-20T07:27:05.454Z"
+    },
+    {
+      "match_id": "IecCNYV7",
+      "mandante": "St. Pauli",
+      "visitante": "Eintracht Frankfurt",
+      "campos": 21,
+      "ts": "2026-05-20T07:27:36.546Z"
+    },
+    {
+      "match_id": "dOB8p2xS",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "B. Monchengladbach",
+      "campos": 21,
+      "ts": "2026-05-20T07:28:05.327Z"
+    },
+    {
+      "match_id": "Isz531QG",
+      "mandante": "Werder Bremen",
+      "visitante": "Eintracht Frankfurt",
+      "campos": 21,
+      "ts": "2026-05-20T07:28:35.422Z"
+    },
+    {
+      "match_id": "vgpYTfzi",
+      "mandante": "Mainz",
+      "visitante": "Augsburg",
+      "campos": 21,
+      "ts": "2026-05-20T07:29:06.773Z"
+    },
+    {
+      "match_id": "xUZvBnTI",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Dortmund",
+      "campos": 22,
+      "ts": "2026-05-20T07:29:35.574Z"
+    },
+    {
+      "match_id": "nmaZadf5",
+      "mandante": "St. Pauli",
+      "visitante": "Freiburg",
+      "campos": 22,
+      "ts": "2026-05-20T07:30:06.166Z"
+    },
+    {
+      "match_id": "pMDubF7K",
+      "mandante": "Freiburg",
+      "visitante": "Union Berlin",
+      "campos": 22,
+      "ts": "2026-05-20T07:30:34.871Z"
+    },
+    {
+      "match_id": "AmPlehjm",
+      "mandante": "Freiburg",
+      "visitante": "B. Monchengladbach",
+      "campos": 22,
+      "ts": "2026-05-20T07:31:03.977Z"
+    },
+    {
+      "match_id": "27DoCV8l",
+      "mandante": "Freiburg",
+      "visitante": "FC Koln",
+      "campos": 21,
+      "ts": "2026-05-20T07:31:32.773Z"
+    },
+    {
+      "match_id": "x4hW6zX8",
+      "mandante": "Augsburg",
+      "visitante": "Freiburg",
+      "campos": 21,
+      "ts": "2026-05-20T07:32:02.009Z"
+    },
+    {
+      "match_id": "AVg4Pf1e",
+      "mandante": "Union Berlin",
+      "visitante": "Werder Bremen",
+      "campos": 24,
+      "ts": "2026-05-20T07:32:32.376Z"
+    },
+    {
+      "match_id": "rRMQYkLP",
+      "mandante": "Freiburg",
+      "visitante": "Hamburger SV",
+      "campos": 23,
+      "ts": "2026-05-20T07:33:00.888Z"
+    },
+    {
+      "match_id": "46fChgVs",
+      "mandante": "Werder Bremen",
+      "visitante": "Mainz",
+      "campos": 22,
+      "ts": "2026-05-20T07:33:30.011Z"
+    },
+    {
+      "match_id": "r1NdgWKa",
+      "mandante": "Mainz",
+      "visitante": "Hamburger SV",
+      "campos": 22,
+      "ts": "2026-05-20T07:34:00.019Z"
+    },
+    {
+      "match_id": "tdmuut0k",
+      "mandante": "Dortmund",
+      "visitante": "Mainz",
+      "campos": 22,
+      "ts": "2026-05-20T07:34:29.164Z"
+    },
+    {
+      "match_id": "AXGgA9w1",
+      "mandante": "Mainz",
+      "visitante": "Wolfsburg",
+      "campos": 22,
+      "ts": "2026-05-20T07:34:59.566Z"
+    },
+    {
+      "match_id": "2oxBahPr",
+      "mandante": "FC Koln",
+      "visitante": "Mainz",
+      "campos": 22,
+      "ts": "2026-05-20T07:35:29.960Z"
+    },
+    {
+      "match_id": "W4zmvoc5",
+      "mandante": "Mainz",
+      "visitante": "Heidenheim",
+      "campos": 22,
+      "ts": "2026-05-20T07:35:59.546Z"
+    },
+    {
+      "match_id": "vRmqLQiJ",
+      "mandante": "Dortmund",
+      "visitante": "Heidenheim",
+      "campos": 22,
+      "ts": "2026-05-20T07:36:29.377Z"
+    },
+    {
+      "match_id": "SO3W647k",
+      "mandante": "Hamburger SV",
+      "visitante": "Augsburg",
+      "campos": 23,
+      "ts": "2026-05-20T07:36:58.472Z"
+    },
+    {
+      "match_id": "jqAhEnFF",
+      "mandante": "Union Berlin",
+      "visitante": "St. Pauli",
+      "campos": 22,
+      "ts": "2026-05-20T07:37:26.662Z"
+    },
+    {
+      "match_id": "EufIZpO9",
+      "mandante": "Wolfsburg",
+      "visitante": "Dortmund",
+      "campos": 21,
+      "ts": "2026-05-20T07:37:56.092Z"
+    },
+    {
+      "match_id": "0xS5Qtod",
+      "mandante": "Heidenheim",
+      "visitante": "Hamburger SV",
+      "campos": 22,
+      "ts": "2026-05-20T07:38:25.326Z"
+    },
+    {
+      "match_id": "lG5eRGWr",
+      "mandante": "Wolfsburg",
+      "visitante": "Hamburger SV",
+      "campos": 23,
+      "ts": "2026-05-20T07:38:53.293Z"
+    },
+    {
+      "match_id": "WjeEPorC",
+      "mandante": "Union Berlin",
+      "visitante": "Mainz",
+      "campos": 22,
+      "ts": "2026-05-20T07:39:24.781Z"
+    },
+    {
+      "match_id": "vPQgzCFD",
+      "mandante": "Dortmund",
+      "visitante": "Augsburg",
+      "campos": 20,
+      "ts": "2026-05-20T07:39:54.559Z"
+    },
+    {
+      "match_id": "xbauZ7Yi",
+      "mandante": "Augsburg",
+      "visitante": "FC Koln",
+      "campos": 22,
+      "ts": "2026-05-20T07:40:23.949Z"
+    },
+    {
+      "match_id": "ATt6klKO",
+      "mandante": "Wolfsburg",
+      "visitante": "Augsburg",
+      "campos": 22,
+      "ts": "2026-05-20T07:40:53.947Z"
+    },
+    {
+      "match_id": "zJ8EguFr",
+      "mandante": "Augsburg",
+      "visitante": "Heidenheim",
+      "campos": 21,
+      "ts": "2026-05-20T07:41:22.216Z"
+    },
+    {
+      "match_id": "by4IZP6C",
+      "mandante": "Augsburg",
+      "visitante": "St. Pauli",
+      "campos": 22,
+      "ts": "2026-05-20T07:41:52.648Z"
+    },
+    {
+      "match_id": "zaIEhpCb",
+      "mandante": "Augsburg",
+      "visitante": "Union Berlin",
+      "campos": 22,
+      "ts": "2026-05-20T07:42:21.413Z"
+    },
+    {
+      "match_id": "fHGqG8p3",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Heidenheim",
+      "campos": 22,
+      "ts": "2026-05-20T07:42:51.304Z"
+    },
+    {
+      "match_id": "zP15R7Da",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Augsburg",
+      "campos": 21,
+      "ts": "2026-05-20T07:43:21.226Z"
+    },
+    {
+      "match_id": "MkHhB4to",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Union Berlin",
+      "campos": 22,
+      "ts": "2026-05-20T07:43:50.977Z"
+    },
+    {
+      "match_id": "ltFUkcE7",
+      "mandante": "Hamburger SV",
+      "visitante": "Union Berlin",
+      "campos": 21,
+      "ts": "2026-05-20T07:44:19.736Z"
+    },
+    {
+      "match_id": "bgclWj0K",
+      "mandante": "Union Berlin",
+      "visitante": "Dortmund",
+      "campos": 21,
+      "ts": "2026-05-20T07:44:48.300Z"
+    },
+    {
+      "match_id": "CYEFuS8j",
+      "mandante": "FC Koln",
+      "visitante": "B. Monchengladbach",
+      "campos": 23,
+      "ts": "2026-05-20T07:45:18.106Z"
+    },
+    {
+      "match_id": "YonTlBU6",
+      "mandante": "B. Monchengladbach",
+      "visitante": "St. Pauli",
+      "campos": 22,
+      "ts": "2026-05-20T07:45:48.115Z"
+    },
+    {
+      "match_id": "UeC1w87m",
+      "mandante": "Werder Bremen",
+      "visitante": "B. Monchengladbach",
+      "campos": 22,
+      "ts": "2026-05-20T07:46:18.286Z"
+    },
+    {
+      "match_id": "O0QJcWge",
+      "mandante": "Hamburger SV",
+      "visitante": "B. Monchengladbach",
+      "campos": 22,
+      "ts": "2026-05-20T07:46:48.200Z"
+    },
+    {
+      "match_id": "I77I3vet",
+      "mandante": "Wolfsburg",
+      "visitante": "Werder Bremen",
+      "campos": 23,
+      "ts": "2026-05-20T07:47:18.045Z"
+    },
+    {
+      "match_id": "UixEInlB",
+      "mandante": "Werder Bremen",
+      "visitante": "Heidenheim",
+      "campos": 21,
+      "ts": "2026-05-20T07:47:46.288Z"
+    },
+    {
+      "match_id": "M7AO7VZh",
+      "mandante": "St. Pauli",
+      "visitante": "Werder Bremen",
+      "campos": 22,
+      "ts": "2026-05-20T07:48:15.090Z"
+    },
+    {
+      "match_id": "zwsvt7Sh",
+      "mandante": "Dortmund",
+      "visitante": "Werder Bremen",
+      "campos": 22,
+      "ts": "2026-05-20T07:48:45.076Z"
+    },
+    {
+      "match_id": "M7ELf1IP",
+      "mandante": "Hamburger SV",
+      "visitante": "FC Koln",
+      "campos": 22,
+      "ts": "2026-05-20T07:49:15.222Z"
+    },
+    {
+      "match_id": "jah6qGhR",
+      "mandante": "FC Koln",
+      "visitante": "Dortmund",
+      "campos": 24,
+      "ts": "2026-05-20T07:49:43.944Z"
+    },
+    {
+      "match_id": "IFDxuLrh",
+      "mandante": "FC Koln",
+      "visitante": "Wolfsburg",
+      "campos": 21,
+      "ts": "2026-05-20T07:50:12.692Z"
+    },
+    {
+      "match_id": "SCwWsTct",
+      "mandante": "Heidenheim",
+      "visitante": "FC Koln",
+      "campos": 22,
+      "ts": "2026-05-20T07:50:42.714Z"
+    },
+    {
+      "match_id": "2LhKQUNs",
+      "mandante": "St. Pauli",
+      "visitante": "Hamburger SV",
+      "campos": 22,
+      "ts": "2026-05-20T07:51:11.936Z"
+    },
+    {
+      "match_id": "l2rl7qRi",
+      "mandante": "Dortmund",
+      "visitante": "St. Pauli",
+      "campos": 22,
+      "ts": "2026-05-20T07:51:41.821Z"
+    },
+    {
+      "match_id": "EqU5f6sn",
+      "mandante": "Wolfsburg",
+      "visitante": "St. Pauli",
+      "campos": 21,
+      "ts": "2026-05-20T07:52:11.198Z"
+    },
+    {
+      "match_id": "pA5pqXv2",
+      "mandante": "Wolfsburg",
+      "visitante": "Heidenheim",
+      "campos": 22,
+      "ts": "2026-05-20T07:52:40.291Z"
+    },
+    {
+      "match_id": "lIb0mJAa",
+      "mandante": "Dortmund",
+      "visitante": "Hamburger SV",
+      "campos": 22,
+      "ts": "2026-05-20T07:53:10.304Z"
+    },
+    {
+      "match_id": "QRccRnd2",
+      "mandante": "Heidenheim",
+      "visitante": "Bayern Munich",
+      "campos": 20,
+      "ts": "2026-05-20T07:53:40.014Z"
+    },
+    {
+      "match_id": "jiKbkgqo",
+      "mandante": "Bayern Munich",
+      "visitante": "Mainz",
+      "campos": 21,
+      "ts": "2026-05-20T07:54:09.506Z"
+    },
+    {
+      "match_id": "OOOqeOF6",
+      "mandante": "Stuttgart",
+      "visitante": "Bayern Munich",
+      "campos": 23,
+      "ts": "2026-05-20T07:54:38.879Z"
+    },
+    {
+      "match_id": "pzVmwjfL",
+      "mandante": "Bayern Munich",
+      "visitante": "St. Pauli",
+      "campos": 22,
+      "ts": "2026-05-20T07:55:08.242Z"
+    },
+    {
+      "match_id": "dfhxPaZA",
+      "mandante": "Bayern Munich",
+      "visitante": "Freiburg",
+      "campos": 22,
+      "ts": "2026-05-20T07:55:38.291Z"
+    },
+    {
+      "match_id": "S2jFnxBD",
+      "mandante": "Bayern Munich",
+      "visitante": "Bayer Leverkusen",
+      "campos": 21,
+      "ts": "2026-05-20T07:56:06.999Z"
+    },
+    {
+      "match_id": "bPwIAlc3",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Bayern Munich",
+      "campos": 24,
+      "ts": "2026-05-20T07:56:36.678Z"
+    },
+    {
+      "match_id": "WE3RWYEb",
+      "mandante": "Bayern Munich",
+      "visitante": "Dortmund",
+      "campos": 22,
+      "ts": "2026-05-20T07:57:06.047Z"
+    },
+    {
+      "match_id": "xzXHGMO0",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Bayern Munich",
+      "campos": 22,
+      "ts": "2026-05-20T07:57:35.692Z"
+    },
+    {
+      "match_id": "GpSai6ek",
+      "mandante": "Bayern Munich",
+      "visitante": "Werder Bremen",
+      "campos": 22,
+      "ts": "2026-05-20T07:58:05.167Z"
+    },
+    {
+      "match_id": "OnmLbl3F",
+      "mandante": "Hoffenheim",
+      "visitante": "Bayern Munich",
+      "campos": 22,
+      "ts": "2026-05-20T07:58:34.911Z"
+    },
+    {
+      "match_id": "80jiefuQ",
+      "mandante": "Bayern Munich",
+      "visitante": "Hamburger SV",
+      "campos": 22,
+      "ts": "2026-05-20T07:59:06.090Z"
+    },
+    {
+      "match_id": "IFDuweJs",
+      "mandante": "Augsburg",
+      "visitante": "Bayern Munich",
+      "campos": 22,
+      "ts": "2026-05-20T07:59:36.240Z"
+    },
+    {
+      "match_id": "WU3FGVsp",
+      "mandante": "Dortmund",
+      "visitante": "B. Monchengladbach",
+      "campos": 21,
+      "ts": "2026-05-20T08:00:07.335Z"
+    },
+    {
+      "match_id": "QTb19EzH",
+      "mandante": "Freiburg",
+      "visitante": "Dortmund",
+      "campos": 23,
+      "ts": "2026-05-20T08:00:36.295Z"
+    },
+    {
+      "match_id": "4M8rcpof",
+      "mandante": "RB Leipzig",
+      "visitante": "Eintracht Frankfurt",
+      "campos": 21,
+      "ts": "2026-05-20T08:01:06.018Z"
+    },
+    {
+      "match_id": "COT34ShK",
+      "mandante": "Dortmund",
+      "visitante": "Hoffenheim",
+      "campos": 21,
+      "ts": "2026-05-20T08:01:35.589Z"
+    },
+    {
+      "match_id": "GILJXTHr",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Dortmund",
+      "campos": 22,
+      "ts": "2026-05-20T08:02:05.639Z"
+    },
+    {
+      "match_id": "jeAA6iJq",
+      "mandante": "Dortmund",
+      "visitante": "Stuttgart",
+      "campos": 22,
+      "ts": "2026-05-20T08:02:35.666Z"
+    },
+    {
+      "match_id": "lUlUQL4b",
+      "mandante": "Hamburger SV",
+      "visitante": "Dortmund",
+      "campos": 22,
+      "ts": "2026-05-20T08:03:05.544Z"
+    },
+    {
+      "match_id": "hKht1yQ6",
+      "mandante": "Augsburg",
+      "visitante": "Dortmund",
+      "campos": 21,
+      "ts": "2026-05-20T08:03:33.493Z"
+    },
+    {
+      "match_id": "0UBifTCM",
+      "mandante": "Dortmund",
+      "visitante": "FC Koln",
+      "campos": 22,
+      "ts": "2026-05-20T08:04:03.115Z"
+    },
+    {
+      "match_id": "bkLQE0gD",
+      "mandante": "Dortmund",
+      "visitante": "RB Leipzig",
+      "campos": 22,
+      "ts": "2026-05-20T08:04:33.170Z"
+    },
+    {
+      "match_id": "468fDmI8",
+      "mandante": "Mainz",
+      "visitante": "Dortmund",
+      "campos": 23,
+      "ts": "2026-05-20T08:05:03.568Z"
+    },
+    {
+      "match_id": "zkNt22hA",
+      "mandante": "Dortmund",
+      "visitante": "Wolfsburg",
+      "campos": 22,
+      "ts": "2026-05-20T08:05:32.066Z"
+    },
+    {
+      "match_id": "hSODbToI",
+      "mandante": "Heidenheim",
+      "visitante": "Dortmund",
+      "campos": 24,
+      "ts": "2026-05-20T08:06:01.299Z"
+    },
+    {
+      "match_id": "SM6zUHtR",
+      "mandante": "Dortmund",
+      "visitante": "Union Berlin",
+      "campos": 20,
+      "ts": "2026-05-20T08:06:29.613Z"
+    },
+    {
+      "match_id": "lrd6n8N5",
+      "mandante": "St. Pauli",
+      "visitante": "Dortmund",
+      "campos": 23,
+      "ts": "2026-05-20T08:06:58.577Z"
+    },
+    {
+      "match_id": "KjpAxD43",
+      "mandante": "RB Leipzig",
+      "visitante": "Bayer Leverkusen",
+      "campos": 20,
+      "ts": "2026-05-20T08:07:27.553Z"
+    },
+    {
+      "match_id": "vsKX4JQs",
+      "mandante": "RB Leipzig",
+      "visitante": "Stuttgart",
+      "campos": 20,
+      "ts": "2026-05-20T08:07:57.674Z"
+    },
+    {
+      "match_id": "YZLSPZKc",
+      "mandante": "Union Berlin",
+      "visitante": "RB Leipzig",
+      "campos": 20,
+      "ts": "2026-05-20T08:08:28.543Z"
+    },
+    {
+      "match_id": "bL3UkTwR",
+      "mandante": "B. Monchengladbach",
+      "visitante": "RB Leipzig",
+      "campos": 20,
+      "ts": "2026-05-20T08:08:58.424Z"
+    },
+    {
+      "match_id": "2iDcSYu3",
+      "mandante": "RB Leipzig",
+      "visitante": "Werder Bremen",
+      "campos": 22,
+      "ts": "2026-05-20T08:09:27.204Z"
+    },
+    {
+      "match_id": "SE0LSszn",
+      "mandante": "Hoffenheim",
+      "visitante": "RB Leipzig",
+      "campos": 22,
+      "ts": "2026-05-20T08:09:56.315Z"
+    },
+    {
+      "match_id": "fiXQ8SRF",
+      "mandante": "Augsburg",
+      "visitante": "RB Leipzig",
+      "campos": 22,
+      "ts": "2026-05-20T08:10:24.910Z"
+    },
+    {
+      "match_id": "rFb7NUyo",
+      "mandante": "RB Leipzig",
+      "visitante": "Hamburger SV",
+      "campos": 22,
+      "ts": "2026-05-20T08:10:55.996Z"
+    },
+    {
+      "match_id": "fiFR55Ar",
+      "mandante": "Wolfsburg",
+      "visitante": "RB Leipzig",
+      "campos": 22,
+      "ts": "2026-05-20T08:11:24.901Z"
+    },
+    {
+      "match_id": "M5Ll0tNM",
+      "mandante": "RB Leipzig",
+      "visitante": "FC Koln",
+      "campos": 22,
+      "ts": "2026-05-20T08:11:53.950Z"
+    },
+    {
+      "match_id": "6B0Woj2C",
+      "mandante": "Mainz",
+      "visitante": "RB Leipzig",
+      "campos": 22,
+      "ts": "2026-05-20T08:12:23.387Z"
+    },
+    {
+      "match_id": "b5c6Oe4l",
+      "mandante": "RB Leipzig",
+      "visitante": "Heidenheim",
+      "campos": 22,
+      "ts": "2026-05-20T08:12:53.199Z"
+    },
+    {
+      "match_id": "Q3FAziZF",
+      "mandante": "Stuttgart",
+      "visitante": "Hoffenheim",
+      "campos": 22,
+      "ts": "2026-05-20T08:13:22.585Z"
+    },
+    {
+      "match_id": "MehA7h5T",
+      "mandante": "Werder Bremen",
+      "visitante": "Stuttgart",
+      "campos": 23,
+      "ts": "2026-05-20T08:13:52.967Z"
+    },
+    {
+      "match_id": "pIyItP0D",
+      "mandante": "Hamburger SV",
+      "visitante": "Stuttgart",
+      "campos": 23,
+      "ts": "2026-05-20T08:14:22.986Z"
+    },
+    {
+      "match_id": "OSEeCMk5",
+      "mandante": "Stuttgart",
+      "visitante": "Augsburg",
+      "campos": 22,
+      "ts": "2026-05-20T08:14:53.909Z"
+    },
+    {
+      "match_id": "6VjWno5d",
+      "mandante": "Stuttgart",
+      "visitante": "Mainz",
+      "campos": 22,
+      "ts": "2026-05-20T08:15:24.510Z"
+    },
+    {
+      "match_id": "ALjgoYTi",
+      "mandante": "Wolfsburg",
+      "visitante": "Stuttgart",
+      "campos": 22,
+      "ts": "2026-05-20T08:15:54.091Z"
+    },
+    {
+      "match_id": "pbupKeVh",
+      "mandante": "Stuttgart",
+      "visitante": "Heidenheim",
+      "campos": 21,
+      "ts": "2026-05-20T08:16:23.017Z"
+    },
+    {
+      "match_id": "APnwO4WQ",
+      "mandante": "FC Koln",
+      "visitante": "Stuttgart",
+      "campos": 21,
+      "ts": "2026-05-20T08:16:53.943Z"
+    },
+    {
+      "match_id": "E30ThbFd",
+      "mandante": "Stuttgart",
+      "visitante": "St. Pauli",
+      "campos": 22,
+      "ts": "2026-05-20T08:17:24.012Z"
+    },
+    {
+      "match_id": "0bVVmCXa",
+      "mandante": "Freiburg",
+      "visitante": "Stuttgart",
+      "campos": 22,
+      "ts": "2026-05-20T08:17:54.609Z"
+    },
+    {
+      "match_id": "0nDqMiKM",
+      "mandante": "Hoffenheim",
+      "visitante": "Hamburger SV",
+      "campos": 22,
+      "ts": "2026-05-20T08:18:24.603Z"
+    },
+    {
+      "match_id": "O2m9roW0",
+      "mandante": "Hoffenheim",
+      "visitante": "Augsburg",
+      "campos": 21,
+      "ts": "2026-05-20T08:18:54.612Z"
+    },
+    {
+      "match_id": "O88I4Vmd",
+      "mandante": "Mainz",
+      "visitante": "Hoffenheim",
+      "campos": 23,
+      "ts": "2026-05-20T08:19:24.448Z"
+    },
+    {
+      "match_id": "pfkY2cef",
+      "mandante": "Wolfsburg",
+      "visitante": "Hoffenheim",
+      "campos": 22,
+      "ts": "2026-05-20T08:19:54.557Z"
+    },
+    {
+      "match_id": "8ENmNxLt",
+      "mandante": "St. Pauli",
+      "visitante": "Hoffenheim",
+      "campos": 22,
+      "ts": "2026-05-20T08:20:22.880Z"
+    },
+    {
+      "match_id": "bNbbjKBl",
+      "mandante": "Hoffenheim",
+      "visitante": "Heidenheim",
+      "campos": 21,
+      "ts": "2026-05-20T08:20:52.279Z"
+    },
+    {
+      "match_id": "Kzz9EiaU",
+      "mandante": "Hoffenheim",
+      "visitante": "FC Koln",
+      "campos": 22,
+      "ts": "2026-05-20T08:21:21.949Z"
+    },
+    {
+      "match_id": "CCL8kpQ1",
+      "mandante": "Freiburg",
+      "visitante": "Hoffenheim",
+      "campos": 22,
+      "ts": "2026-05-20T08:21:50.972Z"
+    },
+    {
+      "match_id": "QFXd2Bng",
+      "mandante": "Union Berlin",
+      "visitante": "Hoffenheim",
+      "campos": 22,
+      "ts": "2026-05-20T08:22:20.684Z"
+    },
+    {
+      "match_id": "Es7lyZmf",
+      "mandante": "Hoffenheim",
+      "visitante": "Eintracht Frankfurt",
+      "campos": 22,
+      "ts": "2026-05-20T08:22:50.338Z"
+    },
+    {
+      "match_id": "KlPGyi9m",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Hoffenheim",
+      "campos": 22,
+      "ts": "2026-05-20T08:23:20.705Z"
+    },
+    {
+      "match_id": "IcCpDdyh",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "FC Koln",
+      "campos": 22,
+      "ts": "2026-05-20T08:23:49.776Z"
+    },
+    {
+      "match_id": "AJT30Jin",
+      "mandante": "Augsburg",
+      "visitante": "Bayer Leverkusen",
+      "campos": 22,
+      "ts": "2026-05-20T08:24:20.745Z"
+    },
+    {
+      "match_id": "AHG5QCAF",
+      "mandante": "Wolfsburg",
+      "visitante": "Bayer Leverkusen",
+      "campos": 22,
+      "ts": "2026-05-20T08:24:49.021Z"
+    },
+    {
+      "match_id": "Sx7ODE9C",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Heidenheim",
+      "campos": 22,
+      "ts": "2026-05-20T08:25:18.804Z"
+    },
+    {
+      "match_id": "WlKzbBDc",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Freiburg",
+      "campos": 23,
+      "ts": "2026-05-20T08:25:47.491Z"
+    },
+    {
+      "match_id": "0ferTjEN",
+      "mandante": "Mainz",
+      "visitante": "Bayer Leverkusen",
+      "campos": 22,
+      "ts": "2026-05-20T08:26:17.430Z"
+    },
+    {
+      "match_id": "bcF7HdAm",
+      "mandante": "Heidenheim",
+      "visitante": "Eintracht Frankfurt",
+      "campos": 22,
+      "ts": "2026-05-20T08:26:48.063Z"
+    },
+    {
+      "match_id": "U9T9Irfl",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Union Berlin",
+      "campos": 22,
+      "ts": "2026-05-20T08:27:18.416Z"
+    },
+    {
+      "match_id": "OW6r2N97",
+      "mandante": "St. Pauli",
+      "visitante": "Bayer Leverkusen",
+      "campos": 22,
+      "ts": "2026-05-20T08:27:52.267Z"
+    },
+    {
+      "match_id": "nTtntLVj",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "B. Monchengladbach",
+      "campos": 22,
+      "ts": "2026-05-20T08:28:22.779Z"
+    },
+    {
+      "match_id": "SpXNkY2m",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Eintracht Frankfurt",
+      "campos": 23,
+      "ts": "2026-05-20T08:28:54.229Z"
+    },
+    {
+      "match_id": "KKoFMZY0",
+      "mandante": "Werder Bremen",
+      "visitante": "Bayer Leverkusen",
+      "campos": 23,
+      "ts": "2026-05-20T08:29:25.164Z"
+    },
+    {
+      "match_id": "CMlFGjas",
+      "mandante": "Hamburger SV",
+      "visitante": "Eintracht Frankfurt",
+      "campos": 20,
+      "ts": "2026-05-20T08:29:54.596Z"
+    },
+    {
+      "match_id": "vD0gBz64",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Augsburg",
+      "campos": 22,
+      "ts": "2026-05-20T08:30:24.752Z"
+    },
+    {
+      "match_id": "xY9SV7ne",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Wolfsburg",
+      "campos": 21,
+      "ts": "2026-05-20T08:30:55.503Z"
+    },
+    {
+      "match_id": "l8yuuCP8",
+      "mandante": "FC Koln",
+      "visitante": "Eintracht Frankfurt",
+      "campos": 20,
+      "ts": "2026-05-20T08:31:24.565Z"
+    },
+    {
+      "match_id": "z3AWBhvP",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Mainz",
+      "campos": 22,
+      "ts": "2026-05-20T08:31:54.406Z"
+    },
+    {
+      "match_id": "vFNrdkrA",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "St. Pauli",
+      "campos": 22,
+      "ts": "2026-05-20T08:32:23.977Z"
+    },
+    {
+      "match_id": "StczVCqB",
+      "mandante": "Freiburg",
+      "visitante": "Eintracht Frankfurt",
+      "campos": 22,
+      "ts": "2026-05-20T08:32:52.471Z"
+    },
+    {
+      "match_id": "O8OeBRnL",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Eintracht Frankfurt",
+      "campos": 21,
+      "ts": "2026-05-20T08:33:22.256Z"
+    },
+    {
+      "match_id": "EZYX3ONc",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Union Berlin",
+      "campos": 21,
+      "ts": "2026-05-20T08:33:52.566Z"
+    },
+    {
+      "match_id": "GGIPZUw0",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "Werder Bremen",
+      "campos": 22,
+      "ts": "2026-05-20T08:34:22.921Z"
+    },
+    {
+      "match_id": "YTIIYU3S",
+      "mandante": "Wolfsburg",
+      "visitante": "Freiburg",
+      "campos": 21,
+      "ts": "2026-05-20T08:34:52.448Z"
+    },
+    {
+      "match_id": "EZtkaFfJ",
+      "mandante": "Union Berlin",
+      "visitante": "Freiburg",
+      "campos": 22,
+      "ts": "2026-05-20T08:35:21.949Z"
+    },
+    {
+      "match_id": "rBY1Au3K",
+      "mandante": "Mainz",
+      "visitante": "Werder Bremen",
+      "campos": 22,
+      "ts": "2026-05-20T08:35:52.069Z"
+    },
+    {
+      "match_id": "Ol0JYfpn",
+      "mandante": "Hamburger SV",
+      "visitante": "Mainz",
+      "campos": 22,
+      "ts": "2026-05-20T08:36:21.208Z"
+    },
+    {
+      "match_id": "IBwhIZa5",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Freiburg",
+      "campos": 21,
+      "ts": "2026-05-20T08:36:50.740Z"
+    },
+    {
+      "match_id": "IqXBbcMb",
+      "mandante": "Heidenheim",
+      "visitante": "Freiburg",
+      "campos": 22,
+      "ts": "2026-05-20T08:37:19.197Z"
+    },
+    {
+      "match_id": "AaNZToH7",
+      "mandante": "Freiburg",
+      "visitante": "Mainz",
+      "campos": 23,
+      "ts": "2026-05-20T08:37:49.164Z"
+    },
+    {
+      "match_id": "tpNvG4jt",
+      "mandante": "Freiburg",
+      "visitante": "St. Pauli",
+      "campos": 21,
+      "ts": "2026-05-20T08:38:19.165Z"
+    },
+    {
+      "match_id": "tj2LfKpp",
+      "mandante": "Werder Bremen",
+      "visitante": "Freiburg",
+      "campos": 22,
+      "ts": "2026-05-20T08:38:50.618Z"
+    },
+    {
+      "match_id": "KvAdZCI6",
+      "mandante": "FC Koln",
+      "visitante": "Freiburg",
+      "campos": 22,
+      "ts": "2026-05-20T08:39:20.472Z"
+    },
+    {
+      "match_id": "SdcOE9Cd",
+      "mandante": "Mainz",
+      "visitante": "St. Pauli",
+      "campos": 22,
+      "ts": "2026-05-20T08:39:50.550Z"
+    },
+    {
+      "match_id": "W8Aza6Gs",
+      "mandante": "Mainz",
+      "visitante": "B. Monchengladbach",
+      "campos": 22,
+      "ts": "2026-05-20T08:40:19.267Z"
+    },
+    {
+      "match_id": "WvVD0AY2",
+      "mandante": "Augsburg",
+      "visitante": "Mainz",
+      "campos": 23,
+      "ts": "2026-05-20T08:40:49.703Z"
+    },
+    {
+      "match_id": "MqS9rHeK",
+      "mandante": "Wolfsburg",
+      "visitante": "Mainz",
+      "campos": 23,
+      "ts": "2026-05-20T08:41:18.441Z"
+    },
+    {
+      "match_id": "UwPuWnwP",
+      "mandante": "Mainz",
+      "visitante": "FC Koln",
+      "campos": 23,
+      "ts": "2026-05-20T08:41:49.500Z"
+    },
+    {
+      "match_id": "I1fkT8Rk",
+      "mandante": "Augsburg",
+      "visitante": "Werder Bremen",
+      "campos": 22,
+      "ts": "2026-05-20T08:42:19.205Z"
+    },
+    {
+      "match_id": "WW4EOjuS",
+      "mandante": "Augsburg",
+      "visitante": "Hamburger SV",
+      "campos": 23,
+      "ts": "2026-05-20T08:42:50.325Z"
+    },
+    {
+      "match_id": "Gtxlz8Lj",
+      "mandante": "FC Koln",
+      "visitante": "Augsburg",
+      "campos": 22,
+      "ts": "2026-05-20T08:43:20.598Z"
+    },
+    {
+      "match_id": "EwX0GDUH",
+      "mandante": "Augsburg",
+      "visitante": "Wolfsburg",
+      "campos": 22,
+      "ts": "2026-05-20T08:43:51.172Z"
+    },
+    {
+      "match_id": "xClVPQ1E",
+      "mandante": "Heidenheim",
+      "visitante": "Augsburg",
+      "campos": 22,
+      "ts": "2026-05-20T08:44:22.210Z"
+    },
+    {
+      "match_id": "KEQ50kH5",
+      "mandante": "St. Pauli",
+      "visitante": "Augsburg",
+      "campos": 22,
+      "ts": "2026-05-20T08:44:51.070Z"
+    },
+    {
+      "match_id": "8OzXX88C",
+      "mandante": "Freiburg",
+      "visitante": "Augsburg",
+      "campos": 22,
+      "ts": "2026-05-20T08:45:21.312Z"
+    },
+    {
+      "match_id": "tzSsZbF8",
+      "mandante": "FC Koln",
+      "visitante": "Union Berlin",
+      "campos": 23,
+      "ts": "2026-05-20T08:45:51.096Z"
+    },
+    {
+      "match_id": "WlSig2pJ",
+      "mandante": "Wolfsburg",
+      "visitante": "Union Berlin",
+      "campos": 22,
+      "ts": "2026-05-20T08:46:20.495Z"
+    },
+    {
+      "match_id": "I5p1p71l",
+      "mandante": "Union Berlin",
+      "visitante": "Heidenheim",
+      "campos": 22,
+      "ts": "2026-05-20T08:46:49.709Z"
+    },
+    {
+      "match_id": "2FepJU2k",
+      "mandante": "St. Pauli",
+      "visitante": "Union Berlin",
+      "campos": 22,
+      "ts": "2026-05-20T08:47:19.397Z"
+    },
+    {
+      "match_id": "A3cNl7zp",
+      "mandante": "Werder Bremen",
+      "visitante": "Union Berlin",
+      "campos": 22,
+      "ts": "2026-05-20T08:47:48.356Z"
+    },
+    {
+      "match_id": "Wzu2qCb4",
+      "mandante": "Union Berlin",
+      "visitante": "B. Monchengladbach",
+      "campos": 22,
+      "ts": "2026-05-20T08:48:18.212Z"
+    },
+    {
+      "match_id": "G63z4que",
+      "mandante": "Union Berlin",
+      "visitante": "Hamburger SV",
+      "campos": 23,
+      "ts": "2026-05-20T08:48:46.844Z"
+    },
+    {
+      "match_id": "GUcblUhg",
+      "mandante": "Union Berlin",
+      "visitante": "Stuttgart",
+      "campos": 22,
+      "ts": "2026-05-20T08:49:17.362Z"
+    },
+    {
+      "match_id": "WADFFzu0",
+      "mandante": "FC Koln",
+      "visitante": "Hamburger SV",
+      "campos": 23,
+      "ts": "2026-05-20T08:49:46.340Z"
+    },
+    {
+      "match_id": "W6wSfFLN",
+      "mandante": "Hamburger SV",
+      "visitante": "Werder Bremen",
+      "campos": 22,
+      "ts": "2026-05-20T08:50:17.286Z"
+    },
+    {
+      "match_id": "Kxm7lbt1",
+      "mandante": "Hamburger SV",
+      "visitante": "Wolfsburg",
+      "campos": 22,
+      "ts": "2026-05-20T08:50:46.443Z"
+    },
+    {
+      "match_id": "p2yUdSXR",
+      "mandante": "Hamburger SV",
+      "visitante": "Heidenheim",
+      "campos": 22,
+      "ts": "2026-05-20T08:51:15.999Z"
+    },
+    {
+      "match_id": "tfb5XjmJ",
+      "mandante": "Hamburger SV",
+      "visitante": "St. Pauli",
+      "campos": 23,
+      "ts": "2026-05-20T08:51:44.850Z"
+    },
+    {
+      "match_id": "K24kjjOt",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Hamburger SV",
+      "campos": 22,
+      "ts": "2026-05-20T08:52:14.247Z"
+    },
+    {
+      "match_id": "IRwt2WSj",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Wolfsburg",
+      "campos": 22,
+      "ts": "2026-05-20T08:52:44.772Z"
+    },
+    {
+      "match_id": "dElgH8X1",
+      "mandante": "Heidenheim",
+      "visitante": "B. Monchengladbach",
+      "campos": 22,
+      "ts": "2026-05-20T08:53:15.505Z"
+    },
+    {
+      "match_id": "ttZzNInQ",
+      "mandante": "St. Pauli",
+      "visitante": "B. Monchengladbach",
+      "campos": 22,
+      "ts": "2026-05-20T08:53:44.482Z"
+    },
+    {
+      "match_id": "dtD3A0KH",
+      "mandante": "B. Monchengladbach",
+      "visitante": "FC Koln",
+      "campos": 22,
+      "ts": "2026-05-20T08:54:15.304Z"
+    },
+    {
+      "match_id": "Ey4vpUWO",
+      "mandante": "B. Monchengladbach",
+      "visitante": "Werder Bremen",
+      "campos": 22,
+      "ts": "2026-05-20T08:54:45.072Z"
+    },
+    {
+      "match_id": "6ypNKD3D",
+      "mandante": "Stuttgart",
+      "visitante": "B. Monchengladbach",
+      "campos": 22,
+      "ts": "2026-05-20T08:55:15.401Z"
+    },
+    {
+      "match_id": "Q75Mik9E",
+      "mandante": "Werder Bremen",
+      "visitante": "FC Koln",
+      "campos": 23,
+      "ts": "2026-05-20T08:55:44.840Z"
+    },
+    {
+      "match_id": "S0LnErLh",
+      "mandante": "Werder Bremen",
+      "visitante": "Wolfsburg",
+      "campos": 21,
+      "ts": "2026-05-20T08:56:13.922Z"
+    },
+    {
+      "match_id": "KAjIuUcT",
+      "mandante": "Heidenheim",
+      "visitante": "Werder Bremen",
+      "campos": 22,
+      "ts": "2026-05-20T08:56:43.767Z"
+    },
+    {
+      "match_id": "lWoyMH0t",
+      "mandante": "Werder Bremen",
+      "visitante": "St. Pauli",
+      "campos": 21,
+      "ts": "2026-05-20T08:57:13.453Z"
+    },
+    {
+      "match_id": "bguKdyiB",
+      "mandante": "FC Koln",
+      "visitante": "St. Pauli",
+      "campos": 21,
+      "ts": "2026-05-20T08:57:44.506Z"
+    },
+    {
+      "match_id": "IkUl4XHt",
+      "mandante": "Wolfsburg",
+      "visitante": "FC Koln",
+      "campos": 21,
+      "ts": "2026-05-20T08:58:12.963Z"
+    },
+    {
+      "match_id": "vXOzODkA",
+      "mandante": "St. Pauli",
+      "visitante": "Heidenheim",
+      "campos": 24,
+      "ts": "2026-05-20T08:58:43.531Z"
+    },
+    {
+      "match_id": "8pC7pnhI",
+      "mandante": "Heidenheim",
+      "visitante": "Wolfsburg",
+      "campos": 22,
+      "ts": "2026-05-20T08:59:11.862Z"
+    },
+    {
+      "match_id": "jckRSoU8",
+      "mandante": "Mainz",
+      "visitante": "Freiburg",
+      "campos": 22,
+      "ts": "2026-05-20T08:59:39.702Z"
+    },
+    {
+      "match_id": "6VjbL3Mr",
+      "mandante": "Stuttgart",
+      "visitante": "Hamburger SV",
+      "campos": 22,
+      "ts": "2026-05-20T09:00:08.904Z"
+    },
+    {
+      "match_id": "hnFuYt6l",
+      "mandante": "FC Koln",
+      "visitante": "Werder Bremen",
+      "campos": 23,
+      "ts": "2026-05-20T09:00:39.189Z"
+    },
+    {
+      "match_id": "2Hz1uPDE",
+      "mandante": "St. Pauli",
+      "visitante": "Bayern Munich",
+      "campos": 22,
+      "ts": "2026-05-20T09:01:09.092Z"
+    },
+    {
+      "match_id": "zk7v5rx2",
+      "mandante": "Dortmund",
+      "visitante": "Bayer Leverkusen",
+      "campos": 22,
+      "ts": "2026-05-20T09:01:39.027Z"
+    },
+    {
+      "match_id": "dGT9w3rR",
+      "mandante": "Heidenheim",
+      "visitante": "Union Berlin",
+      "campos": 22,
+      "ts": "2026-05-20T09:02:09.297Z"
+    },
+    {
+      "match_id": "OAmZQPbL",
+      "mandante": "RB Leipzig",
+      "visitante": "B. Monchengladbach",
+      "campos": 22,
+      "ts": "2026-05-20T09:02:38.020Z"
+    },
+    {
+      "match_id": "Eef6Jsie",
+      "mandante": "Wolfsburg",
+      "visitante": "Eintracht Frankfurt",
+      "campos": 22,
+      "ts": "2026-05-20T09:03:07.863Z"
+    },
+    {
+      "match_id": "42KOXXB5",
+      "mandante": "Freiburg",
+      "visitante": "Heidenheim",
+      "campos": 21,
+      "ts": "2026-05-20T09:03:37.922Z"
+    },
+    {
+      "match_id": "8zRFZgsg",
+      "mandante": "Eintracht Frankfurt",
+      "visitante": "RB Leipzig",
+      "campos": 22,
+      "ts": "2026-05-20T09:04:07.785Z"
+    },
+    {
+      "match_id": "z9D8yGCt",
+      "mandante": "Bayer Leverkusen",
+      "visitante": "Augsburg",
+      "campos": 21,
+      "ts": "2026-05-20T09:04:37.974Z"
+    },
+    {
+      "match_id": "jJr6pBeB",
+      "mandante": "Hoffenheim",
+      "visitante": "Dortmund",
+      "campos": 22,
+      "ts": "2026-05-20T09:05:08.329Z"
+    },
+    {
+      "match_id": "Mwiklgdn",
+      "mandante": "Union Berlin",
+      "visitante": "Wolfsburg",
+      "campos": 21,
+      "ts": "2026-05-20T09:05:37.418Z"
+    },
+    {
+      "match_id": "xGIWVBtI",
+      "mandante": "Werder Bremen",
+      "visitante": "Hamburger SV",
+      "campos": 23,
+      "ts": "2026-05-20T09:06:05.951Z"
+    },
+    {
+      "match_id": "rgubnXQb",
+      "mandante": "St. Pauli",
+      "visitante": "FC Koln",
+      "campos": 21,
+      "ts": "2026-05-20T09:06:34.215Z"
+    }
+  ],
+  "falhados": []
+}

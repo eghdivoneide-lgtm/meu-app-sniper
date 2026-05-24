@@ -1,0 +1,3558 @@
+{
+ "Albirex Niigata": {
+  "time": "Albirex Niigata",
+  "n_jogos": 2,
+  "n_casa": 1,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 6,
+   "casa_sof": 2,
+   "casa_total": 8,
+   "casa_total_ht": 2,
+   "fora_pro": 5,
+   "fora_sof": 4,
+   "fora_total": 9,
+   "fora_total_ht": 3
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 36.4,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 2,
+   "t2_pro": 3.5
+  },
+  "sangrador": {
+   "sof_avg": 3,
+   "posse_avg": 58.5,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 3.67,
+   "categoria": "NORMAL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    6,
+    5
+   ],
+   "ultimos_totais": [
+    8,
+    9
+   ]
+  },
+  "historico": [
+   {
+    "data": "03.05.2026 02:03",
+    "rodada": "R1",
+    "local": "CASA",
+    "adv": "Kamatamare",
+    "c_pro_ht": 2,
+    "c_sof_ht": 0,
+    "c_pro_2t": 4,
+    "c_sof_2t": 2,
+    "c_pro_ft": 6,
+    "c_sof_ft": 2,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 62,
+    "t_ft": 8,
+    "t_ht": 2
+   },
+   {
+    "data": "10.05.2026 01:30",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Kanazawa",
+    "c_pro_ht": 2,
+    "c_sof_ht": 1,
+    "c_pro_2t": 3,
+    "c_sof_2t": 3,
+    "c_pro_ft": 5,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 55,
+    "t_ft": 9,
+    "t_ht": 3
+   }
+  ]
+ },
+ "Blaublitz": {
+  "time": "Blaublitz",
+  "n_jogos": 3,
+  "n_casa": 1,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 6,
+   "casa_sof": 10,
+   "casa_total": 16,
+   "casa_total_ht": 10,
+   "fora_pro": 8.5,
+   "fora_sof": 6.5,
+   "fora_total": 15.0,
+   "fora_total_ht": 6.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 56.5,
+   "categoria": "BLITZ_INICIAL",
+   "ht_pro": 4.33,
+   "t2_pro": 3.33
+  },
+  "sangrador": {
+   "sof_avg": 7.67,
+   "posse_avg": 48,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 7.67,
+   "categoria": "ESTERIL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.5 desvio +0.0",
+   "ultimos_cantos": [
+    8,
+    6,
+    9
+   ],
+   "ultimos_totais": [
+    17,
+    16,
+    13
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.05.2026 02:00",
+    "rodada": "R1",
+    "local": "FORA",
+    "adv": "Vegalta Sendai",
+    "c_pro_ht": 4,
+    "c_sof_ht": 5,
+    "c_pro_2t": 4,
+    "c_sof_2t": 4,
+    "c_pro_ft": 8,
+    "c_sof_ft": 9,
+    "gols_pro_ht": 2,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 3,
+    "gols_sof_ft": 1,
+    "posse": 42,
+    "t_ft": 17,
+    "t_ht": 9
+   },
+   {
+    "data": "06.05.2026 03:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Sagamihara",
+    "c_pro_ht": 6,
+    "c_sof_ht": 4,
+    "c_pro_2t": 0,
+    "c_sof_2t": 6,
+    "c_pro_ft": 6,
+    "c_sof_ft": 10,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 56,
+    "t_ft": 16,
+    "t_ht": 10
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Tochigi SC",
+    "c_pro_ht": 3,
+    "c_sof_ht": 1,
+    "c_pro_2t": 6,
+    "c_sof_2t": 3,
+    "c_pro_ft": 9,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 46,
+    "t_ft": 13,
+    "t_ht": 4
+   }
+  ]
+ },
+ "Ehime": {
+  "time": "Ehime",
+  "n_jogos": 2,
+  "n_casa": 1,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 2,
+   "casa_sof": 6,
+   "casa_total": 8,
+   "casa_total_ht": 3,
+   "fora_pro": 2,
+   "fora_sof": 7,
+   "fora_total": 9,
+   "fora_total_ht": 7
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 100.0,
+   "categoria": "BLITZ_INICIAL",
+   "ht_pro": 2,
+   "t2_pro": 0
+  },
+  "sangrador": {
+   "sof_avg": 6.5,
+   "posse_avg": 49,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 0.67,
+   "categoria": "CLINICA"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    2,
+    2
+   ],
+   "ultimos_totais": [
+    9,
+    8
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.05.2026 02:00",
+    "rodada": "R1",
+    "local": "FORA",
+    "adv": "Tokushima",
+    "c_pro_ht": 2,
+    "c_sof_ht": 5,
+    "c_pro_2t": 0,
+    "c_sof_2t": 2,
+    "c_pro_ft": 2,
+    "c_sof_ft": 7,
+    "gols_pro_ht": 2,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 6,
+    "gols_sof_ft": 0,
+    "posse": 49,
+    "t_ft": 9,
+    "t_ht": 7
+   },
+   {
+    "data": "10.05.2026 03:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Toyama",
+    "c_pro_ht": 2,
+    "c_sof_ht": 1,
+    "c_pro_2t": 0,
+    "c_sof_2t": 5,
+    "c_pro_ft": 2,
+    "c_sof_ft": 6,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 2,
+    "posse": 49,
+    "t_ft": 8,
+    "t_ht": 3
+   }
+  ]
+ },
+ "Fujieda MYFC": {
+  "time": "Fujieda MYFC",
+  "n_jogos": 2,
+  "n_casa": 0,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 0,
+   "casa_sof": 0,
+   "casa_total": 0,
+   "casa_total_ht": 0,
+   "fora_pro": 7,
+   "fora_sof": 3.5,
+   "fora_total": 10.5,
+   "fora_total_ht": 3
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 28.6,
+   "categoria": "ASFIXIA_FINAL",
+   "ht_pro": 2,
+   "t2_pro": 5
+  },
+  "sangrador": {
+   "sof_avg": 3.5,
+   "posse_avg": 57,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 14.0,
+   "categoria": "ESTERIL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    9,
+    5
+   ],
+   "ultimos_totais": [
+    12,
+    9
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.05.2026 06:00",
+    "rodada": "R1",
+    "local": "FORA",
+    "adv": "Nagano",
+    "c_pro_ht": 1,
+    "c_sof_ht": 0,
+    "c_pro_2t": 8,
+    "c_sof_2t": 3,
+    "c_pro_ft": 9,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 62,
+    "t_ft": 12,
+    "t_ht": 1
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Yamaga",
+    "c_pro_ht": 3,
+    "c_sof_ht": 2,
+    "c_pro_2t": 2,
+    "c_sof_2t": 2,
+    "c_pro_ft": 5,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 52,
+    "t_ft": 9,
+    "t_ht": 5
+   }
+  ]
+ },
+ "Fukushima Utd": {
+  "time": "Fukushima Utd",
+  "n_jogos": 2,
+  "n_casa": 2,
+  "n_fora": 0,
+  "volume": {
+   "casa_pro": 4,
+   "casa_sof": 5.5,
+   "casa_total": 9.5,
+   "casa_total_ht": 6.0,
+   "fora_pro": 0,
+   "fora_sof": 0,
+   "fora_total": 0,
+   "fora_total_ht": 0
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 62.5,
+   "categoria": "BLITZ_INICIAL",
+   "ht_pro": 2.5,
+   "t2_pro": 1.5
+  },
+  "sangrador": {
+   "sof_avg": 5.5,
+   "posse_avg": 47,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 1.6,
+   "categoria": "CLINICA"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    7,
+    1
+   ],
+   "ultimos_totais": [
+    11,
+    8
+   ]
+  },
+  "historico": [
+   {
+    "data": "03.05.2026 02:03",
+    "rodada": "R1",
+    "local": "CASA",
+    "adv": "Omiya Ardija",
+    "c_pro_ht": 4,
+    "c_sof_ht": 1,
+    "c_pro_2t": 3,
+    "c_sof_2t": 3,
+    "c_pro_ft": 7,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 48,
+    "t_ft": 11,
+    "t_ht": 5
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Iwata",
+    "c_pro_ht": 1,
+    "c_sof_ht": 6,
+    "c_pro_2t": 0,
+    "c_sof_2t": 1,
+    "c_pro_ft": 1,
+    "c_sof_ft": 7,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 4,
+    "gols_sof_ft": 2,
+    "posse": 46,
+    "t_ft": 8,
+    "t_ht": 7
+   }
+  ]
+ },
+ "Gainare Tottori": {
+  "time": "Gainare Tottori",
+  "n_jogos": 2,
+  "n_casa": 2,
+  "n_fora": 0,
+  "volume": {
+   "casa_pro": 5,
+   "casa_sof": 3.5,
+   "casa_total": 8.5,
+   "casa_total_ht": 5,
+   "fora_pro": 0,
+   "fora_sof": 0,
+   "fora_total": 0,
+   "fora_total_ht": 0
+  },
+  "pos_gol_pro": {
+   "n": 2,
+   "c_2t_pro": 2,
+   "c_2t_sof": 1.5,
+   "diff": 0.5,
+   "estilo": "EQUILIBRADO_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 60.0,
+   "categoria": "BLITZ_INICIAL",
+   "ht_pro": 3,
+   "t2_pro": 2
+  },
+  "sangrador": {
+   "sof_avg": 3.5,
+   "posse_avg": 44.5,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 1.67,
+   "categoria": "CLINICA"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    9,
+    1
+   ],
+   "ultimos_totais": [
+    10,
+    7
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.05.2026 03:00",
+    "rodada": "R1",
+    "local": "CASA",
+    "adv": "Renofa Yamaguchi",
+    "c_pro_ht": 6,
+    "c_sof_ht": 0,
+    "c_pro_2t": 3,
+    "c_sof_2t": 1,
+    "c_pro_ft": 9,
+    "c_sof_ft": 1,
+    "gols_pro_ht": 3,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 4,
+    "gols_sof_ft": 1,
+    "posse": 51,
+    "t_ft": 10,
+    "t_ht": 6
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Giravanz Kitakyushu",
+    "c_pro_ht": 0,
+    "c_sof_ht": 4,
+    "c_pro_2t": 1,
+    "c_sof_2t": 2,
+    "c_pro_ft": 1,
+    "c_sof_ft": 6,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 38,
+    "t_ft": 7,
+    "t_ht": 4
+   }
+  ]
+ },
+ "Gifu": {
+  "time": "Gifu",
+  "n_jogos": 3,
+  "n_casa": 2,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 2.5,
+   "casa_sof": 4.5,
+   "casa_total": 7.0,
+   "casa_total_ht": 3.5,
+   "fora_pro": 6,
+   "fora_sof": 5,
+   "fora_total": 11,
+   "fora_total_ht": 4
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "c_2t_pro": 4,
+   "c_2t_sof": 2,
+   "diff": 2,
+   "estilo": "REAGE_PRESSIONA"
+  },
+  "distribuicao": {
+   "pct_ht": 18.2,
+   "categoria": "ASFIXIA_FINAL",
+   "ht_pro": 0.67,
+   "t2_pro": 3
+  },
+  "sangrador": {
+   "sof_avg": 4.67,
+   "posse_avg": 50.3,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 3.67,
+   "categoria": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 2.5 desvio +0.0",
+   "ultimos_cantos": [
+    1,
+    4,
+    6
+   ],
+   "ultimos_totais": [
+    2,
+    12,
+    11
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.05.2026 02:00",
+    "rodada": "R1",
+    "local": "CASA",
+    "adv": "Hokkaido Consadole Sapporo",
+    "c_pro_ht": 0,
+    "c_sof_ht": 0,
+    "c_pro_2t": 1,
+    "c_sof_2t": 1,
+    "c_pro_ft": 1,
+    "c_sof_ft": 1,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 3,
+    "posse": 58,
+    "t_ft": 2,
+    "t_ht": 0
+   },
+   {
+    "data": "06.05.2026 07:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Yamaga",
+    "c_pro_ht": 2,
+    "c_sof_ht": 5,
+    "c_pro_2t": 2,
+    "c_sof_2t": 3,
+    "c_pro_ft": 4,
+    "c_sof_ft": 8,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 3,
+    "posse": 45,
+    "t_ft": 12,
+    "t_ht": 7
+   },
+   {
+    "data": "09.05.2026 06:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Nagano",
+    "c_pro_ht": 0,
+    "c_sof_ht": 4,
+    "c_pro_2t": 6,
+    "c_sof_2t": 1,
+    "c_pro_ft": 6,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 3,
+    "gols_sof_ft": 2,
+    "posse": 48,
+    "t_ft": 11,
+    "t_ht": 4
+   }
+  ]
+ },
+ "Giravanz Kitakyushu": {
+  "time": "Giravanz Kitakyushu",
+  "n_jogos": 2,
+  "n_casa": 1,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 3,
+   "casa_sof": 5,
+   "casa_total": 8,
+   "casa_total_ht": 4,
+   "fora_pro": 6,
+   "fora_sof": 1,
+   "fora_total": 7,
+   "fora_total_ht": 4
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 66.7,
+   "categoria": "BLITZ_INICIAL",
+   "ht_pro": 3,
+   "t2_pro": 1.5
+  },
+  "sangrador": {
+   "sof_avg": 3,
+   "posse_avg": 55.5,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 3.0,
+   "categoria": "CLINICA"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    3,
+    6
+   ],
+   "ultimos_totais": [
+    8,
+    7
+   ]
+  },
+  "historico": [
+   {
+    "data": "03.05.2026 02:03",
+    "rodada": "R1",
+    "local": "CASA",
+    "adv": "Oita Trinita",
+    "c_pro_ht": 2,
+    "c_sof_ht": 2,
+    "c_pro_2t": 1,
+    "c_sof_2t": 3,
+    "c_pro_ft": 3,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 2,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 49,
+    "t_ft": 8,
+    "t_ht": 4
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Gainare Tottori",
+    "c_pro_ht": 4,
+    "c_sof_ht": 0,
+    "c_pro_2t": 2,
+    "c_sof_2t": 1,
+    "c_pro_ft": 6,
+    "c_sof_ft": 1,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 62,
+    "t_ft": 7,
+    "t_ht": 4
+   }
+  ]
+ },
+ "Hokkaido Consadole Sapporo": {
+  "time": "Hokkaido Consadole Sapporo",
+  "n_jogos": 2,
+  "n_casa": 1,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 3,
+   "casa_sof": 4,
+   "casa_total": 7,
+   "casa_total_ht": 4,
+   "fora_pro": 1,
+   "fora_sof": 1,
+   "fora_total": 2,
+   "fora_total_ht": 0
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 50.0,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 1,
+   "t2_pro": 1
+  },
+  "sangrador": {
+   "sof_avg": 2.5,
+   "posse_avg": 40.5,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 0.57,
+   "categoria": "CLINICA"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    1,
+    3
+   ],
+   "ultimos_totais": [
+    2,
+    7
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.05.2026 02:00",
+    "rodada": "R1",
+    "local": "FORA",
+    "adv": "Gifu",
+    "c_pro_ht": 0,
+    "c_sof_ht": 0,
+    "c_pro_2t": 1,
+    "c_sof_2t": 1,
+    "c_pro_ft": 1,
+    "c_sof_ft": 1,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 3,
+    "gols_sof_ft": 0,
+    "posse": 42,
+    "t_ft": 2,
+    "t_ht": 0
+   },
+   {
+    "data": "09.05.2026 02:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Omiya Ardija",
+    "c_pro_ht": 2,
+    "c_sof_ht": 2,
+    "c_pro_2t": 1,
+    "c_sof_2t": 2,
+    "c_pro_ft": 3,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 3,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 4,
+    "gols_sof_ft": 3,
+    "posse": 39,
+    "t_ft": 7,
+    "t_ht": 4
+   }
+  ]
+ },
+ "Imabari": {
+  "time": "Imabari",
+  "n_jogos": 2,
+  "n_casa": 1,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 5,
+   "casa_sof": 0,
+   "casa_total": 5,
+   "casa_total_ht": 1,
+   "fora_pro": 2,
+   "fora_sof": 7,
+   "fora_total": 9,
+   "fora_total_ht": 4
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 28.6,
+   "categoria": "ASFIXIA_FINAL",
+   "ht_pro": 1,
+   "t2_pro": 2.5
+  },
+  "sangrador": {
+   "sof_avg": 3.5,
+   "posse_avg": 47,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 2.33,
+   "categoria": "CLINICA"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    5,
+    2
+   ],
+   "ultimos_totais": [
+    5,
+    9
+   ]
+  },
+  "historico": [
+   {
+    "data": "03.05.2026 02:03",
+    "rodada": "R1",
+    "local": "CASA",
+    "adv": "Nara Club",
+    "c_pro_ht": 1,
+    "c_sof_ht": 0,
+    "c_pro_2t": 4,
+    "c_sof_2t": 0,
+    "c_pro_ft": 5,
+    "c_sof_ft": 0,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 2,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 58,
+    "t_ft": 5,
+    "t_ht": 1
+   },
+   {
+    "data": "09.05.2026 02:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Osaka",
+    "c_pro_ht": 1,
+    "c_sof_ht": 3,
+    "c_pro_2t": 1,
+    "c_sof_2t": 4,
+    "c_pro_ft": 2,
+    "c_sof_ft": 7,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 36,
+    "t_ft": 9,
+    "t_ht": 4
+   }
+  ]
+ },
+ "Iwaki": {
+  "time": "Iwaki",
+  "n_jogos": 2,
+  "n_casa": 1,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 4,
+   "casa_sof": 3,
+   "casa_total": 7,
+   "casa_total_ht": 3,
+   "fora_pro": 5,
+   "fora_sof": 3,
+   "fora_total": 8,
+   "fora_total_ht": 3
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "c_2t_pro": 2,
+   "c_2t_sof": 2.5,
+   "diff": -0.5,
+   "estilo": "EQUILIBRADO_REACAO"
+  },
+  "distribuicao": {
+   "pct_ht": 55.6,
+   "categoria": "BLITZ_INICIAL",
+   "ht_pro": 2.5,
+   "t2_pro": 2
+  },
+  "sangrador": {
+   "sof_avg": 3,
+   "posse_avg": 59,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 4.5,
+   "categoria": "NORMAL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    5,
+    4
+   ],
+   "ultimos_totais": [
+    8,
+    7
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.05.2026 02:00",
+    "rodada": "R1",
+    "local": "FORA",
+    "adv": "Iwata",
+    "c_pro_ht": 3,
+    "c_sof_ht": 0,
+    "c_pro_2t": 2,
+    "c_sof_2t": 3,
+    "c_pro_ft": 5,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 55,
+    "t_ft": 8,
+    "t_ht": 3
+   },
+   {
+    "data": "09.05.2026 02:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Kofu",
+    "c_pro_ht": 2,
+    "c_sof_ht": 1,
+    "c_pro_2t": 2,
+    "c_sof_2t": 2,
+    "c_pro_ft": 4,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 63,
+    "t_ft": 7,
+    "t_ht": 3
+   }
+  ]
+ },
+ "Iwata": {
+  "time": "Iwata",
+  "n_jogos": 2,
+  "n_casa": 1,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 3,
+   "casa_sof": 5,
+   "casa_total": 8,
+   "casa_total_ht": 3,
+   "fora_pro": 7,
+   "fora_sof": 1,
+   "fora_total": 8,
+   "fora_total_ht": 7
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 60.0,
+   "categoria": "BLITZ_INICIAL",
+   "ht_pro": 3,
+   "t2_pro": 2
+  },
+  "sangrador": {
+   "sof_avg": 3,
+   "posse_avg": 49.5,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 3.33,
+   "categoria": "NORMAL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    3,
+    7
+   ],
+   "ultimos_totais": [
+    8,
+    8
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.05.2026 02:00",
+    "rodada": "R1",
+    "local": "CASA",
+    "adv": "Iwaki",
+    "c_pro_ht": 0,
+    "c_sof_ht": 3,
+    "c_pro_2t": 3,
+    "c_sof_2t": 2,
+    "c_pro_ft": 3,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 45,
+    "t_ft": 8,
+    "t_ht": 3
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Fukushima Utd",
+    "c_pro_ht": 6,
+    "c_sof_ht": 1,
+    "c_pro_2t": 1,
+    "c_sof_2t": 0,
+    "c_pro_ft": 7,
+    "c_sof_ft": 1,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 4,
+    "posse": 54,
+    "t_ft": 8,
+    "t_ht": 7
+   }
+  ]
+ },
+ "Kagoshima Utd": {
+  "time": "Kagoshima Utd",
+  "n_jogos": 2,
+  "n_casa": 0,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 0,
+   "casa_sof": 0,
+   "casa_total": 0,
+   "casa_total_ht": 0,
+   "fora_pro": 10,
+   "fora_sof": 1.5,
+   "fora_total": 11.5,
+   "fora_total_ht": 6.0
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 55.0,
+   "categoria": "BLITZ_INICIAL",
+   "ht_pro": 5.5,
+   "t2_pro": 4.5
+  },
+  "sangrador": {
+   "sof_avg": 1.5,
+   "posse_avg": 61.5,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 10.0,
+   "categoria": "ESTERIL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    12,
+    8
+   ],
+   "ultimos_totais": [
+    15,
+    8
+   ]
+  },
+  "historico": [
+   {
+    "data": "03.05.2026 06:00",
+    "rodada": "R1",
+    "local": "FORA",
+    "adv": "Ryukyu",
+    "c_pro_ht": 7,
+    "c_sof_ht": 1,
+    "c_pro_2t": 5,
+    "c_sof_2t": 2,
+    "c_pro_ft": 12,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 55,
+    "t_ft": 15,
+    "t_ht": 8
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Reilac Shiga",
+    "c_pro_ht": 4,
+    "c_sof_ht": 0,
+    "c_pro_2t": 4,
+    "c_sof_2t": 0,
+    "c_pro_ft": 8,
+    "c_sof_ft": 0,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 68,
+    "t_ft": 8,
+    "t_ht": 4
+   }
+  ]
+ },
+ "Kamatamare": {
+  "time": "Kamatamare",
+  "n_jogos": 2,
+  "n_casa": 1,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 4,
+   "casa_sof": 5,
+   "casa_total": 9,
+   "casa_total_ht": 5,
+   "fora_pro": 2,
+   "fora_sof": 6,
+   "fora_total": 8,
+   "fora_total_ht": 2
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "c_2t_pro": 2,
+   "c_2t_sof": 3,
+   "diff": -1,
+   "estilo": "DESISTE_RECUA"
+  },
+  "distribuicao": {
+   "pct_ht": 33.3,
+   "categoria": "ASFIXIA_FINAL",
+   "ht_pro": 1,
+   "t2_pro": 2
+  },
+  "sangrador": {
+   "sof_avg": 5.5,
+   "posse_avg": 43.5,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 6.0,
+   "categoria": "ESTERIL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    2,
+    4
+   ],
+   "ultimos_totais": [
+    8,
+    9
+   ]
+  },
+  "historico": [
+   {
+    "data": "03.05.2026 02:03",
+    "rodada": "R1",
+    "local": "FORA",
+    "adv": "Albirex Niigata",
+    "c_pro_ht": 0,
+    "c_sof_ht": 2,
+    "c_pro_2t": 2,
+    "c_sof_2t": 4,
+    "c_pro_ft": 2,
+    "c_sof_ft": 6,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 38,
+    "t_ft": 8,
+    "t_ht": 2
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Kochi United",
+    "c_pro_ht": 2,
+    "c_sof_ht": 3,
+    "c_pro_2t": 2,
+    "c_sof_2t": 2,
+    "c_pro_ft": 4,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 2,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 3,
+    "posse": 49,
+    "t_ft": 9,
+    "t_ht": 5
+   }
+  ]
+ },
+ "Kanazawa": {
+  "time": "Kanazawa",
+  "n_jogos": 2,
+  "n_casa": 2,
+  "n_fora": 0,
+  "volume": {
+   "casa_pro": 5,
+   "casa_sof": 6.5,
+   "casa_total": 11.5,
+   "casa_total_ht": 5.5,
+   "fora_pro": 0,
+   "fora_sof": 0,
+   "fora_total": 0,
+   "fora_total_ht": 0
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 40.0,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 2,
+   "t2_pro": 3
+  },
+  "sangrador": {
+   "sof_avg": 6.5,
+   "posse_avg": 47,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 5.0,
+   "categoria": "ESTERIL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    6,
+    4
+   ],
+   "ultimos_totais": [
+    14,
+    9
+   ]
+  },
+  "historico": [
+   {
+    "data": "03.05.2026 02:03",
+    "rodada": "R1",
+    "local": "CASA",
+    "adv": "Toyama",
+    "c_pro_ht": 3,
+    "c_sof_ht": 5,
+    "c_pro_2t": 3,
+    "c_sof_2t": 3,
+    "c_pro_ft": 6,
+    "c_sof_ft": 8,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 49,
+    "t_ft": 14,
+    "t_ht": 8
+   },
+   {
+    "data": "10.05.2026 01:30",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Albirex Niigata",
+    "c_pro_ht": 1,
+    "c_sof_ht": 2,
+    "c_pro_2t": 3,
+    "c_sof_2t": 3,
+    "c_pro_ft": 4,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 45,
+    "t_ft": 9,
+    "t_ht": 3
+   }
+  ]
+ },
+ "Kochi United": {
+  "time": "Kochi United",
+  "n_jogos": 2,
+  "n_casa": 1,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 3,
+   "casa_sof": 8,
+   "casa_total": 11,
+   "casa_total_ht": 7,
+   "fora_pro": 5,
+   "fora_sof": 4,
+   "fora_total": 9,
+   "fora_total_ht": 5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 75.0,
+   "categoria": "BLITZ_INICIAL",
+   "ht_pro": 3,
+   "t2_pro": 1
+  },
+  "sangrador": {
+   "sof_avg": 6,
+   "posse_avg": 50.5,
+   "tipo": "SANGRA_COM_BOLA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 2.0,
+   "categoria": "CLINICA"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    3,
+    5
+   ],
+   "ultimos_totais": [
+    11,
+    9
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.05.2026 02:00",
+    "rodada": "R1",
+    "local": "CASA",
+    "adv": "Osaka",
+    "c_pro_ht": 3,
+    "c_sof_ht": 4,
+    "c_pro_2t": 0,
+    "c_sof_2t": 4,
+    "c_pro_ft": 3,
+    "c_sof_ft": 8,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 50,
+    "t_ft": 11,
+    "t_ht": 7
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Kamatamare",
+    "c_pro_ht": 3,
+    "c_sof_ht": 2,
+    "c_pro_2t": 2,
+    "c_sof_2t": 2,
+    "c_pro_ft": 5,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 2,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 3,
+    "gols_sof_ft": 0,
+    "posse": 51,
+    "t_ft": 9,
+    "t_ht": 5
+   }
+  ]
+ },
+ "Kofu": {
+  "time": "Kofu",
+  "n_jogos": 2,
+  "n_casa": 0,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 0,
+   "casa_sof": 0,
+   "casa_total": 0,
+   "casa_total_ht": 0,
+   "fora_pro": 1.5,
+   "fora_sof": 6,
+   "fora_total": 7.5,
+   "fora_total_ht": 2.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 33.3,
+   "categoria": "ASFIXIA_FINAL",
+   "ht_pro": 0.5,
+   "t2_pro": 1
+  },
+  "sangrador": {
+   "sof_avg": 6,
+   "posse_avg": 38,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 1.5,
+   "categoria": "CLINICA"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    0,
+    3
+   ],
+   "ultimos_totais": [
+    8,
+    7
+   ]
+  },
+  "historico": [
+   {
+    "data": "03.05.2026 01:03",
+    "rodada": "R1",
+    "local": "FORA",
+    "adv": "Yamaga",
+    "c_pro_ht": 0,
+    "c_sof_ht": 2,
+    "c_pro_2t": 0,
+    "c_sof_2t": 6,
+    "c_pro_ft": 0,
+    "c_sof_ft": 8,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 39,
+    "t_ft": 8,
+    "t_ht": 2
+   },
+   {
+    "data": "09.05.2026 02:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Iwaki",
+    "c_pro_ht": 1,
+    "c_sof_ht": 2,
+    "c_pro_2t": 2,
+    "c_sof_2t": 2,
+    "c_pro_ft": 3,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 37,
+    "t_ft": 7,
+    "t_ht": 3
+   }
+  ]
+ },
+ "Kumamoto": {
+  "time": "Kumamoto",
+  "n_jogos": 2,
+  "n_casa": 2,
+  "n_fora": 0,
+  "volume": {
+   "casa_pro": 4.5,
+   "casa_sof": 3,
+   "casa_total": 7.5,
+   "casa_total_ht": 3.0,
+   "fora_pro": 0,
+   "fora_sof": 0,
+   "fora_total": 0,
+   "fora_total_ht": 0
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 33.3,
+   "categoria": "ASFIXIA_FINAL",
+   "ht_pro": 1.5,
+   "t2_pro": 3
+  },
+  "sangrador": {
+   "sof_avg": 3,
+   "posse_avg": 52.5,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 4.5,
+   "categoria": "NORMAL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    4,
+    5
+   ],
+   "ultimos_totais": [
+    9,
+    6
+   ]
+  },
+  "historico": [
+   {
+    "data": "03.05.2026 02:03",
+    "rodada": "R1",
+    "local": "CASA",
+    "adv": "Reilac Shiga",
+    "c_pro_ht": 2,
+    "c_sof_ht": 2,
+    "c_pro_2t": 2,
+    "c_sof_2t": 3,
+    "c_pro_ft": 4,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 0,
+    "posse": 53,
+    "t_ft": 9,
+    "t_ht": 4
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Ryukyu",
+    "c_pro_ht": 1,
+    "c_sof_ht": 1,
+    "c_pro_2t": 4,
+    "c_sof_2t": 0,
+    "c_pro_ft": 5,
+    "c_sof_ft": 1,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 52,
+    "t_ft": 6,
+    "t_ht": 2
+   }
+  ]
+ },
+ "Kusatsu": {
+  "time": "Kusatsu",
+  "n_jogos": 2,
+  "n_casa": 1,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 3,
+   "casa_sof": 8,
+   "casa_total": 11,
+   "casa_total_ht": 5,
+   "fora_pro": 3,
+   "fora_sof": 7,
+   "fora_total": 10,
+   "fora_total_ht": 5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 50.0,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 1.5,
+   "t2_pro": 1.5
+  },
+  "sangrador": {
+   "sof_avg": 7.5,
+   "posse_avg": 44,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 6.0,
+   "categoria": "ESTERIL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    3,
+    3
+   ],
+   "ultimos_totais": [
+    10,
+    11
+   ]
+  },
+  "historico": [
+   {
+    "data": "03.05.2026 01:03",
+    "rodada": "R1",
+    "local": "FORA",
+    "adv": "Vanraure",
+    "c_pro_ht": 1,
+    "c_sof_ht": 4,
+    "c_pro_2t": 2,
+    "c_sof_2t": 3,
+    "c_pro_ft": 3,
+    "c_sof_ft": 7,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 45,
+    "t_ft": 10,
+    "t_ht": 5
+   },
+   {
+    "data": "09.05.2026 02:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Tochigi City",
+    "c_pro_ht": 2,
+    "c_sof_ht": 3,
+    "c_pro_2t": 1,
+    "c_sof_2t": 5,
+    "c_pro_ft": 3,
+    "c_sof_ft": 8,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 43,
+    "t_ft": 11,
+    "t_ht": 5
+   }
+  ]
+ },
+ "Montedio Yamagata": {
+  "time": "Montedio Yamagata",
+  "n_jogos": 2,
+  "n_casa": 2,
+  "n_fora": 0,
+  "volume": {
+   "casa_pro": 2.5,
+   "casa_sof": 7,
+   "casa_total": 9.5,
+   "casa_total_ht": 3.5,
+   "fora_pro": 0,
+   "fora_sof": 0,
+   "fora_total": 0,
+   "fora_total_ht": 0
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 40.0,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 1,
+   "t2_pro": 1.5
+  },
+  "sangrador": {
+   "sof_avg": 7,
+   "posse_avg": 42.5,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 1.0,
+   "categoria": "CLINICA"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    3,
+    2
+   ],
+   "ultimos_totais": [
+    11,
+    8
+   ]
+  },
+  "historico": [
+   {
+    "data": "03.05.2026 02:03",
+    "rodada": "R1",
+    "local": "CASA",
+    "adv": "Tochigi SC",
+    "c_pro_ht": 1,
+    "c_sof_ht": 2,
+    "c_pro_2t": 2,
+    "c_sof_2t": 6,
+    "c_pro_ft": 3,
+    "c_sof_ft": 8,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 3,
+    "gols_sof_ft": 2,
+    "posse": 43,
+    "t_ft": 11,
+    "t_ht": 3
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Sagamihara",
+    "c_pro_ht": 1,
+    "c_sof_ht": 3,
+    "c_pro_2t": 1,
+    "c_sof_2t": 3,
+    "c_pro_ft": 2,
+    "c_sof_ft": 6,
+    "gols_pro_ht": 2,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 3,
+    "posse": 42,
+    "t_ft": 8,
+    "t_ht": 4
+   }
+  ]
+ },
+ "Nagano": {
+  "time": "Nagano",
+  "n_jogos": 2,
+  "n_casa": 2,
+  "n_fora": 0,
+  "volume": {
+   "casa_pro": 4,
+   "casa_sof": 7.5,
+   "casa_total": 11.5,
+   "casa_total_ht": 2.5,
+   "fora_pro": 0,
+   "fora_sof": 0,
+   "fora_total": 0,
+   "fora_total_ht": 0
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 50.0,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 2,
+   "t2_pro": 2
+  },
+  "sangrador": {
+   "sof_avg": 7.5,
+   "posse_avg": 45,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 2.67,
+   "categoria": "CLINICA"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    3,
+    5
+   ],
+   "ultimos_totais": [
+    12,
+    11
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.05.2026 06:00",
+    "rodada": "R1",
+    "local": "CASA",
+    "adv": "Fujieda MYFC",
+    "c_pro_ht": 0,
+    "c_sof_ht": 1,
+    "c_pro_2t": 3,
+    "c_sof_2t": 8,
+    "c_pro_ft": 3,
+    "c_sof_ft": 9,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 38,
+    "t_ft": 12,
+    "t_ht": 1
+   },
+   {
+    "data": "09.05.2026 06:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Gifu",
+    "c_pro_ht": 4,
+    "c_sof_ht": 0,
+    "c_pro_2t": 1,
+    "c_sof_2t": 6,
+    "c_pro_ft": 5,
+    "c_sof_ft": 6,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 3,
+    "posse": 52,
+    "t_ft": 11,
+    "t_ht": 4
+   }
+  ]
+ },
+ "Nara Club": {
+  "time": "Nara Club",
+  "n_jogos": 2,
+  "n_casa": 0,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 0,
+   "casa_sof": 0,
+   "casa_total": 0,
+   "casa_total_ht": 0,
+   "fora_pro": 2.5,
+   "fora_sof": 4,
+   "fora_total": 6.5,
+   "fora_total_ht": 3.0
+  },
+  "pos_gol_pro": {
+   "n": 2,
+   "c_2t_pro": 1,
+   "c_2t_sof": 2.5,
+   "diff": -1.5,
+   "estilo": "RECUA_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 60.0,
+   "categoria": "BLITZ_INICIAL",
+   "ht_pro": 1.5,
+   "t2_pro": 1
+  },
+  "sangrador": {
+   "sof_avg": 4,
+   "posse_avg": 45.5,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 1.25,
+   "categoria": "CLINICA"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    0,
+    5
+   ],
+   "ultimos_totais": [
+    5,
+    8
+   ]
+  },
+  "historico": [
+   {
+    "data": "03.05.2026 02:03",
+    "rodada": "R1",
+    "local": "FORA",
+    "adv": "Imabari",
+    "c_pro_ht": 0,
+    "c_sof_ht": 1,
+    "c_pro_2t": 0,
+    "c_sof_2t": 4,
+    "c_pro_ft": 0,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 2,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 42,
+    "t_ft": 5,
+    "t_ht": 1
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Tokushima",
+    "c_pro_ht": 3,
+    "c_sof_ht": 2,
+    "c_pro_2t": 2,
+    "c_sof_2t": 1,
+    "c_pro_ft": 5,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 49,
+    "t_ft": 8,
+    "t_ht": 5
+   }
+  ]
+ },
+ "Oita Trinita": {
+  "time": "Oita Trinita",
+  "n_jogos": 2,
+  "n_casa": 1,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 2,
+   "casa_sof": 1,
+   "casa_total": 3,
+   "casa_total_ht": 1,
+   "fora_pro": 5,
+   "fora_sof": 3,
+   "fora_total": 8,
+   "fora_total_ht": 4
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "c_2t_pro": 2.5,
+   "c_2t_sof": 0.5,
+   "diff": 2.0,
+   "estilo": "REAGE_PRESSIONA"
+  },
+  "distribuicao": {
+   "pct_ht": 28.6,
+   "categoria": "ASFIXIA_FINAL",
+   "ht_pro": 1,
+   "t2_pro": 2.5
+  },
+  "sangrador": {
+   "sof_avg": 2,
+   "posse_avg": 52.5,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 7.0,
+   "categoria": "ESTERIL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    5,
+    2
+   ],
+   "ultimos_totais": [
+    8,
+    3
+   ]
+  },
+  "historico": [
+   {
+    "data": "03.05.2026 02:03",
+    "rodada": "R1",
+    "local": "FORA",
+    "adv": "Giravanz Kitakyushu",
+    "c_pro_ht": 2,
+    "c_sof_ht": 2,
+    "c_pro_2t": 3,
+    "c_sof_2t": 1,
+    "c_pro_ft": 5,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 2,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 51,
+    "t_ft": 8,
+    "t_ht": 4
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Sagan Tosu",
+    "c_pro_ht": 0,
+    "c_sof_ht": 1,
+    "c_pro_2t": 2,
+    "c_sof_2t": 0,
+    "c_pro_ft": 2,
+    "c_sof_ft": 1,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 54,
+    "t_ft": 3,
+    "t_ht": 1
+   }
+  ]
+ },
+ "Omiya Ardija": {
+  "time": "Omiya Ardija",
+  "n_jogos": 2,
+  "n_casa": 0,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 0,
+   "casa_sof": 0,
+   "casa_total": 0,
+   "casa_total_ht": 0,
+   "fora_pro": 4,
+   "fora_sof": 5,
+   "fora_total": 9,
+   "fora_total_ht": 4.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 37.5,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 1.5,
+   "t2_pro": 2.5
+  },
+  "sangrador": {
+   "sof_avg": 5,
+   "posse_avg": 56.5,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 1.6,
+   "categoria": "CLINICA"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    4,
+    4
+   ],
+   "ultimos_totais": [
+    11,
+    7
+   ]
+  },
+  "historico": [
+   {
+    "data": "03.05.2026 02:03",
+    "rodada": "R1",
+    "local": "FORA",
+    "adv": "Fukushima Utd",
+    "c_pro_ht": 1,
+    "c_sof_ht": 4,
+    "c_pro_2t": 3,
+    "c_sof_2t": 3,
+    "c_pro_ft": 4,
+    "c_sof_ft": 7,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 52,
+    "t_ft": 11,
+    "t_ht": 5
+   },
+   {
+    "data": "09.05.2026 02:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Hokkaido Consadole Sapporo",
+    "c_pro_ht": 2,
+    "c_sof_ht": 2,
+    "c_pro_2t": 2,
+    "c_sof_2t": 1,
+    "c_pro_ft": 4,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 3,
+    "gols_pro_ft": 3,
+    "gols_sof_ft": 4,
+    "posse": 61,
+    "t_ft": 7,
+    "t_ht": 4
+   }
+  ]
+ },
+ "Osaka": {
+  "time": "Osaka",
+  "n_jogos": 2,
+  "n_casa": 1,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 7,
+   "casa_sof": 2,
+   "casa_total": 9,
+   "casa_total_ht": 4,
+   "fora_pro": 8,
+   "fora_sof": 3,
+   "fora_total": 11,
+   "fora_total_ht": 7
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 46.7,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 3.5,
+   "t2_pro": 4
+  },
+  "sangrador": {
+   "sof_avg": 2.5,
+   "posse_avg": 57,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 15.0,
+   "categoria": "ESTERIL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    8,
+    7
+   ],
+   "ultimos_totais": [
+    11,
+    9
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.05.2026 02:00",
+    "rodada": "R1",
+    "local": "FORA",
+    "adv": "Kochi United",
+    "c_pro_ht": 4,
+    "c_sof_ht": 3,
+    "c_pro_2t": 4,
+    "c_sof_2t": 0,
+    "c_pro_ft": 8,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 50,
+    "t_ft": 11,
+    "t_ht": 7
+   },
+   {
+    "data": "09.05.2026 02:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Imabari",
+    "c_pro_ht": 3,
+    "c_sof_ht": 1,
+    "c_pro_2t": 4,
+    "c_sof_2t": 1,
+    "c_pro_ft": 7,
+    "c_sof_ft": 2,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 64,
+    "t_ft": 9,
+    "t_ht": 4
+   }
+  ]
+ },
+ "Reilac Shiga": {
+  "time": "Reilac Shiga",
+  "n_jogos": 2,
+  "n_casa": 1,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 0,
+   "casa_sof": 8,
+   "casa_total": 8,
+   "casa_total_ht": 4,
+   "fora_pro": 5,
+   "fora_sof": 4,
+   "fora_total": 9,
+   "fora_total_ht": 4
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 40.0,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 1,
+   "t2_pro": 1.5
+  },
+  "sangrador": {
+   "sof_avg": 6,
+   "posse_avg": 39.5,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 5.0,
+   "categoria": "ESTERIL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    5,
+    0
+   ],
+   "ultimos_totais": [
+    9,
+    8
+   ]
+  },
+  "historico": [
+   {
+    "data": "03.05.2026 02:03",
+    "rodada": "R1",
+    "local": "FORA",
+    "adv": "Kumamoto",
+    "c_pro_ht": 2,
+    "c_sof_ht": 2,
+    "c_pro_2t": 3,
+    "c_sof_2t": 2,
+    "c_pro_ft": 5,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 2,
+    "posse": 47,
+    "t_ft": 9,
+    "t_ht": 4
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Kagoshima Utd",
+    "c_pro_ht": 0,
+    "c_sof_ht": 4,
+    "c_pro_2t": 0,
+    "c_sof_2t": 4,
+    "c_pro_ft": 0,
+    "c_sof_ft": 8,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 32,
+    "t_ft": 8,
+    "t_ht": 4
+   }
+  ]
+ },
+ "Renofa Yamaguchi": {
+  "time": "Renofa Yamaguchi",
+  "n_jogos": 2,
+  "n_casa": 1,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 3,
+   "casa_sof": 6,
+   "casa_total": 9,
+   "casa_total_ht": 3,
+   "fora_pro": 1,
+   "fora_sof": 9,
+   "fora_total": 10,
+   "fora_total_ht": 6
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "c_2t_pro": 1,
+   "c_2t_sof": 4,
+   "diff": -3,
+   "estilo": "DESISTE_RECUA"
+  },
+  "distribuicao": {
+   "pct_ht": 50.0,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 1,
+   "t2_pro": 1
+  },
+  "sangrador": {
+   "sof_avg": 7.5,
+   "posse_avg": 53.5,
+   "tipo": "SANGRA_COM_BOLA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 4.0,
+   "categoria": "NORMAL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    1,
+    3
+   ],
+   "ultimos_totais": [
+    10,
+    9
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.05.2026 03:00",
+    "rodada": "R1",
+    "local": "FORA",
+    "adv": "Gainare Tottori",
+    "c_pro_ht": 0,
+    "c_sof_ht": 6,
+    "c_pro_2t": 1,
+    "c_sof_2t": 3,
+    "c_pro_ft": 1,
+    "c_sof_ft": 9,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 3,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 4,
+    "posse": 49,
+    "t_ft": 10,
+    "t_ht": 6
+   },
+   {
+    "data": "09.05.2026 02:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Tegevajaro Miyazaki",
+    "c_pro_ht": 2,
+    "c_sof_ht": 1,
+    "c_pro_2t": 1,
+    "c_sof_2t": 5,
+    "c_pro_ft": 3,
+    "c_sof_ft": 6,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 58,
+    "t_ft": 9,
+    "t_ht": 3
+   }
+  ]
+ },
+ "Ryukyu": {
+  "time": "Ryukyu",
+  "n_jogos": 2,
+  "n_casa": 1,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 3,
+   "casa_sof": 12,
+   "casa_total": 15,
+   "casa_total_ht": 8,
+   "fora_pro": 1,
+   "fora_sof": 5,
+   "fora_total": 6,
+   "fora_total_ht": 2
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 50.0,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 1,
+   "t2_pro": 1
+  },
+  "sangrador": {
+   "sof_avg": 8.5,
+   "posse_avg": 46.5,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 2.0,
+   "categoria": "CLINICA"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    3,
+    1
+   ],
+   "ultimos_totais": [
+    15,
+    6
+   ]
+  },
+  "historico": [
+   {
+    "data": "03.05.2026 06:00",
+    "rodada": "R1",
+    "local": "CASA",
+    "adv": "Kagoshima Utd",
+    "c_pro_ht": 1,
+    "c_sof_ht": 7,
+    "c_pro_2t": 2,
+    "c_sof_2t": 5,
+    "c_pro_ft": 3,
+    "c_sof_ft": 12,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 45,
+    "t_ft": 15,
+    "t_ht": 8
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Kumamoto",
+    "c_pro_ht": 1,
+    "c_sof_ht": 1,
+    "c_pro_2t": 0,
+    "c_sof_2t": 4,
+    "c_pro_ft": 1,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 48,
+    "t_ft": 6,
+    "t_ht": 2
+   }
+  ]
+ },
+ "Sagamihara": {
+  "time": "Sagamihara",
+  "n_jogos": 3,
+  "n_casa": 0,
+  "n_fora": 3,
+  "volume": {
+   "casa_pro": 0,
+   "casa_sof": 0,
+   "casa_total": 0,
+   "casa_total_ht": 0,
+   "fora_pro": 5.33,
+   "fora_sof": 6,
+   "fora_total": 11.33,
+   "fora_total_ht": 5.33
+  },
+  "pos_gol_pro": {
+   "n": 2,
+   "c_2t_pro": 3,
+   "c_2t_sof": 4,
+   "diff": -1,
+   "estilo": "RECUA_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 43.8,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 2.33,
+   "t2_pro": 3
+  },
+  "sangrador": {
+   "sof_avg": 6,
+   "posse_avg": 44.3,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 2.0,
+   "categoria": "CLINICA"
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "alta variancia sd 5.0",
+   "ultimos_cantos": [
+    0,
+    10,
+    6
+   ],
+   "ultimos_totais": [
+    10,
+    16,
+    8
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.05.2026 02:00",
+    "rodada": "R1",
+    "local": "FORA",
+    "adv": "Yokohama FC",
+    "c_pro_ht": 0,
+    "c_sof_ht": 2,
+    "c_pro_2t": 0,
+    "c_sof_2t": 8,
+    "c_pro_ft": 0,
+    "c_sof_ft": 10,
+    "gols_pro_ht": 3,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 4,
+    "gols_sof_ft": 3,
+    "posse": 31,
+    "t_ft": 10,
+    "t_ht": 2
+   },
+   {
+    "data": "06.05.2026 03:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Blaublitz",
+    "c_pro_ht": 4,
+    "c_sof_ht": 6,
+    "c_pro_2t": 6,
+    "c_sof_2t": 0,
+    "c_pro_ft": 10,
+    "c_sof_ft": 6,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 44,
+    "t_ft": 16,
+    "t_ht": 10
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Montedio Yamagata",
+    "c_pro_ht": 3,
+    "c_sof_ht": 1,
+    "c_pro_2t": 3,
+    "c_sof_2t": 1,
+    "c_pro_ft": 6,
+    "c_sof_ft": 2,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 2,
+    "gols_pro_ft": 3,
+    "gols_sof_ft": 2,
+    "posse": 58,
+    "t_ft": 8,
+    "t_ht": 4
+   }
+  ]
+ },
+ "Sagan Tosu": {
+  "time": "Sagan Tosu",
+  "n_jogos": 2,
+  "n_casa": 1,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 6,
+   "casa_sof": 3,
+   "casa_total": 9,
+   "casa_total_ht": 2,
+   "fora_pro": 1,
+   "fora_sof": 2,
+   "fora_total": 3,
+   "fora_total_ht": 1
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 42.9,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 1.5,
+   "t2_pro": 2
+  },
+  "sangrador": {
+   "sof_avg": 2.5,
+   "posse_avg": 52,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 2.33,
+   "categoria": "CLINICA"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    6,
+    1
+   ],
+   "ultimos_totais": [
+    9,
+    3
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.05.2026 02:00",
+    "rodada": "R1",
+    "local": "CASA",
+    "adv": "Tegevajaro Miyazaki",
+    "c_pro_ht": 2,
+    "c_sof_ht": 0,
+    "c_pro_2t": 4,
+    "c_sof_2t": 3,
+    "c_pro_ft": 6,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 58,
+    "t_ft": 9,
+    "t_ht": 2
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Oita Trinita",
+    "c_pro_ht": 1,
+    "c_sof_ht": 0,
+    "c_pro_2t": 0,
+    "c_sof_2t": 2,
+    "c_pro_ft": 1,
+    "c_sof_ft": 2,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 46,
+    "t_ft": 3,
+    "t_ht": 1
+   }
+  ]
+ },
+ "Shonan Bellmare": {
+  "time": "Shonan Bellmare",
+  "n_jogos": 2,
+  "n_casa": 2,
+  "n_fora": 0,
+  "volume": {
+   "casa_pro": 4.5,
+   "casa_sof": 3,
+   "casa_total": 7.5,
+   "casa_total_ht": 3,
+   "fora_pro": 0,
+   "fora_sof": 0,
+   "fora_total": 0,
+   "fora_total_ht": 0
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "c_2t_pro": 3.5,
+   "c_2t_sof": 1,
+   "diff": 2.5,
+   "estilo": "REAGE_PRESSIONA"
+  },
+  "distribuicao": {
+   "pct_ht": 22.2,
+   "categoria": "ASFIXIA_FINAL",
+   "ht_pro": 1,
+   "t2_pro": 3.5
+  },
+  "sangrador": {
+   "sof_avg": 3,
+   "posse_avg": 55,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 9.0,
+   "categoria": "ESTERIL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    6,
+    3
+   ],
+   "ultimos_totais": [
+    10,
+    5
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.05.2026 02:00",
+    "rodada": "R1",
+    "local": "CASA",
+    "adv": "Tochigi City",
+    "c_pro_ht": 1,
+    "c_sof_ht": 2,
+    "c_pro_2t": 5,
+    "c_sof_2t": 2,
+    "c_pro_ft": 6,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 2,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 60,
+    "t_ft": 10,
+    "t_ht": 3
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Yokohama FC",
+    "c_pro_ht": 1,
+    "c_sof_ht": 2,
+    "c_pro_2t": 2,
+    "c_sof_2t": 0,
+    "c_pro_ft": 3,
+    "c_sof_ft": 2,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 50,
+    "t_ft": 5,
+    "t_ht": 3
+   }
+  ]
+ },
+ "Tegevajaro Miyazaki": {
+  "time": "Tegevajaro Miyazaki",
+  "n_jogos": 2,
+  "n_casa": 0,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 0,
+   "casa_sof": 0,
+   "casa_total": 0,
+   "casa_total_ht": 0,
+   "fora_pro": 4.5,
+   "fora_sof": 4.5,
+   "fora_total": 9.0,
+   "fora_total_ht": 2.5
+  },
+  "pos_gol_pro": {
+   "n": 2,
+   "c_2t_pro": 4,
+   "c_2t_sof": 2.5,
+   "diff": 1.5,
+   "estilo": "PRESSIONA_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 11.1,
+   "categoria": "ASFIXIA_FINAL",
+   "ht_pro": 0.5,
+   "t2_pro": 4
+  },
+  "sangrador": {
+   "sof_avg": 4.5,
+   "posse_avg": 42,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 4.5,
+   "categoria": "NORMAL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    3,
+    6
+   ],
+   "ultimos_totais": [
+    9,
+    9
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.05.2026 02:00",
+    "rodada": "R1",
+    "local": "FORA",
+    "adv": "Sagan Tosu",
+    "c_pro_ht": 0,
+    "c_sof_ht": 2,
+    "c_pro_2t": 3,
+    "c_sof_2t": 4,
+    "c_pro_ft": 3,
+    "c_sof_ft": 6,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 42,
+    "t_ft": 9,
+    "t_ht": 2
+   },
+   {
+    "data": "09.05.2026 02:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Renofa Yamaguchi",
+    "c_pro_ht": 1,
+    "c_sof_ht": 2,
+    "c_pro_2t": 5,
+    "c_sof_2t": 1,
+    "c_pro_ft": 6,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 42,
+    "t_ft": 9,
+    "t_ht": 3
+   }
+  ]
+ },
+ "Tochigi City": {
+  "time": "Tochigi City",
+  "n_jogos": 2,
+  "n_casa": 0,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 0,
+   "casa_sof": 0,
+   "casa_total": 0,
+   "casa_total_ht": 0,
+   "fora_pro": 6,
+   "fora_sof": 4.5,
+   "fora_total": 10.5,
+   "fora_total_ht": 4.0
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 41.7,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 2.5,
+   "t2_pro": 3.5
+  },
+  "sangrador": {
+   "sof_avg": 4.5,
+   "posse_avg": 48.5,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 4.0,
+   "categoria": "NORMAL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    4,
+    8
+   ],
+   "ultimos_totais": [
+    10,
+    11
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.05.2026 02:00",
+    "rodada": "R1",
+    "local": "FORA",
+    "adv": "Shonan Bellmare",
+    "c_pro_ht": 2,
+    "c_sof_ht": 1,
+    "c_pro_2t": 2,
+    "c_sof_2t": 5,
+    "c_pro_ft": 4,
+    "c_sof_ft": 6,
+    "gols_pro_ht": 2,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 40,
+    "t_ft": 10,
+    "t_ht": 3
+   },
+   {
+    "data": "09.05.2026 02:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Kusatsu",
+    "c_pro_ht": 3,
+    "c_sof_ht": 2,
+    "c_pro_2t": 5,
+    "c_sof_2t": 1,
+    "c_pro_ft": 8,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 57,
+    "t_ft": 11,
+    "t_ht": 5
+   }
+  ]
+ },
+ "Tochigi SC": {
+  "time": "Tochigi SC",
+  "n_jogos": 2,
+  "n_casa": 1,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 4,
+   "casa_sof": 9,
+   "casa_total": 13,
+   "casa_total_ht": 4,
+   "fora_pro": 8,
+   "fora_sof": 3,
+   "fora_total": 11,
+   "fora_total_ht": 3
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 25.0,
+   "categoria": "ASFIXIA_FINAL",
+   "ht_pro": 1.5,
+   "t2_pro": 4.5
+  },
+  "sangrador": {
+   "sof_avg": 6,
+   "posse_avg": 55.5,
+   "tipo": "SANGRA_COM_BOLA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 4.0,
+   "categoria": "NORMAL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    8,
+    4
+   ],
+   "ultimos_totais": [
+    11,
+    13
+   ]
+  },
+  "historico": [
+   {
+    "data": "03.05.2026 02:03",
+    "rodada": "R1",
+    "local": "FORA",
+    "adv": "Montedio Yamagata",
+    "c_pro_ht": 2,
+    "c_sof_ht": 1,
+    "c_pro_2t": 6,
+    "c_sof_2t": 2,
+    "c_pro_ft": 8,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 3,
+    "posse": 57,
+    "t_ft": 11,
+    "t_ht": 3
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Blaublitz",
+    "c_pro_ht": 1,
+    "c_sof_ht": 3,
+    "c_pro_2t": 3,
+    "c_sof_2t": 6,
+    "c_pro_ft": 4,
+    "c_sof_ft": 9,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 54,
+    "t_ft": 13,
+    "t_ht": 4
+   }
+  ]
+ },
+ "Tokushima": {
+  "time": "Tokushima",
+  "n_jogos": 2,
+  "n_casa": 2,
+  "n_fora": 0,
+  "volume": {
+   "casa_pro": 5,
+   "casa_sof": 3.5,
+   "casa_total": 8.5,
+   "casa_total_ht": 6.0,
+   "fora_pro": 0,
+   "fora_sof": 0,
+   "fora_total": 0,
+   "fora_total_ht": 0
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "c_2t_pro": 1.5,
+   "c_2t_sof": 1,
+   "diff": 0.5,
+   "estilo": "EQUILIBRADO_REACAO"
+  },
+  "distribuicao": {
+   "pct_ht": 70.0,
+   "categoria": "BLITZ_INICIAL",
+   "ht_pro": 3.5,
+   "t2_pro": 1.5
+  },
+  "sangrador": {
+   "sof_avg": 3.5,
+   "posse_avg": 51,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 10.0,
+   "categoria": "ESTERIL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    7,
+    3
+   ],
+   "ultimos_totais": [
+    9,
+    8
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.05.2026 02:00",
+    "rodada": "R1",
+    "local": "CASA",
+    "adv": "Ehime",
+    "c_pro_ht": 5,
+    "c_sof_ht": 2,
+    "c_pro_2t": 2,
+    "c_sof_2t": 0,
+    "c_pro_ft": 7,
+    "c_sof_ft": 2,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 2,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 6,
+    "posse": 51,
+    "t_ft": 9,
+    "t_ht": 7
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Nara Club",
+    "c_pro_ht": 2,
+    "c_sof_ht": 3,
+    "c_pro_2t": 1,
+    "c_sof_2t": 2,
+    "c_pro_ft": 3,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 51,
+    "t_ft": 8,
+    "t_ht": 5
+   }
+  ]
+ },
+ "Toyama": {
+  "time": "Toyama",
+  "n_jogos": 2,
+  "n_casa": 0,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 0,
+   "casa_sof": 0,
+   "casa_total": 0,
+   "casa_total_ht": 0,
+   "fora_pro": 7,
+   "fora_sof": 4,
+   "fora_total": 11,
+   "fora_total_ht": 5.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 42.9,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 3,
+   "t2_pro": 4
+  },
+  "sangrador": {
+   "sof_avg": 4,
+   "posse_avg": 51,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 4.67,
+   "categoria": "NORMAL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    8,
+    6
+   ],
+   "ultimos_totais": [
+    14,
+    8
+   ]
+  },
+  "historico": [
+   {
+    "data": "03.05.2026 02:03",
+    "rodada": "R1",
+    "local": "FORA",
+    "adv": "Kanazawa",
+    "c_pro_ht": 5,
+    "c_sof_ht": 3,
+    "c_pro_2t": 3,
+    "c_sof_2t": 3,
+    "c_pro_ft": 8,
+    "c_sof_ft": 6,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 51,
+    "t_ft": 14,
+    "t_ht": 8
+   },
+   {
+    "data": "10.05.2026 03:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Ehime",
+    "c_pro_ht": 1,
+    "c_sof_ht": 2,
+    "c_pro_2t": 5,
+    "c_sof_2t": 0,
+    "c_pro_ft": 6,
+    "c_sof_ft": 2,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 0,
+    "posse": 51,
+    "t_ft": 8,
+    "t_ht": 3
+   }
+  ]
+ },
+ "Vanraure": {
+  "time": "Vanraure",
+  "n_jogos": 2,
+  "n_casa": 2,
+  "n_fora": 0,
+  "volume": {
+   "casa_pro": 5.5,
+   "casa_sof": 5,
+   "casa_total": 10.5,
+   "casa_total_ht": 5.5,
+   "fora_pro": 0,
+   "fora_sof": 0,
+   "fora_total": 0,
+   "fora_total_ht": 0
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 54.5,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 3,
+   "t2_pro": 2.5
+  },
+  "sangrador": {
+   "sof_avg": 5,
+   "posse_avg": 49.5,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 11.0,
+   "categoria": "ESTERIL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    7,
+    4
+   ],
+   "ultimos_totais": [
+    10,
+    11
+   ]
+  },
+  "historico": [
+   {
+    "data": "03.05.2026 01:03",
+    "rodada": "R1",
+    "local": "CASA",
+    "adv": "Kusatsu",
+    "c_pro_ht": 4,
+    "c_sof_ht": 1,
+    "c_pro_2t": 3,
+    "c_sof_2t": 2,
+    "c_pro_ft": 7,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 55,
+    "t_ft": 10,
+    "t_ht": 5
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Vegalta Sendai",
+    "c_pro_ht": 2,
+    "c_sof_ht": 4,
+    "c_pro_2t": 2,
+    "c_sof_2t": 3,
+    "c_pro_ft": 4,
+    "c_sof_ft": 7,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 44,
+    "t_ft": 11,
+    "t_ht": 6
+   }
+  ]
+ },
+ "Vegalta Sendai": {
+  "time": "Vegalta Sendai",
+  "n_jogos": 2,
+  "n_casa": 1,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 9,
+   "casa_sof": 8,
+   "casa_total": 17,
+   "casa_total_ht": 9,
+   "fora_pro": 7,
+   "fora_sof": 4,
+   "fora_total": 11,
+   "fora_total_ht": 6
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "c_2t_pro": 3.5,
+   "c_2t_sof": 3,
+   "diff": 0.5,
+   "estilo": "EQUILIBRADO_REACAO"
+  },
+  "distribuicao": {
+   "pct_ht": 56.2,
+   "categoria": "BLITZ_INICIAL",
+   "ht_pro": 4.5,
+   "t2_pro": 3.5
+  },
+  "sangrador": {
+   "sof_avg": 6,
+   "posse_avg": 57,
+   "tipo": "SANGRA_COM_BOLA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 5.33,
+   "categoria": "ESTERIL"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    9,
+    7
+   ],
+   "ultimos_totais": [
+    17,
+    11
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.05.2026 02:00",
+    "rodada": "R1",
+    "local": "CASA",
+    "adv": "Blaublitz",
+    "c_pro_ht": 5,
+    "c_sof_ht": 4,
+    "c_pro_2t": 4,
+    "c_sof_2t": 4,
+    "c_pro_ft": 9,
+    "c_sof_ft": 8,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 2,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 3,
+    "posse": 58,
+    "t_ft": 17,
+    "t_ht": 9
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Vanraure",
+    "c_pro_ht": 4,
+    "c_sof_ht": 2,
+    "c_pro_2t": 3,
+    "c_sof_2t": 2,
+    "c_pro_ft": 7,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 56,
+    "t_ft": 11,
+    "t_ht": 6
+   }
+  ]
+ },
+ "Yamaga": {
+  "time": "Yamaga",
+  "n_jogos": 3,
+  "n_casa": 2,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 6,
+   "casa_sof": 2.5,
+   "casa_total": 8.5,
+   "casa_total_ht": 3.5,
+   "fora_pro": 8,
+   "fora_sof": 4,
+   "fora_total": 12,
+   "fora_total_ht": 7
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 45.0,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 3,
+   "t2_pro": 3.67
+  },
+  "sangrador": {
+   "sof_avg": 3,
+   "posse_avg": 54.7,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 6.67,
+   "categoria": "ESTERIL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 2.3 desvio +0.0",
+   "ultimos_cantos": [
+    8,
+    8,
+    4
+   ],
+   "ultimos_totais": [
+    8,
+    12,
+    9
+   ]
+  },
+  "historico": [
+   {
+    "data": "03.05.2026 01:03",
+    "rodada": "R1",
+    "local": "CASA",
+    "adv": "Kofu",
+    "c_pro_ht": 2,
+    "c_sof_ht": 0,
+    "c_pro_2t": 6,
+    "c_sof_2t": 0,
+    "c_pro_ft": 8,
+    "c_sof_ft": 0,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 61,
+    "t_ft": 8,
+    "t_ht": 2
+   },
+   {
+    "data": "06.05.2026 07:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Gifu",
+    "c_pro_ht": 5,
+    "c_sof_ht": 2,
+    "c_pro_2t": 3,
+    "c_sof_2t": 2,
+    "c_pro_ft": 8,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 3,
+    "gols_sof_ft": 0,
+    "posse": 55,
+    "t_ft": 12,
+    "t_ht": 7
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "CASA",
+    "adv": "Fujieda MYFC",
+    "c_pro_ht": 2,
+    "c_sof_ht": 3,
+    "c_pro_2t": 2,
+    "c_sof_2t": 2,
+    "c_pro_ft": 4,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 48,
+    "t_ft": 9,
+    "t_ht": 5
+   }
+  ]
+ },
+ "Yokohama FC": {
+  "time": "Yokohama FC",
+  "n_jogos": 2,
+  "n_casa": 1,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 10,
+   "casa_sof": 0,
+   "casa_total": 10,
+   "casa_total_ht": 2,
+   "fora_pro": 2,
+   "fora_sof": 3,
+   "fora_total": 5,
+   "fora_total_ht": 3
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 33.3,
+   "categoria": "ASFIXIA_FINAL",
+   "ht_pro": 2,
+   "t2_pro": 4
+  },
+  "sangrador": {
+   "sof_avg": 1.5,
+   "posse_avg": 59.5,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 3.0,
+   "categoria": "CLINICA"
+  },
+  "regime": {
+   "status": "?",
+   "obs": "N<3",
+   "ultimos_cantos": [
+    10,
+    2
+   ],
+   "ultimos_totais": [
+    10,
+    5
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.05.2026 02:00",
+    "rodada": "R1",
+    "local": "CASA",
+    "adv": "Sagamihara",
+    "c_pro_ht": 2,
+    "c_sof_ht": 0,
+    "c_pro_2t": 8,
+    "c_sof_2t": 0,
+    "c_pro_ft": 10,
+    "c_sof_ft": 0,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 3,
+    "gols_pro_ft": 3,
+    "gols_sof_ft": 4,
+    "posse": 69,
+    "t_ft": 10,
+    "t_ht": 2
+   },
+   {
+    "data": "10.05.2026 02:00",
+    "rodada": "R2",
+    "local": "FORA",
+    "adv": "Shonan Bellmare",
+    "c_pro_ht": 2,
+    "c_sof_ht": 1,
+    "c_pro_2t": 0,
+    "c_sof_2t": 2,
+    "c_pro_ft": 2,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 50,
+    "t_ft": 5,
+    "t_ht": 3
+   }
+  ]
+ }
+}

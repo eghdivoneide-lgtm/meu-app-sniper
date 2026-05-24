@@ -1,0 +1,3027 @@
+[
+  {
+    "url": "https://www.flashscore.com/match/O8OeBRnL/#/match-summary",
+    "match_id": "O8OeBRnL",
+    "data_partida": "27.09.2025 13:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "B. Monchengladbach",
+    "visitante": "Eintracht Frankfurt",
+    "placar": {
+      "ht": "0 - 5",
+      "ft": "4 - 6"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 39,
+        "v": 61
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 21
+      },
+      "chutes_alvo": {
+        "m": 8,
+        "v": 7
+      },
+      "cantos": {
+        "m": 4,
+        "v": 6
+      },
+      "passes": {
+        "m": "(291/362)",
+        "v": "84%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 4,
+        "v": 1
+      },
+      "faltas": {
+        "m": 14,
+        "v": 8
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 36,
+        "v": 64
+      },
+      "finalizacoes": {
+        "m": 2,
+        "v": 14
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 5
+      },
+      "cantos": {
+        "m": 0,
+        "v": 3
+      },
+      "passes": {
+        "m": "(142/176)",
+        "v": "85%"
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 1
+      },
+      "faltas": {
+        "m": 9,
+        "v": 4
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "4-5-1"
+    },
+    "mercado": {
+      "oddM": "3.00",
+      "oddEmpate": "3.60",
+      "oddV": "2.25"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:32:56.976Z",
+      "campos_disponiveis": 21,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/EZYX3ONc/#/match-summary",
+    "match_id": "EZYX3ONc",
+    "data_partida": "21.09.2025 10:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "Eintracht Frankfurt",
+    "visitante": "Union Berlin",
+    "placar": {
+      "ht": "1 - 2",
+      "ft": "3 - 4"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 77,
+        "v": 23
+      },
+      "finalizacoes": {
+        "m": 19,
+        "v": 11
+      },
+      "chutes_alvo": {
+        "m": 10,
+        "v": 5
+      },
+      "cantos": {
+        "m": 5,
+        "v": 1
+      },
+      "passes": {
+        "m": "(589/674)",
+        "v": "58%"
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 5
+      },
+      "faltas": {
+        "m": 10,
+        "v": 11
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 7
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 75,
+        "v": 25
+      },
+      "finalizacoes": {
+        "m": 10,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 2
+      },
+      "cantos": {
+        "m": 3,
+        "v": 1
+      },
+      "passes": {
+        "m": "(317/359)",
+        "v": "62%"
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 4
+      },
+      "faltas": {
+        "m": 3,
+        "v": 4
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 4
+      }
+    },
+    "formacao": {
+      "m": "4-3-3",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "1.62",
+      "oddEmpate": "4.20",
+      "oddV": "4.75"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:33:27.446Z",
+      "campos_disponiveis": 21,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/GGIPZUw0/#/match-summary",
+    "match_id": "GGIPZUw0",
+    "data_partida": "23.08.2025 10:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "Eintracht Frankfurt",
+    "visitante": "Werder Bremen",
+    "placar": {
+      "ht": "2 - 0",
+      "ft": "4 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 53,
+        "v": 47
+      },
+      "finalizacoes": {
+        "m": 18,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 5
+      },
+      "cantos": {
+        "m": 7,
+        "v": 1
+      },
+      "passes": {
+        "m": "(399/467)",
+        "v": "81%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 3
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 3
+      },
+      "faltas": {
+        "m": 9,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 4,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 57,
+        "v": 43
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 3
+      },
+      "cantos": {
+        "m": 5,
+        "v": 0
+      },
+      "passes": {
+        "m": "(220/254)",
+        "v": "79%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 3
+      },
+      "faltas": {
+        "m": 4,
+        "v": 5
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "1.53",
+      "oddEmpate": "4.75",
+      "oddV": "5.25"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:33:58.349Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/YTIIYU3S/#/match-summary",
+    "match_id": "YTIIYU3S",
+    "data_partida": "20.12.2025 11:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "Wolfsburg",
+    "visitante": "Freiburg",
+    "placar": {
+      "ht": "1 - 1",
+      "ft": "3 - 4"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 56,
+        "v": 44
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 15
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 8
+      },
+      "cantos": {
+        "m": 2,
+        "v": 6
+      },
+      "passes": {
+        "m": "(389/477)",
+        "v": "80%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 5
+      },
+      "faltas": {
+        "m": 16,
+        "v": 8
+      },
+      "defesas_goleiro": {
+        "m": 4,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 57,
+        "v": 43
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 1
+      },
+      "cantos": {
+        "m": 2,
+        "v": 1
+      },
+      "passes": {
+        "m": "(226/277)",
+        "v": "80%"
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 1
+      },
+      "faltas": {
+        "m": 9,
+        "v": 2
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "2.35",
+      "oddEmpate": "3.50",
+      "oddV": "2.90"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:34:28.204Z",
+      "campos_disponiveis": 21,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/EZtkaFfJ/#/match-summary",
+    "match_id": "EZtkaFfJ",
+    "data_partida": "01.11.2025 11:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "Union Berlin",
+    "visitante": "Freiburg",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 37,
+        "v": 63
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 13
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 4
+      },
+      "cantos": {
+        "m": 5,
+        "v": 5
+      },
+      "passes": {
+        "m": "(160/246)",
+        "v": "84%"
+      },
+      "cartoes_amarelos": {
+        "m": 6,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 4,
+        "v": 1
+      },
+      "faltas": {
+        "m": 20,
+        "v": 13
+      },
+      "defesas_goleiro": {
+        "m": 4,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 35,
+        "v": 65
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 2
+      },
+      "cantos": {
+        "m": 1,
+        "v": 3
+      },
+      "passes": {
+        "m": "(104/148)",
+        "v": "87%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 1
+      },
+      "faltas": {
+        "m": 5,
+        "v": 4
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "2.60",
+      "oddEmpate": "3.20",
+      "oddV": "2.80"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:34:57.940Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/rBY1Au3K/#/match-summary",
+    "match_id": "rBY1Au3K",
+    "data_partida": "01.11.2025 11:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "Mainz",
+    "visitante": "Werder Bremen",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "1 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 47,
+        "v": 53
+      },
+      "finalizacoes": {
+        "m": 10,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 3
+      },
+      "cantos": {
+        "m": 2,
+        "v": 0
+      },
+      "passes": {
+        "m": "(311/404)",
+        "v": "80%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 3
+      },
+      "impedimentos": {
+        "m": 4,
+        "v": 1
+      },
+      "faltas": {
+        "m": 19,
+        "v": 11
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 56,
+        "v": 44
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 1
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 1
+      },
+      "cantos": {
+        "m": 0,
+        "v": 0
+      },
+      "passes": {
+        "m": "(214/253)",
+        "v": "84%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 0
+      },
+      "faltas": {
+        "m": 5,
+        "v": 5
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "1.85",
+      "oddEmpate": "3.70",
+      "oddV": "3.90"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:35:26.290Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/Ol0JYfpn/#/match-summary",
+    "match_id": "Ol0JYfpn",
+    "data_partida": "05.10.2025 12:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "Hamburger SV",
+    "visitante": "Mainz",
+    "placar": {
+      "ht": "2 - 0",
+      "ft": "4 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 35,
+        "v": 65
+      },
+      "finalizacoes": {
+        "m": 15,
+        "v": 11
+      },
+      "chutes_alvo": {
+        "m": 9,
+        "v": 4
+      },
+      "cantos": {
+        "m": 1,
+        "v": 4
+      },
+      "passes": {
+        "m": "(194/285)",
+        "v": "83%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 3
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 3
+      },
+      "faltas": {
+        "m": 14,
+        "v": 13
+      },
+      "defesas_goleiro": {
+        "m": 4,
+        "v": 5
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 33,
+        "v": 67
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 3
+      },
+      "cantos": {
+        "m": 0,
+        "v": 2
+      },
+      "passes": {
+        "m": "(91/136)",
+        "v": "85%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 3
+      },
+      "faltas": {
+        "m": 6,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 3
+      }
+    },
+    "formacao": {
+      "m": "3-4-3",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "3.10",
+      "oddEmpate": "3.75",
+      "oddV": "2.15"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:35:56.208Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/IBwhIZa5/#/match-summary",
+    "match_id": "IBwhIZa5",
+    "data_partida": "05.10.2025 14:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "B. Monchengladbach",
+    "visitante": "Freiburg",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 53,
+        "v": 47
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 12
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 1
+      },
+      "cantos": {
+        "m": 4,
+        "v": 1
+      },
+      "passes": {
+        "m": "(402/464)",
+        "v": "84%"
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 3
+      },
+      "faltas": {
+        "m": 15,
+        "v": 7
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 5
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 49,
+        "v": 51
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 0
+      },
+      "cantos": {
+        "m": 2,
+        "v": 0
+      },
+      "passes": {
+        "m": "(183/214)",
+        "v": "82%"
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 1
+      },
+      "faltas": {
+        "m": 5,
+        "v": 4
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 3
+      }
+    },
+    "formacao": {
+      "m": "4-4-2",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "2.70",
+      "oddEmpate": "3.25",
+      "oddV": "2.63"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:36:26.857Z",
+      "campos_disponiveis": 21,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/IqXBbcMb/#/match-summary",
+    "match_id": "IqXBbcMb",
+    "data_partida": "06.12.2025 11:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "Heidenheim",
+    "visitante": "Freiburg",
+    "placar": {
+      "ht": "0 - 1",
+      "ft": "2 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 39,
+        "v": 61
+      },
+      "finalizacoes": {
+        "m": 16,
+        "v": 16
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 2
+      },
+      "cantos": {
+        "m": 8,
+        "v": 6
+      },
+      "passes": {
+        "m": "(206/282)",
+        "v": "81%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 1
+      },
+      "faltas": {
+        "m": 11,
+        "v": 10
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 38,
+        "v": 62
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 1
+      },
+      "cantos": {
+        "m": 4,
+        "v": 4
+      },
+      "passes": {
+        "m": "(103/137)",
+        "v": "84%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 0
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 0
+      },
+      "faltas": {
+        "m": 9,
+        "v": 3
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "3-1-4-2",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "4.75",
+      "oddEmpate": "3.60",
+      "oddV": "1.75"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:36:54.895Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/AaNZToH7/#/match-summary",
+    "match_id": "AaNZToH7",
+    "data_partida": "30.11.2025 15:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "Freiburg",
+    "visitante": "Mainz",
+    "placar": {
+      "ht": "2 - 0",
+      "ft": "4 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 75,
+        "v": 25
+      },
+      "finalizacoes": {
+        "m": 23,
+        "v": 1
+      },
+      "chutes_alvo": {
+        "m": 10,
+        "v": 1
+      },
+      "cantos": {
+        "m": 6,
+        "v": 2
+      },
+      "passes": {
+        "m": "(642/716)",
+        "v": "70%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 2
+      },
+      "cartoes_vermelhos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 4,
+        "v": 0
+      },
+      "faltas": {
+        "m": 9,
+        "v": 12
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 6
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 65,
+        "v": 35
+      },
+      "finalizacoes": {
+        "m": 14,
+        "v": 0
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 0
+      },
+      "cantos": {
+        "m": 5,
+        "v": 0
+      },
+      "passes": {
+        "m": "(258/296)",
+        "v": "75%"
+      },
+      "cartoes_vermelhos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 0
+      },
+      "faltas": {
+        "m": 6,
+        "v": 6
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 5
+      }
+    },
+    "formacao": {
+      "m": "4-4-1-1",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "1.73",
+      "oddEmpate": "3.75",
+      "oddV": "4.50"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:37:24.445Z",
+      "campos_disponiveis": 23,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/tpNvG4jt/#/match-summary",
+    "match_id": "tpNvG4jt",
+    "data_partida": "09.11.2025 11:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "Freiburg",
+    "visitante": "St. Pauli",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "2 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 60,
+        "v": 40
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 2
+      },
+      "cantos": {
+        "m": 9,
+        "v": 3
+      },
+      "passes": {
+        "m": "(503/579)",
+        "v": "75%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 4
+      },
+      "faltas": {
+        "m": 8,
+        "v": 12
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 67,
+        "v": 33
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 0
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 0
+      },
+      "cantos": {
+        "m": 8,
+        "v": 0
+      },
+      "passes": {
+        "m": "(280/314)",
+        "v": "76%"
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 3
+      },
+      "faltas": {
+        "m": 4,
+        "v": 5
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "3-4-3"
+    },
+    "mercado": {
+      "oddM": "1.75",
+      "oddEmpate": "3.60",
+      "oddV": "4.75"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:37:55.155Z",
+      "campos_disponiveis": 21,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/tj2LfKpp/#/match-summary",
+    "match_id": "tj2LfKpp",
+    "data_partida": "20.09.2025 10:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "Werder Bremen",
+    "visitante": "Freiburg",
+    "placar": {
+      "ht": "0 - 1",
+      "ft": "0 - 3"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 62,
+        "v": 38
+      },
+      "finalizacoes": {
+        "m": 12,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 5
+      },
+      "cantos": {
+        "m": 2,
+        "v": 0
+      },
+      "passes": {
+        "m": "(475/557)",
+        "v": "78%"
+      },
+      "cartoes_amarelos": {
+        "m": 5,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 2
+      },
+      "faltas": {
+        "m": 13,
+        "v": 7
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 5
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 54,
+        "v": 46
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 2
+      },
+      "cantos": {
+        "m": 1,
+        "v": 0
+      },
+      "passes": {
+        "m": "(206/246)",
+        "v": "80%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 1
+      },
+      "faltas": {
+        "m": 7,
+        "v": 4
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "2.35",
+      "oddEmpate": "3.60",
+      "oddV": "2.88"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:38:25.173Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/KvAdZCI6/#/match-summary",
+    "match_id": "KvAdZCI6",
+    "data_partida": "31.08.2025 14:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "FC Koln",
+    "visitante": "Freiburg",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "4 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 39,
+        "v": 61
+      },
+      "finalizacoes": {
+        "m": 18,
+        "v": 12
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 2
+      },
+      "cantos": {
+        "m": 3,
+        "v": 5
+      },
+      "passes": {
+        "m": "(278/353)",
+        "v": "85%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 2
+      },
+      "faltas": {
+        "m": 12,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 40,
+        "v": 60
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 0
+      },
+      "cantos": {
+        "m": 2,
+        "v": 3
+      },
+      "passes": {
+        "m": "(142/178)",
+        "v": "85%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 1
+      },
+      "faltas": {
+        "m": 7,
+        "v": 6
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "2.60",
+      "oddEmpate": "3.30",
+      "oddV": "2.70"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:38:55.209Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/SdcOE9Cd/#/match-summary",
+    "match_id": "SdcOE9Cd",
+    "data_partida": "21.12.2025 11:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "Mainz",
+    "visitante": "St. Pauli",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 53,
+        "v": 47
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 1
+      },
+      "cantos": {
+        "m": 9,
+        "v": 5
+      },
+      "passes": {
+        "m": "(311/404)",
+        "v": "70%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 0
+      },
+      "faltas": {
+        "m": 5,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 54,
+        "v": 46
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 1
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 1
+      },
+      "cantos": {
+        "m": 5,
+        "v": 5
+      },
+      "passes": {
+        "m": "(169/209)",
+        "v": "71%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 0
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 0
+      },
+      "faltas": {
+        "m": 4,
+        "v": 4
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "5-3-2",
+      "v": "3-4-1-2"
+    },
+    "mercado": {
+      "oddM": "1.95",
+      "oddEmpate": "3.30",
+      "oddV": "4.10"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:39:25.083Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/W8Aza6Gs/#/match-summary",
+    "match_id": "W8Aza6Gs",
+    "data_partida": "05.12.2025 16:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "Mainz",
+    "visitante": "B. Monchengladbach",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 55,
+        "v": 45
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 14
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 5
+      },
+      "cantos": {
+        "m": 8,
+        "v": 6
+      },
+      "passes": {
+        "m": "(422/525)",
+        "v": "76%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 2
+      },
+      "faltas": {
+        "m": 12,
+        "v": 4
+      },
+      "defesas_goleiro": {
+        "m": 4,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 51,
+        "v": 49
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 1
+      },
+      "cantos": {
+        "m": 1,
+        "v": 2
+      },
+      "passes": {
+        "m": "(214/268)",
+        "v": "80%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 2
+      },
+      "faltas": {
+        "m": 4,
+        "v": 3
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "3-5-2",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "2.70",
+      "oddEmpate": "3.30",
+      "oddV": "2.50"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:39:55.326Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/WvVD0AY2/#/match-summary",
+    "match_id": "WvVD0AY2",
+    "data_partida": "20.09.2025 10:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "Augsburg",
+    "visitante": "Mainz",
+    "placar": {
+      "ht": "0 - 2",
+      "ft": "1 - 4"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 61,
+        "v": 39
+      },
+      "finalizacoes": {
+        "m": 18,
+        "v": 12
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 4
+      },
+      "cantos": {
+        "m": 6,
+        "v": 6
+      },
+      "passes": {
+        "m": "(414/485)",
+        "v": "72%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 2
+      },
+      "cartoes_vermelhos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 2
+      },
+      "faltas": {
+        "m": 13,
+        "v": 10
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 55,
+        "v": 45
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 2
+      },
+      "cantos": {
+        "m": 3,
+        "v": 1
+      },
+      "passes": {
+        "m": "(196/232)",
+        "v": "75%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 2
+      },
+      "faltas": {
+        "m": 6,
+        "v": 6
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "2.63",
+      "oddEmpate": "3.50",
+      "oddV": "2.63"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:40:24.292Z",
+      "campos_disponiveis": 23,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/MqS9rHeK/#/match-summary",
+    "match_id": "MqS9rHeK",
+    "data_partida": "31.08.2025 10:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "Wolfsburg",
+    "visitante": "Mainz",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "1 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 40,
+        "v": 60
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 17
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 3
+      },
+      "cantos": {
+        "m": 3,
+        "v": 10
+      },
+      "passes": {
+        "m": "(224/310)",
+        "v": "84%"
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 5
+      },
+      "cartoes_vermelhos": {
+        "m": 1,
+        "v": 0
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 0
+      },
+      "faltas": {
+        "m": 15,
+        "v": 14
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 1
+      },
+      "cantos": {
+        "m": 0,
+        "v": 3
+      },
+      "passes": {
+        "m": "(158/204)",
+        "v": "84%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 0
+      },
+      "faltas": {
+        "m": 5,
+        "v": 4
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "3-4-3"
+    },
+    "mercado": {
+      "oddM": "2.15",
+      "oddEmpate": "3.50",
+      "oddV": "3.20"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:40:54.085Z",
+      "campos_disponiveis": 23,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/UwPuWnwP/#/match-summary",
+    "match_id": "UwPuWnwP",
+    "data_partida": "24.08.2025 10:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "Mainz",
+    "visitante": "FC Koln",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 51,
+        "v": 49
+      },
+      "finalizacoes": {
+        "m": 19,
+        "v": 12
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 2
+      },
+      "cantos": {
+        "m": 8,
+        "v": 3
+      },
+      "passes": {
+        "m": "(302/389)",
+        "v": "81%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 2
+      },
+      "cartoes_vermelhos": {
+        "m": 1,
+        "v": 0
+      },
+      "impedimentos": {
+        "m": 5,
+        "v": 0
+      },
+      "faltas": {
+        "m": 7,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 53,
+        "v": 47
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 1
+      },
+      "cantos": {
+        "m": 4,
+        "v": 1
+      },
+      "passes": {
+        "m": "(167/214)",
+        "v": "76%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 0
+      },
+      "faltas": {
+        "m": 4,
+        "v": 6
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "1.95",
+      "oddEmpate": "3.60",
+      "oddV": "3.70"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:41:24.330Z",
+      "campos_disponiveis": 23,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/I1fkT8Rk/#/match-summary",
+    "match_id": "I1fkT8Rk",
+    "data_partida": "20.12.2025 11:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "Augsburg",
+    "visitante": "Werder Bremen",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 53,
+        "v": 47
+      },
+      "finalizacoes": {
+        "m": 14,
+        "v": 9
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 0
+      },
+      "cantos": {
+        "m": 6,
+        "v": 11
+      },
+      "passes": {
+        "m": "(360/444)",
+        "v": "78%"
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 4
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 2
+      },
+      "faltas": {
+        "m": 10,
+        "v": 20
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 6
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 47,
+        "v": 53
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 4
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 0
+      },
+      "cantos": {
+        "m": 3,
+        "v": 9
+      },
+      "passes": {
+        "m": "(164/198)",
+        "v": "82%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 1
+      },
+      "faltas": {
+        "m": 4,
+        "v": 8
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "3-5-2"
+    },
+    "mercado": {
+      "oddM": "2.20",
+      "oddEmpate": "3.50",
+      "oddV": "3.20"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:41:53.818Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/WW4EOjuS/#/match-summary",
+    "match_id": "WW4EOjuS",
+    "data_partida": "22.11.2025 11:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "Augsburg",
+    "visitante": "Hamburger SV",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 15
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 6
+      },
+      "cantos": {
+        "m": 4,
+        "v": 3
+      },
+      "passes": {
+        "m": "(356/417)",
+        "v": "83%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 3
+      },
+      "cartoes_vermelhos": {
+        "m": 1,
+        "v": 0
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 7
+      },
+      "faltas": {
+        "m": 13,
+        "v": 10
+      },
+      "defesas_goleiro": {
+        "m": 5,
+        "v": 5
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 49,
+        "v": 51
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 4
+      },
+      "cantos": {
+        "m": 3,
+        "v": 2
+      },
+      "passes": {
+        "m": "(199/227)",
+        "v": "85%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 4
+      },
+      "faltas": {
+        "m": 5,
+        "v": 4
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 3
+      }
+    },
+    "formacao": {
+      "m": "3-4-3",
+      "v": "3-4-3"
+    },
+    "mercado": {
+      "oddM": "2.50",
+      "oddEmpate": "3.40",
+      "oddV": "2.80"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:42:25.190Z",
+      "campos_disponiveis": 23,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/Gtxlz8Lj/#/match-summary",
+    "match_id": "Gtxlz8Lj",
+    "data_partida": "18.10.2025 10:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "FC Koln",
+    "visitante": "Augsburg",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "1 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 56,
+        "v": 44
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 4
+      },
+      "cantos": {
+        "m": 5,
+        "v": 2
+      },
+      "passes": {
+        "m": "(377/487)",
+        "v": "73%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 6,
+        "v": 0
+      },
+      "faltas": {
+        "m": 10,
+        "v": 17
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 51,
+        "v": 49
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 0
+      },
+      "cantos": {
+        "m": 2,
+        "v": 1
+      },
+      "passes": {
+        "m": "(162/214)",
+        "v": "77%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 4,
+        "v": 0
+      },
+      "faltas": {
+        "m": 5,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "2.00",
+      "oddEmpate": "3.80",
+      "oddV": "3.40"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:42:56.154Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/EwX0GDUH/#/match-summary",
+    "match_id": "EwX0GDUH",
+    "data_partida": "04.10.2025 10:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "Augsburg",
+    "visitante": "Wolfsburg",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "3 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 47,
+        "v": 53
+      },
+      "finalizacoes": {
+        "m": 10,
+        "v": 14
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 4
+      },
+      "cantos": {
+        "m": 10,
+        "v": 5
+      },
+      "passes": {
+        "m": "(286/371)",
+        "v": "82%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 5,
+        "v": 2
+      },
+      "faltas": {
+        "m": 9,
+        "v": 7
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 4
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 0
+      },
+      "cantos": {
+        "m": 5,
+        "v": 2
+      },
+      "passes": {
+        "m": "(117/160)",
+        "v": "81%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 0
+      },
+      "faltas": {
+        "m": 6,
+        "v": 6
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "2.55",
+      "oddEmpate": "3.50",
+      "oddV": "2.63"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:43:26.301Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/xClVPQ1E/#/match-summary",
+    "match_id": "xClVPQ1E",
+    "data_partida": "27.09.2025 10:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "Heidenheim",
+    "visitante": "Augsburg",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "2 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 8
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 2
+      },
+      "cantos": {
+        "m": 3,
+        "v": 2
+      },
+      "passes": {
+        "m": "(274/369)",
+        "v": "81%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 6
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 2
+      },
+      "faltas": {
+        "m": 16,
+        "v": 20
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 52,
+        "v": 48
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 2
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 0
+      },
+      "cantos": {
+        "m": 2,
+        "v": 1
+      },
+      "passes": {
+        "m": "(140/191)",
+        "v": "82%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 1
+      },
+      "faltas": {
+        "m": 8,
+        "v": 8
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "4-3-3",
+      "v": "3-3-3-1"
+    },
+    "mercado": {
+      "oddM": "2.90",
+      "oddEmpate": "3.50",
+      "oddV": "2.35"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:43:57.013Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/KEQ50kH5/#/match-summary",
+    "match_id": "KEQ50kH5",
+    "data_partida": "14.09.2025 10:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "St. Pauli",
+    "visitante": "Augsburg",
+    "placar": {
+      "ht": "1 - 1",
+      "ft": "2 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 57,
+        "v": 43
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 7,
+        "v": 5
+      },
+      "cantos": {
+        "m": 3,
+        "v": 1
+      },
+      "passes": {
+        "m": "(438/546)",
+        "v": "80%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 4
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 3
+      },
+      "faltas": {
+        "m": 10,
+        "v": 12
+      },
+      "defesas_goleiro": {
+        "m": 4,
+        "v": 5
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 66,
+        "v": 34
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 2
+      },
+      "cantos": {
+        "m": 2,
+        "v": 0
+      },
+      "passes": {
+        "m": "(263/321)",
+        "v": "73%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 2
+      },
+      "faltas": {
+        "m": 4,
+        "v": 5
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "3-4-1-2",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "2.10",
+      "oddEmpate": "3.50",
+      "oddV": "3.30"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:44:26.692Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/8OzXX88C/#/match-summary",
+    "match_id": "8OzXX88C",
+    "data_partida": "23.08.2025 10:30",
+    "liga": "Bundesliga (Alemanha)",
+    "codigo_liga": "BUN",
+    "rodada": null,
+    "mandante": "Freiburg",
+    "visitante": "Augsburg",
+    "placar": {
+      "ht": "0 - 3",
+      "ft": "1 - 3"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 60,
+        "v": 40
+      },
+      "finalizacoes": {
+        "m": 16,
+        "v": 14
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 5
+      },
+      "cantos": {
+        "m": 5,
+        "v": 5
+      },
+      "passes": {
+        "m": "(373/458)",
+        "v": "72%"
+      },
+      "cartoes_amarelos": {
+        "m": 4,
+        "v": 5
+      },
+      "impedimentos": {
+        "m": 4,
+        "v": 3
+      },
+      "faltas": {
+        "m": 14,
+        "v": 18
+      },
+      "defesas_goleiro": {
+        "m": 2,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 55,
+        "v": 45
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 8
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 3
+      },
+      "cantos": {
+        "m": 2,
+        "v": 2
+      },
+      "passes": {
+        "m": "(180/219)",
+        "v": "78%"
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 0
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 1
+      },
+      "faltas": {
+        "m": 8,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "3-4-3"
+    },
+    "mercado": {
+      "oddM": "1.91",
+      "oddEmpate": "3.60",
+      "oddV": "3.90"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T08:44:56.990Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  }
+]

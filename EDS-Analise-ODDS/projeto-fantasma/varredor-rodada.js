@@ -58,6 +58,60 @@ const LIGAS = {
     url: 'https://www.flashscore.com/football/germany/bundesliga/results/',
     times: 18,
     jogos_por_rodada: 9    // 18 times ÷ 2
+  },
+  ARG_B: {
+    nome: 'Primera B Nacional (Argentina)',
+    url: 'https://www.flashscore.com/football/argentina/primera-nacional/results/',
+    times: 36,
+    jogos_por_rodada: 18   // 36 times ÷ 2
+  },
+  J1: {
+    nome: 'J1 League (Japão)',
+    url: 'https://www.flashscore.com/football/japan/j1-league/results/',
+    times: 20,
+    jogos_por_rodada: 10
+  },
+  ALM: {
+    nome: 'A-League Men (Austrália)',
+    url: 'https://www.flashscore.com/football/australia/a-league/results/',
+    times: 12,
+    jogos_por_rodada: 6
+  },
+  CHI: {
+    nome: 'Primera División (Chile)',
+    url: 'https://www.flashscore.com/football/chile/liga-de-primera/results/',
+    times: 16,
+    jogos_por_rodada: 8
+  },
+  J2J3: {
+    nome: 'J2/J3 League (Japão — 4 federações regionais)',
+    url: 'https://www.flashscore.com/football/japan/j2-j3-league/results/',
+    times: 40,
+    jogos_por_rodada: 60
+  },
+  BR_B: {
+    nome: 'Brasileirão Série B',
+    url: 'https://www.flashscore.com/football/brazil/serie-b/results/',
+    times: 20,
+    jogos_por_rodada: 10
+  },
+  ARG_M: {
+    nome: 'Primera B Metropolitana (Argentina)',
+    url: 'https://www.flashscore.com/football/argentina/primera-b-metropolitana/results/',
+    times: 18,
+    jogos_por_rodada: 9
+  },
+  CHN_SL: {
+    nome: 'Chinese Super League',
+    url: 'https://www.flashscore.com/football/china/super-league/results/',
+    times: 16,
+    jogos_por_rodada: 8
+  },
+  CHN_L1: {
+    nome: 'China League One',
+    url: 'https://www.flashscore.com/football/china/league-one/results/',
+    times: 16,
+    jogos_por_rodada: 8
   }
 };
 
@@ -109,6 +163,11 @@ async function varrerLiga(codigoLiga, browser) {
 
   await page.goto(liga.url, { waitUntil: 'domcontentloaded', timeout: 40000 });
   await delayHumano(5000, 2000);
+  try {
+    await page.waitForSelector('.event__match', { timeout: 20000 });
+  } catch (_) {
+    // segue pro evaluate mesmo se timeout — ainda pode haver algo
+  }
 
   const gameIds = await page.evaluate((limite) => {
     const matches = document.querySelectorAll('.event__match');
@@ -189,11 +248,13 @@ async function varrerLiga(codigoLiga, browser) {
   const mins = Math.floor(elapsed / 60);
   const secs = elapsed % 60;
 
-  // Salvar arquivo
+  // Salvar arquivo em rodadas/<LIGA>/ (organização por liga — 18/05/2026)
   const dataHoje = new Date().toISOString().split('T')[0];
   const rodadaNum = Math.ceil(rodada.length / (liga.jogos_por_rodada || 10)) || '?';
   const nomeArquivo = `${codigoLiga.toLowerCase()}_rodada_${rodadaNum}_${dataHoje}.json`;
-  const caminhoArquivo = path.join(__dirname, nomeArquivo);
+  const pastaLiga = path.join(__dirname, 'rodadas', codigoLiga.toUpperCase());
+  fs.mkdirSync(pastaLiga, { recursive: true });
+  const caminhoArquivo = path.join(pastaLiga, nomeArquivo);
 
   fs.writeFileSync(caminhoArquivo, JSON.stringify(rodada, null, 2));
 
@@ -231,10 +292,10 @@ async function varrerLiga(codigoLiga, browser) {
   console.log(`  Campos médios:      ${camposMedia}`);
   console.log(`  Campos falhados:    ${topFalhados || 'nenhum'}`);
   console.log(`  Tempo total:        ${mins}m ${secs}s`);
-  console.log(`  Arquivo:            ${nomeArquivo}`);
+  console.log(`  Arquivo:            rodadas/${codigoLiga.toUpperCase()}/${nomeArquivo}`);
   console.log('═══════════════════════════════════════════');
 
-  return { liga: codigoLiga, arquivo: nomeArquivo, jogos: rodada.length, falhas: falhas.length };
+  return { liga: codigoLiga, arquivo: caminhoArquivo, jogos: rodada.length, falhas: falhas.length };
 }
 
 // ═══════════════════════════════════════════════════

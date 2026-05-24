@@ -1,11 +1,11 @@
-// Auto-gerado em 2026-04-14 — EDS Soluções Inteligentes
+// Auto-gerado em 2026-04-16 — EDS Soluções Inteligentes
 // Liga: BR | Times: 20 | Jogos c/ placar: 107
 
 window.ESCOTEIRO_BR = {
   "meta": {
     "liga": "BR",
     "nome_liga": "Brasileirão Série A",
-    "data_coleta": "2026-04-14",
+    "data_coleta": "2026-04-16",
     "total_times": 20,
     "jogos_analisados": 107,
     "jogos_sem_placar": 0,

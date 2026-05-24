@@ -1,0 +1,2397 @@
+[
+  {
+    "url": "https://www.flashscore.com/match/8SCfmkq4/#/match-summary",
+    "match_id": "8SCfmkq4",
+    "data_partida": "15.03.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Yokohama FC",
+    "visitante": "Kusatsu",
+    "placar": {
+      "ht": "2 - 0",
+      "ft": "3 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 52,
+        "v": 48
+      },
+      "finalizacoes": {
+        "m": 14,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 7,
+        "v": 3
+      },
+      "cantos": {
+        "m": 12,
+        "v": 1
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 49,
+        "v": 51
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 1
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 0
+      },
+      "cantos": {
+        "m": 8,
+        "v": 0
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "1.75",
+      "oddEmpate": "3.40",
+      "oddV": "4.70"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:31:07.100Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/0SxuLdQN/#/match-summary",
+    "match_id": "0SxuLdQN",
+    "data_partida": "22.02.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Yokohama FC",
+    "visitante": "Tochigi City",
+    "placar": {
+      "ht": "2 - 1",
+      "ft": "5 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 51,
+        "v": 49
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 9,
+        "v": 6
+      },
+      "cantos": {
+        "m": 1,
+        "v": 5
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 46,
+        "v": 54
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 4
+      },
+      "cantos": {
+        "m": 0,
+        "v": 3
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "4-1-2-3"
+    },
+    "mercado": {
+      "oddM": "2.10",
+      "oddEmpate": "3.20",
+      "oddV": "3.40"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:31:37.122Z",
+      "campos_disponiveis": 13,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/riSWFmxi/#/match-summary",
+    "match_id": "riSWFmxi",
+    "data_partida": "19.04.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Montedio Yamagata",
+    "visitante": "Vanraure",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 55,
+        "v": 45
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 0
+      },
+      "cantos": {
+        "m": 9,
+        "v": 1
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 47,
+        "v": 53
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 1
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 0
+      },
+      "cantos": {
+        "m": 4,
+        "v": 0
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "4-2-1-3",
+      "v": "3-3-2-2"
+    },
+    "mercado": {
+      "oddM": "3.20",
+      "oddEmpate": "3.15",
+      "oddV": "2.22"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:32:06.567Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/EJMBD0Fa/#/match-summary",
+    "match_id": "EJMBD0Fa",
+    "data_partida": "05.04.2026 01:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Vanraure",
+    "visitante": "Montedio Yamagata",
+    "placar": {
+      "ht": "0 - 2",
+      "ft": "0 - 2"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 53,
+        "v": 47
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 2
+      },
+      "cantos": {
+        "m": 4,
+        "v": 1
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 58,
+        "v": 42
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 2
+      },
+      "cantos": {
+        "m": 1,
+        "v": 0
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "3-1-4-2",
+      "v": "4-3-3"
+    },
+    "mercado": {
+      "oddM": "1.90",
+      "oddEmpate": "3.30",
+      "oddV": "4.00"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:32:35.342Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/bRGacT74/#/match-summary",
+    "match_id": "bRGacT74",
+    "data_partida": "29.03.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Montedio Yamagata",
+    "visitante": "Tochigi City",
+    "placar": {
+      "ht": "0 - 1",
+      "ft": "1 - 2"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 57,
+        "v": 43
+      },
+      "finalizacoes": {
+        "m": 19,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 8,
+        "v": 3
+      },
+      "cantos": {
+        "m": 6,
+        "v": 4
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 49,
+        "v": 51
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 1
+      },
+      "cantos": {
+        "m": 3,
+        "v": 0
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-2-1-3",
+      "v": "4-2-1-3"
+    },
+    "mercado": {
+      "oddM": "2.80",
+      "oddEmpate": "3.35",
+      "oddV": "2.37"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:33:05.353Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/nN7sGArR/#/match-summary",
+    "match_id": "nN7sGArR",
+    "data_partida": "21.02.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Kusatsu",
+    "visitante": "Montedio Yamagata",
+    "placar": {
+      "ht": "0 - 1",
+      "ft": "1 - 2"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 56,
+        "v": 44
+      },
+      "finalizacoes": {
+        "m": 17,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 13,
+        "v": 5
+      },
+      "cantos": {
+        "m": 12,
+        "v": 4
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 49,
+        "v": 51
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 4
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 4
+      },
+      "cantos": {
+        "m": 2,
+        "v": 2
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "4-2-1-3"
+    },
+    "mercado": {
+      "oddM": "3.55",
+      "oddEmpate": "3.40",
+      "oddV": "1.98"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:33:33.678Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/r171f2u3/#/match-summary",
+    "match_id": "r171f2u3",
+    "data_partida": "15.02.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Tochigi SC",
+    "visitante": "Montedio Yamagata",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "1 - 2"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 46,
+        "v": 54
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 9
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 5
+      },
+      "cantos": {
+        "m": 4,
+        "v": 2
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 49,
+        "v": 51
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 1
+      },
+      "cantos": {
+        "m": 4,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "4-2-1-3"
+    },
+    "mercado": {
+      "oddM": "2.95",
+      "oddEmpate": "3.30",
+      "oddV": "2.27"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:34:02.746Z",
+      "campos_disponiveis": 13,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/8dhHooRr/#/match-summary",
+    "match_id": "8dhHooRr",
+    "data_partida": "12.04.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Tochigi City",
+    "visitante": "Vanraure",
+    "placar": {
+      "ht": "2 - 3",
+      "ft": "2 - 4"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 61,
+        "v": 39
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 8
+      },
+      "cantos": {
+        "m": 5,
+        "v": 7
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 53,
+        "v": 47
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 4
+      },
+      "cantos": {
+        "m": 2,
+        "v": 6
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "4-3-3",
+      "v": "3-1-4-2"
+    },
+    "mercado": {
+      "oddM": "3.15",
+      "oddEmpate": "3.15",
+      "oddV": "2.27"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:34:31.649Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/CYYL1Tt0/#/match-summary",
+    "match_id": "CYYL1Tt0",
+    "data_partida": "15.03.2026 01:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Vanraure",
+    "visitante": "Tochigi City",
+    "placar": {
+      "ht": "0 - 1",
+      "ft": "0 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 54,
+        "v": 46
+      },
+      "finalizacoes": {
+        "m": 19,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 2
+      },
+      "cantos": {
+        "m": 7,
+        "v": 2
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 55,
+        "v": 45
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 2
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 1
+      },
+      "cantos": {
+        "m": 4,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "3-1-4-2",
+      "v": "4-1-2-3"
+    },
+    "mercado": {
+      "oddM": "2.42",
+      "oddEmpate": "3.10",
+      "oddV": "2.90"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:35:01.849Z",
+      "campos_disponiveis": 13,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/Q3a0R3BG/#/match-summary",
+    "match_id": "Q3a0R3BG",
+    "data_partida": "14.02.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Kusatsu",
+    "visitante": "Vanraure",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 52,
+        "v": 48
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 8
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 2
+      },
+      "cantos": {
+        "m": 2,
+        "v": 3
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 55,
+        "v": 45
+      },
+      "finalizacoes": {
+        "m": 2,
+        "v": 2
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 1
+      },
+      "cantos": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "3-1-4-2"
+    },
+    "mercado": {
+      "oddM": "3.55",
+      "oddEmpate": "3.25",
+      "oddV": "2.05"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:35:31.606Z",
+      "campos_disponiveis": 13,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/8KAYKHZg/#/match-summary",
+    "match_id": "8KAYKHZg",
+    "data_partida": "25.04.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Tochigi City",
+    "visitante": "Tochigi SC",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "2 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 52,
+        "v": 48
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 12
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 4
+      },
+      "cantos": {
+        "m": 4,
+        "v": 6
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 58,
+        "v": 42
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 0
+      },
+      "cantos": {
+        "m": 2,
+        "v": 1
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-1-2-3",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "2.30",
+      "oddEmpate": "3.35",
+      "oddV": "2.90"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:36:02.335Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/drjocuVI/#/match-summary",
+    "match_id": "drjocuVI",
+    "data_partida": "04.04.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Iwata",
+    "visitante": "Kofu",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 45,
+        "v": 55
+      },
+      "finalizacoes": {
+        "m": 10,
+        "v": 14
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 5
+      },
+      "cantos": {
+        "m": 3,
+        "v": 7
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 3
+      },
+      "cantos": {
+        "m": 1,
+        "v": 3
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "2.18",
+      "oddEmpate": "3.05",
+      "oddV": "3.40"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:36:32.204Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/pAJd9Eq2/#/match-summary",
+    "match_id": "pAJd9Eq2",
+    "data_partida": "08.03.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Tochigi City",
+    "visitante": "Kusatsu",
+    "placar": {
+      "ht": "1 - 1",
+      "ft": "1 - 2"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 54,
+        "v": 46
+      },
+      "finalizacoes": {
+        "m": 12,
+        "v": 8
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 2
+      },
+      "cantos": {
+        "m": 9,
+        "v": 2
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 53,
+        "v": 47
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 2
+      },
+      "cantos": {
+        "m": 4,
+        "v": 0
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-1-2-3",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "2.15",
+      "oddEmpate": "3.10",
+      "oddV": "3.40"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:37:01.759Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/xE1oi73L/#/match-summary",
+    "match_id": "xE1oi73L",
+    "data_partida": "12.04.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Tochigi SC",
+    "visitante": "Kusatsu",
+    "placar": {
+      "ht": "4 - 1",
+      "ft": "5 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 45,
+        "v": 55
+      },
+      "finalizacoes": {
+        "m": 14,
+        "v": 9
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 5
+      },
+      "cantos": {
+        "m": 3,
+        "v": 6
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 45,
+        "v": 55
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 4
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 2
+      },
+      "cantos": {
+        "m": 1,
+        "v": 1
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "2.12",
+      "oddEmpate": "3.40",
+      "oddV": "3.20"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:37:31.321Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/rySrWj95/#/match-summary",
+    "match_id": "rySrWj95",
+    "data_partida": "28.03.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Kusatsu",
+    "visitante": "Tochigi SC",
+    "placar": {
+      "ht": "0 - 3",
+      "ft": "1 - 3"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 59,
+        "v": 41
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 3
+      },
+      "cantos": {
+        "m": 5,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 57,
+        "v": 43
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 3
+      },
+      "cantos": {
+        "m": 2,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "2.77",
+      "oddEmpate": "3.40",
+      "oddV": "2.35"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:37:59.950Z",
+      "campos_disponiveis": 12,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_amarelos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/zkm0LZfm/#/match-summary",
+    "match_id": "zkm0LZfm",
+    "data_partida": "22.03.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Tochigi SC",
+    "visitante": "Tochigi City",
+    "placar": {
+      "ht": "2 - 0",
+      "ft": "3 - 2"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 43,
+        "v": 57
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 9
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 3
+      },
+      "cantos": {
+        "m": 0,
+        "v": 2
+      },
+      "cartoes_amarelos": {
+        "m": 6,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 8,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 1
+      },
+      "cantos": {
+        "m": 0,
+        "v": 0
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "4-2-1-3"
+    },
+    "mercado": {
+      "oddM": "2.90",
+      "oddEmpate": "3.10",
+      "oddV": "2.42"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:38:30.135Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/EibGd2hS/#/match-summary",
+    "match_id": "EibGd2hS",
+    "data_partida": "29.04.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Omiya Ardija",
+    "visitante": "Kofu",
+    "placar": {
+      "ht": "0 - 2",
+      "ft": "1 - 2"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 60,
+        "v": 40
+      },
+      "finalizacoes": {
+        "m": 16,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 7,
+        "v": 6
+      },
+      "cantos": {
+        "m": 8,
+        "v": 4
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 3
+      },
+      "cartoes_vermelhos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 47,
+        "v": 53
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 5
+      },
+      "cantos": {
+        "m": 1,
+        "v": 3
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "3-1-4-2"
+    },
+    "mercado": {
+      "oddM": "2.32",
+      "oddEmpate": "3.15",
+      "oddV": "3.00"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:38:59.985Z",
+      "campos_disponiveis": 15,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/n5MPMw5s/#/match-summary",
+    "match_id": "n5MPMw5s",
+    "data_partida": "25.04.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Fukushima Utd",
+    "visitante": "Kofu",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 45,
+        "v": 55
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 11
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 3
+      },
+      "cantos": {
+        "m": 5,
+        "v": 8
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 35,
+        "v": 65
+      },
+      "finalizacoes": {
+        "m": 1,
+        "v": 8
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 2
+      },
+      "cantos": {
+        "m": 0,
+        "v": 5
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-1-2-3",
+      "v": "3-3-2-2"
+    },
+    "mercado": {
+      "oddM": "2.87",
+      "oddEmpate": "3.45",
+      "oddV": "2.27"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:39:29.755Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/Cn0Q8WUN/#/match-summary",
+    "match_id": "Cn0Q8WUN",
+    "data_partida": "18.04.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Kofu",
+    "visitante": "Fujieda MYFC",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 57,
+        "v": 43
+      },
+      "finalizacoes": {
+        "m": 10,
+        "v": 12
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 6
+      },
+      "cantos": {
+        "m": 2,
+        "v": 5
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 51,
+        "v": 49
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 2
+      },
+      "cantos": {
+        "m": 1,
+        "v": 2
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "3-1-4-2",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "2.12",
+      "oddEmpate": "3.20",
+      "oddV": "3.35"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:39:59.975Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/IHjNPZTr/#/match-summary",
+    "match_id": "IHjNPZTr",
+    "data_partida": "08.03.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Gifu",
+    "visitante": "Kofu",
+    "placar": {
+      "ht": "0 - 0",
+      "ft": "0 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 64,
+        "v": 36
+      },
+      "finalizacoes": {
+        "m": 15,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 8,
+        "v": 2
+      },
+      "cantos": {
+        "m": 8,
+        "v": 4
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 54,
+        "v": 46
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 2
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 1
+      },
+      "cantos": {
+        "m": 2,
+        "v": 3
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "2.27",
+      "oddEmpate": "3.25",
+      "oddV": "3.00"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:40:29.854Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/MNCUPU4M/#/match-summary",
+    "match_id": "MNCUPU4M",
+    "data_partida": "11.04.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Kofu",
+    "visitante": "Hokkaido Consadole Sapporo",
+    "placar": {
+      "ht": "1 - 1",
+      "ft": "2 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 18
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 9
+      },
+      "cantos": {
+        "m": 2,
+        "v": 8
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 5
+      },
+      "cantos": {
+        "m": 1,
+        "v": 4
+      }
+    },
+    "formacao": {
+      "m": "3-1-4-2",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "2.62",
+      "oddEmpate": "2.90",
+      "oddV": "2.82"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:40:59.033Z",
+      "campos_disponiveis": 12,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_amarelos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/CGJaS88U/#/match-summary",
+    "match_id": "CGJaS88U",
+    "data_partida": "28.03.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Kofu",
+    "visitante": "Omiya Ardija",
+    "placar": {
+      "ht": "2 - 0",
+      "ft": "2 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 37,
+        "v": 63
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 15
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 9
+      },
+      "cantos": {
+        "m": 6,
+        "v": 7
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 31,
+        "v": 69
+      },
+      "finalizacoes": {
+        "m": 7,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 4
+      },
+      "cantos": {
+        "m": 2,
+        "v": 4
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "3.80",
+      "oddEmpate": "3.60",
+      "oddV": "1.85"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:41:28.517Z",
+      "campos_disponiveis": 12,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_amarelos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/Ktm9hpLq/#/match-summary",
+    "match_id": "Ktm9hpLq",
+    "data_partida": "21.03.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Hokkaido Consadole Sapporo",
+    "visitante": "Kofu",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 48,
+        "v": 52
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 10
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 2
+      },
+      "cantos": {
+        "m": 2,
+        "v": 7
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 0
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 49,
+        "v": 51
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 2
+      },
+      "cantos": {
+        "m": 2,
+        "v": 5
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "2.02",
+      "oddEmpate": "3.20",
+      "oddV": "3.65"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:41:58.381Z",
+      "campos_disponiveis": 13,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/CdB0dY4K/#/match-summary",
+    "match_id": "CdB0dY4K",
+    "data_partida": "14.03.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Kofu",
+    "visitante": "Iwaki",
+    "placar": {
+      "ht": "0 - 1",
+      "ft": "0 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 49,
+        "v": 51
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 12
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 6
+      },
+      "cantos": {
+        "m": 4,
+        "v": 11
+      },
+      "cartoes_amarelos": {
+        "m": 4,
+        "v": 3
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 40,
+        "v": 60
+      },
+      "finalizacoes": {
+        "m": 0,
+        "v": 7
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 3
+      },
+      "cantos": {
+        "m": 0,
+        "v": 6
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "3-1-4-2"
+    },
+    "mercado": {
+      "oddM": "2.52",
+      "oddEmpate": "3.20",
+      "oddV": "2.67"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:42:28.845Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/zNpKn3z3/#/match-summary",
+    "match_id": "zNpKn3z3",
+    "data_partida": "28.02.2026 02:00",
+    "liga": "J2/J3 League (Japão — 4 federações regionais)",
+    "codigo_liga": "J2J3",
+    "rodada": null,
+    "mandante": "Kofu",
+    "visitante": "Yamaga",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 45,
+        "v": 55
+      },
+      "finalizacoes": {
+        "m": 4,
+        "v": 11
+      },
+      "chutes_alvo": {
+        "m": 2,
+        "v": 4
+      },
+      "cantos": {
+        "m": 3,
+        "v": 5
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 45,
+        "v": 55
+      },
+      "finalizacoes": {
+        "m": 3,
+        "v": 2
+      },
+      "chutes_alvo": {
+        "m": 1,
+        "v": 2
+      },
+      "cantos": {
+        "m": 2,
+        "v": 1
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "3-4-2-1",
+      "v": "3-1-4-2"
+    },
+    "mercado": {
+      "oddM": "1.78",
+      "oddEmpate": "3.60",
+      "oddV": "4.15"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T09:42:59.180Z",
+      "campos_disponiveis": 14,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "faltas_ft",
+        "impedimentos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "defesas_goleiro_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "passes_ft",
+        "ataques_perigosos_ht",
+        "faltas_ht",
+        "impedimentos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "defesas_goleiro_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht",
+        "passes_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  }
+]

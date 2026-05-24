@@ -1,0 +1,530 @@
+═══════════════════════════════════════════════════════════════════
+  🦢 RELATÓRIO CISNE NEGRO — EDS Soluções Inteligentes
+═══════════════════════════════════════════════════════════════════
+  Liga:     Major League Soccer
+  Data:     2026-04-16 18:04
+  Jogos:    17 jogos da próxima rodada
+  Motor:    Sniper Pro v2 (Bayesian + EWMA + TMI + Poisson)
+═══════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────┐
+│  RESUMO POR JOGO                                              │
+└─────────────────────────────────────────────────────────────────┘
+
+  ── JOGO 1: Vancouver Whitecaps (CASA) vs Sporting Kansas City (FORA) ──
+  xCorners FT: 12.68 | HT: 5.38
+  Casa: 10.27 cantos | Fora: 2.42 cantos
+  Confiança: 95% | Incerteza: ±3.5
+  Reis dos Cantos: Vancouver Whitecaps (ABSOLUTO) @1.02
+  Sniper: FT=OVER 10 (72%) | HT=OVER 4 (62.4%)
+  🎯 BALA DE PRATA: Vancouver Whitecaps (NUCLEAR) @1.02
+  DNA: Vancouver Whitecaps=VOLATIL | Sporting Kansas City=VOLATIL
+  Jogos analisados: Vancouver Whitecaps=7 | Sporting Kansas City=7
+  Mercados FT:
+    🦢 Over 7.5: 93.6% (fair @1.07) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 88.5% (fair @1.13) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 9.5: 81.2% (fair @1.23) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 10.5: 72.0% (fair @1.39) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 11.5: 61.4% (fair @1.63) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 12.5: 50.2% (fair @1.99) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 90.4% (fair @1.11) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 3.5: 78.5% (fair @1.27) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 4.5: 62.4% (fair @1.60) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 5.5: 45.1% (fair @2.22) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 29.6% (fair @3.38) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 2: Toronto FC (CASA) vs Austin FC (FORA) ──
+  xCorners FT: 13.24 | HT: 5.67
+  Casa: 8.32 cantos | Fora: 4.92 cantos
+  Confiança: 95% | Incerteza: ±3.7
+  Reis dos Cantos: Toronto FC (ABSOLUTO) @1.27
+  Sniper: FT=OVER 10 (76.8%) | HT=OVER 4 (66.9%)
+  🎯 BALA DE PRATA: Toronto FC (NUCLEAR) @1.27
+  DNA: Toronto FC=VOLATIL | Austin FC=VOLATIL
+  Jogos analisados: Toronto FC=7 | Austin FC=7
+  Mercados FT:
+    🦢 Over 7.5: 95.2% (fair @1.05) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 91.1% (fair @1.10) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 9.5: 84.9% (fair @1.18) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 10.5: 76.8% (fair @1.30) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 11.5: 67.1% (fair @1.49) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 12.5: 56.3% (fair @1.78) — MEDIA CONFIANCA — Cautela recomendada
+  Mercados HT:
+    🦢 Over 2.5: 92.2% (fair @1.08) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 3.5: 81.7% (fair @1.22) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 4.5: 66.9% (fair @1.50) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 5.5: 50.0% (fair @2.00) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 34.1% (fair @2.93) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 3: CF Montreal (CASA) vs New York Red Bulls (FORA) ──
+  xCorners FT: 11.13 | HT: 5.73
+  Casa: 4.82 cantos | Fora: 6.31 cantos
+  Confiança: 95% | Incerteza: ±4.6
+  Reis dos Cantos: New York Red Bulls (MODERADO) @1.62
+  Sniper: FT=NEUTRO (55.5%) | HT=OVER 4 (67.8%)
+  🎯 BALA DE PRATA: New York Red Bulls (MODERADA) @1.62
+  DNA: CF Montreal=VOLATIL | New York Red Bulls=VOLATIL
+  Jogos analisados: CF Montreal=7 | New York Red Bulls=7
+  Mercados FT:
+    🦢 Over 7.5: 86.5% (fair @1.16) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 77.9% (fair @1.28) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 9.5: 67.3% (fair @1.49) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 10.5: 55.5% (fair @1.80) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 11.5: 43.6% (fair @2.29) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 32.6% (fair @3.07) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 92.5% (fair @1.08) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 3.5: 82.3% (fair @1.21) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 4.5: 67.8% (fair @1.48) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 5.5: 51.0% (fair @1.96) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 35.1% (fair @2.85) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 4: Colorado Rapids (CASA) vs Inter Miami (FORA) ──
+  xCorners FT: 9.33 | HT: 4.86
+  Casa: 4.48 cantos | Fora: 4.85 cantos
+  Confiança: 95% | Incerteza: ±4.9
+  Reis dos Cantos: Inter Miami (EQUILIBRADO) @2.08
+  Sniper: FT=UNDER 10 (33.4%) | HT=NEUTRO (53.4%)
+  DNA: Colorado Rapids=VOLATIL | Inter Miami=VOLATIL
+  Jogos analisados: Colorado Rapids=7 | Inter Miami=7
+  Mercados FT:
+    🟢 Over 7.5: 71.4% (fair @1.40) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 8.5: 58.7% (fair @1.70) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 9.5: 45.6% (fair @2.19) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 33.4% (fair @2.99) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 23.0% (fair @4.34) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 15.0% (fair @6.68) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 86.3% (fair @1.16) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 3.5: 71.4% (fair @1.40) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 4.5: 53.4% (fair @1.87) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 35.9% (fair @2.79) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 21.7% (fair @4.61) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 5: Atlanta Utd (CASA) vs Nashville SC (FORA) ──
+  xCorners FT: 5.99 | HT: 2.59
+  Casa: 2.49 cantos | Fora: 3.5 cantos
+  Confiança: 95% | Incerteza: ±3.1
+  Reis dos Cantos: Nashville SC (MODERADO) @1.73
+  Sniper: FT=UNDER 10 (4.2%) | HT=UNDER 4 (12.1%)
+  DNA: Atlanta Utd=VOLATIL | Nashville SC=MODERADO
+  Jogos analisados: Atlanta Utd=7 | Nashville SC=7
+  Mercados FT:
+    🔴 Over 7.5: 25.5% (fair @3.92) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 8.5: 15.2% (fair @6.57) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 8.3% (fair @11.98) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 4.2% (fair @23.61) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 2.0% (fair @50.13) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 0.9% (fair @114.22) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🔴 Over 2.5: 47.8% (fair @2.09) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 3.5: 26.1% (fair @3.83) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 4.5: 12.1% (fair @8.30) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 4.8% (fair @20.84) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 1.7% (fair @59.84) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 6: FC Cincinnati (CASA) vs Chicago Fire (FORA) ──
+  xCorners FT: 8.65 | HT: 4.61
+  Casa: 5.1 cantos | Fora: 3.55 cantos
+  Confiança: 95% | Incerteza: ±4.3
+  Reis dos Cantos: FC Cincinnati (MODERADO) @1.57
+  Sniper: FT=UNDER 10 (25.3%) | HT=NEUTRO (48.8%)
+  🎯 BALA DE PRATA: FC Cincinnati (MODERADA) @1.57
+  DNA: FC Cincinnati=VOLATIL | Chicago Fire=VOLATIL
+  Jogos analisados: FC Cincinnati=7 | Chicago Fire=7
+  Mercados FT:
+    🟡 Over 7.5: 63.3% (fair @1.58) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 8.5: 49.7% (fair @2.01) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 36.6% (fair @2.73) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 25.3% (fair @3.95) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 16.4% (fair @6.08) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 10.0% (fair @9.98) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 83.8% (fair @1.19) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 3.5: 67.6% (fair @1.48) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 4.5: 48.8% (fair @2.05) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 31.6% (fair @3.17) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 18.3% (fair @5.46) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 7: New England Revolution (CASA) vs Columbus Crew (FORA) ──
+  xCorners FT: 8.51 | HT: 4.25
+  Casa: 3.25 cantos | Fora: 5.26 cantos
+  Confiança: 87.1% | Incerteza: ±2.4
+  Reis dos Cantos: Columbus Crew (DOMINANTE) @1.43
+  Sniper: FT=UNDER 10 (23.8%) | HT=UNDER 4 (41.9%)
+  🎯 BALA DE PRATA: Columbus Crew (FORTE) @1.43
+  DNA: New England Revolution=VOLATIL | Columbus Crew=ESTAVEL
+  Jogos analisados: New England Revolution=6 | Columbus Crew=7
+  Mercados FT:
+    🟡 Over 7.5: 61.6% (fair @1.62) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 8.5: 47.8% (fair @2.09) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 34.8% (fair @2.87) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 23.8% (fair @4.21) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 15.2% (fair @6.57) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 9.2% (fair @10.93) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 79.6% (fair @1.26) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 3.5: 61.3% (fair @1.63) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 4.5: 41.9% (fair @2.38) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 25.5% (fair @3.93) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 13.8% (fair @7.24) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 8: New York City (CASA) vs Charlotte (FORA) ──
+  xCorners FT: 7.54 | HT: 3.57
+  Casa: 3.78 cantos | Fora: 3.75 cantos
+  Confiança: 95% | Incerteza: ±4.2
+  Reis dos Cantos: New York City (EQUILIBRADO) @2.32
+  Sniper: FT=UNDER 10 (14.1%) | HT=UNDER 4 (28.7%)
+  DNA: New York City=VOLATIL | Charlotte=VOLATIL
+  Jogos analisados: New York City=7 | Charlotte=7
+  Mercados FT:
+    🔴 Over 7.5: 48.1% (fair @2.08) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 8.5: 34.3% (fair @2.92) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 22.8% (fair @4.39) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 14.1% (fair @7.10) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 8.1% (fair @12.29) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 4.4% (fair @22.73) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🟢 Over 2.5: 69.1% (fair @1.45) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 3.5: 47.8% (fair @2.09) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 4.5: 28.7% (fair @3.48) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 15.1% (fair @6.60) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 7.1% (fair @14.16) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 9: Orlando City (CASA) vs Houston Dynamo (FORA) ──
+  xCorners FT: 15.42 | HT: 7.35
+  Casa: 4.36 cantos | Fora: 11.06 cantos
+  Confiança: 87.1% | Incerteza: ±3.7
+  Reis dos Cantos: Houston Dynamo (ABSOLUTO) @1.06
+  Sniper: FT=OVER 10 (90.1%) | HT=OVER 4 (85.6%)
+  🎯 BALA DE PRATA: Houston Dynamo (NUCLEAR) @1.06
+  DNA: Orlando City=VOLATIL | Houston Dynamo=VOLATIL
+  Jogos analisados: Orlando City=7 | Houston Dynamo=6
+  Mercados FT:
+    🦢 Over 7.5: 98.6% (fair @1.01) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 97.0% (fair @1.03) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 9.5: 94.3% (fair @1.06) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 10.5: 90.1% (fair @1.11) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 11.5: 84.2% (fair @1.19) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 12.5: 76.6% (fair @1.31) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+  Mercados HT:
+    🦢 Over 2.5: 97.7% (fair @1.02) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 3.5: 93.5% (fair @1.07) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 4.5: 85.6% (fair @1.17) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 5.5: 74.1% (fair @1.35) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 6.5: 60.0% (fair @1.67) — MEDIA CONFIANCA — Cautela recomendada
+
+  ── JOGO 10: Philadelphia Union (CASA) vs DC United (FORA) ──
+  xCorners FT: 9.86 | HT: 3.76
+  Casa: 6.67 cantos | Fora: 3.18 cantos
+  Confiança: 95% | Incerteza: ±3.2
+  Reis dos Cantos: Philadelphia Union (ABSOLUTO) @1.2
+  Sniper: FT=UNDER 10 (39.9%) | HT=UNDER 4 (32.4%)
+  🎯 BALA DE PRATA: Philadelphia Union (NUCLEAR) @1.2
+  DNA: Philadelphia Union=MODERADO | DC United=VOLATIL
+  Jogos analisados: Philadelphia Union=7 | DC United=7
+  Mercados FT:
+    🦢 Over 7.5: 76.7% (fair @1.30) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 8.5: 65.1% (fair @1.54) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 9.5: 52.4% (fair @1.91) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 39.9% (fair @2.50) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 28.7% (fair @3.48) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 19.5% (fair @5.12) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🟢 Over 2.5: 72.5% (fair @1.38) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 3.5: 51.8% (fair @1.93) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 4.5: 32.4% (fair @3.08) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 17.9% (fair @5.60) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 8.7% (fair @11.47) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 11: FC Dallas (CASA) vs Los Angeles Galaxy (FORA) ──
+  xCorners FT: 12.15 | HT: 5.48
+  Casa: 4 cantos | Fora: 8.15 cantos
+  Confiança: 95% | Incerteza: ±3.7
+  Reis dos Cantos: Los Angeles Galaxy (ABSOLUTO) @1.17
+  Sniper: FT=OVER 10 (66.9%) | HT=OVER 4 (64%)
+  🎯 BALA DE PRATA: Los Angeles Galaxy (NUCLEAR) @1.17
+  DNA: FC Dallas=MODERADO | Los Angeles Galaxy=VOLATIL
+  Jogos analisados: FC Dallas=7 | Los Angeles Galaxy=7
+  Mercados FT:
+    🦢 Over 7.5: 91.7% (fair @1.09) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 85.5% (fair @1.17) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 9.5: 77.1% (fair @1.30) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 10.5: 66.9% (fair @1.50) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 11.5: 55.6% (fair @1.80) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 12.5: 44.1% (fair @2.27) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 91.1% (fair @1.10) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 3.5: 79.6% (fair @1.26) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 4.5: 64.0% (fair @1.56) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 5.5: 46.8% (fair @2.14) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 31.1% (fair @3.21) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 12: Minnesota United (CASA) vs Portland Timbers (FORA) ──
+  xCorners FT: 13.97 | HT: 7.05
+  Casa: 7.86 cantos | Fora: 6.11 cantos
+  Confiança: 95% | Incerteza: ±3.5
+  Reis dos Cantos: Minnesota United (MODERADO) @1.59
+  Sniper: FT=OVER 10 (82.2%) | HT=OVER 4 (83.2%)
+  🎯 BALA DE PRATA: Minnesota United (MODERADA) @1.59
+  DNA: Minnesota United=VOLATIL | Portland Timbers=VOLATIL
+  Jogos analisados: Minnesota United=7 | Portland Timbers=7
+  Mercados FT:
+    🦢 Over 7.5: 96.8% (fair @1.03) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 93.7% (fair @1.07) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 9.5: 88.9% (fair @1.12) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 10.5: 82.2% (fair @1.22) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 11.5: 73.7% (fair @1.36) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 12.5: 63.9% (fair @1.57) — MEDIA CONFIANCA — Cautela recomendada
+  Mercados HT:
+    🦢 Over 2.5: 97.1% (fair @1.03) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 3.5: 92.1% (fair @1.09) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 4.5: 83.2% (fair @1.20) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 5.5: 70.6% (fair @1.42) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 6.5: 55.8% (fair @1.79) — MEDIA CONFIANCA — Cautela recomendada
+
+  ── JOGO 13: Real Salt Lake (CASA) vs San Diego FC (FORA) ──
+  xCorners FT: 10.7 | HT: 5.56
+  Casa: 6.42 cantos | Fora: 4.28 cantos
+  Confiança: 87.1% | Incerteza: ±3.2
+  Reis dos Cantos: Real Salt Lake (DOMINANTE) @1.45
+  Sniper: FT=NEUTRO (50.4%) | HT=OVER 4 (65.1%)
+  🎯 BALA DE PRATA: Real Salt Lake (FORTE) @1.45
+  DNA: Real Salt Lake=MODERADO | San Diego FC=VOLATIL
+  Jogos analisados: Real Salt Lake=6 | San Diego FC=7
+  Mercados FT:
+    🦢 Over 7.5: 83.7% (fair @1.20) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 8.5: 74.1% (fair @1.35) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 9.5: 62.6% (fair @1.60) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 10.5: 50.4% (fair @1.98) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 38.5% (fair @2.60) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 27.9% (fair @3.58) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 91.5% (fair @1.09) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 3.5: 80.5% (fair @1.24) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 4.5: 65.1% (fair @1.54) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 5.5: 48.1% (fair @2.08) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 32.3% (fair @3.10) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 14: Seattle Sounders (CASA) vs St. Louis City (FORA) ──
+  xCorners FT: 10.34 | HT: 4.27
+  Casa: 3.31 cantos | Fora: 7.03 cantos
+  Confiança: 87.1% | Incerteza: ±5.0
+  Reis dos Cantos: St. Louis City (ABSOLUTO) @1.18
+  Sniper: FT=NEUTRO (46%) | HT=NEUTRO (42.4%)
+  🎯 BALA DE PRATA: St. Louis City (NUCLEAR) @1.18
+  DNA: Seattle Sounders=VOLATIL | St. Louis City=VOLATIL
+  Jogos analisados: Seattle Sounders=6 | St. Louis City=7
+  Mercados FT:
+    🦢 Over 7.5: 80.9% (fair @1.24) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 8.5: 70.4% (fair @1.42) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 9.5: 58.4% (fair @1.71) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 10.5: 46.0% (fair @2.17) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 34.3% (fair @2.92) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 24.2% (fair @4.13) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 79.9% (fair @1.25) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 3.5: 61.8% (fair @1.62) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 4.5: 42.4% (fair @2.36) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 25.9% (fair @3.87) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 14.1% (fair @7.10) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 15: Los Angeles FC (CASA) vs San Jose Earthquakes (FORA) ──
+  xCorners FT: 11.3 | HT: 5.19
+  Casa: 5.91 cantos | Fora: 5.4 cantos
+  Confiança: 95% | Incerteza: ±6.2
+  Reis dos Cantos: Los Angeles FC (EQUILIBRADO) @2
+  Sniper: FT=NEUTRO (57.6%) | HT=OVER 4 (59.3%)
+  DNA: Los Angeles FC=MODERADO | San Jose Earthquakes=VOLATIL
+  Jogos analisados: Los Angeles FC=7 | San Jose Earthquakes=7
+  Mercados FT:
+    🦢 Over 7.5: 87.5% (fair @1.14) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 79.4% (fair @1.26) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 9.5: 69.1% (fair @1.45) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 10.5: 57.6% (fair @1.74) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 11.5: 45.7% (fair @2.19) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 34.5% (fair @2.90) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 89.1% (fair @1.12) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 3.5: 76.1% (fair @1.31) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 4.5: 59.3% (fair @1.69) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 5.5: 41.8% (fair @2.39) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 26.7% (fair @3.75) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 16: Columbus Crew (CASA) vs Los Angeles Galaxy (FORA) ──
+  xCorners FT: 10.21 | HT: 5.21
+  Casa: 4.99 cantos | Fora: 5.22 cantos
+  Confiança: 95% | Incerteza: ±3.6
+  Reis dos Cantos: Los Angeles Galaxy (EQUILIBRADO) @2.14
+  Sniper: FT=NEUTRO (44.3%) | HT=OVER 4 (59.6%)
+  DNA: Columbus Crew=ESTAVEL | Los Angeles Galaxy=VOLATIL
+  Jogos analisados: Columbus Crew=7 | Los Angeles Galaxy=7
+  Mercados FT:
+    🦢 Over 7.5: 79.8% (fair @1.25) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 8.5: 69.0% (fair @1.45) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 9.5: 56.8% (fair @1.76) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 10.5: 44.3% (fair @2.26) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 32.7% (fair @3.06) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 22.9% (fair @4.37) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 89.2% (fair @1.12) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 3.5: 76.4% (fair @1.31) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 4.5: 59.6% (fair @1.68) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 5.5: 42.2% (fair @2.37) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 27.0% (fair @3.71) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 17: New York City (CASA) vs FC Cincinnati (FORA) ──
+  xCorners FT: 8.14 | HT: 3.96
+  Casa: 2.97 cantos | Fora: 5.16 cantos
+  Confiança: 95% | Incerteza: ±3.8
+  Reis dos Cantos: FC Cincinnati (DOMINANTE) @1.38
+  Sniper: FT=UNDER 10 (19.8%) | HT=UNDER 4 (36.3%)
+  🎯 BALA DE PRATA: FC Cincinnati (FORTE) @1.38
+  DNA: New York City=VOLATIL | FC Cincinnati=VOLATIL
+  Jogos analisados: New York City=7 | FC Cincinnati=7
+  Mercados FT:
+    🟡 Over 7.5: 56.6% (fair @1.77) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 8.5: 42.7% (fair @2.34) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 30.1% (fair @3.33) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 19.8% (fair @5.05) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 12.2% (fair @8.19) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 7.1% (fair @14.15) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 75.6% (fair @1.32) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 3.5: 55.9% (fair @1.79) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 4.5: 36.3% (fair @2.75) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 20.9% (fair @4.80) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 10.6% (fair @9.39) — BAIXA CONFIANCA — Evitar este mercado
+
+┌─────────────────────────────────────────────────────────────────┐
+│  🦢 RANKING CISNE NEGRO — MERCADOS POR CONFIANÇA              │
+└─────────────────────────────────────────────────────────────────┘
+
+  🦢🦢🦢 PADRÃO CISNE NEGRO — ALTÍSSIMA CONFIANÇA 🦢🦢🦢
+  ─────────────────────────────────────────────────
+  1. Orlando City vs Houston Dynamo → Over 7.5: 98.6% (fair @1.01) [OVER/UNDER FT]
+  2. Orlando City vs Houston Dynamo → Over 2.5 (HT): 97.7% (fair @1.02) [OVER/UNDER HT]
+  3. Minnesota United vs Portland Timbers → Over 2.5 (HT): 97.1% (fair @1.03) [OVER/UNDER HT]
+  4. Orlando City vs Houston Dynamo → Over 8.5: 97.0% (fair @1.03) [OVER/UNDER FT]
+  5. Minnesota United vs Portland Timbers → Over 7.5: 96.8% (fair @1.03) [OVER/UNDER FT]
+  6. Toronto FC vs Austin FC → Over 7.5: 95.2% (fair @1.05) [OVER/UNDER FT]
+  7. Orlando City vs Houston Dynamo → Over 9.5: 94.3% (fair @1.06) [OVER/UNDER FT]
+  8. Minnesota United vs Portland Timbers → Over 8.5: 93.7% (fair @1.07) [OVER/UNDER FT]
+  9. Vancouver Whitecaps vs Sporting Kansas City → Over 7.5: 93.6% (fair @1.07) [OVER/UNDER FT]
+  10. Orlando City vs Houston Dynamo → Over 3.5 (HT): 93.5% (fair @1.07) [OVER/UNDER HT]
+  11. CF Montreal vs New York Red Bulls → Over 2.5 (HT): 92.5% (fair @1.08) [OVER/UNDER HT]
+  12. Toronto FC vs Austin FC → Over 2.5 (HT): 92.2% (fair @1.08) [OVER/UNDER HT]
+  13. Minnesota United vs Portland Timbers → Over 3.5 (HT): 92.1% (fair @1.09) [OVER/UNDER HT]
+  14. FC Dallas vs Los Angeles Galaxy → Over 7.5: 91.7% (fair @1.09) [OVER/UNDER FT]
+  15. Real Salt Lake vs San Diego FC → Over 2.5 (HT): 91.5% (fair @1.09) [OVER/UNDER HT]
+  16. Toronto FC vs Austin FC → Over 8.5: 91.1% (fair @1.10) [OVER/UNDER FT]
+  17. FC Dallas vs Los Angeles Galaxy → Over 2.5 (HT): 91.1% (fair @1.10) [OVER/UNDER HT]
+  18. Vancouver Whitecaps vs Sporting Kansas City → Over 2.5 (HT): 90.4% (fair @1.11) [OVER/UNDER HT]
+  19. Orlando City vs Houston Dynamo → SNIPER FT: OVER 10: 90.1% (fair @0.00) [SNIPER]
+  20. Orlando City vs Houston Dynamo → Over 10.5: 90.1% (fair @1.11) [OVER/UNDER FT]
+  21. Columbus Crew vs Los Angeles Galaxy → Over 2.5 (HT): 89.2% (fair @1.12) [OVER/UNDER HT]
+  22. Los Angeles FC vs San Jose Earthquakes → Over 2.5 (HT): 89.1% (fair @1.12) [OVER/UNDER HT]
+  23. Minnesota United vs Portland Timbers → Over 9.5: 88.9% (fair @1.12) [OVER/UNDER FT]
+  24. Vancouver Whitecaps vs Sporting Kansas City → Over 8.5: 88.5% (fair @1.13) [OVER/UNDER FT]
+  25. Los Angeles FC vs San Jose Earthquakes → Over 7.5: 87.5% (fair @1.14) [OVER/UNDER FT]
+  26. CF Montreal vs New York Red Bulls → Over 7.5: 86.5% (fair @1.16) [OVER/UNDER FT]
+  27. Colorado Rapids vs Inter Miami → Over 2.5 (HT): 86.3% (fair @1.16) [OVER/UNDER HT]
+  28. Orlando City vs Houston Dynamo → Over 4.5 (HT): 85.6% (fair @1.17) [OVER/UNDER HT]
+  29. Orlando City vs Houston Dynamo → SNIPER HT: OVER 4: 85.6% (fair @0.00) [SNIPER]
+  30. FC Dallas vs Los Angeles Galaxy → Over 8.5: 85.5% (fair @1.17) [OVER/UNDER FT]
+  31. Toronto FC vs Austin FC → Over 9.5: 84.9% (fair @1.18) [OVER/UNDER FT]
+  32. Orlando City vs Houston Dynamo → Over 11.5: 84.2% (fair @1.19) [OVER/UNDER FT]
+  33. FC Cincinnati vs Chicago Fire → Over 2.5 (HT): 83.8% (fair @1.19) [OVER/UNDER HT]
+  34. Real Salt Lake vs San Diego FC → Over 7.5: 83.7% (fair @1.20) [OVER/UNDER FT]
+  35. Minnesota United vs Portland Timbers → SNIPER HT: OVER 4: 83.2% (fair @0.00) [SNIPER]
+  36. Minnesota United vs Portland Timbers → Over 4.5 (HT): 83.2% (fair @1.20) [OVER/UNDER HT]
+  37. CF Montreal vs New York Red Bulls → Over 3.5 (HT): 82.3% (fair @1.21) [OVER/UNDER HT]
+  38. Minnesota United vs Portland Timbers → Over 10.5: 82.2% (fair @1.22) [OVER/UNDER FT]
+  39. Minnesota United vs Portland Timbers → SNIPER FT: OVER 10: 82.2% (fair @0.00) [SNIPER]
+  40. Toronto FC vs Austin FC → Over 3.5 (HT): 81.7% (fair @1.22) [OVER/UNDER HT]
+  41. Vancouver Whitecaps vs Sporting Kansas City → Over 9.5: 81.2% (fair @1.23) [OVER/UNDER FT]
+  42. Seattle Sounders vs St. Louis City → Over 7.5: 80.9% (fair @1.24) [OVER/UNDER FT]
+  43. Real Salt Lake vs San Diego FC → Over 3.5 (HT): 80.5% (fair @1.24) [OVER/UNDER HT]
+  44. Seattle Sounders vs St. Louis City → Over 2.5 (HT): 79.9% (fair @1.25) [OVER/UNDER HT]
+  45. Columbus Crew vs Los Angeles Galaxy → Over 7.5: 79.8% (fair @1.25) [OVER/UNDER FT]
+  46. FC Dallas vs Los Angeles Galaxy → Over 3.5 (HT): 79.6% (fair @1.26) [OVER/UNDER HT]
+  47. New England Revolution vs Columbus Crew → Over 2.5 (HT): 79.6% (fair @1.26) [OVER/UNDER HT]
+  48. Los Angeles FC vs San Jose Earthquakes → Over 8.5: 79.4% (fair @1.26) [OVER/UNDER FT]
+  49. Vancouver Whitecaps vs Sporting Kansas City → Over 3.5 (HT): 78.5% (fair @1.27) [OVER/UNDER HT]
+  50. CF Montreal vs New York Red Bulls → Over 8.5: 77.9% (fair @1.28) [OVER/UNDER FT]
+  51. FC Dallas vs Los Angeles Galaxy → Over 9.5: 77.1% (fair @1.30) [OVER/UNDER FT]
+  52. Toronto FC vs Austin FC → Over 10.5: 76.8% (fair @1.30) [OVER/UNDER FT]
+  53. Toronto FC vs Austin FC → SNIPER FT: OVER 10: 76.8% (fair @0.00) [SNIPER]
+  54. Philadelphia Union vs DC United → Over 7.5: 76.7% (fair @1.30) [OVER/UNDER FT]
+  55. Orlando City vs Houston Dynamo → Over 12.5: 76.6% (fair @1.31) [OVER/UNDER FT]
+  56. Columbus Crew vs Los Angeles Galaxy → Over 3.5 (HT): 76.4% (fair @1.31) [OVER/UNDER HT]
+  57. Los Angeles FC vs San Jose Earthquakes → Over 3.5 (HT): 76.1% (fair @1.31) [OVER/UNDER HT]
+  58. New York City vs FC Cincinnati → Over 2.5 (HT): 75.6% (fair @1.32) [OVER/UNDER HT]
+
+  🟢 ALTA CONFIANÇA — Mercados recomendados
+  ─────────────────────────────────────────────────
+  1. Orlando City vs Houston Dynamo → Over 5.5 (HT): 74.1% (fair @1.35) [OVER/UNDER HT]
+  2. Real Salt Lake vs San Diego FC → Over 8.5: 74.1% (fair @1.35) [OVER/UNDER FT]
+  3. Minnesota United vs Portland Timbers → Over 11.5: 73.7% (fair @1.36) [OVER/UNDER FT]
+  4. Philadelphia Union vs DC United → Over 2.5 (HT): 72.5% (fair @1.38) [OVER/UNDER HT]
+  5. Vancouver Whitecaps vs Sporting Kansas City → Over 10.5: 72.0% (fair @1.39) [OVER/UNDER FT]
+  6. Vancouver Whitecaps vs Sporting Kansas City → SNIPER FT: OVER 10: 72.0% (fair @0.00) [SNIPER]
+  7. Colorado Rapids vs Inter Miami → Over 3.5 (HT): 71.4% (fair @1.40) [OVER/UNDER HT]
+  8. Colorado Rapids vs Inter Miami → Over 7.5: 71.4% (fair @1.40) [OVER/UNDER FT]
+  9. Minnesota United vs Portland Timbers → Over 5.5 (HT): 70.6% (fair @1.42) [OVER/UNDER HT]
+  10. Seattle Sounders vs St. Louis City → Over 8.5: 70.4% (fair @1.42) [OVER/UNDER FT]
+  11. New York City vs Charlotte → Over 2.5 (HT): 69.1% (fair @1.45) [OVER/UNDER HT]
+  12. Los Angeles FC vs San Jose Earthquakes → Over 9.5: 69.1% (fair @1.45) [OVER/UNDER FT]
+  13. Columbus Crew vs Los Angeles Galaxy → Over 8.5: 69.0% (fair @1.45) [OVER/UNDER FT]
+  14. CF Montreal vs New York Red Bulls → SNIPER HT: OVER 4: 67.8% (fair @0.00) [SNIPER]
+  15. CF Montreal vs New York Red Bulls → Over 4.5 (HT): 67.8% (fair @1.48) [OVER/UNDER HT]
+  16. FC Cincinnati vs Chicago Fire → Over 3.5 (HT): 67.6% (fair @1.48) [OVER/UNDER HT]
+  17. CF Montreal vs New York Red Bulls → Over 9.5: 67.3% (fair @1.49) [OVER/UNDER FT]
+  18. Toronto FC vs Austin FC → Over 11.5: 67.1% (fair @1.49) [OVER/UNDER FT]
+  19. Toronto FC vs Austin FC → SNIPER HT: OVER 4: 66.9% (fair @0.00) [SNIPER]
+  20. FC Dallas vs Los Angeles Galaxy → SNIPER FT: OVER 10: 66.9% (fair @0.00) [SNIPER]
+  21. Toronto FC vs Austin FC → Over 4.5 (HT): 66.9% (fair @1.50) [OVER/UNDER HT]
+  22. FC Dallas vs Los Angeles Galaxy → Over 10.5: 66.9% (fair @1.50) [OVER/UNDER FT]
+  23. Real Salt Lake vs San Diego FC → Over 4.5 (HT): 65.1% (fair @1.54) [OVER/UNDER HT]
+  24. Philadelphia Union vs DC United → Over 8.5: 65.1% (fair @1.54) [OVER/UNDER FT]
+  25. Real Salt Lake vs San Diego FC → SNIPER HT: OVER 4: 65.1% (fair @0.00) [SNIPER]
+
+  🟡 MÉDIA CONFIANÇA — Cautela recomendada
+  ─────────────────────────────────────────────────
+  1. FC Dallas vs Los Angeles Galaxy → SNIPER HT: OVER 4: 64.0% (fair @0.00) [SNIPER]
+  2. FC Dallas vs Los Angeles Galaxy → Over 4.5 (HT): 64.0% (fair @1.56) [OVER/UNDER HT]
+  3. Minnesota United vs Portland Timbers → Over 12.5: 63.9% (fair @1.57) [OVER/UNDER FT]
+  4. FC Cincinnati vs Chicago Fire → Over 7.5: 63.3% (fair @1.58) [OVER/UNDER FT]
+  5. Real Salt Lake vs San Diego FC → Over 9.5: 62.6% (fair @1.60) [OVER/UNDER FT]
+  6. Vancouver Whitecaps vs Sporting Kansas City → SNIPER HT: OVER 4: 62.4% (fair @0.00) [SNIPER]
+  7. Vancouver Whitecaps vs Sporting Kansas City → Over 4.5 (HT): 62.4% (fair @1.60) [OVER/UNDER HT]
+  8. Seattle Sounders vs St. Louis City → Over 3.5 (HT): 61.8% (fair @1.62) [OVER/UNDER HT]
+  9. New England Revolution vs Columbus Crew → Over 7.5: 61.6% (fair @1.62) [OVER/UNDER FT]
+  10. Vancouver Whitecaps vs Sporting Kansas City → Over 11.5: 61.4% (fair @1.63) [OVER/UNDER FT]
+  11. New England Revolution vs Columbus Crew → Over 3.5 (HT): 61.3% (fair @1.63) [OVER/UNDER HT]
+  12. Orlando City vs Houston Dynamo → Over 6.5 (HT): 60.0% (fair @1.67) [OVER/UNDER HT]
+  13. Columbus Crew vs Los Angeles Galaxy → Over 4.5 (HT): 59.6% (fair @1.68) [OVER/UNDER HT]
+  14. Columbus Crew vs Los Angeles Galaxy → SNIPER HT: OVER 4: 59.6% (fair @0.00) [SNIPER]
+  15. Los Angeles FC vs San Jose Earthquakes → SNIPER HT: OVER 4: 59.3% (fair @0.00) [SNIPER]
+
+  🎯 BALAS DE PRATA DA RODADA
+  ─────────────────────────────────────────────────
+  Vancouver Whitecaps vs Sporting Kansas City → BALA DE PRATA: Vancouver Whitecaps (NUCLEAR) @1.02
+  Toronto FC vs Austin FC → BALA DE PRATA: Toronto FC (NUCLEAR) @1.27
+  CF Montreal vs New York Red Bulls → BALA DE PRATA: New York Red Bulls (MODERADA) @1.62
+  FC Cincinnati vs Chicago Fire → BALA DE PRATA: FC Cincinnati (MODERADA) @1.57
+  New England Revolution vs Columbus Crew → BALA DE PRATA: Columbus Crew (FORTE) @1.43
+  Orlando City vs Houston Dynamo → BALA DE PRATA: Houston Dynamo (NUCLEAR) @1.06
+  Philadelphia Union vs DC United → BALA DE PRATA: Philadelphia Union (NUCLEAR) @1.2
+  FC Dallas vs Los Angeles Galaxy → BALA DE PRATA: Los Angeles Galaxy (NUCLEAR) @1.17
+  Minnesota United vs Portland Timbers → BALA DE PRATA: Minnesota United (MODERADA) @1.59
+  Real Salt Lake vs San Diego FC → BALA DE PRATA: Real Salt Lake (FORTE) @1.45
+  Seattle Sounders vs St. Louis City → BALA DE PRATA: St. Louis City (NUCLEAR) @1.18
+  New York City vs FC Cincinnati → BALA DE PRATA: FC Cincinnati (FORTE) @1.38
+
+═══════════════════════════════════════════════════════════════════
+  Gerado automaticamente pelo Agente Nassim Taleb v1.0
+  Motor: Sniper Pro v2 | 2026-04-16 18:04
+  EDS Soluções Inteligentes — Analista Cisne Negro
+═══════════════════════════════════════════════════════════════════

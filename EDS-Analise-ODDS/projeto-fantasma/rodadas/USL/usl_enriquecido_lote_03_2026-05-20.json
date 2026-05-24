@@ -1,0 +1,604 @@
+[
+  {
+    "url": "https://www.flashscore.com/match/bB0ie4aC/#/match-summary",
+    "match_id": "bB0ie4aC",
+    "data_partida": "11.04.2026 20:00",
+    "liga": "USL Championship",
+    "codigo_liga": "USL",
+    "rodada": null,
+    "mandante": "Indy Eleven",
+    "visitante": "Monterey Bay",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "3 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 37,
+        "v": 63
+      },
+      "finalizacoes": {
+        "m": 12,
+        "v": 9
+      },
+      "chutes_alvo": {
+        "m": 8,
+        "v": 2
+      },
+      "cantos": {
+        "m": 4,
+        "v": 4
+      },
+      "passes": {
+        "m": "(153/251)",
+        "v": "79%"
+      },
+      "cartoes_amarelos": {
+        "m": 3,
+        "v": 3
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 2
+      },
+      "faltas": {
+        "m": 20,
+        "v": 16
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 36,
+        "v": 64
+      },
+      "finalizacoes": {
+        "m": 5,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 0
+      },
+      "cantos": {
+        "m": 1,
+        "v": 1
+      },
+      "passes": {
+        "m": "(100/151)",
+        "v": "84%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 0
+      },
+      "faltas": {
+        "m": 7,
+        "v": 7
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 3
+      }
+    },
+    "formacao": {
+      "m": "4-1-4-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "1.88",
+      "oddEmpate": "3.30",
+      "oddV": "3.75"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T13:22:08.494Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/Uql9DoFt/#/match-summary",
+    "match_id": "Uql9DoFt",
+    "data_partida": "11.04.2026 20:00",
+    "liga": "USL Championship",
+    "codigo_liga": "USL",
+    "rodada": null,
+    "mandante": "Lexington",
+    "visitante": "Rhode Island",
+    "placar": {
+      "ht": "0 - 2",
+      "ft": "1 - 3"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 67,
+        "v": 33
+      },
+      "finalizacoes": {
+        "m": 14,
+        "v": 13
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 8
+      },
+      "cantos": {
+        "m": 9,
+        "v": 2
+      },
+      "passes": {
+        "m": "(477/550)",
+        "v": "75%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 0
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 0
+      },
+      "faltas": {
+        "m": 13,
+        "v": 11
+      },
+      "defesas_goleiro": {
+        "m": 5,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 68,
+        "v": 32
+      },
+      "finalizacoes": {
+        "m": 1,
+        "v": 9
+      },
+      "chutes_alvo": {
+        "m": 0,
+        "v": 5
+      },
+      "cantos": {
+        "m": 2,
+        "v": 2
+      },
+      "passes": {
+        "m": "(262/293)",
+        "v": "77%"
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 0
+      },
+      "faltas": {
+        "m": 4,
+        "v": 7
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 0
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "4-2-3-1"
+    },
+    "mercado": {
+      "oddM": "2.25",
+      "oddEmpate": "3.15",
+      "oddV": "3.00"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T13:22:37.756Z",
+      "campos_disponiveis": 21,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_amarelos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/KdN448xQ/#/match-summary",
+    "match_id": "KdN448xQ",
+    "data_partida": "11.04.2026 17:00",
+    "liga": "USL Championship",
+    "codigo_liga": "USL",
+    "rodada": null,
+    "mandante": "Detroit",
+    "visitante": "Sporting Jax",
+    "placar": {
+      "ht": "1 - 0",
+      "ft": "1 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 63,
+        "v": 37
+      },
+      "finalizacoes": {
+        "m": 17,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 0
+      },
+      "cantos": {
+        "m": 3,
+        "v": 3
+      },
+      "passes": {
+        "m": "(381/468)",
+        "v": "64%"
+      },
+      "cartoes_amarelos": {
+        "m": 1,
+        "v": 3
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 0
+      },
+      "faltas": {
+        "m": 15,
+        "v": 23
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 5
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 70,
+        "v": 30
+      },
+      "finalizacoes": {
+        "m": 9,
+        "v": 0
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 0
+      },
+      "cantos": {
+        "m": 2,
+        "v": 2
+      },
+      "passes": {
+        "m": "(236/280)",
+        "v": "57%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 0
+      },
+      "faltas": {
+        "m": 6,
+        "v": 11
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "4-2-3-1",
+      "v": "3-4-3"
+    },
+    "mercado": {
+      "oddM": "1.57",
+      "oddEmpate": "3.60",
+      "oddV": "5.30"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T13:23:06.617Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/z9m1pmof/#/match-summary",
+    "match_id": "z9m1pmof",
+    "data_partida": "10.04.2026 19:30",
+    "liga": "USL Championship",
+    "codigo_liga": "USL",
+    "rodada": null,
+    "mandante": "Loudoun",
+    "visitante": "Louisville City",
+    "placar": {
+      "ht": "2 - 2",
+      "ft": "3 - 3"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 47,
+        "v": 53
+      },
+      "finalizacoes": {
+        "m": 14,
+        "v": 16
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 4
+      },
+      "cantos": {
+        "m": 4,
+        "v": 8
+      },
+      "passes": {
+        "m": "(285/400)",
+        "v": "75%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 3
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 2
+      },
+      "faltas": {
+        "m": 8,
+        "v": 12
+      },
+      "defesas_goleiro": {
+        "m": 1,
+        "v": 2
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 50,
+        "v": 50
+      },
+      "finalizacoes": {
+        "m": 6,
+        "v": 3
+      },
+      "chutes_alvo": {
+        "m": 4,
+        "v": 2
+      },
+      "cantos": {
+        "m": 1,
+        "v": 5
+      },
+      "passes": {
+        "m": "(149/201)",
+        "v": "68%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 1
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 2
+      },
+      "faltas": {
+        "m": 5,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 0,
+        "v": 2
+      }
+    },
+    "formacao": {
+      "m": "5-4-1",
+      "v": "3-4-3"
+    },
+    "mercado": {
+      "oddM": "4.35",
+      "oddEmpate": "3.75",
+      "oddV": "1.65"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T13:23:35.767Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  },
+  {
+    "url": "https://www.flashscore.com/match/2ekgn9Gs/#/match-summary",
+    "match_id": "2ekgn9Gs",
+    "data_partida": "08.04.2026 23:00",
+    "liga": "USL Championship",
+    "codigo_liga": "USL",
+    "rodada": null,
+    "mandante": "Orange County SC",
+    "visitante": "San Antonio",
+    "placar": {
+      "ht": "2 - 0",
+      "ft": "2 - 0"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 36,
+        "v": 64
+      },
+      "finalizacoes": {
+        "m": 13,
+        "v": 13
+      },
+      "chutes_alvo": {
+        "m": 6,
+        "v": 4
+      },
+      "cantos": {
+        "m": 3,
+        "v": 6
+      },
+      "passes": {
+        "m": "(228/289)",
+        "v": "86%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 5
+      },
+      "impedimentos": {
+        "m": 1,
+        "v": 3
+      },
+      "faltas": {
+        "m": 15,
+        "v": 14
+      },
+      "defesas_goleiro": {
+        "m": 4,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 40,
+        "v": 60
+      },
+      "finalizacoes": {
+        "m": 10,
+        "v": 6
+      },
+      "chutes_alvo": {
+        "m": 5,
+        "v": 3
+      },
+      "cantos": {
+        "m": 3,
+        "v": 2
+      },
+      "passes": {
+        "m": "(135/165)",
+        "v": "88%"
+      },
+      "cartoes_amarelos": {
+        "m": 0,
+        "v": 2
+      },
+      "impedimentos": {
+        "m": 0,
+        "v": 1
+      },
+      "faltas": {
+        "m": 7,
+        "v": 9
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 3
+      }
+    },
+    "formacao": {
+      "m": "4-1-4-1",
+      "v": "5-4-1"
+    },
+    "mercado": {
+      "oddM": "2.57",
+      "oddEmpate": "2.95",
+      "oddV": "2.67"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T13:24:03.942Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    }
+  }
+]

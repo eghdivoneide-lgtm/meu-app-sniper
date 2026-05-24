@@ -1,0 +1,362 @@
+═══════════════════════════════════════════════════════════════════
+  🦢 RELATÓRIO CISNE NEGRO — EDS Soluções Inteligentes
+═══════════════════════════════════════════════════════════════════
+  Liga:     Brasileirão Série A
+  Data:     2026-04-16 18:03
+  Jogos:    12 jogos da próxima rodada
+  Motor:    Sniper Pro v2 (Bayesian + EWMA + TMI + Poisson)
+═══════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────┐
+│  RESUMO POR JOGO                                              │
+└─────────────────────────────────────────────────────────────────┘
+
+  ── JOGO 1: Chapecoense (CASA) vs Botafogo (FORA) ──
+  xCorners FT: 10.14 | HT: 3.6
+  Casa: 6.32 cantos | Fora: 3.82 cantos
+  Confiança: 65% | Incerteza: ±4.1
+  Reis dos Cantos: Chapecoense (DOMINANTE) @1.36
+  Sniper: FT=NEUTRO (43.5%) | HT=UNDER 4 (29.4%)
+  🎯 BALA DE PRATA: Chapecoense (FORTE) @1.36
+  DNA: Chapecoense=VOLATIL | Botafogo=VOLATIL
+  Jogos analisados: Chapecoense=10 | Botafogo=10
+  Mercados FT:
+    🦢 Over 7.5: 79.2% (fair @1.26) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 8.5: 68.3% (fair @1.46) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 9.5: 56.0% (fair @1.79) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 10.5: 43.5% (fair @2.30) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 31.9% (fair @3.13) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 22.2% (fair @4.50) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🟢 Over 2.5: 69.7% (fair @1.43) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 3.5: 48.5% (fair @2.06) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 4.5: 29.4% (fair @3.40) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 15.6% (fair @6.41) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 7.3% (fair @13.63) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 2: Vasco (CASA) vs São Paulo (FORA) ──
+  xCorners FT: 7.89 | HT: 4.1
+  Casa: 4.34 cantos | Fora: 3.55 cantos
+  Confiança: 67.5% | Incerteza: ±5.2
+  Reis dos Cantos: Vasco (MEDIANO) @1.86
+  Sniper: FT=UNDER 10 (17.3%) | HT=UNDER 4 (39.1%)
+  DNA: Vasco=VOLATIL | São Paulo=VOLATIL
+  Jogos analisados: Vasco=11 | São Paulo=11
+  Mercados FT:
+    🔴 Over 7.5: 53.1% (fair @1.88) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 8.5: 39.2% (fair @2.55) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 26.9% (fair @3.71) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 17.3% (fair @5.78) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 10.4% (fair @9.62) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 5.9% (fair @17.09) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 77.6% (fair @1.29) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 3.5: 58.6% (fair @1.71) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 4.5: 39.1% (fair @2.56) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 23.1% (fair @4.33) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 12.2% (fair @8.22) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 3: Vitória (CASA) vs Corinthians (FORA) ──
+  xCorners FT: 11.13 | HT: 3.14
+  Casa: 6.83 cantos | Fora: 4.3 cantos
+  Confiança: 65% | Incerteza: ±3.5
+  Reis dos Cantos: Vitória (DOMINANTE) @1.37
+  Sniper: FT=NEUTRO (55.6%) | HT=UNDER 4 (20.9%)
+  🎯 BALA DE PRATA: Vitória (FORTE) @1.37
+  DNA: Vitória=VOLATIL | Corinthians=VOLATIL
+  Jogos analisados: Vitória=10 | Corinthians=11
+  Mercados FT:
+    🦢 Over 7.5: 86.5% (fair @1.16) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 78.0% (fair @1.28) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 9.5: 67.4% (fair @1.48) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 10.5: 55.6% (fair @1.80) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 11.5: 43.7% (fair @2.29) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 32.6% (fair @3.07) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🟡 Over 2.5: 60.8% (fair @1.64) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 3.5: 38.5% (fair @2.60) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 4.5: 20.9% (fair @4.78) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 9.9% (fair @10.11) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 4.1% (fair @24.27) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 4: Cruzeiro (CASA) vs Grêmio (FORA) ──
+  xCorners FT: 7.52 | HT: 2.43
+  Casa: 4.32 cantos | Fora: 3.2 cantos
+  Confiança: 67.5% | Incerteza: ±3.6
+  Reis dos Cantos: Cruzeiro (MODERADO) @1.7
+  Sniper: FT=UNDER 10 (13.9%) | HT=UNDER 4 (9.9%)
+  DNA: Cruzeiro=VOLATIL | Grêmio=VOLATIL
+  Jogos analisados: Cruzeiro=11 | Grêmio=11
+  Mercados FT:
+    🔴 Over 7.5: 47.8% (fair @2.09) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 8.5: 34.0% (fair @2.94) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 22.6% (fair @4.43) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 13.9% (fair @7.18) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 8.0% (fair @12.46) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 4.3% (fair @23.09) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🔴 Over 2.5: 43.8% (fair @2.28) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 3.5: 22.7% (fair @4.40) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 4.5: 9.9% (fair @10.06) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 3.7% (fair @26.74) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 1.2% (fair @81.37) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 5: Internacional (CASA) vs Mirassol (FORA) ──
+  xCorners FT: 9.7 | HT: 4.06
+  Casa: 4.52 cantos | Fora: 5.19 cantos
+  Confiança: 65% | Incerteza: ±5.5
+  Reis dos Cantos: Mirassol (EQUILIBRADO) @1.92
+  Sniper: FT=UNDER 10 (38%) | HT=UNDER 4 (38.2%)
+  DNA: Internacional=VOLATIL | Mirassol=MODERADO
+  Jogos analisados: Internacional=11 | Mirassol=10
+  Mercados FT:
+    🦢 Over 7.5: 75.2% (fair @1.33) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 8.5: 63.3% (fair @1.58) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 9.5: 50.4% (fair @1.98) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 38.0% (fair @2.63) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 27.0% (fair @3.70) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 18.1% (fair @5.52) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 77.0% (fair @1.30) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 3.5: 57.8% (fair @1.73) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 4.5: 38.2% (fair @2.62) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 22.4% (fair @4.47) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 11.7% (fair @8.57) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 6: Coritiba (CASA) vs Atlético-MG (FORA) ──
+  xCorners FT: 10.21 | HT: 4.12
+  Casa: 3.45 cantos | Fora: 6.77 cantos
+  Confiança: 67.5% | Incerteza: ±3.7
+  Reis dos Cantos: Atlético-MG (ABSOLUTO) @1.23
+  Sniper: FT=NEUTRO (44.4%) | HT=UNDER 4 (39.4%)
+  🎯 BALA DE PRATA: Atlético-MG (NUCLEAR) @1.23
+  DNA: Coritiba=VOLATIL | Atlético-MG=VOLATIL
+  Jogos analisados: Coritiba=11 | Atlético-MG=11
+  Mercados FT:
+    🦢 Over 7.5: 79.9% (fair @1.25) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 8.5: 69.1% (fair @1.45) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 9.5: 56.9% (fair @1.76) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 10.5: 44.4% (fair @2.25) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 32.8% (fair @3.05) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 22.9% (fair @4.36) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 77.9% (fair @1.28) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 3.5: 58.9% (fair @1.70) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 4.5: 39.4% (fair @2.54) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 23.4% (fair @4.28) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 12.3% (fair @8.11) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 7: Santos (CASA) vs Fluminense (FORA) ──
+  xCorners FT: 10.81 | HT: 6.34
+  Casa: 4.04 cantos | Fora: 6.77 cantos
+  Confiança: 67.5% | Incerteza: ±4.6
+  Reis dos Cantos: Fluminense (DOMINANTE) @1.33
+  Sniper: FT=NEUTRO (51.8%) | HT=OVER 4 (75.7%)
+  🎯 BALA DE PRATA: Fluminense (NUCLEAR) @1.33
+  DNA: Santos=VOLATIL | Fluminense=VOLATIL
+  Jogos analisados: Santos=11 | Fluminense=11
+  Mercados FT:
+    🦢 Over 7.5: 84.4% (fair @1.18) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 75.1% (fair @1.33) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 9.5: 63.9% (fair @1.57) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 10.5: 51.8% (fair @1.93) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 39.9% (fair @2.51) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 29.1% (fair @3.44) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 95.1% (fair @1.05) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 3.5: 87.6% (fair @1.14) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 4.5: 75.7% (fair @1.32) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 5.5: 60.7% (fair @1.65) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 6.5: 44.8% (fair @2.23) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 8: Red Bull Bragantino (CASA) vs Remo (FORA) ──
+  xCorners FT: 13.13 | HT: 4.47
+  Casa: 7.87 cantos | Fora: 5.26 cantos
+  Confiança: 67.5% | Incerteza: ±3.0
+  Reis dos Cantos: Red Bull Bragantino (DOMINANTE) @1.39
+  Sniper: FT=OVER 10 (76%) | HT=NEUTRO (46.2%)
+  🎯 BALA DE PRATA: Red Bull Bragantino (FORTE) @1.39
+  DNA: Red Bull Bragantino=MODERADO | Remo=VOLATIL
+  Jogos analisados: Red Bull Bragantino=11 | Remo=11
+  Mercados FT:
+    🦢 Over 7.5: 95.0% (fair @1.05) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 90.6% (fair @1.10) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 9.5: 84.3% (fair @1.19) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 10.5: 76.0% (fair @1.32) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 11.5: 66.0% (fair @1.51) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 12.5: 55.2% (fair @1.81) — MEDIA CONFIANCA — Cautela recomendada
+  Mercados HT:
+    🦢 Over 2.5: 82.3% (fair @1.22) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 3.5: 65.3% (fair @1.53) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 4.5: 46.2% (fair @2.16) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 29.2% (fair @3.43) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 16.5% (fair @6.06) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 9: Palmeiras (CASA) vs Athletico-PR (FORA) ──
+  xCorners FT: 9.08 | HT: 4.38
+  Casa: 5.16 cantos | Fora: 3.91 cantos
+  Confiança: 67.5% | Incerteza: ±3.8
+  Reis dos Cantos: Palmeiras (MODERADO) @1.67
+  Sniper: FT=UNDER 10 (30.3%) | HT=NEUTRO (44.6%)
+  DNA: Palmeiras=VOLATIL | Athletico-PR=VOLATIL
+  Jogos analisados: Palmeiras=11 | Athletico-PR=11
+  Mercados FT:
+    🟢 Over 7.5: 68.5% (fair @1.46) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 8.5: 55.5% (fair @1.80) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 9.5: 42.3% (fair @2.36) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 30.3% (fair @3.30) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 20.5% (fair @4.89) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 13.0% (fair @7.69) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 81.3% (fair @1.23) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 3.5: 63.8% (fair @1.57) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 4.5: 44.6% (fair @2.24) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 27.7% (fair @3.61) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 15.4% (fair @6.48) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 10: Flamengo (CASA) vs Bahia (FORA) ──
+  xCorners FT: 9.43 | HT: 4.9
+  Casa: 4.94 cantos | Fora: 4.49 cantos
+  Confiança: 65% | Incerteza: ±3.0
+  Reis dos Cantos: Flamengo (EQUILIBRADO) @2.03
+  Sniper: FT=UNDER 10 (34.5%) | HT=NEUTRO (54.3%)
+  DNA: Flamengo=VOLATIL | Bahia=VOLATIL
+  Jogos analisados: Flamengo=10 | Bahia=10
+  Mercados FT:
+    🟢 Over 7.5: 72.4% (fair @1.38) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 8.5: 59.9% (fair @1.67) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 9.5: 46.8% (fair @2.13) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 34.5% (fair @2.89) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 24.0% (fair @4.17) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 15.7% (fair @6.36) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 86.7% (fair @1.15) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 3.5: 72.1% (fair @1.39) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 4.5: 54.3% (fair @1.84) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 36.7% (fair @2.72) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 22.4% (fair @4.46) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 11: Bahia (CASA) vs Santos (FORA) ──
+  xCorners FT: 8.46 | HT: 3.5
+  Casa: 4.26 cantos | Fora: 4.2 cantos
+  Confiança: 65% | Incerteza: ±4.3
+  Reis dos Cantos: Bahia (EQUILIBRADO) @2.28
+  Sniper: FT=UNDER 10 (23.2%) | HT=UNDER 4 (27.5%)
+  DNA: Bahia=VOLATIL | Santos=VOLATIL
+  Jogos analisados: Bahia=10 | Santos=11
+  Mercados FT:
+    🟡 Over 7.5: 60.9% (fair @1.64) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 8.5: 47.1% (fair @2.12) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 34.2% (fair @2.93) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 23.2% (fair @4.31) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 14.8% (fair @6.77) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 8.8% (fair @11.31) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🟢 Over 2.5: 68.0% (fair @1.47) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 3.5: 46.4% (fair @2.16) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 4.5: 27.5% (fair @3.63) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 14.3% (fair @7.00) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 6.6% (fair @15.26) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 12: Botafogo (CASA) vs Internacional (FORA) ──
+  xCorners FT: 11.71 | HT: 5.09
+  Casa: 4.05 cantos | Fora: 7.66 cantos
+  Confiança: 65% | Incerteza: ±5.5
+  Reis dos Cantos: Internacional (ABSOLUTO) @1.22
+  Sniper: FT=OVER 10 (62.2%) | HT=NEUTRO (57.4%)
+  🎯 BALA DE PRATA: Internacional (NUCLEAR) @1.22
+  DNA: Botafogo=VOLATIL | Internacional=VOLATIL
+  Jogos analisados: Botafogo=10 | Internacional=11
+  Mercados FT:
+    🦢 Over 7.5: 89.7% (fair @1.11) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 82.5% (fair @1.21) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 9.5: 73.2% (fair @1.37) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 10.5: 62.2% (fair @1.61) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 11.5: 50.5% (fair @1.98) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 39.1% (fair @2.56) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 88.2% (fair @1.13) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 3.5: 74.7% (fair @1.34) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 4.5: 57.4% (fair @1.74) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 5.5: 39.9% (fair @2.51) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 25.0% (fair @3.99) — BAIXA CONFIANCA — Evitar este mercado
+
+┌─────────────────────────────────────────────────────────────────┐
+│  🦢 RANKING CISNE NEGRO — MERCADOS POR CONFIANÇA              │
+└─────────────────────────────────────────────────────────────────┘
+
+  🦢🦢🦢 PADRÃO CISNE NEGRO — ALTÍSSIMA CONFIANÇA 🦢🦢🦢
+  ─────────────────────────────────────────────────
+  1. Santos vs Fluminense → Over 2.5 (HT): 95.1% (fair @1.05) [OVER/UNDER HT]
+  2. Red Bull Bragantino vs Remo → Over 7.5: 95.0% (fair @1.05) [OVER/UNDER FT]
+  3. Red Bull Bragantino vs Remo → Over 8.5: 90.6% (fair @1.10) [OVER/UNDER FT]
+  4. Botafogo vs Internacional → Over 7.5: 89.7% (fair @1.11) [OVER/UNDER FT]
+  5. Botafogo vs Internacional → Over 2.5 (HT): 88.2% (fair @1.13) [OVER/UNDER HT]
+  6. Santos vs Fluminense → Over 3.5 (HT): 87.6% (fair @1.14) [OVER/UNDER HT]
+  7. Flamengo vs Bahia → Over 2.5 (HT): 86.7% (fair @1.15) [OVER/UNDER HT]
+  8. Vitória vs Corinthians → Over 7.5: 86.5% (fair @1.16) [OVER/UNDER FT]
+  9. Santos vs Fluminense → Over 7.5: 84.4% (fair @1.18) [OVER/UNDER FT]
+  10. Red Bull Bragantino vs Remo → Over 9.5: 84.3% (fair @1.19) [OVER/UNDER FT]
+  11. Botafogo vs Internacional → Over 8.5: 82.5% (fair @1.21) [OVER/UNDER FT]
+  12. Red Bull Bragantino vs Remo → Over 2.5 (HT): 82.3% (fair @1.22) [OVER/UNDER HT]
+  13. Palmeiras vs Athletico-PR → Over 2.5 (HT): 81.3% (fair @1.23) [OVER/UNDER HT]
+  14. Coritiba vs Atlético-MG → Over 7.5: 79.9% (fair @1.25) [OVER/UNDER FT]
+  15. Chapecoense vs Botafogo → Over 7.5: 79.2% (fair @1.26) [OVER/UNDER FT]
+  16. Vitória vs Corinthians → Over 8.5: 78.0% (fair @1.28) [OVER/UNDER FT]
+  17. Coritiba vs Atlético-MG → Over 2.5 (HT): 77.9% (fair @1.28) [OVER/UNDER HT]
+  18. Vasco vs São Paulo → Over 2.5 (HT): 77.6% (fair @1.29) [OVER/UNDER HT]
+  19. Internacional vs Mirassol → Over 2.5 (HT): 77.0% (fair @1.30) [OVER/UNDER HT]
+  20. Red Bull Bragantino vs Remo → SNIPER FT: OVER 10: 76.0% (fair @0.00) [SNIPER]
+  21. Red Bull Bragantino vs Remo → Over 10.5: 76.0% (fair @1.32) [OVER/UNDER FT]
+  22. Santos vs Fluminense → Over 4.5 (HT): 75.7% (fair @1.32) [OVER/UNDER HT]
+  23. Santos vs Fluminense → SNIPER HT: OVER 4: 75.7% (fair @0.00) [SNIPER]
+  24. Internacional vs Mirassol → Over 7.5: 75.2% (fair @1.33) [OVER/UNDER FT]
+  25. Santos vs Fluminense → Over 8.5: 75.1% (fair @1.33) [OVER/UNDER FT]
+
+  🟢 ALTA CONFIANÇA — Mercados recomendados
+  ─────────────────────────────────────────────────
+  1. Botafogo vs Internacional → Over 3.5 (HT): 74.7% (fair @1.34) [OVER/UNDER HT]
+  2. Botafogo vs Internacional → Over 9.5: 73.2% (fair @1.37) [OVER/UNDER FT]
+  3. Flamengo vs Bahia → Over 7.5: 72.4% (fair @1.38) [OVER/UNDER FT]
+  4. Flamengo vs Bahia → Over 3.5 (HT): 72.1% (fair @1.39) [OVER/UNDER HT]
+  5. Chapecoense vs Botafogo → Over 2.5 (HT): 69.7% (fair @1.43) [OVER/UNDER HT]
+  6. Coritiba vs Atlético-MG → Over 8.5: 69.1% (fair @1.45) [OVER/UNDER FT]
+  7. Palmeiras vs Athletico-PR → Over 7.5: 68.5% (fair @1.46) [OVER/UNDER FT]
+  8. Chapecoense vs Botafogo → Over 8.5: 68.3% (fair @1.46) [OVER/UNDER FT]
+  9. Bahia vs Santos → Over 2.5 (HT): 68.0% (fair @1.47) [OVER/UNDER HT]
+  10. Vitória vs Corinthians → Over 9.5: 67.4% (fair @1.48) [OVER/UNDER FT]
+  11. Red Bull Bragantino vs Remo → Over 11.5: 66.0% (fair @1.51) [OVER/UNDER FT]
+  12. Red Bull Bragantino vs Remo → Over 3.5 (HT): 65.3% (fair @1.53) [OVER/UNDER HT]
+
+  🟡 MÉDIA CONFIANÇA — Cautela recomendada
+  ─────────────────────────────────────────────────
+  1. Santos vs Fluminense → Over 9.5: 63.9% (fair @1.57) [OVER/UNDER FT]
+  2. Palmeiras vs Athletico-PR → Over 3.5 (HT): 63.8% (fair @1.57) [OVER/UNDER HT]
+  3. Internacional vs Mirassol → Over 8.5: 63.3% (fair @1.58) [OVER/UNDER FT]
+  4. Botafogo vs Internacional → Over 10.5: 62.2% (fair @1.61) [OVER/UNDER FT]
+  5. Botafogo vs Internacional → SNIPER FT: OVER 10: 62.2% (fair @0.00) [SNIPER]
+  6. Bahia vs Santos → Over 7.5: 60.9% (fair @1.64) [OVER/UNDER FT]
+  7. Vitória vs Corinthians → Over 2.5 (HT): 60.8% (fair @1.64) [OVER/UNDER HT]
+  8. Santos vs Fluminense → Over 5.5 (HT): 60.7% (fair @1.65) [OVER/UNDER HT]
+  9. Flamengo vs Bahia → Over 8.5: 59.9% (fair @1.67) [OVER/UNDER FT]
+  10. Coritiba vs Atlético-MG → Over 3.5 (HT): 58.9% (fair @1.70) [OVER/UNDER HT]
+  11. Vasco vs São Paulo → Over 3.5 (HT): 58.6% (fair @1.71) [OVER/UNDER HT]
+  12. Internacional vs Mirassol → Over 3.5 (HT): 57.8% (fair @1.73) [OVER/UNDER HT]
+  13. Botafogo vs Internacional → Over 4.5 (HT): 57.4% (fair @1.74) [OVER/UNDER HT]
+  14. Coritiba vs Atlético-MG → Over 9.5: 56.9% (fair @1.76) [OVER/UNDER FT]
+  15. Chapecoense vs Botafogo → Over 9.5: 56.0% (fair @1.79) [OVER/UNDER FT]
+
+  🎯 BALAS DE PRATA DA RODADA
+  ─────────────────────────────────────────────────
+  Chapecoense vs Botafogo → BALA DE PRATA: Chapecoense (FORTE) @1.36
+  Vitória vs Corinthians → BALA DE PRATA: Vitória (FORTE) @1.37
+  Coritiba vs Atlético-MG → BALA DE PRATA: Atlético-MG (NUCLEAR) @1.23
+  Santos vs Fluminense → BALA DE PRATA: Fluminense (NUCLEAR) @1.33
+  Red Bull Bragantino vs Remo → BALA DE PRATA: Red Bull Bragantino (FORTE) @1.39
+  Botafogo vs Internacional → BALA DE PRATA: Internacional (NUCLEAR) @1.22
+
+═══════════════════════════════════════════════════════════════════
+  Gerado automaticamente pelo Agente Nassim Taleb v1.0
+  Motor: Sniper Pro v2 | 2026-04-16 18:03
+  EDS Soluções Inteligentes — Analista Cisne Negro
+═══════════════════════════════════════════════════════════════════

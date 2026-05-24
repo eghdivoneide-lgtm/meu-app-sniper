@@ -1,0 +1,1462 @@
+{
+ "Acassuso": {
+  "time": "Acassuso",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 2,
+   "casa_sof": 6,
+   "casa_total": 8,
+   "casa_pro_ht": 0.5,
+   "casa_sof_ht": 2,
+   "fora_pro": 1,
+   "fora_sof": 5,
+   "fora_total": 6,
+   "fora_pro_ht": 0.5,
+   "fora_sof_ht": 2
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 33.3,
+   "categoria": "ASFIXIA_FINAL"
+  },
+  "sangrador": {
+   "sof_avg": 5.5,
+   "posse_avg": 46.2,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.3 desvio +0.0",
+   "ultimos": [
+    2,
+    3,
+    0,
+    1
+   ]
+  }
+ },
+ "Agropecuario": {
+  "time": "Agropecuario",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 3.5,
+   "casa_sof": 2.5,
+   "casa_total": 6.0,
+   "casa_pro_ht": 2,
+   "casa_sof_ht": 1.5,
+   "fora_pro": 4,
+   "fora_sof": 4.5,
+   "fora_total": 8.5,
+   "fora_pro_ht": 1.5,
+   "fora_sof_ht": 3.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "diff": 1.5,
+   "estilo": "REAGE_PRESSIONA"
+  },
+  "distribuicao": {
+   "pct_ht": 46.7,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 3.5,
+   "posse_avg": 48.8,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.5 desvio +0.0",
+   "ultimos": [
+    3,
+    2,
+    5,
+    5
+   ]
+  }
+ },
+ "All Boys": {
+  "time": "All Boys",
+  "n_jogos": 3,
+  "n_casa": 1,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 8,
+   "casa_sof": 2,
+   "casa_total": 10,
+   "casa_pro_ht": 3,
+   "casa_sof_ht": 1,
+   "fora_pro": 5.5,
+   "fora_sof": 4.5,
+   "fora_total": 10.0,
+   "fora_pro_ht": 1,
+   "fora_sof_ht": 2
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 26.3,
+   "categoria": "ASFIXIA_FINAL"
+  },
+  "sangrador": {
+   "sof_avg": 3.67,
+   "posse_avg": 49,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.5 desvio +0.0",
+   "ultimos": [
+    8,
+    5,
+    6
+   ]
+  }
+ },
+ "Almagro": {
+  "time": "Almagro",
+  "n_jogos": 4,
+  "n_casa": 1,
+  "n_fora": 3,
+  "volume": {
+   "casa_pro": 4,
+   "casa_sof": 6,
+   "casa_total": 10,
+   "casa_pro_ht": 2,
+   "casa_sof_ht": 1,
+   "fora_pro": 6.67,
+   "fora_sof": 6.33,
+   "fora_total": 13.0,
+   "fora_pro_ht": 1.33,
+   "fora_sof_ht": 4
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 3,
+   "diff": 2.33,
+   "estilo": "REAGE_PRESSIONA"
+  },
+  "distribuicao": {
+   "pct_ht": 25.0,
+   "categoria": "ASFIXIA_FINAL"
+  },
+  "sangrador": {
+   "sof_avg": 6.25,
+   "posse_avg": 44.5,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "alta variancia sd 3.6",
+   "ultimos": [
+    11,
+    6,
+    4,
+    3
+   ]
+  }
+ },
+ "Almirante Brown": {
+  "time": "Almirante Brown",
+  "n_jogos": 3,
+  "n_casa": 2,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 3.5,
+   "casa_sof": 6,
+   "casa_total": 9.5,
+   "casa_pro_ht": 1.5,
+   "casa_sof_ht": 4.5,
+   "fora_pro": 5,
+   "fora_sof": 1,
+   "fora_total": 6,
+   "fora_pro_ht": 1,
+   "fora_sof_ht": 0
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 33.3,
+   "categoria": "ASFIXIA_FINAL"
+  },
+  "sangrador": {
+   "sof_avg": 4.33,
+   "posse_avg": 57.3,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.0 desvio +0.0",
+   "ultimos": [
+    4,
+    3,
+    5
+   ]
+  }
+ },
+ "Atl. Rafaela": {
+  "time": "Atl. Rafaela",
+  "n_jogos": 5,
+  "n_casa": 3,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 7.33,
+   "casa_sof": 1.67,
+   "casa_total": 9.0,
+   "casa_pro_ht": 5.33,
+   "casa_sof_ht": 0.67,
+   "fora_pro": 3,
+   "fora_sof": 7,
+   "fora_total": 10,
+   "fora_pro_ht": 2,
+   "fora_sof_ht": 2
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 71.4,
+   "categoria": "BLITZ_INICIAL"
+  },
+  "sangrador": {
+   "sof_avg": 3.8,
+   "posse_avg": 50.2,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "alta variancia sd 3.9",
+   "ultimos": [
+    4,
+    11,
+    2,
+    7
+   ]
+  }
+ },
+ "Atletico Atlanta": {
+  "time": "Atletico Atlanta",
+  "n_jogos": 5,
+  "n_casa": 2,
+  "n_fora": 3,
+  "volume": {
+   "casa_pro": 2.5,
+   "casa_sof": 5,
+   "casa_total": 7.5,
+   "casa_pro_ht": 2,
+   "casa_sof_ht": 1.5,
+   "fora_pro": 4,
+   "fora_sof": 5,
+   "fora_total": 9,
+   "fora_pro_ht": 2,
+   "fora_sof_ht": 3.33
+  },
+  "pos_gol_pro": {
+   "n": 2,
+   "diff": 0,
+   "estilo": "EQUILIBRADO_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 58.8,
+   "categoria": "BLITZ_INICIAL"
+  },
+  "sangrador": {
+   "sof_avg": 5,
+   "posse_avg": 54.2,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.3 desvio -0.9",
+   "ultimos": [
+    4,
+    2,
+    1,
+    3
+   ]
+  }
+ },
+ "CA Estudiantes": {
+  "time": "CA Estudiantes",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 4,
+   "casa_sof": 4.5,
+   "casa_total": 8.5,
+   "casa_pro_ht": 2.5,
+   "casa_sof_ht": 0.5,
+   "fora_pro": 5,
+   "fora_sof": 3.5,
+   "fora_total": 8.5,
+   "fora_pro_ht": 2.5,
+   "fora_sof_ht": 2
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 55.6,
+   "categoria": "BLITZ_INICIAL"
+  },
+  "sangrador": {
+   "sof_avg": 4,
+   "posse_avg": 49.2,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.9 desvio +0.0",
+   "ultimos": [
+    3,
+    7,
+    5,
+    3
+   ]
+  }
+ },
+ "CA Mitre": {
+  "time": "CA Mitre",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 3.5,
+   "casa_sof": 2.5,
+   "casa_total": 6.0,
+   "casa_pro_ht": 1,
+   "casa_sof_ht": 1.5,
+   "fora_pro": 2.5,
+   "fora_sof": 6,
+   "fora_total": 8.5,
+   "fora_pro_ht": 1.5,
+   "fora_sof_ht": 3
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "diff": -0.5,
+   "estilo": "EQUILIBRADO_REACAO"
+  },
+  "distribuicao": {
+   "pct_ht": 41.7,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 4.25,
+   "posse_avg": 48.2,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.4 desvio +0.0",
+   "ultimos": [
+    5,
+    3,
+    2,
+    2
+   ]
+  }
+ },
+ "Central Norte": {
+  "time": "Central Norte",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 3.5,
+   "casa_sof": 4,
+   "casa_total": 7.5,
+   "casa_pro_ht": 1,
+   "casa_sof_ht": 2.5,
+   "fora_pro": 5,
+   "fora_sof": 8,
+   "fora_total": 13,
+   "fora_pro_ht": 3.5,
+   "fora_sof_ht": 3
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "diff": 1.0,
+   "estilo": "REAGE_PRESSIONA"
+  },
+  "distribuicao": {
+   "pct_ht": 52.9,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 6,
+   "posse_avg": 49,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.7 desvio +0.0",
+   "ultimos": [
+    6,
+    5,
+    4,
+    2
+   ]
+  }
+ },
+ "Chacarita Juniors": {
+  "time": "Chacarita Juniors",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 3.5,
+   "casa_sof": 3.5,
+   "casa_total": 7.0,
+   "casa_pro_ht": 2,
+   "casa_sof_ht": 1.5,
+   "fora_pro": 4,
+   "fora_sof": 6.5,
+   "fora_total": 10.5,
+   "fora_pro_ht": 1.5,
+   "fora_sof_ht": 4
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 46.7,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 5,
+   "posse_avg": 51.2,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 2.5 desvio +0.0",
+   "ultimos": [
+    7,
+    4,
+    1,
+    3
+   ]
+  }
+ },
+ "Chaco For Ever": {
+  "time": "Chaco For Ever",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 8.5,
+   "casa_sof": 5,
+   "casa_total": 13.5,
+   "casa_pro_ht": 4.5,
+   "casa_sof_ht": 2.5,
+   "fora_pro": 4.5,
+   "fora_sof": 3,
+   "fora_total": 7.5,
+   "fora_pro_ht": 2.5,
+   "fora_sof_ht": 2
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 53.8,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 4,
+   "posse_avg": 48.2,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 2.6 desvio +0.0",
+   "ultimos": [
+    3,
+    8,
+    6,
+    9
+   ]
+  }
+ },
+ "Ciudad Bolivar": {
+  "time": "Ciudad Bolivar",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 5.5,
+   "casa_sof": 4.5,
+   "casa_total": 10.0,
+   "casa_pro_ht": 3.5,
+   "casa_sof_ht": 2.5,
+   "fora_pro": 4.5,
+   "fora_sof": 7,
+   "fora_total": 11.5,
+   "fora_pro_ht": 1.5,
+   "fora_sof_ht": 2.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 50.0,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 5.75,
+   "posse_avg": 46.8,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "alta variancia sd 4.2",
+   "ultimos": [
+    10,
+    2,
+    1,
+    7
+   ]
+  }
+ },
+ "Club A. Guemes": {
+  "time": "Club A. Guemes",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 3.5,
+   "casa_sof": 2,
+   "casa_total": 5.5,
+   "casa_pro_ht": 2.5,
+   "casa_sof_ht": 1,
+   "fora_pro": 4.5,
+   "fora_sof": 7.5,
+   "fora_total": 12.0,
+   "fora_pro_ht": 1.5,
+   "fora_sof_ht": 2.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "diff": -2,
+   "estilo": "DESISTE_RECUA"
+  },
+  "distribuicao": {
+   "pct_ht": 50.0,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 4.75,
+   "posse_avg": 49.5,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.4 desvio +0.0",
+   "ultimos": [
+    6,
+    4,
+    3,
+    3
+   ]
+  }
+ },
+ "Colegiales": {
+  "time": "Colegiales",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 6.5,
+   "casa_sof": 4,
+   "casa_total": 10.5,
+   "casa_pro_ht": 3.5,
+   "casa_sof_ht": 2.5,
+   "fora_pro": 4,
+   "fora_sof": 3,
+   "fora_total": 7,
+   "fora_pro_ht": 1.5,
+   "fora_sof_ht": 2
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 47.6,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 3.5,
+   "posse_avg": 46.2,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.9 desvio +0.0",
+   "ultimos": [
+    8,
+    4,
+    5,
+    4
+   ]
+  }
+ },
+ "Colon Santa Fe": {
+  "time": "Colon Santa Fe",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 6,
+   "casa_sof": 4,
+   "casa_total": 10,
+   "casa_pro_ht": 3,
+   "casa_sof_ht": 0.5,
+   "fora_pro": 1,
+   "fora_sof": 2.5,
+   "fora_total": 3.5,
+   "fora_pro_ht": 0.5,
+   "fora_sof_ht": 1.5
+  },
+  "pos_gol_pro": {
+   "n": 2,
+   "diff": -2.0,
+   "estilo": "RECUA_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 50.0,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 3.25,
+   "posse_avg": 51.2,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "alta variancia sd 3.1",
+   "ultimos": [
+    2,
+    5,
+    0,
+    7
+   ]
+  }
+ },
+ "Def. de Belgrano": {
+  "time": "Def. de Belgrano",
+  "n_jogos": 4,
+  "n_casa": 1,
+  "n_fora": 3,
+  "volume": {
+   "casa_pro": 12,
+   "casa_sof": 4,
+   "casa_total": 16,
+   "casa_pro_ht": 6,
+   "casa_sof_ht": 2,
+   "fora_pro": 2.67,
+   "fora_sof": 5.67,
+   "fora_total": 8.33,
+   "fora_pro_ht": 1.67,
+   "fora_sof_ht": 2.33
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "diff": 0.5,
+   "estilo": "EQUILIBRADO_REACAO"
+  },
+  "distribuicao": {
+   "pct_ht": 55.0,
+   "categoria": "BLITZ_INICIAL"
+  },
+  "sangrador": {
+   "sof_avg": 5.25,
+   "posse_avg": 46.8,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "alta variancia sd 4.8",
+   "ultimos": [
+    3,
+    1,
+    12,
+    4
+   ]
+  }
+ },
+ "Deportivo Madryn": {
+  "time": "Deportivo Madryn",
+  "n_jogos": 4,
+  "n_casa": 1,
+  "n_fora": 3,
+  "volume": {
+   "casa_pro": 5,
+   "casa_sof": 1,
+   "casa_total": 6,
+   "casa_pro_ht": 2,
+   "casa_sof_ht": 1,
+   "fora_pro": 4.67,
+   "fora_sof": 7.33,
+   "fora_total": 12.0,
+   "fora_pro_ht": 2.67,
+   "fora_sof_ht": 5
+  },
+  "pos_gol_pro": {
+   "n": 2,
+   "diff": 2,
+   "estilo": "PRESSIONA_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 52.6,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 5.75,
+   "posse_avg": 52.8,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.3 desvio +0.0",
+   "ultimos": [
+    5,
+    5,
+    3,
+    6
+   ]
+  }
+ },
+ "Deportivo Maipu": {
+  "time": "Deportivo Maipu",
+  "n_jogos": 4,
+  "n_casa": 1,
+  "n_fora": 3,
+  "volume": {
+   "casa_pro": 10,
+   "casa_sof": 6,
+   "casa_total": 16,
+   "casa_pro_ht": 6,
+   "casa_sof_ht": 1,
+   "fora_pro": 2.67,
+   "fora_sof": 6.33,
+   "fora_total": 9.0,
+   "fora_pro_ht": 2.33,
+   "fora_sof_ht": 2.67
+  },
+  "pos_gol_pro": {
+   "n": 3,
+   "diff": -2.67,
+   "estilo": "RECUA_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 72.2,
+   "categoria": "BLITZ_INICIAL"
+  },
+  "sangrador": {
+   "sof_avg": 6.25,
+   "posse_avg": 48.2,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "alta variancia sd 4.4",
+   "ultimos": [
+    6,
+    10,
+    1,
+    1
+   ]
+  }
+ },
+ "Deportivo Moron": {
+  "time": "Deportivo Moron",
+  "n_jogos": 4,
+  "n_casa": 3,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 5.33,
+   "casa_sof": 3.67,
+   "casa_total": 9.0,
+   "casa_pro_ht": 3.67,
+   "casa_sof_ht": 1.33,
+   "fora_pro": 3,
+   "fora_sof": 4,
+   "fora_total": 7,
+   "fora_pro_ht": 0,
+   "fora_sof_ht": 4
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 57.9,
+   "categoria": "BLITZ_INICIAL"
+  },
+  "sangrador": {
+   "sof_avg": 3.75,
+   "posse_avg": 52.5,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.5 desvio +0.0",
+   "ultimos": [
+    4,
+    6,
+    3,
+    6
+   ]
+  }
+ },
+ "Ferro": {
+  "time": "Ferro",
+  "n_jogos": 3,
+  "n_casa": 1,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 7,
+   "casa_sof": 4,
+   "casa_total": 11,
+   "casa_pro_ht": 3,
+   "casa_sof_ht": 2,
+   "fora_pro": 4.5,
+   "fora_sof": 3,
+   "fora_total": 7.5,
+   "fora_pro_ht": 2.5,
+   "fora_sof_ht": 0.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 50.0,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 3.33,
+   "posse_avg": 53,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.5 desvio +0.0",
+   "ultimos": [
+    5,
+    4,
+    7
+   ]
+  }
+ },
+ "Gimnasia Jujuy": {
+  "time": "Gimnasia Jujuy",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 6.5,
+   "casa_sof": 6,
+   "casa_total": 12.5,
+   "casa_pro_ht": 3.5,
+   "casa_sof_ht": 1.5,
+   "fora_pro": 1.5,
+   "fora_sof": 7.5,
+   "fora_total": 9.0,
+   "fora_pro_ht": 0.5,
+   "fora_sof_ht": 6
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 50.0,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 6.75,
+   "posse_avg": 53.2,
+   "tipo": "SANGRA_COM_BOLA"
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "alta variancia sd 4.1",
+   "ultimos": [
+    3,
+    2,
+    10,
+    1
+   ]
+  }
+ },
+ "Gimnasia y Tiro": {
+  "time": "Gimnasia y Tiro",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 7.5,
+   "casa_sof": 5.5,
+   "casa_total": 13.0,
+   "casa_pro_ht": 4.5,
+   "casa_sof_ht": 2,
+   "fora_pro": 2.5,
+   "fora_sof": 7.5,
+   "fora_total": 10.0,
+   "fora_pro_ht": 2,
+   "fora_sof_ht": 4.5
+  },
+  "pos_gol_pro": {
+   "n": 2,
+   "diff": -0.5,
+   "estilo": "EQUILIBRADO_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 65.0,
+   "categoria": "BLITZ_INICIAL"
+  },
+  "sangrador": {
+   "sof_avg": 6.5,
+   "posse_avg": 51,
+   "tipo": "SANGRA_COM_BOLA"
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "alta variancia sd 4.1",
+   "ultimos": [
+    10,
+    5,
+    5,
+    0
+   ]
+  }
+ },
+ "Godoy Cruz": {
+  "time": "Godoy Cruz",
+  "n_jogos": 4,
+  "n_casa": 3,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 4.67,
+   "casa_sof": 4,
+   "casa_total": 8.67,
+   "casa_pro_ht": 3,
+   "casa_sof_ht": 1,
+   "fora_pro": 2,
+   "fora_sof": 5,
+   "fora_total": 7,
+   "fora_pro_ht": 1,
+   "fora_sof_ht": 2
+  },
+  "pos_gol_pro": {
+   "n": 2,
+   "diff": -3.0,
+   "estilo": "RECUA_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 62.5,
+   "categoria": "BLITZ_INICIAL"
+  },
+  "sangrador": {
+   "sof_avg": 4.25,
+   "posse_avg": 50.5,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.6 desvio +0.0",
+   "ultimos": [
+    4,
+    2,
+    4,
+    6
+   ]
+  }
+ },
+ "Los Andes": {
+  "time": "Los Andes",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 2.5,
+   "casa_sof": 1,
+   "casa_total": 3.5,
+   "casa_pro_ht": 1,
+   "casa_sof_ht": 0.5,
+   "fora_pro": 6,
+   "fora_sof": 8.5,
+   "fora_total": 14.5,
+   "fora_pro_ht": 2.5,
+   "fora_sof_ht": 3.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 41.2,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 4.75,
+   "posse_avg": 47.2,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 2.9 desvio +0.0",
+   "ultimos": [
+    4,
+    4,
+    1,
+    8
+   ]
+  }
+ },
+ "Midland": {
+  "time": "Midland",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 5,
+   "casa_sof": 2,
+   "casa_total": 7,
+   "casa_pro_ht": 2,
+   "casa_sof_ht": 1,
+   "fora_pro": 4,
+   "fora_sof": 4,
+   "fora_total": 8,
+   "fora_pro_ht": 2.5,
+   "fora_sof_ht": 1.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 50.0,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 3,
+   "posse_avg": 50,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.0 desvio +0.0",
+   "ultimos": [
+    5,
+    3,
+    5,
+    5
+   ]
+  }
+ },
+ "Nueva Chicago": {
+  "time": "Nueva Chicago",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 4.5,
+   "casa_sof": 3.5,
+   "casa_total": 8.0,
+   "casa_pro_ht": 2.5,
+   "casa_sof_ht": 1,
+   "fora_pro": 2,
+   "fora_sof": 6.5,
+   "fora_total": 8.5,
+   "fora_pro_ht": 1,
+   "fora_sof_ht": 4
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "diff": 0.5,
+   "estilo": "EQUILIBRADO_REACAO"
+  },
+  "distribuicao": {
+   "pct_ht": 53.8,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 5,
+   "posse_avg": 52.8,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 2.1 desvio +0.0",
+   "ultimos": [
+    1,
+    3,
+    3,
+    6
+   ]
+  }
+ },
+ "Patronato": {
+  "time": "Patronato",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 5.5,
+   "casa_sof": 4.5,
+   "casa_total": 10.0,
+   "casa_pro_ht": 3,
+   "casa_sof_ht": 3.5,
+   "fora_pro": 1.5,
+   "fora_sof": 5.5,
+   "fora_total": 7.0,
+   "fora_pro_ht": 0,
+   "fora_sof_ht": 1
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 42.9,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 5,
+   "posse_avg": 51.2,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 2.4 desvio +0.0",
+   "ultimos": [
+    6,
+    1,
+    5,
+    2
+   ]
+  }
+ },
+ "Quilmes": {
+  "time": "Quilmes",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 8.5,
+   "casa_sof": 1,
+   "casa_total": 9.5,
+   "casa_pro_ht": 4.5,
+   "casa_sof_ht": 0.5,
+   "fora_pro": 1.5,
+   "fora_sof": 3.5,
+   "fora_total": 5.0,
+   "fora_pro_ht": 1,
+   "fora_sof_ht": 1.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 55.0,
+   "categoria": "BLITZ_INICIAL"
+  },
+  "sangrador": {
+   "sof_avg": 2.25,
+   "posse_avg": 47,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "alta variancia sd 4.1",
+   "ultimos": [
+    8,
+    1,
+    9,
+    2
+   ]
+  }
+ },
+ "Racing Cordoba": {
+  "time": "Racing Cordoba",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 7.5,
+   "casa_sof": 3,
+   "casa_total": 10.5,
+   "casa_pro_ht": 4,
+   "casa_sof_ht": 1,
+   "fora_pro": 4.5,
+   "fora_sof": 6,
+   "fora_total": 10.5,
+   "fora_pro_ht": 1,
+   "fora_sof_ht": 4.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 41.7,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 4.5,
+   "posse_avg": 50.8,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "alta variancia sd 3.9",
+   "ultimos": [
+    5,
+    1,
+    10,
+    8
+   ]
+  }
+ },
+ "San Martin S.J.": {
+  "time": "San Martin S.J.",
+  "n_jogos": 5,
+  "n_casa": 3,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 5,
+   "casa_sof": 3.33,
+   "casa_total": 8.33,
+   "casa_pro_ht": 2,
+   "casa_sof_ht": 1.33,
+   "fora_pro": 1,
+   "fora_sof": 5,
+   "fora_total": 6,
+   "fora_pro_ht": 1,
+   "fora_sof_ht": 3
+  },
+  "pos_gol_pro": {
+   "n": 2,
+   "diff": 0,
+   "estilo": "EQUILIBRADO_POS_GOL"
+  },
+  "pos_gol_contra": {
+   "n": 2,
+   "diff": -2,
+   "estilo": "DESISTE_RECUA"
+  },
+  "distribuicao": {
+   "pct_ht": 47.1,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 4,
+   "posse_avg": 51.8,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 2.1 desvio -0.6",
+   "ultimos": [
+    1,
+    4,
+    1,
+    5
+   ]
+  }
+ },
+ "San Martin T.": {
+  "time": "San Martin T.",
+  "n_jogos": 4,
+  "n_casa": 3,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 5.67,
+   "casa_sof": 2,
+   "casa_total": 7.67,
+   "casa_pro_ht": 2.33,
+   "casa_sof_ht": 1.33,
+   "fora_pro": 2,
+   "fora_sof": 2,
+   "fora_total": 4,
+   "fora_pro_ht": 1,
+   "fora_sof_ht": 2
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 42.1,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 2,
+   "posse_avg": 54,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 2.2 desvio +0.0",
+   "ultimos": [
+    7,
+    2,
+    6,
+    4
+   ]
+  }
+ },
+ "San Miguel": {
+  "time": "San Miguel",
+  "n_jogos": 3,
+  "n_casa": 2,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro": 7.5,
+   "casa_sof": 3.5,
+   "casa_total": 11.0,
+   "casa_pro_ht": 4,
+   "casa_sof_ht": 2,
+   "fora_pro": 1,
+   "fora_sof": 4,
+   "fora_total": 5,
+   "fora_pro_ht": 1,
+   "fora_sof_ht": 2
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 56.2,
+   "categoria": "BLITZ_INICIAL"
+  },
+  "sangrador": {
+   "sof_avg": 3.67,
+   "posse_avg": 50.7,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "alta variancia sd 5.1",
+   "ultimos": [
+    1,
+    11,
+    4
+   ]
+  }
+ },
+ "San Telmo": {
+  "time": "San Telmo",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 3,
+   "casa_sof": 3.5,
+   "casa_total": 6.5,
+   "casa_pro_ht": 1,
+   "casa_sof_ht": 1.5,
+   "fora_pro": 4,
+   "fora_sof": 4.5,
+   "fora_total": 8.5,
+   "fora_pro_ht": 0.5,
+   "fora_sof_ht": 3
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 21.4,
+   "categoria": "ASFIXIA_FINAL"
+  },
+  "sangrador": {
+   "sof_avg": 4,
+   "posse_avg": 53,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.9 desvio +0.0",
+   "ultimos": [
+    2,
+    2,
+    6,
+    4
+   ]
+  }
+ },
+ "Temperley": {
+  "time": "Temperley",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 4.5,
+   "casa_sof": 1,
+   "casa_total": 5.5,
+   "casa_pro_ht": 2,
+   "casa_sof_ht": 0.5,
+   "fora_pro": 6.5,
+   "fora_sof": 6,
+   "fora_total": 12.5,
+   "fora_pro_ht": 2.5,
+   "fora_sof_ht": 3
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 40.9,
+   "categoria": "DISTRIBUIDO"
+  },
+  "sangrador": {
+   "sof_avg": 3.5,
+   "posse_avg": 50.5,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 1.7 desvio +0.0",
+   "ultimos": [
+    7,
+    6,
+    6,
+    3
+   ]
+  }
+ },
+ "Tristan Suarez": {
+  "time": "Tristan Suarez",
+  "n_jogos": 5,
+  "n_casa": 3,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro": 6.67,
+   "casa_sof": 4.67,
+   "casa_total": 11.33,
+   "casa_pro_ht": 2,
+   "casa_sof_ht": 3.33,
+   "fora_pro": 3,
+   "fora_sof": 4,
+   "fora_total": 7,
+   "fora_pro_ht": 1.5,
+   "fora_sof_ht": 1
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 34.6,
+   "categoria": "ASFIXIA_FINAL"
+  },
+  "sangrador": {
+   "sof_avg": 4.4,
+   "posse_avg": 45.2,
+   "tipo": "NORMAL"
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "sd 2.4 desvio -0.7",
+   "ultimos": [
+    3,
+    8,
+    3,
+    4
+   ]
+  }
+ }
+}

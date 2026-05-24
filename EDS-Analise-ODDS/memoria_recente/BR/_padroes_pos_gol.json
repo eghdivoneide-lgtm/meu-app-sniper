@@ -1,0 +1,2470 @@
+{
+ "Athletico-PR": {
+  "time": "Athletico-PR",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro_ft": 5.5,
+   "casa_sof_ft": 3.5,
+   "casa_total": 9.0,
+   "fora_pro_ft": 5.5,
+   "fora_sof_ft": 3,
+   "fora_total": 8.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "c_2t_pro": 3.5,
+   "c_2t_sof": 0,
+   "diff": 3.5,
+   "estilo": "REAGE_PRESSIONA"
+  },
+  "distribuicao": {
+   "pct_ht": 50.0,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 2.75,
+   "t2_pro": 2.75
+  },
+  "sangrador": {
+   "sof_avg": 3.25,
+   "posse_avg": 50.8,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 5.5,
+   "categoria": "ESTERIL",
+   "total_gols": 4,
+   "total_cantos": 22
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "Sem direcao clara sd 2.4 desvio +0.0",
+   "ultimos": [
+    8,
+    4,
+    7,
+    3
+   ]
+  },
+  "historico": [
+   {
+    "data": "05.04.2026 17:30",
+    "rodada": "R7",
+    "local": "FORA",
+    "adv": "Atletico-MG",
+    "c_pro_ht": 2,
+    "c_sof_ht": 2,
+    "c_pro_2t": 6,
+    "c_sof_2t": 0,
+    "c_pro_ft": 8,
+    "c_sof_ft": 2,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 51
+   },
+   {
+    "data": "26.04.2026 18:30",
+    "rodada": "R8",
+    "local": "CASA",
+    "adv": "Vitoria",
+    "c_pro_ht": 3,
+    "c_sof_ht": 3,
+    "c_pro_2t": 1,
+    "c_sof_2t": 1,
+    "c_pro_ft": 4,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 3,
+    "gols_sof_ft": 1,
+    "posse": 60
+   },
+   {
+    "data": "02.05.2026 20:30",
+    "rodada": "R9",
+    "local": "CASA",
+    "adv": "Gremio",
+    "c_pro_ht": 4,
+    "c_sof_ht": 1,
+    "c_pro_2t": 3,
+    "c_sof_2t": 2,
+    "c_pro_ft": 7,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 0,
+    "posse": 45
+   },
+   {
+    "data": "10.05.2026 20:30",
+    "rodada": "R10",
+    "local": "FORA",
+    "adv": "Vasco",
+    "c_pro_ht": 2,
+    "c_sof_ht": 4,
+    "c_pro_2t": 1,
+    "c_sof_2t": 0,
+    "c_pro_ft": 3,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 47
+   }
+  ]
+ },
+ "Atletico-MG": {
+  "time": "Atletico-MG",
+  "n_jogos": 4,
+  "n_casa": 3,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro_ft": 5.33,
+   "casa_sof_ft": 4.33,
+   "casa_total": 9.67,
+   "fora_pro_ft": 1,
+   "fora_sof_ft": 5,
+   "fora_total": 6
+  },
+  "pos_gol_pro": {
+   "n": 3,
+   "c_2t_pro": 1.67,
+   "c_2t_sof": 3.67,
+   "diff": -2.0,
+   "estilo": "RECUA_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 52.9,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 2.25,
+   "t2_pro": 2
+  },
+  "sangrador": {
+   "sof_avg": 4.5,
+   "posse_avg": 43.8,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 2.83,
+   "categoria": "CLINICA",
+   "total_gols": 6,
+   "total_cantos": 17
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "Alta variancia sd 3.3",
+   "ultimos": [
+    2,
+    8,
+    1,
+    6
+   ]
+  },
+  "historico": [
+   {
+    "data": "05.04.2026 17:30",
+    "rodada": "R7",
+    "local": "CASA",
+    "adv": "Athletico-PR",
+    "c_pro_ht": 2,
+    "c_sof_ht": 2,
+    "c_pro_2t": 0,
+    "c_sof_2t": 6,
+    "c_pro_ft": 2,
+    "c_sof_ft": 8,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 49
+   },
+   {
+    "data": "26.04.2026 20:30",
+    "rodada": "R8",
+    "local": "CASA",
+    "adv": "Flamengo RJ",
+    "c_pro_ht": 5,
+    "c_sof_ht": 1,
+    "c_pro_2t": 3,
+    "c_sof_2t": 0,
+    "c_pro_ft": 8,
+    "c_sof_ft": 1,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 3,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 4,
+    "posse": 51
+   },
+   {
+    "data": "02.05.2026 21:00",
+    "rodada": "R9",
+    "local": "FORA",
+    "adv": "Cruzeiro",
+    "c_pro_ht": 0,
+    "c_sof_ht": 3,
+    "c_pro_2t": 1,
+    "c_sof_2t": 2,
+    "c_pro_ft": 1,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 2,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 3,
+    "gols_sof_ft": 1,
+    "posse": 31
+   },
+   {
+    "data": "10.05.2026 16:00",
+    "rodada": "R10",
+    "local": "CASA",
+    "adv": "Botafogo RJ",
+    "c_pro_ht": 2,
+    "c_sof_ht": 1,
+    "c_pro_2t": 4,
+    "c_sof_2t": 3,
+    "c_pro_ft": 6,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 1,
+    "posse": 44
+   }
+  ]
+ },
+ "Bahia": {
+  "time": "Bahia",
+  "n_jogos": 5,
+  "n_casa": 3,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro_ft": 6,
+   "casa_sof_ft": 5.33,
+   "casa_total": 11.33,
+   "fora_pro_ft": 5.5,
+   "fora_sof_ft": 10,
+   "fora_total": 15.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 4,
+   "c_2t_pro": 2.25,
+   "c_2t_sof": 5,
+   "diff": -2.75,
+   "estilo": "DESISTE_RECUA"
+  },
+  "distribuicao": {
+   "pct_ht": 51.7,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 3,
+   "t2_pro": 2.8
+  },
+  "sangrador": {
+   "sof_avg": 7.2,
+   "posse_avg": 55.8,
+   "tipo": "SANGRA_COM_BOLA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 4.83,
+   "categoria": "NORMAL",
+   "total_gols": 6,
+   "total_cantos": 29
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "Alta variancia sd 3.7",
+   "ultimos": [
+    1,
+    5,
+    10,
+    6
+   ]
+  },
+  "historico": [
+   {
+    "data": "05.04.2026 19:30",
+    "rodada": "R7",
+    "local": "CASA",
+    "adv": "Palmeiras",
+    "c_pro_ht": 3,
+    "c_sof_ht": 0,
+    "c_pro_2t": 4,
+    "c_sof_2t": 5,
+    "c_pro_ft": 7,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 59
+   },
+   {
+    "data": "19.04.2026 19:30",
+    "rodada": "R8",
+    "local": "FORA",
+    "adv": "Flamengo RJ",
+    "c_pro_ht": 1,
+    "c_sof_ht": 2,
+    "c_pro_2t": 0,
+    "c_sof_2t": 4,
+    "c_pro_ft": 1,
+    "c_sof_ft": 6,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 2,
+    "posse": 48
+   },
+   {
+    "data": "25.04.2026 18:30",
+    "rodada": "R8",
+    "local": "CASA",
+    "adv": "Santos",
+    "c_pro_ht": 2,
+    "c_sof_ht": 1,
+    "c_pro_2t": 3,
+    "c_sof_2t": 2,
+    "c_pro_ft": 5,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 2,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 2,
+    "posse": 64
+   },
+   {
+    "data": "03.05.2026 16:00",
+    "rodada": "R9",
+    "local": "FORA",
+    "adv": "Sao Paulo",
+    "c_pro_ht": 8,
+    "c_sof_ht": 5,
+    "c_pro_2t": 2,
+    "c_sof_2t": 9,
+    "c_pro_ft": 10,
+    "c_sof_ft": 14,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 2,
+    "posse": 62
+   },
+   {
+    "data": "09.05.2026 21:00",
+    "rodada": "R10",
+    "local": "CASA",
+    "adv": "Cruzeiro",
+    "c_pro_ht": 1,
+    "c_sof_ht": 5,
+    "c_pro_2t": 5,
+    "c_sof_2t": 3,
+    "c_pro_ft": 6,
+    "c_sof_ft": 8,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 46
+   }
+  ]
+ },
+ "Botafogo RJ": {
+  "time": "Botafogo RJ",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro_ft": 6,
+   "casa_sof_ft": 5.5,
+   "casa_total": 11.5,
+   "fora_pro_ft": 3,
+   "fora_sof_ft": 4.5,
+   "fora_total": 7.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 55.6,
+   "categoria": "BLITZ_INICIAL",
+   "ht_pro": 2.5,
+   "t2_pro": 2
+  },
+  "sangrador": {
+   "sof_avg": 5,
+   "posse_avg": 51,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 3.0,
+   "categoria": "CLINICA",
+   "total_gols": 6,
+   "total_cantos": 18
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "Alta variancia sd 3.1",
+   "ultimos": [
+    2,
+    3,
+    9,
+    4
+   ]
+  },
+  "historico": [
+   {
+    "data": "04.04.2026 21:00",
+    "rodada": "R7",
+    "local": "FORA",
+    "adv": "Vasco",
+    "c_pro_ht": 1,
+    "c_sof_ht": 2,
+    "c_pro_2t": 1,
+    "c_sof_2t": 1,
+    "c_pro_ft": 2,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 37
+   },
+   {
+    "data": "25.04.2026 18:30",
+    "rodada": "R8",
+    "local": "CASA",
+    "adv": "Internacional",
+    "c_pro_ht": 2,
+    "c_sof_ht": 2,
+    "c_pro_2t": 1,
+    "c_sof_2t": 3,
+    "c_pro_ft": 3,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 2,
+    "posse": 53
+   },
+   {
+    "data": "02.05.2026 16:00",
+    "rodada": "R9",
+    "local": "CASA",
+    "adv": "Remo",
+    "c_pro_ht": 6,
+    "c_sof_ht": 4,
+    "c_pro_2t": 3,
+    "c_sof_2t": 2,
+    "c_pro_ft": 9,
+    "c_sof_ft": 6,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 58
+   },
+   {
+    "data": "10.05.2026 16:00",
+    "rodada": "R10",
+    "local": "FORA",
+    "adv": "Atletico-MG",
+    "c_pro_ht": 1,
+    "c_sof_ht": 2,
+    "c_pro_2t": 3,
+    "c_sof_2t": 4,
+    "c_pro_ft": 4,
+    "c_sof_ft": 6,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 1,
+    "posse": 56
+   }
+  ]
+ },
+ "Bragantino": {
+  "time": "Bragantino",
+  "n_jogos": 6,
+  "n_casa": 3,
+  "n_fora": 3,
+  "volume": {
+   "casa_pro_ft": 5.67,
+   "casa_sof_ft": 3.33,
+   "casa_total": 9.0,
+   "fora_pro_ft": 3.67,
+   "fora_sof_ft": 8,
+   "fora_total": 11.67
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "c_2t_pro": 3,
+   "c_2t_sof": 1,
+   "diff": 2,
+   "estilo": "REAGE_PRESSIONA"
+  },
+  "distribuicao": {
+   "pct_ht": 53.6,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 2.5,
+   "t2_pro": 2.17
+  },
+  "sangrador": {
+   "sof_avg": 5.67,
+   "posse_avg": 51,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 2.8,
+   "categoria": "CLINICA",
+   "total_gols": 10,
+   "total_cantos": 28
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "Alta variancia sd 3.6",
+   "ultimos": [
+    1,
+    9,
+    2,
+    3
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.04.2026 21:30",
+    "rodada": "R7",
+    "local": "CASA",
+    "adv": "Flamengo RJ",
+    "c_pro_ht": 4,
+    "c_sof_ht": 2,
+    "c_pro_2t": 3,
+    "c_sof_2t": 3,
+    "c_pro_ft": 7,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 2,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 3,
+    "gols_sof_ft": 0,
+    "posse": 56
+   },
+   {
+    "data": "05.04.2026 20:00",
+    "rodada": "R7",
+    "local": "FORA",
+    "adv": "Mirassol",
+    "c_pro_ht": 5,
+    "c_sof_ht": 2,
+    "c_pro_2t": 1,
+    "c_sof_2t": 10,
+    "c_pro_ft": 6,
+    "c_sof_ft": 12,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 46
+   },
+   {
+    "data": "19.04.2026 18:30",
+    "rodada": "R8",
+    "local": "CASA",
+    "adv": "Remo",
+    "c_pro_ht": 0,
+    "c_sof_ht": 0,
+    "c_pro_2t": 1,
+    "c_sof_2t": 1,
+    "c_pro_ft": 1,
+    "c_sof_ft": 1,
+    "gols_pro_ht": 2,
+    "gols_sof_ht": 2,
+    "gols_pro_ft": 4,
+    "gols_sof_ft": 2,
+    "posse": 51
+   },
+   {
+    "data": "26.04.2026 18:30",
+    "rodada": "R8",
+    "local": "CASA",
+    "adv": "Palmeiras",
+    "c_pro_ht": 4,
+    "c_sof_ht": 3,
+    "c_pro_2t": 5,
+    "c_sof_2t": 1,
+    "c_pro_ft": 9,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 61
+   },
+   {
+    "data": "03.05.2026 18:30",
+    "rodada": "R9",
+    "local": "FORA",
+    "adv": "Chapecoense-SC",
+    "c_pro_ht": 0,
+    "c_sof_ht": 1,
+    "c_pro_2t": 2,
+    "c_sof_2t": 4,
+    "c_pro_ft": 2,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 45
+   },
+   {
+    "data": "10.05.2026 18:30",
+    "rodada": "R10",
+    "local": "FORA",
+    "adv": "Santos",
+    "c_pro_ht": 2,
+    "c_sof_ht": 6,
+    "c_pro_2t": 1,
+    "c_sof_2t": 1,
+    "c_pro_ft": 3,
+    "c_sof_ft": 7,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 2,
+    "posse": 47
+   }
+  ]
+ },
+ "Chapecoense-SC": {
+  "time": "Chapecoense-SC",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro_ft": 7,
+   "casa_sof_ft": 1.5,
+   "casa_total": 8.5,
+   "fora_pro_ft": 1,
+   "fora_sof_ft": 7.5,
+   "fora_total": 8.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 25.0,
+   "categoria": "ASFIXIA_FINAL",
+   "ht_pro": 1,
+   "t2_pro": 3
+  },
+  "sangrador": {
+   "sof_avg": 4.5,
+   "posse_avg": 45.8,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 4.0,
+   "categoria": "NORMAL",
+   "total_gols": 4,
+   "total_cantos": 16
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "Alta variancia sd 3.8",
+   "ultimos": [
+    9,
+    1,
+    5,
+    1
+   ]
+  },
+  "historico": [
+   {
+    "data": "05.04.2026 16:00",
+    "rodada": "R7",
+    "local": "CASA",
+    "adv": "Vitoria",
+    "c_pro_ht": 3,
+    "c_sof_ht": 0,
+    "c_pro_2t": 6,
+    "c_sof_2t": 1,
+    "c_pro_ft": 9,
+    "c_sof_ft": 1,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 1,
+    "posse": 58
+   },
+   {
+    "data": "26.04.2026 20:30",
+    "rodada": "R8",
+    "local": "FORA",
+    "adv": "Fluminense",
+    "c_pro_ht": 0,
+    "c_sof_ht": 3,
+    "c_pro_2t": 1,
+    "c_sof_2t": 4,
+    "c_pro_ft": 1,
+    "c_sof_ft": 7,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 29
+   },
+   {
+    "data": "03.05.2026 18:30",
+    "rodada": "R9",
+    "local": "CASA",
+    "adv": "Bragantino",
+    "c_pro_ht": 1,
+    "c_sof_ht": 0,
+    "c_pro_2t": 4,
+    "c_sof_2t": 2,
+    "c_pro_ft": 5,
+    "c_sof_ft": 2,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 55
+   },
+   {
+    "data": "10.05.2026 18:30",
+    "rodada": "R10",
+    "local": "FORA",
+    "adv": "Mirassol",
+    "c_pro_ht": 0,
+    "c_sof_ht": 4,
+    "c_pro_2t": 1,
+    "c_sof_2t": 4,
+    "c_pro_ft": 1,
+    "c_sof_ft": 8,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 1,
+    "posse": 41
+   }
+  ]
+ },
+ "Corinthians": {
+  "time": "Corinthians",
+  "n_jogos": 4,
+  "n_casa": 3,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro_ft": 6.33,
+   "casa_sof_ft": 6,
+   "casa_total": 12.33,
+   "fora_pro_ft": 5,
+   "fora_sof_ft": 1,
+   "fora_total": 6
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 58.3,
+   "categoria": "BLITZ_INICIAL",
+   "ht_pro": 3.5,
+   "t2_pro": 2.5
+  },
+  "sangrador": {
+   "sof_avg": 4.75,
+   "posse_avg": 54.2,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 4.8,
+   "categoria": "NORMAL",
+   "total_gols": 5,
+   "total_cantos": 24
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "Sem direcao clara sd 1.2 desvio +0.0",
+   "ultimos": [
+    7,
+    5,
+    5,
+    7
+   ]
+  },
+  "historico": [
+   {
+    "data": "05.04.2026 19:30",
+    "rodada": "R7",
+    "local": "CASA",
+    "adv": "Internacional",
+    "c_pro_ht": 3,
+    "c_sof_ht": 2,
+    "c_pro_2t": 4,
+    "c_sof_2t": 2,
+    "c_pro_ft": 7,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 65
+   },
+   {
+    "data": "26.04.2026 16:00",
+    "rodada": "R8",
+    "local": "CASA",
+    "adv": "Vasco",
+    "c_pro_ht": 4,
+    "c_sof_ht": 2,
+    "c_pro_2t": 1,
+    "c_sof_2t": 5,
+    "c_pro_ft": 5,
+    "c_sof_ft": 7,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 40
+   },
+   {
+    "data": "03.05.2026 20:30",
+    "rodada": "R9",
+    "local": "FORA",
+    "adv": "Mirassol",
+    "c_pro_ht": 1,
+    "c_sof_ht": 1,
+    "c_pro_2t": 4,
+    "c_sof_2t": 0,
+    "c_pro_ft": 5,
+    "c_sof_ft": 1,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 2,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 62
+   },
+   {
+    "data": "10.05.2026 18:30",
+    "rodada": "R10",
+    "local": "CASA",
+    "adv": "Sao Paulo",
+    "c_pro_ht": 6,
+    "c_sof_ht": 3,
+    "c_pro_2t": 1,
+    "c_sof_2t": 4,
+    "c_pro_ft": 7,
+    "c_sof_ft": 7,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 3,
+    "gols_sof_ft": 2,
+    "posse": 50
+   }
+  ]
+ },
+ "Coritiba": {
+  "time": "Coritiba",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro_ft": 3,
+   "casa_sof_ft": 9,
+   "casa_total": 12,
+   "fora_pro_ft": 3,
+   "fora_sof_ft": 3.5,
+   "fora_total": 6.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "c_2t_pro": 1.5,
+   "c_2t_sof": 2.5,
+   "diff": -1.0,
+   "estilo": "DESISTE_RECUA"
+  },
+  "distribuicao": {
+   "pct_ht": 58.3,
+   "categoria": "BLITZ_INICIAL",
+   "ht_pro": 1.75,
+   "t2_pro": 1.25
+  },
+  "sangrador": {
+   "sof_avg": 6.25,
+   "posse_avg": 38,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 3.0,
+   "categoria": "CLINICA",
+   "total_gols": 4,
+   "total_cantos": 12
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "Sem direcao clara sd 0.8 desvio +0.0",
+   "ultimos": [
+    3,
+    2,
+    4,
+    3
+   ]
+  },
+  "historico": [
+   {
+    "data": "04.04.2026 20:30",
+    "rodada": "R7",
+    "local": "CASA",
+    "adv": "Fluminense",
+    "c_pro_ht": 1,
+    "c_sof_ht": 6,
+    "c_pro_2t": 2,
+    "c_sof_2t": 4,
+    "c_pro_ft": 3,
+    "c_sof_ft": 10,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 1,
+    "posse": 33
+   },
+   {
+    "data": "26.04.2026 16:00",
+    "rodada": "R8",
+    "local": "FORA",
+    "adv": "Gremio",
+    "c_pro_ht": 2,
+    "c_sof_ht": 2,
+    "c_pro_2t": 0,
+    "c_sof_2t": 3,
+    "c_pro_ft": 2,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 44
+   },
+   {
+    "data": "02.05.2026 18:30",
+    "rodada": "R9",
+    "local": "FORA",
+    "adv": "Vitoria",
+    "c_pro_ht": 1,
+    "c_sof_ht": 0,
+    "c_pro_2t": 3,
+    "c_sof_2t": 2,
+    "c_pro_ft": 4,
+    "c_sof_ft": 2,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 2,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 4,
+    "posse": 39
+   },
+   {
+    "data": "09.05.2026 16:00",
+    "rodada": "R10",
+    "local": "CASA",
+    "adv": "Internacional",
+    "c_pro_ht": 3,
+    "c_sof_ht": 2,
+    "c_pro_2t": 0,
+    "c_sof_2t": 6,
+    "c_pro_ft": 3,
+    "c_sof_ft": 8,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 2,
+    "posse": 36
+   }
+  ]
+ },
+ "Cruzeiro": {
+  "time": "Cruzeiro",
+  "n_jogos": 4,
+  "n_casa": 1,
+  "n_fora": 3,
+  "volume": {
+   "casa_pro_ft": 5,
+   "casa_sof_ft": 1,
+   "casa_total": 6,
+   "fora_pro_ft": 4.33,
+   "fora_sof_ft": 5.33,
+   "fora_total": 9.67
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "c_2t_pro": 2.5,
+   "c_2t_sof": 2,
+   "diff": 0.5,
+   "estilo": "EQUILIBRADO_REACAO"
+  },
+  "distribuicao": {
+   "pct_ht": 50.0,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 2.25,
+   "t2_pro": 2.25
+  },
+  "sangrador": {
+   "sof_avg": 4.25,
+   "posse_avg": 60,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 3.6,
+   "categoria": "NORMAL",
+   "total_gols": 5,
+   "total_cantos": 18
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "Sem direcao clara sd 2.9 desvio +0.0",
+   "ultimos": [
+    4,
+    1,
+    5,
+    8
+   ]
+  },
+  "historico": [
+   {
+    "data": "04.04.2026 18:30",
+    "rodada": "R7",
+    "local": "FORA",
+    "adv": "Sao Paulo",
+    "c_pro_ht": 1,
+    "c_sof_ht": 3,
+    "c_pro_2t": 3,
+    "c_sof_2t": 3,
+    "c_pro_ft": 4,
+    "c_sof_ft": 6,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 2,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 4,
+    "posse": 64
+   },
+   {
+    "data": "25.04.2026 18:30",
+    "rodada": "R8",
+    "local": "FORA",
+    "adv": "Remo",
+    "c_pro_ht": 0,
+    "c_sof_ht": 1,
+    "c_pro_2t": 1,
+    "c_sof_2t": 3,
+    "c_pro_ft": 1,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 53
+   },
+   {
+    "data": "02.05.2026 21:00",
+    "rodada": "R9",
+    "local": "CASA",
+    "adv": "Atletico-MG",
+    "c_pro_ht": 3,
+    "c_sof_ht": 0,
+    "c_pro_2t": 2,
+    "c_sof_2t": 1,
+    "c_pro_ft": 5,
+    "c_sof_ft": 1,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 2,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 3,
+    "posse": 69
+   },
+   {
+    "data": "09.05.2026 21:00",
+    "rodada": "R10",
+    "local": "FORA",
+    "adv": "Bahia",
+    "c_pro_ht": 5,
+    "c_sof_ht": 1,
+    "c_pro_2t": 3,
+    "c_sof_2t": 5,
+    "c_pro_ft": 8,
+    "c_sof_ft": 6,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 54
+   }
+  ]
+ },
+ "Flamengo RJ": {
+  "time": "Flamengo RJ",
+  "n_jogos": 6,
+  "n_casa": 3,
+  "n_fora": 3,
+  "volume": {
+   "casa_pro_ft": 4.33,
+   "casa_sof_ft": 4.67,
+   "casa_total": 9.0,
+   "fora_pro_ft": 4,
+   "fora_sof_ft": 5,
+   "fora_total": 9
+  },
+  "pos_gol_pro": {
+   "n": 3,
+   "c_2t_pro": 2,
+   "c_2t_sof": 2.33,
+   "diff": -0.33,
+   "estilo": "EQUILIBRADO_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 56.0,
+   "categoria": "BLITZ_INICIAL",
+   "ht_pro": 2.33,
+   "t2_pro": 1.83
+  },
+  "sangrador": {
+   "sof_avg": 4.83,
+   "posse_avg": 54.2,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 2.08,
+   "categoria": "CLINICA",
+   "total_gols": 12,
+   "total_cantos": 25
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "Sem direcao clara sd 2.4 desvio +0.3",
+   "ultimos": [
+    6,
+    1,
+    5,
+    6
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.04.2026 21:30",
+    "rodada": "R7",
+    "local": "FORA",
+    "adv": "Bragantino",
+    "c_pro_ht": 2,
+    "c_sof_ht": 4,
+    "c_pro_2t": 3,
+    "c_sof_2t": 3,
+    "c_pro_ft": 5,
+    "c_sof_ft": 7,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 2,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 3,
+    "posse": 44
+   },
+   {
+    "data": "05.04.2026 17:30",
+    "rodada": "R7",
+    "local": "CASA",
+    "adv": "Santos",
+    "c_pro_ht": 2,
+    "c_sof_ht": 2,
+    "c_pro_2t": 0,
+    "c_sof_2t": 5,
+    "c_pro_ft": 2,
+    "c_sof_ft": 7,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 3,
+    "gols_sof_ft": 1,
+    "posse": 63
+   },
+   {
+    "data": "19.04.2026 19:30",
+    "rodada": "R8",
+    "local": "CASA",
+    "adv": "Bahia",
+    "c_pro_ht": 2,
+    "c_sof_ht": 1,
+    "c_pro_2t": 4,
+    "c_sof_2t": 0,
+    "c_pro_ft": 6,
+    "c_sof_ft": 1,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 0,
+    "posse": 52
+   },
+   {
+    "data": "26.04.2026 20:30",
+    "rodada": "R8",
+    "local": "FORA",
+    "adv": "Atletico-MG",
+    "c_pro_ht": 1,
+    "c_sof_ht": 5,
+    "c_pro_2t": 0,
+    "c_sof_2t": 3,
+    "c_pro_ft": 1,
+    "c_sof_ft": 8,
+    "gols_pro_ht": 3,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 4,
+    "gols_sof_ft": 0,
+    "posse": 49
+   },
+   {
+    "data": "03.05.2026 16:00",
+    "rodada": "R9",
+    "local": "CASA",
+    "adv": "Vasco",
+    "c_pro_ht": 3,
+    "c_sof_ht": 2,
+    "c_pro_2t": 2,
+    "c_sof_2t": 4,
+    "c_pro_ft": 5,
+    "c_sof_ft": 6,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 2,
+    "posse": 49
+   },
+   {
+    "data": "10.05.2026 19:30",
+    "rodada": "R10",
+    "local": "FORA",
+    "adv": "Gremio",
+    "c_pro_ht": 4,
+    "c_sof_ht": 0,
+    "c_pro_2t": 2,
+    "c_sof_2t": 0,
+    "c_pro_ft": 6,
+    "c_sof_ft": 0,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 68
+   }
+  ]
+ },
+ "Fluminense": {
+  "time": "Fluminense",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro_ft": 6.5,
+   "casa_sof_ft": 2,
+   "casa_total": 8.5,
+   "fora_pro_ft": 6.5,
+   "fora_sof_ft": 3,
+   "fora_total": 9.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 53.8,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 3.5,
+   "t2_pro": 3
+  },
+  "sangrador": {
+   "sof_avg": 2.5,
+   "posse_avg": 65.8,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 5.2,
+   "categoria": "ESTERIL",
+   "total_gols": 5,
+   "total_cantos": 26
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "Sem direcao clara sd 2.9 desvio +0.0",
+   "ultimos": [
+    10,
+    7,
+    3,
+    6
+   ]
+  },
+  "historico": [
+   {
+    "data": "04.04.2026 20:30",
+    "rodada": "R7",
+    "local": "FORA",
+    "adv": "Coritiba",
+    "c_pro_ht": 6,
+    "c_sof_ht": 1,
+    "c_pro_2t": 4,
+    "c_sof_2t": 2,
+    "c_pro_ft": 10,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 1,
+    "posse": 67
+   },
+   {
+    "data": "26.04.2026 20:30",
+    "rodada": "R8",
+    "local": "CASA",
+    "adv": "Chapecoense-SC",
+    "c_pro_ht": 3,
+    "c_sof_ht": 0,
+    "c_pro_2t": 4,
+    "c_sof_2t": 1,
+    "c_pro_ft": 7,
+    "c_sof_ft": 1,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 71
+   },
+   {
+    "data": "03.05.2026 18:30",
+    "rodada": "R9",
+    "local": "FORA",
+    "adv": "Internacional",
+    "c_pro_ht": 1,
+    "c_sof_ht": 1,
+    "c_pro_2t": 2,
+    "c_sof_2t": 2,
+    "c_pro_ft": 3,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 2,
+    "posse": 67
+   },
+   {
+    "data": "09.05.2026 18:00",
+    "rodada": "R10",
+    "local": "CASA",
+    "adv": "Vitoria",
+    "c_pro_ht": 4,
+    "c_sof_ht": 1,
+    "c_pro_2t": 2,
+    "c_sof_2t": 2,
+    "c_pro_ft": 6,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 2,
+    "posse": 58
+   }
+  ]
+ },
+ "Gremio": {
+  "time": "Gremio",
+  "n_jogos": 5,
+  "n_casa": 3,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro_ft": 4.33,
+   "casa_sof_ft": 3.67,
+   "casa_total": 8.0,
+   "fora_pro_ft": 2.5,
+   "fora_sof_ft": 7.5,
+   "fora_total": 10.0
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 16.7,
+   "categoria": "ASFIXIA_FINAL",
+   "ht_pro": 0.6,
+   "t2_pro": 3
+  },
+  "sangrador": {
+   "sof_avg": 5.2,
+   "posse_avg": 49.2,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 9.0,
+   "categoria": "ESTERIL",
+   "total_gols": 2,
+   "total_cantos": 18
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "Alta variancia sd 3.4",
+   "ultimos": [
+    8,
+    5,
+    3,
+    0
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.04.2026 21:30",
+    "rodada": "R7",
+    "local": "FORA",
+    "adv": "Palmeiras",
+    "c_pro_ht": 0,
+    "c_sof_ht": 4,
+    "c_pro_2t": 2,
+    "c_sof_2t": 4,
+    "c_pro_ft": 2,
+    "c_sof_ft": 8,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 40
+   },
+   {
+    "data": "05.04.2026 20:30",
+    "rodada": "R7",
+    "local": "CASA",
+    "adv": "Remo",
+    "c_pro_ht": 0,
+    "c_sof_ht": 1,
+    "c_pro_2t": 8,
+    "c_sof_2t": 2,
+    "c_pro_ft": 8,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 0,
+    "posse": 63
+   },
+   {
+    "data": "26.04.2026 16:00",
+    "rodada": "R8",
+    "local": "CASA",
+    "adv": "Coritiba",
+    "c_pro_ht": 2,
+    "c_sof_ht": 2,
+    "c_pro_2t": 3,
+    "c_sof_2t": 0,
+    "c_pro_ft": 5,
+    "c_sof_ft": 2,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 56
+   },
+   {
+    "data": "02.05.2026 20:30",
+    "rodada": "R9",
+    "local": "FORA",
+    "adv": "Athletico-PR",
+    "c_pro_ht": 1,
+    "c_sof_ht": 4,
+    "c_pro_2t": 2,
+    "c_sof_2t": 3,
+    "c_pro_ft": 3,
+    "c_sof_ft": 7,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 0,
+    "posse": 55
+   },
+   {
+    "data": "10.05.2026 19:30",
+    "rodada": "R10",
+    "local": "CASA",
+    "adv": "Flamengo RJ",
+    "c_pro_ht": 0,
+    "c_sof_ht": 4,
+    "c_pro_2t": 0,
+    "c_sof_2t": 2,
+    "c_pro_ft": 0,
+    "c_sof_ft": 6,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 32
+   }
+  ]
+ },
+ "Internacional": {
+  "time": "Internacional",
+  "n_jogos": 4,
+  "n_casa": 1,
+  "n_fora": 3,
+  "volume": {
+   "casa_pro_ft": 3,
+   "casa_sof_ft": 3,
+   "casa_total": 6,
+   "fora_pro_ft": 5.67,
+   "fora_sof_ft": 4.33,
+   "fora_total": 10.0
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 35.0,
+   "categoria": "ASFIXIA_FINAL",
+   "ht_pro": 1.75,
+   "t2_pro": 3.25
+  },
+  "sangrador": {
+   "sof_avg": 4,
+   "posse_avg": 44.8,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 2.86,
+   "categoria": "CLINICA",
+   "total_gols": 7,
+   "total_cantos": 20
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "Sem direcao clara sd 2.2 desvio +0.0",
+   "ultimos": [
+    4,
+    5,
+    3,
+    8
+   ]
+  },
+  "historico": [
+   {
+    "data": "05.04.2026 19:30",
+    "rodada": "R7",
+    "local": "FORA",
+    "adv": "Corinthians",
+    "c_pro_ht": 2,
+    "c_sof_ht": 3,
+    "c_pro_2t": 2,
+    "c_sof_2t": 4,
+    "c_pro_ft": 4,
+    "c_sof_ft": 7,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 35
+   },
+   {
+    "data": "25.04.2026 18:30",
+    "rodada": "R8",
+    "local": "FORA",
+    "adv": "Botafogo RJ",
+    "c_pro_ht": 2,
+    "c_sof_ht": 2,
+    "c_pro_2t": 3,
+    "c_sof_2t": 1,
+    "c_pro_ft": 5,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 2,
+    "posse": 47
+   },
+   {
+    "data": "03.05.2026 18:30",
+    "rodada": "R9",
+    "local": "CASA",
+    "adv": "Fluminense",
+    "c_pro_ht": 1,
+    "c_sof_ht": 1,
+    "c_pro_2t": 2,
+    "c_sof_2t": 2,
+    "c_pro_ft": 3,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 0,
+    "posse": 33
+   },
+   {
+    "data": "09.05.2026 16:00",
+    "rodada": "R10",
+    "local": "FORA",
+    "adv": "Coritiba",
+    "c_pro_ht": 2,
+    "c_sof_ht": 3,
+    "c_pro_2t": 6,
+    "c_sof_2t": 0,
+    "c_pro_ft": 8,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 2,
+    "posse": 64
+   }
+  ]
+ },
+ "Mirassol": {
+  "time": "Mirassol",
+  "n_jogos": 4,
+  "n_casa": 3,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro_ft": 7,
+   "casa_sof_ft": 4,
+   "casa_total": 11,
+   "fora_pro_ft": 4,
+   "fora_sof_ft": 12,
+   "fora_total": 16
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 28.0,
+   "categoria": "ASFIXIA_FINAL",
+   "ht_pro": 1.75,
+   "t2_pro": 4.5
+  },
+  "sangrador": {
+   "sof_avg": 6,
+   "posse_avg": 49.5,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 8.33,
+   "categoria": "ESTERIL",
+   "total_gols": 3,
+   "total_cantos": 25
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "Alta variancia sd 4.8",
+   "ultimos": [
+    12,
+    4,
+    1,
+    8
+   ]
+  },
+  "historico": [
+   {
+    "data": "05.04.2026 20:00",
+    "rodada": "R7",
+    "local": "CASA",
+    "adv": "Bragantino",
+    "c_pro_ht": 2,
+    "c_sof_ht": 5,
+    "c_pro_2t": 10,
+    "c_sof_2t": 1,
+    "c_pro_ft": 12,
+    "c_sof_ft": 6,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 54
+   },
+   {
+    "data": "25.04.2026 21:00",
+    "rodada": "R8",
+    "local": "FORA",
+    "adv": "Sao Paulo",
+    "c_pro_ht": 0,
+    "c_sof_ht": 6,
+    "c_pro_2t": 4,
+    "c_sof_2t": 6,
+    "c_pro_ft": 4,
+    "c_sof_ft": 12,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 47
+   },
+   {
+    "data": "03.05.2026 20:30",
+    "rodada": "R9",
+    "local": "CASA",
+    "adv": "Corinthians",
+    "c_pro_ht": 1,
+    "c_sof_ht": 1,
+    "c_pro_2t": 0,
+    "c_sof_2t": 4,
+    "c_pro_ft": 1,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 2,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 38
+   },
+   {
+    "data": "10.05.2026 18:30",
+    "rodada": "R10",
+    "local": "CASA",
+    "adv": "Chapecoense-SC",
+    "c_pro_ht": 4,
+    "c_sof_ht": 0,
+    "c_pro_2t": 4,
+    "c_sof_2t": 1,
+    "c_pro_ft": 8,
+    "c_sof_ft": 1,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 1,
+    "posse": 59
+   }
+  ]
+ },
+ "Palmeiras": {
+  "time": "Palmeiras",
+  "n_jogos": 5,
+  "n_casa": 2,
+  "n_fora": 3,
+  "volume": {
+   "casa_pro_ft": 8.5,
+   "casa_sof_ft": 3,
+   "casa_total": 11.5,
+   "fora_pro_ft": 8.67,
+   "fora_sof_ft": 7,
+   "fora_total": 15.67
+  },
+  "pos_gol_pro": {
+   "n": 3,
+   "c_2t_pro": 3.33,
+   "c_2t_sof": 3.67,
+   "diff": -0.33,
+   "estilo": "EQUILIBRADO_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 39.5,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 3.4,
+   "t2_pro": 5.2
+  },
+  "sangrador": {
+   "sof_avg": 5.4,
+   "posse_avg": 52,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 6.14,
+   "categoria": "ESTERIL",
+   "total_gols": 7,
+   "total_cantos": 43
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "Alta variancia sd 5.9",
+   "ultimos": [
+    5,
+    4,
+    9,
+    17
+   ]
+  },
+  "historico": [
+   {
+    "data": "02.04.2026 21:30",
+    "rodada": "R7",
+    "local": "CASA",
+    "adv": "Gremio",
+    "c_pro_ht": 4,
+    "c_sof_ht": 0,
+    "c_pro_2t": 4,
+    "c_sof_2t": 2,
+    "c_pro_ft": 8,
+    "c_sof_ft": 2,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 60
+   },
+   {
+    "data": "05.04.2026 19:30",
+    "rodada": "R7",
+    "local": "FORA",
+    "adv": "Bahia",
+    "c_pro_ht": 0,
+    "c_sof_ht": 3,
+    "c_pro_2t": 5,
+    "c_sof_2t": 4,
+    "c_pro_ft": 5,
+    "c_sof_ft": 7,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 41
+   },
+   {
+    "data": "26.04.2026 18:30",
+    "rodada": "R8",
+    "local": "FORA",
+    "adv": "Bragantino",
+    "c_pro_ht": 3,
+    "c_sof_ht": 4,
+    "c_pro_2t": 1,
+    "c_sof_2t": 5,
+    "c_pro_ft": 4,
+    "c_sof_ft": 9,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 39
+   },
+   {
+    "data": "02.05.2026 18:30",
+    "rodada": "R9",
+    "local": "CASA",
+    "adv": "Santos",
+    "c_pro_ht": 3,
+    "c_sof_ht": 2,
+    "c_pro_2t": 6,
+    "c_sof_2t": 2,
+    "c_pro_ft": 9,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 1,
+    "posse": 54
+   },
+   {
+    "data": "10.05.2026 16:00",
+    "rodada": "R10",
+    "local": "FORA",
+    "adv": "Remo",
+    "c_pro_ht": 7,
+    "c_sof_ht": 2,
+    "c_pro_2t": 10,
+    "c_sof_2t": 3,
+    "c_pro_ft": 17,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 1,
+    "posse": 66
+   }
+  ]
+ },
+ "Remo": {
+  "time": "Remo",
+  "n_jogos": 5,
+  "n_casa": 2,
+  "n_fora": 3,
+  "volume": {
+   "casa_pro_ft": 4.5,
+   "casa_sof_ft": 9,
+   "casa_total": 13.5,
+   "fora_pro_ft": 3.33,
+   "fora_sof_ft": 6,
+   "fora_total": 9.33
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "c_2t_pro": 2.5,
+   "c_2t_sof": 2,
+   "diff": 0.5,
+   "estilo": "EQUILIBRADO_REACAO"
+  },
+  "distribuicao": {
+   "pct_ht": 42.1,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 1.6,
+   "t2_pro": 2.2
+  },
+  "sangrador": {
+   "sof_avg": 7.2,
+   "posse_avg": 41.8,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 3.8,
+   "categoria": "NORMAL",
+   "total_gols": 5,
+   "total_cantos": 19
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "Sem direcao clara sd 2.2 desvio +0.2",
+   "ultimos": [
+    1,
+    4,
+    6,
+    5
+   ]
+  },
+  "historico": [
+   {
+    "data": "05.04.2026 20:30",
+    "rodada": "R7",
+    "local": "FORA",
+    "adv": "Gremio",
+    "c_pro_ht": 1,
+    "c_sof_ht": 0,
+    "c_pro_2t": 2,
+    "c_sof_2t": 8,
+    "c_pro_ft": 3,
+    "c_sof_ft": 8,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 0,
+    "posse": 37
+   },
+   {
+    "data": "19.04.2026 18:30",
+    "rodada": "R8",
+    "local": "FORA",
+    "adv": "Bragantino",
+    "c_pro_ht": 0,
+    "c_sof_ht": 0,
+    "c_pro_2t": 1,
+    "c_sof_2t": 1,
+    "c_pro_ft": 1,
+    "c_sof_ft": 1,
+    "gols_pro_ht": 2,
+    "gols_sof_ht": 2,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 4,
+    "posse": 49
+   },
+   {
+    "data": "25.04.2026 18:30",
+    "rodada": "R8",
+    "local": "CASA",
+    "adv": "Cruzeiro",
+    "c_pro_ht": 1,
+    "c_sof_ht": 0,
+    "c_pro_2t": 3,
+    "c_sof_2t": 1,
+    "c_pro_ft": 4,
+    "c_sof_ft": 1,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 47
+   },
+   {
+    "data": "02.05.2026 16:00",
+    "rodada": "R9",
+    "local": "FORA",
+    "adv": "Botafogo RJ",
+    "c_pro_ht": 4,
+    "c_sof_ht": 6,
+    "c_pro_2t": 2,
+    "c_sof_2t": 3,
+    "c_pro_ft": 6,
+    "c_sof_ft": 9,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 1,
+    "posse": 42
+   },
+   {
+    "data": "10.05.2026 16:00",
+    "rodada": "R10",
+    "local": "CASA",
+    "adv": "Palmeiras",
+    "c_pro_ht": 2,
+    "c_sof_ht": 7,
+    "c_pro_2t": 3,
+    "c_sof_2t": 10,
+    "c_pro_ft": 5,
+    "c_sof_ft": 17,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 1,
+    "posse": 34
+   }
+  ]
+ },
+ "Santos": {
+  "time": "Santos",
+  "n_jogos": 4,
+  "n_casa": 1,
+  "n_fora": 3,
+  "volume": {
+   "casa_pro_ft": 7,
+   "casa_sof_ft": 3,
+   "casa_total": 10,
+   "fora_pro_ft": 4.67,
+   "fora_sof_ft": 5.33,
+   "fora_total": 10.0
+  },
+  "pos_gol_pro": {
+   "n": 3,
+   "c_2t_pro": 1.67,
+   "c_2t_sof": 3.33,
+   "diff": -1.67,
+   "estilo": "RECUA_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 52.4,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 2.75,
+   "t2_pro": 2.5
+  },
+  "sangrador": {
+   "sof_avg": 4.75,
+   "posse_avg": 43,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 3.5,
+   "categoria": "NORMAL",
+   "total_gols": 6,
+   "total_cantos": 21
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "Sem direcao clara sd 2.1 desvio +0.0",
+   "ultimos": [
+    7,
+    3,
+    4,
+    7
+   ]
+  },
+  "historico": [
+   {
+    "data": "05.04.2026 17:30",
+    "rodada": "R7",
+    "local": "FORA",
+    "adv": "Flamengo RJ",
+    "c_pro_ht": 2,
+    "c_sof_ht": 2,
+    "c_pro_2t": 5,
+    "c_sof_2t": 0,
+    "c_pro_ft": 7,
+    "c_sof_ft": 2,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 3,
+    "posse": 37
+   },
+   {
+    "data": "25.04.2026 18:30",
+    "rodada": "R8",
+    "local": "FORA",
+    "adv": "Bahia",
+    "c_pro_ht": 1,
+    "c_sof_ht": 2,
+    "c_pro_2t": 2,
+    "c_sof_2t": 3,
+    "c_pro_ft": 3,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 2,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 2,
+    "posse": 36
+   },
+   {
+    "data": "02.05.2026 18:30",
+    "rodada": "R9",
+    "local": "FORA",
+    "adv": "Palmeiras",
+    "c_pro_ht": 2,
+    "c_sof_ht": 3,
+    "c_pro_2t": 2,
+    "c_sof_2t": 6,
+    "c_pro_ft": 4,
+    "c_sof_ft": 9,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 1,
+    "posse": 46
+   },
+   {
+    "data": "10.05.2026 18:30",
+    "rodada": "R10",
+    "local": "CASA",
+    "adv": "Bragantino",
+    "c_pro_ht": 6,
+    "c_sof_ht": 2,
+    "c_pro_2t": 1,
+    "c_sof_2t": 1,
+    "c_pro_ft": 7,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 0,
+    "posse": 53
+   }
+  ]
+ },
+ "Sao Paulo": {
+  "time": "Sao Paulo",
+  "n_jogos": 4,
+  "n_casa": 3,
+  "n_fora": 1,
+  "volume": {
+   "casa_pro_ft": 10.67,
+   "casa_sof_ft": 6,
+   "casa_total": 16.67,
+   "fora_pro_ft": 7,
+   "fora_sof_ft": 7,
+   "fora_total": 14
+  },
+  "pos_gol_pro": {
+   "n": 2,
+   "c_2t_pro": 6,
+   "c_2t_sof": 2.5,
+   "diff": 3.5,
+   "estilo": "PRESSIONA_POS_GOL"
+  },
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 43.6,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 4.25,
+   "t2_pro": 5.5
+  },
+  "sangrador": {
+   "sof_avg": 6.25,
+   "posse_avg": 44.2,
+   "tipo": "SANGRA_SEM_BOLA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 4.33,
+   "categoria": "NORMAL",
+   "total_gols": 9,
+   "total_cantos": 39
+  },
+  "regime": {
+   "status": "QUEBRADO",
+   "obs": "Alta variancia sd 3.9",
+   "ultimos": [
+    6,
+    12,
+    14,
+    7
+   ]
+  },
+  "historico": [
+   {
+    "data": "04.04.2026 18:30",
+    "rodada": "R7",
+    "local": "CASA",
+    "adv": "Cruzeiro",
+    "c_pro_ht": 3,
+    "c_sof_ht": 1,
+    "c_pro_2t": 3,
+    "c_sof_2t": 3,
+    "c_pro_ft": 6,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 2,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 4,
+    "gols_sof_ft": 1,
+    "posse": 36
+   },
+   {
+    "data": "25.04.2026 21:00",
+    "rodada": "R8",
+    "local": "CASA",
+    "adv": "Mirassol",
+    "c_pro_ht": 6,
+    "c_sof_ht": 0,
+    "c_pro_2t": 6,
+    "c_sof_2t": 4,
+    "c_pro_ft": 12,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 53
+   },
+   {
+    "data": "03.05.2026 16:00",
+    "rodada": "R9",
+    "local": "CASA",
+    "adv": "Bahia",
+    "c_pro_ht": 5,
+    "c_sof_ht": 8,
+    "c_pro_2t": 9,
+    "c_sof_2t": 2,
+    "c_pro_ft": 14,
+    "c_sof_ft": 10,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 2,
+    "posse": 38
+   },
+   {
+    "data": "10.05.2026 18:30",
+    "rodada": "R10",
+    "local": "FORA",
+    "adv": "Corinthians",
+    "c_pro_ht": 3,
+    "c_sof_ht": 6,
+    "c_pro_2t": 4,
+    "c_sof_2t": 1,
+    "c_pro_ft": 7,
+    "c_sof_ft": 7,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 3,
+    "posse": 50
+   }
+  ]
+ },
+ "Vasco": {
+  "time": "Vasco",
+  "n_jogos": 4,
+  "n_casa": 2,
+  "n_fora": 2,
+  "volume": {
+   "casa_pro_ft": 3.5,
+   "casa_sof_ft": 2.5,
+   "casa_total": 6.0,
+   "fora_pro_ft": 6.5,
+   "fora_sof_ft": 5,
+   "fora_total": 11.5
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": {
+   "n": 2,
+   "c_2t_pro": 4.5,
+   "c_2t_sof": 1.5,
+   "diff": 3.0,
+   "estilo": "REAGE_PRESSIONA"
+  },
+  "distribuicao": {
+   "pct_ht": 50.0,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 2.5,
+   "t2_pro": 2.5
+  },
+  "sangrador": {
+   "sof_avg": 3.75,
+   "posse_avg": 56.8,
+   "tipo": "DEFESA_SOLIDA"
+  },
+  "eficacia": {
+   "cantos_por_gol": 5.0,
+   "categoria": "ESTERIL",
+   "total_gols": 4,
+   "total_cantos": 20
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "Sem direcao clara sd 1.8 desvio +0.0",
+   "ultimos": [
+    3,
+    7,
+    6,
+    4
+   ]
+  },
+  "historico": [
+   {
+    "data": "04.04.2026 21:00",
+    "rodada": "R7",
+    "local": "CASA",
+    "adv": "Botafogo RJ",
+    "c_pro_ht": 2,
+    "c_sof_ht": 1,
+    "c_pro_2t": 1,
+    "c_sof_2t": 1,
+    "c_pro_ft": 3,
+    "c_sof_ft": 2,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 2,
+    "posse": 63
+   },
+   {
+    "data": "26.04.2026 16:00",
+    "rodada": "R8",
+    "local": "FORA",
+    "adv": "Corinthians",
+    "c_pro_ht": 2,
+    "c_sof_ht": 4,
+    "c_pro_2t": 5,
+    "c_sof_2t": 1,
+    "c_pro_ft": 7,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 0,
+    "gols_sof_ft": 1,
+    "posse": 60
+   },
+   {
+    "data": "03.05.2026 16:00",
+    "rodada": "R9",
+    "local": "FORA",
+    "adv": "Flamengo RJ",
+    "c_pro_ht": 2,
+    "c_sof_ht": 3,
+    "c_pro_2t": 4,
+    "c_sof_2t": 2,
+    "c_pro_ft": 6,
+    "c_sof_ft": 5,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 2,
+    "posse": 51
+   },
+   {
+    "data": "10.05.2026 20:30",
+    "rodada": "R10",
+    "local": "CASA",
+    "adv": "Athletico-PR",
+    "c_pro_ht": 4,
+    "c_sof_ht": 2,
+    "c_pro_2t": 0,
+    "c_sof_2t": 1,
+    "c_pro_ft": 4,
+    "c_sof_ft": 3,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 0,
+    "posse": 53
+   }
+  ]
+ },
+ "Vitoria": {
+  "time": "Vitoria",
+  "n_jogos": 4,
+  "n_casa": 1,
+  "n_fora": 3,
+  "volume": {
+   "casa_pro_ft": 2,
+   "casa_sof_ft": 4,
+   "casa_total": 6,
+   "fora_pro_ft": 2.67,
+   "fora_sof_ft": 6.33,
+   "fora_total": 9.0
+  },
+  "pos_gol_pro": null,
+  "pos_gol_contra": null,
+  "distribuicao": {
+   "pct_ht": 40.0,
+   "categoria": "DISTRIBUIDO",
+   "ht_pro": 1,
+   "t2_pro": 1.5
+  },
+  "sangrador": {
+   "sof_avg": 5.75,
+   "posse_avg": 46.2,
+   "tipo": "NORMAL"
+  },
+  "eficacia": {
+   "cantos_por_gol": 1.25,
+   "categoria": "CLINICA",
+   "total_gols": 8,
+   "total_cantos": 10
+  },
+  "regime": {
+   "status": "NEUTRO",
+   "obs": "Sem direcao clara sd 1.3 desvio +0.0",
+   "ultimos": [
+    1,
+    4,
+    2,
+    3
+   ]
+  },
+  "historico": [
+   {
+    "data": "05.04.2026 16:00",
+    "rodada": "R7",
+    "local": "FORA",
+    "adv": "Chapecoense-SC",
+    "c_pro_ht": 0,
+    "c_sof_ht": 3,
+    "c_pro_2t": 1,
+    "c_sof_2t": 6,
+    "c_pro_ft": 1,
+    "c_sof_ft": 9,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 0,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 1,
+    "posse": 42
+   },
+   {
+    "data": "26.04.2026 18:30",
+    "rodada": "R8",
+    "local": "FORA",
+    "adv": "Athletico-PR",
+    "c_pro_ht": 3,
+    "c_sof_ht": 3,
+    "c_pro_2t": 1,
+    "c_sof_2t": 1,
+    "c_pro_ft": 4,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 1,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 1,
+    "gols_sof_ft": 3,
+    "posse": 40
+   },
+   {
+    "data": "02.05.2026 18:30",
+    "rodada": "R9",
+    "local": "CASA",
+    "adv": "Coritiba",
+    "c_pro_ht": 0,
+    "c_sof_ht": 1,
+    "c_pro_2t": 2,
+    "c_sof_2t": 3,
+    "c_pro_ft": 2,
+    "c_sof_ft": 4,
+    "gols_pro_ht": 2,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 4,
+    "gols_sof_ft": 1,
+    "posse": 61
+   },
+   {
+    "data": "09.05.2026 18:00",
+    "rodada": "R10",
+    "local": "FORA",
+    "adv": "Fluminense",
+    "c_pro_ht": 1,
+    "c_sof_ht": 4,
+    "c_pro_2t": 2,
+    "c_sof_2t": 2,
+    "c_pro_ft": 3,
+    "c_sof_ft": 6,
+    "gols_pro_ht": 0,
+    "gols_sof_ht": 1,
+    "gols_pro_ft": 2,
+    "gols_sof_ft": 2,
+    "posse": 42
+   }
+  ]
+ }
+}

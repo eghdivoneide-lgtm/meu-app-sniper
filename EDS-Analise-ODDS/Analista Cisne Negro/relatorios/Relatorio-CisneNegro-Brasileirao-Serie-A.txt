@@ -1,0 +1,140 @@
+═══════════════════════════════════════════════════════════
+  🦢 RELATÓRIO CISNE NEGRO — EDS Soluções Inteligentes
+═══════════════════════════════════════════════════════════
+  Liga:   Brasileirão Série A
+  Data:   2026-04-16 18:47
+  Jogos:  12
+═══════════════════════════════════════════════════════════
+
+  ── JOGO 1: Chapecoense (CASA) vs Botafogo (FORA) ──
+  xCorners FT: 10.81 ±4.1 | Confiança: 65%
+  Cantos esperados: Chapecoense = 6.57 | Botafogo = 4.24
+  HT: UNDER 4 (34.2% over) 🦢 CISNE NEGRO
+  FT: NEUTRO (51.7% over) 🔴 BAIXA
+  Vencedor: 👑 Chapecoense · DOMINANTE @1.41
+  Bala de Prata: 🐺 Chapecoense (FORTE) @1.41
+
+  ── JOGO 2: Vasco (CASA) vs São Paulo (FORA) ──
+  xCorners FT: 6.84 ±5.2 | Confiança: 67.5%
+  Cantos esperados: Vasco = 4.13 | São Paulo = 2.7
+  HT: UNDER 4 (28.6% over) 🦢 CISNE NEGRO
+  FT: UNDER 10 (8.7% over) 🦢 CISNE NEGRO
+  Vencedor: 👑 Vasco · MODERADO @1.57
+  Bala de Prata: 🐺 Vasco (MODERADA) @1.57
+
+  ── JOGO 3: Vitória (CASA) vs Corinthians (FORA) ──
+  xCorners FT: 10.39 ±3.5 | Confiança: 65%
+  Cantos esperados: Vitória = 6.69 | Corinthians = 3.7
+  HT: UNDER 4 (17.4% over) 🦢 CISNE NEGRO
+  FT: NEUTRO (46.5% over) 🟡 MEDIA
+  Vencedor: 👑 Vitória · ABSOLUTO @1.28
+  Bala de Prata: 🐺 Vitória (NUCLEAR) @1.28
+
+  ── JOGO 4: Cruzeiro (CASA) vs Grêmio (FORA) ──
+  xCorners FT: 6.82 ±3.6 | Confiança: 67.5%
+  Cantos esperados: Cruzeiro = 4.51 | Grêmio = 2.3
+  HT: UNDER 4 (7.7% over) 🦢 CISNE NEGRO
+  FT: UNDER 10 (8.6% over) 🦢 CISNE NEGRO
+  Vencedor: 👑 Cruzeiro · DOMINANTE @1.34
+  Bala de Prata: 🐺 Cruzeiro (NUCLEAR) @1.34
+
+  ── JOGO 5: Internacional (CASA) vs Mirassol (FORA) ──
+  xCorners FT: 8.54 ±5.5 | Confiança: 65%
+  Cantos esperados: Internacional = 3.14 | Mirassol = 5.39
+  HT: UNDER 4 (27.6% over) 🦢 CISNE NEGRO
+  FT: UNDER 10 (24.1% over) 🦢 CISNE NEGRO
+  Vencedor: 👑 Mirassol · DOMINANTE @1.38
+  Bala de Prata: 🐺 Mirassol (FORTE) @1.38
+
+  ── JOGO 6: Coritiba (CASA) vs Atlético-MG (FORA) ──
+  xCorners FT: 8.94 ±3.7 | Confiança: 67.5%
+  Cantos esperados: Coritiba = 3.06 | Atlético-MG = 5.88
+  HT: UNDER 4 (29.5% over) 🦢 CISNE NEGRO
+  FT: UNDER 10 (28.7% over) 🦢 CISNE NEGRO
+  Vencedor: 👑 Atlético-MG · ABSOLUTO @1.28
+  Bala de Prata: 🐺 Atlético-MG (NUCLEAR) @1.28
+
+  ── JOGO 7: Santos (CASA) vs Fluminense (FORA) ──
+  xCorners FT: 11.89 ±4.6 | Confiança: 67.5%
+  Cantos esperados: Santos = 4.39 | Fluminense = 7.5
+  HT: OVER 4 (82.5% over) 🦢 CISNE NEGRO
+  FT: OVER 10 (64.1% over) 🟢 ALTA
+  Vencedor: 👑 Fluminense · ABSOLUTO @1.29
+  Bala de Prata: 🐺 Fluminense (NUCLEAR) @1.29
+
+  ── JOGO 8: Red Bull Bragantino (CASA) vs Remo (FORA) ──
+  xCorners FT: 10.89 ±3.0 | Confiança: 67.5%
+  Cantos esperados: Red Bull Bragantino = 6.91 | Remo = 3.98
+  HT: UNDER 4 (31.1% over) 🦢 CISNE NEGRO
+  FT: NEUTRO (52.7% over) 🔴 BAIXA
+  Vencedor: 👑 Red Bull Bragantino · ABSOLUTO @1.3
+  Bala de Prata: 🐺 Red Bull Bragantino (NUCLEAR) @1.3
+
+  ── JOGO 9: Palmeiras (CASA) vs Athletico-PR (FORA) ──
+  xCorners FT: 8.76 ±3.8 | Confiança: 67.5%
+  Cantos esperados: Palmeiras = 5.6 | Athletico-PR = 3.16
+  HT: NEUTRO (43% over) 🟡 MEDIA
+  FT: UNDER 10 (26.6% over) 🦢 CISNE NEGRO
+  Vencedor: 👑 Palmeiras · DOMINANTE @1.34
+  Bala de Prata: 🐺 Palmeiras (NUCLEAR) @1.34
+
+  ── JOGO 10: Flamengo (CASA) vs Bahia (FORA) ──
+  xCorners FT: 10.32 ±3.0 | Confiança: 65%
+  Cantos esperados: Flamengo = 5.91 | Bahia = 4.4
+  HT: OVER 4 (61.3% over) 🟢 ALTA
+  FT: NEUTRO (45.6% over) 🟡 MEDIA
+  Vencedor: 👑 Flamengo · MODERADO @1.61
+  Bala de Prata: 🐺 Flamengo (MODERADA) @1.61
+
+  ── JOGO 11: Bahia (CASA) vs Santos (FORA) ──
+  xCorners FT: 9.15 ±4.3 | Confiança: 65%
+  Cantos esperados: Bahia = 4.54 | Santos = 4.6
+  HT: UNDER 4 (33% over) 🦢 CISNE NEGRO
+  FT: UNDER 10 (31.2% over) 🦢 CISNE NEGRO
+  Vencedor: 👑 Santos · EQUILIBRADO @2.27
+
+  ── JOGO 12: Botafogo (CASA) vs Internacional (FORA) ──
+  xCorners FT: 11.06 ±5.5 | Confiança: 65%
+  Cantos esperados: Botafogo = 5.22 | Internacional = 5.84
+  HT: NEUTRO (55.1% over) 🔴 BAIXA
+  FT: NEUTRO (54.7% over) 🔴 BAIXA
+  Vencedor: 👑 Internacional · EQUILIBRADO @1.94
+
+═══════════════════════════════════════════════════════════
+  🦢 RANKING CISNE NEGRO — ONDE ESTÁ O OURO
+═══════════════════════════════════════════════════════════
+
+  🦢🦢🦢 PADRÃO CISNE NEGRO — ENTRAR 🦢🦢🦢
+  1. Cruzeiro vs Grêmio → HT UNDER 4: 92.3% [Conf: 67.5%]
+  2. Cruzeiro vs Grêmio → FT UNDER 10: 91.4% [Conf: 67.5%]
+  3. Vasco vs São Paulo → FT UNDER 10: 91.3% [Conf: 67.5%]
+  4. Vitória vs Corinthians → HT UNDER 4: 82.6% [Conf: 65%]
+  5. Santos vs Fluminense → HT OVER 4: 82.5% [Conf: 67.5%]
+  6. Internacional vs Mirassol → FT UNDER 10: 75.9% [Conf: 65%]
+  7. Palmeiras vs Athletico-PR → FT UNDER 10: 73.4% [Conf: 67.5%]
+  8. Internacional vs Mirassol → HT UNDER 4: 72.4% [Conf: 65%]
+  9. Vasco vs São Paulo → HT UNDER 4: 71.4% [Conf: 67.5%]
+  10. Coritiba vs Atlético-MG → FT UNDER 10: 71.3% [Conf: 67.5%]
+  11. Coritiba vs Atlético-MG → HT UNDER 4: 70.5% [Conf: 67.5%]
+  12. Red Bull Bragantino vs Remo → HT UNDER 4: 68.9% [Conf: 67.5%]
+  13. Bahia vs Santos → FT UNDER 10: 68.8% [Conf: 65%]
+  14. Bahia vs Santos → HT UNDER 4: 67.0% [Conf: 65%]
+  15. Chapecoense vs Botafogo → HT UNDER 4: 65.8% [Conf: 65%]
+
+  🟢 ALTA CONFIANÇA — CONSIDERAR
+  1. Santos vs Fluminense → FT OVER 10: 64.1% [Conf: 67.5%]
+  2. Flamengo vs Bahia → HT OVER 4: 61.3% [Conf: 65%]
+
+  🟡/🔴 NEUTRO OU BAIXA — EVITAR
+  1. Chapecoense vs Botafogo → FT NEUTRO: 48.3%
+  2. Vitória vs Corinthians → FT NEUTRO: 53.5%
+  3. Red Bull Bragantino vs Remo → FT NEUTRO: 47.3%
+  4. Palmeiras vs Athletico-PR → HT NEUTRO: 57.0%
+  5. Flamengo vs Bahia → FT NEUTRO: 54.4%
+  6. Botafogo vs Internacional → HT NEUTRO: 44.9%
+  7. Botafogo vs Internacional → FT NEUTRO: 45.3%
+
+═══════════════════════════════════════════════════════════
+  Agente Nassim Taleb v2.0 | 2026-04-16 18:47
+  Dados extraídos diretamente do Especialista em Cantos
+═══════════════════════════════════════════════════════════

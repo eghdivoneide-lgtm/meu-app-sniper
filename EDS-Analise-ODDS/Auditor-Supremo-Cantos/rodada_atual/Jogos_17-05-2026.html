@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>📅 Jogos de 17/05/2026 — EDS Especialista em Cantos</title>
+<style>
+  :root {
+    --bg:     #0a0f0d;
+    --bg2:    #111a14;
+    --bg3:    #162019;
+    --border: rgba(52,211,103,0.15);
+    --green:  #34d367;
+    --green2: #22c55e;
+    --gold:   #f59e0b;
+    --gold2:  #fbbf24;
+    --red:    #ef4444;
+    --text:   #e8f5ee;
+    --muted:  #6b8f79;
+    --card:   rgba(22,32,25,0.85);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter','Segoe UI',system-ui,sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 2rem;
+    min-height: 100vh;
+  }
+  .container { max-width: 1100px; margin: 0 auto; }
+
+  /* HEADER */
+  .header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--gold);
+  }
+  .header h1 {
+    color: var(--gold);
+    margin: 0;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .header p {
+    color: var(--muted);
+    margin-top: .5rem;
+    font-size: 1rem;
+  }
+  .header .data {
+    color: var(--green);
+    font-weight: 800;
+    font-size: 1.1rem;
+    margin-top: .5rem;
+  }
+
+  /* SUMÁRIO TOTAL */
+  .resumo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  .resumo-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .resumo-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--green), transparent);
+  }
+  .resumo-card .qtd {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--green);
+    line-height: 1;
+  }
+  .resumo-card .liga {
+    font-size: .75rem;
+    color: var(--muted);
+    margin-top: .4rem;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-weight: 700;
+  }
+  .resumo-card .bandeira {
+    font-size: 1.8rem;
+    margin-bottom: .3rem;
+  }
+  .resumo-card.total .qtd { color: var(--gold); }
+
+  /* SEÇÃO POR LIGA */
+  .liga-bloco {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,.3);
+  }
+  .liga-header {
+    padding: 1rem 1.2rem;
+    background: linear-gradient(135deg, rgba(52,211,103,.08), rgba(0,0,0,.4));
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: .5rem;
+  }
+  .liga-titulo {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    font-size: 1.05rem;
+    font-weight: 900;
+    color: var(--green);
+  }
+  .liga-titulo .icone {
+    font-size: 1.4rem;
+  }
+  .liga-contador {
+    background: rgba(52,211,103,.15);
+    color: var(--green);
+    padding: .3rem .8rem;
+    border-radius: 99px;
+    font-size: .75rem;
+    font-weight: 800;
+    letter-spacing: .5px;
+    border: 1px solid rgba(52,211,103,.3);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: .9rem;
+  }
+  thead tr {
+    background: var(--bg3);
+    border-bottom: 1px solid var(--border);
+  }
+  thead th {
+    padding: .7rem 1rem;
+    text-align: left;
+    font-weight: 700;
+    color: var(--muted);
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+  }
+  tbody tr {
+    border-bottom: 1px solid rgba(52,211,103,.05);
+    transition: background .15s;
+  }
+  tbody tr:hover {
+    background: rgba(52,211,103,.04);
+  }
+  tbody tr:last-child {
+    border-bottom: none;
+  }
+  tbody td {
+    padding: .75rem 1rem;
+    color: var(--text);
+  }
+  .horario {
+    color: var(--gold);
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    width: 80px;
+  }
+  .mandante {
+    font-weight: 700;
+    color: var(--text);
+  }
+  .vs {
+    color: var(--muted);
+    font-size: .85rem;
+    padding: 0 .5rem;
+  }
+  .visitante {
+    color: var(--text);
+    font-weight: 500;
+  }
+
+  /* DESTAQUES JAPÃO MADRUGADA */
+  .liga-bloco.madrugada .liga-header {
+    background: linear-gradient(135deg, rgba(124,58,237,.15), rgba(0,0,0,.4));
+  }
+  .liga-bloco.madrugada .liga-titulo { color: #a78bfa; }
+  .liga-bloco.madrugada .liga-contador {
+    background: rgba(124,58,237,.15);
+    color: #a78bfa;
+    border-color: rgba(124,58,237,.3);
+  }
+
+  /* DESTAQUES MLS */
+  .liga-bloco.mls .liga-header {
+    background: linear-gradient(135deg, rgba(245,158,11,.1), rgba(0,0,0,.4));
+  }
+
+  /* DESTAQUE LIGA PRO ARG (Playoff) */
+  .liga-bloco.playoff .liga-header {
+    background: linear-gradient(135deg, rgba(220,38,38,.12), rgba(0,0,0,.4));
+  }
+  .liga-bloco.playoff .liga-titulo { color: #fca5a5; }
+
+  /* FOOTER */
+  .footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: .8rem;
+  }
+  .footer strong { color: var(--gold); }
+
+  @media (max-width:600px) {
+    body { padding: 1rem; }
+    .header h1 { font-size: 1.6rem; }
+    tbody td, thead th { padding: .5rem .6rem; font-size: .82rem; }
+    .horario { width: 60px; }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+      <h1>📅 Jogos do Dia</h1>
+      <p>EDS Especialista em Cantos</p>
+      <div class="data">Domingo, 17 de Maio de 2026</div>
+    </div>
+
+    <!-- SUMÁRIO -->
+    <div class="resumo">
+      <div class="resumo-card">
+        <div class="bandeira">🇯🇵</div>
+        <div class="qtd">12</div>
+        <div class="liga">J2 League</div>
+      </div>
+      <div class="resumo-card">
+        <div class="bandeira">🇦🇷</div>
+        <div class="qtd">8</div>
+        <div class="liga">Primera Nacional</div>
+      </div>
+      <div class="resumo-card">
+        <div class="bandeira">🇧🇷</div>
+        <div class="qtd">5</div>
+        <div class="liga">Brasileirão B</div>
+      </div>
+      <div class="resumo-card">
+        <div class="bandeira">🇺🇸</div>
+        <div class="qtd">2</div>
+        <div class="liga">MLS</div>
+      </div>
+      <div class="resumo-card">
+        <div class="bandeira">🇦🇷</div>
+        <div class="qtd">1</div>
+        <div class="liga">Liga Profesional</div>
+      </div>
+      <div class="resumo-card total">
+        <div class="bandeira">⚽</div>
+        <div class="qtd">28</div>
+        <div class="liga">TOTAL</div>
+      </div>
+    </div>
+
+    <!-- JAPÃO J2 (madrugada) -->
+    <div class="liga-bloco madrugada">
+      <div class="liga-header">
+        <div class="liga-titulo">
+          <span class="icone">🇯🇵</span>
+          <span>Japão — J2 League (Rodada 17) · Madrugada</span>
+        </div>
+        <span class="liga-contador">12 jogos</span>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Horário</th><th>Mandante</th><th></th><th>Visitante</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="horario">02:00</td><td class="mandante">Blaublitz</td><td class="vs">vs</td><td class="visitante">Kusatsu</td></tr>
+          <tr><td class="horario">02:00</td><td class="mandante">Imabari</td><td class="vs">vs</td><td class="visitante">Kamatamare</td></tr>
+          <tr><td class="horario">02:00</td><td class="mandante">Iwaki</td><td class="vs">vs</td><td class="visitante">Yamaga</td></tr>
+          <tr><td class="horario">02:00</td><td class="mandante">Kagoshima Utd</td><td class="vs">vs</td><td class="visitante">Kumamoto</td></tr>
+          <tr><td class="horario">02:00</td><td class="mandante">Kochi United</td><td class="vs">vs</td><td class="visitante">Ehime</td></tr>
+          <tr><td class="horario">02:00</td><td class="mandante">Oita Trinita</td><td class="vs">vs</td><td class="visitante">Tegevajaro Miyazaki</td></tr>
+          <tr><td class="horario">02:00</td><td class="mandante">Omiya Ardija</td><td class="vs">vs</td><td class="visitante">Nagano</td></tr>
+          <tr><td class="horario">02:00</td><td class="mandante">Osaka</td><td class="vs">vs</td><td class="visitante">Kanazawa</td></tr>
+          <tr><td class="horario">02:00</td><td class="mandante">Toyama</td><td class="vs">vs</td><td class="visitante">Tokushima</td></tr>
+          <tr><td class="horario">02:00</td><td class="mandante">Yokohama FC</td><td class="vs">vs</td><td class="visitante">Tochigi SC</td></tr>
+          <tr><td class="horario">03:30</td><td class="mandante">Reilac Shiga</td><td class="vs">vs</td><td class="visitante">Giravanz Kitakyushu</td></tr>
+          <tr><td class="horario">06:00</td><td class="mandante">Ryukyu</td><td class="vs">vs</td><td class="visitante">Gainare Tottori</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- ARGENTINA PRIMERA NACIONAL -->
+    <div class="liga-bloco">
+      <div class="liga-header">
+        <div class="liga-titulo">
+          <span class="icone">🇦🇷</span>
+          <span>Argentina — Primera Nacional (Rodada 14)</span>
+        </div>
+        <span class="liga-contador">8 jogos</span>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Horário</th><th>Mandante</th><th></th><th>Visitante</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="horario">15:30</td><td class="mandante">Almagro</td><td class="vs">vs</td><td class="visitante">San Martín S.J.</td></tr>
+          <tr><td class="horario">15:30</td><td class="mandante">Gimnasia Jujuy</td><td class="vs">vs</td><td class="visitante">Temperley</td></tr>
+          <tr><td class="horario">16:00</td><td class="mandante">CA Mitre</td><td class="vs">vs</td><td class="visitante">San Miguel</td></tr>
+          <tr><td class="horario">16:00</td><td class="mandante">Patronato</td><td class="vs">vs</td><td class="visitante">Chacarita Juniors</td></tr>
+          <tr><td class="horario">16:30</td><td class="mandante">Midland</td><td class="vs">vs</td><td class="visitante">Agropecuário</td></tr>
+          <tr><td class="horario">17:00</td><td class="mandante">Deportivo Maipú</td><td class="vs">vs</td><td class="visitante">Nueva Chicago</td></tr>
+          <tr><td class="horario">17:00</td><td class="mandante">Gimnasia y Tiro</td><td class="vs">vs</td><td class="visitante">San Martín T.</td></tr>
+          <tr><td class="horario">17:00</td><td class="mandante">Quilmes</td><td class="vs">vs</td><td class="visitante">Tristán Suárez</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- BRASILEIRÃO B -->
+    <div class="liga-bloco">
+      <div class="liga-header">
+        <div class="liga-titulo">
+          <span class="icone">🇧🇷</span>
+          <span>Brasileirão Série B (Rodada 9)</span>
+        </div>
+        <span class="liga-contador">5 jogos</span>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Horário</th><th>Mandante</th><th></th><th>Visitante</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="horario">16:00</td><td class="mandante">Athletic Club</td><td class="vs">vs</td><td class="visitante">Juventude</td></tr>
+          <tr><td class="horario">19:00</td><td class="mandante">Vila Nova FC</td><td class="vs">vs</td><td class="visitante">Avaí</td></tr>
+          <tr><td class="horario">19:30</td><td class="mandante">Ceará</td><td class="vs">vs</td><td class="visitante">Fortaleza</td></tr>
+          <tr><td class="horario">19:30</td><td class="mandante">Criciúma</td><td class="vs">vs</td><td class="visitante">Atlético-GO</td></tr>
+          <tr><td class="horario">20:30</td><td class="mandante">Sport Recife</td><td class="vs">vs</td><td class="visitante">CRB</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- ARGENTINA LIGA PROFESIONAL -->
+    <div class="liga-bloco playoff">
+      <div class="liga-header">
+        <div class="liga-titulo">
+          <span class="icone">🇦🇷</span>
+          <span>Argentina — Liga Profesional (Semi-final Apertura Play Offs)</span>
+        </div>
+        <span class="liga-contador">1 jogo</span>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Horário</th><th>Mandante</th><th></th><th>Visitante</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="horario">17:00</td><td class="mandante">Argentinos Jrs</td><td class="vs">vs</td><td class="visitante">Belgrano</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- MLS -->
+    <div class="liga-bloco mls">
+      <div class="liga-header">
+        <div class="liga-titulo">
+          <span class="icone">🇺🇸</span>
+          <span>EUA — MLS</span>
+        </div>
+        <span class="liga-contador">2 jogos</span>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Horário</th><th>Mandante</th><th></th><th>Visitante</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="horario">19:00</td><td class="mandante">Inter Miami</td><td class="vs">vs</td><td class="visitante">Portland Timbers</td></tr>
+          <tr><td class="horario">21:00</td><td class="mandante">Nashville SC</td><td class="vs">vs</td><td class="visitante">Los Angeles FC</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="footer">
+      Total de <strong>28 jogos</strong> em 5 ligas · Gerado pelo <strong>EDS Especialista em Cantos</strong>
+    </div>
+
+  </div>
+</body>
+</html>

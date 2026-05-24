@@ -1,0 +1,341 @@
+{
+  "enriquecidos": [
+    {
+      "match_id": "Igi4T6uh",
+      "mandante": "Vila Nova FC",
+      "visitante": "Operario-PR",
+      "campos": 22,
+      "ts": "2026-05-20T03:37:49.961Z"
+    },
+    {
+      "match_id": "SbFTOlgU",
+      "mandante": "Sport Recife",
+      "visitante": "Vila Nova FC",
+      "campos": 24,
+      "ts": "2026-05-20T03:38:19.938Z"
+    },
+    {
+      "match_id": "foHLQAOH",
+      "mandante": "Criciuma",
+      "visitante": "Athletic Club",
+      "campos": 24,
+      "ts": "2026-05-20T03:38:48.832Z"
+    },
+    {
+      "match_id": "zJRRtNEF",
+      "mandante": "Fortaleza",
+      "visitante": "Juventude",
+      "campos": 22,
+      "ts": "2026-05-20T03:39:17.671Z"
+    },
+    {
+      "match_id": "pW97g0bL",
+      "mandante": "Vila Nova FC",
+      "visitante": "Atletico GO",
+      "campos": 22,
+      "ts": "2026-05-20T03:39:47.070Z"
+    },
+    {
+      "match_id": "GE0wlvMr",
+      "mandante": "Ponte Preta",
+      "visitante": "Vila Nova FC",
+      "campos": 22,
+      "ts": "2026-05-20T03:40:17.005Z"
+    },
+    {
+      "match_id": "QZI9UdJF",
+      "mandante": "Vila Nova FC",
+      "visitante": "CRB",
+      "campos": 23,
+      "ts": "2026-05-20T03:40:45.436Z"
+    },
+    {
+      "match_id": "rqVZv1qS",
+      "mandante": "Goias",
+      "visitante": "Criciuma",
+      "campos": 22,
+      "ts": "2026-05-20T03:41:16.230Z"
+    },
+    {
+      "match_id": "0CH69yhC",
+      "mandante": "Juventude",
+      "visitante": "Goias",
+      "campos": 23,
+      "ts": "2026-05-20T03:41:45.497Z"
+    },
+    {
+      "match_id": "Ov4onIje",
+      "mandante": "Sao Bernardo",
+      "visitante": "Fortaleza",
+      "campos": 22,
+      "ts": "2026-05-20T03:42:13.574Z"
+    },
+    {
+      "match_id": "04F5UhPh",
+      "mandante": "Fortaleza",
+      "visitante": "Cuiaba",
+      "campos": 21,
+      "ts": "2026-05-20T03:42:43.315Z"
+    },
+    {
+      "match_id": "tvBN48p1",
+      "mandante": "Botafogo SP",
+      "visitante": "Fortaleza",
+      "campos": 23,
+      "ts": "2026-05-20T03:43:12.135Z"
+    },
+    {
+      "match_id": "fHDnBPPN",
+      "mandante": "Nautico",
+      "visitante": "Sao Bernardo",
+      "campos": 22,
+      "ts": "2026-05-20T03:43:40.933Z"
+    },
+    {
+      "match_id": "U1YuEXvC",
+      "mandante": "Sao Bernardo",
+      "visitante": "Operario-PR",
+      "campos": 22,
+      "ts": "2026-05-20T03:44:10.986Z"
+    },
+    {
+      "match_id": "rqBhuAwB",
+      "mandante": "Botafogo SP",
+      "visitante": "Sao Bernardo",
+      "campos": 22,
+      "ts": "2026-05-20T03:44:40.704Z"
+    },
+    {
+      "match_id": "pfjeJ7af",
+      "mandante": "Ceara",
+      "visitante": "Sao Bernardo",
+      "campos": 21,
+      "ts": "2026-05-20T03:45:08.771Z"
+    },
+    {
+      "match_id": "0MdQbez1",
+      "mandante": "Criciuma",
+      "visitante": "Botafogo SP",
+      "campos": 23,
+      "ts": "2026-05-20T03:45:37.049Z"
+    },
+    {
+      "match_id": "K8tfNyIP",
+      "mandante": "Nautico",
+      "visitante": "Criciuma",
+      "campos": 23,
+      "ts": "2026-05-20T03:46:05.208Z"
+    },
+    {
+      "match_id": "jmaI53mo",
+      "mandante": "CRB",
+      "visitante": "Juventude",
+      "campos": 23,
+      "ts": "2026-05-20T03:46:34.067Z"
+    },
+    {
+      "match_id": "AVCpsW8b",
+      "mandante": "Juventude",
+      "visitante": "Novorizontino",
+      "campos": 22,
+      "ts": "2026-05-20T03:47:02.545Z"
+    },
+    {
+      "match_id": "Qo7AFPbJ",
+      "mandante": "Avai",
+      "visitante": "Juventude",
+      "campos": 22,
+      "ts": "2026-05-20T03:47:31.130Z"
+    },
+    {
+      "match_id": "djwE9ClJ",
+      "mandante": "Londrina",
+      "visitante": "Ceara",
+      "campos": 22,
+      "ts": "2026-05-20T03:47:59.264Z"
+    },
+    {
+      "match_id": "nLDDSWg5",
+      "mandante": "Atletico GO",
+      "visitante": "Nautico",
+      "campos": 23,
+      "ts": "2026-05-20T03:48:28.611Z"
+    },
+    {
+      "match_id": "SjHcWEft",
+      "mandante": "Londrina",
+      "visitante": "Goias",
+      "campos": 22,
+      "ts": "2026-05-20T03:48:57.428Z"
+    },
+    {
+      "match_id": "dlzYFgAa",
+      "mandante": "Ponte Preta",
+      "visitante": "Ceara",
+      "campos": 24,
+      "ts": "2026-05-20T03:49:27.134Z"
+    },
+    {
+      "match_id": "INfwqhvn",
+      "mandante": "CRB",
+      "visitante": "Avai",
+      "campos": 23,
+      "ts": "2026-05-20T03:49:56.565Z"
+    },
+    {
+      "match_id": "CIBaeMT8",
+      "mandante": "Cuiaba",
+      "visitante": "Ceara",
+      "campos": 22,
+      "ts": "2026-05-20T03:50:24.383Z"
+    },
+    {
+      "match_id": "l2TJrqp3",
+      "mandante": "Londrina",
+      "visitante": "Sport Recife",
+      "campos": 22,
+      "ts": "2026-05-20T03:50:54.023Z"
+    },
+    {
+      "match_id": "dQ7n6wrR",
+      "mandante": "Ceara",
+      "visitante": "Nautico",
+      "campos": 22,
+      "ts": "2026-05-20T03:51:23.476Z"
+    },
+    {
+      "match_id": "AZv6BYJ6",
+      "mandante": "America MG",
+      "visitante": "Sport Recife",
+      "campos": 22,
+      "ts": "2026-05-20T03:51:52.899Z"
+    },
+    {
+      "match_id": "xSylCB9O",
+      "mandante": "America MG",
+      "visitante": "Botafogo SP",
+      "campos": 22,
+      "ts": "2026-05-20T03:52:22.111Z"
+    },
+    {
+      "match_id": "vFG5Zv7k",
+      "mandante": "Avai",
+      "visitante": "Operario-PR",
+      "campos": 22,
+      "ts": "2026-05-20T03:52:50.963Z"
+    },
+    {
+      "match_id": "lrwQM1Nq",
+      "mandante": "Novorizontino",
+      "visitante": "CRB",
+      "campos": 22,
+      "ts": "2026-05-20T03:53:19.676Z"
+    },
+    {
+      "match_id": "6JaYdZ4D",
+      "mandante": "Sport Recife",
+      "visitante": "Avai",
+      "campos": 22,
+      "ts": "2026-05-20T03:53:47.974Z"
+    },
+    {
+      "match_id": "jiXPHFum",
+      "mandante": "Cuiaba",
+      "visitante": "Sport Recife",
+      "campos": 22,
+      "ts": "2026-05-20T03:54:17.116Z"
+    },
+    {
+      "match_id": "nuKDXIy2",
+      "mandante": "Nautico",
+      "visitante": "Ponte Preta",
+      "campos": 23,
+      "ts": "2026-05-20T03:54:45.023Z"
+    },
+    {
+      "match_id": "l04v8aDE",
+      "mandante": "Operario-PR",
+      "visitante": "Cuiaba",
+      "campos": 23,
+      "ts": "2026-05-20T03:55:14.138Z"
+    },
+    {
+      "match_id": "CthmLTUs",
+      "mandante": "Operario-PR",
+      "visitante": "Atletico GO",
+      "campos": 22,
+      "ts": "2026-05-20T03:55:43.367Z"
+    },
+    {
+      "match_id": "UewjFGKs",
+      "mandante": "Botafogo SP",
+      "visitante": "Atletico GO",
+      "campos": 22,
+      "ts": "2026-05-20T03:56:12.287Z"
+    },
+    {
+      "match_id": "29euDoeB",
+      "mandante": "Avai",
+      "visitante": "Ponte Preta",
+      "campos": 22,
+      "ts": "2026-05-20T03:56:41.826Z"
+    },
+    {
+      "match_id": "d8tYKuhd",
+      "mandante": "Athletic Club",
+      "visitante": "America MG",
+      "campos": 24,
+      "ts": "2026-05-20T03:57:10.796Z"
+    },
+    {
+      "match_id": "dh2gpdL7",
+      "mandante": "America MG",
+      "visitante": "Novorizontino",
+      "campos": 21,
+      "ts": "2026-05-20T03:57:39.160Z"
+    },
+    {
+      "match_id": "Ei9V2nFD",
+      "mandante": "Novorizontino",
+      "visitante": "Londrina",
+      "campos": 22,
+      "ts": "2026-05-20T03:58:07.512Z"
+    },
+    {
+      "match_id": "bDnKKxcK",
+      "mandante": "CRB",
+      "visitante": "Athletic Club",
+      "campos": 21,
+      "ts": "2026-05-20T03:58:37.237Z"
+    },
+    {
+      "match_id": "tb1HQk7K",
+      "mandante": "Athletic Club",
+      "visitante": "Ponte Preta",
+      "campos": 22,
+      "ts": "2026-05-20T03:59:06.082Z"
+    },
+    {
+      "match_id": "hdgI0H5l",
+      "mandante": "Atletico GO",
+      "visitante": "Londrina",
+      "campos": 21,
+      "ts": "2026-05-20T03:59:34.527Z"
+    },
+    {
+      "match_id": "fqhXE7Qb",
+      "mandante": "Goias",
+      "visitante": "Cuiaba",
+      "campos": 22,
+      "ts": "2026-05-20T04:00:02.393Z"
+    },
+    {
+      "match_id": "IL32HoU6",
+      "mandante": "Goias",
+      "visitante": "America MG",
+      "campos": 24,
+      "ts": "2026-05-20T04:00:31.005Z"
+    }
+  ],
+  "falhados": []
+}

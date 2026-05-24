@@ -1,0 +1,217 @@
+
+🛡️  ════════════════════════════════════════════════════════════════
+       AUDITOR SUPREMO DE CANTOS — Análise Fria
+       Tipo: TOP-10 HDP
+       Modo: PRODUÇÃO
+   ════════════════════════════════════════════════════════════════
+
+🧠 Cérebro carregado: 8 ligas, 227 times, 1276 H2H
+📥 Rodada: 77 jogos para analisar
+
+🔬 Analisados: 22 | Cortados F1: 1 | F2: 54 | sem dados: 0
+
+═══════════════════════════════════════════════════════════════════════════
+#1 — Probabilidade 71/100 — HDP_FT_MANDANTE
+═══════════════════════════════════════════════════════════════════════════
+Liga: ARG_B | Rodada ?
+Partida: All Boys (casa) vs Deportivo Moron (fora)
+
+🧠 SINAIS DO CÉREBRO:
+   🏆 All Boys está no TOP MANDANTES DOMINADORES
+   🛡️ Deportivo Moron é UNDER-FRIENDLY fora
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ████████░░  77.77777777777779/100 (peso 22)  Mandante domina em casa
+        └ dif média casa = 5 (cobra 6.8, sofre 1.8)
+   ██████████  100/100 (peso 14)  Mandante recorrente em dif≥4 em casa
+        └ 80% dos jogos em casa com dif≥4
+   ██████████  100/100 (peso 10)  Mandante consistente em casa
+        └ DP diferencial casa = 1.26 (menor = mais previsível)
+   ██████████  100/100 (peso  8)  Visitante gera poucos cantos fora
+        └ cobra 4 cantos/jogo fora
+   █████░░░░░   50/100 (peso 12)  H2H confirma mandante
+        └ 0 confrontos
+
+═══════════════════════════════════════════════════════════════════════════
+#2 — Probabilidade 58/100 — HDP_FT_MANDANTE
+═══════════════════════════════════════════════════════════════════════════
+Liga: ARG_B | Rodada ?
+Partida: Def. de Belgrano (casa) vs Chaco For Ever (fora)
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ██████████  100/100 (peso 18)  Visitante submisso fora
+        └ dif média fora = -0.67 (cobra só 3.83, sofre 4.5)
+   ██████████  100/100 (peso  8)  Visitante gera poucos cantos fora
+        └ cobra 3.83 cantos/jogo fora
+   ███░░░░░░░  28.888888888888886/100 (peso 22)  Mandante domina em casa
+        └ dif média casa = 2.8 (cobra 6.6, sofre 3.8)
+   █████░░░░░   50/100 (peso 12)  H2H confirma mandante
+        └ 0 confrontos
+   ██████░░░░  59.14285714285714/100 (peso 10)  Mandante consistente em casa
+        └ DP diferencial casa = 2.93 (menor = mais previsível)
+
+═══════════════════════════════════════════════════════════════════════════
+#3 — Probabilidade 57/100 — HDP_FT_MANDANTE
+═══════════════════════════════════════════════════════════════════════════
+Liga: ARG_B | Rodada ?
+Partida: Gimnasia y Tiro (casa) vs San Martin T. (fora)
+
+🧠 SINAIS DO CÉREBRO:
+   🛡️ San Martin T. é UNDER-FRIENDLY fora
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ██████████  100/100 (peso 18)  Visitante submisso fora
+        └ dif média fora = -0.6 (cobra só 2.6, sofre 3.2)
+   ██████████  100/100 (peso  8)  Visitante gera poucos cantos fora
+        └ cobra 2.6 cantos/jogo fora
+   ███████░░░  72.85714285714285/100 (peso 10)  Mandante consistente em casa
+        └ DP diferencial casa = 2.45 (menor = mais previsível)
+   █████░░░░░  45.8/100 (peso 14)  Mandante recorrente em dif≥4 em casa
+        └ 42.9% dos jogos em casa com dif≥4
+   █████░░░░░   50/100 (peso 12)  H2H confirma mandante
+        └ 0 confrontos
+
+═══════════════════════════════════════════════════════════════════════════
+#4 — Probabilidade 56/100 — HDP_FT_MANDANTE
+═══════════════════════════════════════════════════════════════════════════
+Liga: ARG_B | Rodada ?
+Partida: Midland (casa) vs Agropecuario (fora)
+
+🧠 SINAIS DO CÉREBRO:
+   🏆 Midland está no TOP MANDANTES DOMINADORES
+   🏠 Midland é UNDER-FRIENDLY em casa
+   🛡️ Agropecuario é UNDER-FRIENDLY fora
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ████░░░░░░  44.44444444444444/100 (peso 22)  Mandante domina em casa
+        └ dif média casa = 3.5 (cobra 5, sofre 1.5)
+   ██████████  96.85714285714285/100 (peso 10)  Mandante consistente em casa
+        └ DP diferencial casa = 1.61 (menor = mais previsível)
+   ██████░░░░   60/100 (peso 14)  Mandante recorrente em dif≥4 em casa
+        └ 50% dos jogos em casa com dif≥4
+   ████████░░  76.00000000000001/100 (peso  8)  Visitante gera poucos cantos fora
+        └ cobra 4.6 cantos/jogo fora
+   █████░░░░░   50/100 (peso 12)  H2H confirma mandante
+        └ 0 confrontos
+
+═══════════════════════════════════════════════════════════════════════════
+#5 — Probabilidade 56/100 — HDP_FT_VISITANTE
+═══════════════════════════════════════════════════════════════════════════
+Liga: J2J3 | Rodada ?
+Partida: Kofu (casa) vs Gifu (fora)
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ██████████  100/100 (peso 18)  Mandante submisso em casa
+        └ dif média casa = -2
+   ██████████  100/100 (peso 12)  H2H confirma visitante
+        └ 1 confrontos, dif média vista mand = -4
+   ██████████  100/100 (peso  8)  Mandante gera poucos cantos em casa
+        └ cobra 4 cantos/jogo em casa
+   ███████░░░  71.42857142857143/100 (peso 10)  Visitante consistente fora
+        └ DP diferencial fora = 2.5
+   ██████░░░░  57.66666666666666/100 (peso  8)  Liga produz jogos com dif≥4 frequentemente
+        └ liga tem 42.3% de jogos com dif≥4
+
+═══════════════════════════════════════════════════════════════════════════
+#6 — Probabilidade 54/100 — HDP_FT_VISITANTE
+═══════════════════════════════════════════════════════════════════════════
+Liga: J2J3 | Rodada ?
+Partida: Fukushima Utd (casa) vs Hokkaido Consadole Sapporo (fora)
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ██████████  100/100 (peso 18)  Mandante submisso em casa
+        └ dif média casa = -1.25
+   ██████████  100/100 (peso 12)  H2H confirma visitante
+        └ 1 confrontos, dif média vista mand = -3
+   █████████░  94.80000000000001/100 (peso  8)  Mandante gera poucos cantos em casa
+        └ cobra 4.13 cantos/jogo em casa
+   ██████░░░░  58.57142857142856/100 (peso 10)  Visitante consistente fora
+        └ DP diferencial fora = 2.95
+   ██████░░░░  57.66666666666666/100 (peso  8)  Liga produz jogos com dif≥4 frequentemente
+        └ liga tem 42.3% de jogos com dif≥4
+
+═══════════════════════════════════════════════════════════════════════════
+#7 — Probabilidade 52/100 — HDP_FT_MANDANTE
+═══════════════════════════════════════════════════════════════════════════
+Liga: J2J3 | Rodada ?
+Partida: Osaka (casa) vs Kanazawa (fora)
+
+🧠 SINAIS DO CÉREBRO:
+   🏆 Osaka está no TOP MANDANTES DOMINADORES
+   ✈️ Kanazawa está no TOP VISITANTES DOMINADORES
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ███████░░░  72.22222222222221/100 (peso 22)  Mandante domina em casa
+        └ dif média casa = 4.75 (cobra 7.75, sofre 3)
+   ██████████  100/100 (peso 14)  Mandante recorrente em dif≥4 em casa
+        └ 75% dos jogos em casa com dif≥4
+   ██████░░░░  57.66666666666666/100 (peso  8)  Liga produz jogos com dif≥4 frequentemente
+        └ liga tem 42.3% de jogos com dif≥4
+   █████░░░░░   50/100 (peso  8)  DNA: contexto favorece mandante
+        └ mandCasa✗ chama✗ crise✗ evitarV✗
+   ████░░░░░░  35.14285714285714/100 (peso 10)  Mandante consistente em casa
+        └ DP diferencial casa = 3.77 (menor = mais previsível)
+
+═══════════════════════════════════════════════════════════════════════════
+#8 — Probabilidade 51/100 — HDP_FT_VISITANTE
+═══════════════════════════════════════════════════════════════════════════
+Liga: J2J3 | Rodada ?
+Partida: Iwaki (casa) vs Yamaga (fora)
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ██████████  100/100 (peso 18)  Mandante submisso em casa
+        └ dif média casa = -0.25
+   ██████████  100/100 (peso 12)  H2H confirma visitante
+        └ 1 confrontos, dif média vista mand = 0
+   ████████░░  84.80000000000001/100 (peso  8)  Mandante gera poucos cantos em casa
+        └ cobra 4.38 cantos/jogo em casa
+   ██████░░░░  59.42857142857143/100 (peso 10)  Visitante consistente fora
+        └ DP diferencial fora = 2.92
+   ██████░░░░  57.66666666666666/100 (peso  8)  Liga produz jogos com dif≥4 frequentemente
+        └ liga tem 42.3% de jogos com dif≥4
+
+═══════════════════════════════════════════════════════════════════════════
+#9 — Probabilidade 49/100 — HDP_FT_MANDANTE
+═══════════════════════════════════════════════════════════════════════════
+Liga: ARG_B | Rodada ?
+Partida: Almirante Brown (casa) vs San Telmo (fora)
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ██████████  100/100 (peso 18)  Visitante submisso fora
+        └ dif média fora = -1.8 (cobra só 3.4, sofre 5.2)
+   ████████░░  82.85714285714285/100 (peso 10)  Mandante consistente em casa
+        └ DP diferencial casa = 2.1 (menor = mais previsível)
+   ██████████  100/100 (peso  8)  Visitante gera poucos cantos fora
+        └ cobra 3.4 cantos/jogo fora
+   █████░░░░░   50/100 (peso 12)  H2H confirma mandante
+        └ 0 confrontos
+   ███████░░░   65/100 (peso  8)  DNA: contexto favorece mandante
+        └ mandCasa✓ chama✗ crise✗ evitarV✗
+
+═══════════════════════════════════════════════════════════════════════════
+#10 — Probabilidade 49/100 — HDP_FT_MANDANTE
+═══════════════════════════════════════════════════════════════════════════
+Liga: MLS | Rodada ?
+Partida: Austin FC (casa) vs Sporting Kansas City (fora)
+
+🔍 EVIDÊNCIAS (ordenadas por força):
+   ██████████  100/100 (peso 18)  Visitante submisso fora
+        └ dif média fora = -5 (cobra só 2.67, sofre 7.67)
+   ██████████  100/100 (peso  8)  Visitante gera poucos cantos fora
+        └ cobra 2.67 cantos/jogo fora
+   ██████░░░░  64.28571428571429/100 (peso 10)  Mandante consistente em casa
+        └ DP diferencial casa = 2.75 (menor = mais previsível)
+   █████░░░░░   50/100 (peso 12)  H2H confirma mandante
+        └ 0 confrontos
+   ███████░░░   70/100 (peso  8)  DNA: contexto favorece mandante
+        └ mandCasa✗ chama✗ crise✓ evitarV✓
+
+═══════════════════════════════════════════════════════════════════════════
+SUMÁRIO — TOP 10 HDP
+═══════════════════════════════════════════════════════════════════════════
+Probabilidade média: 55.3/100
+Probabilidade mín: 49 | máx: 71
+Distribuição por liga:
+   ARG_B: 5
+   J2J3: 4
+   MLS: 1

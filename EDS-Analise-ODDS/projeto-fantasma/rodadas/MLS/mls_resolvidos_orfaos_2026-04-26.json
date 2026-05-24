@@ -1,0 +1,124 @@
+[
+  {
+    "url": "https://www.flashscore.com/match/xbN3otet/#/match-summary",
+    "match_id": "xbN3otet",
+    "data_partida": "26.04.2026 20:00",
+    "liga": "Major League Soccer",
+    "codigo_liga": "MLS",
+    "rodada": null,
+    "mandante": "Los Angeles Galaxy",
+    "visitante": "Real Salt Lake",
+    "placar": {
+      "ht": "1 - 1",
+      "ft": "2 - 1"
+    },
+    "estatisticas_ft": {
+      "posse": {
+        "m": 39,
+        "v": 61
+      },
+      "finalizacoes": {
+        "m": 16,
+        "v": 15
+      },
+      "chutes_alvo": {
+        "m": 7,
+        "v": 8
+      },
+      "cantos": {
+        "m": 7,
+        "v": 0
+      },
+      "passes": {
+        "m": "(304/397)",
+        "v": "85%"
+      },
+      "cartoes_amarelos": {
+        "m": 4,
+        "v": 4
+      },
+      "impedimentos": {
+        "m": 3,
+        "v": 1
+      },
+      "faltas": {
+        "m": 16,
+        "v": 14
+      },
+      "defesas_goleiro": {
+        "m": 8,
+        "v": 4
+      }
+    },
+    "estatisticas_ht": {
+      "posse": {
+        "m": 40,
+        "v": 60
+      },
+      "finalizacoes": {
+        "m": 11,
+        "v": 5
+      },
+      "chutes_alvo": {
+        "m": 3,
+        "v": 3
+      },
+      "cantos": {
+        "m": 5,
+        "v": 0
+      },
+      "passes": {
+        "m": "(159/199)",
+        "v": "84%"
+      },
+      "cartoes_amarelos": {
+        "m": 2,
+        "v": 0
+      },
+      "impedimentos": {
+        "m": 2,
+        "v": 0
+      },
+      "faltas": {
+        "m": 7,
+        "v": 6
+      },
+      "defesas_goleiro": {
+        "m": 3,
+        "v": 1
+      }
+    },
+    "formacao": {
+      "m": "4-3-3",
+      "v": "3-4-2-1"
+    },
+    "mercado": {
+      "oddM": "2.35",
+      "oddEmpate": "3.50",
+      "oddV": "2.70"
+    },
+    "meta": {
+      "fonte": "flashscore",
+      "versao_analista": "v4",
+      "timestamp_extracao": "2026-05-20T03:25:38.296Z",
+      "campos_disponiveis": 22,
+      "campos_falhados": [
+        "ataques_perigosos_ft",
+        "cruzamentos_ft",
+        "cartoes_vermelhos_ft",
+        "tiros_de_meta_ft",
+        "laterais_ft",
+        "ataques_perigosos_ht",
+        "cruzamentos_ht",
+        "cartoes_vermelhos_ht",
+        "tiros_de_meta_ht",
+        "laterais_ht"
+      ],
+      "metodo_extracao": {
+        "ft": "DOM",
+        "ht": "DOM"
+      }
+    },
+    "id_antigo": "inject_fix_MLS_2_20260426"
+  }
+]

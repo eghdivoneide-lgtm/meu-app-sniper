@@ -1,0 +1,24 @@
+═══════════════════════════════════════════════════════════════════
+  AUDITOR SUPREMO DE CANTOS — EDS Soluções Inteligentes
+  MODO BACKTEST (dataLimite 2026-05-08)
+  Gerado em 2026-05-14T05:10:39.518Z (em 18ms)
+═══════════════════════════════════════════════════════════════════
+
+⚠️  NENHUM JOGO APROVADO NESTA RODADA.
+
+Sob o Padrão EDS, isso é melhor do que entregar palpites fracos.
+Veja distribuição de eliminações abaixo.
+═══════════════════════════════════════════════════════════════════
+SUMÁRIO DA RODADA
+═══════════════════════════════════════════════════════════════════
+Total analisados: 88
+Eliminados em F1 (dados insuficientes): 50
+Eliminados em F2 (imprevisibilidade):   31
+Eliminados em F3 (contexto instável):   0
+Eliminados em F4 (convergência <7/7):   0
+Eliminados em F5 (score <85):           0
+Eliminados em F6 (margem apertada):     0
+Eliminados por dados ausentes:          7
+Aprovados após F6: 0 | Lista final (após cap por liga): 0
+
+═══════════════════════════════════════════════════════════════════

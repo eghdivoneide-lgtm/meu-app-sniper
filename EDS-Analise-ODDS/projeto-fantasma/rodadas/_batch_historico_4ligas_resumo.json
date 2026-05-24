@@ -1,0 +1,22 @@
+[
+  {
+    "liga": "CHI",
+    "ok": true,
+    "tempo": "34.6 min"
+  },
+  {
+    "liga": "ECU",
+    "ok": true,
+    "tempo": "37.4 min"
+  },
+  {
+    "liga": "CHN_SL",
+    "ok": true,
+    "tempo": "37.1 min"
+  },
+  {
+    "liga": "CHN_L1",
+    "ok": true,
+    "tempo": "23.3 min"
+  }
+]

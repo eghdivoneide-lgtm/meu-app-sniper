@@ -1,0 +1,62 @@
+[
+  {
+    "liga": "BR_B",
+    "etapas": {
+      "merge1": true,
+      "enriquecer": true,
+      "merge2": true,
+      "limpeza": true
+    },
+    "tempoMin": "23.2"
+  },
+  {
+    "liga": "BR",
+    "etapas": {
+      "merge1": true,
+      "enriquecer": true,
+      "merge2": true,
+      "limpeza": true
+    },
+    "tempoMin": "12.7"
+  },
+  {
+    "liga": "ARG_B",
+    "etapas": {
+      "merge1": true,
+      "enriquecer": true,
+      "merge2": true,
+      "limpeza": true
+    },
+    "tempoMin": "71.2"
+  },
+  {
+    "liga": "ARG",
+    "etapas": {
+      "merge1": true,
+      "enriquecer": true,
+      "merge2": true,
+      "limpeza": true
+    },
+    "tempoMin": "89.7"
+  },
+  {
+    "liga": "BUN",
+    "etapas": {
+      "merge1": true,
+      "enriquecer": true,
+      "merge2": true,
+      "limpeza": true
+    },
+    "tempoMin": "132.4"
+  },
+  {
+    "liga": "J2J3",
+    "etapas": {
+      "merge1": true,
+      "enriquecer": true,
+      "merge2": true,
+      "limpeza": true
+    },
+    "tempoMin": "126.9"
+  }
+]

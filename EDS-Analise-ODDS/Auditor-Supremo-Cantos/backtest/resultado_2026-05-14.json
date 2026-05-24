@@ -1,0 +1,48 @@
+{
+  "modo": {
+    "nome": "BACKTEST_F3",
+    "dataLimite": "2026-05-08"
+  },
+  "total": 88,
+  "eliminadosPor": {
+    "F1": 54,
+    "F2": 25,
+    "F3": 0,
+    "F4": 6,
+    "F5": 0,
+    "F6": 0,
+    "sem_dados": 0
+  },
+  "aprovadosBrutos": 3,
+  "listaFinal": 3,
+  "acertos": 2,
+  "erros": 1,
+  "semGabarito": 0,
+  "pctAcerto": 66.66666666666666,
+  "detalhes": [
+    {
+      "jogo": "River Plate vs Atl. Tucuman [ARG]",
+      "mercado": "HDP_FT_MANDANTE",
+      "score": 71,
+      "converg": "6/7",
+      "real": "cantos M=6 V=1 total=7 dif=5",
+      "resultado": "✅ GREEN"
+    },
+    {
+      "jogo": "Racing Club vs Huracan [ARG]",
+      "mercado": "UNDER_9_FT",
+      "score": 64,
+      "converg": "6/7",
+      "real": "cantos M=6 V=1 total=7 dif=5",
+      "resultado": "✅ GREEN"
+    },
+    {
+      "jogo": "Argentinos Jrs vs Lanus [ARG]",
+      "mercado": "HDP_FT_MANDANTE",
+      "score": 61,
+      "converg": "7/7",
+      "real": "cantos M=3 V=2 total=5 dif=1",
+      "resultado": "❌ RED"
+    }
+  ]
+}

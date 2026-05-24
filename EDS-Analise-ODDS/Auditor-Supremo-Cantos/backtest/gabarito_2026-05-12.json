@@ -1,0 +1,970 @@
+[
+  {
+    "liga": "BR",
+    "match_id": "fLt2NVW1",
+    "mandante": "Vasco",
+    "visitante": "Athletico-PR",
+    "cantos_ft": {
+      "m": 4,
+      "v": 3
+    },
+    "placar_ft": "1 - 0"
+  },
+  {
+    "liga": "BR",
+    "match_id": "23epNMxJ",
+    "mandante": "Gremio",
+    "visitante": "Flamengo RJ",
+    "cantos_ft": {
+      "m": 0,
+      "v": 6
+    },
+    "placar_ft": "0 - 1"
+  },
+  {
+    "liga": "BR",
+    "match_id": "tGoMSQ8s",
+    "mandante": "Corinthians",
+    "visitante": "Sao Paulo",
+    "cantos_ft": {
+      "m": 7,
+      "v": 7
+    },
+    "placar_ft": "3 - 2"
+  },
+  {
+    "liga": "BR",
+    "match_id": "ltkUQ4wf",
+    "mandante": "Mirassol",
+    "visitante": "Chapecoense-SC",
+    "cantos_ft": {
+      "m": 8,
+      "v": 1
+    },
+    "placar_ft": "1 - 1"
+  },
+  {
+    "liga": "BR",
+    "match_id": "MRYmoZO8",
+    "mandante": "Santos",
+    "visitante": "Bragantino",
+    "cantos_ft": {
+      "m": 7,
+      "v": 3
+    },
+    "placar_ft": "2 - 0"
+  },
+  {
+    "liga": "BR",
+    "match_id": "UkcxPr86",
+    "mandante": "Atletico-MG",
+    "visitante": "Botafogo RJ",
+    "cantos_ft": {
+      "m": 6,
+      "v": 4
+    },
+    "placar_ft": "1 - 1"
+  },
+  {
+    "liga": "BR",
+    "match_id": "A9IBwrNa",
+    "mandante": "Remo",
+    "visitante": "Palmeiras",
+    "cantos_ft": {
+      "m": 5,
+      "v": 17
+    },
+    "placar_ft": "1 - 1"
+  },
+  {
+    "liga": "BR",
+    "match_id": "lfU2u4hm",
+    "mandante": "Bahia",
+    "visitante": "Cruzeiro",
+    "cantos_ft": {
+      "m": 6,
+      "v": 8
+    },
+    "placar_ft": "1 - 2"
+  },
+  {
+    "liga": "BR",
+    "match_id": "zJQ0Pi2k",
+    "mandante": "Fluminense",
+    "visitante": "Vitoria",
+    "cantos_ft": {
+      "m": 6,
+      "v": 3
+    },
+    "placar_ft": "2 - 2"
+  },
+  {
+    "liga": "BR",
+    "match_id": "IBwXpQUP",
+    "mandante": "Coritiba",
+    "visitante": "Internacional",
+    "cantos_ft": {
+      "m": 3,
+      "v": 8
+    },
+    "placar_ft": "2 - 2"
+  },
+  {
+    "liga": "BR",
+    "match_id": "UHLnIzeM",
+    "mandante": "Mirassol",
+    "visitante": "Corinthians",
+    "cantos_ft": {
+      "m": 1,
+      "v": 5
+    },
+    "placar_ft": "2 - 1"
+  },
+  {
+    "liga": "BR",
+    "match_id": "vmuVUDvS",
+    "mandante": "Chapecoense-SC",
+    "visitante": "Bragantino",
+    "cantos_ft": {
+      "m": 5,
+      "v": 2
+    },
+    "placar_ft": "1 - 2"
+  },
+  {
+    "liga": "BR_B",
+    "match_id": "YT5NsIHa",
+    "mandante": "Novorizontino",
+    "visitante": "Botafogo SP",
+    "cantos_ft": {
+      "m": 5,
+      "v": 1
+    },
+    "placar_ft": "1 - 0"
+  },
+  {
+    "liga": "BR_B",
+    "match_id": "Ui32fe15",
+    "mandante": "Avai",
+    "visitante": "Fortaleza",
+    "cantos_ft": {
+      "m": 5,
+      "v": 4
+    },
+    "placar_ft": "0 - 0"
+  },
+  {
+    "liga": "BR_B",
+    "match_id": "xI6AhZVH",
+    "mandante": "Nautico",
+    "visitante": "America MG",
+    "cantos_ft": {
+      "m": 3,
+      "v": 3
+    },
+    "placar_ft": "4 - 0"
+  },
+  {
+    "liga": "BR_B",
+    "match_id": "vouSAGon",
+    "mandante": "Juventude",
+    "visitante": "Criciuma",
+    "cantos_ft": {
+      "m": 7,
+      "v": 9
+    },
+    "placar_ft": "0 - 0"
+  },
+  {
+    "liga": "BR_B",
+    "match_id": "AV4IjD0U",
+    "mandante": "CRB",
+    "visitante": "Operario-PR",
+    "cantos_ft": {
+      "m": 6,
+      "v": 1
+    },
+    "placar_ft": "3 - 0"
+  },
+  {
+    "liga": "BR_B",
+    "match_id": "lE1nbw2t",
+    "mandante": "Ceara",
+    "visitante": "Atletico GO",
+    "cantos_ft": {
+      "m": 11,
+      "v": 1
+    },
+    "placar_ft": "0 - 1"
+  },
+  {
+    "liga": "BR_B",
+    "match_id": "Q32Fqvmm",
+    "mandante": "Ponte Preta",
+    "visitante": "Sport Recife",
+    "cantos_ft": {
+      "m": 11,
+      "v": 2
+    },
+    "placar_ft": "1 - 3"
+  },
+  {
+    "liga": "BR_B",
+    "match_id": "6s4VudnC",
+    "mandante": "Athletic Club",
+    "visitante": "Cuiaba",
+    "cantos_ft": {
+      "m": 6,
+      "v": 6
+    },
+    "placar_ft": "0 - 0"
+  },
+  {
+    "liga": "BR_B",
+    "match_id": "MRafdHWh",
+    "mandante": "Goias",
+    "visitante": "Vila Nova FC",
+    "cantos_ft": {
+      "m": 4,
+      "v": 5
+    },
+    "placar_ft": "1 - 0"
+  },
+  {
+    "liga": "BR_B",
+    "match_id": "GUGqk0PP",
+    "mandante": "Vila Nova FC",
+    "visitante": "Athletic Club",
+    "cantos_ft": {
+      "m": 9,
+      "v": 1
+    },
+    "placar_ft": "1 - 1"
+  },
+  {
+    "liga": "BR_B",
+    "match_id": "Wt78TRdk",
+    "mandante": "America MG",
+    "visitante": "CRB",
+    "cantos_ft": {
+      "m": 3,
+      "v": 4
+    },
+    "placar_ft": "1 - 2"
+  },
+  {
+    "liga": "MLS",
+    "match_id": "pM3Mb5mm",
+    "mandante": "Los Angeles FC",
+    "visitante": "Houston Dynamo",
+    "cantos_ft": {
+      "m": 10,
+      "v": 3
+    },
+    "placar_ft": "1 - 4"
+  },
+  {
+    "liga": "MLS",
+    "match_id": "ljIj4RPP",
+    "mandante": "Minnesota United",
+    "visitante": "Austin FC",
+    "cantos_ft": {
+      "m": 3,
+      "v": 4
+    },
+    "placar_ft": "2 - 2"
+  },
+  {
+    "liga": "MLS",
+    "match_id": "Ysz4tOXI",
+    "mandante": "New York City",
+    "visitante": "Columbus Crew",
+    "cantos_ft": {
+      "m": 3,
+      "v": 8
+    },
+    "placar_ft": "3 - 0"
+  },
+  {
+    "liga": "MLS",
+    "match_id": "v1Ymp6Yg",
+    "mandante": "Portland Timbers",
+    "visitante": "Sporting Kansas City",
+    "cantos_ft": {
+      "m": 4,
+      "v": 4
+    },
+    "placar_ft": "6 - 0"
+  },
+  {
+    "liga": "MLS",
+    "match_id": "vNXlW7ph",
+    "mandante": "San Jose Earthquakes",
+    "visitante": "Vancouver Whitecaps",
+    "cantos_ft": {
+      "m": 2,
+      "v": 4
+    },
+    "placar_ft": "1 - 1"
+  },
+  {
+    "liga": "MLS",
+    "match_id": "0GMdrp36",
+    "mandante": "Seattle Sounders",
+    "visitante": "San Diego FC",
+    "cantos_ft": {
+      "m": 8,
+      "v": 2
+    },
+    "placar_ft": "1 - 1"
+  },
+  {
+    "liga": "MLS",
+    "match_id": "WzVunS3s",
+    "mandante": "Colorado Rapids",
+    "visitante": "St. Louis City",
+    "cantos_ft": {
+      "m": 11,
+      "v": 1
+    },
+    "placar_ft": "0 - 1"
+  },
+  {
+    "liga": "MLS",
+    "match_id": "YoAi1qie",
+    "mandante": "Nashville SC",
+    "visitante": "DC United",
+    "cantos_ft": {
+      "m": 8,
+      "v": 7
+    },
+    "placar_ft": "2 - 2"
+  },
+  {
+    "liga": "MLS",
+    "match_id": "nVBq35Mr",
+    "mandante": "FC Dallas",
+    "visitante": "Real Salt Lake",
+    "cantos_ft": {
+      "m": 4,
+      "v": 7
+    },
+    "placar_ft": "3 - 1"
+  },
+  {
+    "liga": "MLS",
+    "match_id": "vPlInpx2",
+    "mandante": "Atlanta Utd",
+    "visitante": "Los Angeles Galaxy",
+    "cantos_ft": {
+      "m": 6,
+      "v": 5
+    },
+    "placar_ft": "1 - 2"
+  },
+  {
+    "liga": "MLS",
+    "match_id": "fXW4AmU8",
+    "mandante": "Charlotte",
+    "visitante": "FC Cincinnati",
+    "cantos_ft": {
+      "m": 7,
+      "v": 4
+    },
+    "placar_ft": "2 - 2"
+  },
+  {
+    "liga": "MLS",
+    "match_id": "2czD8RbL",
+    "mandante": "New England Revolution",
+    "visitante": "Philadelphia Union",
+    "cantos_ft": {
+      "m": 9,
+      "v": 3
+    },
+    "placar_ft": "2 - 1"
+  },
+  {
+    "liga": "MLS",
+    "match_id": "ptQLtXR1",
+    "mandante": "CF Montreal",
+    "visitante": "Orlando City",
+    "cantos_ft": {
+      "m": 11,
+      "v": 3
+    },
+    "placar_ft": "2 - 0"
+  },
+  {
+    "liga": "MLS",
+    "match_id": "6BjAl67k",
+    "mandante": "Chicago Fire",
+    "visitante": "New York Red Bulls",
+    "cantos_ft": {
+      "m": 6,
+      "v": 3
+    },
+    "placar_ft": "1 - 3"
+  },
+  {
+    "liga": "MLS",
+    "match_id": "xzD74zK8",
+    "mandante": "Toronto FC",
+    "visitante": "Inter Miami",
+    "cantos_ft": {
+      "m": 4,
+      "v": 4
+    },
+    "placar_ft": "2 - 4"
+  },
+  {
+    "liga": "MLS",
+    "match_id": "2qevfSqS",
+    "mandante": "Austin FC",
+    "visitante": "St. Louis City",
+    "cantos_ft": {
+      "m": 4,
+      "v": 6
+    },
+    "placar_ft": "2 - 0"
+  },
+  {
+    "liga": "MLS",
+    "match_id": "fJiWelFF",
+    "mandante": "New York City",
+    "visitante": "DC United",
+    "cantos_ft": {
+      "m": 6,
+      "v": 3
+    },
+    "placar_ft": "0 - 2"
+  },
+  {
+    "liga": "ARG",
+    "match_id": "ABbFjRN6",
+    "mandante": "Velez Sarsfield",
+    "visitante": "Gimnasia L.P.",
+    "cantos_ft": {
+      "m": 17,
+      "v": 0
+    },
+    "placar_ft": "0 - 1"
+  },
+  {
+    "liga": "ARG",
+    "match_id": "E1Gtf0Ub",
+    "mandante": "River Plate",
+    "visitante": "San Lorenzo",
+    "cantos_ft": {
+      "m": 6,
+      "v": 2
+    },
+    "placar_ft": "3 - 2"
+  },
+  {
+    "liga": "ARG",
+    "match_id": "G81Nl5hJ",
+    "mandante": "Estudiantes L.P.",
+    "visitante": "Racing Club",
+    "cantos_ft": {
+      "m": 1,
+      "v": 4
+    },
+    "placar_ft": "0 - 1"
+  },
+  {
+    "liga": "ARG",
+    "match_id": "6yDYeMan",
+    "mandante": "Rosario Central",
+    "visitante": "Independiente",
+    "cantos_ft": {
+      "m": 2,
+      "v": 3
+    },
+    "placar_ft": "3 - 1"
+  },
+  {
+    "liga": "ARG",
+    "match_id": "bk6TaV0K",
+    "mandante": "Argentinos Jrs",
+    "visitante": "Lanus",
+    "cantos_ft": {
+      "m": 3,
+      "v": 2
+    },
+    "placar_ft": "2 - 0"
+  },
+  {
+    "liga": "ARG",
+    "match_id": "2oe7hmgf",
+    "mandante": "Ind. Rivadavia",
+    "visitante": "Union de Santa Fe",
+    "cantos_ft": {
+      "m": 5,
+      "v": 5
+    },
+    "placar_ft": "1 - 2"
+  },
+  {
+    "liga": "ARG",
+    "match_id": "6s4rxS8D",
+    "mandante": "Boca Juniors",
+    "visitante": "Huracan",
+    "cantos_ft": {
+      "m": 17,
+      "v": 1
+    },
+    "placar_ft": "2 - 3"
+  },
+  {
+    "liga": "ARG",
+    "match_id": "UXdaf9Os",
+    "mandante": "Talleres Cordoba",
+    "visitante": "Belgrano",
+    "cantos_ft": {
+      "m": 8,
+      "v": 3
+    },
+    "placar_ft": "0 - 1"
+  },
+  {
+    "liga": "ARG",
+    "match_id": "AqFimaqJ",
+    "mandante": "Estudiantes Rio Cuarto",
+    "visitante": "Instituto",
+    "cantos_ft": {
+      "m": 3,
+      "v": 8
+    },
+    "placar_ft": "0 - 2"
+  },
+  {
+    "liga": "ARG",
+    "match_id": "69wf5X44",
+    "mandante": "Velez Sarsfield",
+    "visitante": "Newells Old Boys",
+    "cantos_ft": {
+      "m": 7,
+      "v": 4
+    },
+    "placar_ft": "1 - 1"
+  },
+  {
+    "liga": "ARG",
+    "match_id": "OnuR1bbC",
+    "mandante": "Gimnasia Mendoza",
+    "visitante": "Defensa y Justicia",
+    "cantos_ft": {
+      "m": 2,
+      "v": 7
+    },
+    "placar_ft": "2 - 1"
+  },
+  {
+    "liga": "ARG",
+    "match_id": "U7rZeTRj",
+    "mandante": "River Plate",
+    "visitante": "Atl. Tucuman",
+    "cantos_ft": {
+      "m": 6,
+      "v": 1
+    },
+    "placar_ft": "0 - 1"
+  },
+  {
+    "liga": "ARG",
+    "match_id": "vNy23BZG",
+    "mandante": "Belgrano",
+    "visitante": "Sarmiento Junin",
+    "cantos_ft": {
+      "m": 3,
+      "v": 2
+    },
+    "placar_ft": "4 - 0"
+  },
+  {
+    "liga": "ARG",
+    "match_id": "ITOTHAlA",
+    "mandante": "Gimnasia L.P.",
+    "visitante": "Argentinos Jrs",
+    "cantos_ft": {
+      "m": 3,
+      "v": 11
+    },
+    "placar_ft": "2 - 0"
+  },
+  {
+    "liga": "ARG",
+    "match_id": "bPi31k4T",
+    "mandante": "Racing Club",
+    "visitante": "Huracan",
+    "cantos_ft": {
+      "m": 6,
+      "v": 1
+    },
+    "placar_ft": "0 - 0"
+  },
+  {
+    "liga": "ARG",
+    "match_id": "bwXyGlJM",
+    "mandante": "Rosario Central",
+    "visitante": "Tigre",
+    "cantos_ft": {
+      "m": 3,
+      "v": 11
+    },
+    "placar_ft": "1 - 1"
+  },
+  {
+    "liga": "ARG",
+    "match_id": "6JYReFOh",
+    "mandante": "Aldosivi",
+    "visitante": "Ind. Rivadavia",
+    "cantos_ft": {
+      "m": 5,
+      "v": 7
+    },
+    "placar_ft": "1 - 1"
+  },
+  {
+    "liga": "ARG_B",
+    "match_id": "Iu39jpSQ",
+    "mandante": "Nueva Chicago",
+    "visitante": "Almagro",
+    "cantos_ft": {
+      "m": 6,
+      "v": 3
+    },
+    "placar_ft": "1 - 2"
+  },
+  {
+    "liga": "ARG_B",
+    "match_id": "QsbulliB",
+    "mandante": "Ferro",
+    "visitante": "Def. de Belgrano",
+    "cantos_ft": {
+      "m": 7,
+      "v": 4
+    },
+    "placar_ft": "2 - 1"
+  },
+  {
+    "liga": "ARG_B",
+    "match_id": "vB75yB75",
+    "mandante": "Colon Santa Fe",
+    "visitante": "All Boys",
+    "cantos_ft": {
+      "m": 7,
+      "v": 6
+    },
+    "placar_ft": "3 - 2"
+  },
+  {
+    "liga": "ARG_B",
+    "match_id": "Y71mnSLN",
+    "mandante": "Central Norte",
+    "visitante": "Deportivo Madryn",
+    "cantos_ft": {
+      "m": 2,
+      "v": 6
+    },
+    "placar_ft": "2 - 3"
+  },
+  {
+    "liga": "ARG_B",
+    "match_id": "4S9WkAMb",
+    "mandante": "Chaco For Ever",
+    "visitante": "Ciudad Bolivar",
+    "cantos_ft": {
+      "m": 9,
+      "v": 7
+    },
+    "placar_ft": "0 - 1"
+  },
+  {
+    "liga": "ARG_B",
+    "match_id": "AVFlug8t",
+    "mandante": "Godoy Cruz",
+    "visitante": "Racing Cordoba",
+    "cantos_ft": {
+      "m": 6,
+      "v": 8
+    },
+    "placar_ft": "2 - 1"
+  },
+  {
+    "liga": "ARG_B",
+    "match_id": "W8CZw7rL",
+    "mandante": "Agropecuario",
+    "visitante": "Atletico Atlanta",
+    "cantos_ft": {
+      "m": 5,
+      "v": 3
+    },
+    "placar_ft": "0 - 0"
+  },
+  {
+    "liga": "ARG_B",
+    "match_id": "O6iEWOze",
+    "mandante": "Club A. Guemes",
+    "visitante": "Quilmes",
+    "cantos_ft": {
+      "m": 3,
+      "v": 2
+    },
+    "placar_ft": "2 - 1"
+  },
+  {
+    "liga": "ARG_B",
+    "match_id": "d26OiWin",
+    "mandante": "Acassuso",
+    "visitante": "Almirante Brown",
+    "cantos_ft": {
+      "m": 1,
+      "v": 5
+    },
+    "placar_ft": "0 - 0"
+  },
+  {
+    "liga": "ARG_B",
+    "match_id": "UJMEU257",
+    "mandante": "Chacarita Juniors",
+    "visitante": "Colegiales",
+    "cantos_ft": {
+      "m": 3,
+      "v": 4
+    },
+    "placar_ft": "2 - 0"
+  },
+  {
+    "liga": "ARG_B",
+    "match_id": "Or9RuTD8",
+    "mandante": "Atl. Rafaela",
+    "visitante": "Gimnasia y Tiro",
+    "cantos_ft": {
+      "m": 7,
+      "v": 0
+    },
+    "placar_ft": "1 - 0"
+  },
+  {
+    "liga": "ARG_B",
+    "match_id": "dQE0h6cE",
+    "mandante": "San Martin S.J.",
+    "visitante": "Patronato",
+    "cantos_ft": {
+      "m": 5,
+      "v": 2
+    },
+    "placar_ft": "1 - 1"
+  },
+  {
+    "liga": "ARG_B",
+    "match_id": "zw1EZlxI",
+    "mandante": "San Miguel",
+    "visitante": "CA Estudiantes",
+    "cantos_ft": {
+      "m": 4,
+      "v": 3
+    },
+    "placar_ft": "1 - 1"
+  },
+  {
+    "liga": "ARG_B",
+    "match_id": "lOguoOkl",
+    "mandante": "Temperley",
+    "visitante": "Deportivo Maipu",
+    "cantos_ft": {
+      "m": 3,
+      "v": 1
+    },
+    "placar_ft": "0 - 5"
+  },
+  {
+    "liga": "ARG_B",
+    "match_id": "Wp4cwXxg",
+    "mandante": "Deportivo Moron",
+    "visitante": "Los Andes",
+    "cantos_ft": {
+      "m": 6,
+      "v": 8
+    },
+    "placar_ft": "0 - 0"
+  },
+  {
+    "liga": "ARG_B",
+    "match_id": "8jaMXS6U",
+    "mandante": "San Telmo",
+    "visitante": "CA Mitre",
+    "cantos_ft": {
+      "m": 4,
+      "v": 2
+    },
+    "placar_ft": "0 - 0"
+  },
+  {
+    "liga": "ARG_B",
+    "match_id": "jgg6Yp6r",
+    "mandante": "Tristan Suarez",
+    "visitante": "Midland",
+    "cantos_ft": {
+      "m": 4,
+      "v": 5
+    },
+    "placar_ft": "1 - 3"
+  },
+  {
+    "liga": "ARG_B",
+    "match_id": "Um0mxypH",
+    "mandante": "Gimnasia y Tiro",
+    "visitante": "Agropecuario",
+    "cantos_ft": {
+      "m": 5,
+      "v": 5
+    },
+    "placar_ft": "2 - 3"
+  },
+  {
+    "liga": "ARG_B",
+    "match_id": "fBLpIFho",
+    "mandante": "Quilmes",
+    "visitante": "Chacarita Juniors",
+    "cantos_ft": {
+      "m": 9,
+      "v": 1
+    },
+    "placar_ft": "0 - 0"
+  },
+  {
+    "liga": "ARG_B",
+    "match_id": "WI78U2fL",
+    "mandante": "Racing Cordoba",
+    "visitante": "Deportivo Madryn",
+    "cantos_ft": {
+      "m": 10,
+      "v": 3
+    },
+    "placar_ft": "2 - 2"
+  },
+  {
+    "liga": "BUN",
+    "match_id": "0EoA24Yg",
+    "mandante": "Mainz",
+    "visitante": "Union Berlin",
+    "cantos_ft": {
+      "m": 7,
+      "v": 8
+    },
+    "placar_ft": "1 - 3"
+  },
+  {
+    "liga": "BUN",
+    "match_id": "hruhDLnC",
+    "mandante": "FC Koln",
+    "visitante": "Heidenheim",
+    "cantos_ft": {
+      "m": 6,
+      "v": 4
+    },
+    "placar_ft": "1 - 3"
+  },
+  {
+    "liga": "BUN",
+    "match_id": "lAY0BaHO",
+    "mandante": "Hamburger SV",
+    "visitante": "Freiburg",
+    "cantos_ft": {
+      "m": 2,
+      "v": 4
+    },
+    "placar_ft": "3 - 2"
+  },
+  {
+    "liga": "BUN",
+    "match_id": "fmc5MPPP",
+    "mandante": "Wolfsburg",
+    "visitante": "Bayern Munich",
+    "cantos_ft": {
+      "m": 6,
+      "v": 3
+    },
+    "placar_ft": "0 - 1"
+  },
+  {
+    "liga": "BUN",
+    "match_id": "QVmyH3mm",
+    "mandante": "Augsburg",
+    "visitante": "B. Monchengladbach",
+    "cantos_ft": {
+      "m": 2,
+      "v": 2
+    },
+    "placar_ft": "3 - 1"
+  },
+  {
+    "liga": "BUN",
+    "match_id": "KUtpFsIa",
+    "mandante": "Hoffenheim",
+    "visitante": "Werder Bremen",
+    "cantos_ft": {
+      "m": 8,
+      "v": 3
+    },
+    "placar_ft": "1 - 0"
+  },
+  {
+    "liga": "BUN",
+    "match_id": "6RGA0r36",
+    "mandante": "RB Leipzig",
+    "visitante": "St. Pauli",
+    "cantos_ft": {
+      "m": 3,
+      "v": 5
+    },
+    "placar_ft": "2 - 1"
+  },
+  {
+    "liga": "BUN",
+    "match_id": "EiKIbMXI",
+    "mandante": "Stuttgart",
+    "visitante": "Bayer Leverkusen",
+    "cantos_ft": {
+      "m": 7,
+      "v": 6
+    },
+    "placar_ft": "3 - 1"
+  },
+  {
+    "liga": "BUN",
+    "match_id": "S0m24Q3s",
+    "mandante": "Dortmund",
+    "visitante": "Eintracht Frankfurt",
+    "cantos_ft": {
+      "m": 6,
+      "v": 2
+    },
+    "placar_ft": "3 - 2"
+  },
+  {
+    "liga": "BUN",
+    "match_id": "nq7nAez3",
+    "mandante": "Freiburg",
+    "visitante": "Wolfsburg",
+    "cantos_ft": {
+      "m": 1,
+      "v": 7
+    },
+    "placar_ft": "1 - 1"
+  },
+  {
+    "liga": "BUN",
+    "match_id": "EcNSkRll",
+    "mandante": "B. Monchengladbach",
+    "visitante": "Dortmund",
+    "cantos_ft": {
+      "m": 1,
+      "v": 1
+    },
+    "placar_ft": "1 - 0"
+  }
+]

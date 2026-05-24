@@ -27,7 +27,7 @@
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 puppeteer.use(StealthPlugin());
-const fs   = require('fs');
+const fs = require('fs');
 const path = require('path');
 const FlashscoreMonster = require('./flashscore-monster');
 const { log } = require('./logger');
@@ -39,76 +39,130 @@ const { log } = require('./logger');
 // ═══════════════════════════════════════════════════
 const LIGAS = {
   BR: {
-    nome:              'Brasileirão Série A',
-    url_tabela:        'https://www.flashscore.com/football/brazil/serie-a-betano/standings/',
-    variavelJS:        'DADOS_BR',
-    arquivoJS:         'brasileirao2026.js',
-    // Termos que identificam a competição no cabeçalho do Flashscore
-    // (case-insensitive — qualquer um que bater já filtra)
-    filtroCompetição:  []  // desativado — limpeza por lista de times depois
+    nome: 'Brasileirão Série A',
+    url_tabela: 'https://www.flashscore.com/football/brazil/serie-a-betano/standings/',
+    variavelJS: 'DADOS_BR',
+    arquivoJS: 'brasileirao2026.js',
+    filtroCompetição: []
   },
   MLS: {
-    nome:              'Major League Soccer',
-    url_tabela:        'https://www.flashscore.com/football/usa/mls/standings/',
-    variavelJS:        'DADOS_MLS',
-    arquivoJS:         'mls2026.js',
-    filtroCompetição:  []  // desativado
+    nome: 'Major League Soccer',
+    url_tabela: 'https://www.flashscore.com/football/usa/mls/standings/',
+    variavelJS: 'DADOS_MLS',
+    arquivoJS: 'mls2026.js',
+    filtroCompetição: ['mls', 'major league soccer']
   },
   ARG: {
-    nome:              'Liga Profesional Argentina',
-    url_tabela:        'https://www.flashscore.com/football/argentina/liga-profesional/standings/',
-    variavelJS:        'DADOS_ARG',
-    arquivoJS:         'argentina2026.js',
-    filtroCompetição:  []  // desativado
+    nome: 'Liga Profesional Argentina',
+    url_tabela: 'https://www.flashscore.com/football/argentina/liga-profesional/standings/',
+    variavelJS: 'DADOS_ARG',
+    arquivoJS: 'argentina2026.js',
+    filtroCompetição: ['liga profesional']
   },
   USL: {
-    nome:              'USL Championship',
-    url_tabela:        'https://www.flashscore.com/football/usa/usl-championship/standings/',
-    variavelJS:        'DADOS_USL',
-    arquivoJS:         'usl2026.js',
-    filtroCompetição:  []  // desativado
+    nome: 'USL Championship',
+    url_tabela: 'https://www.flashscore.com/football/usa/usl-championship/standings/',
+    variavelJS: 'DADOS_USL',
+    arquivoJS: 'usl2026.js',
+    filtroCompetição: ['usl championship']
   },
   ECU: {
-    nome:              'Liga Pro Equador',
-    url_tabela:        'https://www.flashscore.com/football/ecuador/liga-pro/standings/',
-    variavelJS:        'DADOS_ECU',
-    arquivoJS:         'equador2026.js',
-    filtroCompetição:  []  // desativado
+    nome: 'Liga Pro Equador',
+    url_tabela: 'https://www.flashscore.com/football/ecuador/liga-pro/standings/',
+    variavelJS: 'DADOS_ECU',
+    arquivoJS: 'equador2026.js',
+    filtroCompetição: []  // desativado
   },
   BUN: {
-    nome:              'Bundesliga (Alemanha)',
-    url_tabela:        'https://www.flashscore.com/football/germany/bundesliga/standings/',
-    variavelJS:        'DADOS_BUN',
-    arquivoJS:         'bundesliga2026.js',
-    filtroCompetição:  []
+    nome: 'Bundesliga (Alemanha)',
+    url_tabela: 'https://www.flashscore.com/football/germany/bundesliga/standings/',
+    variavelJS: 'DADOS_BUN',
+    arquivoJS: 'bundesliga2026.js',
+    filtroCompetição: []
   },
   J1: {
-    nome:              'J1 League (Japão)',
-    url_tabela:        'https://www.flashscore.com/football/japan/j1-league/standings/',
-    variavelJS:        'DADOS_J1',
-    arquivoJS:         'j1league2026.js',
-    filtroCompetição:  []
+    nome: 'J1 League (Japão)',
+    url_tabela: 'https://www.flashscore.com/football/japan/j1-league/standings/',
+    variavelJS: 'DADOS_J1',
+    arquivoJS: 'j1league2026.js',
+    filtroCompetição: []
   },
   ALM: {
-    nome:              'A-League Men (Austrália)',
-    url_tabela:        'https://www.flashscore.com/football/australia/a-league/standings/',
-    variavelJS:        'DADOS_ALM',
-    arquivoJS:         'aleague2026.js',
-    filtroCompetição:  []
+    nome: 'A-League Men (Austrália)',
+    url_tabela: 'https://www.flashscore.com/football/australia/a-league/standings/',
+    variavelJS: 'DADOS_ALM',
+    arquivoJS: 'aleague2026.js',
+    filtroCompetição: []
   },
   CHI: {
-    nome:              'Primera División (Chile)',
-    url_tabela:        'https://www.flashscore.com/football/chile/liga-de-primera/standings/',
-    variavelJS:        'DADOS_CHI',
-    arquivoJS:         'chile2026.js',
-    filtroCompetição:  []
+    nome: 'Primera División (Chile)',
+    url_tabela: 'https://www.flashscore.com/football/chile/liga-de-primera/standings/',
+    variavelJS: 'DADOS_CHI',
+    arquivoJS: 'chile2026.js',
+    filtroCompetição: []
   },
   ARG_B: {
-    nome:              'Primera B Nacional (Argentina)',
-    url_tabela:        'https://www.flashscore.com/football/argentina/primera-nacional/standings/',
-    variavelJS:        'DADOS_ARG_B',
-    arquivoJS:         'argentina_b2026.js',
-    filtroCompetição:  []
+    nome: 'Primera B Nacional (Argentina)',
+    url_tabela: 'https://www.flashscore.com/football/argentina/primera-nacional/standings/',
+    variavelJS: 'DADOS_ARG_B',
+    arquivoJS: 'argentina_b2026.js',
+    filtroCompetição: []
+  },
+  BR_B: {
+    nome: 'Brasileirão Série B',
+    url_tabela: 'https://www.flashscore.com/football/brazil/serie-b/standings/',
+    variavelJS: 'DADOS_BR_B',
+    arquivoJS: 'brasileiraoB2026.js',
+    filtroCompetição: ['serie b', 'série b']
+  },
+  ARG_M: {
+    nome: 'Primera B Metropolitana (Argentina)',
+    url_tabela: 'https://www.flashscore.com/football/argentina/primera-b/standings/',
+    variavelJS: 'DADOS_ARG_M',
+    arquivoJS: 'metropolitana2026.js',
+    filtroCompetição: []
+  },
+  J2: {
+    nome: 'J2 League (Japão)',
+    url_tabela: 'https://www.flashscore.com/football/japan/j2-league/standings/',
+    variavelJS: 'DADOS_J2',
+    arquivoJS: 'j2league2026.js',
+    filtroCompetição: []
+  },
+  J3: {
+    nome: 'J3 League (Japão)',
+    url_tabela: 'https://www.flashscore.com/football/japan/j3-league/standings/',
+    variavelJS: 'DADOS_J3',
+    arquivoJS: 'j3league2026.js',
+    filtroCompetição: []
+  },
+  CHN_1: {
+    nome: 'China League One',
+    url_tabela: 'https://www.flashscore.com/football/china/league-one/standings/',
+    variavelJS: 'DADOS_CHN_1',
+    arquivoJS: 'chinaone2026.js',
+    filtroCompetição: []
+  },
+  CHN_2: {
+    nome: 'China League Two',
+    url_tabela: 'https://www.flashscore.com/football/china/league-two/standings/',
+    variavelJS: 'DADOS_CHN_2',
+    arquivoJS: 'chinatwo2026.js',
+    filtroCompetição: []
+  },
+  CHN_SUP: {
+    nome: 'Chinese Super League',
+    url_tabela: 'https://www.flashscore.com/football/china/super-league/standings/',
+    variavelJS: 'DADOS_CHN_SUP',
+    arquivoJS: 'chinasuper2026.js',
+    filtroCompetição: []
+  },
+  J2_J3: {
+    nome: 'J2/J3 League (Japão — 4 federações regionais)',
+    url_tabela: 'https://www.flashscore.com/football/japan/j2-j3-league/standings/',
+    variavelJS: 'DADOS_J2_J3',
+    arquivoJS: 'j2j3league2026.js',
+    filtroCompetição: []
   }
 };
 
@@ -126,7 +180,7 @@ function delay(ms, jitter = 500) {
 
 function progressBar(cur, total) {
   const pct = Math.round((cur / total) * 100);
-  const f   = Math.round(pct / 5);
+  const f = Math.round(pct / 5);
   return '█'.repeat(f) + '░'.repeat(20 - f) + ` ${String(cur).padStart(2)}/${total} (${pct}%)`;
 }
 
@@ -156,30 +210,42 @@ function fantasmaParaHistorico(j, tabelaPosicoes = {}) {
   if (!cantosFT || cantosFT.m == null || cantosFT.v == null) return null;
 
   // Posição na tabela no momento da coleta
-  const posM = tabelaPosicoes[j.mandante]  || null;
+  const posM = tabelaPosicoes[j.mandante] || null;
   const posV = tabelaPosicoes[j.visitante] || null;
 
+  // ── Placar de gols (REAL — extraído do FlashScore) ──
+  // Formato no Monster: j.placar.ft = "3 - 1" (string)
+  // Convertemos para números: { m: 3, v: 1 }
+  let placar = null;
+  if (j.placar && j.placar.ft && j.placar.ft !== 'Indisponível') {
+    const partes = j.placar.ft.split('-').map(s => parseInt(s.trim()));
+    if (partes.length === 2 && !isNaN(partes[0]) && !isNaN(partes[1])) {
+      placar = { m: partes[0], v: partes[1] };
+    }
+  }
+
   return {
-    match_id:  j.match_id || null,
-    mandante:  j.mandante,
+    match_id: j.match_id || null,
+    mandante: j.mandante,
     visitante: j.visitante,
-    rodada:    j.rodada   || null,
-    data:      j.data_partida ? j.data_partida.split('T')[0] : null,
-    // Posição na tabela no momento do jogo (M = mandante, V = visitante)
-    // Permite análise futura: time desesperado (Z4) vs líder muda a dinâmica de cantos?
+    rodada: j.rodada || null,
+    data: j.data_partida ? j.data_partida.split('T')[0] : null,
+    // Placar de gols REAL — permite calcular V/E/D, GP/GC para DNA completo
+    placar: placar,
+    // Posição na tabela no momento do jogo
     tabela: (posM || posV) ? {
-      pos_mandante:  posM ? posM.posicao : null,
-      pts_mandante:  posM ? posM.pontos  : null,
+      pos_mandante: posM ? posM.posicao : null,
+      pts_mandante: posM ? posM.pontos : null,
       pos_visitante: posV ? posV.posicao : null,
-      pts_visitante: posV ? posV.pontos  : null
+      pts_visitante: posV ? posV.pontos : null
     } : null,
     cantos: {
       ht: { m: cantosHT.m || 0, v: cantosHT.v || 0 },
-      ft: { m: cantosFT.m,      v: cantosFT.v      }
+      ft: { m: cantosFT.m, v: cantosFT.v }
     },
     stats_taticas: (ft.posse && ft.finalizacoes) ? {
-      posse:        { m: ft.posse.m,        v: ft.posse.v        },
-      finalizacoes: { m: ft.finalizacoes.m,  v: ft.finalizacoes.v }
+      posse: { m: ft.posse.m, v: ft.posse.v },
+      finalizacoes: { m: ft.finalizacoes.m, v: ft.finalizacoes.v }
     } : null
   };
 }
@@ -194,7 +260,7 @@ function inferirRodadas(jogos) {
   );
 
   let rodadaAtual = 1;
-  let dataRef     = ordenados[0]?.data || '2026-01-01';
+  let dataRef = ordenados[0]?.data || '2026-01-01';
   const timesNaRodada = new Set();
 
   for (const jogo of ordenados) {
@@ -205,7 +271,7 @@ function inferirRodadas(jogos) {
     // Novo ciclo de rodada se:
     //  - Data muito distante (>5 dias), OU
     //  - Um dos times já jogou nessa rodada (impossível jogar 2x na mesma rodada)
-    const mandanteRepetido  = timesNaRodada.has(jogo.mandante);
+    const mandanteRepetido = timesNaRodada.has(jogo.mandante);
     const visitanteRepetido = timesNaRodada.has(jogo.visitante);
 
     if (diff > 5 || mandanteRepetido || visitanteRepetido) {
@@ -226,8 +292,8 @@ function inferirRodadas(jogos) {
 //  BACKUP AUTOMÁTICO — protege contra sobrescrita acidental
 //  Mantém os últimos BACKUP_MAX arquivos por liga
 // ═══════════════════════════════════════════════════
-const BACKUP_DIR  = path.join(__dirname, 'backups');
-const BACKUP_MAX  = 5; // quantas versões manter por liga
+const BACKUP_DIR = path.join(__dirname, 'backups');
+const BACKUP_MAX = 5; // quantas versões manter por liga
 
 function fazerBackup(liga, arquivoOrigem) {
   try {
@@ -236,9 +302,9 @@ function fazerBackup(liga, arquivoOrigem) {
     // Criar pasta de backups se não existir
     if (!fs.existsSync(BACKUP_DIR)) fs.mkdirSync(BACKUP_DIR, { recursive: true });
 
-    const ts        = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
-    const nomeBase  = path.basename(arquivoOrigem, '.js');
-    const destino   = path.join(BACKUP_DIR, `${nomeBase}_${ts}.js`);
+    const ts = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
+    const nomeBase = path.basename(arquivoOrigem, '.js');
+    const destino = path.join(BACKUP_DIR, `${nomeBase}_${ts}.js`);
 
     fs.copyFileSync(arquivoOrigem, destino);
     log(`  💾 Backup salvo: backups/${path.basename(destino)}`, 'info');
@@ -296,7 +362,7 @@ async function extrairTimesTabela(page, liga) {
   try {
     const btnCookie = await page.$('button#onetrust-accept-btn-handler, button.fc-cta-consent');
     if (btnCookie) { await btnCookie.click(); await delay(1000); }
-  } catch (_) {}
+  } catch (_) { }
 
   const times = await page.evaluate(() => {
     const resultado = [];
@@ -308,7 +374,7 @@ async function extrairTimesTabela(page, liga) {
 
     linhas.forEach((linha, idx) => {
       // Posição: primeira célula com número
-      const posEl   = linha.querySelector(
+      const posEl = linha.querySelector(
         '.table__cell--rank, .standings__cell--rank, [class*="rank"], [class*="position"]'
       );
       const posicao = posEl ? parseInt(posEl.innerText?.trim()) : (idx + 1);
@@ -336,8 +402,8 @@ async function extrairTimesTabela(page, liga) {
       if (!resultado.find(t => t.nome === nome)) {
         resultado.push({
           nome,
-          posicao:       isNaN(posicao) ? (idx + 1) : posicao,
-          pontos:        pontos,
+          posicao: isNaN(posicao) ? (idx + 1) : posicao,
+          pontos: pontos,
           urlResultados: href.replace(/\/results\/?$/, '').replace(/\/$/, '') + '/results/'
         });
       }
@@ -452,7 +518,12 @@ async function extrairJogosDoTime(page, time, temporada, filtroCompetição = []
       '.event__header',
       '.wclLeagueHeader',
       '[class*="leagueHeader"]',
-      '[class*="tournamentHeader"]'
+      '[class*="tournamentHeader"]',
+      // FlashScore migrou layout em 2026: páginas de team usam headerLeague (palavra invertida).
+      // IMPORTANTE: usar APENAS o wrapper outer — não os filhos como ".headerLeague__body" ou
+      // "[class*='headerLeague']", pois os sub-elementos têm só fragmentos do texto
+      // ("BRAZIL:", "Standings") que não batem no filtro e DESATIVAM a coleta logo após.
+      '.headerLeague__wrapper'
     ];
 
     const todosEls = document.querySelectorAll(
@@ -479,7 +550,7 @@ async function extrairJogosDoTime(page, time, temporada, filtroCompetição = []
       if (!competicaoAtiva) return;
 
       // Checar data
-      const timeEl  = el.querySelector('.event__time');
+      const timeEl = el.querySelector('.event__time');
       const dataTxt = timeEl?.innerText?.trim() || '';
       const anoMatch = dataTxt.match(/20(\d\d)/);
       if (anoMatch && parseInt('20' + anoMatch[1]) < parseInt(ano)) return;
@@ -498,7 +569,7 @@ async function extrairJogosDoTime(page, time, temporada, filtroCompetição = []
         const nomeVisitante = awayEl?.innerText?.trim().split('\n')[0] || '';
 
         resultado.push({
-          matchId:      elId.replace('g_1_', ''),
+          matchId: elId.replace('g_1_', ''),
           dataTxt,
           nomeMandante,
           nomeVisitante
@@ -535,11 +606,11 @@ async function varrerPorTime(codigoLiga, browserRef, opcoes = {}) {
   console.log('╚══════════════════════════════════════════════════════════╝');
 
   // Carregar histórico existente (deduplicação por match_id)
-  const dadosExist    = carregarHistorico(liga);
-  const idsJaExist    = new Set(
+  const dadosExist = carregarHistorico(liga);
+  const idsJaExist = new Set(
     (dadosExist?.jogos || []).map(j => j.match_id).filter(Boolean)
   );
-  const nomesJaExist  = new Set(
+  const nomesJaExist = new Set(
     (dadosExist?.jogos || []).map(j => `${j.mandante}||${j.visitante}`)
   );
 
@@ -548,7 +619,7 @@ async function varrerPorTime(codigoLiga, browserRef, opcoes = {}) {
   // ── Passo 1: Times da tabela ──
   const page = await browser.newPage();
   const times = await extrairTimesTabela(page, liga);
-  try { await page.close(); } catch (_) {}
+  try { await page.close(); } catch (_) { }
 
   if (times.length === 0) {
     log('Nenhum time encontrado na tabela. Verifique a URL.', 'error');
@@ -569,8 +640,8 @@ async function varrerPorTime(codigoLiga, browserRef, opcoes = {}) {
 
   // ── Passo 2: Coletar match IDs de cada time ──
   console.log('\n  ── Coletando IDs de jogos por time ──');
-  const todosMatchIds  = new Map(); // matchId → dataTxt
-  const timesNaLiga   = new Set(times.map(t => t.nome)); // set para pré-filtro rápido
+  const todosMatchIds = new Map(); // matchId → dataTxt
+  const timesNaLiga = new Set(times.map(t => t.nome)); // set para pré-filtro rápido
   let descartadosCopa = 0;
 
   let pageTimes = await browser.newPage();
@@ -584,7 +655,7 @@ async function varrerPorTime(codigoLiga, browserRef, opcoes = {}) {
         // Elimina jogos de copa (US Open Cup, Libertadores, etc.) SEM buscar stats
         if (nomeMandante && nomeVisitante) {
           const mandOk = timesNaLiga.has(nomeMandante);
-          const visOk  = timesNaLiga.has(nomeVisitante);
+          const visOk = timesNaLiga.has(nomeVisitante);
           if (!mandOk || !visOk) {
             descartadosCopa++;
             return; // skip — time fora da liga → jogo de copa
@@ -597,8 +668,8 @@ async function varrerPorTime(codigoLiga, browserRef, opcoes = {}) {
       // Se o browser crashou, reiniciar e continuar com os times restantes
       if (e.message.includes('Protocol error') || e.message.includes('Connection closed') || e.message.includes('detached Frame') || e.message.includes('Target closed') || e.message.includes('Session closed')) {
         console.log(`  🔄 Browser crashou na coleta — reiniciando...`);
-        try { await pageTimes.close(); } catch (_) {}
-        try { await browser.close(); } catch (_) {}
+        try { await pageTimes.close(); } catch (_) { }
+        try { await browser.close(); } catch (_) { }
         await delay(5000);
         browser = await puppeteer.launch({
           headless: false,
@@ -611,18 +682,30 @@ async function varrerPorTime(codigoLiga, browserRef, opcoes = {}) {
     }
     await delay(3000, 1000);
   }
-  try { await pageTimes.close(); } catch (_) {}
+  try { await pageTimes.close(); } catch (_) { }
 
-  // Filtrar os já existentes
+  // Filtrar os já existentes + identificar jogos SEM PLACAR para reextrair
+  const jogosSemPlacar = new Set(
+    (dadosExist?.jogos || [])
+      .filter(j => !j.placar || j.placar.m == null)
+      .map(j => j.match_id)
+      .filter(Boolean)
+  );
   const idsNovos = [...todosMatchIds.keys()].filter(id => !idsJaExist.has(id));
+  const idsReextrair = [...todosMatchIds.keys()].filter(id => jogosSemPlacar.has(id));
+  const idsTodos = [...new Set([...idsNovos, ...idsReextrair])];
+
   console.log(`\n  IDs únicos encontrados: ${todosMatchIds.size}`);
   console.log(`  ⛔ Descartados (copa):   ${descartadosCopa} (pré-filtro por time — sem buscar stats)`);
   console.log(`  Já no histórico:        ${todosMatchIds.size - idsNovos.length}`);
   console.log(`  Novos para scrape:      ${idsNovos.length}`);
+  if (idsReextrair.length > 0) {
+    console.log(`  🔄 Reextrair (sem placar): ${idsReextrair.length} — serão atualizados com placar de gols`);
+  }
 
-  if (idsNovos.length === 0) {
-    log('Histórico já está completo! Nenhum jogo novo.', 'info');
-    return { liga: codigoLiga, novos: 0, total: dadosExist?.jogos?.length || 0, falhas: 0 };
+  if (idsTodos.length === 0) {
+    log('Histórico completo e todos os jogos têm placar de gols!', 'info');
+    return { liga: codigoLiga, novos: 0, total: dadosExist?.jogos?.length || 0, falhas: 0, _browser: browser };
   }
 
   // ── Passo 3: Scrape de cada jogo novo ──
@@ -636,11 +719,11 @@ async function varrerPorTime(codigoLiga, browserRef, opcoes = {}) {
   let falhas = 0;
   let jogosDesdeRestart = 0;
 
-  for (let i = 0; i < idsNovos.length; i++) {
+  for (let i = 0; i < idsTodos.length; i++) {
     // ── AUTO-RESTART: fechar e reabrir browser a cada LOTE_SIZE jogos ──
     if (jogosDesdeRestart >= LOTE_SIZE) {
       console.log(`\n  🔄 Auto-restart do browser (${jogosDesdeRestart} jogos no lote)...`);
-      try { await browser.close(); } catch (_) {}
+      try { await browser.close(); } catch (_) { }
       await delay(3000);
       browser = await puppeteer.launch({
         headless: false,
@@ -651,15 +734,16 @@ async function varrerPorTime(codigoLiga, browserRef, opcoes = {}) {
       console.log(`  ✅ Browser reiniciado com sucesso\n`);
     }
 
-    const matchId = idsNovos[i];
-    const url     = `https://www.flashscore.com/match/${matchId}/#/match-summary`;
-    console.log(`\n  [${i + 1}/${idsNovos.length}] ${progressBar(i + 1, idsNovos.length)}`);
+    const matchId = idsTodos[i];
+    const isReextracao = idsReextrair.includes(matchId);
+    const url = `https://www.flashscore.com/match/${matchId}/#/match-summary`;
+    console.log(`\n  [${i + 1}/${idsTodos.length}] ${progressBar(i + 1, idsTodos.length)}${isReextracao ? ' 🔄 REEXTRAÇÃO (placar)' : ''}`);
 
     let partida = null;
     for (let t = 0; t < 3; t++) {
       try {
         partida = await fantasma.extrairPartida(url, {
-          liga:        liga.nome,
+          liga: liga.nome,
           codigo_liga: codigoLiga
         });
         if (partida?.estatisticas_ft?.cantos) {
@@ -675,7 +759,7 @@ async function varrerPorTime(codigoLiga, browserRef, opcoes = {}) {
           // Se o erro é de conexão, reiniciar browser imediatamente
           if (e.message.includes('Protocol error') || e.message.includes('Connection closed') || e.message.includes('Target closed') || e.message.includes('Session closed')) {
             console.log(`  🔄 Crash detectado — reiniciando browser...`);
-            try { await browser.close(); } catch (_) {}
+            try { await browser.close(); } catch (_) { }
             await delay(5000);
             browser = await puppeteer.launch({
               headless: false,
@@ -714,18 +798,50 @@ async function varrerPorTime(codigoLiga, browserRef, opcoes = {}) {
     await delay(4000, 1500);
   }
 
-  // ── Passo 4: Mesclar, inferir rodadas, ordenar e salvar ──
+  // ── Passo 4: Mesclar, enriquecer jogos existentes, inferir rodadas e salvar ──
   console.log('');
   log('Mesclando com histórico existente...', 'info');
 
-  const todosJogos = [
-    ...(dadosExist?.jogos || []),
+  // Enriquecer jogos existentes que não têm placar de gols
+  // (jogos coletados antes da adição do campo placar)
+  const jogosExistEnriquecidos = (dadosExist?.jogos || []).map(jExist => {
+    // Se já tem placar, manter
+    if (jExist.placar && jExist.placar.m != null) return jExist;
+    // Verificar se o jogo novo correspondente tem placar
+    const novoCorr = jogosNovos.find(jN =>
+      jN.match_id === jExist.match_id ||
+      (jN.mandante === jExist.mandante && jN.visitante === jExist.visitante)
+    );
+    if (novoCorr && novoCorr.placar) {
+      jExist.placar = novoCorr.placar;
+    }
+    return jExist;
+  });
+
+  let todosJogos = [
+    ...jogosExistEnriquecidos,
     ...jogosNovos
   ];
 
+  if (codigoLiga === 'BR') {
+    const timesLiga = ['Athletico-PR', 'Atlético-MG', 'Bahia', 'Botafogo', 'Chapecoense', 'Corinthians', 'Coritiba', 'Cruzeiro', 'Flamengo', 'Fluminense', 'Grêmio', 'Internacional', 'Mirassol', 'Palmeiras', 'Red Bull Bragantino', 'Remo', 'Santos', 'São Paulo', 'Vasco', 'Vitória'];
+    const norm = (t) => (t || '').toLowerCase().replace(/ rj|-sc| red bull| atlético| grêmio| são paulo/g, '').trim();
+    const mapLiga = timesLiga.map(norm);
+    todosJogos = todosJogos.filter(g => {
+      const m = norm(g.mandante);
+      const v = norm(g.visitante);
+      if (!mapLiga.includes(m) || !mapLiga.includes(v)) return false;
+      let d;
+      if (g.data && g.data.includes('.')) {
+        let p = g.data.split(/[\.\s:]/); d = new Date(p[2], p[1] - 1, p[0]);
+      } else d = new Date(g.data || '2026-01-01');
+      return d >= new Date(2026, 3, 1);
+    });
+  }
+
   // Inferir rodadas por data (do mais antigo ao mais recente)
   const jogosComRodada = inferirRodadas(todosJogos);
-  const maxRodada      = Math.max(...jogosComRodada.map(j => j.rodada || 0), 0);
+  const maxRodada = Math.max(...jogosComRodada.map(j => j.rodada || 0), 0);
 
   const todosOsTimes = [...new Set([
     ...(dadosExist?.times || []),
@@ -733,11 +849,11 @@ async function varrerPorTime(codigoLiga, browserRef, opcoes = {}) {
   ])].sort();
 
   const dadosFinais = {
-    temporada:          dadosExist?.temporada || liga.nome,
-    ultimaAtualizacao:  new Date().toISOString().split('T')[0],
-    totalRodadas:       maxRodada,
-    times:              todosOsTimes,
-    jogos:              jogosComRodada
+    temporada: dadosExist?.temporada || liga.nome,
+    ultimaAtualizacao: new Date().toISOString().split('T')[0],
+    totalRodadas: maxRodada,
+    times: todosOsTimes,
+    jogos: jogosComRodada
   };
 
   console.log('');
@@ -771,8 +887,8 @@ async function varrerPorTime(codigoLiga, browserRef, opcoes = {}) {
 //  CLI
 // ═══════════════════════════════════════════════════
 (async () => {
-  const args      = process.argv.slice(2);
-  const dryRun    = args.includes('--dry-run');
+  const args = process.argv.slice(2);
+  const dryRun = args.includes('--dry-run');
   const todasFlag = args.includes('--todas');
 
   let temporada = String(new Date().getFullYear());
@@ -826,7 +942,7 @@ async function varrerPorTime(codigoLiga, browserRef, opcoes = {}) {
       log(`Erro fatal em ${codigoLiga}: ${err.message}`, 'error');
       console.error(err);
       // Tentar recuperar o browser após erro fatal
-      try { await browser.close(); } catch (_) {}
+      try { await browser.close(); } catch (_) { }
       browser = await puppeteer.launch({
         headless: false,
         args: ['--no-sandbox', '--disable-setuid-sandbox', '--window-size=1366,900']
@@ -838,7 +954,7 @@ async function varrerPorTime(codigoLiga, browserRef, opcoes = {}) {
     }
   }
 
-  try { await browser.close(); } catch (_) {}
+  try { await browser.close(); } catch (_) { }
 
   if (resumo.length > 1) {
     console.log('\n╔════════════════════════════════════╗');

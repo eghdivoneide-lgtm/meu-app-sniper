@@ -1,0 +1,265 @@
+═══════════════════════════════════════════════════════════════════
+  🦢 RELATÓRIO CISNE NEGRO — EDS Soluções Inteligentes
+═══════════════════════════════════════════════════════════════════
+  Liga:     A-League Austrália
+  Data:     2026-04-16 18:05
+  Jogos:    8 jogos da próxima rodada
+  Motor:    Sniper Pro v2 (Bayesian + EWMA + TMI + Poisson)
+═══════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────┐
+│  RESUMO POR JOGO                                              │
+└─────────────────────────────────────────────────────────────────┘
+
+  ── JOGO 1: Melbourne Victory (CASA) vs Newcastle Jets (FORA) ──
+  xCorners FT: 12.65 | HT: 5.06
+  Casa: 9.04 cantos | Fora: 3.61 cantos
+  Confiança: 50.7% | Incerteza: ±3.8
+  Reis dos Cantos: Melbourne Victory (ABSOLUTO) @1.09
+  Sniper: FT=OVER 10 (71.7%) | HT=NEUTRO (56.9%)
+  🎯 BALA DE PRATA: Melbourne Victory (NUCLEAR) @1.09
+  DNA: Melbourne Victory=VOLATIL | Newcastle Jets=MODERADO
+  Jogos analisados: Melbourne Victory=14 | Newcastle Jets=14
+  Mercados FT:
+    🦢 Over 7.5: 93.5% (fair @1.07) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 88.3% (fair @1.13) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 9.5: 81.0% (fair @1.23) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 10.5: 71.7% (fair @1.39) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 11.5: 61.0% (fair @1.64) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 12.5: 49.8% (fair @2.01) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 88.0% (fair @1.14) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 3.5: 74.3% (fair @1.35) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 4.5: 56.9% (fair @1.76) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 5.5: 39.4% (fair @2.54) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 24.6% (fair @4.06) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 2: Wellington Phoenix (CASA) vs WS Wanderers (FORA) ──
+  xCorners FT: 8.51 | HT: 3.8
+  Casa: 3.87 cantos | Fora: 4.64 cantos
+  Confiança: 49.9% | Incerteza: ±4.1
+  Reis dos Cantos: WS Wanderers (MEDIANO) @1.87
+  Sniper: FT=UNDER 10 (23.8%) | HT=UNDER 4 (33.2%)
+  DNA: Wellington Phoenix=VOLATIL | WS Wanderers=VOLATIL
+  Jogos analisados: Wellington Phoenix=13 | WS Wanderers=14
+  Mercados FT:
+    🟡 Over 7.5: 61.6% (fair @1.62) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 8.5: 47.8% (fair @2.09) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 34.8% (fair @2.87) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 23.8% (fair @4.20) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 15.2% (fair @6.57) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 9.2% (fair @10.92) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🟢 Over 2.5: 73.1% (fair @1.37) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 3.5: 52.6% (fair @1.90) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 4.5: 33.2% (fair @3.02) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 18.4% (fair @5.44) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 9.1% (fair @11.04) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 3: Brisbane Roar (CASA) vs Melbourne City (FORA) ──
+  xCorners FT: 9.82 | HT: 4.88
+  Casa: 3.6 cantos | Fora: 6.22 cantos
+  Confiança: 49.9% | Incerteza: ±3.7
+  Reis dos Cantos: Melbourne City (DOMINANTE) @1.33
+  Sniper: FT=UNDER 10 (39.4%) | HT=NEUTRO (53.9%)
+  🎯 BALA DE PRATA: Melbourne City (NUCLEAR) @1.33
+  DNA: Brisbane Roar=VOLATIL | Melbourne City=MODERADO
+  Jogos analisados: Brisbane Roar=13 | Melbourne City=14
+  Mercados FT:
+    🦢 Over 7.5: 76.3% (fair @1.31) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 8.5: 64.6% (fair @1.55) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 9.5: 51.9% (fair @1.93) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 39.4% (fair @2.54) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 28.3% (fair @3.54) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 19.2% (fair @5.22) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 86.5% (fair @1.16) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 3.5: 71.8% (fair @1.39) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 4.5: 53.9% (fair @1.86) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 36.3% (fair @2.75) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 22.1% (fair @4.53) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 4: Sydney FC (CASA) vs Perth Glory (FORA) ──
+  xCorners FT: 9.93 | HT: 4.25
+  Casa: 6.02 cantos | Fora: 3.91 cantos
+  Confiança: 50.7% | Incerteza: ±3.4
+  Reis dos Cantos: Sydney FC (DOMINANTE) @1.44
+  Sniper: FT=UNDER 10 (40.8%) | HT=UNDER 4 (42%)
+  🎯 BALA DE PRATA: Sydney FC (FORTE) @1.44
+  DNA: Sydney FC=VOLATIL | Perth Glory=VOLATIL
+  Jogos analisados: Sydney FC=15 | Perth Glory=14
+  Mercados FT:
+    🦢 Over 7.5: 77.3% (fair @1.29) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 8.5: 65.9% (fair @1.52) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 9.5: 53.3% (fair @1.88) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 40.8% (fair @2.45) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 29.5% (fair @3.39) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 20.2% (fair @4.96) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 79.6% (fair @1.26) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 3.5: 61.4% (fair @1.63) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 4.5: 42.0% (fair @2.38) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 25.5% (fair @3.92) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 13.8% (fair @7.24) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 5: Auckland FC (CASA) vs Central Coast Mariners (FORA) ──
+  xCorners FT: 11.76 | HT: 5.72
+  Casa: 7.71 cantos | Fora: 4.05 cantos
+  Confiança: 50.7% | Incerteza: ±3.3
+  Reis dos Cantos: Auckland FC (ABSOLUTO) @1.21
+  Sniper: FT=OVER 10 (62.7%) | HT=OVER 4 (67.5%)
+  🎯 BALA DE PRATA: Auckland FC (NUCLEAR) @1.21
+  DNA: Auckland FC=VOLATIL | Central Coast Mariners=VOLATIL
+  Jogos analisados: Auckland FC=15 | Central Coast Mariners=14
+  Mercados FT:
+    🦢 Over 7.5: 89.9% (fair @1.11) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 82.8% (fair @1.21) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 9.5: 73.6% (fair @1.36) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 10.5: 62.7% (fair @1.60) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 11.5: 51.0% (fair @1.96) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 39.6% (fair @2.52) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 92.4% (fair @1.08) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 3.5: 82.2% (fair @1.22) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 4.5: 67.5% (fair @1.48) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 5.5: 50.8% (fair @1.97) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 34.8% (fair @2.87) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 6: Adelaide United (CASA) vs Macarthur FC (FORA) ──
+  xCorners FT: 9.2 | HT: 3.54
+  Casa: 5.82 cantos | Fora: 3.38 cantos
+  Confiança: 50.7% | Incerteza: ±3.9
+  Reis dos Cantos: Adelaide United (DOMINANTE) @1.35
+  Sniper: FT=UNDER 10 (31.8%) | HT=UNDER 4 (28.1%)
+  🎯 BALA DE PRATA: Adelaide United (FORTE) @1.35
+  DNA: Adelaide United=VOLATIL | Macarthur FC=VOLATIL
+  Jogos analisados: Adelaide United=14 | Macarthur FC=14
+  Mercados FT:
+    🟢 Over 7.5: 69.9% (fair @1.43) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 8.5: 57.0% (fair @1.75) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 9.5: 43.9% (fair @2.28) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 31.8% (fair @3.15) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 21.7% (fair @4.61) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 13.9% (fair @7.19) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🟢 Over 2.5: 68.6% (fair @1.46) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 3.5: 47.1% (fair @2.12) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 4.5: 28.1% (fair @3.56) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 14.7% (fair @6.80) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 6.8% (fair @14.69) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 7: Macarthur FC (CASA) vs Wellington Phoenix (FORA) ──
+  xCorners FT: 10.73 | HT: 5.23
+  Casa: 6.43 cantos | Fora: 4.3 cantos
+  Confiança: 49.9% | Incerteza: ±3.6
+  Reis dos Cantos: Macarthur FC (DOMINANTE) @1.45
+  Sniper: FT=NEUTRO (50.8%) | HT=OVER 4 (59.9%)
+  🎯 BALA DE PRATA: Macarthur FC (FORTE) @1.45
+  DNA: Macarthur FC=VOLATIL | Wellington Phoenix=VOLATIL
+  Jogos analisados: Macarthur FC=14 | Wellington Phoenix=13
+  Mercados FT:
+    🦢 Over 7.5: 83.9% (fair @1.19) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 8.5: 74.4% (fair @1.34) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 9.5: 63.0% (fair @1.59) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 10.5: 50.8% (fair @1.97) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 38.9% (fair @2.57) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 28.3% (fair @3.54) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 89.4% (fair @1.12) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 3.5: 76.6% (fair @1.31) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 4.5: 59.9% (fair @1.67) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 5.5: 42.5% (fair @2.35) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 27.2% (fair @3.67) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 8: Newcastle Jets (CASA) vs Central Coast Mariners (FORA) ──
+  xCorners FT: 9.03 | HT: 4.26
+  Casa: 5.22 cantos | Fora: 3.81 cantos
+  Confiança: 50.7% | Incerteza: ±2.5
+  Reis dos Cantos: Newcastle Jets (MODERADO) @1.62
+  Sniper: FT=UNDER 10 (29.8%) | HT=NEUTRO (42.2%)
+  🎯 BALA DE PRATA: Newcastle Jets (MODERADA) @1.62
+  DNA: Newcastle Jets=MODERADO | Central Coast Mariners=VOLATIL
+  Jogos analisados: Newcastle Jets=14 | Central Coast Mariners=14
+  Mercados FT:
+    🟢 Over 7.5: 68.0% (fair @1.47) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 8.5: 54.8% (fair @1.82) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 41.7% (fair @2.40) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 29.8% (fair @3.36) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 20.0% (fair @5.00) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 12.6% (fair @7.91) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 79.8% (fair @1.25) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 3.5: 61.6% (fair @1.62) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 4.5: 42.2% (fair @2.37) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 25.7% (fair @3.89) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 14.0% (fair @7.16) — BAIXA CONFIANCA — Evitar este mercado
+
+┌─────────────────────────────────────────────────────────────────┐
+│  🦢 RANKING CISNE NEGRO — MERCADOS POR CONFIANÇA              │
+└─────────────────────────────────────────────────────────────────┘
+
+  🦢🦢🦢 PADRÃO CISNE NEGRO — ALTÍSSIMA CONFIANÇA 🦢🦢🦢
+  ─────────────────────────────────────────────────
+  1. Melbourne Victory vs Newcastle Jets → Over 7.5: 93.5% (fair @1.07) [OVER/UNDER FT]
+  2. Auckland FC vs Central Coast Mariners → Over 2.5 (HT): 92.4% (fair @1.08) [OVER/UNDER HT]
+  3. Auckland FC vs Central Coast Mariners → Over 7.5: 89.9% (fair @1.11) [OVER/UNDER FT]
+  4. Macarthur FC vs Wellington Phoenix → Over 2.5 (HT): 89.4% (fair @1.12) [OVER/UNDER HT]
+  5. Melbourne Victory vs Newcastle Jets → Over 8.5: 88.3% (fair @1.13) [OVER/UNDER FT]
+  6. Melbourne Victory vs Newcastle Jets → Over 2.5 (HT): 88.0% (fair @1.14) [OVER/UNDER HT]
+  7. Brisbane Roar vs Melbourne City → Over 2.5 (HT): 86.5% (fair @1.16) [OVER/UNDER HT]
+  8. Macarthur FC vs Wellington Phoenix → Over 7.5: 83.9% (fair @1.19) [OVER/UNDER FT]
+  9. Auckland FC vs Central Coast Mariners → Over 8.5: 82.8% (fair @1.21) [OVER/UNDER FT]
+  10. Auckland FC vs Central Coast Mariners → Over 3.5 (HT): 82.2% (fair @1.22) [OVER/UNDER HT]
+  11. Melbourne Victory vs Newcastle Jets → Over 9.5: 81.0% (fair @1.23) [OVER/UNDER FT]
+  12. Newcastle Jets vs Central Coast Mariners → Over 2.5 (HT): 79.8% (fair @1.25) [OVER/UNDER HT]
+  13. Sydney FC vs Perth Glory → Over 2.5 (HT): 79.6% (fair @1.26) [OVER/UNDER HT]
+  14. Sydney FC vs Perth Glory → Over 7.5: 77.3% (fair @1.29) [OVER/UNDER FT]
+  15. Macarthur FC vs Wellington Phoenix → Over 3.5 (HT): 76.6% (fair @1.31) [OVER/UNDER HT]
+  16. Brisbane Roar vs Melbourne City → Over 7.5: 76.3% (fair @1.31) [OVER/UNDER FT]
+
+  🟢 ALTA CONFIANÇA — Mercados recomendados
+  ─────────────────────────────────────────────────
+  1. Macarthur FC vs Wellington Phoenix → Over 8.5: 74.4% (fair @1.34) [OVER/UNDER FT]
+  2. Melbourne Victory vs Newcastle Jets → Over 3.5 (HT): 74.3% (fair @1.35) [OVER/UNDER HT]
+  3. Auckland FC vs Central Coast Mariners → Over 9.5: 73.6% (fair @1.36) [OVER/UNDER FT]
+  4. Wellington Phoenix vs WS Wanderers → Over 2.5 (HT): 73.1% (fair @1.37) [OVER/UNDER HT]
+  5. Brisbane Roar vs Melbourne City → Over 3.5 (HT): 71.8% (fair @1.39) [OVER/UNDER HT]
+  6. Melbourne Victory vs Newcastle Jets → SNIPER FT: OVER 10: 71.7% (fair @0.00) [SNIPER]
+  7. Melbourne Victory vs Newcastle Jets → Over 10.5: 71.7% (fair @1.39) [OVER/UNDER FT]
+  8. Adelaide United vs Macarthur FC → Over 7.5: 69.9% (fair @1.43) [OVER/UNDER FT]
+  9. Adelaide United vs Macarthur FC → Over 2.5 (HT): 68.6% (fair @1.46) [OVER/UNDER HT]
+  10. Newcastle Jets vs Central Coast Mariners → Over 7.5: 68.0% (fair @1.47) [OVER/UNDER FT]
+  11. Auckland FC vs Central Coast Mariners → Over 4.5 (HT): 67.5% (fair @1.48) [OVER/UNDER HT]
+  12. Auckland FC vs Central Coast Mariners → SNIPER HT: OVER 4: 67.5% (fair @0.00) [SNIPER]
+  13. Sydney FC vs Perth Glory → Over 8.5: 65.9% (fair @1.52) [OVER/UNDER FT]
+
+  🟡 MÉDIA CONFIANÇA — Cautela recomendada
+  ─────────────────────────────────────────────────
+  1. Brisbane Roar vs Melbourne City → Over 8.5: 64.6% (fair @1.55) [OVER/UNDER FT]
+  2. Macarthur FC vs Wellington Phoenix → Over 9.5: 63.0% (fair @1.59) [OVER/UNDER FT]
+  3. Auckland FC vs Central Coast Mariners → SNIPER FT: OVER 10: 62.7% (fair @0.00) [SNIPER]
+  4. Auckland FC vs Central Coast Mariners → Over 10.5: 62.7% (fair @1.60) [OVER/UNDER FT]
+  5. Newcastle Jets vs Central Coast Mariners → Over 3.5 (HT): 61.6% (fair @1.62) [OVER/UNDER HT]
+  6. Wellington Phoenix vs WS Wanderers → Over 7.5: 61.6% (fair @1.62) [OVER/UNDER FT]
+  7. Sydney FC vs Perth Glory → Over 3.5 (HT): 61.4% (fair @1.63) [OVER/UNDER HT]
+  8. Melbourne Victory vs Newcastle Jets → Over 11.5: 61.0% (fair @1.64) [OVER/UNDER FT]
+  9. Macarthur FC vs Wellington Phoenix → Over 4.5 (HT): 59.9% (fair @1.67) [OVER/UNDER HT]
+  10. Macarthur FC vs Wellington Phoenix → SNIPER HT: OVER 4: 59.9% (fair @0.00) [SNIPER]
+  11. Adelaide United vs Macarthur FC → Over 8.5: 57.0% (fair @1.75) [OVER/UNDER FT]
+  12. Melbourne Victory vs Newcastle Jets → Over 4.5 (HT): 56.9% (fair @1.76) [OVER/UNDER HT]
+
+  🎯 BALAS DE PRATA DA RODADA
+  ─────────────────────────────────────────────────
+  Melbourne Victory vs Newcastle Jets → BALA DE PRATA: Melbourne Victory (NUCLEAR) @1.09
+  Brisbane Roar vs Melbourne City → BALA DE PRATA: Melbourne City (NUCLEAR) @1.33
+  Sydney FC vs Perth Glory → BALA DE PRATA: Sydney FC (FORTE) @1.44
+  Auckland FC vs Central Coast Mariners → BALA DE PRATA: Auckland FC (NUCLEAR) @1.21
+  Adelaide United vs Macarthur FC → BALA DE PRATA: Adelaide United (FORTE) @1.35
+  Macarthur FC vs Wellington Phoenix → BALA DE PRATA: Macarthur FC (FORTE) @1.45
+  Newcastle Jets vs Central Coast Mariners → BALA DE PRATA: Newcastle Jets (MODERADA) @1.62
+
+═══════════════════════════════════════════════════════════════════
+  Gerado automaticamente pelo Agente Nassim Taleb v1.0
+  Motor: Sniper Pro v2 | 2026-04-16 18:05
+  EDS Soluções Inteligentes — Analista Cisne Negro
+═══════════════════════════════════════════════════════════════════

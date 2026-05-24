@@ -1,0 +1,198 @@
+14/04/2026  2:54:34,56 — Inicio da coleta 
+node:internal/modules/cjs/loader:1228
+  throw err;
+  ^
+
+Error: Cannot find module 'playwright'
+Require stack:
+- C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\EDS-Analise-ODDS\especialista-cantos\scraper\buscar_arg_faltando.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\EDS-Analise-ODDS\especialista-cantos\scraper\buscar_arg_faltando.js:10:22)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\egnal\\OneDrive\\Área de Trabalho\\MEU APP\\EDS-Analise-ODDS\\especialista-cantos\\scraper\\buscar_arg_faltando.js'
+  ]
+}
+
+Node.js v22.14.0
+node:internal/modules/cjs/loader:1228
+  throw err;
+  ^
+
+Error: Cannot find module 'playwright'
+Require stack:
+- C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\EDS-Analise-ODDS\especialista-cantos\scraper\buscar_mls_faltando.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\egnal\OneDrive\Área de Trabalho\MEU APP\EDS-Analise-ODDS\especialista-cantos\scraper\buscar_mls_faltando.js:5:22)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\egnal\\OneDrive\\Área de Trabalho\\MEU APP\\EDS-Analise-ODDS\\especialista-cantos\\scraper\\buscar_mls_faltando.js'
+  ]
+}
+
+Node.js v22.14.0
+╔══════════════════════════════════════════════════════╗
+║  🧬 RECALCULAR ESCOTEIRO — Dados Completos          ║
+║  Fonte: Motor V4/V5 com placar REAL do FlashScore   ║
+╚══════════════════════════════════════════════════════╝
+Ligas: BR, MLS, ARG, USL, BUN
+
+  📊 Brasileirão Série A
+     Total jogos: 107
+     Com placar:  107
+     Sem placar:  0
+     Times:       20
+  📂 yaaken-data atualizado: yaaken-data → escoteiro_BR.js
+  📂 yaaken-data atualizado: yaaken-data → escoteiro_BR.js
+
+  🏆 Top 5:
+      1. Palmeiras              | 8V 2E 1D | GP:21 GC:10 | OFENSIVO_SOLIDO
+        → 🏠 Forte em casa (100% vitórias)
+      2. Flamengo               | 6V 2E 2D | GP:18 GC:10 | OFENSIVO_SOLIDO
+        → 🏠 Forte em casa (75% vitórias)
+      3. São Paulo              | 6V 2E 3D | GP:15 GC:9 | EQUILIBRADO
+        → 🏠 Forte em casa (80% vitórias)
+      4. Bahia                  | 6V 2E 2D | GP:15 GC:10 | OFENSIVO
+        → ✈️ Surpreende fora (80% vitórias fora)
+      5. Fluminense             | 6V 2E 3D | GP:18 GC:13 | OFENSIVO
+        → 🏠 Forte em casa (83% vitórias)
+
+  💾 Salvo: escoteiro_BR_2026-04-14.json
+  ✅ 20 times | 107 jogos com placar real
+
+  📊 Major League Soccer
+     Total jogos: 89
+     Com placar:  85
+     Sem placar:  4
+     Times:       30
+  📂 yaaken-data atualizado: yaaken-data → escoteiro_MLS.js
+  📂 yaaken-data atualizado: yaaken-data → escoteiro_MLS.js
+
+  🏆 Top 5:
+      1. Los Angeles FC         | 5V 1E 0D | GP:14 GC:0 | OFENSIVO_SOLIDO
+        → 🏠 Forte em casa (100% vitórias)
+      2. Vancouver Whitecaps    | 5V 0E 1D | GP:17 GC:4 | OFENSIVO_SOLIDO
+        → 🏠 Forte em casa (80% vitórias)
+      3. San Jose Earthquakes   | 5V 0E 1D | GP:10 GC:1 | OFENSIVO
+        → 🏠 Forte em casa (75% vitórias)
+      4. San Diego FC           | 4V 1E 1D | GP:16 GC:6 | OFENSIVO_SOLIDO
+        → 🏠 Forte em casa (100% vitórias)
+      5. Nashville SC           | 4V 1E 1D | GP:13 GC:3 | OFENSIVO_SOLIDO
+        → 🏠 Forte em casa (100% vitórias)
+
+  💾 Salvo: escoteiro_MLS_2026-04-14.json
+  ✅ 30 times | 85 jogos com placar real
+
+  📊 Liga Profesional Argentina
+     Total jogos: 114
+     Com placar:  114
+     Sem placar:  0
+     Times:       30
+  📂 yaaken-data atualizado: yaaken-data → escoteiro_ARG.js
+  📂 yaaken-data atualizado: yaaken-data → escoteiro_ARG.js
+
+  🏆 Top 5:
+      1. River Plate            | 5V 1E 1D | GP:13 GC:4 | OFENSIVO_SOLIDO
+        → 🏠 Forte em casa (100% vitórias)
+      2. Rosario Central        | 5V 1E 2D | GP:10 GC:6 | EQUILIBRADO
+        → 🏠 Forte em casa (75% vitórias)
+      3. Argentinos Jrs         | 4V 3E 0D | GP:10 GC:5 | EQUILIBRADO
+        → ⚖️ Empata muito (43% dos jogos) — empate tem valor
+      4. Boca Juniors           | 3V 5E 0D | GP:9 GC:3 | DEFENSIVO
+        → ⚖️ Empata muito (63% dos jogos) — empate tem valor
+      5. Ind. Rivadavia         | 4V 2E 2D | GP:13 GC:9 | OFENSIVO
+        → ✈️ Surpreende fora (67% vitórias fora)
+
+  💾 Salvo: escoteiro_ARG_2026-04-14.json
+  ✅ 30 times | 114 jogos com placar real
+
+  📊 USL Championship
+     Total jogos: 57
+     Com placar:  57
+     Sem placar:  0
+     Times:       25
+  📂 yaaken-data atualizado: yaaken-data → escoteiro_USL.js
+  📂 yaaken-data atualizado: yaaken-data → escoteiro_USL.js
+
+  🏆 Top 5:
+      1. Tampa Bay              | 4V 0E 0D | GP:8 GC:1 | OFENSIVO_SOLIDO
+        → 🏠 Forte em casa (100% vitórias)
+      2. Louisville City        | 4V 0E 1D | GP:11 GC:6 | OFENSIVO
+        → 🏠 Forte em casa (67% vitórias)
+      3. San Antonio            | 3V 2E 0D | GP:5 GC:1 | DEFENSIVO
+        → ⚖️ Empata muito (40% dos jogos) — empate tem valor
+      4. El Paso                | 3V 1E 0D | GP:10 GC:5 | OFENSIVO
+        → ✈️ Surpreende fora (100% vitórias fora)
+      5. Hartford Athletic      | 2V 3E 0D | GP:7 GC:3 | EQUILIBRADO
+        → ⚖️ Empata muito (60% dos jogos) — empate tem valor
+
+  💾 Salvo: escoteiro_USL_2026-04-14.json
+  ✅ 25 times | 57 jogos com placar real
+
+  📊 Bundesliga
+     Total jogos: 255
+     Com placar:  255
+     Sem placar:  0
+     Times:       18
+  📂 yaaken-data atualizado: yaaken-data → escoteiro_BUN.js
+  📂 yaaken-data atualizado: yaaken-data → escoteiro_BUN.js
+
+  🏆 Top 5:
+      1. Bayern Munich          | 24V 3E 1D | GP:97 GC:27 | OFENSIVO_SOLIDO
+        → 🏠 Forte em casa (86% vitórias)
+      2. Dortmund               | 19V 7E 3D | GP:60 GC:29 | OFENSIVO_SOLIDO
+        → 🏠 Forte em casa (73% vitórias)
+      3. RB Leipzig             | 16V 5E 8D | GP:55 GC:36 | OFENSIVO
+        → 🏠 Forte em casa (64% vitórias)
+      4. Stuttgart              | 16V 5E 7D | GP:56 GC:38 | OFENSIVO
+        → 🏠 Forte em casa (71% vitórias)
+      5. Bayer Leverkusen       | 15V 7E 7D | GP:59 GC:39 | OFENSIVO
+        → ⚽ Muito ofensivo (2.03 gols/jogo)
+
+  💾 Salvo: escoteiro_BUN_2026-04-14.json
+  ✅ 18 times | 255 jogos com placar real
+
+╔══════════════════════════════════════════════════════╗
+║  ✅ RESUMO                                           ║
+║  BR: 20 times | 107 jogos com placar real
+║  MLS: 30 times | 85 jogos com placar real
+║  ARG: 30 times | 114 jogos com placar real
+║  USL: 25 times | 57 jogos com placar real
+║  BUN: 18 times | 255 jogos com placar real
+╚══════════════════════════════════════════════════════╝
+
+🧬 Atualizando dna_escoteiro.js...
+╔══════════════════════════════════════════════════╗
+║  🧬 DNA INTEGRADOR — Escoteiro → Motor Poisson   ║
+╚══════════════════════════════════════════════════╝
+
+  ✅ BR: 20 times | Arquivo: escoteiro_BR_2026-04-14.json
+  ✅ MLS: 30 times | Arquivo: escoteiro_MLS_2026-04-14.json
+  ✅ ARG: 30 times | Arquivo: escoteiro_ARG_2026-04-14.json
+  ✅ USL: 25 times | Arquivo: escoteiro_USL_2026-04-14.json
+  ✅ BUN: 18 times | Arquivo: escoteiro_BUN_2026-04-14.json
+  💾 Salvo: especialista-cantos/data/dna_escoteiro.js
+  💾 Salvo: EDS-ODDS-TEACHER/data/dna_escoteiro.js
+
+══════════════════════════════════════════════════
+  🧬 123 times integrados em 5 ligas
+══════════════════════════════════════════════════
+
+🏁 Recálculo concluído!
+14/04/2026  2:54:35,66 — Fim da coleta 

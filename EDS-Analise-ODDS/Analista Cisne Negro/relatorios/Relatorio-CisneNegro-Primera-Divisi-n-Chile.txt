@@ -1,0 +1,318 @@
+═══════════════════════════════════════════════════════════════════
+  🦢 RELATÓRIO CISNE NEGRO — EDS Soluções Inteligentes
+═══════════════════════════════════════════════════════════════════
+  Liga:     Primera División Chile
+  Data:     2026-04-16 18:05
+  Jogos:    10 jogos da próxima rodada
+  Motor:    Sniper Pro v2 (Bayesian + EWMA + TMI + Poisson)
+═══════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────┐
+│  RESUMO POR JOGO                                              │
+└─────────────────────────────────────────────────────────────────┘
+
+  ── JOGO 1: Limache (CASA) vs U. De Concepcion (FORA) ──
+  xCorners FT: 9.63 | HT: 4.66
+  Casa: 3.42 cantos | Fora: 6.21 cantos
+  Confiança: 47.1% | Incerteza: ±3.2
+  Reis dos Cantos: U. De Concepcion (ABSOLUTO) @1.3
+  Sniper: FT=UNDER 10 (37.1%) | HT=NEUTRO (49.8%)
+  🎯 BALA DE PRATA: U. De Concepcion (NUCLEAR) @1.3
+  DNA: Limache=VOLATIL | U. De Concepcion=VOLATIL
+  Jogos analisados: Limache=9 | U. De Concepcion=9
+  Mercados FT:
+    🟢 Over 7.5: 74.5% (fair @1.34) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 8.5: 62.4% (fair @1.60) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 9.5: 49.5% (fair @2.02) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 37.1% (fair @2.69) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 26.2% (fair @3.81) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 17.5% (fair @5.71) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 84.4% (fair @1.19) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 3.5: 68.4% (fair @1.46) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 4.5: 49.8% (fair @2.01) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 32.5% (fair @3.08) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 19.0% (fair @5.26) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 2: Everton (CASA) vs U. De Chile (FORA) ──
+  xCorners FT: 7.52 | HT: 3.4
+  Casa: 4.64 cantos | Fora: 2.88 cantos
+  Confiança: 47.1% | Incerteza: ±4.3
+  Reis dos Cantos: Everton (DOMINANTE) @1.48
+  Sniper: FT=UNDER 10 (14%) | HT=UNDER 4 (25.5%)
+  🎯 BALA DE PRATA: Everton (FORTE) @1.48
+  DNA: Everton=VOLATIL | U. De Chile=VOLATIL
+  Jogos analisados: Everton=9 | U. De Chile=9
+  Mercados FT:
+    🔴 Over 7.5: 47.9% (fair @2.09) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 8.5: 34.1% (fair @2.93) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 22.6% (fair @4.42) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 14.0% (fair @7.16) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 8.1% (fair @12.42) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 4.3% (fair @23.01) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🟢 Over 2.5: 66.0% (fair @1.52) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 3.5: 44.1% (fair @2.27) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 4.5: 25.5% (fair @3.92) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 12.9% (fair @7.75) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 5.8% (fair @17.36) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 3: D. Concepcion (CASA) vs La Serena (FORA) ──
+  xCorners FT: 11.43 | HT: 6.51
+  Casa: 7.96 cantos | Fora: 3.47 cantos
+  Confiança: 47.1% | Incerteza: ±4.5
+  Reis dos Cantos: D. Concepcion (ABSOLUTO) @1.13
+  Sniper: FT=OVER 10 (59%) | HT=OVER 4 (77.8%)
+  🎯 BALA DE PRATA: D. Concepcion (NUCLEAR) @1.13
+  DNA: D. Concepcion=VOLATIL | La Serena=VOLATIL
+  Jogos analisados: D. Concepcion=9 | La Serena=9
+  Mercados FT:
+    🦢 Over 7.5: 88.2% (fair @1.13) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 80.4% (fair @1.24) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 9.5: 70.4% (fair @1.42) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 10.5: 59.0% (fair @1.70) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 11.5: 47.1% (fair @2.12) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 35.9% (fair @2.79) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 95.7% (fair @1.04) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 3.5: 88.9% (fair @1.12) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 4.5: 77.8% (fair @1.29) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 5.5: 63.3% (fair @1.58) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 6.5: 47.5% (fair @2.10) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 4: Coquimbo (CASA) vs Nublense (FORA) ──
+  xCorners FT: 14.17 | HT: 6.69
+  Casa: 9.6 cantos | Fora: 4.57 cantos
+  Confiança: 46.3% | Incerteza: ±5.0
+  Reis dos Cantos: Coquimbo (ABSOLUTO) @1.12
+  Sniper: FT=OVER 10 (83.5%) | HT=OVER 4 (79.7%)
+  🎯 BALA DE PRATA: Coquimbo (NUCLEAR) @1.12
+  DNA: Coquimbo=VOLATIL | Nublense=VOLATIL
+  Jogos analisados: Coquimbo=8 | Nublense=9
+  Mercados FT:
+    🦢 Over 7.5: 97.1% (fair @1.03) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 94.3% (fair @1.06) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 9.5: 89.9% (fair @1.11) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 10.5: 83.5% (fair @1.20) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 11.5: 75.4% (fair @1.33) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 12.5: 65.8% (fair @1.52) — ALTA CONFIANCA — Mercado recomendado
+  Mercados HT:
+    🦢 Over 2.5: 96.3% (fair @1.04) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 3.5: 90.1% (fair @1.11) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 4.5: 79.7% (fair @1.25) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 5.5: 65.9% (fair @1.52) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 6.5: 50.4% (fair @1.98) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 5: Cobresal (CASA) vs O'Higgins (FORA) ──
+  xCorners FT: 9.37 | HT: 4.29
+  Casa: 4.91 cantos | Fora: 4.46 cantos
+  Confiança: 47.1% | Incerteza: ±2.7
+  Reis dos Cantos: Cobresal (EQUILIBRADO) @2.03
+  Sniper: FT=UNDER 10 (33.9%) | HT=NEUTRO (42.7%)
+  DNA: Cobresal=ESTAVEL | O'Higgins=VOLATIL
+  Jogos analisados: Cobresal=9 | O'Higgins=9
+  Mercados FT:
+    🟢 Over 7.5: 71.8% (fair @1.39) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 8.5: 59.2% (fair @1.69) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 9.5: 46.1% (fair @2.17) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 33.9% (fair @2.95) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 23.4% (fair @4.27) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 15.3% (fair @6.54) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 80.1% (fair @1.25) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 3.5: 62.1% (fair @1.61) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 4.5: 42.7% (fair @2.34) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 26.1% (fair @3.83) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 14.3% (fair @7.00) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 6: Colo Colo (CASA) vs Palestino (FORA) ──
+  xCorners FT: 9.92 | HT: 5.04
+  Casa: 5.49 cantos | Fora: 4.43 cantos
+  Confiança: 46.3% | Incerteza: ±3.1
+  Reis dos Cantos: Colo Colo (MEDIANO) @1.76
+  Sniper: FT=UNDER 10 (40.7%) | HT=NEUTRO (56.6%)
+  DNA: Colo Colo=VOLATIL | Palestino=MODERADO
+  Jogos analisados: Colo Colo=8 | Palestino=9
+  Mercados FT:
+    🦢 Over 7.5: 77.2% (fair @1.29) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 8.5: 65.8% (fair @1.52) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 9.5: 53.2% (fair @1.88) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 40.7% (fair @2.46) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 29.4% (fair @3.40) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 20.1% (fair @4.98) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 87.8% (fair @1.14) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 3.5: 74.0% (fair @1.35) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 4.5: 56.6% (fair @1.77) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 5.5: 39.0% (fair @2.56) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 24.3% (fair @4.12) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 7: Huachipato (CASA) vs A. Italiano (FORA) ──
+  xCorners FT: 9.04 | HT: 4.48
+  Casa: 4.65 cantos | Fora: 4.39 cantos
+  Confiança: 47.1% | Incerteza: ±2.6
+  Reis dos Cantos: Huachipato (EQUILIBRADO) @2.15
+  Sniper: FT=UNDER 10 (29.9%) | HT=NEUTRO (46.4%)
+  DNA: Huachipato=VOLATIL | A. Italiano=MODERADO
+  Jogos analisados: Huachipato=9 | A. Italiano=9
+  Mercados FT:
+    🟢 Over 7.5: 68.1% (fair @1.47) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 8.5: 55.0% (fair @1.82) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 9.5: 41.8% (fair @2.39) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 29.9% (fair @3.34) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 20.1% (fair @4.97) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 12.7% (fair @7.85) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 82.4% (fair @1.21) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 3.5: 65.4% (fair @1.53) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 4.5: 46.4% (fair @2.16) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 29.4% (fair @3.41) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 16.6% (fair @6.01) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 8: U. Catolica (CASA) vs Union La Calera (FORA) ──
+  xCorners FT: 9.59 | HT: 4.77
+  Casa: 3.17 cantos | Fora: 6.43 cantos
+  Confiança: 47.1% | Incerteza: ±4.4
+  Reis dos Cantos: Union La Calera (ABSOLUTO) @1.23
+  Sniper: FT=UNDER 10 (36.6%) | HT=NEUTRO (51.8%)
+  🎯 BALA DE PRATA: Union La Calera (NUCLEAR) @1.23
+  DNA: U. Catolica=VOLATIL | Union La Calera=VOLATIL
+  Jogos analisados: U. Catolica=9 | Union La Calera=9
+  Mercados FT:
+    🟢 Over 7.5: 74.1% (fair @1.35) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 8.5: 62.0% (fair @1.61) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 9.5: 49.0% (fair @2.04) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 36.6% (fair @2.73) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 25.8% (fair @3.88) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 17.2% (fair @5.83) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 85.5% (fair @1.17) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 3.5: 70.1% (fair @1.43) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 4.5: 51.8% (fair @1.93) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 34.4% (fair @2.91) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 20.5% (fair @4.88) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 9: Palestino (CASA) vs D. Concepcion (FORA) ──
+  xCorners FT: 7.94 | HT: 3.95
+  Casa: 4.2 cantos | Fora: 3.74 cantos
+  Confiança: 47.1% | Incerteza: ±3.4
+  Reis dos Cantos: Palestino (EQUILIBRADO) @2.03
+  Sniper: FT=UNDER 10 (17.8%) | HT=UNDER 4 (36.2%)
+  DNA: Palestino=MODERADO | D. Concepcion=VOLATIL
+  Jogos analisados: Palestino=9 | D. Concepcion=9
+  Mercados FT:
+    🔴 Over 7.5: 53.9% (fair @1.86) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 8.5: 39.9% (fair @2.50) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 27.6% (fair @3.62) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 17.8% (fair @5.61) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 10.8% (fair @9.28) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 6.1% (fair @16.38) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 75.5% (fair @1.32) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 3.5: 55.8% (fair @1.79) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 4.5: 36.2% (fair @2.76) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 20.8% (fair @4.81) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 10.6% (fair @9.43) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 10: Union La Calera (CASA) vs Coquimbo (FORA) ──
+  xCorners FT: 11.21 | HT: 5.7
+  Casa: 5.03 cantos | Fora: 6.17 cantos
+  Confiança: 46.3% | Incerteza: ±4.8
+  Reis dos Cantos: Coquimbo (MODERADO) @1.74
+  Sniper: FT=NEUTRO (56.4%) | HT=OVER 4 (67.3%)
+  DNA: Union La Calera=VOLATIL | Coquimbo=VOLATIL
+  Jogos analisados: Union La Calera=9 | Coquimbo=8
+  Mercados FT:
+    🦢 Over 7.5: 87.0% (fair @1.15) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 78.6% (fair @1.27) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 9.5: 68.1% (fair @1.47) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 10.5: 56.4% (fair @1.77) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 11.5: 44.5% (fair @2.25) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 33.4% (fair @2.99) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 92.3% (fair @1.08) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 3.5: 82.0% (fair @1.22) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 4.5: 67.3% (fair @1.49) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 5.5: 50.5% (fair @1.98) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 34.5% (fair @2.89) — BAIXA CONFIANCA — Evitar este mercado
+
+┌─────────────────────────────────────────────────────────────────┐
+│  🦢 RANKING CISNE NEGRO — MERCADOS POR CONFIANÇA              │
+└─────────────────────────────────────────────────────────────────┘
+
+  🦢🦢🦢 PADRÃO CISNE NEGRO — ALTÍSSIMA CONFIANÇA 🦢🦢🦢
+  ─────────────────────────────────────────────────
+  1. Coquimbo vs Nublense → Over 7.5: 97.1% (fair @1.03) [OVER/UNDER FT]
+  2. Coquimbo vs Nublense → Over 2.5 (HT): 96.3% (fair @1.04) [OVER/UNDER HT]
+  3. D. Concepcion vs La Serena → Over 2.5 (HT): 95.7% (fair @1.04) [OVER/UNDER HT]
+  4. Coquimbo vs Nublense → Over 8.5: 94.3% (fair @1.06) [OVER/UNDER FT]
+  5. Union La Calera vs Coquimbo → Over 2.5 (HT): 92.3% (fair @1.08) [OVER/UNDER HT]
+  6. Coquimbo vs Nublense → Over 3.5 (HT): 90.1% (fair @1.11) [OVER/UNDER HT]
+  7. Coquimbo vs Nublense → Over 9.5: 89.9% (fair @1.11) [OVER/UNDER FT]
+  8. D. Concepcion vs La Serena → Over 3.5 (HT): 88.9% (fair @1.12) [OVER/UNDER HT]
+  9. D. Concepcion vs La Serena → Over 7.5: 88.2% (fair @1.13) [OVER/UNDER FT]
+  10. Colo Colo vs Palestino → Over 2.5 (HT): 87.8% (fair @1.14) [OVER/UNDER HT]
+  11. Union La Calera vs Coquimbo → Over 7.5: 87.0% (fair @1.15) [OVER/UNDER FT]
+  12. U. Catolica vs Union La Calera → Over 2.5 (HT): 85.5% (fair @1.17) [OVER/UNDER HT]
+  13. Limache vs U. De Concepcion → Over 2.5 (HT): 84.4% (fair @1.19) [OVER/UNDER HT]
+  14. Coquimbo vs Nublense → Over 10.5: 83.5% (fair @1.20) [OVER/UNDER FT]
+  15. Coquimbo vs Nublense → SNIPER FT: OVER 10: 83.5% (fair @0.00) [SNIPER]
+  16. Huachipato vs A. Italiano → Over 2.5 (HT): 82.4% (fair @1.21) [OVER/UNDER HT]
+  17. Union La Calera vs Coquimbo → Over 3.5 (HT): 82.0% (fair @1.22) [OVER/UNDER HT]
+  18. D. Concepcion vs La Serena → Over 8.5: 80.4% (fair @1.24) [OVER/UNDER FT]
+  19. Cobresal vs O'Higgins → Over 2.5 (HT): 80.1% (fair @1.25) [OVER/UNDER HT]
+  20. Coquimbo vs Nublense → Over 4.5 (HT): 79.7% (fair @1.25) [OVER/UNDER HT]
+  21. Coquimbo vs Nublense → SNIPER HT: OVER 4: 79.7% (fair @0.00) [SNIPER]
+  22. Union La Calera vs Coquimbo → Over 8.5: 78.6% (fair @1.27) [OVER/UNDER FT]
+  23. D. Concepcion vs La Serena → SNIPER HT: OVER 4: 77.8% (fair @0.00) [SNIPER]
+  24. D. Concepcion vs La Serena → Over 4.5 (HT): 77.8% (fair @1.29) [OVER/UNDER HT]
+  25. Colo Colo vs Palestino → Over 7.5: 77.2% (fair @1.29) [OVER/UNDER FT]
+  26. Palestino vs D. Concepcion → Over 2.5 (HT): 75.5% (fair @1.32) [OVER/UNDER HT]
+  27. Coquimbo vs Nublense → Over 11.5: 75.4% (fair @1.33) [OVER/UNDER FT]
+
+  🟢 ALTA CONFIANÇA — Mercados recomendados
+  ─────────────────────────────────────────────────
+  1. Limache vs U. De Concepcion → Over 7.5: 74.5% (fair @1.34) [OVER/UNDER FT]
+  2. U. Catolica vs Union La Calera → Over 7.5: 74.1% (fair @1.35) [OVER/UNDER FT]
+  3. Colo Colo vs Palestino → Over 3.5 (HT): 74.0% (fair @1.35) [OVER/UNDER HT]
+  4. Cobresal vs O'Higgins → Over 7.5: 71.8% (fair @1.39) [OVER/UNDER FT]
+  5. D. Concepcion vs La Serena → Over 9.5: 70.4% (fair @1.42) [OVER/UNDER FT]
+  6. U. Catolica vs Union La Calera → Over 3.5 (HT): 70.1% (fair @1.43) [OVER/UNDER HT]
+  7. Limache vs U. De Concepcion → Over 3.5 (HT): 68.4% (fair @1.46) [OVER/UNDER HT]
+  8. Union La Calera vs Coquimbo → Over 9.5: 68.1% (fair @1.47) [OVER/UNDER FT]
+  9. Huachipato vs A. Italiano → Over 7.5: 68.1% (fair @1.47) [OVER/UNDER FT]
+  10. Union La Calera vs Coquimbo → SNIPER HT: OVER 4: 67.3% (fair @0.00) [SNIPER]
+  11. Union La Calera vs Coquimbo → Over 4.5 (HT): 67.3% (fair @1.49) [OVER/UNDER HT]
+  12. Everton vs U. De Chile → Over 2.5 (HT): 66.0% (fair @1.52) [OVER/UNDER HT]
+  13. Coquimbo vs Nublense → Over 5.5 (HT): 65.9% (fair @1.52) [OVER/UNDER HT]
+  14. Coquimbo vs Nublense → Over 12.5: 65.8% (fair @1.52) [OVER/UNDER FT]
+  15. Colo Colo vs Palestino → Over 8.5: 65.8% (fair @1.52) [OVER/UNDER FT]
+  16. Huachipato vs A. Italiano → Over 3.5 (HT): 65.4% (fair @1.53) [OVER/UNDER HT]
+
+  🟡 MÉDIA CONFIANÇA — Cautela recomendada
+  ─────────────────────────────────────────────────
+  1. D. Concepcion vs La Serena → Over 5.5 (HT): 63.3% (fair @1.58) [OVER/UNDER HT]
+  2. Limache vs U. De Concepcion → Over 8.5: 62.4% (fair @1.60) [OVER/UNDER FT]
+  3. Cobresal vs O'Higgins → Over 3.5 (HT): 62.1% (fair @1.61) [OVER/UNDER HT]
+  4. U. Catolica vs Union La Calera → Over 8.5: 62.0% (fair @1.61) [OVER/UNDER FT]
+  5. Cobresal vs O'Higgins → Over 8.5: 59.2% (fair @1.69) [OVER/UNDER FT]
+  6. D. Concepcion vs La Serena → SNIPER FT: OVER 10: 59.0% (fair @0.00) [SNIPER]
+  7. D. Concepcion vs La Serena → Over 10.5: 59.0% (fair @1.70) [OVER/UNDER FT]
+  8. Colo Colo vs Palestino → Over 4.5 (HT): 56.6% (fair @1.77) [OVER/UNDER HT]
+  9. Union La Calera vs Coquimbo → Over 10.5: 56.4% (fair @1.77) [OVER/UNDER FT]
+  10. Palestino vs D. Concepcion → Over 3.5 (HT): 55.8% (fair @1.79) [OVER/UNDER HT]
+  11. Huachipato vs A. Italiano → Over 8.5: 55.0% (fair @1.82) [OVER/UNDER FT]
+
+  🎯 BALAS DE PRATA DA RODADA
+  ─────────────────────────────────────────────────
+  Limache vs U. De Concepcion → BALA DE PRATA: U. De Concepcion (NUCLEAR) @1.3
+  Everton vs U. De Chile → BALA DE PRATA: Everton (FORTE) @1.48
+  D. Concepcion vs La Serena → BALA DE PRATA: D. Concepcion (NUCLEAR) @1.13
+  Coquimbo vs Nublense → BALA DE PRATA: Coquimbo (NUCLEAR) @1.12
+  U. Catolica vs Union La Calera → BALA DE PRATA: Union La Calera (NUCLEAR) @1.23
+
+═══════════════════════════════════════════════════════════════════
+  Gerado automaticamente pelo Agente Nassim Taleb v1.0
+  Motor: Sniper Pro v2 | 2026-04-16 18:05
+  EDS Soluções Inteligentes — Analista Cisne Negro
+═══════════════════════════════════════════════════════════════════

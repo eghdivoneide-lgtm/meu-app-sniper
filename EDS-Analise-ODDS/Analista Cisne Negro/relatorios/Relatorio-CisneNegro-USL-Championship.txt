@@ -1,0 +1,432 @@
+═══════════════════════════════════════════════════════════════════
+  🦢 RELATÓRIO CISNE NEGRO — EDS Soluções Inteligentes
+═══════════════════════════════════════════════════════════════════
+  Liga:     USL Championship
+  Data:     2026-04-16 18:05
+  Jogos:    15 jogos da próxima rodada
+  Motor:    Sniper Pro v2 (Bayesian + EWMA + TMI + Poisson)
+═══════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────┐
+│  RESUMO POR JOGO                                              │
+└─────────────────────────────────────────────────────────────────┘
+
+  ── JOGO 1: Charleston (CASA) vs Tampa Bay (FORA) ──
+  xCorners FT: 10.38 | HT: 5.29
+  Casa: 3.79 cantos | Fora: 6.59 cantos
+  Confiança: 95% | Incerteza: ±4.3
+  Reis dos Cantos: Tampa Bay (DOMINANTE) @1.31
+  Sniper: FT=NEUTRO (46.4%) | HT=OVER 4 (60.9%)
+  🎯 BALA DE PRATA: Tampa Bay (NUCLEAR) @1.31
+  DNA: Charleston=VOLATIL | Tampa Bay=VOLATIL
+  Jogos analisados: Charleston=5 | Tampa Bay=5
+  Mercados FT:
+    🦢 Over 7.5: 81.2% (fair @1.23) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 8.5: 70.8% (fair @1.41) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 9.5: 58.8% (fair @1.70) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 10.5: 46.4% (fair @2.16) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 34.7% (fair @2.88) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 24.5% (fair @4.07) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 89.8% (fair @1.11) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 3.5: 77.4% (fair @1.29) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 4.5: 60.9% (fair @1.64) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 5.5: 43.5% (fair @2.30) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 28.2% (fair @3.55) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 2: Colorado Springs (CASA) vs Monterey Bay (FORA) ──
+  xCorners FT: 9.72 | HT: 4.49
+  Casa: 5.89 cantos | Fora: 3.84 cantos
+  Confiança: 95% | Incerteza: ±4.1
+  Reis dos Cantos: Colorado Springs (DOMINANTE) @1.45
+  Sniper: FT=UNDER 10 (38.2%) | HT=NEUTRO (46.6%)
+  🎯 BALA DE PRATA: Colorado Springs (FORTE) @1.45
+  DNA: Colorado Springs=MODERADO | Monterey Bay=VOLATIL
+  Jogos analisados: Colorado Springs=5 | Monterey Bay=6
+  Mercados FT:
+    🦢 Over 7.5: 75.4% (fair @1.33) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 8.5: 63.5% (fair @1.57) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 9.5: 50.7% (fair @1.97) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 38.2% (fair @2.62) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 27.2% (fair @3.67) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 18.3% (fair @5.47) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 82.5% (fair @1.21) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 3.5: 65.6% (fair @1.52) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 4.5: 46.6% (fair @2.14) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 29.6% (fair @3.38) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 16.8% (fair @5.96) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 3: Louisville City (CASA) vs Sporting Jax (FORA) ──
+  xCorners FT: 7.77 | HT: 3.72
+  Casa: 6.06 cantos | Fora: 1.72 cantos
+  Confiança: 95% | Incerteza: ±4.3
+  Reis dos Cantos: Louisville City (ABSOLUTO) @1.08
+  Sniper: FT=UNDER 10 (16.2%) | HT=UNDER 4 (31.6%)
+  🎯 BALA DE PRATA: Louisville City (NUCLEAR) @1.08
+  DNA: Louisville City=ESTAVEL | Sporting Jax=VOLATIL
+  Jogos analisados: Louisville City=6 | Sporting Jax=6
+  Mercados FT:
+    🔴 Over 7.5: 51.5% (fair @1.94) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 8.5: 37.6% (fair @2.66) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 25.6% (fair @3.91) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 16.2% (fair @6.16) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 9.6% (fair @10.38) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 5.4% (fair @18.68) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🟢 Over 2.5: 71.7% (fair @1.39) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 3.5: 50.9% (fair @1.96) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 4.5: 31.6% (fair @3.16) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 17.2% (fair @5.80) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 8.3% (fair @12.01) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 4: Hartford Athletic (CASA) vs Loudoun (FORA) ──
+  xCorners FT: 9.25 | HT: 5.14
+  Casa: 4.74 cantos | Fora: 4.51 cantos
+  Confiança: 95% | Incerteza: ±3.2
+  Reis dos Cantos: Hartford Athletic (EQUILIBRADO) @2.16
+  Sniper: FT=UNDER 10 (32.4%) | HT=OVER 4 (58.3%)
+  DNA: Hartford Athletic=VOLATIL | Loudoun=VOLATIL
+  Jogos analisados: Hartford Athletic=6 | Loudoun=5
+  Mercados FT:
+    🟢 Over 7.5: 70.5% (fair @1.42) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 8.5: 57.7% (fair @1.73) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 9.5: 44.6% (fair @2.24) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 32.4% (fair @3.08) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 22.2% (fair @4.50) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 14.3% (fair @6.97) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 88.7% (fair @1.13) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 3.5: 75.4% (fair @1.33) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 4.5: 58.3% (fair @1.71) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 5.5: 40.8% (fair @2.45) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 25.8% (fair @3.87) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 5: Miami FC (CASA) vs Phoenix Rising (FORA) ──
+  xCorners FT: 10.94 | HT: 4.09
+  Casa: 2.72 cantos | Fora: 8.22 cantos
+  Confiança: 95% | Incerteza: ±3.6
+  Reis dos Cantos: Phoenix Rising (ABSOLUTO) @1.06
+  Sniper: FT=NEUTRO (53.3%) | HT=UNDER 4 (38.9%)
+  🎯 BALA DE PRATA: Phoenix Rising (NUCLEAR) @1.06
+  DNA: Miami FC=VOLATIL | Phoenix Rising=VOLATIL
+  Jogos analisados: Miami FC=6 | Phoenix Rising=6
+  Mercados FT:
+    🦢 Over 7.5: 85.3% (fair @1.17) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 76.3% (fair @1.31) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 9.5: 65.3% (fair @1.53) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 10.5: 53.3% (fair @1.88) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 41.4% (fair @2.42) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 30.5% (fair @3.28) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 77.5% (fair @1.29) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 3.5: 58.4% (fair @1.71) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 4.5: 38.9% (fair @2.57) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 23.0% (fair @4.36) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 12.1% (fair @8.30) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 6: Pittsburgh (CASA) vs Detroit (FORA) ──
+  xCorners FT: 8.53 | HT: 4.45
+  Casa: 3.77 cantos | Fora: 4.76 cantos
+  Confiança: 95% | Incerteza: ±4.2
+  Reis dos Cantos: Detroit (MEDIANO) @1.77
+  Sniper: FT=UNDER 10 (24%) | HT=NEUTRO (45.8%)
+  DNA: Pittsburgh=VOLATIL | Detroit=VOLATIL
+  Jogos analisados: Pittsburgh=6 | Detroit=5
+  Mercados FT:
+    🟡 Over 7.5: 61.8% (fair @1.62) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 8.5: 48.1% (fair @2.08) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 35.1% (fair @2.85) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 24.0% (fair @4.17) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 15.4% (fair @6.51) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 9.3% (fair @10.80) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 82.1% (fair @1.22) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 3.5: 64.9% (fair @1.54) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 4.5: 45.8% (fair @2.18) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 28.9% (fair @3.46) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 16.3% (fair @6.15) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 7: El Paso (CASA) vs San Antonio (FORA) ──
+  xCorners FT: 8.65 | HT: 4.86
+  Casa: 3.9 cantos | Fora: 4.75 cantos
+  Confiança: 95% | Incerteza: ±3.5
+  Reis dos Cantos: San Antonio (MEDIANO) @1.83
+  Sniper: FT=UNDER 10 (25.3%) | HT=NEUTRO (53.5%)
+  DNA: El Paso=VOLATIL | San Antonio=VOLATIL
+  Jogos analisados: El Paso=5 | San Antonio=7
+  Mercados FT:
+    🟡 Over 7.5: 63.4% (fair @1.58) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 8.5: 49.7% (fair @2.01) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 36.7% (fair @2.73) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 25.3% (fair @3.95) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 16.4% (fair @6.08) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 10.0% (fair @9.98) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 86.3% (fair @1.16) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 3.5: 71.5% (fair @1.40) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 4.5: 53.5% (fair @1.87) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 36.0% (fair @2.78) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 21.8% (fair @4.59) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 8: Oakland Roots (CASA) vs FC Tulsa (FORA) ──
+  xCorners FT: 6.93 | HT: 2.97
+  Casa: 3.33 cantos | Fora: 3.61 cantos
+  Confiança: 95% | Incerteza: ±3.7
+  Reis dos Cantos: FC Tulsa (EQUILIBRADO) @2.15
+  Sniper: FT=UNDER 10 (9.4%) | HT=UNDER 4 (18%)
+  DNA: Oakland Roots=VOLATIL | FC Tulsa=VOLATIL
+  Jogos analisados: Oakland Roots=5 | FC Tulsa=5
+  Mercados FT:
+    🔴 Over 7.5: 39.1% (fair @2.56) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 8.5: 26.2% (fair @3.81) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 16.3% (fair @6.14) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 9.4% (fair @10.66) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 5.0% (fair @19.85) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 2.5% (fair @39.56) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🟡 Over 2.5: 57.1% (fair @1.75) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 3.5: 34.7% (fair @2.88) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 4.5: 18.0% (fair @5.55) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 8.1% (fair @12.32) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 3.2% (fair @31.10) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 9: Orange County SC (CASA) vs Lexington (FORA) ──
+  xCorners FT: 10.08 | HT: 4.3
+  Casa: 4.3 cantos | Fora: 5.78 cantos
+  Confiança: 95% | Incerteza: ±3.7
+  Reis dos Cantos: Lexington (MODERADO) @1.61
+  Sniper: FT=NEUTRO (42.8%) | HT=NEUTRO (42.9%)
+  🎯 BALA DE PRATA: Lexington (MODERADA) @1.61
+  DNA: Orange County SC=VOLATIL | Lexington=VOLATIL
+  Jogos analisados: Orange County SC=7 | Lexington=6
+  Mercados FT:
+    🦢 Over 7.5: 78.7% (fair @1.27) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 8.5: 67.7% (fair @1.48) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 9.5: 55.3% (fair @1.81) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 10.5: 42.8% (fair @2.34) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 31.3% (fair @3.20) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 21.7% (fair @4.62) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 80.2% (fair @1.25) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 3.5: 62.2% (fair @1.61) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 4.5: 42.9% (fair @2.33) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 26.3% (fair @3.80) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 14.4% (fair @6.95) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 10: Birmingham (CASA) vs Indy Eleven (FORA) ──
+  xCorners FT: 9.38 | HT: 5.52
+  Casa: 3.74 cantos | Fora: 5.63 cantos
+  Confiança: 95% | Incerteza: ±2.1
+  Reis dos Cantos: Indy Eleven (DOMINANTE) @1.48
+  Sniper: FT=UNDER 10 (33.9%) | HT=OVER 4 (64.5%)
+  🎯 BALA DE PRATA: Indy Eleven (FORTE) @1.48
+  DNA: Birmingham=VOLATIL | Indy Eleven=VOLATIL
+  Jogos analisados: Birmingham=5 | Indy Eleven=5
+  Mercados FT:
+    🟢 Over 7.5: 71.8% (fair @1.39) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 8.5: 59.3% (fair @1.69) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 9.5: 46.2% (fair @2.16) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 33.9% (fair @2.95) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 23.5% (fair @4.26) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 15.3% (fair @6.53) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 91.3% (fair @1.10) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 3.5: 80.0% (fair @1.25) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 4.5: 64.5% (fair @1.55) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 5.5: 47.4% (fair @2.11) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 31.7% (fair @3.16) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 11: Brooklyn (CASA) vs Sacramento Republic (FORA) ──
+  xCorners FT: 10.6 | HT: 4.68
+  Casa: 4.72 cantos | Fora: 5.89 cantos
+  Confiança: 95% | Incerteza: ±4.3
+  Reis dos Cantos: Sacramento Republic (MODERADO) @1.72
+  Sniper: FT=NEUTRO (49.2%) | HT=NEUTRO (50.2%)
+  DNA: Brooklyn=VOLATIL | Sacramento Republic=VOLATIL
+  Jogos analisados: Brooklyn=6 | Sacramento Republic=6
+  Mercados FT:
+    🦢 Over 7.5: 82.9% (fair @1.21) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 8.5: 73.1% (fair @1.37) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 9.5: 61.5% (fair @1.63) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 10.5: 49.2% (fair @2.03) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 37.4% (fair @2.68) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 26.9% (fair @3.72) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 84.6% (fair @1.18) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 3.5: 68.7% (fair @1.45) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 4.5: 50.2% (fair @1.99) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 32.8% (fair @3.05) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 19.3% (fair @5.18) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 12: Rhode Island (CASA) vs Charleston (FORA) ──
+  xCorners FT: 12.93 | HT: 5.44
+  Casa: 8.86 cantos | Fora: 4.06 cantos
+  Confiança: 95% | Incerteza: ±3.8
+  Reis dos Cantos: Rhode Island (ABSOLUTO) @1.13
+  Sniper: FT=OVER 10 (74.2%) | HT=OVER 4 (63.3%)
+  🎯 BALA DE PRATA: Rhode Island (NUCLEAR) @1.13
+  DNA: Rhode Island=VOLATIL | Charleston=VOLATIL
+  Jogos analisados: Rhode Island=5 | Charleston=5
+  Mercados FT:
+    🦢 Over 7.5: 94.4% (fair @1.06) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 8.5: 89.7% (fair @1.12) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 9.5: 82.9% (fair @1.21) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟢 Over 10.5: 74.2% (fair @1.35) — ALTA CONFIANCA — Mercado recomendado
+    🟡 Over 11.5: 63.9% (fair @1.56) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 12.5: 52.9% (fair @1.89) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🦢 Over 2.5: 90.8% (fair @1.10) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🦢 Over 3.5: 79.1% (fair @1.26) — ALTISSIMA CONFIANCA — PADRAO CISNE NEGRO
+    🟡 Over 4.5: 63.3% (fair @1.58) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 5.5: 46.0% (fair @2.17) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 30.4% (fair @3.29) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 13: Oakland Roots (CASA) vs Las Vegas Lights (FORA) ──
+  xCorners FT: 7.47 | HT: 3.16
+  Casa: 2.83 cantos | Fora: 4.64 cantos
+  Confiança: 95% | Incerteza: ±3.0
+  Reis dos Cantos: Las Vegas Lights (DOMINANTE) @1.46
+  Sniper: FT=UNDER 10 (13.6%) | HT=UNDER 4 (21.3%)
+  🎯 BALA DE PRATA: Las Vegas Lights (FORTE) @1.46
+  DNA: Oakland Roots=VOLATIL | Las Vegas Lights=MODERADO
+  Jogos analisados: Oakland Roots=5 | Las Vegas Lights=6
+  Mercados FT:
+    🔴 Over 7.5: 47.2% (fair @2.12) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 8.5: 33.4% (fair @2.99) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 22.1% (fair @4.53) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 13.6% (fair @7.38) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 7.8% (fair @12.86) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 4.2% (fair @23.97) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🟡 Over 2.5: 61.2% (fair @1.63) — MEDIA CONFIANCA — Cautela recomendada
+    🔴 Over 3.5: 38.9% (fair @2.57) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 4.5: 21.3% (fair @4.70) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 10.1% (fair @9.89) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 4.2% (fair @23.62) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 14: El Paso (CASA) vs FC Tulsa (FORA) ──
+  xCorners FT: 6.83 | HT: 3.74
+  Casa: 3.23 cantos | Fora: 3.6 cantos
+  Confiança: 95% | Incerteza: ±3.4
+  Reis dos Cantos: FC Tulsa (EQUILIBRADO) @2.09
+  Sniper: FT=UNDER 10 (8.7%) | HT=UNDER 4 (32%)
+  DNA: El Paso=VOLATIL | FC Tulsa=VOLATIL
+  Jogos analisados: El Paso=5 | FC Tulsa=5
+  Mercados FT:
+    🔴 Over 7.5: 37.6% (fair @2.66) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 8.5: 24.9% (fair @4.02) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 15.3% (fair @6.55) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 8.7% (fair @11.51) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 4.6% (fair @21.72) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 2.3% (fair @43.89) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🟢 Over 2.5: 72.0% (fair @1.39) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 3.5: 51.3% (fair @1.95) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 4.5: 32.0% (fair @3.13) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 17.5% (fair @5.72) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 8.5% (fair @11.77) — BAIXA CONFIANCA — Evitar este mercado
+
+  ── JOGO 15: Loudoun (CASA) vs Oakland Roots (FORA) ──
+  xCorners FT: 7.31 | HT: 3.72
+  Casa: 3.73 cantos | Fora: 3.57 cantos
+  Confiança: 95% | Incerteza: ±2.8
+  Reis dos Cantos: Loudoun (EQUILIBRADO) @2.23
+  Sniper: FT=UNDER 10 (12.2%) | HT=UNDER 4 (31.6%)
+  DNA: Loudoun=VOLATIL | Oakland Roots=VOLATIL
+  Jogos analisados: Loudoun=5 | Oakland Roots=5
+  Mercados FT:
+    🔴 Over 7.5: 44.7% (fair @2.24) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 8.5: 31.1% (fair @3.21) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 9.5: 20.2% (fair @4.96) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 10.5: 12.2% (fair @8.22) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 11.5: 6.8% (fair @14.63) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 12.5: 3.6% (fair @27.82) — BAIXA CONFIANCA — Evitar este mercado
+  Mercados HT:
+    🟢 Over 2.5: 71.8% (fair @1.39) — ALTA CONFIANCA — Mercado recomendado
+    🔴 Over 3.5: 51.0% (fair @1.96) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 4.5: 31.6% (fair @3.16) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 5.5: 17.2% (fair @5.80) — BAIXA CONFIANCA — Evitar este mercado
+    🔴 Over 6.5: 8.3% (fair @11.99) — BAIXA CONFIANCA — Evitar este mercado
+
+┌─────────────────────────────────────────────────────────────────┐
+│  🦢 RANKING CISNE NEGRO — MERCADOS POR CONFIANÇA              │
+└─────────────────────────────────────────────────────────────────┘
+
+  🦢🦢🦢 PADRÃO CISNE NEGRO — ALTÍSSIMA CONFIANÇA 🦢🦢🦢
+  ─────────────────────────────────────────────────
+  1. Rhode Island vs Charleston → Over 7.5: 94.4% (fair @1.06) [OVER/UNDER FT]
+  2. Birmingham vs Indy Eleven → Over 2.5 (HT): 91.3% (fair @1.10) [OVER/UNDER HT]
+  3. Rhode Island vs Charleston → Over 2.5 (HT): 90.8% (fair @1.10) [OVER/UNDER HT]
+  4. Charleston vs Tampa Bay → Over 2.5 (HT): 89.8% (fair @1.11) [OVER/UNDER HT]
+  5. Rhode Island vs Charleston → Over 8.5: 89.7% (fair @1.12) [OVER/UNDER FT]
+  6. Hartford Athletic vs Loudoun → Over 2.5 (HT): 88.7% (fair @1.13) [OVER/UNDER HT]
+  7. El Paso vs San Antonio → Over 2.5 (HT): 86.3% (fair @1.16) [OVER/UNDER HT]
+  8. Miami FC vs Phoenix Rising → Over 7.5: 85.3% (fair @1.17) [OVER/UNDER FT]
+  9. Brooklyn vs Sacramento Republic → Over 2.5 (HT): 84.6% (fair @1.18) [OVER/UNDER HT]
+  10. Brooklyn vs Sacramento Republic → Over 7.5: 82.9% (fair @1.21) [OVER/UNDER FT]
+  11. Rhode Island vs Charleston → Over 9.5: 82.9% (fair @1.21) [OVER/UNDER FT]
+  12. Colorado Springs vs Monterey Bay → Over 2.5 (HT): 82.5% (fair @1.21) [OVER/UNDER HT]
+  13. Pittsburgh vs Detroit → Over 2.5 (HT): 82.1% (fair @1.22) [OVER/UNDER HT]
+  14. Charleston vs Tampa Bay → Over 7.5: 81.2% (fair @1.23) [OVER/UNDER FT]
+  15. Orange County SC vs Lexington → Over 2.5 (HT): 80.2% (fair @1.25) [OVER/UNDER HT]
+  16. Birmingham vs Indy Eleven → Over 3.5 (HT): 80.0% (fair @1.25) [OVER/UNDER HT]
+  17. Rhode Island vs Charleston → Over 3.5 (HT): 79.1% (fair @1.26) [OVER/UNDER HT]
+  18. Orange County SC vs Lexington → Over 7.5: 78.7% (fair @1.27) [OVER/UNDER FT]
+  19. Miami FC vs Phoenix Rising → Over 2.5 (HT): 77.5% (fair @1.29) [OVER/UNDER HT]
+  20. Charleston vs Tampa Bay → Over 3.5 (HT): 77.4% (fair @1.29) [OVER/UNDER HT]
+  21. Miami FC vs Phoenix Rising → Over 8.5: 76.3% (fair @1.31) [OVER/UNDER FT]
+  22. Hartford Athletic vs Loudoun → Over 3.5 (HT): 75.4% (fair @1.33) [OVER/UNDER HT]
+  23. Colorado Springs vs Monterey Bay → Over 7.5: 75.4% (fair @1.33) [OVER/UNDER FT]
+
+  🟢 ALTA CONFIANÇA — Mercados recomendados
+  ─────────────────────────────────────────────────
+  1. Rhode Island vs Charleston → SNIPER FT: OVER 10: 74.2% (fair @0.00) [SNIPER]
+  2. Rhode Island vs Charleston → Over 10.5: 74.2% (fair @1.35) [OVER/UNDER FT]
+  3. Brooklyn vs Sacramento Republic → Over 8.5: 73.1% (fair @1.37) [OVER/UNDER FT]
+  4. El Paso vs FC Tulsa → Over 2.5 (HT): 72.0% (fair @1.39) [OVER/UNDER HT]
+  5. Birmingham vs Indy Eleven → Over 7.5: 71.8% (fair @1.39) [OVER/UNDER FT]
+  6. Loudoun vs Oakland Roots → Over 2.5 (HT): 71.8% (fair @1.39) [OVER/UNDER HT]
+  7. Louisville City vs Sporting Jax → Over 2.5 (HT): 71.7% (fair @1.39) [OVER/UNDER HT]
+  8. El Paso vs San Antonio → Over 3.5 (HT): 71.5% (fair @1.40) [OVER/UNDER HT]
+  9. Charleston vs Tampa Bay → Over 8.5: 70.8% (fair @1.41) [OVER/UNDER FT]
+  10. Hartford Athletic vs Loudoun → Over 7.5: 70.5% (fair @1.42) [OVER/UNDER FT]
+  11. Brooklyn vs Sacramento Republic → Over 3.5 (HT): 68.7% (fair @1.45) [OVER/UNDER HT]
+  12. Orange County SC vs Lexington → Over 8.5: 67.7% (fair @1.48) [OVER/UNDER FT]
+  13. Colorado Springs vs Monterey Bay → Over 3.5 (HT): 65.6% (fair @1.52) [OVER/UNDER HT]
+  14. Miami FC vs Phoenix Rising → Over 9.5: 65.3% (fair @1.53) [OVER/UNDER FT]
+
+  🟡 MÉDIA CONFIANÇA — Cautela recomendada
+  ─────────────────────────────────────────────────
+  1. Pittsburgh vs Detroit → Over 3.5 (HT): 64.9% (fair @1.54) [OVER/UNDER HT]
+  2. Birmingham vs Indy Eleven → Over 4.5 (HT): 64.5% (fair @1.55) [OVER/UNDER HT]
+  3. Birmingham vs Indy Eleven → SNIPER HT: OVER 4: 64.5% (fair @0.00) [SNIPER]
+  4. Rhode Island vs Charleston → Over 11.5: 63.9% (fair @1.56) [OVER/UNDER FT]
+  5. Colorado Springs vs Monterey Bay → Over 8.5: 63.5% (fair @1.57) [OVER/UNDER FT]
+  6. El Paso vs San Antonio → Over 7.5: 63.4% (fair @1.58) [OVER/UNDER FT]
+  7. Rhode Island vs Charleston → SNIPER HT: OVER 4: 63.3% (fair @0.00) [SNIPER]
+  8. Rhode Island vs Charleston → Over 4.5 (HT): 63.3% (fair @1.58) [OVER/UNDER HT]
+  9. Orange County SC vs Lexington → Over 3.5 (HT): 62.2% (fair @1.61) [OVER/UNDER HT]
+  10. Pittsburgh vs Detroit → Over 7.5: 61.8% (fair @1.62) [OVER/UNDER FT]
+  11. Brooklyn vs Sacramento Republic → Over 9.5: 61.5% (fair @1.63) [OVER/UNDER FT]
+  12. Oakland Roots vs Las Vegas Lights → Over 2.5 (HT): 61.2% (fair @1.63) [OVER/UNDER HT]
+  13. Charleston vs Tampa Bay → Over 4.5 (HT): 60.9% (fair @1.64) [OVER/UNDER HT]
+  14. Charleston vs Tampa Bay → SNIPER HT: OVER 4: 60.9% (fair @0.00) [SNIPER]
+  15. Birmingham vs Indy Eleven → Over 8.5: 59.3% (fair @1.69) [OVER/UNDER FT]
+
+  🎯 BALAS DE PRATA DA RODADA
+  ─────────────────────────────────────────────────
+  Charleston vs Tampa Bay → BALA DE PRATA: Tampa Bay (NUCLEAR) @1.31
+  Colorado Springs vs Monterey Bay → BALA DE PRATA: Colorado Springs (FORTE) @1.45
+  Louisville City vs Sporting Jax → BALA DE PRATA: Louisville City (NUCLEAR) @1.08
+  Miami FC vs Phoenix Rising → BALA DE PRATA: Phoenix Rising (NUCLEAR) @1.06
+  Orange County SC vs Lexington → BALA DE PRATA: Lexington (MODERADA) @1.61
+  Birmingham vs Indy Eleven → BALA DE PRATA: Indy Eleven (FORTE) @1.48
+  Rhode Island vs Charleston → BALA DE PRATA: Rhode Island (NUCLEAR) @1.13
+  Oakland Roots vs Las Vegas Lights → BALA DE PRATA: Las Vegas Lights (FORTE) @1.46
+
+═══════════════════════════════════════════════════════════════════
+  Gerado automaticamente pelo Agente Nassim Taleb v1.0
+  Motor: Sniper Pro v2 | 2026-04-16 18:05
+  EDS Soluções Inteligentes — Analista Cisne Negro
+═══════════════════════════════════════════════════════════════════

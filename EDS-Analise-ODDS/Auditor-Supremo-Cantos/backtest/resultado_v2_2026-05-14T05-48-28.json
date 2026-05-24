@@ -1,0 +1,272 @@
+{
+  "modo": {
+    "nome": "BACKTEST_F3",
+    "dataLimite": "2026-05-08"
+  },
+  "total": 88,
+  "eliminadosPor": {
+    "F1": 54,
+    "F2": 25,
+    "sem_dados": 0
+  },
+  "aprovadosBrutos": 9,
+  "listaFinal": 14,
+  "acertos": 8,
+  "erros": 6,
+  "semGab": 0,
+  "pctAcerto": 57.1,
+  "porMercado": {
+    "HDP_FT_MANDANTE": {
+      "green": 1,
+      "red": 2
+    },
+    "HDP_FT_VISITANTE": {
+      "green": 2,
+      "red": 2
+    },
+    "UNDER_9_FT": {
+      "green": 5,
+      "red": 2
+    }
+  },
+  "detalhes": [
+    {
+      "liga": "ARG",
+      "mandante": "River Plate",
+      "visitante": "Atl. Tucuman",
+      "mercado": "HDP_FT_MANDANTE",
+      "prob": 88,
+      "real": {
+        "cantos_m": 6,
+        "cantos_v": 1,
+        "total": 7,
+        "dif": 5,
+        "HDP_FT_MANDANTE": true,
+        "HDP_FT_VISITANTE": false,
+        "UNDER_9_FT": true
+      },
+      "acertou": true
+    },
+    {
+      "liga": "ARG",
+      "mandante": "Argentinos Jrs",
+      "visitante": "Lanus",
+      "mercado": "HDP_FT_MANDANTE",
+      "prob": 78,
+      "real": {
+        "cantos_m": 3,
+        "cantos_v": 2,
+        "total": 5,
+        "dif": 1,
+        "HDP_FT_MANDANTE": false,
+        "HDP_FT_VISITANTE": false,
+        "UNDER_9_FT": true
+      },
+      "acertou": false
+    },
+    {
+      "liga": "ARG",
+      "mandante": "Gimnasia L.P.",
+      "visitante": "Argentinos Jrs",
+      "mercado": "HDP_FT_VISITANTE",
+      "prob": 67,
+      "real": {
+        "cantos_m": 3,
+        "cantos_v": 11,
+        "total": 14,
+        "dif": -8,
+        "HDP_FT_MANDANTE": false,
+        "HDP_FT_VISITANTE": true,
+        "UNDER_9_FT": false
+      },
+      "acertou": true
+    },
+    {
+      "liga": "ARG",
+      "mandante": "Estudiantes Rio Cuarto",
+      "visitante": "Instituto",
+      "mercado": "HDP_FT_VISITANTE",
+      "prob": 59,
+      "real": {
+        "cantos_m": 3,
+        "cantos_v": 8,
+        "total": 11,
+        "dif": -5,
+        "HDP_FT_MANDANTE": false,
+        "HDP_FT_VISITANTE": true,
+        "UNDER_9_FT": false
+      },
+      "acertou": true
+    },
+    {
+      "liga": "BR_B",
+      "mandante": "America MG",
+      "visitante": "CRB",
+      "mercado": "HDP_FT_MANDANTE",
+      "prob": 53,
+      "real": {
+        "cantos_m": 3,
+        "cantos_v": 4,
+        "total": 7,
+        "dif": -1,
+        "HDP_FT_MANDANTE": false,
+        "HDP_FT_VISITANTE": false,
+        "UNDER_9_FT": true
+      },
+      "acertou": false
+    },
+    {
+      "liga": "BUN",
+      "mandante": "Augsburg",
+      "visitante": "B. Monchengladbach",
+      "mercado": "HDP_FT_VISITANTE",
+      "prob": 47,
+      "real": {
+        "cantos_m": 2,
+        "cantos_v": 2,
+        "total": 4,
+        "dif": 0,
+        "HDP_FT_MANDANTE": false,
+        "HDP_FT_VISITANTE": false,
+        "UNDER_9_FT": true
+      },
+      "acertou": false
+    },
+    {
+      "liga": "MLS",
+      "mandante": "Austin FC",
+      "visitante": "St. Louis City",
+      "mercado": "HDP_FT_VISITANTE",
+      "prob": 35,
+      "real": {
+        "cantos_m": 4,
+        "cantos_v": 6,
+        "total": 10,
+        "dif": -2,
+        "HDP_FT_MANDANTE": false,
+        "HDP_FT_VISITANTE": false,
+        "UNDER_9_FT": false
+      },
+      "acertou": false
+    },
+    {
+      "liga": "ARG",
+      "mandante": "Racing Club",
+      "visitante": "Huracan",
+      "mercado": "UNDER_9_FT",
+      "prob": 72,
+      "real": {
+        "cantos_m": 6,
+        "cantos_v": 1,
+        "total": 7,
+        "dif": 5,
+        "HDP_FT_MANDANTE": true,
+        "HDP_FT_VISITANTE": false,
+        "UNDER_9_FT": true
+      },
+      "acertou": true
+    },
+    {
+      "liga": "ARG",
+      "mandante": "Argentinos Jrs",
+      "visitante": "Lanus",
+      "mercado": "UNDER_9_FT",
+      "prob": 70,
+      "real": {
+        "cantos_m": 3,
+        "cantos_v": 2,
+        "total": 5,
+        "dif": 1,
+        "HDP_FT_MANDANTE": false,
+        "HDP_FT_VISITANTE": false,
+        "UNDER_9_FT": true
+      },
+      "acertou": true
+    },
+    {
+      "liga": "ARG",
+      "mandante": "River Plate",
+      "visitante": "Atl. Tucuman",
+      "mercado": "UNDER_9_FT",
+      "prob": 70,
+      "real": {
+        "cantos_m": 6,
+        "cantos_v": 1,
+        "total": 7,
+        "dif": 5,
+        "HDP_FT_MANDANTE": true,
+        "HDP_FT_VISITANTE": false,
+        "UNDER_9_FT": true
+      },
+      "acertou": true
+    },
+    {
+      "liga": "ARG",
+      "mandante": "Aldosivi",
+      "visitante": "Ind. Rivadavia",
+      "mercado": "UNDER_9_FT",
+      "prob": 55,
+      "real": {
+        "cantos_m": 5,
+        "cantos_v": 7,
+        "total": 12,
+        "dif": -2,
+        "HDP_FT_MANDANTE": false,
+        "HDP_FT_VISITANTE": false,
+        "UNDER_9_FT": false
+      },
+      "acertou": false
+    },
+    {
+      "liga": "BR_B",
+      "mandante": "America MG",
+      "visitante": "CRB",
+      "mercado": "UNDER_9_FT",
+      "prob": 40,
+      "real": {
+        "cantos_m": 3,
+        "cantos_v": 4,
+        "total": 7,
+        "dif": -1,
+        "HDP_FT_MANDANTE": false,
+        "HDP_FT_VISITANTE": false,
+        "UNDER_9_FT": true
+      },
+      "acertou": true
+    },
+    {
+      "liga": "BUN",
+      "mandante": "Augsburg",
+      "visitante": "B. Monchengladbach",
+      "mercado": "UNDER_9_FT",
+      "prob": 35,
+      "real": {
+        "cantos_m": 2,
+        "cantos_v": 2,
+        "total": 4,
+        "dif": 0,
+        "HDP_FT_MANDANTE": false,
+        "HDP_FT_VISITANTE": false,
+        "UNDER_9_FT": true
+      },
+      "acertou": true
+    },
+    {
+      "liga": "MLS",
+      "mandante": "Austin FC",
+      "visitante": "St. Louis City",
+      "mercado": "UNDER_9_FT",
+      "prob": 17,
+      "real": {
+        "cantos_m": 4,
+        "cantos_v": 6,
+        "total": 10,
+        "dif": -2,
+        "HDP_FT_MANDANTE": false,
+        "HDP_FT_VISITANTE": false,
+        "UNDER_9_FT": false
+      },
+      "acertou": false
+    }
+  ]
+}

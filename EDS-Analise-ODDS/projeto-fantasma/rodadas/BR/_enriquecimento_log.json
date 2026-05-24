@@ -1,0 +1,187 @@
+{
+  "enriquecidos": [
+    {
+      "match_id": "42fbSmRj",
+      "mandante": "Vitória",
+      "visitante": "Remo",
+      "campos": 22,
+      "ts": "2026-05-20T04:01:00.544Z"
+    },
+    {
+      "match_id": "QkMZRvX7",
+      "mandante": "Palmeiras",
+      "visitante": "Vitória",
+      "campos": 22,
+      "ts": "2026-05-20T04:01:28.842Z"
+    },
+    {
+      "match_id": "MaINiPBa",
+      "mandante": "Vitória",
+      "visitante": "Flamengo",
+      "campos": 22,
+      "ts": "2026-05-20T04:01:57.120Z"
+    },
+    {
+      "match_id": "pfccVVaL",
+      "mandante": "Bahia",
+      "visitante": "Vitória",
+      "campos": 22,
+      "ts": "2026-05-20T04:02:28.132Z"
+    },
+    {
+      "match_id": "jTuvv0rg",
+      "mandante": "Vitória",
+      "visitante": "Atlético-MG",
+      "campos": 22,
+      "ts": "2026-05-20T04:02:57.145Z"
+    },
+    {
+      "match_id": "jBn8sZlo",
+      "mandante": "Grêmio",
+      "visitante": "Vitória",
+      "campos": 21,
+      "ts": "2026-05-20T04:03:25.751Z"
+    },
+    {
+      "match_id": "MguU4B2F",
+      "mandante": "Vitória",
+      "visitante": "Mirassol",
+      "campos": 22,
+      "ts": "2026-05-20T04:03:54.425Z"
+    },
+    {
+      "match_id": "bwFhcK06",
+      "mandante": "Cruzeiro",
+      "visitante": "Vitória",
+      "campos": 22,
+      "ts": "2026-05-20T04:04:23.291Z"
+    },
+    {
+      "match_id": "OGAbTrs2",
+      "mandante": "Internacional",
+      "visitante": "Grêmio",
+      "campos": 23,
+      "ts": "2026-05-20T04:04:51.462Z"
+    },
+    {
+      "match_id": "IucBv9k3",
+      "mandante": "Santos",
+      "visitante": "Atlético-MG",
+      "campos": 24,
+      "ts": "2026-05-20T04:05:20.563Z"
+    },
+    {
+      "match_id": "nLlSzRlS",
+      "mandante": "Mirassol",
+      "visitante": "Bahia",
+      "campos": 23,
+      "ts": "2026-05-20T04:05:49.212Z"
+    },
+    {
+      "match_id": "UgXPq4Rr",
+      "mandante": "Remo",
+      "visitante": "Vasco",
+      "campos": 21,
+      "ts": "2026-05-20T04:06:17.998Z"
+    },
+    {
+      "match_id": "CxigkQ3L",
+      "mandante": "Vitória",
+      "visitante": "São Paulo",
+      "campos": 23,
+      "ts": "2026-05-20T04:06:48.074Z"
+    },
+    {
+      "match_id": "E7jKxmKF",
+      "mandante": "Corinthians",
+      "visitante": "Palmeiras",
+      "campos": 24,
+      "ts": "2026-05-20T04:07:17.533Z"
+    },
+    {
+      "match_id": "Gj7jV4Ck",
+      "mandante": "Cruzeiro",
+      "visitante": "Red Bull Bragantino",
+      "campos": 21,
+      "ts": "2026-05-20T04:07:47.502Z"
+    },
+    {
+      "match_id": "UJGGIRSq",
+      "mandante": "Fluminense",
+      "visitante": "Flamengo",
+      "campos": 23,
+      "ts": "2026-05-20T04:08:15.935Z"
+    },
+    {
+      "match_id": "jZ4PG5cd",
+      "mandante": "Botafogo",
+      "visitante": "Coritiba",
+      "campos": 21,
+      "ts": "2026-05-20T04:08:46.521Z"
+    },
+    {
+      "match_id": "4CmoinZ8",
+      "mandante": "Athletico-PR",
+      "visitante": "Chapecoense",
+      "campos": 22,
+      "ts": "2026-05-20T04:09:15.562Z"
+    },
+    {
+      "match_id": "ne5y23mR",
+      "mandante": "Palmeiras",
+      "visitante": "Athletico-PR",
+      "campos": 23,
+      "ts": "2026-05-20T04:09:45.456Z"
+    },
+    {
+      "match_id": "tIQAG22K",
+      "mandante": "Coritiba",
+      "visitante": "Atlético-MG",
+      "campos": 23,
+      "ts": "2026-05-20T04:10:15.245Z"
+    },
+    {
+      "match_id": "QuHS3PIE",
+      "mandante": "Santos",
+      "visitante": "Fluminense",
+      "campos": 22,
+      "ts": "2026-05-20T04:10:43.197Z"
+    },
+    {
+      "match_id": "Q9rOhaAD",
+      "mandante": "Internacional",
+      "visitante": "Mirassol",
+      "campos": 22,
+      "ts": "2026-05-20T04:11:13.349Z"
+    },
+    {
+      "match_id": "hdpGfLu1",
+      "mandante": "Cruzeiro",
+      "visitante": "Grêmio",
+      "campos": 22,
+      "ts": "2026-05-20T04:11:43.220Z"
+    },
+    {
+      "match_id": "drWuBtQs",
+      "mandante": "Vitória",
+      "visitante": "Corinthians",
+      "campos": 22,
+      "ts": "2026-05-20T04:12:13.364Z"
+    },
+    {
+      "match_id": "IcKl9Kff",
+      "mandante": "Chapecoense",
+      "visitante": "Botafogo",
+      "campos": 20,
+      "ts": "2026-05-20T04:12:41.541Z"
+    },
+    {
+      "match_id": "bZOttMQ7",
+      "mandante": "Vasco",
+      "visitante": "São Paulo",
+      "campos": 21,
+      "ts": "2026-05-20T04:13:11.106Z"
+    }
+  ],
+  "falhados": []
+}
