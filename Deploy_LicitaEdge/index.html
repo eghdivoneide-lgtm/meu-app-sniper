@@ -3,11 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>EDS LicitaEdge Pro — EDS Soluções Inteligentes</title>
 <link rel="manifest" href="./manifest-licitaedge.webmanifest">
 <meta name="theme-color" content="#071510">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://unpkg.com/docx@8.5.0/build/index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
 <style>
 /* ============================================================
    EDS LICITAEDGE PRO — DESIGN SYSTEM
@@ -40,7 +45,7 @@
 }
 
 html,body{height:100%;overflow:hidden}
-body{font-family:var(--sans);background:var(--bg);color:var(--t1);display:flex;flex-direction:column;max-width:600px;margin:0 auto;position:relative}
+body{font-family:var(--sans);background:var(--bg);color:var(--t1);display:flex;flex-direction:column;max-width:1200px;margin:0 auto;position:relative}
 
 /* ---- SCROLLBAR ---- */
 ::-webkit-scrollbar{width:3px;height:3px}
@@ -48,7 +53,7 @@ body{font-family:var(--sans);background:var(--bg);color:var(--t1);display:flex;f
 
 /* ---- SETUP SCREEN ---- */
 #setup{
-  position:fixed;inset:0;max-width:600px;margin:0 auto;
+  position:fixed;inset:0;max-width:1200px;margin:0 auto;
   background:var(--bg);z-index:500;
   display:flex;flex-direction:column;align-items:center;
   overflow-y:auto;padding:20px 18px 32px;
@@ -87,6 +92,46 @@ body{font-family:var(--sans);background:var(--bg);color:var(--t1);display:flex;f
 .s-note{margin-top:9px;background:var(--bg2);border-radius:var(--r-sm);padding:9px 12px;border:1px solid var(--b1)}
 .s-note p{font-size:10px;color:var(--t3);line-height:1.8}
 .s-note a{color:var(--gold);text-decoration:none;font-weight:600}
+
+/* ---- SETUP: headline de valor ---- */
+.setup-value{text-align:center;max-width:360px;margin:-6px auto 16px;font-size:15px;font-weight:700;color:var(--t1);line-height:1.45;letter-spacing:-.2px}
+.setup-value b{color:var(--gold);font-weight:800}
+.setup-value .sv-sub{display:block;margin-top:7px;font-size:11px;font-weight:500;color:var(--t2);letter-spacing:.2px;line-height:1.5}
+
+/* ---- SETUP: preview do produto (mock) ---- */
+.setup-preview{width:100%;background:linear-gradient(180deg,var(--card2),var(--card));border:1px solid var(--b2);border-radius:var(--r-lg);padding:10px;margin-bottom:14px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.35);animation:fadeUp .3s ease}
+.spv-bar{display:flex;align-items:center;gap:5px;padding:1px 2px 8px;border-bottom:1px solid var(--b1);margin-bottom:9px}
+.spv-dot{width:7px;height:7px;border-radius:50%;background:var(--b3)}
+.spv-dot.g{background:var(--gold)}
+.spv-title{margin-left:6px;font-size:9px;font-weight:700;color:var(--gold);letter-spacing:1px;text-transform:uppercase}
+.spv-live{margin-left:auto;display:flex;align-items:center;gap:4px;font-size:8px;font-weight:700;color:var(--green);letter-spacing:.5px}
+.spv-live i{width:5px;height:5px;border-radius:50%;background:var(--green);display:inline-block;animation:pulse 2s infinite}
+.spv-grid{display:grid;grid-template-columns:1.45fr 1fr;gap:8px}
+.spv-rows{display:flex;flex-direction:column;gap:6px}
+.spv-row{display:flex;align-items:center;gap:7px;background:var(--bg2);border:1px solid var(--b1);border-radius:var(--r-sm);padding:6px 8px}
+.spv-ic{font-size:11px;flex-shrink:0}
+.spv-tx{flex:1;min-width:0}
+.spv-l1{height:5px;width:72%;background:var(--b3);border-radius:3px;margin-bottom:4px}
+.spv-l2{height:4px;width:46%;background:var(--b2);border-radius:3px}
+.spv-tag{font-size:7px;font-weight:800;padding:2px 5px;border-radius:20px;letter-spacing:.4px;white-space:nowrap;flex-shrink:0}
+.spv-tag.win{background:var(--green-bg);color:var(--green)}
+.spv-tag.due{background:var(--gold-bg2);color:var(--gold)}
+.spv-stats{display:flex;flex-direction:column;gap:6px}
+.spv-stat{background:var(--bg2);border:1px solid var(--b1);border-radius:var(--r-sm);padding:7px 8px}
+.spv-num{font-size:16px;font-weight:800;color:var(--gold);line-height:1}
+.spv-num.green{color:var(--green)}
+.spv-cap{font-size:7px;font-weight:600;color:var(--t2);letter-spacing:.4px;text-transform:uppercase;margin-top:3px}
+.spv-caption{text-align:center;font-size:9px;color:var(--t3);letter-spacing:.5px;margin-top:9px}
+
+/* ---- SETUP: indicadores de obrigatório/opcional ---- */
+.s-sec .s-opt{float:right;margin-top:-2px;font-size:8px;font-weight:700;color:var(--t2);letter-spacing:.4px;background:var(--bg2);border:1px solid var(--b1);border-radius:20px;padding:2px 8px;text-transform:none}
+.s-req{color:var(--red);font-weight:800;margin-left:2px}
+.s-legend{font-size:9px;color:var(--t3);text-align:center;margin-top:11px;letter-spacing:.3px;line-height:1.6}
+.s-legend b{color:var(--red);font-weight:800}
+
+/* ---- SETUP: botão demo secundário (hierarquia clara) ---- */
+#btn-demo{width:100%;padding:9px;background:transparent;border:none;color:var(--t2);font-size:11px;font-weight:600;cursor:pointer;font-family:var(--sans);letter-spacing:.3px;margin-top:10px;transition:color .2s;text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--b3)}
+#btn-demo:hover{color:var(--gold);text-decoration-color:var(--gold)}
 
 /* ============================================================
    APP SHELL
@@ -213,6 +258,105 @@ textarea::placeholder{color:var(--t4)}
 #sbtn{width:38px;height:38px;border-radius:var(--r-sm);border:none;background:var(--gold);color:#000;font-size:14px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:opacity .2s;font-weight:800}
 #sbtn:disabled{background:var(--b2);cursor:default;color:var(--t3)}
 #pdf-in,#cam-in{display:none}
+
+/* ============================================================
+   CHATBOT WIDGET FLUTUANTE
+   ============================================================ */
+#chat-bubble{
+  position:fixed;bottom:20px;right:20px;width:60px;height:60px;
+  background:linear-gradient(135deg,var(--gold),var(--gold3));
+  border-radius:50%;display:flex;align-items:center;justify-content:center;
+  cursor:pointer;box-shadow:0 8px 25px rgba(201,168,76,0.35);
+  z-index:900;transition:transform .2s;
+}
+#chat-bubble:hover{transform:scale(1.1)}
+#chat-bubble svg{width:28px;height:28px}
+#chat-bubble .notif-dot{
+  position:absolute;top:4px;right:4px;width:12px;height:12px;
+  background:var(--red);border-radius:50%;border:2px solid var(--bg);
+  display:none;
+}
+#chat-drawer{
+  position:fixed;bottom:90px;right:20px;width:400px;height:580px;max-height:82vh;max-width:93vw;
+  background:var(--bg);border:1px solid var(--b2);border-radius:16px;
+  box-shadow:0 15px 50px rgba(0,0,0,0.6);z-index:901;
+  display:flex;flex-direction:column;overflow:hidden;
+  transform:translateY(20px);opacity:0;pointer-events:none;
+  transition:all .35s cubic-bezier(0.175,0.885,0.32,1.275);
+}
+#chat-drawer.open{transform:translateY(0);opacity:1;pointer-events:auto}
+#chat-drawer.fullscreen{
+  top:0!important;left:0!important;right:0!important;bottom:0!important;
+  width:100vw!important;height:100vh!important;max-height:100vh!important;max-width:100vw!important;
+  border-radius:0!important;border:none!important;margin:0!important;
+}
+.chat-drawer-header{
+  background:linear-gradient(135deg,#0d2a18 0%,#071510 100%);
+  padding:12px 14px;display:flex;justify-content:space-between;align-items:center;
+  border-bottom:1px solid var(--b2);flex-shrink:0;
+}
+.chat-drawer-title{display:flex;align-items:center;gap:8px;font-weight:700;font-size:13px;color:var(--gold)}
+.chat-drawer-title svg{width:22px;height:24px;flex-shrink:0}
+.chat-drawer-actions{display:flex;gap:4px}
+.chat-drawer-btn{
+  background:transparent;border:1px solid var(--b2);color:var(--t2);cursor:pointer;
+  font-size:14px;width:30px;height:30px;border-radius:var(--r-sm);
+  display:flex;align-items:center;justify-content:center;transition:all .15s;
+}
+.chat-drawer-btn:hover{background:var(--gold-bg);border-color:var(--gold3);color:var(--gold)}
+@media(max-width:500px){
+  #chat-drawer{right:8px;left:8px;bottom:85px;width:auto;max-width:none;height:75vh}
+  #chat-bubble{bottom:16px;right:16px;width:54px;height:54px}
+}
+
+/* ---- DESKTOP: aproveitar espaço ---- */
+@media(min-width:700px){
+  .kpi-grid{grid-template-columns:repeat(4,1fr)!important;gap:10px!important}
+  .doc-grid{grid-template-columns:repeat(3,1fr)!important;gap:10px!important}
+  .an-kpi-grid{grid-template-columns:repeat(4,1fr)!important;gap:10px!important}
+  .check-summary{grid-template-columns:repeat(3,1fr)!important;gap:10px!important}
+  .calc-grid{grid-template-columns:1fr 1fr 1fr!important;gap:10px!important}
+  .g2{grid-template-columns:1fr 1fr!important}
+  .p-cols{gap:12px!important}
+  .pipeline-wrap,.docs-wrap,.check-wrap,.calc-wrap{padding:16px 20px!important}
+  .tabbar{justify-content:center;gap:4px}
+  .tab-btn{padding:10px 18px!important;font-size:10px!important}
+  .topbar{padding:10px 20px!important}
+  .app-actions{padding:9px 20px!important}
+  .app-act-btn{padding:7px 14px!important;font-size:11px!important}
+  .cert-group{padding:10px 14px!important}
+  .bbl{max-width:70%!important;font-size:13px!important}
+  .quick-bar{padding:8px 14px!important}
+}
+@media(min-width:1000px){
+  .doc-grid{grid-template-columns:repeat(3,1fr)!important}
+  .an-kpi-grid{grid-template-columns:repeat(4,1fr)!important}
+  .calc-grid{grid-template-columns:repeat(4,1fr)!important}
+  .p-cols{flex-wrap:wrap!important}
+}
+
+/* ============================================================
+   APP ACTIONS BAR (ações rápidas na interface)
+   ============================================================ */
+.app-actions{
+  background:var(--bg2);padding:7px 10px;border-bottom:1px solid var(--b1);flex-shrink:0;
+}
+.app-actions-scroll{
+  display:flex;gap:5px;overflow-x:auto;scrollbar-width:none;
+}
+.app-actions-scroll::-webkit-scrollbar{display:none}
+.app-act-btn{
+  background:var(--card);border:1px solid var(--b2);border-radius:var(--r-sm);
+  color:var(--t2);font-size:10px;padding:6px 10px;cursor:pointer;white-space:nowrap;
+  font-family:var(--sans);font-weight:600;transition:all .15s;
+  display:flex;align-items:center;gap:4px;flex-shrink:0;
+}
+.app-act-btn:hover{background:var(--gold-bg);border-color:var(--gold3);color:var(--gold)}
+.app-act-btn.primary{
+  background:linear-gradient(135deg,rgba(201,168,76,0.15),rgba(201,168,76,0.05));
+  border-color:var(--gold3);color:var(--gold);
+}
+.app-act-btn.primary:hover{background:var(--gold-bg2);border-color:var(--gold)}
 
 /* ============================================================
    PANEL: PIPELINE
@@ -412,8 +556,7 @@ textarea::placeholder{color:var(--t4)}
 </style>
 </head>
 <body>
-<!-- Script para puxar a chave externa -->
-<script src="./config-chave.js"></script>
+<!-- Chave API armazenada apenas no localStorage do dispositivo do usuário -->
 <!-- ============================================================
      SETUP
      ============================================================ -->
@@ -436,8 +579,45 @@ textarea::placeholder{color:var(--t4)}
     <div class="setup-tagline">Plataforma de Inteligência Licitatória</div>
   </div>
 
+  <div class="setup-value">
+    Configure uma vez. <b>Ganhe licitações com inteligência.</b>
+    <span class="sv-sub">Análise de editais, controle de prazos, documentos prontos e formação de preço — tudo num só lugar.</span>
+  </div>
+
+  <div class="setup-preview" aria-hidden="true">
+    <div class="spv-bar">
+      <span class="spv-dot"></span><span class="spv-dot"></span><span class="spv-dot g"></span>
+      <span class="spv-title">Pipeline &amp; Analytics</span>
+      <span class="spv-live"><i></i> AO VIVO</span>
+    </div>
+    <div class="spv-grid">
+      <div class="spv-rows">
+        <div class="spv-row">
+          <span class="spv-ic">📋</span>
+          <span class="spv-tx"><div class="spv-l1"></div><div class="spv-l2"></div></span>
+          <span class="spv-tag win">VENCEU</span>
+        </div>
+        <div class="spv-row">
+          <span class="spv-ic">⏰</span>
+          <span class="spv-tx"><div class="spv-l1"></div><div class="spv-l2"></div></span>
+          <span class="spv-tag due">PRAZO 2D</span>
+        </div>
+        <div class="spv-row">
+          <span class="spv-ic">📝</span>
+          <span class="spv-tx"><div class="spv-l1"></div><div class="spv-l2"></div></span>
+          <span class="spv-tag due">EM ANÁLISE</span>
+        </div>
+      </div>
+      <div class="spv-stats">
+        <div class="spv-stat"><div class="spv-num green">68%</div><div class="spv-cap">Taxa de vitória</div></div>
+        <div class="spv-stat"><div class="spv-num">R$ 240k</div><div class="spv-cap">ROI estimado</div></div>
+      </div>
+    </div>
+    <div class="spv-caption">Prévia ilustrativa — seu painel após a ativação</div>
+  </div>
+
   <div class="s-card">
-    <div class="s-sec">🏢 Perfil da empresa</div>
+    <div class="s-sec">🏢 Perfil da empresa <span class="s-opt">Opcional · personaliza a IA</span></div>
     <div class="s-field"><label>Razão Social</label><input id="s-razao" type="text" placeholder="Ex: Distribuidora Sertão Norte Ltda"/></div>
     <div class="g2">
       <div class="s-field"><label>CNPJ</label><input id="s-cnpj" type="text" placeholder="00.000.000/0001-00"/></div>
@@ -494,9 +674,11 @@ textarea::placeholder{color:var(--t4)}
   </div>
 
   <div class="s-card">
-    <div class="s-sec">🔑 Acesso à IA</div>
-    <div class="s-field"><label>Chave de API Google Gemini</label><input id="s-key" type="password" placeholder="AIzaSy..."/></div>
+    <div class="s-sec">🔑 Acesso à IA <span class="s-opt">Obrigatório</span></div>
+    <div class="s-field"><label>Chave de API Google Gemini <span class="s-req">*</span></label><input id="s-key" type="password" placeholder="AIzaSy..."/></div>
     <button id="btn-start" onclick="startApp()">🛡️ Ativar EDS LicitaEdge Pro</button>
+    <div class="s-legend"><b>*</b> Único campo obrigatório para ativar. O perfil da empresa pode ser preenchido agora ou depois.</div>
+    <button id="btn-demo" onclick="startDemo()">🎯 Experimentar modo demonstração</button>
     <div class="s-note">
       <p>🔑 Obtenha sua chave gratuita em <a href="https://aistudio.google.com/app/apikey" target="_blank">aistudio.google.com</a>.<br>
       🔒 Todos os dados ficam exclusivamente neste dispositivo. Nenhuma informação é enviada a terceiros além do Google para processamento da IA.<br>
@@ -529,6 +711,7 @@ textarea::placeholder{color:var(--t4)}
       <button onclick="openBackup()" style="background:var(--card2);border:1px solid var(--b2);color:var(--gold);padding:4px 8px;border-radius:4px;font-size:10px;cursor:pointer;font-family:var(--sans);font-weight:700">Backup</button>
       <div class="online-dot"></div>
       <span class="topbar-badge">ONLINE</span>
+      <button onclick="logoutApp()" title="Encerrar sessão" style="background:var(--card2);border:1px solid var(--b2);color:#e06a6a;padding:4px 8px;border-radius:4px;font-size:10px;cursor:pointer;font-family:var(--sans);font-weight:700">⎋ Sair</button>
     </div>
   </div>
 
@@ -540,59 +723,37 @@ textarea::placeholder{color:var(--t4)}
 
   <!-- Tabbar -->
   <div class="tabbar">
-    <button class="tab-btn on" onclick="showTab('chat')">💬 Assistente</button>
-    <button class="tab-btn" onclick="showTab('pipeline')">📋 Pipeline</button>
+    <button class="tab-btn on" onclick="showTab('pipeline')">📋 Pipeline</button>
     <button class="tab-btn" onclick="showTab('docs')">📝 Documentos</button>
     <button class="tab-btn" onclick="showTab('check')">✅ Habilitação</button>
     <button class="tab-btn" onclick="showTab('calc')">💰 Preço</button>
     <button class="tab-btn" onclick="showTab('an')">📊 Analytics</button>
   </div>
 
+  <!-- Ações Rápidas do App -->
+  <div class="app-actions">
+    <div class="app-actions-scroll">
+      <button class="app-act-btn primary" onclick="document.getElementById('app-pdf-in').click()">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" width="14" height="14"><rect x="2" y="1" width="10" height="14" rx="2"/><line x1="5" y1="5" x2="9" y2="5"/><line x1="5" y1="8" x2="9" y2="8"/><line x1="5" y1="11" x2="7" y2="11"/></svg>
+        Analisar Edital (PDF)
+      </button>
+      <button class="app-act-btn" onclick="appQuickAction('Preciso analisar um edital. Identifique habilitação, prazos, possíveis restrições e me dê um score de viabilidade.')">📋 Análise</button>
+      <button class="app-act-btn" onclick="appQuickAction('Como montar estratégia de lance vencedora para pregão eletrônico? Considere meu regime e porte.')">💰 Estratégia</button>
+      <button class="app-act-btn" onclick="appQuickAction('Liste todos os documentos de habilitação que preciso ter atualizados.')">📁 Habilitação</button>
+      <button class="app-act-btn" onclick="appQuickAction('Como identificar e impugnar cláusulas restritivas? Prazo, forma, artigos.')">⚠️ Impugnar</button>
+      <button class="app-act-btn" onclick="appQuickAction('Oriente como estruturar recurso administrativo eficaz com base na Lei 14.133/2021.')">🛡️ Recurso</button>
+      <button class="app-act-btn" onclick="appQuickAction('Quais benefícios da LC 123/2006 posso usar?')">🏅 ME/EPP</button>
+      <button class="app-act-btn" onclick="appQuickAction('Como calcular BDI correto e encargos para formação de preço?')">🧮 BDI</button>
+      <button class="app-act-btn" onclick="appQuickAction('Me dê um resumo completo: processos, certidões, prazos e recomendações.')">📊 Panorama</button>
+    </div>
+  </div>
+  <input type="file" id="app-pdf-in" accept=".pdf,application/pdf" style="display:none" onchange="handleAppPdf(event)"/>
+
   <!-- Content -->
   <div class="content">
 
-    <!-- ---- CHAT ---- -->
-    <div class="panel on" id="panel-chat">
-      <div class="quick-bar">
-        <button class="qbtn" onclick="qs('Preciso analisar um edital. Identifique habilitação, prazos, possíveis restrições e me dê um score de viabilidade.')">📋 Analisar edital</button>
-        <button class="qbtn" onclick="qs('Como montar estratégia de lance vencedora para pregão eletrônico? Considere meu regime e porte.')">💰 Estratégia lance</button>
-        <button class="qbtn" onclick="qs('Liste todos os documentos de habilitação que preciso ter atualizados para licitações federais, estaduais e municipais.')">📁 Habilitação</button>
-        <button class="qbtn" onclick="qs('Como identificar e impugnar cláusulas restritivas? Prazo, forma, artigos aplicáveis.')">⚠️ Impugnar edital</button>
-        <button class="qbtn" onclick="qs('Fui desclassificado/inabilitado. Oriente como estruturar recurso administrativo eficaz com base na Lei 14.133/2021.')">🛡️ Recurso</button>
-        <button class="qbtn" onclick="qs('Quais benefícios da LC 123/2006 posso usar? Empate ficto, cota exclusiva, regularização na sessão.')">🏅 ME/EPP</button>
-        <button class="qbtn" onclick="qs('Como calcular BDI correto e encargos para formação de preço em licitação pública?')">🧮 BDI/Encargos</button>
-        <button class="qbtn" onclick="qs('Como solicitar reequilíbrio econômico-financeiro no contrato? Artigos e procedimento.')">⚖️ Reequilíbrio</button>
-      </div>
-      <div class="msgs" id="msgs">
-        <div class="sess-badge"><span>EDS LICITAEDGE PRO — SESSÃO INICIADA</span></div>
-      </div>
-      <div class="inp-area">
-        <div class="att-bar">
-          <button class="att-btn" onclick="document.getElementById('pdf-in').click()">
-            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="2" y="1" width="10" height="14" rx="2"/><line x1="5" y1="5" x2="9" y2="5"/><line x1="5" y1="8" x2="9" y2="8"/><line x1="5" y1="11" x2="7" y2="11"/></svg>
-            Anexar PDF
-          </button>
-          <button class="att-btn" onclick="openCam()">
-            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="14" height="10" rx="2"/><circle cx="8" cy="9" r="3"/><path d="M5 4l1-2h4l1 2"/></svg>
-            Câmera
-          </button>
-          <button class="att-btn" onclick="document.getElementById('cam-in').click()">
-            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="1" y="2" width="14" height="12" rx="2"/><circle cx="8" cy="8" r="3"/></svg>
-            Galeria
-          </button>
-        </div>
-        <div class="att-chips" id="att-chips"></div>
-        <div class="inp-row">
-          <div class="inp-box">
-            <textarea id="inp" rows="1" placeholder="Consulte sobre edital, estratégia, habilitação, preço..." onkeydown="hkey(event)" oninput="arz(this)"></textarea>
-          </div>
-          <button id="sbtn" onclick="sendMsg()">➤</button>
-        </div>
-      </div>
-    </div>
-
     <!-- ---- PIPELINE ---- -->
-    <div class="panel" id="panel-pipeline">
+    <div class="panel on" id="panel-pipeline">
       <div class="pipeline-wrap">
         <div class="kpi-grid">
           <div class="kpi"><div class="kpi-v cyan" id="kpi-tot">0</div><div class="kpi-l">Pipeline</div></div>
@@ -624,7 +785,7 @@ textarea::placeholder{color:var(--t4)}
             <div class="doc-output-title" id="doc-result-title">Documento gerado</div>
             <div class="doc-text" id="doc-result-text"></div>
             <div class="doc-btns">
-              <button class="doc-btn primary" onclick="downloadDoc()">⬇ Baixar .txt</button>
+              <button class="doc-btn primary" onclick="downloadDocx()">⬇ Baixar .docx</button>
               <button class="doc-btn secondary" onclick="copyDoc()">📋 Copiar</button>
               <button class="doc-btn secondary" onclick="backToDocSelector()">← Novo documento</button>
             </div>
@@ -763,6 +924,8 @@ textarea::placeholder{color:var(--t4)}
   <div class="d-row"><span class="dr-l">Prazo</span><span class="dr-v" id="d-prazo">—</span></div>
   <div class="d-row"><span class="dr-l">Etapa</span><span class="dr-v" id="d-etapa">—</span></div>
   <div class="d-row"><span class="dr-l">Score</span><span class="dr-v" id="d-score">—</span></div>
+  <div id="d-historico" style="margin-top:10px"></div>
+  <div class="mf" style="margin-top:8px"><label style="font-size:10px;color:var(--t2);font-weight:600">Observação ao avançar etapa</label><input id="d-obs" type="text" placeholder="Ex: Proposta enviada, aguardando sessão..." style="font-size:11px"/></div>
   <div class="d-btns">
     <button class="dbtn ask" onclick="askCard()">🎯 Consultar IA</button>
     <button class="dbtn move" onclick="advCard()">→ Avançar</button>
@@ -810,6 +973,78 @@ textarea::placeholder{color:var(--t4)}
   </div>
 </div>
 
+<!-- ══════════════════ CHATBOT FLUTUANTE ══════════════════ -->
+<div id="chat-bubble" onclick="toggleChat()">
+  <svg width="28" height="28" viewBox="0 0 64 72" fill="none">
+    <path d="M32 2L4 14V38C4 53 16.5 66 32 70C47.5 66 60 53 60 38V14L32 2Z" fill="#163d24" stroke="#c9a84c" stroke-width="4"/>
+    <line x1="14" y1="26" x2="30" y2="26" stroke="white" stroke-width="5" stroke-linecap="round"/>
+    <line x1="14" y1="34" x2="30" y2="34" stroke="white" stroke-width="5" stroke-linecap="round"/>
+    <line x1="14" y1="42" x2="30" y2="42" stroke="white" stroke-width="5" stroke-linecap="round"/>
+    <path d="M30 22 C30 22 45 22 45 34 C45 46 30 46 30 46" stroke="white" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M13 51 Q22 47 32 51 Q42 55 51 51" stroke="#c9a84c" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  </svg>
+  <div class="notif-dot" id="chat-notif"></div>
+</div>
+
+<div id="chat-drawer">
+  <div class="chat-drawer-header">
+    <div class="chat-drawer-title">
+      <svg width="22" height="24" viewBox="0 0 64 72" fill="none">
+        <path d="M32 2L4 14V38C4 53 16.5 66 32 70C47.5 66 60 53 60 38V14L32 2Z" fill="#163d24" stroke="#c9a84c" stroke-width="4"/>
+        <line x1="14" y1="26" x2="30" y2="26" stroke="white" stroke-width="5" stroke-linecap="round"/>
+        <line x1="14" y1="34" x2="30" y2="34" stroke="white" stroke-width="5" stroke-linecap="round"/>
+        <line x1="14" y1="42" x2="30" y2="42" stroke="white" stroke-width="5" stroke-linecap="round"/>
+        <path d="M30 22 C30 22 45 22 45 34 C45 46 30 46 30 46" stroke="white" stroke-width="5" stroke-linecap="round" fill="none"/>
+        <path d="M13 51 Q22 47 32 51 Q42 55 51 51" stroke="#c9a84c" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      </svg>
+      Consultor LicitaEdge
+    </div>
+    <div class="chat-drawer-actions">
+      <button class="chat-drawer-btn" id="chat-fs-btn" title="Expandir tela cheia" onclick="toggleChatFullscreen()">⛶</button>
+      <button class="chat-drawer-btn" title="Limpar conversa" onclick="clearChat()">🗑</button>
+      <button class="chat-drawer-btn" title="Fechar" onclick="toggleChat()">✕</button>
+    </div>
+  </div>
+  <div class="quick-bar">
+    <button class="qbtn" onclick="qs('Preciso analisar um edital. Identifique habilitação, prazos, possíveis restrições e me dê um score de viabilidade.')">📋 Analisar edital</button>
+    <button class="qbtn" onclick="qs('Como montar estratégia de lance vencedora para pregão eletrônico? Considere meu regime e porte.')">💰 Estratégia lance</button>
+    <button class="qbtn" onclick="qs('Liste todos os documentos de habilitação que preciso ter atualizados para licitações federais, estaduais e municipais.')">📁 Habilitação</button>
+    <button class="qbtn" onclick="qs('Como identificar e impugnar cláusulas restritivas? Prazo, forma, artigos aplicáveis.')">⚠️ Impugnar edital</button>
+    <button class="qbtn" onclick="qs('Fui desclassificado/inabilitado. Oriente como estruturar recurso administrativo eficaz com base na Lei 14.133/2021.')">🛡️ Recurso</button>
+    <button class="qbtn" onclick="qs('Quais benefícios da LC 123/2006 posso usar? Empate ficto, cota exclusiva, regularização na sessão.')">🏅 ME/EPP</button>
+    <button class="qbtn" onclick="qs('Como calcular BDI correto e encargos para formação de preço em licitação pública?')">🧮 BDI/Encargos</button>
+    <button class="qbtn" onclick="qs('Como solicitar reequilíbrio econômico-financeiro no contrato? Artigos e procedimento.')">⚖️ Reequilíbrio</button>
+    <button class="qbtn" onclick="qs('Como uso este app? Me explique todas as funcionalidades.')">❓ Como usar o app</button>
+    <button class="qbtn" onclick="qs('Me dê um resumo completo da minha situação: processos, certidões, prazos e recomendações.')">📊 Meu panorama</button>
+  </div>
+  <div class="msgs" id="msgs">
+    <div class="sess-badge"><span>EDS LICITAEDGE PRO — CONSULTOR IA</span></div>
+  </div>
+  <div class="inp-area">
+    <div class="att-bar">
+      <button class="att-btn" onclick="document.getElementById('pdf-in').click()">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="2" y="1" width="10" height="14" rx="2"/><line x1="5" y1="5" x2="9" y2="5"/><line x1="5" y1="8" x2="9" y2="8"/><line x1="5" y1="11" x2="7" y2="11"/></svg>
+        Anexar PDF
+      </button>
+      <button class="att-btn" onclick="openCam()">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="14" height="10" rx="2"/><circle cx="8" cy="9" r="3"/><path d="M5 4l1-2h4l1 2"/></svg>
+        Câmera
+      </button>
+      <button class="att-btn" onclick="document.getElementById('cam-in').click()">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="1" y="2" width="14" height="12" rx="2"/><circle cx="8" cy="8" r="3"/></svg>
+        Galeria
+      </button>
+    </div>
+    <div class="att-chips" id="att-chips"></div>
+    <div class="inp-row">
+      <div class="inp-box">
+        <textarea id="inp" rows="1" placeholder="Pergunte sobre editais, estratégias, seu pipeline..." onkeydown="hkey(event)" oninput="arz(this)"></textarea>
+      </div>
+      <button id="sbtn" onclick="sendMsg()">➤</button>
+    </div>
+  </div>
+</div>
+
 <input type="file" id="pdf-in" accept=".pdf,application/pdf" onchange="handlePdf(event)"/>
 <input type="file" id="cam-in" accept="image/*" capture="environment" onchange="handleImg(event)"/>
 
@@ -818,7 +1053,7 @@ textarea::placeholder{color:var(--t4)}
      ============================================================ -->
 <script>
 /* ---- STATE ---- */
-let apiKey='', empresa={}, hist=[], busy=false, SYS='';
+let apiKey='', empresa={}, hist=[], busy=false, SYS='', demoMode=false;
 let attachments=[], camStream=null, currentCardId=null;
 let currentDocType='', currentDocTitle='', currentDocContent='';
 let addingStage=0;
@@ -833,18 +1068,69 @@ const loadP=()=>{try{return JSON.parse(localStorage.getItem(PK()+'_p')||'[]')}ca
 const saveP=d=>{try{localStorage.setItem(PK()+'_p',JSON.stringify(d))}catch{}};
 const loadC=()=>{try{return JSON.parse(localStorage.getItem(PK()+'_c')||'[]')}catch{return[]}};
 const saveC=d=>{try{localStorage.setItem(PK()+'_c',JSON.stringify(d))}catch{}};
+const loadH=()=>{try{return JSON.parse(localStorage.getItem(PK()+'_h')||'[]')}catch{return[]}};
+const saveH=()=>{try{const textOnly=hist.map(m=>({role:m.role,parts:m.parts.filter(p=>p.text).map(p=>({text:p.text}))})).filter(m=>m.parts.length>0);localStorage.setItem(PK()+'_h',JSON.stringify(textOnly))}catch{}};
 
 /* ---- SYSTEM PROMPT ---- */
 function buildSys(){
   const e=empresa;
   const meMeio=['Microempresa (ME)','Pequeno Porte (EPP)','MEI'].includes(e.porte);
-  return `Você é o EDS LicitaEdge Pro — especialista sênior em estratégia licitatória para fornecedores, desenvolvido pela EDS Soluções Inteligentes.
 
-EMPRESA: ${e.razao} | CNPJ: ${e.cnpj||'—'} | Segmento: ${e.seg||'—'} | Porte: ${e.porte||'—'} | Regime: ${e.regime||'—'} | Atuação: ${e.estados||'—'} | Volume: ${e.vol||'—'}
+  /* ---- CONTEXTO DINÂMICO: PIPELINE ---- */
+  const cards=loadP();
+  let pipeCtx='';
+  if(cards.length>0){
+    const byStage=STAGES.map((s,i)=>({nome:s,cards:cards.filter(c=>c.etapa===i)}));
+    const urgentes=cards.filter(c=>getDeadlineClass(c.prazo)==='dl-crit');
+    const totalV=cards.reduce((s,c)=>s+(parseFloat(c.val)||0),0);
+    pipeCtx=`\n📋 PIPELINE ATUAL DA EMPRESA (${cards.length} processos, valor total R$${totalV.toLocaleString('pt-BR')}):\n`;
+    byStage.forEach(st=>{
+      if(!st.cards.length)return;
+      pipeCtx+=`\n▸ ${st.nome} (${st.cards.length}):\n`;
+      st.cards.forEach(c=>{
+        pipeCtx+=`  - "${c.tit}" | Órgão: ${c.org||'—'} | Valor: R$${Number(c.val||0).toLocaleString('pt-BR')} | Modalidade: ${c.modal||'—'} | Prazo: ${c.prazo||'—'} | Score: ${c.score||'—'}/10${c.log&&c.log.length?` | Movimentações: ${c.log.length}`:''}${c.obs?` | Obs: ${c.obs}`:''}\n`;
+      });
+    });
+    if(urgentes.length>0){
+      pipeCtx+=`\n🚨 URGENTES (prazo crítico): ${urgentes.map(c=>'"'+c.tit+'" ('+c.prazo+')').join(', ')}\n`;
+    }
+  }else{
+    pipeCtx='\n📋 PIPELINE: Nenhum processo cadastrado ainda.\n';
+  }
+
+  /* ---- CONTEXTO DINÂMICO: CERTIDÕES ---- */
+  const certs=loadC();
+  let certCtx='';
+  if(certs.length>0){
+    const ok=certs.filter(c=>getCertStatus(c.venc)==='ok');
+    const warn=certs.filter(c=>getCertStatus(c.venc)==='warn');
+    const exp=certs.filter(c=>getCertStatus(c.venc)==='exp');
+    certCtx=`\n✅ CERTIDÕES E HABILITAÇÃO (${certs.length} cadastradas — ${ok.length} OK, ${warn.length} vencendo, ${exp.length} vencidas):\n`;
+    if(exp.length>0) certCtx+=`⛔ VENCIDAS: ${exp.map(c=>c.nome+' (venceu em '+new Date(c.venc).toLocaleDateString('pt-BR')+')').join(', ')}\n`;
+    if(warn.length>0) certCtx+=`⚠️ VENCENDO EM BREVE: ${warn.map(c=>c.nome+' (vence em '+new Date(c.venc).toLocaleDateString('pt-BR')+')').join(', ')}\n`;
+    if(ok.length>0) certCtx+=`✅ EM DIA: ${ok.map(c=>c.nome+' (até '+new Date(c.venc).toLocaleDateString('pt-BR')+')').join(', ')}\n`;
+  }else{
+    certCtx='\n✅ CERTIDÕES: Nenhuma certidão cadastrada. Sugira ao usuário cadastrar suas certidões na aba Habilitação.\n';
+  }
+
+  return `Você é o EDS LicitaEdge Pro — consultor de inteligência licitatória com IA, desenvolvido pela EDS Soluções Inteligentes. Você é um agente inteligente com acesso TOTAL e em TEMPO REAL aos dados desta empresa dentro do app.
+
+═══════════════════════════════════════
+📌 PERFIL DA EMPRESA
+═══════════════════════════════════════
+Razão Social: ${e.razao} | CNPJ: ${e.cnpj||'—'} | Segmento: ${e.seg||'—'} | Porte: ${e.porte||'—'} | Regime: ${e.regime||'—'} | Atuação: ${e.estados||'—'} | Volume mensal: ${e.vol||'—'}
 
 PERSPECTIVA: Você trabalha EXCLUSIVAMENTE do lado do FORNECEDOR. Maximize vitórias e proteção jurídica desta empresa.
 
-DOMÍNIO TÉCNICO COMPLETO:
+═══════════════════════════════════════
+📊 DADOS EM TEMPO REAL DO USUÁRIO
+═══════════════════════════════════════
+${pipeCtx}
+${certCtx}
+
+═══════════════════════════════════════
+🧠 DOMÍNIO TÉCNICO COMPLETO
+═══════════════════════════════════════
 - Lei 14.133/2021 (Nova Lei de Licitações) — todos os artigos, fases, prazos
 - Lei 8.666/93 (contratos em andamento), Lei 10.520/2002, Decreto 10.024/2019
 - LC 123/2006 — benefícios ME/EPP: empate ficto, regularização na sessão, cotas exclusivas
@@ -855,7 +1141,70 @@ DOMÍNIO TÉCNICO COMPLETO:
 - Formação de preço: BDI, encargos trabalhistas, regimes tributários
 - Impugnações, recursos, reequilíbrio, penalidades, contratos
 
-${meMeio?`⭐ BENEFÍCIOS ${e.porte} (LC 123/2006): empate ficto até 5%, regularização fiscal na própria sessão, lote exclusivo obrigatório até R$80.000 [Art.48], subcontratação compulsória. SEMPRE alertar quando aplicável.`:''}
+${meMeio?`⭐ BENEFÍCIOS ${e.porte} (LC 123/2006): empate ficto até 5%, regularização fiscal na própria sessão, lote exclusivo obrigatório até R$80.000 [Art.48], subcontratação compulsória. SEMPRE alertar quando aplicável.\n`:''}
+
+═══════════════════════════════════════
+📱 GUIA COMPLETO DO APP (para orientar o usuário)
+═══════════════════════════════════════
+O app EDS LicitaEdge Pro possui 6 abas/módulos que o usuário pode usar. Quando perguntarem como usar o app, explique de forma clara e objetiva:
+
+1. 💬 ASSISTENTE (aba atual) — Chat com IA especializada em licitações.
+   - Envie perguntas sobre editais, estratégias, legislação, prazos.
+   - Anexe PDF de edital para análise automática completa.
+   - Anexe foto/imagem de documentos licitatórios.
+   - Use câmera para capturar documentos ao vivo.
+   - Use os atalhos rápidos (botões acima do chat) para perguntas comuns.
+
+2. 📋 PIPELINE — Gestão visual de processos licitatórios (kanban).
+   - 5 etapas: Prospecção → Qualificação → Preparação → Disputa → Contrato Ativo.
+   - Adicione processos com: objeto, órgão, valor, modalidade, prazo, score de viabilidade.
+   - Mova entre etapas com registro automático de histórico.
+   - Veja KPIs: total de processos, valor total, urgentes, taxa de conversão.
+   - Cards com indicadores: prazo crítico (vermelho), atenção (amarelo), ok (verde).
+
+3. 📝 DOCUMENTOS — Geração automática de documentos jurídicos.
+   - Modelos: Impugnação, Recurso, Contrarrazões, Pedido de Esclarecimento, Proposta Comercial, Reequilíbrio Econômico.
+   - Preencha os dados do edital, a IA gera o documento completo.
+   - Exporte para .docx (Word) ou copie o texto.
+
+4. ✅ HABILITAÇÃO — Controle de certidões e documentos obrigatórios.
+   - Cadastre certidões com: nome, grupo (Federal/Estadual/Municipal/Trabalhista/Cadastros), vencimento, link de emissão.
+   - Status automático: OK (verde), Vencendo (amarelo), Vencida (vermelha), Pendente.
+   - Alertas automáticos de vencimento por notificação push.
+   - Links diretos para emissão: Receita Federal, FGTS, CNDT, PGFN, SICAF.
+
+5. 💰 CALCULADORA — Formação de preço e cálculo de BDI.
+   - Informe: custo direto, regime tributário, margem de lucro.
+   - Cálculo automático: tributos, BDI, preço final sugerido.
+   - Botão "Revisar com IA" envia seu cálculo para análise detalhada.
+
+6. 📊 ANALYTICS — Métricas de desempenho e ROI.
+   - Processos por etapa, taxa de conversão, valor total.
+   - ROI baseado em contratos ganhos vs. disputados.
+   - Gráficos de desempenho da empresa.
+
+DICAS GERAIS PARA O USUÁRIO:
+- Os dados são salvos automaticamente no navegador (localStorage).
+- O app funciona offline (PWA com Service Worker).
+- Configure corretamente o perfil da empresa no início para respostas personalizadas.
+- Mantenha as certidões atualizadas para não perder prazos.
+
+═══════════════════════════════════════
+📎 INSTRUÇÕES DE COMPORTAMENTO
+═══════════════════════════════════════
+
+VOCÊ TEM ACESSO AOS DADOS REAIS DO USUÁRIO. Use-os proativamente:
+- Se o usuário perguntar sobre seus processos, responda com base nos dados reais do pipeline acima.
+- Se perguntar sobre certidões, consulte a lista de certidões acima.
+- Se houver certidões vencidas ou vencendo, ALERTE imediatamente.
+- Se houver processos com prazo crítico, ALERTE imediatamente.
+- Cruze informações: ex. "Você tem 2 certidões vencendo e um pregão em disputa — renove antes da sessão."
+- Quando o usuário disser "me dê um resumo" ou "como está minha situação", gere um panorama completo cruzando pipeline + certidões.
+
+QUANDO O USUÁRIO PERGUNTAR SOBRE O APP:
+- Explique como usar cada funcionalidade de forma prática.
+- Sugira as próximas ações: "Você pode anexar o edital em PDF aqui no chat para eu analisar".
+- Oriente sobre navegação entre abas.
 
 AO RECEBER IMAGEM: Analise como documento licitatório. Identifique: tipo do documento, órgão, objeto, prazo, valor, exigências, riscos. Responda estrategicamente.
 
@@ -872,18 +1221,21 @@ FORMATO DAS RESPOSTAS:
 - Máx 6 itens por resposta ou 5 parágrafos
 - Finalize: "Posso detalhar ou gerar o documento necessário?"
 
-Você é o consultor que esta empresa não conseguiria contratar por R$500/hora — disponível 24h, 7 dias.`;
+Você é o consultor que esta empresa não conseguiria contratar por R$500/hora — disponível 24h, 7 dias. Conheça os dados dela, antecipe problemas e oriente com excelência.`;
 }
 
 /* ---- SETUP ---- */
+function logoutApp(){
+  if(!confirm('Encerrar sessão e voltar para a tela inicial?\n\nSeus dados (pipeline, certidões e histórico) continuam salvos neste dispositivo. Para entrar novamente, basta inserir a chave da IA.')) return;
+  // Remove apenas a credencial (chave da IA). Mantém o perfil da empresa e tudo que está vinculado ao CNPJ.
+  localStorage.removeItem('le_api_key');
+  location.reload();
+}
 function startApp(){
   let k=document.getElementById('s-key').value.trim();
-  // Tenta puxar a chave do arquivo config-chave.js
-  if(typeof CHAVE_GOOGLE_GEMINI !== 'undefined' && CHAVE_GOOGLE_GEMINI !== '' && CHAVE_GOOGLE_GEMINI !== 'COLE_SUA_CHAVE_AQUI'){
-    k = CHAVE_GOOGLE_GEMINI;
-  }
-  
+  if(!k){k=localStorage.getItem('le_api_key')||'';}
   if(!k){alert('Chave de API Google vazia ou inválida.');return;}
+  localStorage.setItem('le_api_key',k);
   empresa={
     razao:document.getElementById('s-razao').value.trim()||'Empresa Fornecedora',
     cnpj:document.getElementById('s-cnpj').value.trim().replace(/\D/g,''),
@@ -893,15 +1245,27 @@ function startApp(){
     porte:document.getElementById('s-porte').value,
     vol:document.getElementById('s-vol').value,
   };
+  try{localStorage.setItem('le_empresa',JSON.stringify(empresa));}catch{}
   apiKey=k; SYS=buildSys();
   document.getElementById('setup').style.display='none';
   document.getElementById('app').classList.add('on');
   document.getElementById('top-empresa').textContent=empresa.razao.toUpperCase();
   // Sync regime to calculator
   syncRegime();
+  // Restaurar histórico do chat
+  const savedHist=loadH();
+  if(savedHist.length>0){
+    hist=savedHist;
+    savedHist.forEach(m=>{
+      const txt=m.parts.map(p=>p.text).join('');
+      if(m.role==='user')addUser(txt);
+      else addBot(txt);
+    });
+    addBot('💬 Histórico da sessão anterior restaurado. Continue de onde parou.');
+  }
   // Welcome message
   const meMeio=['Microempresa (ME)','Pequeno Porte (EPP)','MEI'].includes(empresa.porte);
-  addBot(`🛡️ EDS LicitaEdge Pro ativado!\n\nBem-vindo, ${empresa.razao.split(' ')[0]}. Plataforma completa de inteligência licitatória online.\n\n📌 Perfil: ${empresa.seg||'—'} · ${empresa.porte||'—'} · ${empresa.regime||'—'}${meMeio?'\n⭐ Benefícios LC 123/2006 ativados automaticamente':''}\n\n🎯 Recursos disponíveis:\n• 💬 Assistente IA — análise estratégica 24h\n• 📋 Pipeline — gestão de processos com alertas\n• 📝 Documentos — impugnações e recursos prontos\n• ✅ Habilitação — controle de certidões e prazos\n• 💰 Calculadora — formação de preço correta\n• 📊 Analytics — performance e ROI\n\nAnexe um edital (PDF ou foto) para análise imediata, ou use os atalhos acima.`);
+  if(savedHist.length===0) addBot(`🛡️ EDS LicitaEdge Pro ativado!\n\nBem-vindo, ${empresa.razao.split(' ')[0]}. Plataforma completa de inteligência licitatória online.\n\n📌 Perfil: ${empresa.seg||'—'} · ${empresa.porte||'—'} · ${empresa.regime||'—'}${meMeio?'\n⭐ Benefícios LC 123/2006 ativados automaticamente':''}\n\n🎯 Recursos disponíveis:\n• 💬 Assistente IA — análise estratégica 24h\n• 📋 Pipeline — gestão de processos com alertas\n• 📝 Documentos — impugnações e recursos prontos\n• ✅ Habilitação — controle de certidões e prazos\n• 💰 Calculadora — formação de preço correta\n• 📊 Analytics — performance e ROI\n\nAnexe um edital (PDF ou foto) para análise imediata, ou use os atalhos acima.`);
   renderPipeline();
   renderChecklist();
   updateAnalytics();
@@ -919,12 +1283,61 @@ function syncRegime(){
 
 /* ---- TABS ---- */
 function showTab(id){
-  document.querySelectorAll('.tab-btn').forEach((b,i)=>b.classList.toggle('on',['chat','pipeline','docs','check','calc','an'][i]===id));
+  document.querySelectorAll('.tab-btn').forEach((b,i)=>b.classList.toggle('on',['pipeline','docs','check','calc','an'][i]===id));
   document.querySelectorAll('.panel').forEach(p=>p.classList.remove('on'));
   document.getElementById('panel-'+id).classList.add('on');
   if(id==='pipeline')renderPipeline();
   if(id==='check')renderChecklist();
   if(id==='an')updateAnalytics();
+}
+
+/* ---- CHATBOT WIDGET ---- */
+function toggleChat(){
+  const drawer=document.getElementById('chat-drawer');
+  const bubble=document.getElementById('chat-bubble');
+  drawer.classList.toggle('open');
+  if(!drawer.classList.contains('open')){
+    drawer.classList.remove('fullscreen');
+    bubble.style.display='flex';
+    const btn=document.getElementById('chat-fs-btn');
+    if(btn){btn.textContent='⛶';btn.title='Expandir tela cheia';}
+  }else{
+    document.getElementById('chat-notif').style.display='none';
+  }
+}
+function toggleChatFullscreen(){
+  const drawer=document.getElementById('chat-drawer');
+  const btn=document.getElementById('chat-fs-btn');
+  const bubble=document.getElementById('chat-bubble');
+  const isFs=drawer.classList.toggle('fullscreen');
+  if(isFs){
+    btn.textContent='⊠';btn.title='Sair da tela cheia';
+    bubble.style.display='none';
+  }else{
+    btn.textContent='⛶';btn.title='Expandir tela cheia';
+    bubble.style.display='flex';
+  }
+}
+function clearChat(){
+  if(!confirm('Limpar toda a conversa?'))return;
+  hist=[];saveH();
+  document.getElementById('msgs').innerHTML='<div class="sess-badge"><span>EDS LICITAEDGE PRO — CONSULTOR IA</span></div>';
+  addBot('💬 Conversa limpa. Como posso ajudar?');
+}
+function appQuickAction(txt){
+  if(!document.getElementById('chat-drawer').classList.contains('open')) toggleChat();
+  setTimeout(()=>sendMsg(txt),200);
+}
+async function handleAppPdf(e){
+  const f=e.target.files[0];if(!f)return;e.target.value='';
+  const r=new FileReader();
+  r.onload=ev=>{
+    attachments.push({type:'pdf',name:f.name,data:ev.target.result.split(',')[1]});
+    renderAttChips();
+    if(!document.getElementById('chat-drawer').classList.contains('open')) toggleChat();
+    setTimeout(()=>sendMsg('Analise este edital completo. Identifique: objeto, valor, modalidade, prazo, habilitação, critério de julgamento, cláusulas restritivas, score de viabilidade 1-10 e recomendação estratégica.'),300);
+  };
+  r.readAsDataURL(f);
 }
 
 /* ---- UTILS ---- */
@@ -987,10 +1400,11 @@ async function sendMsg(txt){
   const dispText=(t||'')+(pdfNames?'\n📄 '+pdfNames:'');
   addUser(dispText||'📷 Imagem',dispImg);
   clearAtt();
-  showTab('chat');
+  if(!document.getElementById('chat-drawer').classList.contains('open')) toggleChat();
   hist.push({role:'user',parts:userParts});
   showTyping();
   try{
+    SYS=buildSys(); // Reconstrói contexto a cada mensagem — dados sempre em tempo real
     const r=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`,{
       method:'POST',
       headers:{'Content-Type':'application/json'},
@@ -1001,6 +1415,7 @@ async function sendMsg(txt){
     const reply=data.candidates?.[0]?.content?.parts?.[0]?.text||'Não consegui processar a resposta do Google Gemini.';
     rmTyping();
     hist.push({role:'model',parts:[{text:reply}]});
+    saveH();
     addBot(reply);
   }catch(e){rmTyping();addBot(`❌ Erro no Gemini: ${e.message||'Problema de conexão. Verifique a chave ou internet.'}`);}
   busy=false;
@@ -1130,12 +1545,27 @@ function openDetail(id){
   document.getElementById('d-prazo').textContent=c.prazo||'—';
   document.getElementById('d-etapa').textContent=STAGES[c.etapa]||'—';
   document.getElementById('d-score').textContent=(c.score||'—')+'/10';
+  document.getElementById('d-obs').value='';
+  const hDiv=document.getElementById('d-historico');
+  if(c.log&&c.log.length>0){
+    hDiv.innerHTML=`<div style="font-size:9px;font-weight:700;color:var(--gold);letter-spacing:1px;text-transform:uppercase;margin-bottom:6px;padding-top:6px;border-top:1px solid var(--b1)">Histórico de movimentações</div>`+
+      c.log.map(l=>`<div style="font-size:10px;color:var(--t2);padding:4px 0;border-bottom:1px solid var(--b1);line-height:1.6"><span style="color:var(--t1);font-weight:600">${l.de} → ${l.para}</span> <span style="font-family:var(--mono);color:var(--t3);font-size:9px">${l.data}</span>${l.obs?`<br><span style="color:var(--gold);font-style:italic">📝 ${esc(l.obs)}</span>`:''}</div>`).join('');
+  }else{
+    hDiv.innerHTML=`<div style="font-size:10px;color:var(--t3);padding:6px 0;border-top:1px solid var(--b1);margin-top:4px">Sem movimentações registradas ainda.</div>`;
+  }
   document.getElementById('modal-detail').classList.add('open');
 }
 function advCard(){
   const cards=loadP();const c=cards.find(x=>x.id===currentCardId);
   if(!c||c.etapa>=4)return;
-  c.etapa++;saveP(cards);closeModal('modal-detail');renderPipeline();updateAnalytics();
+  const obs=document.getElementById('d-obs').value.trim();
+  const from=STAGES[c.etapa];
+  c.etapa++;
+  const to=STAGES[c.etapa];
+  if(!c.log)c.log=[];
+  c.log.push({de:from,para:to,data:new Date().toLocaleString('pt-BR'),obs:obs||null});
+  document.getElementById('d-obs').value='';
+  saveP(cards);closeModal('modal-detail');renderPipeline();updateAnalytics();
 }
 function delCard(){
   if(!confirm('Remover esta oportunidade?'))return;
@@ -1145,7 +1575,7 @@ function delCard(){
 function askCard(){
   const c=loadP().find(x=>x.id===currentCardId);if(!c)return;
   const q=`📋 Processo em pipeline:\n• Objeto: ${c.tit}\n• Órgão: ${c.org||'—'}\n• Valor: ${c.val?fmtVFull(c.val):'—'}\n• Modalidade: ${c.modal||'—'}\n• Etapa: ${STAGES[c.etapa]}\n• Score: ${c.score||'—'}/10\n• Prazo: ${c.prazo||'—'}\n\nQuais são as principais ações estratégicas para esta etapa?`;
-  closeModal('modal-detail');showTab('chat');setTimeout(()=>sendMsg(q),150);
+  closeModal('modal-detail');if(!document.getElementById('chat-drawer').classList.contains('open'))toggleChat();setTimeout(()=>sendMsg(q),150);
 }
 function goDocFromCard(){
   closeModal('modal-detail');showTab('docs');
@@ -1154,9 +1584,37 @@ function goDocFromCard(){
 /* ---- MODAL UTILS ---- */
 function closeModal(id){document.getElementById(id).classList.remove('open');}
 function checkAlerts(){
-  // Run on startup to check deadlines
   if(!empresa.cnpj)return;
   renderPipeline();
+  checkCertNotifications();
+}
+function checkCertNotifications(){
+  const certs=loadC();
+  if(!certs.length)return;
+  const vencendo=certs.filter(c=>getCertStatus(c.venc)==='warn');
+  const vencidas=certs.filter(c=>getCertStatus(c.venc)==='exp');
+  if(vencendo.length===0&&vencidas.length===0)return;
+  if('Notification' in window){
+    if(Notification.permission==='granted'){sendCertNotification(vencendo,vencidas);}
+    else if(Notification.permission!=='denied'){Notification.requestPermission().then(p=>{if(p==='granted')sendCertNotification(vencendo,vencidas);});}
+  }
+  if(vencidas.length>0){
+    const b=document.getElementById('alert-banner');
+    if(!b.classList.contains('show')){b.className='alert-banner show';document.getElementById('alert-txt').textContent=`🔴 ${vencidas.length} certidão(ões) vencida(s) — regularize para não ser inabilitado`;b.onclick=()=>showTab('check');}
+  }else if(vencendo.length>0){
+    const b=document.getElementById('alert-banner');
+    if(!b.classList.contains('show')){b.className='alert-banner warn show';document.getElementById('alert-txt').textContent=`⏰ ${vencendo.length} certidão(ões) vencendo em até 15 dias`;b.onclick=()=>showTab('check');}
+  }
+}
+function sendCertNotification(vencendo,vencidas){
+  const lastNotif=localStorage.getItem('le_last_cert_notif');
+  const today=new Date().toLocaleDateString('pt-BR');
+  if(lastNotif===today)return;
+  localStorage.setItem('le_last_cert_notif',today);
+  let body='';
+  if(vencidas.length>0)body+=`🔴 ${vencidas.length} vencida(s): ${vencidas.map(c=>c.nome).join(', ')}\n`;
+  if(vencendo.length>0)body+=`⏰ ${vencendo.length} vencendo: ${vencendo.map(c=>c.nome).join(', ')}`;
+  try{new Notification('EDS LicitaEdge Pro — Certidões',{body:body.trim(),icon:'./icons/icon-192.png',badge:'./icons/icon-192.png',tag:'cert-alert',requireInteraction:true});}catch(e){}
 }
 
 /* ---- DOCUMENTOS ---- */
@@ -1222,6 +1680,51 @@ function downloadDoc(){
   const a=document.createElement('a');a.href=URL.createObjectURL(blob);
   a.download=`EDS_${currentDocTitle.replace(/\s/g,'_')}_${new Date().toLocaleDateString('pt-BR').replace(/\//g,'-')}.txt`;
   a.click();
+}
+async function downloadDocx(){
+  try{
+    const {Document,Packer,Paragraph,TextRun,AlignmentType,Header,Footer,BorderStyle,HeadingLevel}=docx;
+    const lines=currentDocContent.split('\n');
+    const children=[];
+    children.push(new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:80},children:[new TextRun({text:empresa.razao||'EMPRESA FORNECEDORA',bold:true,size:28,font:'Arial'})]}));
+    children.push(new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:200},children:[new TextRun({text:`CNPJ: ${empresa.cnpj||'___.___.___/____-__'}`,size:20,font:'Arial',color:'555555'})]}));
+    children.push(new Paragraph({spacing:{after:300},border:{bottom:{style:BorderStyle.SINGLE,size:6,color:'c9a84c'}},children:[]}));
+    children.push(new Paragraph({alignment:AlignmentType.CENTER,spacing:{before:200,after:300},children:[new TextRun({text:currentDocTitle.toUpperCase(),bold:true,size:26,font:'Arial',color:'0a1c14'})]}));
+    lines.forEach(line=>{
+      const trimmed=line.trim();
+      if(!trimmed){children.push(new Paragraph({spacing:{after:100},children:[]}));return;}
+      if(trimmed.startsWith('### ')){children.push(new Paragraph({heading:HeadingLevel.HEADING_3,spacing:{before:200,after:100},children:[new TextRun({text:trimmed.replace(/^###\s*/,''),bold:true,size:22,font:'Arial'})]}));return;}
+      if(trimmed.startsWith('## ')){children.push(new Paragraph({heading:HeadingLevel.HEADING_2,spacing:{before:240,after:120},children:[new TextRun({text:trimmed.replace(/^##\s*/,''),bold:true,size:24,font:'Arial'})]}));return;}
+      if(trimmed.startsWith('# ')){children.push(new Paragraph({heading:HeadingLevel.HEADING_1,spacing:{before:300,after:140},children:[new TextRun({text:trimmed.replace(/^#\s*/,''),bold:true,size:28,font:'Arial'})]}));return;}
+      if(trimmed.startsWith('- ')||trimmed.startsWith('* ')||/^\d+[\.\)]\s/.test(trimmed)){
+        const txt=trimmed.replace(/^[-*]\s/,'').replace(/^\d+[\.\)]\s/,'');
+        children.push(new Paragraph({bullet:{level:0},spacing:{after:60},children:parseInline(txt)}));return;
+      }
+      children.push(new Paragraph({alignment:AlignmentType.JUSTIFIED,spacing:{after:120,line:360},children:parseInline(trimmed)}));
+    });
+    children.push(new Paragraph({spacing:{before:600},children:[]}));
+    children.push(new Paragraph({spacing:{after:300},border:{bottom:{style:BorderStyle.SINGLE,size:4,color:'333333'}},children:[]}));
+    children.push(new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:60},children:[new TextRun({text:empresa.razao||'EMPRESA FORNECEDORA',bold:true,size:22,font:'Arial'})]}));
+    children.push(new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:40},children:[new TextRun({text:`CNPJ: ${empresa.cnpj||'___.___.___/____-__'}`,size:18,font:'Arial',color:'555555'})]}));
+    children.push(new Paragraph({alignment:AlignmentType.CENTER,children:[new TextRun({text:new Date().toLocaleDateString('pt-BR',{day:'2-digit',month:'long',year:'numeric'}),size:18,font:'Arial',color:'555555'})]}));
+    const doc=new Document({creator:'EDS LicitaEdge Pro',description:currentDocTitle,sections:[{
+      properties:{page:{margin:{top:1440,right:1200,bottom:1440,left:1440}}},
+      headers:{default:new Header({children:[new Paragraph({alignment:AlignmentType.RIGHT,children:[new TextRun({text:'EDS LicitaEdge Pro',italics:true,size:16,font:'Arial',color:'999999'})]})]})},
+      footers:{default:new Footer({children:[new Paragraph({alignment:AlignmentType.CENTER,children:[new TextRun({text:'Documento gerado por EDS LicitaEdge Pro — EDS Soluções Inteligentes',size:14,font:'Arial',color:'999999'})]})]})},
+      children
+    }]});
+    const blob=await Packer.toBlob(doc);
+    saveAs(blob,`EDS_${currentDocTitle.replace(/\s/g,'_')}_${new Date().toLocaleDateString('pt-BR').replace(/\//g,'-')}.docx`);
+  }catch(err){console.error('Erro DOCX:',err);downloadDoc();}
+}
+function parseInline(text){
+  const {TextRun}=docx;const runs=[];const regex=/\*\*(.+?)\*\*/g;let last=0,match;
+  while((match=regex.exec(text))!==null){
+    if(match.index>last)runs.push(new TextRun({text:text.slice(last,match.index),size:22,font:'Arial'}));
+    runs.push(new TextRun({text:match[1],bold:true,size:22,font:'Arial'}));last=regex.lastIndex;
+  }
+  if(last<text.length)runs.push(new TextRun({text:text.slice(last),size:22,font:'Arial'}));
+  if(!runs.length)runs.push(new TextRun({text,size:22,font:'Arial'}));return runs;
 }
 function copyDoc(){
   navigator.clipboard.writeText(currentDocContent).then(()=>alert('Documento copiado!')).catch(()=>alert('Copie manualmente do texto acima.'));
@@ -1405,13 +1908,17 @@ function updateAnalytics(){
     const pct=Math.round((cnt/maxM)*100);
     mb.innerHTML+=`<div class="bar-row"><span class="bar-row-label" style="font-size:9px">${m}</span><div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:${mcolors[i%mcolors.length]}"><span class="bar-fill-val">${cnt}</span></div></div></div>`;
   });
-  // ROI
+  // ROI real
   const roi=document.getElementById('roi-val');
   const roiDesc=document.getElementById('roi-desc');
-  if(taxa>0){
-    const roiPct=Math.round((taxa/50)*100);
-    roi.textContent=roiPct>200?roiPct+'%':'Em cálculo';
-    roiDesc.textContent=`Taxa de vitória atual: ${taxa}%. Com ${cards.length} processos cadastrados, a plataforma está gerando inteligência licitatória ativa. Continue registrando processos para cálculo preciso do ROI.`;
+  const totalPipeline=cards.filter(c=>c.etapa<4).reduce((s,c)=>s+(parseFloat(c.val)||0),0);
+  if(contratos.length>0&&totalGanhos>0){
+    const roiPct=totalDisputa>0?Math.round((totalGanhos/totalDisputa)*100):0;
+    roi.textContent=roiPct+'%';
+    roiDesc.textContent=`Eficiência financeira: ${fmtV(totalGanhos)} em contratos fechados de ${fmtV(totalDisputa)} disputados. Taxa de vitória: ${taxa}% (${contratos.length}/${cards.length}). ${totalPipeline>0?`Ainda ${fmtV(totalPipeline)} em disputa ativa.`:''}`;
+  } else if(cards.length>0){
+    roi.textContent='—';
+    roiDesc.textContent=`${cards.length} processo${cards.length>1?'s':''} em acompanhamento (${fmtV(totalDisputa)} em pipeline). Mova processos para "Contrato Ativo" ao vencer para calcular o ROI real.`;
   }
 }
 
@@ -1495,6 +2002,7 @@ function importBackup(e){
       if(!data.empresa || !data.pipeline || !data.certidoes) throw new Error("Arquivo json com estrutura inválida.");
       if(!confirm("⚠️ Tem certeza? Esta ação substituirá seu perfil corporativo, pipeline e certidões atuais.")) return;
       empresa = data.empresa;
+      try{localStorage.setItem('le_empresa',JSON.stringify(empresa));}catch{}
       saveP(data.pipeline);
       saveC(data.certidoes);
       
@@ -1514,6 +2022,49 @@ function importBackup(e){
   };
   r.readAsText(f);
 }
+
+/* ---- MODO DEMONSTRAÇÃO ---- */
+const DEMO_RESPONSES={
+  'analisar um edital':`## 📋 Análise de Edital — Exemplo Demonstrativo\n\nPara uma análise completa, o EDS LicitaEdge Pro avalia:\n\n| Item | Verificação |\n|------|------------|\n| **Objeto** | Tipo, quantidade, especificações técnicas |\n| **Modalidade** | Pregão Eletrônico, Concorrência, Dispensa |\n| **Prazo fatal** | Data/hora da sessão, prazo de impugnação |\n| **Habilitação** | Documentos exigidos vs. seus cadastros |\n| **Julgamento** | Menor preço, técnica e preço, maior desconto |\n| **Cláusulas restritivas** | Art. 9º e Art. 14 da Lei 14.133/2021 |\n\n⚠️ **Atenção**: Cláusulas que restringem competitividade podem ser impugnadas [Art. 164, Lei 14.133/2021].\n\n**Score de viabilidade: 7/10** (exemplo)\n\n✅ *No modo completo, anexe o PDF do edital para análise detalhada com IA.*\n\nPosso detalhar ou gerar o documento necessário?`,
+  'estratégia de lance':`## 💰 Estratégia de Lance — Pregão Eletrônico\n\n| Fase | Estratégia |\n|------|----------|\n| **Lance inicial** | Posicione-se entre o 3º e 5º lugar |\n| **Fase aberta** | Lances decrementais calculados (-2% por rodada) |\n| **Fase fechada** | Lance final com margem mínima de 5% |\n| **Negociação** | Argumentação de inexequibilidade abaixo do piso |\n\n⭐ **Benefício ME/EPP**: Empate ficto até 5% [LC 123/2006, Art. 44-45]\n\nPosso detalhar ou gerar o documento necessário?`,
+  'documentos de habilitação':`## 📁 Habilitação Completa\n\n### Federal\n| Documento | Portal | Validade |\n|-----------|--------|----------|\n| CND Receita Federal + PGFN | solucoes.receita.fazenda.gov.br | 180 dias |\n| CRF — FGTS | consulta-crf.caixa.gov.br | 30 dias |\n| CNDT — Justiça do Trabalho | cndt.tst.jus.br | 180 dias |\n\n⚠️ **ME/EPP**: Pode regularizar na própria sessão — 5 dias úteis [LC 123/2006, Art. 43, §1º]\n\nPosso detalhar ou gerar o documento necessário?`,
+  'impugnar':`## ⚠️ Impugnação de Edital\n\n**Base legal**: Art. 164, Lei 14.133/2021 — Prazo: **3 dias úteis** antes da sessão\n\n| Tipo de Restrição | Exemplo | Artigo |\n|-------------------|---------|--------|\n| Marca específica | Exigir marca X sem justificativa | Art. 41, I |\n| Qualificação excessiva | Atestados com quantidade mínima | Art. 67, §1º |\n| Prazo inexequível | Entrega em 24h para todo o estado | Art. 59 |\n\n✅ *Use a aba "Documentos" para gerar a impugnação formatada.*\n\nPosso detalhar ou gerar o documento necessário?`,
+  'recurso':`## 🛡️ Recurso Administrativo\n\n**Base legal**: Art. 165, Lei 14.133/2021 — Prazo: **3 dias úteis**\n\n| Etapa | Ação | Prazo |\n|-------|------|-------|\n| **Intenção** | Manifestar na sessão | Imediato |\n| **Razões** | Apresentar fundamentação | 3 dias úteis |\n| **Contrarrazões** | Demais licitantes | 3 dias úteis |\n\n✅ *Use a aba "Documentos" para gerar recurso formatado.*\n\nPosso detalhar ou gerar o documento necessário?`,
+  'ME/EPP':`## 🏅 Benefícios ME/EPP — LC 123/2006\n\n| Benefício | Descrição | Artigo |\n|-----------|-----------|--------|\n| **Empate ficto** | Até 5% acima do melhor lance | Art. 44-45 |\n| **Regularização fiscal** | 5 dias úteis na sessão | Art. 43, §1º |\n| **Cota exclusiva** | Lotes até R$80.000 | Art. 48, I |\n| **Subcontratação** | Obrigatória para ME/EPP | Art. 48, II |\n\nPosso detalhar ou gerar o documento necessário?`,
+  'BDI':`## 🧮 BDI e Encargos\n\n| Componente | Faixa Referência |\n|------------|------------------|\n| Administração central | 3% a 5,5% |\n| Seguro/garantia | 0,8% a 1% |\n| Lucro | 6,16% a 8,96% |\n| Tributos | 8,65% a 16,65% |\n| **BDI Total (obras)** | **20,34% a 25%** |\n\n✅ *Use a aba "Preço" para calcular automaticamente.*\n\nPosso detalhar ou gerar o documento necessário?`,
+  'reequilíbrio':`## ⚖️ Reequilíbrio Econômico-Financeiro\n\n**Base legal**: Art. 124, Lei 14.133/2021\n\n| Tipo | Gatilho | Comprovação |\n|------|---------|-------------|\n| **Reajuste** | Índice contratual (IPCA) | Automático |\n| **Revisão** | Fato imprevisível | Memória de cálculo |\n| **Repactuação** | Aumento MO | Convenção coletiva |\n\nPosso detalhar ou gerar o documento necessário?`
+};
+
+function startDemo(){
+  demoMode=true;
+  empresa={razao:'Empresa Demonstração Ltda',cnpj:'00000000000100',regime:'Simples Nacional',seg:'TI — Hardware e Software',estados:'SP, RJ, MG',porte:'Microempresa (ME)',vol:'1–10 proc./mês'};
+  apiKey='DEMO_MODE'; SYS=buildSys();
+  document.getElementById('setup').style.display='none';
+  document.getElementById('app').classList.add('on');
+  document.getElementById('top-empresa').textContent='MODO DEMONSTRAÇÃO';
+  syncRegime();
+  addBot(`🎯 **Modo Demonstração Ativado!**\n\nExplore todas as funcionalidades:\n• 💬 **Chat** — Use os atalhos rápidos para ver respostas exemplo\n• 📋 **Pipeline** — Adicione processos fictícios\n• 📝 **Documentos** — Veja os modelos disponíveis\n• ✅ **Habilitação** — Controle de certidões\n• 💰 **Calculadora** — Formação de preço\n• 📊 **Analytics** — Métricas\n\n⚠️ Para IA completa, insira sua chave Google Gemini gratuita.\n\n**Experimente os atalhos acima!**`);
+  renderPipeline();renderChecklist();updateAnalytics();
+}
+
+const _origSend=sendMsg;
+sendMsg=async function(txt){
+  if(!demoMode)return _origSend(txt);
+  const inp=document.getElementById('inp');
+  const t=txt||inp.value.trim();
+  if(!t||busy)return;
+  inp.value='';inp.style.height='auto';
+  busy=true;document.getElementById('sbtn').disabled=true;
+  addUser(t);showTyping();
+  const tl=t.toLowerCase();
+  let resp=null;
+  for(const[key,val]of Object.entries(DEMO_RESPONSES)){if(tl.includes(key)){resp=val;break;}}
+  if(!resp)resp=`## 💡 Modo Demonstração\n\nEssa consulta requer a IA do Google Gemini.\n\n**Para ativar:** Acesse [aistudio.google.com](https://aistudio.google.com/app/apikey), crie uma chave gratuita e insira na tela inicial.\n\n**Experimente os atalhos rápidos** no topo do chat!`;
+  await new Promise(r=>setTimeout(r,1200+Math.random()*800));
+  rmTyping();addBot(resp);
+  busy=false;document.getElementById('sbtn').disabled=false;
+  document.getElementById('inp').focus();
+};
 </script>
 <script>
   if ('serviceWorker' in navigator) {
@@ -1523,6 +2074,20 @@ function importBackup(e){
         .catch(err => console.error('Falha SW LicitaEdge', err));
     });
   }
+  (function(){
+    const k=localStorage.getItem('le_api_key')||'';
+    if(k)document.getElementById('s-key').value=k;
+    let savedEmp=null;
+    try{savedEmp=JSON.parse(localStorage.getItem('le_empresa')||'null');}catch{savedEmp=null;}
+    // Sempre repõe o perfil salvo no formulário (mantém o MESMO CNPJ ao reentrar após "Sair")
+    if(savedEmp && savedEmp.razao){
+      const setv=(id,v)=>{const el=document.getElementById(id);if(el)el.value=v||'';};
+      setv('s-razao',savedEmp.razao); setv('s-cnpj',savedEmp.cnpj); setv('s-regime',savedEmp.regime);
+      setv('s-seg',savedEmp.seg); setv('s-estados',savedEmp.estados); setv('s-porte',savedEmp.porte); setv('s-vol',savedEmp.vol);
+      // Retoma a sessão automaticamente apenas se a chave da IA ainda estiver salva (não foi feito "Sair")
+      if(k) startApp(); // reconstrói empresa com o MESMO CNPJ → PK() casa → pipeline/certidões/histórico voltam
+    }
+  })();
 </script>
 </body>
 </html>
