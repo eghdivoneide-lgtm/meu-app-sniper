@@ -29,14 +29,15 @@ if not CHAVE_GEMINI:
     raise RuntimeError("Defina a variavel de ambiente GEMINI_API_KEY_ANALISTA.")
 
 # ---------------------------------------------------------------------------
-# Logging
+# Logging — stdout para visibilidade nos logs do Railway
 # ---------------------------------------------------------------------------
+import sys
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(message)s",
     handlers=[
-        logging.FileHandler("analista_argentino_log.txt", encoding="utf-8"),
-        logging.StreamHandler(),
+        logging.StreamHandler(sys.stdout),
     ],
 )
 log = logging.getLogger(__name__)
@@ -1728,8 +1729,13 @@ def responder(mensagem):
 
 
 def main() -> None:
-    print("SNIPER ELITE ARG online.")
-    bot.polling(skip_pending=True)
+    print("SNIPER ELITE ARG online.", flush=True)
+    log.info("Bot Analista Argentino iniciado. Iniciando polling...")
+    try:
+        bot.polling(skip_pending=True, none_stop=True)
+    except Exception as erro:
+        log.critical("bot.polling encerrado com erro: %s", erro, exc_info=True)
+        raise
 
 
 if __name__ == "__main__":

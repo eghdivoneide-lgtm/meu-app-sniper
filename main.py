@@ -1,5 +1,6 @@
 import logging
 import os
+import sys
 import threading
 
 log = logging.getLogger(__name__)
@@ -32,9 +33,12 @@ def main() -> None:
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s | %(levelname)s | %(message)s",
+        handlers=[logging.StreamHandler(sys.stdout)],
     )
 
     alvo = os.getenv("BOT_TARGET", "suporte").strip().lower()
+    print(f"[main.py] BOT_TARGET={alvo!r} — iniciando...", flush=True)
+
     runners = {
         "analista": iniciar_analista,
         "suporte": iniciar_suporte,
@@ -42,8 +46,11 @@ def main() -> None:
     }
 
     if alvo not in runners:
+        log.critical(
+            "BOT_TARGET invalido: %r. Use: suporte, analista ou ambos.", alvo
+        )
         raise RuntimeError(
-            "BOT_TARGET invalido. Use: suporte, analista ou ambos."
+            f"BOT_TARGET invalido: {alvo!r}. Use: suporte, analista ou ambos."
         )
 
     log.info("Iniciando servico configurado: %s", alvo)
