@@ -5,6 +5,7 @@ import json
 import math
 import os
 import re
+import sys
 import time
 import unicodedata
 import zipfile
@@ -35,8 +36,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(message)s",
     handlers=[
-        logging.FileHandler("analista_argentino_log.txt", encoding="utf-8"),
-        logging.StreamHandler(),
+        logging.StreamHandler(sys.stdout),
     ],
 )
 log = logging.getLogger(__name__)
@@ -1728,8 +1728,12 @@ def responder(mensagem):
 
 
 def main() -> None:
-    print("SNIPER ELITE ARG online.")
-    bot.polling(skip_pending=True)
+    log.info("SNIPER ELITE ARG — iniciando polling...")
+    try:
+        bot.polling(skip_pending=True, none_stop=True)
+    except Exception as erro:
+        log.error("Polling encerrado com erro: %s", erro, exc_info=True)
+        raise
 
 
 if __name__ == "__main__":
