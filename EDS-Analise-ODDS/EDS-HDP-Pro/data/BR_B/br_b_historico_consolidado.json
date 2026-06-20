@@ -1,0 +1,8539 @@
+{
+  "liga": "BR_B",
+  "total": 87,
+  "gerado_em": "2026-05-24T11:40:08.829Z",
+  "fonte": "consolidado: Analise-Refinada + projeto-fantasma + especialista-cantos",
+  "fontes_n": {
+    "refinada": 43,
+    "fantasma": 91,
+    "especialista": 87
+  },
+  "times_oficiais_n": 20,
+  "jogos_descartados_n": 0,
+  "times_descartados": [],
+  "jogos": [
+    {
+      "match_id": "pliSN29T",
+      "mandante": "Athletic Club",
+      "visitante": "Nautico",
+      "data_partida": "27.04.2026 19:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "0 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 15
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 1
+        },
+        "cantos": {
+          "m": 8,
+          "v": 4
+        },
+        "passes": {
+          "m": "(342/410)",
+          "v": "82%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 4
+        },
+        "impedimentos": {
+          "m": 3,
+          "v": 3
+        },
+        "faltas": {
+          "m": 14,
+          "v": 15
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 5
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 4
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 0
+        },
+        "cantos": {
+          "m": 4,
+          "v": 0
+        },
+        "passes": {
+          "m": "(200/232)",
+          "v": "81%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 3,
+          "v": 0
+        },
+        "faltas": {
+          "m": 4,
+          "v": 7
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 4
+        }
+      },
+      "formacao": {
+        "m": "3-4-2-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "2.65",
+        "oddEmpate": "3.10",
+        "oddV": "2.70"
+      }
+    },
+    {
+      "match_id": "GjYivOgA",
+      "mandante": "Atletico GO",
+      "visitante": "Avai",
+      "data_partida": "26.04.2026 20:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 0",
+        "ft": "2 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 8
+        },
+        "chutes_alvo": {
+          "m": 6,
+          "v": 4
+        },
+        "cantos": {
+          "m": 6,
+          "v": 1
+        },
+        "passes": {
+          "m": "(246/323)",
+          "v": "82%"
+        },
+        "cartoes_amarelos": {
+          "m": 5,
+          "v": 4
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 22,
+          "v": 10
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 2
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 2
+        },
+        "cantos": {
+          "m": 4,
+          "v": 1
+        },
+        "passes": {
+          "m": "(159/185)",
+          "v": "85%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 8,
+          "v": 5
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 2
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "1.86",
+        "oddEmpate": "3.30",
+        "oddV": "4.33"
+      }
+    },
+    {
+      "match_id": "Mmy0x2OM",
+      "mandante": "Criciuma",
+      "visitante": "CRB",
+      "data_partida": "26.04.2026 20:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "2 - 0",
+        "ft": "3 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 17
+        },
+        "chutes_alvo": {
+          "m": 7,
+          "v": 5
+        },
+        "cantos": {
+          "m": 9,
+          "v": 5
+        },
+        "passes": {
+          "m": "(253/322)",
+          "v": "86%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 2
+        },
+        "faltas": {
+          "m": 13,
+          "v": 12
+        },
+        "defesas_goleiro": {
+          "m": 4,
+          "v": 5
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 8
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 3
+        },
+        "cantos": {
+          "m": 6,
+          "v": 2
+        },
+        "passes": {
+          "m": "(158/188)",
+          "v": "85%"
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 7,
+          "v": 6
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "3-4-2-1",
+        "v": "5-3-2"
+      },
+      "mercado": {
+        "oddM": "1.76",
+        "oddEmpate": "3.20",
+        "oddV": "5.00"
+      }
+    },
+    {
+      "match_id": "8QUqtpPc",
+      "mandante": "Ceara",
+      "visitante": "Vila Nova FC",
+      "data_partida": "26.04.2026 18:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "3 - 1",
+        "ft": "3 - 3"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 11
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 6
+        },
+        "cantos": {
+          "m": 3,
+          "v": 4
+        },
+        "passes": {
+          "m": "(247/325)",
+          "v": "82%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 7,
+          "v": 1
+        },
+        "faltas": {
+          "m": 17,
+          "v": 12
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 2
+        },
+        "cantos": {
+          "m": 3,
+          "v": 3
+        },
+        "passes": {
+          "m": "(141/172)",
+          "v": "81%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 4,
+          "v": 0
+        },
+        "faltas": {
+          "m": 9,
+          "v": 8
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "1.71",
+        "oddEmpate": "3.40",
+        "oddV": "5.00"
+      }
+    },
+    {
+      "match_id": "GWsbItXj",
+      "mandante": "Operario-PR",
+      "visitante": "Fortaleza",
+      "data_partida": "26.04.2026 18:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "0 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 64,
+          "v": 36
+        },
+        "finalizacoes": {
+          "m": 21,
+          "v": 12
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 2
+        },
+        "cantos": {
+          "m": 11,
+          "v": 7
+        },
+        "passes": {
+          "m": "(411/484)",
+          "v": "76%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 6
+        },
+        "faltas": {
+          "m": 9,
+          "v": 12
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 7
+        },
+        "chutes_alvo": {
+          "m": 0,
+          "v": 1
+        },
+        "cantos": {
+          "m": 1,
+          "v": 3
+        },
+        "passes": {
+          "m": "(203/233)",
+          "v": "80%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 2
+        },
+        "faltas": {
+          "m": 7,
+          "v": 8
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 0
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "3-4-2-1"
+      },
+      "mercado": {
+        "oddM": "1.96",
+        "oddEmpate": "3.00",
+        "oddV": "4.10"
+      }
+    },
+    {
+      "match_id": "fJ4NxWZ2",
+      "mandante": "Juventude",
+      "visitante": "Londrina",
+      "data_partida": "25.04.2026 21:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 0",
+        "ft": "1 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 13
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 3
+        },
+        "cantos": {
+          "m": 3,
+          "v": 8
+        },
+        "passes": {
+          "m": "(279/337)",
+          "v": "88%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 3
+        },
+        "faltas": {
+          "m": 22,
+          "v": 16
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 4,
+          "v": 7
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 1
+        },
+        "cantos": {
+          "m": 1,
+          "v": 4
+        },
+        "passes": {
+          "m": "(167/195)",
+          "v": "85%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 1
+        },
+        "faltas": {
+          "m": 7,
+          "v": 9
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "formacao": {
+        "m": "3-4-2-1",
+        "v": "4-3-3"
+      },
+      "mercado": {
+        "oddM": "1.79",
+        "oddEmpate": "3.40",
+        "oddV": "4.33"
+      }
+    },
+    {
+      "match_id": "IJMVWunp",
+      "mandante": "Sport Recife",
+      "visitante": "Novorizontino",
+      "data_partida": "25.04.2026 20:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "1 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 10
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 4
+        },
+        "cantos": {
+          "m": 3,
+          "v": 5
+        },
+        "passes": {
+          "m": "(338/402)",
+          "v": "79%"
+        },
+        "cartoes_amarelos": {
+          "m": 4,
+          "v": 5
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 1
+        },
+        "faltas": {
+          "m": 13,
+          "v": 21
+        },
+        "defesas_goleiro": {
+          "m": 4,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 65,
+          "v": 35
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 2
+        },
+        "cantos": {
+          "m": 1,
+          "v": 0
+        },
+        "passes": {
+          "m": "(251/285)",
+          "v": "78%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 1
+        },
+        "faltas": {
+          "m": 3,
+          "v": 11
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-4-2"
+      },
+      "mercado": {
+        "oddM": "2.45",
+        "oddEmpate": "3.20",
+        "oddV": "2.85"
+      }
+    },
+    {
+      "match_id": "QJfCRpA4",
+      "mandante": "Ponte Preta",
+      "visitante": "America MG",
+      "data_partida": "24.04.2026 20:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 0",
+        "ft": "1 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 31,
+          "v": 69
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 11
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 4
+        },
+        "cantos": {
+          "m": 2,
+          "v": 10
+        },
+        "passes": {
+          "m": "(159/221)",
+          "v": "83%"
+        },
+        "cartoes_amarelos": {
+          "m": 4,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 3
+        },
+        "faltas": {
+          "m": 29,
+          "v": 13
+        },
+        "defesas_goleiro": {
+          "m": 4,
+          "v": 2
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 36,
+          "v": 64
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 2
+        },
+        "cantos": {
+          "m": 1,
+          "v": 2
+        },
+        "passes": {
+          "m": "(98/130)",
+          "v": "84%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 3
+        },
+        "faltas": {
+          "m": 9,
+          "v": 5
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-3-3",
+        "v": "4-1-4-1"
+      },
+      "mercado": {
+        "oddM": "3.10",
+        "oddEmpate": "2.65",
+        "oddV": "2.70"
+      }
+    },
+    {
+      "match_id": "QqQwVJGd",
+      "mandante": "Cuiaba",
+      "visitante": "Botafogo SP",
+      "data_partida": "22.04.2026 21:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "1 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 10
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 3
+        },
+        "cantos": {
+          "m": 6,
+          "v": 4
+        },
+        "passes": {
+          "m": "(262/350)",
+          "v": "64%"
+        },
+        "cartoes_amarelos": {
+          "m": 4,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 2
+        },
+        "faltas": {
+          "m": 20,
+          "v": 7
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 4
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 64,
+          "v": 36
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 1
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 0
+        },
+        "cantos": {
+          "m": 4,
+          "v": 0
+        },
+        "passes": {
+          "m": "(198/239)",
+          "v": "70%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 1
+        },
+        "faltas": {
+          "m": 10,
+          "v": 3
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 4
+        }
+      },
+      "formacao": {
+        "m": "4-3-1-2",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "1.86",
+        "oddEmpate": "3.00",
+        "oddV": "4.75"
+      }
+    },
+    {
+      "match_id": "MVgPGTen",
+      "mandante": "Fortaleza",
+      "visitante": "Criciuma",
+      "data_partida": "19.04.2026 20:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "2 - 1",
+        "ft": "3 - 2"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 6
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 3
+        },
+        "cantos": {
+          "m": 4,
+          "v": 3
+        },
+        "passes": {
+          "m": "(264/342)",
+          "v": "81%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 3
+        },
+        "faltas": {
+          "m": 18,
+          "v": 16
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 3
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 2
+        },
+        "cantos": {
+          "m": 2,
+          "v": 3
+        },
+        "passes": {
+          "m": "(131/173)",
+          "v": "79%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 2
+        },
+        "faltas": {
+          "m": 8,
+          "v": 6
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 2
+        }
+      },
+      "formacao": {
+        "m": "3-4-2-1",
+        "v": "3-4-2-1"
+      },
+      "mercado": {
+        "oddM": "1.86",
+        "oddEmpate": "3.10",
+        "oddV": "4.75"
+      }
+    },
+    {
+      "match_id": "xMtbDfkf",
+      "mandante": "Novorizontino",
+      "visitante": "Athletic Club",
+      "data_partida": "19.04.2026 20:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 1",
+        "ft": "2 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 63,
+          "v": 37
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 7
+        },
+        "chutes_alvo": {
+          "m": 7,
+          "v": 2
+        },
+        "cantos": {
+          "m": 11,
+          "v": 1
+        },
+        "passes": {
+          "m": "(454/502)",
+          "v": "82%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 4
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 1
+        },
+        "faltas": {
+          "m": 11,
+          "v": 15
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 5
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 2
+        },
+        "cantos": {
+          "m": 3,
+          "v": 1
+        },
+        "passes": {
+          "m": "(178/205)",
+          "v": "88%"
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 5,
+          "v": 11
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-3-3"
+      },
+      "mercado": {
+        "oddM": "1.57",
+        "oddEmpate": "3.50",
+        "oddV": "6.00"
+      }
+    },
+    {
+      "match_id": "GUGqk0PP",
+      "mandante": "Vila Nova FC",
+      "visitante": "Athletic Club",
+      "data_partida": "04.05.2026 19:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "Indisponível",
+        "ft": "1 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 68,
+          "v": 32
+        },
+        "finalizacoes": {
+          "m": 23,
+          "v": 2
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 2
+        },
+        "cantos": {
+          "m": 9,
+          "v": 1
+        },
+        "passes": {
+          "m": "(443/520)",
+          "v": "73%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 3
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 13,
+          "v": 14
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 4
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 69,
+          "v": 31
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 1
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 1
+        },
+        "cantos": {
+          "m": 6,
+          "v": 0
+        },
+        "passes": {
+          "m": "(227/266)",
+          "v": "73%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 9,
+          "v": 10
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-3-3"
+      },
+      "mercado": null
+    },
+    {
+      "match_id": "Wt78TRdk",
+      "mandante": "America MG",
+      "visitante": "CRB",
+      "data_partida": "03.05.2026 20:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 1",
+        "ft": "1 - 2"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 16
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 8
+        },
+        "cantos": {
+          "m": 3,
+          "v": 4
+        },
+        "passes": {
+          "m": "(297/358)",
+          "v": "86%"
+        },
+        "cartoes_amarelos": {
+          "m": 4,
+          "v": 4
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 18,
+          "v": 20
+        },
+        "defesas_goleiro": {
+          "m": 6,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 38,
+          "v": 62
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 7
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 3
+        },
+        "cantos": {
+          "m": 1,
+          "v": 2
+        },
+        "passes": {
+          "m": "(116/144)",
+          "v": "85%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 11,
+          "v": 8
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-1-4-1",
+        "v": "4-5-1"
+      },
+      "mercado": {
+        "oddM": "2.01",
+        "oddEmpate": "3.25",
+        "oddV": "3.70"
+      }
+    },
+    {
+      "match_id": "zXOZW03s",
+      "mandante": "Atletico GO",
+      "visitante": "Juventude",
+      "data_partida": "03.05.2026 18:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "0 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 6,
+          "v": 1
+        },
+        "cantos": {
+          "m": 5,
+          "v": 1
+        },
+        "passes": {
+          "m": "(284/348)",
+          "v": "80%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 3
+        },
+        "cartoes_vermelhos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 15,
+          "v": 14
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 6
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 4
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 1
+        },
+        "cantos": {
+          "m": 2,
+          "v": 1
+        },
+        "passes": {
+          "m": "(103/126)",
+          "v": "84%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 4,
+          "v": 6
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 5
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "3-4-2-1"
+      },
+      "mercado": {
+        "oddM": "2.10",
+        "oddEmpate": "3.00",
+        "oddV": "3.80"
+      }
+    },
+    {
+      "match_id": "GAQkTI26",
+      "mandante": "Sport Recife",
+      "visitante": "Ceara",
+      "data_partida": "03.05.2026 18:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "2 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 10
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 1
+        },
+        "cantos": {
+          "m": 9,
+          "v": 11
+        },
+        "passes": {
+          "m": "(227/282)",
+          "v": "83%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 4
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 13,
+          "v": 16
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 3
+        },
+        "chutes_alvo": {
+          "m": 1,
+          "v": 1
+        },
+        "cantos": {
+          "m": 5,
+          "v": 7
+        },
+        "passes": {
+          "m": "(127/155)",
+          "v": "80%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 7,
+          "v": 7
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "2.15",
+        "oddEmpate": "3.25",
+        "oddV": "3.30"
+      }
+    },
+    {
+      "match_id": "4f5GR5R1",
+      "mandante": "Operario-PR",
+      "visitante": "Londrina",
+      "data_partida": "03.05.2026 16:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "2 - 0",
+        "ft": "3 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 10
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 3
+        },
+        "cantos": {
+          "m": 5,
+          "v": 4
+        },
+        "passes": {
+          "m": "(394/461)",
+          "v": "86%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 5
+        },
+        "impedimentos": {
+          "m": 3,
+          "v": 1
+        },
+        "faltas": {
+          "m": 11,
+          "v": 16
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 6
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 2
+        },
+        "cantos": {
+          "m": 4,
+          "v": 1
+        },
+        "passes": {
+          "m": "(180/219)",
+          "v": "85%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 0
+        },
+        "faltas": {
+          "m": 7,
+          "v": 10
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-3-3"
+      },
+      "mercado": {
+        "oddM": "1.71",
+        "oddEmpate": "3.30",
+        "oddV": "5.25"
+      }
+    },
+    {
+      "match_id": "0bGxZmZR",
+      "mandante": "Sao Bernardo",
+      "visitante": "Ponte Preta",
+      "data_partida": "03.05.2026 16:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 0",
+        "ft": "3 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 11
+        },
+        "chutes_alvo": {
+          "m": 6,
+          "v": 0
+        },
+        "cantos": {
+          "m": 2,
+          "v": 6
+        },
+        "passes": {
+          "m": "(411/463)",
+          "v": "88%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 2
+        },
+        "faltas": {
+          "m": 11,
+          "v": 10
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 6
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 0
+        },
+        "cantos": {
+          "m": 2,
+          "v": 5
+        },
+        "passes": {
+          "m": "(250/280)",
+          "v": "86%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 5,
+          "v": 4
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 3
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-3-2-1"
+      },
+      "mercado": {
+        "oddM": "2.01",
+        "oddEmpate": "2.70",
+        "oddV": "4.50"
+      }
+    },
+    {
+      "match_id": "W0c2k9J8",
+      "mandante": "Fortaleza",
+      "visitante": "Goias",
+      "data_partida": "02.05.2026 20:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 1",
+        "ft": "4 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 10
+        },
+        "chutes_alvo": {
+          "m": 9,
+          "v": 4
+        },
+        "cantos": {
+          "m": 3,
+          "v": 3
+        },
+        "passes": {
+          "m": "(338/385)",
+          "v": "86%"
+        },
+        "cartoes_amarelos": {
+          "m": 4,
+          "v": 3
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 11,
+          "v": 17
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 5
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 7
+        },
+        "chutes_alvo": {
+          "m": 1,
+          "v": 2
+        },
+        "cantos": {
+          "m": 1,
+          "v": 3
+        },
+        "passes": {
+          "m": "(161/188)",
+          "v": "85%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 6,
+          "v": 11
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "3-4-2-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "1.71",
+        "oddEmpate": "3.30",
+        "oddV": "5.25"
+      }
+    },
+    {
+      "match_id": "OzUcRdXI",
+      "mandante": "Cuiaba",
+      "visitante": "Criciuma",
+      "data_partida": "02.05.2026 18:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 0",
+        "ft": "1 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 9
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 3
+        },
+        "cantos": {
+          "m": 3,
+          "v": 2
+        },
+        "passes": {
+          "m": "(320/397)",
+          "v": "83%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 3
+        },
+        "faltas": {
+          "m": 17,
+          "v": 10
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 2
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 0
+        },
+        "cantos": {
+          "m": 3,
+          "v": 0
+        },
+        "passes": {
+          "m": "(202/239)",
+          "v": "89%"
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 2
+        },
+        "faltas": {
+          "m": 8,
+          "v": 5
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 3
+        }
+      },
+      "formacao": {
+        "m": "3-4-2-1",
+        "v": "3-4-2-1"
+      },
+      "mercado": {
+        "oddM": "2.15",
+        "oddEmpate": "2.75",
+        "oddV": "4.00"
+      }
+    },
+    {
+      "match_id": "SW2VzA4F",
+      "mandante": "Botafogo SP",
+      "visitante": "Nautico",
+      "data_partida": "02.05.2026 16:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 0",
+        "ft": "1 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 14
+        },
+        "chutes_alvo": {
+          "m": 7,
+          "v": 3
+        },
+        "cantos": {
+          "m": 11,
+          "v": 2
+        },
+        "passes": {
+          "m": "(208/282)",
+          "v": "73%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 3,
+          "v": 1
+        },
+        "faltas": {
+          "m": 18,
+          "v": 18
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 7
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 0
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 0
+        },
+        "cantos": {
+          "m": 7,
+          "v": 1
+        },
+        "passes": {
+          "m": "(82/112)",
+          "v": "76%"
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 1
+        },
+        "faltas": {
+          "m": 11,
+          "v": 8
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 2
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "2.30",
+        "oddEmpate": "3.10",
+        "oddV": "3.20"
+      }
+    },
+    {
+      "match_id": "YT5NsIHa",
+      "mandante": "Novorizontino",
+      "visitante": "Botafogo SP",
+      "data_partida": "10.05.2026 19:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "1 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 6
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 1
+        },
+        "cantos": {
+          "m": 5,
+          "v": 1
+        },
+        "passes": {
+          "m": "(255/340)",
+          "v": "76%"
+        },
+        "cartoes_amarelos": {
+          "m": 4,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 3,
+          "v": 2
+        },
+        "faltas": {
+          "m": 17,
+          "v": 15
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 3
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 1
+        },
+        "cantos": {
+          "m": 2,
+          "v": 0
+        },
+        "passes": {
+          "m": "(159/197)",
+          "v": "74%"
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 2
+        },
+        "faltas": {
+          "m": 6,
+          "v": 8
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "1.86",
+        "oddEmpate": "3.10",
+        "oddV": "4.50"
+      }
+    },
+    {
+      "match_id": "Ui32fe15",
+      "mandante": "Avai",
+      "visitante": "Fortaleza",
+      "data_partida": "10.05.2026 18:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "0 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 20,
+          "v": 9
+        },
+        "chutes_alvo": {
+          "m": 6,
+          "v": 2
+        },
+        "cantos": {
+          "m": 5,
+          "v": 4
+        },
+        "passes": {
+          "m": "(393/488)",
+          "v": "75%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 3
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 3,
+          "v": 0
+        },
+        "faltas": {
+          "m": 19,
+          "v": 17
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 6
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 3
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 0
+        },
+        "cantos": {
+          "m": 2,
+          "v": 3
+        },
+        "passes": {
+          "m": "(209/266)",
+          "v": "77%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 3,
+          "v": 0
+        },
+        "faltas": {
+          "m": 8,
+          "v": 7
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 2
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "3-4-2-1"
+      },
+      "mercado": {
+        "oddM": "2.40",
+        "oddEmpate": "3.10",
+        "oddV": "3.00"
+      }
+    },
+    {
+      "match_id": "xI6AhZVH",
+      "mandante": "Nautico",
+      "visitante": "America MG",
+      "data_partida": "10.05.2026 16:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "2 - 0",
+        "ft": "4 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 6,
+          "v": 0
+        },
+        "cantos": {
+          "m": 3,
+          "v": 3
+        },
+        "passes": {
+          "m": "(356/426)",
+          "v": "75%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 3
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 2
+        },
+        "faltas": {
+          "m": 19,
+          "v": 16
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 4
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 0
+        },
+        "cantos": {
+          "m": 2,
+          "v": 1
+        },
+        "passes": {
+          "m": "(126/164)",
+          "v": "72%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 1
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 2
+        },
+        "faltas": {
+          "m": 8,
+          "v": 11
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 2
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-1-4-1"
+      },
+      "mercado": {
+        "oddM": "1.91",
+        "oddEmpate": "3.10",
+        "oddV": "3.60"
+      }
+    },
+    {
+      "match_id": "vouSAGon",
+      "mandante": "Juventude",
+      "visitante": "Criciuma",
+      "data_partida": "09.05.2026 21:15",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "0 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 14
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 2
+        },
+        "cantos": {
+          "m": 7,
+          "v": 9
+        },
+        "passes": {
+          "m": "(299/372)",
+          "v": "74%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 4
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 1
+        },
+        "faltas": {
+          "m": 14,
+          "v": 18
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 5
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 3
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 1
+        },
+        "cantos": {
+          "m": 3,
+          "v": 2
+        },
+        "passes": {
+          "m": "(163/201)",
+          "v": "69%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 7,
+          "v": 11
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "formacao": {
+        "m": "3-4-1-2",
+        "v": "3-4-2-1"
+      },
+      "mercado": {
+        "oddM": "2.55",
+        "oddEmpate": "2.70",
+        "oddV": "3.20"
+      }
+    },
+    {
+      "match_id": "AV4IjD0U",
+      "mandante": "CRB",
+      "visitante": "Operario-PR",
+      "data_partida": "09.05.2026 20:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "2 - 0",
+        "ft": "3 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 8
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 2
+        },
+        "cantos": {
+          "m": 6,
+          "v": 1
+        },
+        "passes": {
+          "m": "(306/359)",
+          "v": "89%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 4
+        },
+        "impedimentos": {
+          "m": 3,
+          "v": 0
+        },
+        "faltas": {
+          "m": 15,
+          "v": 14
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 2
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 1
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 0
+        },
+        "cantos": {
+          "m": 5,
+          "v": 0
+        },
+        "passes": {
+          "m": "(206/223)",
+          "v": "90%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 7,
+          "v": 7
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "2.05",
+        "oddEmpate": "3.30",
+        "oddV": "3.60"
+      }
+    },
+    {
+      "match_id": "lE1nbw2t",
+      "mandante": "Ceara",
+      "visitante": "Atletico GO",
+      "data_partida": "09.05.2026 19:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 1",
+        "ft": "0 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 75,
+          "v": 25
+        },
+        "finalizacoes": {
+          "m": 32,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 9,
+          "v": 1
+        },
+        "cantos": {
+          "m": 11,
+          "v": 1
+        },
+        "passes": {
+          "m": "(436/487)",
+          "v": "67%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 2
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 14,
+          "v": 15
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 9
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 64,
+          "v": 36
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 4
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 1
+        },
+        "cantos": {
+          "m": 3,
+          "v": 1
+        },
+        "passes": {
+          "m": "(173/198)",
+          "v": "80%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 0
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 7,
+          "v": 11
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 4
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "1.96",
+        "oddEmpate": "3.10",
+        "oddV": "4.10"
+      }
+    },
+    {
+      "match_id": "Q32Fqvmm",
+      "mandante": "Ponte Preta",
+      "visitante": "Sport Recife",
+      "data_partida": "09.05.2026 18:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 2",
+        "ft": "1 - 3"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 10
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 4
+        },
+        "cantos": {
+          "m": 11,
+          "v": 2
+        },
+        "passes": {
+          "m": "(201/271)",
+          "v": "80%"
+        },
+        "cartoes_amarelos": {
+          "m": 5,
+          "v": 4
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 2
+        },
+        "faltas": {
+          "m": 17,
+          "v": 11
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 1,
+          "v": 3
+        },
+        "cantos": {
+          "m": 4,
+          "v": 1
+        },
+        "passes": {
+          "m": "(82/111)",
+          "v": "82%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 10,
+          "v": 5
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "formacao": {
+        "m": "3-4-2-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "3.10",
+        "oddEmpate": "3.10",
+        "oddV": "2.30"
+      }
+    },
+    {
+      "match_id": "6s4VudnC",
+      "mandante": "Athletic Club",
+      "visitante": "Cuiaba",
+      "data_partida": "09.05.2026 18:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "0 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 7
+        },
+        "chutes_alvo": {
+          "m": 1,
+          "v": 1
+        },
+        "cantos": {
+          "m": 6,
+          "v": 6
+        },
+        "passes": {
+          "m": "(385/448)",
+          "v": "81%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 1
+        },
+        "faltas": {
+          "m": 11,
+          "v": 18
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 0,
+          "v": 6
+        },
+        "chutes_alvo": {
+          "m": 0,
+          "v": 1
+        },
+        "cantos": {
+          "m": 2,
+          "v": 5
+        },
+        "passes": {
+          "m": "(195/223)",
+          "v": "87%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 5,
+          "v": 10
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "formacao": {
+        "m": "4-3-3",
+        "v": "3-4-2-1"
+      },
+      "mercado": {
+        "oddM": "2.65",
+        "oddEmpate": "2.70",
+        "oddV": "3.10"
+      }
+    },
+    {
+      "match_id": "MRafdHWh",
+      "mandante": "Goias",
+      "visitante": "Vila Nova FC",
+      "data_partida": "09.05.2026 16:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "1 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 35,
+          "v": 65
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 11
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 1
+        },
+        "cantos": {
+          "m": 4,
+          "v": 5
+        },
+        "passes": {
+          "m": "(180/238)",
+          "v": "85%"
+        },
+        "cartoes_amarelos": {
+          "m": 6,
+          "v": 2
+        },
+        "cartoes_vermelhos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 0
+        },
+        "faltas": {
+          "m": 15,
+          "v": 10
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 1
+        },
+        "cantos": {
+          "m": 3,
+          "v": 2
+        },
+        "passes": {
+          "m": "(104/137)",
+          "v": "82%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 0
+        },
+        "faltas": {
+          "m": 7,
+          "v": 4
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "formacao": {
+        "m": "4-3-1-2",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "2.01",
+        "oddEmpate": "3.20",
+        "oddV": "3.90"
+      }
+    },
+    {
+      "match_id": "zyie13Ek",
+      "mandante": "Sport Recife",
+      "visitante": "CRB",
+      "data_partida": "17.05.2026 20:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 1",
+        "ft": "1 - 2"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 12
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 6
+        },
+        "cantos": {
+          "m": 3,
+          "v": 2
+        },
+        "passes": {
+          "m": "(318/386)",
+          "v": "79%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 4
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 2
+        },
+        "faltas": {
+          "m": 14,
+          "v": 13
+        },
+        "defesas_goleiro": {
+          "m": 5,
+          "v": 2
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 3,
+          "v": 8
+        },
+        "chutes_alvo": {
+          "m": 0,
+          "v": 4
+        },
+        "cantos": {
+          "m": 0,
+          "v": 2
+        },
+        "passes": {
+          "m": "(166/202)",
+          "v": "82%"
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 2
+        },
+        "faltas": {
+          "m": 4,
+          "v": 6
+        },
+        "defesas_goleiro": {
+          "m": 4,
+          "v": 0
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-3-3"
+      },
+      "mercado": {
+        "oddM": "2.25",
+        "oddEmpate": "3.20",
+        "oddV": "3.20"
+      }
+    },
+    {
+      "match_id": "lbN7NgVi",
+      "mandante": "Ceara",
+      "visitante": "Fortaleza",
+      "data_partida": "17.05.2026 18:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 1",
+        "ft": "2 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 17
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 5
+        },
+        "cantos": {
+          "m": 3,
+          "v": 2
+        },
+        "passes": {
+          "m": "(287/359)",
+          "v": "83%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 4
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 2
+        },
+        "faltas": {
+          "m": 20,
+          "v": 21
+        },
+        "defesas_goleiro": {
+          "m": 4,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 3,
+          "v": 7
+        },
+        "chutes_alvo": {
+          "m": 0,
+          "v": 2
+        },
+        "cantos": {
+          "m": 1,
+          "v": 0
+        },
+        "passes": {
+          "m": "(187/213)",
+          "v": "87%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 1
+        },
+        "faltas": {
+          "m": 7,
+          "v": 15
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "3-4-2-1"
+      },
+      "mercado": {
+        "oddM": "2.57",
+        "oddEmpate": "2.85",
+        "oddV": "2.85"
+      }
+    },
+    {
+      "match_id": "4lUNJBUG",
+      "mandante": "Criciuma",
+      "visitante": "Atletico GO",
+      "data_partida": "17.05.2026 18:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "1 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 67,
+          "v": 33
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 18
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 4
+        },
+        "cantos": {
+          "m": 8,
+          "v": 9
+        },
+        "passes": {
+          "m": "(337/435)",
+          "v": "63%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 4
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 3
+        },
+        "faltas": {
+          "m": 14,
+          "v": 16
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 1
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 8
+        },
+        "chutes_alvo": {
+          "m": 0,
+          "v": 0
+        },
+        "cantos": {
+          "m": 4,
+          "v": 4
+        },
+        "passes": {
+          "m": "(146/201)",
+          "v": "68%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 7,
+          "v": 6
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 0
+        }
+      },
+      "formacao": {
+        "m": "3-4-2-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "1.79",
+        "oddEmpate": "3.25",
+        "oddV": "4.75"
+      }
+    },
+    {
+      "match_id": "z9dlNpy9",
+      "mandante": "Vila Nova FC",
+      "visitante": "Avai",
+      "data_partida": "17.05.2026 18:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "2 - 0",
+        "ft": "2 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 7
+        },
+        "chutes_alvo": {
+          "m": 6,
+          "v": 3
+        },
+        "cantos": {
+          "m": 2,
+          "v": 1
+        },
+        "passes": {
+          "m": "(262/339)",
+          "v": "79%"
+        },
+        "cartoes_amarelos": {
+          "m": 4,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 3,
+          "v": 3
+        },
+        "faltas": {
+          "m": 21,
+          "v": 16
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 1
+        },
+        "chutes_alvo": {
+          "m": 6,
+          "v": 1
+        },
+        "cantos": {
+          "m": 2,
+          "v": 0
+        },
+        "passes": {
+          "m": "(149/188)",
+          "v": "70%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 8,
+          "v": 11
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 4
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "2.01",
+        "oddEmpate": "3.10",
+        "oddV": "3.40"
+      }
+    },
+    {
+      "match_id": "Slpj5CFN",
+      "mandante": "Athletic Club",
+      "visitante": "Juventude",
+      "data_partida": "17.05.2026 16:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 0",
+        "ft": "1 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 10
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 4
+        },
+        "cantos": {
+          "m": 5,
+          "v": 3
+        },
+        "passes": {
+          "m": "(225/295)",
+          "v": "79%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 22,
+          "v": 16
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 1
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 1
+        },
+        "cantos": {
+          "m": 3,
+          "v": 1
+        },
+        "passes": {
+          "m": "(92/121)",
+          "v": "85%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 8,
+          "v": 8
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-3-3",
+        "v": "3-4-3"
+      },
+      "mercado": {
+        "oddM": "2.55",
+        "oddEmpate": "3.00",
+        "oddV": "2.82"
+      }
+    },
+    {
+      "match_id": "8242asq2",
+      "mandante": "Cuiaba",
+      "visitante": "Novorizontino",
+      "data_partida": "16.05.2026 20:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "0 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 22,
+          "v": 10
+        },
+        "chutes_alvo": {
+          "m": 8,
+          "v": 3
+        },
+        "cantos": {
+          "m": 8,
+          "v": 4
+        },
+        "passes": {
+          "m": "(299/371)",
+          "v": "70%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 0
+        },
+        "faltas": {
+          "m": 14,
+          "v": 13
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 8
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 1
+        },
+        "cantos": {
+          "m": 3,
+          "v": 3
+        },
+        "passes": {
+          "m": "(149/183)",
+          "v": "80%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 6,
+          "v": 5
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 4
+        }
+      },
+      "formacao": {
+        "m": "3-4-2-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "2.55",
+        "oddEmpate": "2.70",
+        "oddV": "3.10"
+      }
+    },
+    {
+      "match_id": "dOQFLXa4",
+      "mandante": "Goias",
+      "visitante": "Botafogo SP",
+      "data_partida": "16.05.2026 18:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "1 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 7
+        },
+        "chutes_alvo": {
+          "m": 6,
+          "v": 2
+        },
+        "cantos": {
+          "m": 4,
+          "v": 5
+        },
+        "passes": {
+          "m": "(441/505)",
+          "v": "81%"
+        },
+        "cartoes_amarelos": {
+          "m": 4,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 19,
+          "v": 11
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 5
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 3
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 1
+        },
+        "cantos": {
+          "m": 2,
+          "v": 2
+        },
+        "passes": {
+          "m": "(245/278)",
+          "v": "81%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 7,
+          "v": 5
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "1.91",
+        "oddEmpate": "2.85",
+        "oddV": "3.75"
+      }
+    },
+    {
+      "match_id": "d4zMajwo",
+      "mandante": "Operario-PR",
+      "visitante": "Nautico",
+      "data_partida": "16.05.2026 16:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 2",
+        "ft": "2 - 6"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 18
+        },
+        "chutes_alvo": {
+          "m": 7,
+          "v": 8
+        },
+        "cantos": {
+          "m": 7,
+          "v": 5
+        },
+        "passes": {
+          "m": "(249/324)",
+          "v": "79%"
+        },
+        "cartoes_amarelos": {
+          "m": 4,
+          "v": 1
+        },
+        "cartoes_vermelhos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 1
+        },
+        "faltas": {
+          "m": 8,
+          "v": 18
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 5
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 10
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 4
+        },
+        "cantos": {
+          "m": 6,
+          "v": 3
+        },
+        "passes": {
+          "m": "(122/163)",
+          "v": "76%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 4,
+          "v": 10
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 3
+        }
+      },
+      "formacao": {
+        "m": "4-1-4-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "2.05",
+        "oddEmpate": "3.10",
+        "oddV": "3.70"
+      }
+    },
+    {
+      "match_id": "KOtr7YpB",
+      "mandante": "Sao Bernardo",
+      "visitante": "America MG",
+      "data_partida": "16.05.2026 16:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 1",
+        "ft": "1 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 11
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 4
+        },
+        "cantos": {
+          "m": 6,
+          "v": 7
+        },
+        "passes": {
+          "m": "(363/419)",
+          "v": "85%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 5
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 2
+        },
+        "faltas": {
+          "m": 16,
+          "v": 16
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 9
+        },
+        "chutes_alvo": {
+          "m": 1,
+          "v": 2
+        },
+        "cantos": {
+          "m": 3,
+          "v": 5
+        },
+        "passes": {
+          "m": "(168/192)",
+          "v": "89%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 6,
+          "v": 8
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-1-4-1"
+      },
+      "mercado": {
+        "oddM": "2.25",
+        "oddEmpate": "3.10",
+        "oddV": "3.30"
+      }
+    },
+    {
+      "match_id": "E77wvzHO",
+      "mandante": "Londrina",
+      "visitante": "Sao Bernardo",
+      "data_partida": "12.05.2026 19:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 2",
+        "ft": "1 - 3"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 8
+        },
+        "chutes_alvo": {
+          "m": 0,
+          "v": 3
+        },
+        "cantos": {
+          "m": 9,
+          "v": 2
+        },
+        "passes": {
+          "m": "(430/491)",
+          "v": "83%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 2
+        },
+        "faltas": {
+          "m": 13,
+          "v": 6
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 6
+        },
+        "chutes_alvo": {
+          "m": 0,
+          "v": 2
+        },
+        "cantos": {
+          "m": 0,
+          "v": 2
+        },
+        "passes": {
+          "m": "(232/271)",
+          "v": "83%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 4,
+          "v": 2
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 0
+        }
+      },
+      "formacao": {
+        "m": "3-5-2",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "2.45",
+        "oddEmpate": "2.55",
+        "oddV": "3.50"
+      }
+    },
+    {
+      "match_id": "Igi4T6uh",
+      "mandante": "Vila Nova FC",
+      "visitante": "Operario-PR",
+      "data_partida": "18.04.2026 18:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 1",
+        "ft": "2 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 7
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 3
+        },
+        "cantos": {
+          "m": 3,
+          "v": 6
+        },
+        "passes": {
+          "m": "(245/304)",
+          "v": "82%"
+        },
+        "cartoes_amarelos": {
+          "m": 7,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 11
+        },
+        "faltas": {
+          "m": 22,
+          "v": 7
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 2
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 3
+        },
+        "cantos": {
+          "m": 2,
+          "v": 6
+        },
+        "passes": {
+          "m": "(137/161)",
+          "v": "81%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 3
+        },
+        "faltas": {
+          "m": 8,
+          "v": 5
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 2
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-3-3"
+      },
+      "mercado": {
+        "oddM": "2.25",
+        "oddEmpate": "3.00",
+        "oddV": "3.40"
+      }
+    },
+    {
+      "match_id": "SbFTOlgU",
+      "mandante": "Sport Recife",
+      "visitante": "Vila Nova FC",
+      "data_partida": "01.04.2026 19:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "1 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 16
+        },
+        "chutes_alvo": {
+          "m": 7,
+          "v": 2
+        },
+        "cantos": {
+          "m": 6,
+          "v": 3
+        },
+        "passes": {
+          "m": "(250/320)",
+          "v": "88%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 4
+        },
+        "cartoes_vermelhos": {
+          "m": 1,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 2
+        },
+        "faltas": {
+          "m": 11,
+          "v": 12
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 6
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 8
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 0
+        },
+        "cantos": {
+          "m": 3,
+          "v": 2
+        },
+        "passes": {
+          "m": "(165/206)",
+          "v": "84%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 3
+        },
+        "cartoes_vermelhos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 1
+        },
+        "faltas": {
+          "m": 5,
+          "v": 7
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 3
+        }
+      },
+      "formacao": {
+        "m": "3-4-3",
+        "v": "4-1-4-1"
+      },
+      "mercado": {
+        "oddM": "1.79",
+        "oddEmpate": "3.30",
+        "oddV": "4.50"
+      }
+    },
+    {
+      "match_id": "foHLQAOH",
+      "mandante": "Criciuma",
+      "visitante": "Athletic Club",
+      "data_partida": "01.04.2026 21:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 1",
+        "ft": "1 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 71,
+          "v": 29
+        },
+        "finalizacoes": {
+          "m": 32,
+          "v": 7
+        },
+        "chutes_alvo": {
+          "m": 7,
+          "v": 2
+        },
+        "cantos": {
+          "m": 9,
+          "v": 2
+        },
+        "passes": {
+          "m": "(452/499)",
+          "v": "63%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 4
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 10,
+          "v": 21
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 6
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 65,
+          "v": 35
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 1
+        },
+        "cantos": {
+          "m": 3,
+          "v": 1
+        },
+        "passes": {
+          "m": "(186/218)",
+          "v": "66%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 4
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 6,
+          "v": 14
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 4
+        }
+      },
+      "formacao": {
+        "m": "3-4-2-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "1.57",
+        "oddEmpate": "3.70",
+        "oddV": "5.75"
+      }
+    },
+    {
+      "match_id": "zJRRtNEF",
+      "mandante": "Fortaleza",
+      "visitante": "Juventude",
+      "data_partida": "04.04.2026 16:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "2 - 0",
+        "ft": "2 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 37,
+          "v": 63
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 18
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 6
+        },
+        "cantos": {
+          "m": 5,
+          "v": 2
+        },
+        "passes": {
+          "m": "(220/280)",
+          "v": "86%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 5,
+          "v": 1
+        },
+        "faltas": {
+          "m": 23,
+          "v": 11
+        },
+        "defesas_goleiro": {
+          "m": 5,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 7
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 0
+        },
+        "cantos": {
+          "m": 5,
+          "v": 0
+        },
+        "passes": {
+          "m": "(141/168)",
+          "v": "83%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 1
+        },
+        "faltas": {
+          "m": 15,
+          "v": 3
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 2
+        }
+      },
+      "formacao": {
+        "m": "3-4-2-1",
+        "v": "3-4-2-1"
+      },
+      "mercado": {
+        "oddM": "1.81",
+        "oddEmpate": "3.20",
+        "oddV": "4.50"
+      }
+    },
+    {
+      "match_id": "pW97g0bL",
+      "mandante": "Vila Nova FC",
+      "visitante": "Atletico GO",
+      "data_partida": "04.04.2026 20:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 1",
+        "ft": "2 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 10
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 4
+        },
+        "cantos": {
+          "m": 8,
+          "v": 3
+        },
+        "passes": {
+          "m": "(265/357)",
+          "v": "68%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 3
+        },
+        "faltas": {
+          "m": 16,
+          "v": 24
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 1
+        },
+        "cantos": {
+          "m": 5,
+          "v": 2
+        },
+        "passes": {
+          "m": "(159/207)",
+          "v": "69%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 2
+        },
+        "faltas": {
+          "m": 7,
+          "v": 8
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 2
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-3-2-1"
+      },
+      "mercado": {
+        "oddM": "2.01",
+        "oddEmpate": "3.00",
+        "oddV": "4.00"
+      }
+    },
+    {
+      "match_id": "GE0wlvMr",
+      "mandante": "Ponte Preta",
+      "visitante": "Vila Nova FC",
+      "data_partida": "11.04.2026 18:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 1",
+        "ft": "0 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 14
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 5
+        },
+        "cantos": {
+          "m": 9,
+          "v": 4
+        },
+        "passes": {
+          "m": "(277/355)",
+          "v": "78%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 4
+        },
+        "impedimentos": {
+          "m": 9,
+          "v": 2
+        },
+        "faltas": {
+          "m": 12,
+          "v": 15
+        },
+        "defesas_goleiro": {
+          "m": 4,
+          "v": 5
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 6
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 3
+        },
+        "cantos": {
+          "m": 2,
+          "v": 2
+        },
+        "passes": {
+          "m": "(146/182)",
+          "v": "84%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 5,
+          "v": 1
+        },
+        "faltas": {
+          "m": 5,
+          "v": 8
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 3
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "3.10",
+        "oddEmpate": "2.75",
+        "oddV": "2.57"
+      }
+    },
+    {
+      "match_id": "QZI9UdJF",
+      "mandante": "Vila Nova FC",
+      "visitante": "CRB",
+      "data_partida": "21.03.2026 17:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 1",
+        "ft": "2 - 2"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 35,
+          "v": 65
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 12
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 9
+        },
+        "cantos": {
+          "m": 3,
+          "v": 5
+        },
+        "passes": {
+          "m": "(173/240)",
+          "v": "83%"
+        },
+        "cartoes_amarelos": {
+          "m": 4,
+          "v": 4
+        },
+        "cartoes_vermelhos": {
+          "m": 1,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 22,
+          "v": 16
+        },
+        "defesas_goleiro": {
+          "m": 6,
+          "v": 2
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 3,
+          "v": 6
+        },
+        "chutes_alvo": {
+          "m": 1,
+          "v": 4
+        },
+        "cantos": {
+          "m": 1,
+          "v": 3
+        },
+        "passes": {
+          "m": "(113/148)",
+          "v": "79%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 15,
+          "v": 10
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "2.57",
+        "oddEmpate": "2.85",
+        "oddV": "2.85"
+      }
+    },
+    {
+      "match_id": "rqVZv1qS",
+      "mandante": "Goias",
+      "visitante": "Criciuma",
+      "data_partida": "06.04.2026 21:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "1 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 9
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 1
+        },
+        "cantos": {
+          "m": 6,
+          "v": 7
+        },
+        "passes": {
+          "m": "(377/460)",
+          "v": "82%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 3,
+          "v": 0
+        },
+        "faltas": {
+          "m": 9,
+          "v": 11
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 1,
+          "v": 1
+        },
+        "cantos": {
+          "m": 3,
+          "v": 3
+        },
+        "passes": {
+          "m": "(203/248)",
+          "v": "79%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 5,
+          "v": 6
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-1-3-2",
+        "v": "3-4-2-1"
+      },
+      "mercado": {
+        "oddM": "2.10",
+        "oddEmpate": "3.00",
+        "oddV": "3.90"
+      }
+    },
+    {
+      "match_id": "0CH69yhC",
+      "mandante": "Juventude",
+      "visitante": "Goias",
+      "data_partida": "11.04.2026 16:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 0",
+        "ft": "2 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 7,
+          "v": 1
+        },
+        "cantos": {
+          "m": 6,
+          "v": 1
+        },
+        "passes": {
+          "m": "(229/279)",
+          "v": "85%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 1
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 0
+        },
+        "faltas": {
+          "m": 19,
+          "v": 16
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 6
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 34,
+          "v": 66
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 3
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 1
+        },
+        "cantos": {
+          "m": 4,
+          "v": 1
+        },
+        "passes": {
+          "m": "(97/129)",
+          "v": "87%"
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 0
+        },
+        "faltas": {
+          "m": 6,
+          "v": 7
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 5
+        }
+      },
+      "formacao": {
+        "m": "3-4-2-1",
+        "v": "4-1-3-2"
+      },
+      "mercado": {
+        "oddM": "2.20",
+        "oddEmpate": "3.30",
+        "oddV": "3.20"
+      }
+    },
+    {
+      "match_id": "Ov4onIje",
+      "mandante": "Sao Bernardo",
+      "visitante": "Fortaleza",
+      "data_partida": "12.04.2026 18:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "0 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 17
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 6
+        },
+        "cantos": {
+          "m": 4,
+          "v": 6
+        },
+        "passes": {
+          "m": "(373/432)",
+          "v": "88%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 1
+        },
+        "faltas": {
+          "m": 10,
+          "v": 17
+        },
+        "defesas_goleiro": {
+          "m": 5,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 1,
+          "v": 3
+        },
+        "cantos": {
+          "m": 2,
+          "v": 0
+        },
+        "passes": {
+          "m": "(190/219)",
+          "v": "87%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 7,
+          "v": 6
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-3-3",
+        "v": "3-4-2-1"
+      },
+      "mercado": {
+        "oddM": "2.45",
+        "oddEmpate": "3.10",
+        "oddV": "2.85"
+      }
+    },
+    {
+      "match_id": "04F5UhPh",
+      "mandante": "Fortaleza",
+      "visitante": "Cuiaba",
+      "data_partida": "31.03.2026 19:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "0 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 4
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 0
+        },
+        "cantos": {
+          "m": 4,
+          "v": 0
+        },
+        "passes": {
+          "m": "(435/511)",
+          "v": "78%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 0
+        },
+        "faltas": {
+          "m": 20,
+          "v": 18
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 2
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 2
+        },
+        "chutes_alvo": {
+          "m": 1,
+          "v": 0
+        },
+        "cantos": {
+          "m": 1,
+          "v": 0
+        },
+        "passes": {
+          "m": "(256/290)",
+          "v": "82%"
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 0
+        },
+        "faltas": {
+          "m": 9,
+          "v": 7
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "3-4-3",
+        "v": "3-4-2-1"
+      },
+      "mercado": {
+        "oddM": "1.57",
+        "oddEmpate": "3.50",
+        "oddV": "6.25"
+      }
+    },
+    {
+      "match_id": "tvBN48p1",
+      "mandante": "Botafogo SP",
+      "visitante": "Fortaleza",
+      "data_partida": "21.03.2026 19:15",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "3 - 0",
+        "ft": "4 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 7
+        },
+        "chutes_alvo": {
+          "m": 6,
+          "v": 0
+        },
+        "cantos": {
+          "m": 7,
+          "v": 5
+        },
+        "passes": {
+          "m": "(281/339)",
+          "v": "86%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 5
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 13,
+          "v": 20
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 2
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 4
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 0
+        },
+        "cantos": {
+          "m": 4,
+          "v": 2
+        },
+        "passes": {
+          "m": "(163/193)",
+          "v": "83%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 8,
+          "v": 9
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 0
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "3.60",
+        "oddEmpate": "3.00",
+        "oddV": "2.15"
+      }
+    },
+    {
+      "match_id": "fHDnBPPN",
+      "mandante": "Nautico",
+      "visitante": "Sao Bernardo",
+      "data_partida": "18.04.2026 18:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "0 - 3"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 11
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 5
+        },
+        "cantos": {
+          "m": 10,
+          "v": 2
+        },
+        "passes": {
+          "m": "(355/418)",
+          "v": "78%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 6
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 2
+        },
+        "faltas": {
+          "m": 15,
+          "v": 16
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 3
+        },
+        "chutes_alvo": {
+          "m": 1,
+          "v": 1
+        },
+        "cantos": {
+          "m": 4,
+          "v": 1
+        },
+        "passes": {
+          "m": "(180/220)",
+          "v": "77%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 4
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 2
+        },
+        "faltas": {
+          "m": 11,
+          "v": 8
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-3-3"
+      },
+      "mercado": {
+        "oddM": "1.66",
+        "oddEmpate": "3.50",
+        "oddV": "4.75"
+      }
+    },
+    {
+      "match_id": "U1YuEXvC",
+      "mandante": "Sao Bernardo",
+      "visitante": "Operario-PR",
+      "data_partida": "02.04.2026 19:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 1",
+        "ft": "1 - 2"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 15
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 7
+        },
+        "cantos": {
+          "m": 6,
+          "v": 8
+        },
+        "passes": {
+          "m": "(421/478)",
+          "v": "89%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 2
+        },
+        "faltas": {
+          "m": 7,
+          "v": 8
+        },
+        "defesas_goleiro": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 1
+        },
+        "cantos": {
+          "m": 2,
+          "v": 5
+        },
+        "passes": {
+          "m": "(229/254)",
+          "v": "90%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 3,
+          "v": 3
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-3-3",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "2.57",
+        "oddEmpate": "3.00",
+        "oddV": "2.82"
+      }
+    },
+    {
+      "match_id": "rqBhuAwB",
+      "mandante": "Botafogo SP",
+      "visitante": "Sao Bernardo",
+      "data_partida": "05.04.2026 20:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 0",
+        "ft": "1 - 2"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 13
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 6
+        },
+        "cantos": {
+          "m": 9,
+          "v": 8
+        },
+        "passes": {
+          "m": "(323/396)",
+          "v": "83%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 5,
+          "v": 1
+        },
+        "faltas": {
+          "m": 12,
+          "v": 11
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 9
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 3
+        },
+        "cantos": {
+          "m": 1,
+          "v": 4
+        },
+        "passes": {
+          "m": "(160/198)",
+          "v": "86%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 1
+        },
+        "faltas": {
+          "m": 5,
+          "v": 5
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-3-3"
+      },
+      "mercado": {
+        "oddM": "1.91",
+        "oddEmpate": "3.10",
+        "oddV": "4.50"
+      }
+    },
+    {
+      "match_id": "pfjeJ7af",
+      "mandante": "Ceara",
+      "visitante": "Sao Bernardo",
+      "data_partida": "21.03.2026 18:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 0",
+        "ft": "1 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 21,
+          "v": 4
+        },
+        "chutes_alvo": {
+          "m": 6,
+          "v": 3
+        },
+        "cantos": {
+          "m": 7,
+          "v": 3
+        },
+        "passes": {
+          "m": "(341/407)",
+          "v": "82%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 3,
+          "v": 6
+        },
+        "faltas": {
+          "m": 8,
+          "v": 18
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 6
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 48,
+          "v": 52
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 2
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 2
+        },
+        "cantos": {
+          "m": 1,
+          "v": 0
+        },
+        "passes": {
+          "m": "(177/205)",
+          "v": "87%"
+        },
+        "impedimentos": {
+          "m": 3,
+          "v": 1
+        },
+        "faltas": {
+          "m": 5,
+          "v": 13
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 2
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-3-3"
+      },
+      "mercado": {
+        "oddM": "1.49",
+        "oddEmpate": "4.00",
+        "oddV": "6.25"
+      }
+    },
+    {
+      "match_id": "0MdQbez1",
+      "mandante": "Criciuma",
+      "visitante": "Botafogo SP",
+      "data_partida": "10.04.2026 20:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "1 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 12
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 1
+        },
+        "cantos": {
+          "m": 9,
+          "v": 6
+        },
+        "passes": {
+          "m": "(255/347)",
+          "v": "72%"
+        },
+        "cartoes_amarelos": {
+          "m": 4,
+          "v": 2
+        },
+        "cartoes_vermelhos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 2
+        },
+        "faltas": {
+          "m": 15,
+          "v": 15
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 62,
+          "v": 38
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 1,
+          "v": 1
+        },
+        "cantos": {
+          "m": 4,
+          "v": 2
+        },
+        "passes": {
+          "m": "(168/226)",
+          "v": "64%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 2
+        },
+        "faltas": {
+          "m": 6,
+          "v": 8
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "3-4-2-1",
+        "v": "4-1-4-1"
+      },
+      "mercado": {
+        "oddM": "1.81",
+        "oddEmpate": "3.20",
+        "oddV": "4.50"
+      }
+    },
+    {
+      "match_id": "K8tfNyIP",
+      "mandante": "Nautico",
+      "visitante": "Criciuma",
+      "data_partida": "22.03.2026 16:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 1",
+        "ft": "0 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 9
+        },
+        "chutes_alvo": {
+          "m": 1,
+          "v": 2
+        },
+        "cantos": {
+          "m": 12,
+          "v": 8
+        },
+        "passes": {
+          "m": "(312/395)",
+          "v": "69%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 3
+        },
+        "cartoes_vermelhos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 2
+        },
+        "faltas": {
+          "m": 17,
+          "v": 19
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 66,
+          "v": 34
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 1,
+          "v": 2
+        },
+        "cantos": {
+          "m": 7,
+          "v": 2
+        },
+        "passes": {
+          "m": "(140/179)",
+          "v": "63%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 1
+        },
+        "faltas": {
+          "m": 10,
+          "v": 10
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "3-4-2-1"
+      },
+      "mercado": {
+        "oddM": "2.35",
+        "oddEmpate": "2.65",
+        "oddV": "3.60"
+      }
+    },
+    {
+      "match_id": "jmaI53mo",
+      "mandante": "CRB",
+      "visitante": "Juventude",
+      "data_partida": "18.04.2026 20:45",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 1",
+        "ft": "0 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 15,
+          "v": 8
+        },
+        "chutes_alvo": {
+          "m": 6,
+          "v": 2
+        },
+        "cantos": {
+          "m": 5,
+          "v": 2
+        },
+        "passes": {
+          "m": "(406/459)",
+          "v": "83%"
+        },
+        "cartoes_amarelos": {
+          "m": 4,
+          "v": 2
+        },
+        "cartoes_vermelhos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 3
+        },
+        "faltas": {
+          "m": 15,
+          "v": 19
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 6
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 2
+        },
+        "cantos": {
+          "m": 2,
+          "v": 1
+        },
+        "passes": {
+          "m": "(217/244)",
+          "v": "82%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 8,
+          "v": 12
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 5
+        }
+      },
+      "formacao": {
+        "m": "4-3-3",
+        "v": "3-4-2-1"
+      },
+      "mercado": {
+        "oddM": "2.20",
+        "oddEmpate": "2.85",
+        "oddV": "3.60"
+      }
+    },
+    {
+      "match_id": "AVCpsW8b",
+      "mandante": "Juventude",
+      "visitante": "Novorizontino",
+      "data_partida": "31.03.2026 18:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "0 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 9
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 0
+        },
+        "cantos": {
+          "m": 4,
+          "v": 8
+        },
+        "passes": {
+          "m": "(412/476)",
+          "v": "81%"
+        },
+        "cartoes_amarelos": {
+          "m": 4,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 3
+        },
+        "faltas": {
+          "m": 13,
+          "v": 15
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 4
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 62,
+          "v": 38
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 1,
+          "v": 0
+        },
+        "cantos": {
+          "m": 0,
+          "v": 4
+        },
+        "passes": {
+          "m": "(257/289)",
+          "v": "82%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 8,
+          "v": 4
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "5-4-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "2.05",
+        "oddEmpate": "3.10",
+        "oddV": "3.80"
+      }
+    },
+    {
+      "match_id": "Qo7AFPbJ",
+      "mandante": "Avai",
+      "visitante": "Juventude",
+      "data_partida": "22.03.2026 16:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 0",
+        "ft": "2 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 8
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 1
+        },
+        "cantos": {
+          "m": 3,
+          "v": 3
+        },
+        "passes": {
+          "m": "(244/321)",
+          "v": "85%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 3
+        },
+        "faltas": {
+          "m": 15,
+          "v": 14
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 2
+        },
+        "chutes_alvo": {
+          "m": 1,
+          "v": 1
+        },
+        "cantos": {
+          "m": 2,
+          "v": 1
+        },
+        "passes": {
+          "m": "(115/153)",
+          "v": "83%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 8,
+          "v": 4
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "5-4-1"
+      },
+      "mercado": {
+        "oddM": "2.50",
+        "oddEmpate": "3.10",
+        "oddV": "2.75"
+      }
+    },
+    {
+      "match_id": "djwE9ClJ",
+      "mandante": "Londrina",
+      "visitante": "Ceara",
+      "data_partida": "19.04.2026 16:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "0 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 18,
+          "v": 13
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 6
+        },
+        "cantos": {
+          "m": 14,
+          "v": 4
+        },
+        "passes": {
+          "m": "(261/335)",
+          "v": "81%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 2
+        },
+        "faltas": {
+          "m": 18,
+          "v": 10
+        },
+        "defesas_goleiro": {
+          "m": 6,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 4
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 1
+        },
+        "cantos": {
+          "m": 7,
+          "v": 2
+        },
+        "passes": {
+          "m": "(112/151)",
+          "v": "82%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 1
+        },
+        "faltas": {
+          "m": 6,
+          "v": 2
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 3
+        }
+      },
+      "formacao": {
+        "m": "4-3-3",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "3.00",
+        "oddEmpate": "3.10",
+        "oddV": "2.35"
+      }
+    },
+    {
+      "match_id": "nLDDSWg5",
+      "mandante": "Atletico GO",
+      "visitante": "Nautico",
+      "data_partida": "01.04.2026 19:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 0",
+        "ft": "1 - 2"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 9
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 4
+        },
+        "cantos": {
+          "m": 7,
+          "v": 1
+        },
+        "passes": {
+          "m": "(248/310)",
+          "v": "81%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 4
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 3,
+          "v": 4
+        },
+        "faltas": {
+          "m": 21,
+          "v": 18
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 4
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 0
+        },
+        "cantos": {
+          "m": 4,
+          "v": 1
+        },
+        "passes": {
+          "m": "(135/166)",
+          "v": "75%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 2
+        },
+        "faltas": {
+          "m": 10,
+          "v": 9
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 0
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "2.20",
+        "oddEmpate": "3.00",
+        "oddV": "3.60"
+      }
+    },
+    {
+      "match_id": "SjHcWEft",
+      "mandante": "Londrina",
+      "visitante": "Goias",
+      "data_partida": "01.04.2026 19:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 1",
+        "ft": "2 - 2"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 15
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 3
+        },
+        "cantos": {
+          "m": 6,
+          "v": 6
+        },
+        "passes": {
+          "m": "(230/299)",
+          "v": "84%"
+        },
+        "cartoes_amarelos": {
+          "m": 4,
+          "v": 5
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 16,
+          "v": 18
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 41,
+          "v": 59
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 2
+        },
+        "cantos": {
+          "m": 3,
+          "v": 1
+        },
+        "passes": {
+          "m": "(123/152)",
+          "v": "86%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 9,
+          "v": 9
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "2.40",
+        "oddEmpate": "3.00",
+        "oddV": "3.20"
+      }
+    },
+    {
+      "match_id": "dlzYFgAa",
+      "mandante": "Ponte Preta",
+      "visitante": "Ceara",
+      "data_partida": "01.04.2026 21:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "1 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 14
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 4
+        },
+        "cantos": {
+          "m": 4,
+          "v": 6
+        },
+        "passes": {
+          "m": "(381/441)",
+          "v": "76%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 3
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 20,
+          "v": 13
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 0
+        },
+        "cantos": {
+          "m": 2,
+          "v": 2
+        },
+        "passes": {
+          "m": "(182/215)",
+          "v": "77%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 2
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 10,
+          "v": 10
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 2
+        }
+      },
+      "formacao": {
+        "m": "4-3-1-2",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "3.50",
+        "oddEmpate": "3.10",
+        "oddV": "2.15"
+      }
+    },
+    {
+      "match_id": "INfwqhvn",
+      "mandante": "CRB",
+      "visitante": "Avai",
+      "data_partida": "01.04.2026 21:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "0 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 57,
+          "v": 43
+        },
+        "finalizacoes": {
+          "m": 27,
+          "v": 15
+        },
+        "chutes_alvo": {
+          "m": 6,
+          "v": 3
+        },
+        "cantos": {
+          "m": 5,
+          "v": 5
+        },
+        "passes": {
+          "m": "(476/544)",
+          "v": "85%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 6
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 3,
+          "v": 1
+        },
+        "faltas": {
+          "m": 10,
+          "v": 14
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 6
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 54,
+          "v": 46
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 7
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 1
+        },
+        "cantos": {
+          "m": 3,
+          "v": 1
+        },
+        "passes": {
+          "m": "(219/255)",
+          "v": "88%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 1
+        },
+        "faltas": {
+          "m": 6,
+          "v": 6
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 2
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "1.66",
+        "oddEmpate": "3.60",
+        "oddV": "5.25"
+      }
+    },
+    {
+      "match_id": "CIBaeMT8",
+      "mandante": "Cuiaba",
+      "visitante": "Ceara",
+      "data_partida": "04.04.2026 18:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "0 - 2"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 65,
+          "v": 35
+        },
+        "finalizacoes": {
+          "m": 16,
+          "v": 7
+        },
+        "chutes_alvo": {
+          "m": 6,
+          "v": 2
+        },
+        "cantos": {
+          "m": 1,
+          "v": 2
+        },
+        "passes": {
+          "m": "(445/500)",
+          "v": "80%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 4
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 3
+        },
+        "faltas": {
+          "m": 14,
+          "v": 20
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 5
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 64,
+          "v": 36
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 2
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 0
+        },
+        "cantos": {
+          "m": 1,
+          "v": 1
+        },
+        "passes": {
+          "m": "(247/272)",
+          "v": "80%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 2
+        },
+        "faltas": {
+          "m": 9,
+          "v": 11
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "3-4-2-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "2.20",
+        "oddEmpate": "3.10",
+        "oddV": "3.40"
+      }
+    },
+    {
+      "match_id": "l2TJrqp3",
+      "mandante": "Londrina",
+      "visitante": "Sport Recife",
+      "data_partida": "04.04.2026 20:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 0",
+        "ft": "1 - 2"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 38,
+          "v": 62
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 16
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 4
+        },
+        "cantos": {
+          "m": 5,
+          "v": 7
+        },
+        "passes": {
+          "m": "(223/281)",
+          "v": "87%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 1
+        },
+        "faltas": {
+          "m": 13,
+          "v": 13
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 2
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 6
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 2
+        },
+        "cantos": {
+          "m": 3,
+          "v": 5
+        },
+        "passes": {
+          "m": "(115/148)",
+          "v": "88%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 5,
+          "v": 5
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-3-3"
+      },
+      "mercado": {
+        "oddM": "2.25",
+        "oddEmpate": "3.10",
+        "oddV": "3.25"
+      }
+    },
+    {
+      "match_id": "dQ7n6wrR",
+      "mandante": "Ceara",
+      "visitante": "Nautico",
+      "data_partida": "11.04.2026 20:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "1 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 40,
+          "v": 60
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 15
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 3
+        },
+        "cantos": {
+          "m": 3,
+          "v": 4
+        },
+        "passes": {
+          "m": "(246/301)",
+          "v": "86%"
+        },
+        "cartoes_amarelos": {
+          "m": 4,
+          "v": 4
+        },
+        "impedimentos": {
+          "m": 3,
+          "v": 2
+        },
+        "faltas": {
+          "m": 12,
+          "v": 15
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 7
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 2
+        },
+        "cantos": {
+          "m": 3,
+          "v": 1
+        },
+        "passes": {
+          "m": "(148/171)",
+          "v": "89%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 1
+        },
+        "faltas": {
+          "m": 3,
+          "v": 8
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 2
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "1.86",
+        "oddEmpate": "3.30",
+        "oddV": "4.33"
+      }
+    },
+    {
+      "match_id": "AZv6BYJ6",
+      "mandante": "America MG",
+      "visitante": "Sport Recife",
+      "data_partida": "18.04.2026 18:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "0 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 9
+        },
+        "chutes_alvo": {
+          "m": 6,
+          "v": 0
+        },
+        "cantos": {
+          "m": 8,
+          "v": 3
+        },
+        "passes": {
+          "m": "(264/316)",
+          "v": "83%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 4
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 0
+        },
+        "faltas": {
+          "m": 14,
+          "v": 15
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 6
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 3
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 0
+        },
+        "cantos": {
+          "m": 2,
+          "v": 1
+        },
+        "passes": {
+          "m": "(162/187)",
+          "v": "86%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 0
+        },
+        "faltas": {
+          "m": 6,
+          "v": 6
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 2
+        }
+      },
+      "formacao": {
+        "m": "4-1-4-1",
+        "v": "4-3-3"
+      },
+      "mercado": {
+        "oddM": "2.05",
+        "oddEmpate": "3.25",
+        "oddV": "3.70"
+      }
+    },
+    {
+      "match_id": "xSylCB9O",
+      "mandante": "America MG",
+      "visitante": "Botafogo SP",
+      "data_partida": "01.04.2026 18:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 1",
+        "ft": "1 - 2"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 68,
+          "v": 32
+        },
+        "finalizacoes": {
+          "m": 14,
+          "v": 13
+        },
+        "chutes_alvo": {
+          "m": 1,
+          "v": 5
+        },
+        "cantos": {
+          "m": 11,
+          "v": 7
+        },
+        "passes": {
+          "m": "(435/485)",
+          "v": "78%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 4
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 2
+        },
+        "faltas": {
+          "m": 15,
+          "v": 17
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 0
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 60,
+          "v": 40
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 7
+        },
+        "chutes_alvo": {
+          "m": 1,
+          "v": 4
+        },
+        "cantos": {
+          "m": 3,
+          "v": 4
+        },
+        "passes": {
+          "m": "(200/222)",
+          "v": "82%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 5,
+          "v": 6
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 0
+        }
+      },
+      "formacao": {
+        "m": "4-1-4-1",
+        "v": "4-5-1"
+      },
+      "mercado": {
+        "oddM": "1.91",
+        "oddEmpate": "3.40",
+        "oddV": "3.70"
+      }
+    },
+    {
+      "match_id": "vFG5Zv7k",
+      "mandante": "Avai",
+      "visitante": "Operario-PR",
+      "data_partida": "05.04.2026 16:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "0 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 6
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 3
+        },
+        "cantos": {
+          "m": 9,
+          "v": 4
+        },
+        "passes": {
+          "m": "(266/330)",
+          "v": "81%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 6
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 1
+        },
+        "faltas": {
+          "m": 19,
+          "v": 19
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 4
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 46,
+          "v": 54
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 4
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 2
+        },
+        "cantos": {
+          "m": 1,
+          "v": 3
+        },
+        "passes": {
+          "m": "(132/167)",
+          "v": "81%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 1
+        },
+        "faltas": {
+          "m": 8,
+          "v": 6
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 2
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-3-3"
+      },
+      "mercado": {
+        "oddM": "2.40",
+        "oddEmpate": "3.25",
+        "oddV": "2.82"
+      }
+    },
+    {
+      "match_id": "lrwQM1Nq",
+      "mandante": "Novorizontino",
+      "visitante": "CRB",
+      "data_partida": "05.04.2026 18:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "1 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 19,
+          "v": 11
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 4
+        },
+        "cantos": {
+          "m": 5,
+          "v": 1
+        },
+        "passes": {
+          "m": "(301/356)",
+          "v": "88%"
+        },
+        "cartoes_amarelos": {
+          "m": 4,
+          "v": 5
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 1
+        },
+        "faltas": {
+          "m": 19,
+          "v": 12
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 2
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 8
+        },
+        "chutes_alvo": {
+          "m": 0,
+          "v": 2
+        },
+        "cantos": {
+          "m": 1,
+          "v": 0
+        },
+        "passes": {
+          "m": "(142/171)",
+          "v": "88%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 1
+        },
+        "faltas": {
+          "m": 10,
+          "v": 8
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 0
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "1.86",
+        "oddEmpate": "3.20",
+        "oddV": "4.33"
+      }
+    },
+    {
+      "match_id": "6JaYdZ4D",
+      "mandante": "Sport Recife",
+      "visitante": "Avai",
+      "data_partida": "11.04.2026 18:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 1",
+        "ft": "2 - 2"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 21,
+          "v": 16
+        },
+        "chutes_alvo": {
+          "m": 10,
+          "v": 4
+        },
+        "cantos": {
+          "m": 7,
+          "v": 8
+        },
+        "passes": {
+          "m": "(343/414)",
+          "v": "76%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 6
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 0
+        },
+        "faltas": {
+          "m": 8,
+          "v": 16
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 8
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 4
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 1
+        },
+        "cantos": {
+          "m": 5,
+          "v": 1
+        },
+        "passes": {
+          "m": "(182/218)",
+          "v": "79%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 6,
+          "v": 10
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-3-3",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "1.76",
+        "oddEmpate": "3.40",
+        "oddV": "4.75"
+      }
+    },
+    {
+      "match_id": "jiXPHFum",
+      "mandante": "Cuiaba",
+      "visitante": "Sport Recife",
+      "data_partida": "21.03.2026 20:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "0 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 42,
+          "v": 58
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 10
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 1
+        },
+        "cantos": {
+          "m": 0,
+          "v": 1
+        },
+        "passes": {
+          "m": "(290/356)",
+          "v": "86%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 3,
+          "v": 4
+        },
+        "faltas": {
+          "m": 20,
+          "v": 21
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 4
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 39,
+          "v": 61
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 3
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 0
+        },
+        "cantos": {
+          "m": 0,
+          "v": 0
+        },
+        "passes": {
+          "m": "(136/168)",
+          "v": "87%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 4
+        },
+        "faltas": {
+          "m": 7,
+          "v": 6
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 3
+        }
+      },
+      "formacao": {
+        "m": "4-4-2",
+        "v": "3-4-3"
+      },
+      "mercado": {
+        "oddM": "2.35",
+        "oddEmpate": "3.00",
+        "oddV": "3.10"
+      }
+    },
+    {
+      "match_id": "nuKDXIy2",
+      "mandante": "Nautico",
+      "visitante": "Ponte Preta",
+      "data_partida": "04.04.2026 18:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "1 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 69,
+          "v": 31
+        },
+        "finalizacoes": {
+          "m": 23,
+          "v": 4
+        },
+        "chutes_alvo": {
+          "m": 6,
+          "v": 4
+        },
+        "cantos": {
+          "m": 17,
+          "v": 3
+        },
+        "passes": {
+          "m": "(387/448)",
+          "v": "69%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 1
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 14,
+          "v": 21
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 5
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 69,
+          "v": 31
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 2
+        },
+        "chutes_alvo": {
+          "m": 1,
+          "v": 2
+        },
+        "cantos": {
+          "m": 10,
+          "v": 1
+        },
+        "passes": {
+          "m": "(199/224)",
+          "v": "71%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 8,
+          "v": 8
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-3-1-2"
+      },
+      "mercado": {
+        "oddM": "1.66",
+        "oddEmpate": "3.40",
+        "oddV": "5.50"
+      }
+    },
+    {
+      "match_id": "l04v8aDE",
+      "mandante": "Operario-PR",
+      "visitante": "Cuiaba",
+      "data_partida": "12.04.2026 18:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "0 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 59,
+          "v": 41
+        },
+        "finalizacoes": {
+          "m": 13,
+          "v": 11
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 2
+        },
+        "cantos": {
+          "m": 2,
+          "v": 1
+        },
+        "passes": {
+          "m": "(373/437)",
+          "v": "81%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 5
+        },
+        "cartoes_vermelhos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 3,
+          "v": 3
+        },
+        "faltas": {
+          "m": 17,
+          "v": 18
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 53,
+          "v": 47
+        },
+        "finalizacoes": {
+          "m": 3,
+          "v": 7
+        },
+        "chutes_alvo": {
+          "m": 0,
+          "v": 1
+        },
+        "cantos": {
+          "m": 0,
+          "v": 0
+        },
+        "passes": {
+          "m": "(166/203)",
+          "v": "83%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 3
+        },
+        "faltas": {
+          "m": 11,
+          "v": 8
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 0
+        }
+      },
+      "formacao": {
+        "m": "4-3-3",
+        "v": "3-4-1-2"
+      },
+      "mercado": {
+        "oddM": "1.76",
+        "oddEmpate": "3.25",
+        "oddV": "4.75"
+      }
+    },
+    {
+      "match_id": "CthmLTUs",
+      "mandante": "Operario-PR",
+      "visitante": "Atletico GO",
+      "data_partida": "21.03.2026 18:15",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 0",
+        "ft": "1 - 0"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 9
+        },
+        "chutes_alvo": {
+          "m": 10,
+          "v": 0
+        },
+        "cantos": {
+          "m": 7,
+          "v": 7
+        },
+        "passes": {
+          "m": "(262/332)",
+          "v": "84%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 2
+        },
+        "faltas": {
+          "m": 14,
+          "v": 12
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 9
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 2
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 0
+        },
+        "cantos": {
+          "m": 1,
+          "v": 5
+        },
+        "passes": {
+          "m": "(133/166)",
+          "v": "84%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 2
+        },
+        "faltas": {
+          "m": 8,
+          "v": 7
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 3
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "1.86",
+        "oddEmpate": "3.25",
+        "oddV": "4.33"
+      }
+    },
+    {
+      "match_id": "UewjFGKs",
+      "mandante": "Botafogo SP",
+      "visitante": "Atletico GO",
+      "data_partida": "19.04.2026 16:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 1",
+        "ft": "1 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 10
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 3
+        },
+        "cantos": {
+          "m": 7,
+          "v": 5
+        },
+        "passes": {
+          "m": "(284/353)",
+          "v": "77%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 14,
+          "v": 14
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 50,
+          "v": 50
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 9
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 3
+        },
+        "cantos": {
+          "m": 2,
+          "v": 4
+        },
+        "passes": {
+          "m": "(109/142)",
+          "v": "76%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 7,
+          "v": 6
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 2
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "2.40",
+        "oddEmpate": "2.82",
+        "oddV": "3.20"
+      }
+    },
+    {
+      "match_id": "29euDoeB",
+      "mandante": "Avai",
+      "visitante": "Ponte Preta",
+      "data_partida": "18.04.2026 20:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 1",
+        "ft": "1 - 2"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 61,
+          "v": 39
+        },
+        "finalizacoes": {
+          "m": 12,
+          "v": 12
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 8
+        },
+        "cantos": {
+          "m": 5,
+          "v": 4
+        },
+        "passes": {
+          "m": "(399/471)",
+          "v": "73%"
+        },
+        "cartoes_amarelos": {
+          "m": 4,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 16,
+          "v": 16
+        },
+        "defesas_goleiro": {
+          "m": 6,
+          "v": 1
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 3
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 2
+        },
+        "cantos": {
+          "m": 2,
+          "v": 2
+        },
+        "passes": {
+          "m": "(204/232)",
+          "v": "75%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 5,
+          "v": 8
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-3-2-1"
+      },
+      "mercado": {
+        "oddM": "1.76",
+        "oddEmpate": "3.10",
+        "oddV": "5.25"
+      }
+    },
+    {
+      "match_id": "d8tYKuhd",
+      "mandante": "Athletic Club",
+      "visitante": "America MG",
+      "data_partida": "05.04.2026 20:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 0",
+        "ft": "1 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 35,
+          "v": 65
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 20
+        },
+        "chutes_alvo": {
+          "m": 4,
+          "v": 7
+        },
+        "cantos": {
+          "m": 4,
+          "v": 7
+        },
+        "passes": {
+          "m": "(217/279)",
+          "v": "86%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 2
+        },
+        "cartoes_vermelhos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 1
+        },
+        "faltas": {
+          "m": 18,
+          "v": 12
+        },
+        "defesas_goleiro": {
+          "m": 6,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 44,
+          "v": 56
+        },
+        "finalizacoes": {
+          "m": 5,
+          "v": 6
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 2
+        },
+        "cantos": {
+          "m": 2,
+          "v": 1
+        },
+        "passes": {
+          "m": "(138/167)",
+          "v": "85%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 0
+        },
+        "cartoes_vermelhos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 13,
+          "v": 4
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-3-3",
+        "v": "5-4-1"
+      },
+      "mercado": {
+        "oddM": "2.50",
+        "oddEmpate": "3.00",
+        "oddV": "3.00"
+      }
+    },
+    {
+      "match_id": "dh2gpdL7",
+      "mandante": "America MG",
+      "visitante": "Novorizontino",
+      "data_partida": "12.04.2026 18:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "0 - 3"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 15
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 8
+        },
+        "cantos": {
+          "m": 4,
+          "v": 5
+        },
+        "passes": {
+          "m": "(321/389)",
+          "v": "79%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 6,
+          "v": 4
+        },
+        "faltas": {
+          "m": 15,
+          "v": 11
+        },
+        "defesas_goleiro": {
+          "m": 5,
+          "v": 4
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 58,
+          "v": 42
+        },
+        "finalizacoes": {
+          "m": 2,
+          "v": 6
+        },
+        "chutes_alvo": {
+          "m": 0,
+          "v": 2
+        },
+        "cantos": {
+          "m": 2,
+          "v": 3
+        },
+        "passes": {
+          "m": "(188/221)",
+          "v": "85%"
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 2
+        },
+        "faltas": {
+          "m": 8,
+          "v": 4
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 0
+        }
+      },
+      "formacao": {
+        "m": "4-1-4-1",
+        "v": "3-5-2"
+      },
+      "mercado": {
+        "oddM": "2.15",
+        "oddEmpate": "3.00",
+        "oddV": "3.00"
+      }
+    },
+    {
+      "match_id": "Ei9V2nFD",
+      "mandante": "Novorizontino",
+      "visitante": "Londrina",
+      "data_partida": "22.03.2026 20:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "1 - 3"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 56,
+          "v": 44
+        },
+        "finalizacoes": {
+          "m": 24,
+          "v": 11
+        },
+        "chutes_alvo": {
+          "m": 9,
+          "v": 3
+        },
+        "cantos": {
+          "m": 9,
+          "v": 7
+        },
+        "passes": {
+          "m": "(339/414)",
+          "v": "78%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 3
+        },
+        "faltas": {
+          "m": 9,
+          "v": 9
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 8
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 0
+        },
+        "cantos": {
+          "m": 4,
+          "v": 5
+        },
+        "passes": {
+          "m": "(174/205)",
+          "v": "80%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 2
+        },
+        "faltas": {
+          "m": 5,
+          "v": 3
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 3
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "1.66",
+        "oddEmpate": "3.40",
+        "oddV": "5.25"
+      }
+    },
+    {
+      "match_id": "bDnKKxcK",
+      "mandante": "CRB",
+      "visitante": "Athletic Club",
+      "data_partida": "12.04.2026 20:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "2 - 0",
+        "ft": "2 - 3"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 49,
+          "v": 51
+        },
+        "finalizacoes": {
+          "m": 11,
+          "v": 12
+        },
+        "chutes_alvo": {
+          "m": 6,
+          "v": 5
+        },
+        "cantos": {
+          "m": 2,
+          "v": 6
+        },
+        "passes": {
+          "m": "(303/363)",
+          "v": "86%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 2
+        },
+        "faltas": {
+          "m": 15,
+          "v": 21
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 4
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 47,
+          "v": 53
+        },
+        "finalizacoes": {
+          "m": 10,
+          "v": 6
+        },
+        "chutes_alvo": {
+          "m": 6,
+          "v": 1
+        },
+        "cantos": {
+          "m": 1,
+          "v": 5
+        },
+        "passes": {
+          "m": "(162/186)",
+          "v": "89%"
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 1
+        },
+        "faltas": {
+          "m": 7,
+          "v": 12
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 4
+        }
+      },
+      "formacao": {
+        "m": "4-3-3",
+        "v": "4-3-3"
+      },
+      "mercado": {
+        "oddM": "1.71",
+        "oddEmpate": "3.50",
+        "oddV": "4.75"
+      }
+    },
+    {
+      "match_id": "tb1HQk7K",
+      "mandante": "Athletic Club",
+      "visitante": "Ponte Preta",
+      "data_partida": "22.03.2026 18:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "2 - 1",
+        "ft": "2 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 10
+        },
+        "chutes_alvo": {
+          "m": 8,
+          "v": 3
+        },
+        "cantos": {
+          "m": 3,
+          "v": 3
+        },
+        "passes": {
+          "m": "(274/335)",
+          "v": "84%"
+        },
+        "cartoes_amarelos": {
+          "m": 3,
+          "v": 3
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 21,
+          "v": 15
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 6
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 45,
+          "v": 55
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 6,
+          "v": 2
+        },
+        "cantos": {
+          "m": 3,
+          "v": 1
+        },
+        "passes": {
+          "m": "(135/165)",
+          "v": "86%"
+        },
+        "cartoes_amarelos": {
+          "m": 0,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 11,
+          "v": 5
+        },
+        "defesas_goleiro": {
+          "m": 1,
+          "v": 4
+        }
+      },
+      "formacao": {
+        "m": "4-2-3-1",
+        "v": "4-2-2-2"
+      },
+      "mercado": {
+        "oddM": "2.05",
+        "oddEmpate": "3.10",
+        "oddV": "3.70"
+      }
+    },
+    {
+      "match_id": "hdgI0H5l",
+      "mandante": "Atletico GO",
+      "visitante": "Londrina",
+      "data_partida": "12.04.2026 20:30",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "1 - 0",
+        "ft": "2 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 51,
+          "v": 49
+        },
+        "finalizacoes": {
+          "m": 17,
+          "v": 6
+        },
+        "chutes_alvo": {
+          "m": 5,
+          "v": 1
+        },
+        "cantos": {
+          "m": 8,
+          "v": 2
+        },
+        "passes": {
+          "m": "(357/418)",
+          "v": "79%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 1,
+          "v": 0
+        },
+        "faltas": {
+          "m": 26,
+          "v": 12
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 3
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 55,
+          "v": 45
+        },
+        "finalizacoes": {
+          "m": 6,
+          "v": 2
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 0
+        },
+        "cantos": {
+          "m": 3,
+          "v": 0
+        },
+        "passes": {
+          "m": "(234/262)",
+          "v": "79%"
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 12,
+          "v": 3
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 1
+        }
+      },
+      "formacao": {
+        "m": "4-3-2-1",
+        "v": "4-2-3-1"
+      },
+      "mercado": {
+        "oddM": "2.01",
+        "oddEmpate": "3.20",
+        "oddV": "3.90"
+      }
+    },
+    {
+      "match_id": "fqhXE7Qb",
+      "mandante": "Goias",
+      "visitante": "Cuiaba",
+      "data_partida": "19.04.2026 18:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "0 - 0",
+        "ft": "0 - 2"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 66,
+          "v": 34
+        },
+        "finalizacoes": {
+          "m": 8,
+          "v": 11
+        },
+        "chutes_alvo": {
+          "m": 0,
+          "v": 4
+        },
+        "cantos": {
+          "m": 4,
+          "v": 4
+        },
+        "passes": {
+          "m": "(438/510)",
+          "v": "74%"
+        },
+        "cartoes_amarelos": {
+          "m": 2,
+          "v": 2
+        },
+        "impedimentos": {
+          "m": 2,
+          "v": 0
+        },
+        "faltas": {
+          "m": 15,
+          "v": 26
+        },
+        "defesas_goleiro": {
+          "m": 2,
+          "v": 0
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 52,
+          "v": 48
+        },
+        "finalizacoes": {
+          "m": 4,
+          "v": 5
+        },
+        "chutes_alvo": {
+          "m": 0,
+          "v": 0
+        },
+        "cantos": {
+          "m": 3,
+          "v": 3
+        },
+        "passes": {
+          "m": "(168/199)",
+          "v": "78%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 1
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 10,
+          "v": 8
+        },
+        "defesas_goleiro": {
+          "m": 0,
+          "v": 0
+        }
+      },
+      "formacao": {
+        "m": "4-1-3-2",
+        "v": "3-4-1-2"
+      },
+      "mercado": {
+        "oddM": "1.81",
+        "oddEmpate": "3.10",
+        "oddV": "5.00"
+      }
+    },
+    {
+      "match_id": "IL32HoU6",
+      "mandante": "Goias",
+      "visitante": "America MG",
+      "data_partida": "22.03.2026 18:00",
+      "liga": "Brasileirão Série B",
+      "codigo_liga": "BR_B",
+      "placar": {
+        "ht": "2 - 0",
+        "ft": "3 - 1"
+      },
+      "estatisticas_ft": {
+        "posse": {
+          "m": 33,
+          "v": 67
+        },
+        "finalizacoes": {
+          "m": 9,
+          "v": 24
+        },
+        "chutes_alvo": {
+          "m": 3,
+          "v": 9
+        },
+        "cantos": {
+          "m": 3,
+          "v": 8
+        },
+        "passes": {
+          "m": "(194/258)",
+          "v": "88%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 1
+        },
+        "cartoes_vermelhos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 1
+        },
+        "faltas": {
+          "m": 10,
+          "v": 6
+        },
+        "defesas_goleiro": {
+          "m": 8,
+          "v": 0
+        }
+      },
+      "estatisticas_ht": {
+        "posse": {
+          "m": 43,
+          "v": 57
+        },
+        "finalizacoes": {
+          "m": 7,
+          "v": 11
+        },
+        "chutes_alvo": {
+          "m": 2,
+          "v": 3
+        },
+        "cantos": {
+          "m": 3,
+          "v": 4
+        },
+        "passes": {
+          "m": "(135/161)",
+          "v": "86%"
+        },
+        "cartoes_amarelos": {
+          "m": 1,
+          "v": 0
+        },
+        "cartoes_vermelhos": {
+          "m": 1,
+          "v": 0
+        },
+        "impedimentos": {
+          "m": 0,
+          "v": 0
+        },
+        "faltas": {
+          "m": 6,
+          "v": 2
+        },
+        "defesas_goleiro": {
+          "m": 3,
+          "v": 0
+        }
+      },
+      "formacao": {
+        "m": "4-1-3-2",
+        "v": "4-3-3"
+      },
+      "mercado": {
+        "oddM": "1.76",
+        "oddEmpate": "3.40",
+        "oddV": "4.75"
+      }
+    }
+  ]
+}

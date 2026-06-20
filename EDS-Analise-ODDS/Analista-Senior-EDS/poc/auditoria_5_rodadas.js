@@ -31,6 +31,8 @@ const CORTE_AMOSTRA = 30;    // n < 30 = reprovado (R5 + R8)
 
 // Janela ampliada para 10 rodadas (após POC v1 mostrar amostra insuficiente com 5).
 // Tolerância ±2 dias na localização de JSON.
+// fonte: 'json' (default) lê de Analise-Refinada/ ou projeto-fantasma/rodadas/
+// fonte: 'data_js' monta a rodada virtualmente filtrando data/*.js pela data
 const RODADAS = [
   { data: '2026-04-01', limite: '2026-03-25' },
   { data: '2026-04-08', limite: '2026-04-01' },
@@ -41,7 +43,9 @@ const RODADAS = [
   { data: '2026-05-12', limite: '2026-05-05' },
   { data: '2026-05-13', limite: '2026-05-06' },
   { data: '2026-05-15', limite: '2026-05-08' },
-  { data: '2026-05-18', limite: '2026-05-11' }
+  { data: '2026-05-18', limite: '2026-05-11' },
+  // Rodada virtual pós-injeção (gabarito do próprio data/*.js)
+  { data: '2026-05-17', limite: '2026-05-10', fonte: 'data_js' }
 ];
 
 // Faixas de probabilidade — para segmentar acerto por nível de confiança
@@ -109,9 +113,47 @@ function montarRodada(R) {
   return { input, gabarito, ligasOk };
 }
 
+// Monta rodada virtualmente lendo jogos do data/*.js filtrados por data (±1 dia).
+// Útil para auditar rodadas pós-injeção sem precisar de JSON externo.
+function montarRodadaFromDataJs(R) {
+  const baseCompleta = carregarBase({ dataLimite: null });
+  const input = [], gabarito = [];
+  const ligasOk = [];
+  const alvo = new Date(R.data + 'T00:00:00').getTime();
+  const minMs = alvo - 86400000;
+  const maxMs = alvo + 86400000;
+
+  for (const ligaCod of Object.keys(FONTES_LIGA)) {
+    const L = baseCompleta.ligas[ligaCod];
+    if (!L || L.erro) continue;
+    let count = 0, gabCount = 0;
+    for (const j of L.jogos) {
+      if (!j.dataNorm) continue;
+      const jMs = new Date(j.dataNorm + 'T00:00:00').getTime();
+      if (jMs < minMs || jMs > maxMs) continue;
+      const cantos = j.estatisticas_ft && j.estatisticas_ft.cantos;
+      input.push({
+        liga: ligaCod, match_id: j.match_id || j.id,
+        mandante: j.mandante, visitante: j.visitante, rodada: j.rodada
+      });
+      gabarito.push({
+        liga: ligaCod, match_id: j.match_id || j.id,
+        mandante: j.mandante, visitante: j.visitante,
+        cantos_ft: cantos || null
+      });
+      count++;
+      if (cantos) gabCount++;
+    }
+    if (count > 0) ligasOk.push(`${ligaCod}(${count}j gab=${gabCount})`);
+  }
+  return { input, gabarito, ligasOk };
+}
+
 // Roda uma rodada e devolve { porLigaMercado: { 'BR|HDP_M': {g,r}, ... } }
 function analisarRodada(R, cerebro) {
-  const { input, gabarito, ligasOk } = montarRodada(R);
+  const { input, gabarito, ligasOk } = R.fonte === 'data_js'
+    ? montarRodadaFromDataJs(R)
+    : montarRodada(R);
   if (input.length === 0) return { porLigaMercado: {}, stats: { skip: true }, ligasOk: [] };
 
   const base = carregarBase({ dataLimite: R.limite });

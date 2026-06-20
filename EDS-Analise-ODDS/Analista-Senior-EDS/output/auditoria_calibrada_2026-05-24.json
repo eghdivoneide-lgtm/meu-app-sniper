@@ -1,0 +1,135 @@
+{
+  "geradoEm": "2026-05-24T06:29:41.225Z",
+  "linhasUnder": {
+    "BR": 11.5,
+    "BR_B": 11.5,
+    "MLS": 11.5,
+    "USL": 10.5,
+    "ARG": 9.5,
+    "ARG_B": 9.5
+  },
+  "linhasOver": {
+    "BR": 10.5,
+    "BR_B": 10.5,
+    "MLS": 10.5,
+    "USL": 9.5,
+    "ARG": 8.5,
+    "ARG_B": 8.5
+  },
+  "janelaRodadas": [
+    "2026-04-08",
+    "2026-04-22",
+    "2026-04-23",
+    "2026-04-28",
+    "2026-04-29",
+    "2026-05-05",
+    "2026-05-12",
+    "2026-05-13",
+    "2026-05-15",
+    "2026-05-17",
+    "2026-05-18",
+    "2026-05-19",
+    "2026-05-17"
+  ],
+  "matriz": {
+    "ARG": {
+      "UNDER": {
+        "linha": 9.5,
+        "g": 31,
+        "r": 15,
+        "n": 46,
+        "taxa": 67.4,
+        "status": "APROVADA"
+      },
+      "OVER": {
+        "linha": 8.5,
+        "g": 10,
+        "r": 8,
+        "n": 18,
+        "taxa": 55.6,
+        "status": "REPROVADA"
+      }
+    },
+    "ARG_B": {
+      "UNDER": {
+        "linha": 9.5,
+        "g": 37,
+        "r": 20,
+        "n": 57,
+        "taxa": 64.9,
+        "status": "APROVADA"
+      },
+      "OVER": {
+        "linha": 8.5,
+        "g": 9,
+        "r": 9,
+        "n": 18,
+        "taxa": 50,
+        "status": "REPROVADA"
+      }
+    },
+    "BR": {
+      "UNDER": {
+        "linha": 11.5,
+        "g": 9,
+        "r": 0,
+        "n": 9,
+        "taxa": 100,
+        "status": "REPROVADA"
+      },
+      "OVER": {
+        "n": 0,
+        "taxa": null,
+        "status": "SEM_PICK"
+      }
+    },
+    "BR_B": {
+      "UNDER": {
+        "linha": 11.5,
+        "g": 2,
+        "r": 5,
+        "n": 7,
+        "taxa": 28.6,
+        "status": "REPROVADA"
+      },
+      "OVER": {
+        "n": 0,
+        "taxa": null,
+        "status": "SEM_PICK"
+      }
+    },
+    "MLS": {
+      "UNDER": {
+        "linha": 11.5,
+        "g": 24,
+        "r": 15,
+        "n": 39,
+        "taxa": 61.5,
+        "status": "APROVADA"
+      },
+      "OVER": {
+        "linha": 10.5,
+        "g": 2,
+        "r": 0,
+        "n": 2,
+        "taxa": 100,
+        "status": "REPROVADA"
+      }
+    },
+    "USL": {
+      "UNDER": {
+        "linha": 10.5,
+        "g": 0,
+        "r": 1,
+        "n": 1,
+        "taxa": 0,
+        "status": "REPROVADA"
+      },
+      "OVER": {
+        "n": 0,
+        "taxa": null,
+        "status": "SEM_PICK"
+      }
+    }
+  }
+}

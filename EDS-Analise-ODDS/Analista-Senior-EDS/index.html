@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analista Senior EDS — Calculadora Calibrada</title>
+  <style>
+    :root {
+      --bg:        #0e1219;
+      --bg2:       #161c27;
+      --bg3:       #1f2735;
+      --txt:       #e7edf5;
+      --txt2:      #9aa7bb;
+      --green:     #14a058;
+      --yellow:    #d4a72c;
+      --red:       #d4422c;
+      --blue:      #2e90fa;
+      --border:    #2a3344;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 0;
+      font-family: -apple-system, system-ui, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg); color: var(--txt);
+      line-height: 1.5;
+    }
+    header.app-head {
+      background: linear-gradient(135deg, #1a2433 0%, #0e1219 100%);
+      padding: 24px 32px;
+      border-bottom: 1px solid var(--border);
+    }
+    header.app-head h1 { margin: 0 0 4px 0; font-size: 24px; }
+    header.app-head p  { margin: 0; color: var(--txt2); font-size: 14px; }
+
+    main { padding: 24px 32px; max-width: 1400px; margin: 0 auto; }
+
+    .panel {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .controls {
+      display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+    }
+    .controls label { font-size: 13px; color: var(--txt2); }
+    select, button, textarea {
+      background: var(--bg3); color: var(--txt);
+      border: 1px solid var(--border); border-radius: 6px;
+      padding: 8px 12px; font-size: 14px; font-family: inherit;
+    }
+    button {
+      background: var(--blue); border-color: var(--blue);
+      color: #fff; cursor: pointer; font-weight: 600;
+    }
+    button:hover { opacity: 0.9; }
+
+    .status-banner {
+      padding: 12px 16px; border-radius: 6px; margin-top: 16px;
+      border-left: 4px solid;
+      font-size: 13px;
+    }
+    .status-banner.green  { background: rgba(20,160,88,0.1);  border-color: var(--green); }
+    .status-banner.yellow { background: rgba(212,167,44,0.1); border-color: var(--yellow); }
+    .status-banner.red    { background: rgba(212,66,44,0.1);  border-color: var(--red); }
+
+    .jogos-lista { list-style: none; padding: 0; margin: 12px 0 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 8px; }
+    .jogos-lista li label { display: flex; align-items: center; gap: 8px; padding: 8px 12px; background: var(--bg3); border-radius: 6px; cursor: pointer; font-size: 13px; }
+    .jogos-lista li label:hover { background: #2a3344; }
+    .data-jogo { margin-left: auto; color: var(--txt2); font-size: 12px; }
+    .info { color: var(--txt2); font-size: 13px; font-style: italic; }
+
+    #resultado {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap: 16px;
+      margin-top: 24px;
+    }
+    .card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      border-top: 4px solid var(--border);
+    }
+    .card-green  { border-top-color: var(--green); }
+    .card-yellow { border-top-color: var(--yellow); }
+    .card-red    { border-top-color: var(--red); }
+    .card-head { display: flex; align-items: baseline; gap: 12px; }
+    .liga-tag { background: var(--bg3); padding: 2px 8px; border-radius: 4px; font-size: 11px; color: var(--txt2); font-weight: 600; }
+    .card-head h3 { margin: 0; font-size: 16px; }
+    .card-head h3 small { color: var(--txt2); font-weight: normal; margin: 0 4px; }
+
+    .markets { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 12px 0; }
+    .market {
+      padding: 10px; border-radius: 6px; text-align: center;
+      background: var(--bg3); border: 1px solid var(--border);
+    }
+    .market.card-green  { border-left: 3px solid var(--green); }
+    .market.card-yellow { border-left: 3px solid var(--yellow); }
+    .market.card-red    { border-left: 3px solid var(--red); }
+    .m-tag    { font-size: 11px; color: var(--txt2); font-weight: 600; letter-spacing: 0.5px; }
+    .m-prob   { font-size: 28px; font-weight: 700; margin: 4px 0; }
+    .m-verd   { font-size: 13px; font-weight: 600; }
+    .m-motivo { font-size: 11px; color: var(--txt2); margin-top: 4px; }
+
+    details.evidencias { background: var(--bg3); border-radius: 6px; padding: 10px 12px; margin: 12px 0; font-size: 12px; }
+    details.evidencias summary { cursor: pointer; color: var(--txt2); }
+    details.evidencias table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+    details.evidencias th, details.evidencias td { padding: 6px; text-align: left; border-bottom: 1px solid var(--border); }
+    details.evidencias th { color: var(--txt2); font-weight: 600; }
+
+    .checagem-eds {
+      font-size: 11px; color: var(--txt2);
+      padding: 8px 10px; background: var(--bg3); border-radius: 4px;
+      border-left: 3px solid var(--blue); margin-top: 8px;
+    }
+    .checagem-eds strong { color: var(--blue); }
+
+    .card.erro { background: rgba(212,66,44,0.1); border-color: var(--red); color: var(--red); padding: 16px; }
+
+    textarea {
+      width: 100%; min-height: 80px; resize: vertical; font-family: monospace; font-size: 13px;
+      margin-top: 12px;
+    }
+    .input-manual-wrap { margin-top: 16px; }
+    .input-manual-wrap label { display: block; margin-bottom: 6px; color: var(--txt2); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <header class="app-head">
+    <h1>🛡️ ANALISTA SENIOR EDS — Calculadora Calibrada</h1>
+    <p>Under/Over de cantos com linha calibrada por DNA da liga · Padrão EDS R1-R8</p>
+  </header>
+
+  <main>
+    <section class="panel">
+      <div class="controls">
+        <label for="seletor-liga">Liga:</label>
+        <select id="seletor-liga">
+          <option value="ARG">Liga Profesional (ARG)</option>
+          <option value="ARG_B">Primera B Nacional (ARG)</option>
+          <option value="MLS">MLS</option>
+          <option value="BR">Brasileirão Série A</option>
+          <option value="BR_B">Brasileirão Série B</option>
+          <option value="USL">USL Championship</option>
+        </select>
+        <button id="btn-analisar">🔍 Analisar selecionados</button>
+      </div>
+
+      <div id="status-liga" class="status-banner"></div>
+
+      <h3 style="margin: 20px 0 8px 0; font-size: 14px;">Jogos detectados como não jogados (rodada=null ou sem placar):</h3>
+      <div id="lista-jogos"></div>
+
+      <div class="input-manual-wrap">
+        <label for="input-manual">Ou cole jogos manualmente (um por linha, formato "Mandante vs Visitante"):</label>
+        <textarea id="input-manual" placeholder="Flamengo vs Palmeiras&#10;Boca Juniors vs River Plate"></textarea>
+      </div>
+    </section>
+
+    <section id="resultado"></section>
+  </main>
+
+  <!-- DADOS DAS LIGAS — carregados como window.DADOS_XXX -->
+  <script src="../especialista-cantos/data/brasileirao2026.js"></script>
+  <script src="../especialista-cantos/data/brasileiraoB2026.js"></script>
+  <script src="../especialista-cantos/data/mls2026.js"></script>
+  <script src="../especialista-cantos/data/usl2026.js"></script>
+  <script src="../especialista-cantos/data/argentina2026.js"></script>
+  <script src="../especialista-cantos/data/argentina_b2026.js"></script>
+
+  <!-- LINHAS CALIBRADAS — carregadas como window.LINHAS_CALIBRADAS -->
+  <script src="linhas_calibradas.js"></script>
+
+  <!-- MOTOR + APP -->
+  <script src="js/motor_calibrado.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

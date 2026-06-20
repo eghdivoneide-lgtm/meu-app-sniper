@@ -1,0 +1,2960 @@
+{
+  "BR": {
+    "liga": "BR",
+    "jogos_total": 169,
+    "times_total": 20,
+    "media_liga_ft": 5.04,
+    "half_life_dias": 60,
+    "data_referencia": "2026-05-17",
+    "times": {
+      "Athletico-PR": {
+        "ft": {
+          "pro_casa": 5.74,
+          "contra_casa": 3.95,
+          "pro_fora": 3.17,
+          "contra_fora": 5.82,
+          "n_casa": 10,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 3.7,
+          "contra_casa": 1.42,
+          "pro_fora": 1.25,
+          "contra_fora": 3.4,
+          "n_casa": 10,
+          "n_fora": 7
+        }
+      },
+      "Atlético-MG": {
+        "ft": {
+          "pro_casa": 5.17,
+          "contra_casa": 5.21,
+          "pro_fora": 5.38,
+          "contra_fora": 4.9,
+          "n_casa": 9,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 2.76,
+          "contra_casa": 1.91,
+          "pro_fora": 1.44,
+          "contra_fora": 2.77,
+          "n_casa": 9,
+          "n_fora": 8
+        }
+      },
+      "Bahia": {
+        "ft": {
+          "pro_casa": 5.78,
+          "contra_casa": 4.13,
+          "pro_fora": 5.11,
+          "contra_fora": 7.3,
+          "n_casa": 9,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 2.72,
+          "contra_casa": 1.59,
+          "pro_fora": 3.67,
+          "contra_fora": 3.11,
+          "n_casa": 9,
+          "n_fora": 7
+        }
+      },
+      "Botafogo": {
+        "ft": {
+          "pro_casa": 3.78,
+          "contra_casa": 5.16,
+          "pro_fora": 3.42,
+          "contra_fora": 5,
+          "n_casa": 8,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 2.19,
+          "contra_casa": 2.05,
+          "pro_fora": 0.96,
+          "contra_fora": 2.41,
+          "n_casa": 8,
+          "n_fora": 8
+        }
+      },
+      "Chapecoense": {
+        "ft": {
+          "pro_casa": 4.85,
+          "contra_casa": 5.52,
+          "pro_fora": 1.99,
+          "contra_fora": 8.19,
+          "n_casa": 9,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 0.99,
+          "contra_casa": 3.35,
+          "pro_fora": 0.63,
+          "contra_fora": 4.66,
+          "n_casa": 9,
+          "n_fora": 7
+        }
+      },
+      "Corinthians": {
+        "ft": {
+          "pro_casa": 5.26,
+          "contra_casa": 5.39,
+          "pro_fora": 4.06,
+          "contra_fora": 4.98,
+          "n_casa": 9,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 2.69,
+          "contra_casa": 2.45,
+          "pro_fora": 1.17,
+          "contra_fora": 1.93,
+          "n_casa": 9,
+          "n_fora": 8
+        }
+      },
+      "Coritiba": {
+        "ft": {
+          "pro_casa": 2.72,
+          "contra_casa": 6.59,
+          "pro_fora": 3.4,
+          "contra_fora": 6.27,
+          "n_casa": 7,
+          "n_fora": 10
+        },
+        "ht": {
+          "pro_casa": 1.13,
+          "contra_casa": 2.94,
+          "pro_fora": 1.66,
+          "contra_fora": 2.36,
+          "n_casa": 7,
+          "n_fora": 10
+        }
+      },
+      "Cruzeiro": {
+        "ft": {
+          "pro_casa": 5.78,
+          "contra_casa": 2.75,
+          "pro_fora": 4.4,
+          "contra_fora": 5.09,
+          "n_casa": 8,
+          "n_fora": 9
+        },
+        "ht": {
+          "pro_casa": 2.19,
+          "contra_casa": 0.94,
+          "pro_fora": 2.19,
+          "contra_fora": 2.11,
+          "n_casa": 8,
+          "n_fora": 9
+        }
+      },
+      "Flamengo": {
+        "ft": {
+          "pro_casa": 4.78,
+          "contra_casa": 4.27,
+          "pro_fora": 3.9,
+          "contra_fora": 5.6,
+          "n_casa": 6,
+          "n_fora": 11
+        },
+        "ht": {
+          "pro_casa": 2.36,
+          "contra_casa": 2.05,
+          "pro_fora": 1.86,
+          "contra_fora": 2.97,
+          "n_casa": 6,
+          "n_fora": 11
+        }
+      },
+      "Fluminense": {
+        "ft": {
+          "pro_casa": 5.48,
+          "contra_casa": 3.19,
+          "pro_fora": 5.75,
+          "contra_fora": 4.97,
+          "n_casa": 10,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 2.49,
+          "contra_casa": 1.13,
+          "pro_fora": 3.95,
+          "contra_fora": 1.6,
+          "n_casa": 10,
+          "n_fora": 7
+        }
+      },
+      "Grêmio": {
+        "ft": {
+          "pro_casa": 4.37,
+          "contra_casa": 3.58,
+          "pro_fora": 3.04,
+          "contra_fora": 4.97,
+          "n_casa": 8,
+          "n_fora": 10
+        },
+        "ht": {
+          "pro_casa": 2.43,
+          "contra_casa": 1.74,
+          "pro_fora": 1,
+          "contra_fora": 2.14,
+          "n_casa": 8,
+          "n_fora": 10
+        }
+      },
+      "Internacional": {
+        "ft": {
+          "pro_casa": 7.39,
+          "contra_casa": 3.68,
+          "pro_fora": 7.62,
+          "contra_fora": 3.88,
+          "n_casa": 9,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 3.34,
+          "contra_casa": 1.68,
+          "pro_fora": 3.23,
+          "contra_fora": 2.07,
+          "n_casa": 9,
+          "n_fora": 8
+        }
+      },
+      "Mirassol": {
+        "ft": {
+          "pro_casa": 6.8,
+          "contra_casa": 3.62,
+          "pro_fora": 4.72,
+          "contra_fora": 6.32,
+          "n_casa": 8,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 2.33,
+          "contra_casa": 1.88,
+          "pro_fora": 1.35,
+          "contra_fora": 2.96,
+          "n_casa": 8,
+          "n_fora": 8
+        }
+      },
+      "Palmeiras": {
+        "ft": {
+          "pro_casa": 6.39,
+          "contra_casa": 4.14,
+          "pro_fora": 5.95,
+          "contra_fora": 8.3,
+          "n_casa": 9,
+          "n_fora": 9
+        },
+        "ht": {
+          "pro_casa": 3.01,
+          "contra_casa": 2.01,
+          "pro_fora": 2.98,
+          "contra_fora": 3.11,
+          "n_casa": 9,
+          "n_fora": 9
+        }
+      },
+      "Red Bull Bragantino": {
+        "ft": {
+          "pro_casa": 6.59,
+          "contra_casa": 5.58,
+          "pro_fora": 4.8,
+          "contra_fora": 4.88,
+          "n_casa": 10,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 2.91,
+          "contra_casa": 1.6,
+          "pro_fora": 1.78,
+          "contra_fora": 2.4,
+          "n_casa": 10,
+          "n_fora": 8
+        }
+      },
+      "Remo": {
+        "ft": {
+          "pro_casa": 4.85,
+          "contra_casa": 6.85,
+          "pro_fora": 4.54,
+          "contra_fora": 5.54,
+          "n_casa": 8,
+          "n_fora": 9
+        },
+        "ht": {
+          "pro_casa": 1.67,
+          "contra_casa": 3.73,
+          "pro_fora": 2.85,
+          "contra_fora": 2.05,
+          "n_casa": 8,
+          "n_fora": 9
+        }
+      },
+      "Santos": {
+        "ft": {
+          "pro_casa": 5.19,
+          "contra_casa": 4.49,
+          "pro_fora": 4.98,
+          "contra_fora": 5.35,
+          "n_casa": 9,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 3.04,
+          "contra_casa": 2.9,
+          "pro_fora": 3.14,
+          "contra_fora": 1.56,
+          "n_casa": 9,
+          "n_fora": 8
+        }
+      },
+      "São Paulo": {
+        "ft": {
+          "pro_casa": 8.69,
+          "contra_casa": 4.71,
+          "pro_fora": 5.54,
+          "contra_fora": 4.39,
+          "n_casa": 8,
+          "n_fora": 9
+        },
+        "ht": {
+          "pro_casa": 3.56,
+          "contra_casa": 2.55,
+          "pro_fora": 2.67,
+          "contra_fora": 2.43,
+          "n_casa": 8,
+          "n_fora": 9
+        }
+      },
+      "Vasco": {
+        "ft": {
+          "pro_casa": 6.32,
+          "contra_casa": 3.25,
+          "pro_fora": 4.89,
+          "contra_fora": 4.36,
+          "n_casa": 8,
+          "n_fora": 9
+        },
+        "ht": {
+          "pro_casa": 3.93,
+          "contra_casa": 1.78,
+          "pro_fora": 1.84,
+          "contra_fora": 2.7,
+          "n_casa": 8,
+          "n_fora": 9
+        }
+      },
+      "Vitória": {
+        "ft": {
+          "pro_casa": 3.3,
+          "contra_casa": 4.46,
+          "pro_fora": 4.07,
+          "contra_fora": 5.7,
+          "n_casa": 7,
+          "n_fora": 9
+        },
+        "ht": {
+          "pro_casa": 0.66,
+          "contra_casa": 1.32,
+          "pro_fora": 1.73,
+          "contra_fora": 3.54,
+          "n_casa": 7,
+          "n_fora": 9
+        }
+      }
+    }
+  },
+  "BR_B": {
+    "liga": "BR_B",
+    "jogos_total": 87,
+    "times_total": 20,
+    "media_liga_ft": 5.1,
+    "half_life_dias": 60,
+    "data_referencia": "2026-05-17",
+    "times": {
+      "America MG": {
+        "ft": {
+          "pro_casa": 6.17,
+          "contra_casa": 4.61,
+          "pro_fora": 6.77,
+          "contra_fora": 3.74,
+          "n_casa": 4,
+          "n_fora": 5
+        },
+        "ht": {
+          "pro_casa": 1.91,
+          "contra_casa": 2.4,
+          "pro_fora": 2.65,
+          "contra_fora": 2.2,
+          "n_casa": 4,
+          "n_fora": 5
+        }
+      },
+      "Athletic Club": {
+        "ft": {
+          "pro_casa": 5.42,
+          "contra_casa": 4.56,
+          "pro_fora": 2.38,
+          "contra_fora": 7.86,
+          "n_casa": 5,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 2.81,
+          "contra_casa": 1.74,
+          "pro_fora": 1.64,
+          "contra_fora": 3.44,
+          "n_casa": 5,
+          "n_fora": 4
+        }
+      },
+      "Atletico GO": {
+        "ft": {
+          "pro_casa": 6.37,
+          "contra_casa": 1.23,
+          "pro_fora": 5.05,
+          "contra_fora": 8.4,
+          "n_casa": 4,
+          "n_fora": 5
+        },
+        "ht": {
+          "pro_casa": 3.18,
+          "contra_casa": 0.77,
+          "pro_fora": 3.09,
+          "contra_fora": 3.12,
+          "n_casa": 4,
+          "n_fora": 5
+        }
+      },
+      "Avai": {
+        "ft": {
+          "pro_casa": 5.51,
+          "contra_casa": 3.81,
+          "pro_fora": 3.3,
+          "contra_fora": 4.7,
+          "n_casa": 4,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 1.78,
+          "contra_casa": 2.37,
+          "pro_fora": 0.67,
+          "contra_fora": 3.36,
+          "n_casa": 4,
+          "n_fora": 4
+        }
+      },
+      "Botafogo SP": {
+        "ft": {
+          "pro_casa": 8.7,
+          "contra_casa": 4.75,
+          "pro_fora": 4.33,
+          "contra_fora": 6.51,
+          "n_casa": 4,
+          "n_fora": 5
+        },
+        "ht": {
+          "pro_casa": 3.71,
+          "contra_casa": 2.68,
+          "pro_fora": 1.44,
+          "contra_fora": 2.87,
+          "n_casa": 4,
+          "n_fora": 5
+        }
+      },
+      "CRB": {
+        "ft": {
+          "pro_casa": 4.62,
+          "contra_casa": 3.22,
+          "pro_fora": 3.32,
+          "contra_fora": 4.58,
+          "n_casa": 4,
+          "n_fora": 5
+        },
+        "ht": {
+          "pro_casa": 2.92,
+          "contra_casa": 1.61,
+          "pro_fora": 1.81,
+          "contra_fora": 1.78,
+          "n_casa": 4,
+          "n_fora": 5
+        }
+      },
+      "Ceara": {
+        "ft": {
+          "pro_casa": 5.42,
+          "contra_casa": 2.64,
+          "pro_fora": 6.13,
+          "contra_fora": 7.49,
+          "n_casa": 5,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 2.22,
+          "contra_casa": 1.01,
+          "pro_fora": 3.32,
+          "contra_fora": 4.01,
+          "n_casa": 5,
+          "n_fora": 4
+        }
+      },
+      "Criciuma": {
+        "ft": {
+          "pro_casa": 8.67,
+          "contra_casa": 5.96,
+          "pro_fora": 5.69,
+          "contra_fora": 6.02,
+          "n_casa": 4,
+          "n_fora": 5
+        },
+        "ht": {
+          "pro_casa": 4.32,
+          "contra_casa": 2.47,
+          "pro_fora": 1.91,
+          "contra_fora": 3.38,
+          "n_casa": 4,
+          "n_fora": 5
+        }
+      },
+      "Cuiaba": {
+        "ft": {
+          "pro_casa": 4.19,
+          "contra_casa": 2.8,
+          "pro_fora": 3.13,
+          "contra_fora": 4.17,
+          "n_casa": 5,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 2.45,
+          "contra_casa": 0.96,
+          "pro_fora": 2.33,
+          "contra_fora": 1.59,
+          "n_casa": 5,
+          "n_fora": 4
+        }
+      },
+      "Fortaleza": {
+        "ft": {
+          "pro_casa": 3.92,
+          "contra_casa": 2.15,
+          "pro_fora": 4.57,
+          "contra_fora": 5.79,
+          "n_casa": 4,
+          "n_fora": 5
+        },
+        "ht": {
+          "pro_casa": 2.15,
+          "contra_casa": 1.7,
+          "pro_fora": 1.58,
+          "contra_fora": 1.81,
+          "n_casa": 4,
+          "n_fora": 5
+        }
+      },
+      "Goias": {
+        "ft": {
+          "pro_casa": 4.19,
+          "contra_casa": 5.56,
+          "pro_fora": 3.21,
+          "contra_fora": 4.79,
+          "n_casa": 5,
+          "n_fora": 3
+        },
+        "ht": {
+          "pro_casa": 2.74,
+          "contra_casa": 2.63,
+          "pro_fora": 1.81,
+          "contra_fora": 2.51,
+          "n_casa": 5,
+          "n_fora": 3
+        }
+      },
+      "Juventude": {
+        "ft": {
+          "pro_casa": 5.12,
+          "contra_casa": 6.73,
+          "pro_fora": 2.18,
+          "contra_fora": 4.72,
+          "n_casa": 4,
+          "n_fora": 5
+        },
+        "ht": {
+          "pro_casa": 2.1,
+          "contra_casa": 2.7,
+          "pro_fora": 0.84,
+          "contra_fora": 2.76,
+          "n_casa": 4,
+          "n_fora": 5
+        }
+      },
+      "Londrina": {
+        "ft": {
+          "pro_casa": 8.8,
+          "contra_casa": 4.39,
+          "pro_fora": 5.18,
+          "contra_fora": 5.9,
+          "n_casa": 4,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 3.02,
+          "contra_casa": 2.43,
+          "pro_fora": 2.33,
+          "contra_fora": 2.94,
+          "n_casa": 4,
+          "n_fora": 4
+        }
+      },
+      "Nautico": {
+        "ft": {
+          "pro_casa": 9.59,
+          "contra_casa": 3.69,
+          "pro_fora": 3.37,
+          "contra_fora": 7.39,
+          "n_casa": 4,
+          "n_fora": 5
+        },
+        "ht": {
+          "pro_casa": 5.22,
+          "contra_casa": 1.19,
+          "pro_fora": 1.31,
+          "contra_fora": 4.99,
+          "n_casa": 4,
+          "n_fora": 5
+        }
+      },
+      "Novorizontino": {
+        "ft": {
+          "pro_casa": 7.31,
+          "contra_casa": 2.13,
+          "pro_fora": 5.25,
+          "contra_fora": 5.06,
+          "n_casa": 4,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 2.41,
+          "contra_casa": 1.2,
+          "pro_fora": 2.42,
+          "contra_fora": 1.68,
+          "n_casa": 4,
+          "n_fora": 4
+        }
+      },
+      "Operario-PR": {
+        "ft": {
+          "pro_casa": 6.5,
+          "contra_casa": 4.76,
+          "pro_fora": 4.38,
+          "contra_fora": 5.89,
+          "n_casa": 5,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 2.79,
+          "contra_casa": 2.3,
+          "pro_fora": 3.21,
+          "contra_fora": 2.75,
+          "n_casa": 5,
+          "n_fora": 4
+        }
+      },
+      "Ponte Preta": {
+        "ft": {
+          "pro_casa": 6.78,
+          "contra_casa": 5.35,
+          "pro_fora": 4.21,
+          "contra_fora": 6.37,
+          "n_casa": 4,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 2.36,
+          "contra_casa": 1.69,
+          "pro_fora": 2.53,
+          "contra_fora": 4,
+          "n_casa": 4,
+          "n_fora": 4
+        }
+      },
+      "Sao Bernardo": {
+        "ft": {
+          "pro_casa": 4.47,
+          "contra_casa": 6.7,
+          "pro_fora": 3.51,
+          "contra_fora": 8.89,
+          "n_casa": 4,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 2.32,
+          "contra_casa": 3.92,
+          "pro_fora": 1.81,
+          "contra_fora": 1.43,
+          "n_casa": 4,
+          "n_fora": 4
+        }
+      },
+      "Sport Recife": {
+        "ft": {
+          "pro_casa": 5.45,
+          "contra_casa": 5.75,
+          "pro_fora": 3.18,
+          "contra_fora": 6.83,
+          "n_casa": 5,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 2.6,
+          "contra_casa": 2.53,
+          "pro_fora": 1.7,
+          "contra_fora": 2.51,
+          "n_casa": 5,
+          "n_fora": 4
+        }
+      },
+      "Vila Nova FC": {
+        "ft": {
+          "pro_casa": 4.95,
+          "contra_casa": 2.85,
+          "pro_fora": 4.11,
+          "contra_fora": 5.25,
+          "n_casa": 5,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 3.28,
+          "contra_casa": 1.91,
+          "pro_fora": 2.27,
+          "contra_fora": 2.78,
+          "n_casa": 5,
+          "n_fora": 4
+        }
+      }
+    }
+  },
+  "ARG": {
+    "liga": "ARG",
+    "jogos_total": 268,
+    "times_total": 30,
+    "media_liga_ft": 4.27,
+    "half_life_dias": 60,
+    "data_referencia": "2026-05-17",
+    "times": {
+      "Aldosivi": {
+        "ft": {
+          "pro_casa": 3.86,
+          "contra_casa": 5.76,
+          "pro_fora": 2.99,
+          "contra_fora": 5.98,
+          "n_casa": 8,
+          "n_fora": 9
+        },
+        "ht": {
+          "pro_casa": 2.17,
+          "contra_casa": 2.58,
+          "pro_fora": 1.36,
+          "contra_fora": 4.05,
+          "n_casa": 8,
+          "n_fora": 9
+        }
+      },
+      "Argentinos Jrs": {
+        "ft": {
+          "pro_casa": 5.99,
+          "contra_casa": 2.1,
+          "pro_fora": 5.9,
+          "contra_fora": 3.26,
+          "n_casa": 12,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 2.45,
+          "contra_casa": 0.88,
+          "pro_fora": 2.92,
+          "contra_fora": 1.44,
+          "n_casa": 12,
+          "n_fora": 8
+        }
+      },
+      "Atl. Tucuman": {
+        "ft": {
+          "pro_casa": 5.32,
+          "contra_casa": 3.18,
+          "pro_fora": 3.03,
+          "contra_fora": 4.08,
+          "n_casa": 9,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 2.37,
+          "contra_casa": 1.61,
+          "pro_fora": 1.01,
+          "contra_fora": 1.97,
+          "n_casa": 9,
+          "n_fora": 8
+        }
+      },
+      "Banfield": {
+        "ft": {
+          "pro_casa": 5.35,
+          "contra_casa": 3.45,
+          "pro_fora": 2.22,
+          "contra_fora": 5.06,
+          "n_casa": 8,
+          "n_fora": 9
+        },
+        "ht": {
+          "pro_casa": 2.46,
+          "contra_casa": 1.81,
+          "pro_fora": 1.68,
+          "contra_fora": 2.63,
+          "n_casa": 8,
+          "n_fora": 9
+        }
+      },
+      "Barracas Central": {
+        "ft": {
+          "pro_casa": 2.25,
+          "contra_casa": 3.89,
+          "pro_fora": 2.23,
+          "contra_fora": 4.19,
+          "n_casa": 8,
+          "n_fora": 9
+        },
+        "ht": {
+          "pro_casa": 1.62,
+          "contra_casa": 2.16,
+          "pro_fora": 0.46,
+          "contra_fora": 1.93,
+          "n_casa": 8,
+          "n_fora": 9
+        }
+      },
+      "Belgrano": {
+        "ft": {
+          "pro_casa": 3.82,
+          "contra_casa": 4.07,
+          "pro_fora": 2.84,
+          "contra_fora": 5.68,
+          "n_casa": 10,
+          "n_fora": 10
+        },
+        "ht": {
+          "pro_casa": 2,
+          "contra_casa": 2,
+          "pro_fora": 1,
+          "contra_fora": 2.83,
+          "n_casa": 10,
+          "n_fora": 10
+        }
+      },
+      "Boca Juniors": {
+        "ft": {
+          "pro_casa": 7.63,
+          "contra_casa": 2.48,
+          "pro_fora": 2.8,
+          "contra_fora": 4.82,
+          "n_casa": 9,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 3.94,
+          "contra_casa": 1.14,
+          "pro_fora": 1.51,
+          "contra_fora": 1.36,
+          "n_casa": 9,
+          "n_fora": 8
+        }
+      },
+      "Central Cordoba": {
+        "ft": {
+          "pro_casa": 3.5,
+          "contra_casa": 3.61,
+          "pro_fora": 3.22,
+          "contra_fora": 5.68,
+          "n_casa": 8,
+          "n_fora": 9
+        },
+        "ht": {
+          "pro_casa": 1.78,
+          "contra_casa": 1.38,
+          "pro_fora": 2.13,
+          "contra_fora": 2.9,
+          "n_casa": 8,
+          "n_fora": 9
+        }
+      },
+      "Defensa y Justicia": {
+        "ft": {
+          "pro_casa": 4.71,
+          "contra_casa": 2.51,
+          "pro_fora": 4.33,
+          "contra_fora": 5.04,
+          "n_casa": 8,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 2.55,
+          "contra_casa": 0.5,
+          "pro_fora": 1.43,
+          "contra_fora": 3.65,
+          "n_casa": 8,
+          "n_fora": 8
+        }
+      },
+      "Dep. Riestra": {
+        "ft": {
+          "pro_casa": 4.59,
+          "contra_casa": 3.44,
+          "pro_fora": 4.08,
+          "contra_fora": 4.77,
+          "n_casa": 9,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 1.9,
+          "contra_casa": 1.73,
+          "pro_fora": 1.03,
+          "contra_fora": 2.74,
+          "n_casa": 9,
+          "n_fora": 8
+        }
+      },
+      "Estudiantes L.P.": {
+        "ft": {
+          "pro_casa": 5.16,
+          "contra_casa": 3.59,
+          "pro_fora": 3.42,
+          "contra_fora": 5.31,
+          "n_casa": 10,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 2.54,
+          "contra_casa": 1.05,
+          "pro_fora": 1.91,
+          "contra_fora": 2.32,
+          "n_casa": 10,
+          "n_fora": 8
+        }
+      },
+      "Estudiantes Rio Cuarto": {
+        "ft": {
+          "pro_casa": 3.13,
+          "contra_casa": 4.71,
+          "pro_fora": 5.1,
+          "contra_fora": 3.95,
+          "n_casa": 9,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 1.26,
+          "contra_casa": 2.87,
+          "pro_fora": 3.2,
+          "contra_fora": 2.21,
+          "n_casa": 9,
+          "n_fora": 8
+        }
+      },
+      "Gimnasia L.P.": {
+        "ft": {
+          "pro_casa": 3.84,
+          "contra_casa": 5.48,
+          "pro_fora": 4.38,
+          "contra_fora": 6.74,
+          "n_casa": 8,
+          "n_fora": 11
+        },
+        "ht": {
+          "pro_casa": 1.74,
+          "contra_casa": 3.12,
+          "pro_fora": 1.94,
+          "contra_fora": 2.91,
+          "n_casa": 8,
+          "n_fora": 11
+        }
+      },
+      "Gimnasia Mendoza": {
+        "ft": {
+          "pro_casa": 4.31,
+          "contra_casa": 3.62,
+          "pro_fora": 2.35,
+          "contra_fora": 8.2,
+          "n_casa": 8,
+          "n_fora": 9
+        },
+        "ht": {
+          "pro_casa": 2.25,
+          "contra_casa": 1.18,
+          "pro_fora": 1.47,
+          "contra_fora": 5.22,
+          "n_casa": 8,
+          "n_fora": 9
+        }
+      },
+      "Huracan": {
+        "ft": {
+          "pro_casa": 4.9,
+          "contra_casa": 4.04,
+          "pro_fora": 2.72,
+          "contra_fora": 7.52,
+          "n_casa": 9,
+          "n_fora": 10
+        },
+        "ht": {
+          "pro_casa": 2.19,
+          "contra_casa": 1.54,
+          "pro_fora": 1.42,
+          "contra_fora": 3.18,
+          "n_casa": 9,
+          "n_fora": 10
+        }
+      },
+      "Ind. Rivadavia": {
+        "ft": {
+          "pro_casa": 6.29,
+          "contra_casa": 3.28,
+          "pro_fora": 4.26,
+          "contra_fora": 4.39,
+          "n_casa": 11,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 3.05,
+          "contra_casa": 2,
+          "pro_fora": 1.18,
+          "contra_fora": 2.07,
+          "n_casa": 11,
+          "n_fora": 7
+        }
+      },
+      "Independiente": {
+        "ft": {
+          "pro_casa": 6.84,
+          "contra_casa": 3.94,
+          "pro_fora": 3.87,
+          "contra_fora": 3.72,
+          "n_casa": 8,
+          "n_fora": 10
+        },
+        "ht": {
+          "pro_casa": 4.79,
+          "contra_casa": 1.93,
+          "pro_fora": 1.46,
+          "contra_fora": 1.36,
+          "n_casa": 8,
+          "n_fora": 10
+        }
+      },
+      "Instituto": {
+        "ft": {
+          "pro_casa": 4.58,
+          "contra_casa": 3.74,
+          "pro_fora": 5.22,
+          "contra_fora": 3.9,
+          "n_casa": 8,
+          "n_fora": 9
+        },
+        "ht": {
+          "pro_casa": 2.64,
+          "contra_casa": 1.65,
+          "pro_fora": 1.75,
+          "contra_fora": 1.91,
+          "n_casa": 8,
+          "n_fora": 9
+        }
+      },
+      "Lanus": {
+        "ft": {
+          "pro_casa": 4.53,
+          "contra_casa": 3.04,
+          "pro_fora": 2.65,
+          "contra_fora": 5.08,
+          "n_casa": 9,
+          "n_fora": 9
+        },
+        "ht": {
+          "pro_casa": 2.14,
+          "contra_casa": 1.7,
+          "pro_fora": 0.95,
+          "contra_fora": 2.8,
+          "n_casa": 9,
+          "n_fora": 9
+        }
+      },
+      "Newells Old Boys": {
+        "ft": {
+          "pro_casa": 4.07,
+          "contra_casa": 3.51,
+          "pro_fora": 2.78,
+          "contra_fora": 7.15,
+          "n_casa": 9,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 1.99,
+          "contra_casa": 1.09,
+          "pro_fora": 1.52,
+          "contra_fora": 3.46,
+          "n_casa": 9,
+          "n_fora": 8
+        }
+      },
+      "Platense": {
+        "ft": {
+          "pro_casa": 6.03,
+          "contra_casa": 3.59,
+          "pro_fora": 4.03,
+          "contra_fora": 3.47,
+          "n_casa": 9,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 2.89,
+          "contra_casa": 2.14,
+          "pro_fora": 1.87,
+          "contra_fora": 1.98,
+          "n_casa": 9,
+          "n_fora": 8
+        }
+      },
+      "Racing Club": {
+        "ft": {
+          "pro_casa": 4.14,
+          "contra_casa": 2.42,
+          "pro_fora": 3.84,
+          "contra_fora": 4.23,
+          "n_casa": 8,
+          "n_fora": 11
+        },
+        "ht": {
+          "pro_casa": 1.67,
+          "contra_casa": 0.7,
+          "pro_fora": 1.46,
+          "contra_fora": 1.34,
+          "n_casa": 8,
+          "n_fora": 11
+        }
+      },
+      "River Plate": {
+        "ft": {
+          "pro_casa": 6.96,
+          "contra_casa": 1.86,
+          "pro_fora": 3.93,
+          "contra_fora": 4.85,
+          "n_casa": 12,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 3.8,
+          "contra_casa": 0.52,
+          "pro_fora": 1.33,
+          "contra_fora": 1.57,
+          "n_casa": 12,
+          "n_fora": 8
+        }
+      },
+      "Rosario Central": {
+        "ft": {
+          "pro_casa": 4.19,
+          "contra_casa": 3.83,
+          "pro_fora": 3.48,
+          "contra_fora": 3.74,
+          "n_casa": 10,
+          "n_fora": 10
+        },
+        "ht": {
+          "pro_casa": 1.38,
+          "contra_casa": 0.83,
+          "pro_fora": 2.5,
+          "contra_fora": 1.76,
+          "n_casa": 10,
+          "n_fora": 10
+        }
+      },
+      "San Lorenzo": {
+        "ft": {
+          "pro_casa": 5.12,
+          "contra_casa": 3.71,
+          "pro_fora": 3.01,
+          "contra_fora": 5.53,
+          "n_casa": 8,
+          "n_fora": 10
+        },
+        "ht": {
+          "pro_casa": 2.3,
+          "contra_casa": 1.61,
+          "pro_fora": 1.92,
+          "contra_fora": 2.84,
+          "n_casa": 8,
+          "n_fora": 10
+        }
+      },
+      "Sarmiento Junin": {
+        "ft": {
+          "pro_casa": 4.16,
+          "contra_casa": 5.54,
+          "pro_fora": 2.14,
+          "contra_fora": 5.19,
+          "n_casa": 9,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 2.3,
+          "contra_casa": 2.99,
+          "pro_fora": 0.81,
+          "contra_fora": 2.1,
+          "n_casa": 9,
+          "n_fora": 8
+        }
+      },
+      "Talleres Cordoba": {
+        "ft": {
+          "pro_casa": 6.28,
+          "contra_casa": 4.51,
+          "pro_fora": 2.05,
+          "contra_fora": 5.57,
+          "n_casa": 8,
+          "n_fora": 10
+        },
+        "ht": {
+          "pro_casa": 3.46,
+          "contra_casa": 1.84,
+          "pro_fora": 0.68,
+          "contra_fora": 2.86,
+          "n_casa": 8,
+          "n_fora": 10
+        }
+      },
+      "Tigre": {
+        "ft": {
+          "pro_casa": 3.31,
+          "contra_casa": 3.74,
+          "pro_fora": 5.71,
+          "contra_fora": 3.57,
+          "n_casa": 8,
+          "n_fora": 9
+        },
+        "ht": {
+          "pro_casa": 1.62,
+          "contra_casa": 1.87,
+          "pro_fora": 2.25,
+          "contra_fora": 2.11,
+          "n_casa": 8,
+          "n_fora": 9
+        }
+      },
+      "Union de Santa Fe": {
+        "ft": {
+          "pro_casa": 7.47,
+          "contra_casa": 2.04,
+          "pro_fora": 4.64,
+          "contra_fora": 4.12,
+          "n_casa": 8,
+          "n_fora": 11
+        },
+        "ht": {
+          "pro_casa": 3.63,
+          "contra_casa": 1.21,
+          "pro_fora": 1.84,
+          "contra_fora": 2.16,
+          "n_casa": 8,
+          "n_fora": 11
+        }
+      },
+      "Velez Sarsfield": {
+        "ft": {
+          "pro_casa": 5.84,
+          "contra_casa": 3.65,
+          "pro_fora": 2.72,
+          "contra_fora": 4.59,
+          "n_casa": 10,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 2.84,
+          "contra_casa": 1.38,
+          "pro_fora": 1.28,
+          "contra_fora": 2.36,
+          "n_casa": 10,
+          "n_fora": 8
+        }
+      }
+    }
+  },
+  "ARG_B": {
+    "liga": "ARG_B",
+    "jogos_total": 249,
+    "times_total": 36,
+    "media_liga_ft": 4.31,
+    "half_life_dias": 60,
+    "data_referencia": "2026-05-18",
+    "times": {
+      "Acassuso": {
+        "ft": {
+          "pro_casa": 3.55,
+          "contra_casa": 4.87,
+          "pro_fora": 2.13,
+          "contra_fora": 5.99,
+          "n_casa": 7,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 1.4,
+          "contra_casa": 1.96,
+          "pro_fora": 1.25,
+          "contra_fora": 2.6,
+          "n_casa": 7,
+          "n_fora": 7
+        }
+      },
+      "Agropecuario": {
+        "ft": {
+          "pro_casa": 4.17,
+          "contra_casa": 2.69,
+          "pro_fora": 4.23,
+          "contra_fora": 4.86,
+          "n_casa": 8,
+          "n_fora": 6
+        },
+        "ht": {
+          "pro_casa": 1.88,
+          "contra_casa": 1.34,
+          "pro_fora": 2.12,
+          "contra_fora": 2.67,
+          "n_casa": 8,
+          "n_fora": 6
+        }
+      },
+      "All Boys": {
+        "ft": {
+          "pro_casa": 7.46,
+          "contra_casa": 1.88,
+          "pro_fora": 5.07,
+          "contra_fora": 3.42,
+          "n_casa": 6,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 3.74,
+          "contra_casa": 0.94,
+          "pro_fora": 1.64,
+          "contra_fora": 1.46,
+          "n_casa": 6,
+          "n_fora": 7
+        }
+      },
+      "Almagro": {
+        "ft": {
+          "pro_casa": 4.33,
+          "contra_casa": 5.82,
+          "pro_fora": 4.93,
+          "contra_fora": 6.97,
+          "n_casa": 6,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 2.02,
+          "contra_casa": 1.81,
+          "pro_fora": 1.24,
+          "contra_fora": 4.25,
+          "n_casa": 6,
+          "n_fora": 8
+        }
+      },
+      "Almirante Brown": {
+        "ft": {
+          "pro_casa": 4.65,
+          "contra_casa": 4.24,
+          "pro_fora": 2.54,
+          "contra_fora": 4.71,
+          "n_casa": 6,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 1.89,
+          "contra_casa": 2.56,
+          "pro_fora": 1.14,
+          "contra_fora": 2.23,
+          "n_casa": 6,
+          "n_fora": 7
+        }
+      },
+      "Atl. Rafaela": {
+        "ft": {
+          "pro_casa": 7.46,
+          "contra_casa": 2.58,
+          "pro_fora": 3.73,
+          "contra_fora": 6.43,
+          "n_casa": 8,
+          "n_fora": 6
+        },
+        "ht": {
+          "pro_casa": 4.68,
+          "contra_casa": 1.27,
+          "pro_fora": 1.56,
+          "contra_fora": 1.98,
+          "n_casa": 8,
+          "n_fora": 6
+        }
+      },
+      "Atletico Atlanta": {
+        "ft": {
+          "pro_casa": 4.87,
+          "contra_casa": 3.93,
+          "pro_fora": 3.23,
+          "contra_fora": 4.41,
+          "n_casa": 8,
+          "n_fora": 6
+        },
+        "ht": {
+          "pro_casa": 2.12,
+          "contra_casa": 1.09,
+          "pro_fora": 1.88,
+          "contra_fora": 3.24,
+          "n_casa": 8,
+          "n_fora": 6
+        }
+      },
+      "CA Estudiantes": {
+        "ft": {
+          "pro_casa": 4.07,
+          "contra_casa": 2.94,
+          "pro_fora": 4.77,
+          "contra_fora": 3.92,
+          "n_casa": 6,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 2.43,
+          "contra_casa": 0.3,
+          "pro_fora": 2.16,
+          "contra_fora": 2.14,
+          "n_casa": 6,
+          "n_fora": 7
+        }
+      },
+      "CA Mitre": {
+        "ft": {
+          "pro_casa": 5.98,
+          "contra_casa": 2.02,
+          "pro_fora": 2.99,
+          "contra_fora": 5.71,
+          "n_casa": 5,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 2.88,
+          "contra_casa": 0.76,
+          "pro_fora": 1.46,
+          "contra_fora": 2.92,
+          "n_casa": 5,
+          "n_fora": 8
+        }
+      },
+      "Central Norte": {
+        "ft": {
+          "pro_casa": 3.88,
+          "contra_casa": 3.54,
+          "pro_fora": 3.65,
+          "contra_fora": 4.73,
+          "n_casa": 6,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 1.35,
+          "contra_casa": 1.56,
+          "pro_fora": 1.58,
+          "contra_fora": 2.34,
+          "n_casa": 6,
+          "n_fora": 8
+        }
+      },
+      "Chacarita Juniors": {
+        "ft": {
+          "pro_casa": 3.26,
+          "contra_casa": 3.51,
+          "pro_fora": 3.78,
+          "contra_fora": 4.48,
+          "n_casa": 8,
+          "n_fora": 6
+        },
+        "ht": {
+          "pro_casa": 1.59,
+          "contra_casa": 1.6,
+          "pro_fora": 1.62,
+          "contra_fora": 2.42,
+          "n_casa": 8,
+          "n_fora": 6
+        }
+      },
+      "Chaco For Ever": {
+        "ft": {
+          "pro_casa": 6.42,
+          "contra_casa": 4.58,
+          "pro_fora": 3.76,
+          "contra_fora": 3.7,
+          "n_casa": 7,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 3.44,
+          "contra_casa": 2.35,
+          "pro_fora": 2.48,
+          "contra_fora": 1.88,
+          "n_casa": 7,
+          "n_fora": 7
+        }
+      },
+      "Ciudad Bolivar": {
+        "ft": {
+          "pro_casa": 4.34,
+          "contra_casa": 3.92,
+          "pro_fora": 2.74,
+          "contra_fora": 6.58,
+          "n_casa": 6,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 2.23,
+          "contra_casa": 2.49,
+          "pro_fora": 0.8,
+          "contra_fora": 2.74,
+          "n_casa": 6,
+          "n_fora": 8
+        }
+      },
+      "Club A. Guemes": {
+        "ft": {
+          "pro_casa": 3.79,
+          "contra_casa": 2.53,
+          "pro_fora": 3.83,
+          "contra_fora": 7.93,
+          "n_casa": 8,
+          "n_fora": 6
+        },
+        "ht": {
+          "pro_casa": 2.52,
+          "contra_casa": 1.09,
+          "pro_fora": 1.76,
+          "contra_fora": 3.13,
+          "n_casa": 8,
+          "n_fora": 6
+        }
+      },
+      "Colegiales": {
+        "ft": {
+          "pro_casa": 6.74,
+          "contra_casa": 3.66,
+          "pro_fora": 4.24,
+          "contra_fora": 3.49,
+          "n_casa": 6,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 3.34,
+          "contra_casa": 2.51,
+          "pro_fora": 1.53,
+          "contra_fora": 2.04,
+          "n_casa": 6,
+          "n_fora": 8
+        }
+      },
+      "Colon Santa Fe": {
+        "ft": {
+          "pro_casa": 5.96,
+          "contra_casa": 3.4,
+          "pro_fora": 2.42,
+          "contra_fora": 3.69,
+          "n_casa": 8,
+          "n_fora": 6
+        },
+        "ht": {
+          "pro_casa": 3.12,
+          "contra_casa": 1.03,
+          "pro_fora": 0.83,
+          "contra_fora": 2.28,
+          "n_casa": 8,
+          "n_fora": 6
+        }
+      },
+      "Def. de Belgrano": {
+        "ft": {
+          "pro_casa": 5.83,
+          "contra_casa": 3.56,
+          "pro_fora": 2.05,
+          "contra_fora": 5.42,
+          "n_casa": 6,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 3.13,
+          "contra_casa": 2.09,
+          "pro_fora": 1.25,
+          "contra_fora": 2.2,
+          "n_casa": 6,
+          "n_fora": 8
+        }
+      },
+      "Deportivo Madryn": {
+        "ft": {
+          "pro_casa": 4.66,
+          "contra_casa": 2.49,
+          "pro_fora": 3.51,
+          "contra_fora": 6.78,
+          "n_casa": 7,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 1.63,
+          "contra_casa": 0.91,
+          "pro_fora": 1.79,
+          "contra_fora": 4.65,
+          "n_casa": 7,
+          "n_fora": 7
+        }
+      },
+      "Deportivo Maipu": {
+        "ft": {
+          "pro_casa": 6.03,
+          "contra_casa": 4.57,
+          "pro_fora": 3.49,
+          "contra_fora": 5.95,
+          "n_casa": 7,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 2.87,
+          "contra_casa": 1.18,
+          "pro_fora": 1.85,
+          "contra_fora": 2.52,
+          "n_casa": 7,
+          "n_fora": 7
+        }
+      },
+      "Deportivo Moron": {
+        "ft": {
+          "pro_casa": 4.96,
+          "contra_casa": 3.12,
+          "pro_fora": 3.45,
+          "contra_fora": 5.14,
+          "n_casa": 8,
+          "n_fora": 6
+        },
+        "ht": {
+          "pro_casa": 3.64,
+          "contra_casa": 0.95,
+          "pro_fora": 1.63,
+          "contra_fora": 3.26,
+          "n_casa": 8,
+          "n_fora": 6
+        }
+      },
+      "Ferro": {
+        "ft": {
+          "pro_casa": 8.43,
+          "contra_casa": 1.81,
+          "pro_fora": 3.97,
+          "contra_fora": 4.29,
+          "n_casa": 5,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 3.97,
+          "contra_casa": 0.98,
+          "pro_fora": 1.9,
+          "contra_fora": 1.13,
+          "n_casa": 5,
+          "n_fora": 8
+        }
+      },
+      "Gimnasia Jujuy": {
+        "ft": {
+          "pro_casa": 6.62,
+          "contra_casa": 5.83,
+          "pro_fora": 3.27,
+          "contra_fora": 6.39,
+          "n_casa": 7,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 3.49,
+          "contra_casa": 1.21,
+          "pro_fora": 1.54,
+          "contra_fora": 4.36,
+          "n_casa": 7,
+          "n_fora": 7
+        }
+      },
+      "Gimnasia y Tiro": {
+        "ft": {
+          "pro_casa": 5.74,
+          "contra_casa": 3.93,
+          "pro_fora": 3.17,
+          "contra_fora": 6.11,
+          "n_casa": 8,
+          "n_fora": 6
+        },
+        "ht": {
+          "pro_casa": 4.06,
+          "contra_casa": 1.71,
+          "pro_fora": 2.26,
+          "contra_fora": 3.33,
+          "n_casa": 8,
+          "n_fora": 6
+        }
+      },
+      "Godoy Cruz": {
+        "ft": {
+          "pro_casa": 5.07,
+          "contra_casa": 4.19,
+          "pro_fora": 5.11,
+          "contra_fora": 3.42,
+          "n_casa": 7,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 2.62,
+          "contra_casa": 1.1,
+          "pro_fora": 1.75,
+          "contra_fora": 1.61,
+          "n_casa": 7,
+          "n_fora": 7
+        }
+      },
+      "Los Andes": {
+        "ft": {
+          "pro_casa": 3.07,
+          "contra_casa": 2.99,
+          "pro_fora": 3.98,
+          "contra_fora": 8.87,
+          "n_casa": 8,
+          "n_fora": 6
+        },
+        "ht": {
+          "pro_casa": 1.32,
+          "contra_casa": 0.95,
+          "pro_fora": 1.91,
+          "contra_fora": 3.62,
+          "n_casa": 8,
+          "n_fora": 6
+        }
+      },
+      "Midland": {
+        "ft": {
+          "pro_casa": 5.84,
+          "contra_casa": 2.18,
+          "pro_fora": 4.19,
+          "contra_fora": 4.25,
+          "n_casa": 7,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 2.5,
+          "contra_casa": 1.37,
+          "pro_fora": 2.34,
+          "contra_fora": 2.01,
+          "n_casa": 7,
+          "n_fora": 7
+        }
+      },
+      "Nueva Chicago": {
+        "ft": {
+          "pro_casa": 3.37,
+          "contra_casa": 4.51,
+          "pro_fora": 2.09,
+          "contra_fora": 6.03,
+          "n_casa": 7,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 2.08,
+          "contra_casa": 1.87,
+          "pro_fora": 0.49,
+          "contra_fora": 2.95,
+          "n_casa": 7,
+          "n_fora": 7
+        }
+      },
+      "Patronato": {
+        "ft": {
+          "pro_casa": 4.96,
+          "contra_casa": 4.5,
+          "pro_fora": 2.97,
+          "contra_fora": 5.37,
+          "n_casa": 6,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 2.9,
+          "contra_casa": 2.8,
+          "pro_fora": 1.39,
+          "contra_fora": 1.48,
+          "n_casa": 6,
+          "n_fora": 8
+        }
+      },
+      "Quilmes": {
+        "ft": {
+          "pro_casa": 5.83,
+          "contra_casa": 2.61,
+          "pro_fora": 2.19,
+          "contra_fora": 3.36,
+          "n_casa": 6,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 2.94,
+          "contra_casa": 1.18,
+          "pro_fora": 0.82,
+          "contra_fora": 1.6,
+          "n_casa": 6,
+          "n_fora": 8
+        }
+      },
+      "Racing Cordoba": {
+        "ft": {
+          "pro_casa": 5.84,
+          "contra_casa": 2.75,
+          "pro_fora": 3.53,
+          "contra_fora": 6.4,
+          "n_casa": 7,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 3.03,
+          "contra_casa": 0.81,
+          "pro_fora": 0.71,
+          "contra_fora": 4.41,
+          "n_casa": 7,
+          "n_fora": 7
+        }
+      },
+      "San Martin S.J.": {
+        "ft": {
+          "pro_casa": 5.05,
+          "contra_casa": 3.2,
+          "pro_fora": 3.71,
+          "contra_fora": 3.57,
+          "n_casa": 7,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 1.96,
+          "contra_casa": 1.28,
+          "pro_fora": 1.23,
+          "contra_fora": 2.04,
+          "n_casa": 7,
+          "n_fora": 7
+        }
+      },
+      "San Martin T.": {
+        "ft": {
+          "pro_casa": 4.94,
+          "contra_casa": 1.95,
+          "pro_fora": 2.49,
+          "contra_fora": 3.13,
+          "n_casa": 7,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 1.73,
+          "contra_casa": 1.13,
+          "pro_fora": 0.99,
+          "contra_fora": 2.54,
+          "n_casa": 7,
+          "n_fora": 7
+        }
+      },
+      "San Miguel": {
+        "ft": {
+          "pro_casa": 6.83,
+          "contra_casa": 3.25,
+          "pro_fora": 2.02,
+          "contra_fora": 5.77,
+          "n_casa": 8,
+          "n_fora": 5
+        },
+        "ht": {
+          "pro_casa": 3.76,
+          "contra_casa": 2.09,
+          "pro_fora": 1.05,
+          "contra_fora": 2.54,
+          "n_casa": 8,
+          "n_fora": 5
+        }
+      },
+      "San Telmo": {
+        "ft": {
+          "pro_casa": 3.68,
+          "contra_casa": 3.5,
+          "pro_fora": 3.43,
+          "contra_fora": 5.07,
+          "n_casa": 8,
+          "n_fora": 6
+        },
+        "ht": {
+          "pro_casa": 1.73,
+          "contra_casa": 1.3,
+          "pro_fora": 1.1,
+          "contra_fora": 2.94,
+          "n_casa": 8,
+          "n_fora": 6
+        }
+      },
+      "Temperley": {
+        "ft": {
+          "pro_casa": 4.1,
+          "contra_casa": 2.18,
+          "pro_fora": 4.65,
+          "contra_fora": 5.31,
+          "n_casa": 6,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 1.75,
+          "contra_casa": 0.85,
+          "pro_fora": 1.3,
+          "contra_fora": 2.38,
+          "n_casa": 6,
+          "n_fora": 8
+        }
+      },
+      "Tristan Suarez": {
+        "ft": {
+          "pro_casa": 5.62,
+          "contra_casa": 4.46,
+          "pro_fora": 2.31,
+          "contra_fora": 5.09,
+          "n_casa": 8,
+          "n_fora": 6
+        },
+        "ht": {
+          "pro_casa": 2.03,
+          "contra_casa": 2.84,
+          "pro_fora": 1.08,
+          "contra_fora": 1.95,
+          "n_casa": 8,
+          "n_fora": 6
+        }
+      }
+    }
+  },
+  "MLS": {
+    "liga": "MLS",
+    "jogos_total": 209,
+    "times_total": 30,
+    "media_liga_ft": 5.15,
+    "half_life_dias": 60,
+    "data_referencia": "2026-05-17",
+    "times": {
+      "Atlanta Utd": {
+        "ft": {
+          "pro_casa": 4.26,
+          "contra_casa": 4.86,
+          "pro_fora": 7.6,
+          "contra_fora": 6.38,
+          "n_casa": 7,
+          "n_fora": 6
+        },
+        "ht": {
+          "pro_casa": 2.17,
+          "contra_casa": 2.09,
+          "pro_fora": 5.13,
+          "contra_fora": 1.99,
+          "n_casa": 7,
+          "n_fora": 6
+        }
+      },
+      "Austin FC": {
+        "ft": {
+          "pro_casa": 4.48,
+          "contra_casa": 5.54,
+          "pro_fora": 3.47,
+          "contra_fora": 7.27,
+          "n_casa": 8,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 1.75,
+          "contra_casa": 3.28,
+          "pro_fora": 2.56,
+          "contra_fora": 3.1,
+          "n_casa": 8,
+          "n_fora": 7
+        }
+      },
+      "CF Montreal": {
+        "ft": {
+          "pro_casa": 6.6,
+          "contra_casa": 3.95,
+          "pro_fora": 3.89,
+          "contra_fora": 4.49,
+          "n_casa": 7,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 1.53,
+          "contra_casa": 1.58,
+          "pro_fora": 2.19,
+          "contra_fora": 2.12,
+          "n_casa": 7,
+          "n_fora": 7
+        }
+      },
+      "Charlotte": {
+        "ft": {
+          "pro_casa": 6.06,
+          "contra_casa": 4.19,
+          "pro_fora": 3.51,
+          "contra_fora": 5.19,
+          "n_casa": 8,
+          "n_fora": 6
+        },
+        "ht": {
+          "pro_casa": 2.74,
+          "contra_casa": 1.32,
+          "pro_fora": 0.91,
+          "contra_fora": 3.04,
+          "n_casa": 8,
+          "n_fora": 6
+        }
+      },
+      "Chicago Fire": {
+        "ft": {
+          "pro_casa": 5.48,
+          "contra_casa": 3.49,
+          "pro_fora": 3.9,
+          "contra_fora": 9.08,
+          "n_casa": 8,
+          "n_fora": 6
+        },
+        "ht": {
+          "pro_casa": 2.01,
+          "contra_casa": 1.13,
+          "pro_fora": 1.65,
+          "contra_fora": 3.86,
+          "n_casa": 8,
+          "n_fora": 6
+        }
+      },
+      "Colorado Rapids": {
+        "ft": {
+          "pro_casa": 6.14,
+          "contra_casa": 3.07,
+          "pro_fora": 4.17,
+          "contra_fora": 5.66,
+          "n_casa": 5,
+          "n_fora": 10
+        },
+        "ht": {
+          "pro_casa": 3.94,
+          "contra_casa": 1.31,
+          "pro_fora": 1.82,
+          "contra_fora": 2.36,
+          "n_casa": 5,
+          "n_fora": 10
+        }
+      },
+      "Columbus Crew": {
+        "ft": {
+          "pro_casa": 4.33,
+          "contra_casa": 3.71,
+          "pro_fora": 5.72,
+          "contra_fora": 4.23,
+          "n_casa": 6,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 3.27,
+          "contra_casa": 1.67,
+          "pro_fora": 2.73,
+          "contra_fora": 2.1,
+          "n_casa": 6,
+          "n_fora": 8
+        }
+      },
+      "DC United": {
+        "ft": {
+          "pro_casa": 6.15,
+          "contra_casa": 6.59,
+          "pro_fora": 3.9,
+          "contra_fora": 6.73,
+          "n_casa": 7,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 2.56,
+          "contra_casa": 3.89,
+          "pro_fora": 2.31,
+          "contra_fora": 2.49,
+          "n_casa": 7,
+          "n_fora": 7
+        }
+      },
+      "FC Cincinnati": {
+        "ft": {
+          "pro_casa": 4.38,
+          "contra_casa": 5.37,
+          "pro_fora": 3.89,
+          "contra_fora": 6.14,
+          "n_casa": 7,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 2.59,
+          "contra_casa": 2.46,
+          "pro_fora": 1.63,
+          "contra_fora": 2.47,
+          "n_casa": 7,
+          "n_fora": 7
+        }
+      },
+      "FC Dallas": {
+        "ft": {
+          "pro_casa": 4.55,
+          "contra_casa": 5.75,
+          "pro_fora": 5.3,
+          "contra_fora": 6.68,
+          "n_casa": 8,
+          "n_fora": 6
+        },
+        "ht": {
+          "pro_casa": 1.62,
+          "contra_casa": 2.8,
+          "pro_fora": 2.52,
+          "contra_fora": 2.64,
+          "n_casa": 8,
+          "n_fora": 6
+        }
+      },
+      "Houston Dynamo": {
+        "ft": {
+          "pro_casa": 5.95,
+          "contra_casa": 4.59,
+          "pro_fora": 3.88,
+          "contra_fora": 4.63,
+          "n_casa": 6,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 2.26,
+          "contra_casa": 2.41,
+          "pro_fora": 2.13,
+          "contra_fora": 2.38,
+          "n_casa": 6,
+          "n_fora": 7
+        }
+      },
+      "Inter Miami": {
+        "ft": {
+          "pro_casa": 8.4,
+          "contra_casa": 2.51,
+          "pro_fora": 4.91,
+          "contra_fora": 3.68,
+          "n_casa": 6,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 4.98,
+          "contra_casa": 1.46,
+          "pro_fora": 2.29,
+          "contra_fora": 1.6,
+          "n_casa": 6,
+          "n_fora": 8
+        }
+      },
+      "Los Angeles FC": {
+        "ft": {
+          "pro_casa": 6.13,
+          "contra_casa": 4.65,
+          "pro_fora": 5.63,
+          "contra_fora": 5.04,
+          "n_casa": 7,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 3.22,
+          "contra_casa": 1.81,
+          "pro_fora": 1.55,
+          "contra_fora": 2.57,
+          "n_casa": 7,
+          "n_fora": 8
+        }
+      },
+      "Los Angeles Galaxy": {
+        "ft": {
+          "pro_casa": 5.69,
+          "contra_casa": 1.32,
+          "pro_fora": 4.92,
+          "contra_fora": 4.42,
+          "n_casa": 7,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 2.87,
+          "contra_casa": 1.05,
+          "pro_fora": 2.31,
+          "contra_fora": 1.94,
+          "n_casa": 7,
+          "n_fora": 7
+        }
+      },
+      "Minnesota United": {
+        "ft": {
+          "pro_casa": 6.29,
+          "contra_casa": 4.42,
+          "pro_fora": 6.02,
+          "contra_fora": 5.84,
+          "n_casa": 7,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 2.95,
+          "contra_casa": 1.93,
+          "pro_fora": 2.44,
+          "contra_fora": 2.52,
+          "n_casa": 7,
+          "n_fora": 7
+        }
+      },
+      "Nashville SC": {
+        "ft": {
+          "pro_casa": 5.35,
+          "contra_casa": 5.72,
+          "pro_fora": 4.39,
+          "contra_fora": 4.27,
+          "n_casa": 7,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 3.44,
+          "contra_casa": 1.77,
+          "pro_fora": 1.53,
+          "contra_fora": 2.06,
+          "n_casa": 7,
+          "n_fora": 7
+        }
+      },
+      "New England Revolution": {
+        "ft": {
+          "pro_casa": 4.69,
+          "contra_casa": 5.84,
+          "pro_fora": 2.12,
+          "contra_fora": 6.21,
+          "n_casa": 8,
+          "n_fora": 5
+        },
+        "ht": {
+          "pro_casa": 2.84,
+          "contra_casa": 2.83,
+          "pro_fora": 0.42,
+          "contra_fora": 3.55,
+          "n_casa": 8,
+          "n_fora": 5
+        }
+      },
+      "New York City": {
+        "ft": {
+          "pro_casa": 4.66,
+          "contra_casa": 4.3,
+          "pro_fora": 2.39,
+          "contra_fora": 6.23,
+          "n_casa": 7,
+          "n_fora": 7
+        },
+        "ht": {
+          "pro_casa": 1.72,
+          "contra_casa": 2.36,
+          "pro_fora": 0.15,
+          "contra_fora": 2.96,
+          "n_casa": 7,
+          "n_fora": 7
+        }
+      },
+      "New York Red Bulls": {
+        "ft": {
+          "pro_casa": 6.37,
+          "contra_casa": 3.8,
+          "pro_fora": 6.43,
+          "contra_fora": 5.01,
+          "n_casa": 6,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 3.53,
+          "contra_casa": 1.24,
+          "pro_fora": 2.61,
+          "contra_fora": 2.56,
+          "n_casa": 6,
+          "n_fora": 8
+        }
+      },
+      "Orlando City": {
+        "ft": {
+          "pro_casa": 3.4,
+          "contra_casa": 8.42,
+          "pro_fora": 4.69,
+          "contra_fora": 7.96,
+          "n_casa": 6,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 1.29,
+          "contra_casa": 5.87,
+          "pro_fora": 2.08,
+          "contra_fora": 4.58,
+          "n_casa": 6,
+          "n_fora": 8
+        }
+      },
+      "Philadelphia Union": {
+        "ft": {
+          "pro_casa": 7.02,
+          "contra_casa": 2.42,
+          "pro_fora": 5.38,
+          "contra_fora": 3.63,
+          "n_casa": 6,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 2.72,
+          "contra_casa": 0.93,
+          "pro_fora": 2.62,
+          "contra_fora": 2.34,
+          "n_casa": 6,
+          "n_fora": 8
+        }
+      },
+      "Portland Timbers": {
+        "ft": {
+          "pro_casa": 3.07,
+          "contra_casa": 6.55,
+          "pro_fora": 5.21,
+          "contra_fora": 6.71,
+          "n_casa": 5,
+          "n_fora": 9
+        },
+        "ht": {
+          "pro_casa": 1.17,
+          "contra_casa": 2.81,
+          "pro_fora": 2.63,
+          "contra_fora": 3.64,
+          "n_casa": 5,
+          "n_fora": 9
+        }
+      },
+      "Real Salt Lake": {
+        "ft": {
+          "pro_casa": 4.24,
+          "contra_casa": 4.18,
+          "pro_fora": 3.3,
+          "contra_fora": 5.99,
+          "n_casa": 7,
+          "n_fora": 6
+        },
+        "ht": {
+          "pro_casa": 2.14,
+          "contra_casa": 2.14,
+          "pro_fora": 2.15,
+          "contra_fora": 3.66,
+          "n_casa": 7,
+          "n_fora": 6
+        }
+      },
+      "San Diego FC": {
+        "ft": {
+          "pro_casa": 5.52,
+          "contra_casa": 4.29,
+          "pro_fora": 4.2,
+          "contra_fora": 4.62,
+          "n_casa": 9,
+          "n_fora": 5
+        },
+        "ht": {
+          "pro_casa": 3.23,
+          "contra_casa": 1.21,
+          "pro_fora": 2.04,
+          "contra_fora": 1.44,
+          "n_casa": 9,
+          "n_fora": 5
+        }
+      },
+      "San Jose Earthquakes": {
+        "ft": {
+          "pro_casa": 9.81,
+          "contra_casa": 3.13,
+          "pro_fora": 4.48,
+          "contra_fora": 7.51,
+          "n_casa": 7,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 3.27,
+          "contra_casa": 2.44,
+          "pro_fora": 1.87,
+          "contra_fora": 3.49,
+          "n_casa": 7,
+          "n_fora": 8
+        }
+      },
+      "Seattle Sounders": {
+        "ft": {
+          "pro_casa": 6.03,
+          "contra_casa": 4.93,
+          "pro_fora": 5.32,
+          "contra_fora": 7.48,
+          "n_casa": 7,
+          "n_fora": 6
+        },
+        "ht": {
+          "pro_casa": 2.8,
+          "contra_casa": 1.97,
+          "pro_fora": 2.38,
+          "contra_fora": 2.26,
+          "n_casa": 7,
+          "n_fora": 6
+        }
+      },
+      "Sporting Kansas City": {
+        "ft": {
+          "pro_casa": 3.7,
+          "contra_casa": 6.33,
+          "pro_fora": 3.32,
+          "contra_fora": 5.59,
+          "n_casa": 6,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 1.68,
+          "contra_casa": 3.2,
+          "pro_fora": 1.22,
+          "contra_fora": 2.25,
+          "n_casa": 6,
+          "n_fora": 8
+        }
+      },
+      "St. Louis City": {
+        "ft": {
+          "pro_casa": 7.02,
+          "contra_casa": 3.77,
+          "pro_fora": 6.01,
+          "contra_fora": 5.64,
+          "n_casa": 6,
+          "n_fora": 8
+        },
+        "ht": {
+          "pro_casa": 3.2,
+          "contra_casa": 1.58,
+          "pro_fora": 3.75,
+          "contra_fora": 2.77,
+          "n_casa": 6,
+          "n_fora": 8
+        }
+      },
+      "Toronto FC": {
+        "ft": {
+          "pro_casa": 6.96,
+          "contra_casa": 6.33,
+          "pro_fora": 4.11,
+          "contra_fora": 6.16,
+          "n_casa": 9,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 2.17,
+          "contra_casa": 3.1,
+          "pro_fora": 1.79,
+          "contra_fora": 3.2,
+          "n_casa": 9,
+          "n_fora": 4
+        }
+      },
+      "Vancouver Whitecaps": {
+        "ft": {
+          "pro_casa": 6.92,
+          "contra_casa": 3.65,
+          "pro_fora": 4.14,
+          "contra_fora": 3.3,
+          "n_casa": 9,
+          "n_fora": 5
+        },
+        "ht": {
+          "pro_casa": 3.98,
+          "contra_casa": 1,
+          "pro_fora": 2.09,
+          "contra_fora": 1.49,
+          "n_casa": 9,
+          "n_fora": 5
+        }
+      }
+    }
+  },
+  "USL": {
+    "liga": "USL",
+    "jogos_total": 106,
+    "times_total": 25,
+    "media_liga_ft": 4.6,
+    "half_life_dias": 60,
+    "data_referencia": "2026-05-09",
+    "times": {
+      "Birmingham": {
+        "ft": {
+          "pro_casa": 4.93,
+          "contra_casa": 3.55,
+          "pro_fora": 4,
+          "contra_fora": 4.63,
+          "n_casa": 5,
+          "n_fora": 3
+        },
+        "ht": {
+          "pro_casa": 2.95,
+          "contra_casa": 1.98,
+          "pro_fora": 1.1,
+          "contra_fora": 2.15,
+          "n_casa": 5,
+          "n_fora": 3
+        }
+      },
+      "Brooklyn": {
+        "ft": {
+          "pro_casa": 5.99,
+          "contra_casa": 5.36,
+          "pro_fora": 3.1,
+          "contra_fora": 6.32,
+          "n_casa": 6,
+          "n_fora": 3
+        },
+        "ht": {
+          "pro_casa": 3.06,
+          "contra_casa": 2.09,
+          "pro_fora": 1.45,
+          "contra_fora": 1.67,
+          "n_casa": 6,
+          "n_fora": 3
+        }
+      },
+      "Charleston": {
+        "ft": {
+          "pro_casa": 7.43,
+          "contra_casa": 3.09,
+          "pro_fora": 6.42,
+          "contra_fora": 7.26,
+          "n_casa": 4,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 3.53,
+          "contra_casa": 0.9,
+          "pro_fora": 1.56,
+          "contra_fora": 3.73,
+          "n_casa": 4,
+          "n_fora": 4
+        }
+      },
+      "Colorado Springs": {
+        "ft": {
+          "pro_casa": 6.25,
+          "contra_casa": 1.87,
+          "pro_fora": 3.64,
+          "contra_fora": 5.24,
+          "n_casa": 4,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 2.98,
+          "contra_casa": 0.4,
+          "pro_fora": 2.37,
+          "contra_fora": 3.26,
+          "n_casa": 4,
+          "n_fora": 4
+        }
+      },
+      "Detroit": {
+        "ft": {
+          "pro_casa": 5.66,
+          "contra_casa": 2.96,
+          "pro_fora": 7.5,
+          "contra_fora": 3.97,
+          "n_casa": 4,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 3.29,
+          "contra_casa": 1.48,
+          "pro_fora": 2.98,
+          "contra_fora": 1.79,
+          "n_casa": 4,
+          "n_fora": 4
+        }
+      },
+      "El Paso": {
+        "ft": {
+          "pro_casa": 4.34,
+          "contra_casa": 5.54,
+          "pro_fora": 4.09,
+          "contra_fora": 4.66,
+          "n_casa": 3,
+          "n_fora": 5
+        },
+        "ht": {
+          "pro_casa": 1.97,
+          "contra_casa": 4.1,
+          "pro_fora": 2.55,
+          "contra_fora": 1.34,
+          "n_casa": 3,
+          "n_fora": 5
+        }
+      },
+      "FC Tulsa": {
+        "ft": {
+          "pro_casa": 4.86,
+          "contra_casa": 4.42,
+          "pro_fora": 2.27,
+          "contra_fora": 2.91,
+          "n_casa": 4,
+          "n_fora": 3
+        },
+        "ht": {
+          "pro_casa": 1.78,
+          "contra_casa": 0.92,
+          "pro_fora": 0.78,
+          "contra_fora": 1.64,
+          "n_casa": 4,
+          "n_fora": 3
+        }
+      },
+      "Hartford Athletic": {
+        "ft": {
+          "pro_casa": 4,
+          "contra_casa": 4.87,
+          "pro_fora": 5.29,
+          "contra_fora": 6.8,
+          "n_casa": 4,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 1.38,
+          "contra_casa": 2.43,
+          "pro_fora": 2.26,
+          "contra_fora": 2.88,
+          "n_casa": 4,
+          "n_fora": 4
+        }
+      },
+      "Indy Eleven": {
+        "ft": {
+          "pro_casa": 5.77,
+          "contra_casa": 5.12,
+          "pro_fora": 2.85,
+          "contra_fora": 6.45,
+          "n_casa": 4,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 2.96,
+          "contra_casa": 2.07,
+          "pro_fora": 1.35,
+          "contra_fora": 2.58,
+          "n_casa": 4,
+          "n_fora": 4
+        }
+      },
+      "Las Vegas Lights": {
+        "ft": {
+          "pro_casa": 2.91,
+          "contra_casa": 3.78,
+          "pro_fora": 4.37,
+          "contra_fora": 4.51,
+          "n_casa": 3,
+          "n_fora": 6
+        },
+        "ht": {
+          "pro_casa": 0.86,
+          "contra_casa": 1.59,
+          "pro_fora": 2.07,
+          "contra_fora": 2.18,
+          "n_casa": 3,
+          "n_fora": 6
+        }
+      },
+      "Lexington": {
+        "ft": {
+          "pro_casa": 4.94,
+          "contra_casa": 2.42,
+          "pro_fora": 4.95,
+          "contra_fora": 4.55,
+          "n_casa": 5,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 1.95,
+          "contra_casa": 1.78,
+          "pro_fora": 1.94,
+          "contra_fora": 1.68,
+          "n_casa": 5,
+          "n_fora": 4
+        }
+      },
+      "Loudoun": {
+        "ft": {
+          "pro_casa": 4.52,
+          "contra_casa": 6.25,
+          "pro_fora": 2.17,
+          "contra_fora": 6.1,
+          "n_casa": 5,
+          "n_fora": 3
+        },
+        "ht": {
+          "pro_casa": 2.6,
+          "contra_casa": 3.64,
+          "pro_fora": 1.49,
+          "contra_fora": 3.51,
+          "n_casa": 5,
+          "n_fora": 3
+        }
+      },
+      "Louisville City": {
+        "ft": {
+          "pro_casa": 10.61,
+          "contra_casa": 1.52,
+          "pro_fora": 6.02,
+          "contra_fora": 4.15,
+          "n_casa": 5,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 4.56,
+          "contra_casa": 0.66,
+          "pro_fora": 3.6,
+          "contra_fora": 2.06,
+          "n_casa": 5,
+          "n_fora": 4
+        }
+      },
+      "Miami FC": {
+        "ft": {
+          "pro_casa": 4.45,
+          "contra_casa": 5.84,
+          "pro_fora": 3.47,
+          "contra_fora": 5.75,
+          "n_casa": 4,
+          "n_fora": 5
+        },
+        "ht": {
+          "pro_casa": 1.1,
+          "contra_casa": 1.94,
+          "pro_fora": 1.73,
+          "contra_fora": 3.22,
+          "n_casa": 4,
+          "n_fora": 5
+        }
+      },
+      "Monterey Bay": {
+        "ft": {
+          "pro_casa": 5.62,
+          "contra_casa": 2.64,
+          "pro_fora": 2.1,
+          "contra_fora": 5.05,
+          "n_casa": 4,
+          "n_fora": 5
+        },
+        "ht": {
+          "pro_casa": 2.7,
+          "contra_casa": 1.19,
+          "pro_fora": 0.8,
+          "contra_fora": 2.65,
+          "n_casa": 4,
+          "n_fora": 5
+        }
+      },
+      "New Mexico": {
+        "ft": {
+          "pro_casa": 5.1,
+          "contra_casa": 5.37,
+          "pro_fora": 4.66,
+          "contra_fora": 3.96,
+          "n_casa": 3,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 2.7,
+          "contra_casa": 2.63,
+          "pro_fora": 1.23,
+          "contra_fora": 2.97,
+          "n_casa": 3,
+          "n_fora": 4
+        }
+      },
+      "Oakland Roots": {
+        "ft": {
+          "pro_casa": 4.33,
+          "contra_casa": 2.69,
+          "pro_fora": 4.38,
+          "contra_fora": 5.49,
+          "n_casa": 5,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 1.9,
+          "contra_casa": 0.82,
+          "pro_fora": 3.44,
+          "contra_fora": 2.1,
+          "n_casa": 5,
+          "n_fora": 4
+        }
+      },
+      "Orange County SC": {
+        "ft": {
+          "pro_casa": 4.14,
+          "contra_casa": 5.46,
+          "pro_fora": 2.54,
+          "contra_fora": 6.75,
+          "n_casa": 5,
+          "n_fora": 5
+        },
+        "ht": {
+          "pro_casa": 2.57,
+          "contra_casa": 2.36,
+          "pro_fora": 1.44,
+          "contra_fora": 2.84,
+          "n_casa": 5,
+          "n_fora": 5
+        }
+      },
+      "Phoenix Rising": {
+        "ft": {
+          "pro_casa": 2.7,
+          "contra_casa": 3.72,
+          "pro_fora": 5.01,
+          "contra_fora": 3.09,
+          "n_casa": 4,
+          "n_fora": 5
+        },
+        "ht": {
+          "pro_casa": 0.8,
+          "contra_casa": 1.81,
+          "pro_fora": 1.92,
+          "contra_fora": 1.56,
+          "n_casa": 4,
+          "n_fora": 5
+        }
+      },
+      "Pittsburgh": {
+        "ft": {
+          "pro_casa": 3.21,
+          "contra_casa": 5.29,
+          "pro_fora": 3.83,
+          "contra_fora": 5.22,
+          "n_casa": 3,
+          "n_fora": 6
+        },
+        "ht": {
+          "pro_casa": 2.47,
+          "contra_casa": 2.88,
+          "pro_fora": 1.73,
+          "contra_fora": 2.53,
+          "n_casa": 3,
+          "n_fora": 6
+        }
+      },
+      "Rhode Island": {
+        "ft": {
+          "pro_casa": 3.13,
+          "contra_casa": 4.47,
+          "pro_fora": 3.29,
+          "contra_fora": 6.39,
+          "n_casa": 5,
+          "n_fora": 3
+        },
+        "ht": {
+          "pro_casa": 1.72,
+          "contra_casa": 2.32,
+          "pro_fora": 2.03,
+          "contra_fora": 2.25,
+          "n_casa": 5,
+          "n_fora": 3
+        }
+      },
+      "Sacramento Republic": {
+        "ft": {
+          "pro_casa": 7.03,
+          "contra_casa": 4.39,
+          "pro_fora": 4.24,
+          "contra_fora": 3.49,
+          "n_casa": 5,
+          "n_fora": 3
+        },
+        "ht": {
+          "pro_casa": 3.31,
+          "contra_casa": 2.88,
+          "pro_fora": 1.89,
+          "contra_fora": 1.25,
+          "n_casa": 5,
+          "n_fora": 3
+        }
+      },
+      "San Antonio": {
+        "ft": {
+          "pro_casa": 4.13,
+          "contra_casa": 3.95,
+          "pro_fora": 4.14,
+          "contra_fora": 5.69,
+          "n_casa": 5,
+          "n_fora": 5
+        },
+        "ht": {
+          "pro_casa": 2.39,
+          "contra_casa": 1.53,
+          "pro_fora": 2.25,
+          "contra_fora": 2.9,
+          "n_casa": 5,
+          "n_fora": 5
+        }
+      },
+      "Sporting Jax": {
+        "ft": {
+          "pro_casa": 5.22,
+          "contra_casa": 4.59,
+          "pro_fora": 2.2,
+          "contra_fora": 6.65,
+          "n_casa": 3,
+          "n_fora": 6
+        },
+        "ht": {
+          "pro_casa": 1.85,
+          "contra_casa": 1.66,
+          "pro_fora": 0.49,
+          "contra_fora": 3.81,
+          "n_casa": 3,
+          "n_fora": 6
+        }
+      },
+      "Tampa Bay": {
+        "ft": {
+          "pro_casa": 6.29,
+          "contra_casa": 2.49,
+          "pro_fora": 5.3,
+          "contra_fora": 3.28,
+          "n_casa": 4,
+          "n_fora": 4
+        },
+        "ht": {
+          "pro_casa": 2.64,
+          "contra_casa": 1.42,
+          "pro_fora": 3.1,
+          "contra_fora": 1.64,
+          "n_casa": 4,
+          "n_fora": 4
+        }
+      }
+    }
+  }
+}

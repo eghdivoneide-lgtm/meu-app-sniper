@@ -1,0 +1,38 @@
+{
+  "BR": {
+    "n_validos": 58,
+    "media_total_ft": "9.91",
+    "media_total_ht": "4.53",
+    "diff_media_ft": "3.47"
+  },
+  "BR_B": {
+    "n_validos": 43,
+    "media_total_ft": "9.74",
+    "media_total_ht": "4.72",
+    "diff_media_ft": "3.33"
+  },
+  "ARG": {
+    "n_validos": 116,
+    "media_total_ft": "8.99",
+    "media_total_ht": "4.16",
+    "diff_media_ft": "4.23"
+  },
+  "ARG_B": {
+    "n_validos": 137,
+    "media_total_ft": "8.92",
+    "media_total_ht": "4.14",
+    "diff_media_ft": "3.12"
+  },
+  "MLS": {
+    "n_validos": 119,
+    "media_total_ft": "10.37",
+    "media_total_ht": "4.90",
+    "diff_media_ft": "3.75"
+  },
+  "USL": {
+    "n_validos": 67,
+    "media_total_ft": "9.30",
+    "media_total_ht": "4.37",
+    "diff_media_ft": "3.78"
+  }
+}

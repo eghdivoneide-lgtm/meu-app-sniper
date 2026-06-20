@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EDS-HDP-Pro · Handicap Asiático de Cantos</title>
+<style>
+  /* ═══════════════════════════════════════════════════════════
+     PALETA · verde escuro + azul escuro (alinhado com operador)
+     ═══════════════════════════════════════════════════════════ */
+  :root {
+    --bg:        #0a1f1a;   /* verde noturno profundo */
+    --bg2:       #0f2a35;   /* azul petróleo */
+    --bg3:       #112e2a;   /* card secundário */
+    --card:      #133835;   /* card primário */
+    --border:    #1e3a3a;
+    --border2:   #285252;
+    --text:      #d1e7dd;   /* verde clarinho leitura */
+    --muted:     #6b8e7f;
+    --green:     #10b981;   /* CTA positivo */
+    --green2:    #34d399;
+    --blue:      #3b82f6;   /* info / ranking */
+    --blue2:     #60a5fa;
+    --gold:      #fbbf24;   /* Filtro Elite */
+    --amber:     #f59e0b;
+    --red:       #ef4444;
+    --purple:    #a78bfa;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; background: var(--bg); color: var(--text); font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 14px; }
+  body { display: flex; flex-direction: column; min-height: 100vh; }
+  a { color: var(--blue2); text-decoration: none; }
+  button { font-family: inherit; }
+
+  /* ═══════════════════════════════════════════════════════════
+     HEADER
+     ═══════════════════════════════════════════════════════════ */
+  header {
+    background: linear-gradient(135deg, var(--bg2) 0%, var(--bg) 100%);
+    border-bottom: 1px solid var(--border2);
+    padding: .9rem 1.8rem;
+    display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap;
+  }
+  .brand {
+    display: flex; align-items: center; gap: .8rem;
+  }
+  .brand-logo {
+    width: 38px; height: 38px;
+    background: linear-gradient(135deg, var(--green), var(--blue));
+    border-radius: 8px; display: flex; align-items: center; justify-content: center;
+    font-weight: 900; font-size: 1.1rem; color: #0a1f1a;
+  }
+  .brand-text {
+    line-height: 1.15;
+  }
+  .brand-title { font-weight: 800; font-size: 1rem; color: var(--text); }
+  .brand-sub { font-size: .7rem; color: var(--muted); letter-spacing: .5px; text-transform: uppercase; }
+
+  .header-controls { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+
+  .liga-selector {
+    background: var(--bg);
+    border: 1px solid var(--border2);
+    color: var(--text);
+    padding: .55rem 1rem;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: .88rem;
+    transition: border-color .2s;
+  }
+  .liga-selector:hover, .liga-selector:focus { border-color: var(--green); outline: none; }
+
+  .status-pill {
+    background: rgba(16, 185, 129, 0.12);
+    border: 1px solid rgba(16, 185, 129, 0.4);
+    color: var(--green2);
+    padding: .35rem .8rem;
+    border-radius: 20px;
+    font-size: .72rem;
+    font-weight: 700;
+  }
+
+  /* ═══════════════════════════════════════════════════════════
+     NAV GRUPOS (4 tabs principais)
+     ═══════════════════════════════════════════════════════════ */
+  .nav-grupos {
+    display: flex;
+    gap: .4rem;
+    padding: .7rem 1.8rem;
+    background: var(--bg2);
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+  .tab-grupo {
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--muted);
+    padding: .55rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: .88rem;
+    cursor: pointer;
+    transition: all .15s;
+  }
+  .tab-grupo:hover { color: var(--text); background: rgba(255,255,255,.03); }
+  .tab-grupo.active {
+    color: var(--green);
+    border-color: var(--green);
+    background: rgba(16, 185, 129, 0.08);
+    box-shadow: 0 0 0 1px rgba(16,185,129,0.15);
+  }
+  .tab-grupo.has-active::after {
+    content: '•';
+    color: var(--green);
+    margin-left: .4rem;
+    font-weight: 900;
+  }
+
+  /* ═══════════════════════════════════════════════════════════
+     SUB-NAV contextual
+     ═══════════════════════════════════════════════════════════ */
+  #nav-subnav {
+    display: flex;
+    gap: .5rem;
+    padding: .7rem 1.8rem;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+    min-height: 52px;
+  }
+  #nav-subnav button {
+    background: var(--bg3);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    padding: .55rem 1.1rem;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: .82rem;
+    cursor: pointer;
+    transition: all .15s;
+  }
+  #nav-subnav button:hover { color: var(--text); border-color: var(--border2); }
+  #nav-subnav button.active {
+    background: linear-gradient(135deg, var(--green), var(--blue));
+    color: #0a1f1a;
+    border-color: var(--green);
+    box-shadow: 0 4px 14px rgba(16,185,129,0.25);
+  }
+
+  /* ═══════════════════════════════════════════════════════════
+     MAIN
+     ═══════════════════════════════════════════════════════════ */
+  main {
+    flex: 1;
+    padding: 1.8rem;
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .view { display: none; }
+  .view.active { display: block; }
+
+  .section-title {
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: var(--text);
+    margin-bottom: 1.2rem;
+    padding-bottom: .6rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .empty {
+    text-align: center;
+    padding: 3.5rem 2rem;
+    background: var(--bg3);
+    border: 1px dashed var(--border);
+    border-radius: 12px;
+    color: var(--muted);
+  }
+  .empty .eicon { font-size: 2.5rem; margin-bottom: .8rem; }
+  .empty strong { color: var(--text); font-size: 1rem; display: block; margin-bottom: .4rem; }
+  .empty p { font-size: .85rem; line-height: 1.5; }
+
+  /* SELO SNIPER — destaque dourado animado */
+  @keyframes sniperPulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(251,191,36,0.45), 0 0 24px rgba(251,191,36,0.18); }
+    50%      { box-shadow: 0 0 0 6px rgba(251,191,36,0.00), 0 0 32px rgba(251,191,36,0.45); }
+  }
+  @keyframes sniperBadgePulse {
+    0%, 100% { transform: scale(1);     opacity: 1; }
+    50%      { transform: scale(1.04);  opacity: 0.9; }
+  }
+  .sniper-card {
+    border-top: 3px solid var(--gold) !important;
+    border-color: rgba(251,191,36,0.5) !important;
+    background: linear-gradient(135deg, var(--card) 0%, rgba(251,191,36,0.06) 100%) !important;
+    animation: sniperPulse 2.4s ease-in-out infinite;
+    position: relative;
+  }
+  .sniper-card::after {
+    content: '';
+    position: absolute; inset: 0;
+    border-radius: 12px;
+    pointer-events: none;
+    background: linear-gradient(135deg, rgba(251,191,36,0.10) 0%, transparent 30%, transparent 70%, rgba(251,191,36,0.10) 100%);
+  }
+  .sniper-badge {
+    background: linear-gradient(135deg, var(--gold), #ffd75e) !important;
+    color: #0a1f1a !important;
+    font-weight: 900 !important;
+    border: 1px solid var(--gold) !important;
+    box-shadow: 0 4px 14px rgba(251,191,36,0.40);
+    animation: sniperBadgePulse 2s ease-in-out infinite;
+    letter-spacing: 1px !important;
+    padding: .3rem .8rem !important;
+  }
+
+  /* CARDS DASHBOARD */
+  .grid4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+  .stat-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.2rem;
+    position: relative;
+    overflow: hidden;
+    transition: transform .2s, border-color .2s;
+  }
+  .stat-card::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; height: 2px;
+    background: linear-gradient(90deg, var(--green), var(--blue));
+  }
+  .stat-card:hover { border-color: var(--border2); transform: translateY(-2px); }
+  .stat-label {
+    font-size: .68rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-weight: 700;
+    margin-bottom: .5rem;
+  }
+  .stat-value {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--green);
+    line-height: 1.1;
+  }
+  .stat-hint {
+    font-size: .72rem;
+    color: var(--muted);
+    margin-top: .4rem;
+  }
+
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: .72rem;
+    padding: 1.2rem;
+    border-top: 1px solid var(--border);
+    background: var(--bg2);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <div class="brand-logo">HP</div>
+    <div class="brand-text">
+      <div class="brand-title">EDS-HDP-Pro</div>
+      <div class="brand-sub">Handicap Asiático de Cantos</div>
+    </div>
+  </div>
+  <div class="header-controls">
+    <select id="liga-selector" class="liga-selector" onchange="trocarLiga(this.value)">
+      <option value="BR">🇧🇷 Brasileirão A</option>
+      <option value="BR_B">🇧🇷 Brasileirão B</option>
+      <option value="ARG">🇦🇷 Liga Profesional (ARG)</option>
+      <option value="ARG_B">🇦🇷 Primera B Nacional (ARG)</option>
+      <option value="MLS">🇺🇸 Major League Soccer</option>
+      <option value="USL">🇺🇸 USL Championship</option>
+    </select>
+    <div id="status-pill" class="status-pill">● Banco carregado</div>
+  </div>
+</header>
+
+<!-- Nav grupos (4 tabs principais) -->
+<nav class="nav-grupos">
+  <button class="tab-grupo active" data-grupo="visao"     onclick="setNavGrupo('visao')">📊 Visão Geral</button>
+  <button class="tab-grupo"        data-grupo="analise"   onclick="setNavGrupo('analise')">🎯 Análise Pré-Jogo</button>
+  <button class="tab-grupo"        data-grupo="operacao"  onclick="setNavGrupo('operacao')">📈 Operação</button>
+  <button class="tab-grupo"        data-grupo="auditoria" onclick="setNavGrupo('auditoria')">🔍 Auditoria</button>
+</nav>
+
+<!-- Sub-nav contextual -->
+<nav id="nav-subnav"></nav>
+
+<main>
+  <!-- ═══════════════ VISÃO GERAL ═══════════════ -->
+  <div id="view-dashboard" class="view active">
+    <div class="section-title">📊 Dashboard — <span id="dash-liga-nome" style="color:var(--blue2)">Brasileirão A</span></div>
+    <div id="cards-dashboard" class="grid4">
+      <div class="empty"><div class="eicon">⏳</div><strong>Carregando dados…</strong><p>O motor está somando 540 jogos.</p></div>
+    </div>
+    <div style="margin-top:2rem"><div class="section-title">⚡ Últimos Jogos Registrados</div>
+      <div id="ultimos-jogos" class="empty"><div class="eicon">📭</div><strong>Em construção · Fase 3</strong><p>Lista dos últimos jogos da liga selecionada.</p></div>
+    </div>
+  </div>
+
+  <div id="view-ranking" class="view">
+    <div class="section-title">🏆 Ranking de Times — <span id="rank-liga-nome" style="color:var(--blue2)">Brasileirão A</span></div>
+    <div class="empty"><div class="eicon">🏆</div><strong>Em construção · Fase 3</strong><p>4 rankings essenciais para HDP: ataca casa · ataca fora · concede casa · concede fora (HT + FT).</p></div>
+  </div>
+
+  <div id="view-time" class="view">
+    <div class="section-title">👕 Perfil por Time</div>
+    <div class="empty"><div class="eicon">👕</div><strong>Em construção · Fase 3</strong><p>Perfil HDP individual: em qual linha (-1/-1.5/-2/-2.5) cada time costuma bater.</p></div>
+  </div>
+
+  <!-- ═══════════════ ANÁLISE PRÉ-JOGO ═══════════════ -->
+  <div id="view-proximos" class="view">
+    <div class="section-title">🎯 Próximos Jogos da Rodada</div>
+    <div class="empty"><div class="eicon">🎯</div><strong>Em construção · Fase 3</strong><p>2 sub-abas: <strong>Vencedor + HDP</strong> (todos os jogos com pick) e <strong>Filtro Elite</strong> (cruzamento ranking + diff ≥ X).</p></div>
+  </div>
+
+  <!-- ═══════════════ OPERAÇÃO ═══════════════ -->
+  <div id="view-tracker" class="view">
+    <div class="section-title">📈 Bet Tracker</div>
+    <div class="empty"><div class="eicon">📈</div><strong>Em construção · Fase 4</strong><p>Registro de apostas reais com WR, ROI e EDGE por liga / linha HDP.</p></div>
+  </div>
+
+  <!-- ═══════════════ AUDITORIA ═══════════════ -->
+  <div id="view-backtest" class="view">
+    <div class="section-title">🔍 Backtest Cego</div>
+    <div class="empty"><div class="eicon">🔍</div><strong>Em construção · Fase 5</strong><p>Validação walk-forward dos thresholds X por liga.</p></div>
+  </div>
+
+</main>
+
+<footer>
+  EDS-HDP-Pro · 6 ligas · <strong style="color:var(--green)">1.088 jogos oficiais</strong> · 161 times · <strong style="color:var(--gold)">🎯 Selo Sniper</strong> · Tracker · Backtest
+</footer>
+
+<!-- Banco pré-compilado (gerado por data/_build_banco.js) -->
+<script src="data/_banco.js"></script>
+<!-- Motor (Poisson + projeção + filtro elite) -->
+<script src="js/motor.js"></script>
+<!-- App (render das telas + nav) -->
+<script src="js/app.js"></script>
+</body>
+</html>

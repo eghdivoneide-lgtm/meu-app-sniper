@@ -1,0 +1,171 @@
+{
+  "gerado_em": "2026-05-24T19:18:30.976Z",
+  "ligas": {
+    "BR": {
+      "X_atual": 2,
+      "picks_n": 0,
+      "agg": {
+        "n": 0,
+        "V": 0,
+        "D": 0,
+        "R": 0,
+        "wr": 0,
+        "wr_sem_push": 0,
+        "roi": 0
+      },
+      "picks": []
+    },
+    "BR_B": {
+      "X_atual": 2,
+      "picks_n": 1,
+      "agg": {
+        "n": 1,
+        "V": 0,
+        "D": 1,
+        "R": 0,
+        "wr": 0,
+        "wr_sem_push": 0,
+        "roi": -100
+      },
+      "picks": [
+        {
+          "data": "17.05.2026",
+          "m": "Criciuma",
+          "v": "Atletico GO",
+          "favorito": "Criciuma",
+          "linha": -2.5,
+          "prob_linha": 0.569,
+          "razao": 1.56,
+          "tier": "ELITE",
+          "cantos": "8-9",
+          "diff_real": -1,
+          "resultado": "D",
+          "margem": -3.5
+        }
+      ]
+    },
+    "ARG": {
+      "X_atual": 2.5,
+      "picks_n": 1,
+      "agg": {
+        "n": 1,
+        "V": 0,
+        "D": 1,
+        "R": 0,
+        "wr": 0,
+        "wr_sem_push": 0,
+        "roi": -100
+      },
+      "picks": [
+        {
+          "data": "13.05.2026",
+          "m": "River Plate",
+          "v": "Gimnasia L.P.",
+          "favorito": "River Plate",
+          "linha": -2.5,
+          "prob_linha": 0.577,
+          "razao": 1.26,
+          "tier": "ELITE",
+          "cantos": "7-5",
+          "diff_real": 2,
+          "resultado": "D",
+          "margem": -0.5
+        }
+      ]
+    },
+    "ARG_B": {
+      "X_atual": 1.8,
+      "picks_n": 2,
+      "agg": {
+        "n": 2,
+        "V": 2,
+        "D": 0,
+        "R": 0,
+        "wr": 100,
+        "wr_sem_push": 100,
+        "roi": 71.5
+      },
+      "picks": [
+        {
+          "data": "18.04.2026",
+          "m": "All Boys",
+          "v": "Acassuso",
+          "favorito": "All Boys",
+          "linha": -2.5,
+          "prob_linha": 0.581,
+          "razao": 1.75,
+          "tier": "ELITE_FORTE",
+          "cantos": "8-2",
+          "diff_real": 6,
+          "resultado": "V",
+          "margem": 3.5
+        },
+        {
+          "data": "25.04.2026",
+          "m": "San Miguel",
+          "v": "Los Andes",
+          "favorito": "San Miguel",
+          "linha": -2.5,
+          "prob_linha": 0.585,
+          "razao": 1.78,
+          "tier": "ELITE_FORTE",
+          "cantos": "11-4",
+          "diff_real": 7,
+          "resultado": "V",
+          "margem": 4.5
+        }
+      ]
+    },
+    "MLS": {
+      "X_atual": 2.3,
+      "picks_n": 1,
+      "agg": {
+        "n": 1,
+        "V": 1,
+        "D": 0,
+        "R": 0,
+        "wr": 100,
+        "wr_sem_push": 100,
+        "roi": 74.2
+      },
+      "picks": [
+        {
+          "data": "22.04.2026",
+          "m": "San Jose Earthquakes",
+          "v": "Austin FC",
+          "favorito": "San Jose Earthquakes",
+          "linha": -2.5,
+          "prob_linha": 0.574,
+          "razao": 1.37,
+          "tier": "ELITE",
+          "cantos": "13-1",
+          "diff_real": 12,
+          "resultado": "V",
+          "margem": 9.5
+        }
+      ]
+    },
+    "USL": {
+      "X_atual": 2.3,
+      "picks_n": 0,
+      "agg": {
+        "n": 0,
+        "V": 0,
+        "D": 0,
+        "R": 0,
+        "wr": 0,
+        "wr_sem_push": 0,
+        "roi": 0
+      },
+      "picks": []
+    }
+  },
+  "recomendado": {
+    "BR": 2,
+    "BR_B": 2,
+    "ARG": 2.5,
+    "ARG_B": 1.8,
+    "MLS": 2.3,
+    "USL": 2.3
+  }
+}
