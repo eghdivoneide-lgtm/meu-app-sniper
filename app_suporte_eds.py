@@ -2,6 +2,8 @@ import sys
 import time
 import logging
 import os
+import threading
+from http.server import HTTPServer, BaseHTTPRequestHandler
 import telebot
 from google import genai
 from google.genai import types
@@ -371,9 +373,28 @@ def responder_mensagem(mensagem):
 
 
 # ---------------------------------------------------------------------------
+# Health check HTTP — Railway exige que o processo abra uma porta HTTP
+# ---------------------------------------------------------------------------
+class _HealthHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.end_headers()
+        self.wfile.write(b"OK")
+
+    def log_message(self, *args):
+        pass  # silencia logs de acesso no console
+
+
+def _iniciar_health_server() -> None:
+    porta = int(os.getenv("PORT", 8080))
+    HTTPServer(("0.0.0.0", porta), _HealthHandler).serve_forever()
+
+
+# ---------------------------------------------------------------------------
 # Inicialização
 # ---------------------------------------------------------------------------
 def main() -> None:
+    threading.Thread(target=_iniciar_health_server, daemon=True, name="health").start()
     log.info("Agente de Suporte EDS Solucoes Inteligentes — iniciando polling...")
     try:
         bot.polling(skip_pending=True, none_stop=True, interval=1)
