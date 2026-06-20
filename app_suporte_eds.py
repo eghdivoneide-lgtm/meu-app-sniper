@@ -7,6 +7,11 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 import telebot
 from google import genai
 from google.genai import types
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
 
 def obter_env(*nomes: str, default: str | None = None) -> str | None:
