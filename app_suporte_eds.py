@@ -355,16 +355,17 @@ def responder_mensagem(mensagem):
         return
 
     # Suporte geral via Gemini com memória de sessão
-    if chat_id not in memoria_suporte:
-        memoria_suporte[chat_id] = cliente_gemini.chats.create(
-            model="gemini-2.5-flash",
-            config=types.GenerateContentConfig(system_instruction=PROMPT_MESTRE),
-        )
-
     try:
+        if chat_id not in memoria_suporte:
+            memoria_suporte[chat_id] = cliente_gemini.chats.create(
+                model="gemini-2.5-flash",
+                config=types.GenerateContentConfig(system_instruction=PROMPT_MESTRE),
+            )
         resposta = memoria_suporte[chat_id].send_message(texto)
-        bot.reply_to(mensagem, resposta.text)
+        texto_resposta = resposta.text or MSG_ERRO_TECNICO
+        bot.reply_to(mensagem, texto_resposta)
     except Exception as erro:
+        memoria_suporte.pop(chat_id, None)  # reseta sessão corrompida
         log.error("[ERRO-GEMINI] chat_id=%s | %s", chat_id, type(erro).__name__)
         bot.send_message(chat_id, MSG_ERRO_TECNICO)
 
