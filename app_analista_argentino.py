@@ -5,6 +5,7 @@ import json
 import math
 import os
 import re
+import sys
 import time
 import unicodedata
 import zipfile
@@ -35,8 +36,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(message)s",
     handlers=[
-        logging.FileHandler("analista_argentino_log.txt", encoding="utf-8"),
-        logging.StreamHandler(),
+        logging.StreamHandler(sys.stdout),
     ],
 )
 log = logging.getLogger(__name__)
@@ -1707,16 +1707,33 @@ def responder(mensagem):
     bot.send_chat_action(chat_id, "typing")
     log.info("[MSG] chat_id=%s", chat_id)
 
-    if not extrair_jogo_da_mensagem(texto):
-        bot.send_message(chat_id, MSG_FORMATO)
+    # Se a mensagem contem um jogo no formato esperado, faz analise estatistica local
+    if extrair_jogo_da_mensagem(texto):
+        _analisar_bloco_jogo(chat_id, texto)
         return
 
-    _analisar_bloco_jogo(chat_id, texto)
+    # Para mensagens gerais (perguntas, duvidas, contexto), usa Gemini com o prompt mestre
+    if chat_id not in memoria_analista:
+        memoria_analista[chat_id] = cliente_gemini.chats.create(
+            model="gemini-2.5-flash",
+            config=types.GenerateContentConfig(system_instruction=PROMPT_MESTRE),
+        )
+
+    try:
+        resposta = memoria_analista[chat_id].send_message(texto)
+        bot.send_message(chat_id, resposta.text)
+    except Exception as erro:
+        log.error("[ERRO-GEMINI] chat_id=%s | %s", chat_id, type(erro).__name__)
+        bot.send_message(chat_id, MSG_ERRO)
 
 
 def main() -> None:
-    print("SNIPER ELITE ARG online.")
-    bot.polling(skip_pending=True)
+    log.info("SNIPER ELITE ARG — iniciando polling...")
+    try:
+        bot.polling(skip_pending=True, none_stop=True)
+    except Exception as erro:
+        log.error("Polling encerrado com erro: %s", erro, exc_info=True)
+        raise
 
 
 if __name__ == "__main__":

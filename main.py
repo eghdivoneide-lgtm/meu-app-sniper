@@ -18,8 +18,8 @@ def iniciar_suporte() -> None:
 
 
 def iniciar_ambos() -> None:
-    t1 = threading.Thread(target=iniciar_analista, daemon=True, name="analista")
-    t2 = threading.Thread(target=iniciar_suporte, daemon=True, name="suporte")
+    t1 = threading.Thread(target=iniciar_analista, daemon=False, name="analista")
+    t2 = threading.Thread(target=iniciar_suporte, daemon=False, name="suporte")
 
     t1.start()
     t2.start()

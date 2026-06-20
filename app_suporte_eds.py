@@ -1,3 +1,4 @@
+import sys
 import time
 import logging
 import os
@@ -34,8 +35,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(message)s",
     handlers=[
-        logging.FileHandler("suporte_eds_log.txt", encoding="utf-8"),
-        logging.StreamHandler(),
+        logging.StreamHandler(sys.stdout),
     ],
 )
 log = logging.getLogger(__name__)
@@ -374,9 +374,12 @@ def responder_mensagem(mensagem):
 # Inicialização
 # ---------------------------------------------------------------------------
 def main() -> None:
-    print("Agente de Suporte EDS Solucoes Inteligentes — ONLINE!")
-    log.info("Bot iniciado.")
-    bot.polling(skip_pending=True, none_stop=True, interval=1)
+    log.info("Agente de Suporte EDS Solucoes Inteligentes — iniciando polling...")
+    try:
+        bot.polling(skip_pending=True, none_stop=True, interval=1)
+    except Exception as erro:
+        log.error("Polling encerrado com erro: %s", erro, exc_info=True)
+        raise
 
 
 if __name__ == "__main__":
